@@ -1,0 +1,2017 @@
+$# Creating journal file C:\Users\diego\Dropbox\Academic\MEng Space 
+$# Systems\2. EUE\FEA\5.Sat Design\Satellite.db.jou at 06-Apr-21 12:08:48
+uil_file_rebuild.start("C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/" // @
+"template.db","C:\Users\diego\Dropbox\Academic\MEng Space Systems\2. EUE\F" // @
+"EA\5.Sat Design\Satellite.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\diego\Dropbox\Academic\MEng Space Systems\2. EU" // @
+"E\FEA\5.Sat Design" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+db_set_pref( 303, 3, 0, FALSE, 4.9999999E-06, "" )
+uil_primary_file.db_save(  )
+sys_poll_option( 2 )
+ga_group_create( "Bandeja_A" )
+ga_group_current_set( "Bandeja_A" )
+$# Group "Bandeja_A" created.
+sys_poll_option( 0 )
+point_size( 9 )
+node_size( 9 )
+$# UNDO: Create Point XYZ command
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1", "[-0.223 -0.223  0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+STRING sgm_transform_point_created_ids[VIRTUAL]
+asm_transform_grid_translate_1( "2", "<0.079 0 0>", 0.079000004, FALSE,  @
+"Coord 0", 1, FALSE, FALSE, "Point 1", sgm_transform_point_created_ids )
+$# 1 Point created: Grid 2
+asm_transform_grid_translate_1( "3", "<0.072 0 0>", 0.071999997, FALSE,  @
+"Coord 0", 1, FALSE, FALSE, "Point 2", sgm_transform_point_created_ids )
+$# 1 Point created: Grid 3
+asm_transform_grid_translate_1( "4", "<0 0.079 0>", 0.079000004, FALSE,  @
+"Coord 0", 1, FALSE, FALSE, "Point 1:3", sgm_transform_point_created_ids )
+$# 3 Points created: Grid 4:6
+uil_primary_file.db_save(  )
+ga_view_center_set( -0.006203, 0.001975 )
+ga_view_zoom_set( 0.053325 )
+ga_view_center_set( -0.013181, 0.004197 )
+ga_view_zoom_set( 0.059991 )
+ga_view_center_set( -0.021032, 0.006696 )
+ga_view_zoom_set( 0.067489 )
+ga_view_center_set( -0.029946, 0.009672 )
+ga_view_zoom_set( 0.075926 )
+ga_view_center_set( -0.039974, 0.013020 )
+ga_view_zoom_set( 0.085416 )
+ga_view_center_set( -0.051256, 0.016787 )
+ga_view_zoom_set( 0.096093 )
+ga_view_center_set( -0.063948, 0.021024 )
+ga_view_zoom_set( 0.108105 )
+ga_view_center_set( -0.092505, 0.030557 )
+ga_view_zoom_set( 0.135131 )
+ga_view_center_set( -0.076640, 0.025261 )
+ga_view_zoom_set( 0.120117 )
+ga_view_center_set( -0.062538, 0.020553 )
+ga_view_zoom_set( 0.106770 )
+ga_view_center_set( -0.039974, 0.013020 )
+ga_view_zoom_set( 0.085416 )
+ga_view_center_set( -0.029670, 0.009488 )
+ga_view_zoom_set( 0.075926 )
+ga_view_center_set( -0.020510, 0.006348 )
+ga_view_zoom_set( 0.067489 )
+ga_view_center_set( -0.005855, 0.001325 )
+ga_view_zoom_set( 0.053992 )
+asm_transform_grid_translate_1( "7", "<0 0.072 0>", 0.071999997, FALSE,  @
+"Coord 0", 1, FALSE, FALSE, "Point 4:6", sgm_transform_point_created_ids )
+$# 3 Points created: Grid 7:9
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "1", "Point 1", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 1
+asm_const_line_2point( "2", "Point 2", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 2
+asm_const_line_2point( "3", "Point 4", "Point 5", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 3
+asm_const_line_2point( "4", "Point 5", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 4
+asm_const_line_2point( "5", "Point 7", "Point 8", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 5
+asm_const_line_2point( "6", "Point 8", "Point 9", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 6
+asm_const_line_2point( "7", "Point 1", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 7
+asm_const_line_2point( "8", "Point 4", "Point 7", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 8
+asm_const_line_2point( "9", "Point 2", "Point 5", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 9
+asm_const_line_2point( "10", "Point 5", "Point 8", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 10
+asm_const_line_2point( "11", "Point 3", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 11
+asm_const_line_2point( "12", "Point 6", "Point 9", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 12
+uil_primary_file.db_save(  )
+STRING sgm_surface_4edge_created_ids[VIRTUAL]
+sgm_const_surface_4edge( "1", "Curve 1", "Curve 9", "Curve 3", "Curve 7",  @
+sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 1
+uil_toolbar.shaded_smooth(  )
+uil_primary_file.db_save(  )
+sgm_const_surface_4edge( "2", "Curve 2", "Curve 11", "Curve 4", "Curve 9",  @
+sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 2
+sgm_const_surface_4edge( "3", "Curve 4", "Curve 12", "Curve 6", "Curve 10",  @
+sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 3
+$# UNDO: Create Surface 4Edge for Curve 3Curve 10Curve 5Curve 8
+$# UNDO:
+ga_view_aa_set( -3.954738, -0.805891, 6.171277 )
+ga_view_aa_set( -60.646244, -33.096786, -17.399717 )
+ga_view_aa_set( -77.235901, -13.162465, 1.548834 )
+ga_view_aa_set( -87.459358, -9.242654, -6.541239 )
+STRING sgm_edit_surface_r_reversed_ids[VIRTUAL]
+sgm_edit_surface_reverse( TRUE, "Surface 1:4", sgm_edit_surface_r_reversed_ids )
+$# 4 Surfaces Reversed: Surfaces 1:4
+ga_view_center_set( -0.005264, 0.001551 )
+ga_view_zoom_set( 0.057524 )
+ga_view_center_set( 0.000290, -0.000166 )
+ga_view_zoom_set( 0.051132 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -70.377159, -7.341221, -0.854628 )
+ga_view_center_set( -0.000647, -0.002095 )
+ga_view_zoom_set( 0.045520 )
+db_set_pref( 402, 4, 0, TRUE, -999999., "SHADED" )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -36.242664, -11.513732, -6.398554 )
+ga_view_center_set( -0.003289, -0.000198 )
+ga_view_zoom_set( 0.051210 )
+ga_view_center_set( -0.006262, 0.001935 )
+ga_view_zoom_set( 0.057612 )
+ga_view_center_set( -0.009676, 0.004359 )
+ga_view_zoom_set( 0.064813 )
+ga_view_center_set( -0.013333, 0.007689 )
+ga_view_zoom_set( 0.072915 )
+ga_view_center_set( -0.017448, 0.011435 )
+ga_view_zoom_set( 0.082029 )
+ga_view_center_set( -0.022077, 0.015649 )
+ga_view_zoom_set( 0.092283 )
+ga_view_aa_set( -14.679080, 5.827468, 1.141466 )
+ga_view_center_set( -0.026762, 0.022966 )
+ga_view_zoom_set( 0.103818 )
+ga_view_center_set( -0.031949, 0.031156 )
+ga_view_zoom_set( 0.116795 )
+ga_view_center_set( -0.036178, 0.039755 )
+ga_view_zoom_set( 0.131395 )
+ga_view_center_set( -0.040935, 0.049216 )
+ga_view_zoom_set( 0.147819 )
+ga_view_center_set( -0.006936, 0.006348 )
+ga_view_center_set( -0.025922, 0.007604 )
+ga_view_zoom_set( 0.166296 )
+ga_view_center_set( -0.047146, 0.009286 )
+ga_view_zoom_set( 0.187083 )
+ga_view_center_set( -0.026729, 0.006931 )
+ga_view_zoom_set( 0.166296 )
+ga_view_center_set( -0.008701, 0.004599 )
+ga_view_zoom_set( 0.147819 )
+ga_view_center_set( 0.007325, 0.002526 )
+ga_view_zoom_set( 0.131395 )
+ga_view_center_set( 0.021570, 0.000637 )
+ga_view_zoom_set( 0.116795 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( 0.024145, 0.001865 )
+ga_view_zoom_set( 0.131395 )
+ga_view_center_set( 0.021145, 0.000259 )
+ga_view_zoom_set( 0.116795 )
+ga_view_center_set( 0.018478, -0.001169 )
+ga_view_zoom_set( 0.103818 )
+ga_view_center_set( 0.016070, -0.002476 )
+ga_view_zoom_set( 0.092283 )
+ga_view_center_set( 0.013897, -0.003803 )
+ga_view_zoom_set( 0.082029 )
+sgm_incongruent_geom_seg_exit(  )
+ga_view_center_set( 0.023901, -0.009046 )
+ga_view_zoom_set( 0.092283 )
+ga_view_center_set( 0.033253, -0.013937 )
+ga_view_zoom_set( 0.103818 )
+STRING sgm_edit_point_equiva_point_ids[VIRTUAL]
+sgm_edit_point_equivalence( "Point 1:9 Curve 1.2 1.1 2.2 2.1 3.2 3.1 4.1 4" // @
+".2 5.2 5.1 6.2 6.1 7.2 7.1 8.2 8.1 9.1 9.2 10.2 10.1 11.2 11.1 12.2 12.1",  @
+sgm_edit_point_equiva_point_ids )
+$# No Points Edited.
+$# No Points Deleted.
+uil_primary_file.db_save(  )
+STRING sgm_transform_surf__created_ids[VIRTUAL]
+sgm_transform_translate_v1( "5", "surface", "<0.072 0 0>", 0.071999997, FALSE, @
+ "Coord 0", 3, FALSE, "Surface 2 3", sgm_transform_surf__created_ids )
+$# 6 Surfaces Created: Surfaces 5:10
+ga_view_center_set( -0.001097, 0.002963 )
+ga_view_zoom_set( 0.107021 )
+ga_view_center_set( -0.002331, 0.006297 )
+ga_view_zoom_set( 0.120399 )
+ga_viewport_location_set( "default_viewport", 1.622047, 2.014887, 1 )
+ga_viewport_location_set( "default_viewport", 0.000000, 0.000000, 1 )
+ga_view_center_set( -0.022274, 0.010221 )
+ga_view_zoom_set( 0.135449 )
+sgm_transform_translate_v1( "11", "surface", "<0 0.072 0>", 0.071999997,  @
+FALSE, "Coord 0", 3, FALSE, "Surface 3 4:10:2",  @
+sgm_transform_surf__created_ids )
+$# 15 Surfaces Created: Surfaces 11:25
+sgm_transform_translate_v1( "26", "surface",  @
+"Construct 2PointVector(Evaluate Geometry(Point 1))(Evaluate Geometry(Poin" // @
+"t 33))", 0.36700001, FALSE, "Coord 0", 1, FALSE, "Surface 1 2 5:9:2",  @
+sgm_transform_surf__created_ids )
+$# 5 Surfaces Created: Surfaces 26:30
+$# UNDO: Transform Surface Translate for Surface 1 4
+$# UNDO: Transform Surface Translate for Surface 1 4 12:22:5 26
+sgm_transform_translate_v1( "31", "surface",  @
+"Construct 2PointVector(Evaluate Geometry(Point 1))(Evaluate Geometry(Poin" // @
+"t 17))", 0.36700001, FALSE, "Coord 0", 1, FALSE, "Surface 1 4 12:22:5 26",  @
+sgm_transform_surf__created_ids )
+$# 6 Surfaces Created: Surfaces 31:36
+ga_view_center_set( -0.029657, -0.005117 )
+ga_view_zoom_set( 0.306383 )
+ga_view_center_set( -0.000209, -0.000522 )
+ga_view_zoom_set( 0.272340 )
+uil_primary_file.db_save(  )
+$# Appending to existing journal file C:\Users\diego\Dropbox\Academic\MEng 
+$# Space Systems\2. EUE\FEA\5.Sat Design\Satellite.db.jou at 06-Apr-21 13:42:58
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\Users\diego\Dropbox\Academic\MEng Space Systems\2. EU" // @
+"E\FEA\5.Sat Design" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_create( "Curve 49:60", 2, 0, 0., 0.039999999, 0. )
+ga_view_aa_set( -85.387749, 43.937168, -96.418533 )
+ga_view_aa_set( -9.417836, -21.864660, -119.017151 )
+ga_view_aa_set( -118.911758, -2.419366, 140.965652 )
+ga_view_aa_set( -84.264481, 7.835110, -127.403511 )
+ga_view_aa_set( -111.555473, 35.617207, 7.203227 )
+ga_view_aa_set( -55.089977, 17.117918, -48.912445 )
+ga_view_aa_set( -149.090256, -4.723956, 28.799366 )
+ga_view_aa_set( -64.074944, 4.572421, -20.079649 )
+ga_view_aa_set( -70.693382, 2.853383, -10.090848 )
+ga_view_aa_set( -23.601065, -0.029309, -20.535929 )
+mesh_seed_display_mgr.erase(  )
+beam_section_create( "Section_L", "L", ["0.03", "0.03", "0.0052", "0.0052"] )
+$# Beam Section "Section_L" created.
+beam_section_create( "Section_L", "L", ["0.029999999", "0.029999999", "0.0052" @
+, "0.0052"] )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Beam Section "Section_L" already exists. Do you wish to overwrite?
+$? YES 29002040 
+$# Beam Section "Section_L" created.
+$# UNDO: Beam Section Create
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+elementprops_create( "1D_Al7075_Lbar_xn_yn", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["Section_L", "m:Al7075",  @
+"<1 0 0>", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", @
+ "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "" )
+$# Property Set "1D_Al7075_Lbar_xn_yn" created.
+elementprops_create( "1D_Al7075_Lbar_xn_yp", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["Section_L", "m:Al7075",  @
+"<0 -1 0>", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" @
+, "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "" )
+$# Property Set "1D_Al7075_Lbar_xn_yp" created.
+elementprops_create( "1D_Al7075_Lbar_xp_yn", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [12, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["Section_L", "m:Al7075",  @
+"<0 1 0>", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", @
+ "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "" )
+$# Property Set "1D_Al7075_Lbar_xp_yn" created.
+elementprops_create( "1D_Al7075_Lbar_xp_yp", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [12, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["Section_L", "m:Al7075",  @
+"<-1 0 0>", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" @
+, "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "" )
+$# Property Set "1D_Al7075_Lbar_xp_yp" created.
+mesh_seed_display_mgr.erase(  )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -44.510189, 0.765710, -21.590765 )
+ga_view_center_set( -0.029187, -0.025500 )
+ga_view_zoom_set( 0.484889 )
+ga_view_center_set( -0.050827, 0.001249 )
+ga_view_zoom_set( 0.545500 )
+gm_visibility_widget( " Point 1:200 Curve 1:60 Surface 1:144", FALSE )
+gm_visibility_widget( " Node 1000:1624 2000:3877 Element 1000:1911 2000:47" // @
+"38 MPC 2001:2003", FALSE )
+gm_visibility_widget( " Point 1:200 Curve 1:60 Surface 1:144", TRUE )
+node_size( 9 )
+mesh_seed_create( "Curve 49:60", 2, 0, 0., 0.039999999, 0. )
+ga_view_aa_set( -61.494419, 2.135336, -16.445204 )
+$# UNDO: FEM Create Mesh Seed for Curve 49:60
+mesh_seed_display_mgr.refresh(  )
+mesh_seed_display_mgr.erase(  )
+REAL fem_equiv_all_x_equivtol_ab
+INTEGER fem_equiv_all_x_segment
+fem_equiv_all_group4( [" "], 0, "", 1, 1, 4.9999999E-06, FALSE,  @
+fem_equiv_all_x_equivtol_ab, fem_equiv_all_x_segment )
+$# Geometric equivalencing completed. 0 nodes deleted.
+mesh_seed_display_mgr.plot(  )
+ga_view_aa_set( -18.845194, 1.037436, -14.275901 )
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 52:54", 16384, 0.02, "Bar2", "10000", "10000",  @
+"Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# 6 nodes and 5 elements created for Curve 52.
+$# 6 nodes and 5 elements created for Curve 53.
+$# 6 nodes and 5 elements created for Curve 54.
+$# === 18 nodes created.  IDs  = 10000:10017.
+$# === 15 elements created.  IDs  = 10000:10014.
+fem_associate_elems_to_ep( "1D_Al7075_Lbar_xn_yn",  @
+fem_create_mesh_c_elems_created, fem_create_mesh_curve_num_elems )
+$# 15 Element(s) associated to the Element Property 1D_Al7075_Lbar_xn_yn.
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+result_label_format_set( 1, 4 )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+ga_view_aa_set( -8.442445, 44.289669, -5.722428 )
+ga_view_aa_set( -27.153294, -2.056720, -17.849403 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 0 )
+ga_display_beam_set( "general", 0 )
+sys_poll_option( 0 )
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 55:57", 16384, 0.02, "Bar2", "#", "#",  @
+"Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# 6 nodes and 5 elements created for Curve 55.
+$# 6 nodes and 5 elements created for Curve 56.
+$# 6 nodes and 5 elements created for Curve 57.
+$# === 18 nodes created.  IDs  = 10018:10035.
+$# === 15 elements created.  IDs  = 10015:10029.
+fem_associate_elems_to_ep( "1D_Al7075_Lbar_xn_yp",  @
+fem_create_mesh_c_elems_created, fem_create_mesh_curve_num_elems )
+$# 15 Element(s) associated to the Element Property 1D_Al7075_Lbar_xn_yp.
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 49:51", 16384, 0.02, "Bar2", "#", "#",  @
+"Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# 6 nodes and 5 elements created for Curve 49.
+$# 6 nodes and 5 elements created for Curve 50.
+$# 6 nodes and 5 elements created for Curve 51.
+$# === 18 nodes created.  IDs  = 10036:10053.
+$# === 15 elements created.  IDs  = 10030:10044.
+fem_associate_elems_to_ep( "1D_Al7075_Lbar_xp_yn",  @
+fem_create_mesh_c_elems_created, fem_create_mesh_curve_num_elems )
+$# 15 Element(s) associated to the Element Property 1D_Al7075_Lbar_xp_yn.
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 58:60", 16384, 0.02, "Bar2", "#", "#",  @
+"Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# 6 nodes and 5 elements created for Curve 58.
+$# 6 nodes and 5 elements created for Curve 59.
+$# 6 nodes and 5 elements created for Curve 60.
+$# === 18 nodes created.  IDs  = 10054:10071.
+$# === 15 elements created.  IDs  = 10045:10059.
+fem_associate_elems_to_ep( "1D_Al7075_Lbar_xp_yp",  @
+fem_create_mesh_c_elems_created, fem_create_mesh_curve_num_elems )
+$# 15 Element(s) associated to the Element Property 1D_Al7075_Lbar_xp_yp.
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+ga_view_aa_set( -1.240113, 0.506579, -15.222304 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( 0., 0., 0. )
+uil_primary_file.db_save(  )
+uil_viewport_post_groups.posted_groups( "default_viewport", 5, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C", "Bandeja_D", "Eles"] )
+ga_view_aa_set( -82.249741, -2.439210, 22.560608 )
+ga_view_center_set( 0.007273, -0.008041 )
+ga_view_zoom_set( 0.247881 )
+ga_view_center_set( 0.013737, -0.015188 )
+ga_view_zoom_set( 0.220339 )
+ga_view_center_set( 0.007455, -0.008041 )
+ga_view_zoom_set( 0.247881 )
+ga_view_center_set( 0.000387, 0.000000 )
+ga_view_zoom_set( 0.278866 )
+ga_view_center_set( -0.007564, 0.009046 )
+ga_view_zoom_set( 0.313724 )
+ga_view_center_set( -0.016509, 0.019223 )
+ga_view_zoom_set( 0.352940 )
+ga_view_center_set( -0.026572, 0.031838 )
+ga_view_zoom_set( 0.397057 )
+ga_view_center_set( -0.060536, 0.074415 )
+ga_view_zoom_set( 0.545954 )
+ga_view_aa_set( -65.397011, 0.627496, 13.473885 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Eles"] )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+REAL fem_equiv_group_x_equivtol
+INTEGER fem_equiv_group_x_segment
+fem_equiv_all_group4( ["Bandeja_A", "Bandeja_B", "Bandeja_C", "Bandeja_D",  @
+"Eles"], 5, "", 1, 1, 4.9999999E-06, FALSE, fem_equiv_group_x_equivtol,  @
+fem_equiv_group_x_segment )
+$# Realigning database with new node numbers...
+$# Database realignment completed.
+$# Geometric equivalencing completed. 24 nodes deleted.
+ga_view_aa_set( -64.596382, -13.023807, -15.711812 )
+ga_view_aa_set( -43.749641, -3.891113, -3.720174 )
+ga_view_center_set( -0.076328, 0.107465 )
+ga_view_zoom_set( 0.614198 )
+$# UNDO: Renumber for entities Node 1228 1244:1282:19 2229 2245:2283:19 2855...
+uil_primary_file.db_save(  )
+ga_view_aa_set( -77.667267, -0.141470, -41.948254 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 5, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C", "Bandeja_D", "Eles"] )
+ga_view_aa_set( -75.691704, 4.942024, -28.966433 )
+gm_visibility_widget( " Point 1:200 Curve 1:60 Surface 1:144", FALSE )
+ga_view_center_set( -0.058379, 0.059440 )
+ga_view_aa_set( -79.863327, -0.300476, -47.273529 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Eles"] )
+gm_visibility_widget( " Node 1000:1624 2000:3877 10001:10004 10007:10010 1" // @
+"0013:10016 10019:10022 10025:10028 10031:10034 10037:10040 10043:10046 10" // @
+"049:10052 10055:10058 10061:10064 10067:10070 Element 1000:1911 2000:4738" // @
+" 10000:10059 MPC 2001:2003", TRUE )
+gm_visibility_widget( " Point 1:200 Curve 1:60 Surface 1:144", TRUE )
+ga_view_aa_set( -59.881763, -0.788682, -49.213123 )
+gm_visibility_widget( " Node 1000:1624 2000:3877 10001:10004 10007:10010 1" // @
+"0013:10016 10019:10022 10025:10028 10031:10034 10037:10040 10043:10046 10" // @
+"049:10052 10055:10058 10061:10064 10067:10070 Element 1000:1911 2000:4738" // @
+" 10000:10059 MPC 2001:2003", FALSE )
+ga_view_center_set( 0.024401, -0.021135 )
+ga_view_zoom_set( 0.563719 )
+ga_view_center_set( 0.043854, -0.038427 )
+ga_view_zoom_set( 0.634183 )
+ga_view_center_set( 0.024401, -0.021135 )
+ga_view_zoom_set( 0.563719 )
+ga_view_center_set( -0.006725, 0.006533 )
+ga_view_zoom_set( 0.450975 )
+ga_view_center_set( -0.020558, 0.018829 )
+ga_view_zoom_set( 0.400867 )
+gm_visibility_widget( " Point 1:200 Curve 1:60 Surface 1:144", FALSE )
+gm_visibility_widget( " Point 1:200 Curve 1:60 Surface 1:144", TRUE )
+ga_view_aa_set( -47.623657, 2.561055, -84.208504 )
+ga_view_aa_set( -100.605949, 0.273790, -80.248466 )
+ga_view_aa_set( -46.967335, -21.818562, 3.079269 )
+ga_view_aa_set( -46.558804, -51.538284, -29.219614 )
+ga_view_aa_set( -61.235069, 2.025410, 50.924530 )
+ga_view_aa_set( -34.835041, 16.088474, -25.372768 )
+ga_view_aa_set( -35.284866, -6.036514, -42.704647 )
+ga_view_aa_set( -88.716080, -3.326917, 7.960825 )
+ga_view_aa_set( -49.051502, 2.034485, 10.608465 )
+ga_view_aa_set( -72.014755, -28.299118, -25.281939 )
+ga_view_aa_set( -82.229126, -23.421278, -0.362338 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.029717, -0.033474 )
+ga_view_zoom_set( 0.445407 )
+ga_view_center_set( -0.056131, -0.063228 )
+ga_view_zoom_set( 0.395918 )
+ga_view_center_set( -0.028047, -0.036206 )
+ga_view_zoom_set( 0.445407 )
+ga_view_center_set( 0.003549, -0.006319 )
+ga_view_zoom_set( 0.501083 )
+ga_view_center_set( 0.039285, 0.026920 )
+ga_view_zoom_set( 0.563719 )
+ga_view_center_set( 0.079489, 0.064314 )
+ga_view_zoom_set( 0.634183 )
+ga_view_aa_set( -33.622303, -16.578671, 15.359098 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( -73.063255, 0.631759, -12.150871 )
+sys_poll_option( 2 )
+ga_group_create( "Panel_xn" )
+ga_group_entity_add( "Panel_xn", "Curve 52:57" )
+ga_group_current_set( "Panel_xn" )
+$# Group "Panel_xn" created.
+sys_poll_option( 0 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Panel_xn"] )
+uil_primary_file.db_save(  )
+$# Reclaimed 1.11 MB of 3.59 MB.
+ga_view_aa_set( 0., 180., 0. )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( 23., -34., 0. )
+ga_view_aa_set( 180., -90., 180. )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( 180., 90., 180. )
+ga_view_aa_set( 157., 34, -180. )
+ga_view_aa_set( -67., 0., -34. )
+ga_view_aa_set( 23., 56., 0. )
+ga_view_aa_set( 23., -34., 0. )
+ga_view_aa_set( 180., -90., 180. )
+ga_view_aa_set( 180., 90., 180. )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( -102.626671, 10.508469, 44.852406 )
+ga_view_aa_set( -79.731537, 3.124348, 109.872238 )
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "61", "Curve 57.2", "Curve 54.2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 61
+asm_const_line_2point( "62", "Curve 57.1", "Curve 54.1", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 62
+$# UNDO: Create Curve 2Point for Curve 56.1[ -0.223000 -0.223000 0.244000 ]
+asm_const_line_2point( "63", "Curve 56.1", "Curve 53.1", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 63
+asm_const_line_2point( "64", "Curve 55.1", "Curve 52.1", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 64
+uil_primary_file.db_save(  )
+uil_primary_file.db_save(  )
+STRING sgm_surface_4edge_created_ids[VIRTUAL]
+sgm_const_surface_4edge( "145", "Curve 64", "Curve 52", "Curve 63", "Curve 55" @
+, sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 145
+sgm_const_surface_4edge( "146", "Curve 63", "Curve 53", "Curve 62", "Curve 56" @
+, sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 146
+ga_view_center_set( 0.018293, -0.003588 )
+ga_view_zoom_set( 0.407765 )
+sgm_const_surface_4edge( "147", "Curve 62", "Curve 54", "Curve 61", "Curve 57" @
+, sgm_surface_4edge_created_ids )
+$# 1 Surface Created: Surface 147
+sgm_verify_surface_boundary( "Surface 145:147", 4.9999999E-06, 1 )
+$# Warning reported from application SGM
+$#     Free edges and/or non-manifold edges exist. Free edges may be due to 
+$# edges not matching directly or a missing face.  Non-manifold edges are due 
+$# to more than two surfaces connecting at the same edges. Edges are 
+$# highlighted and marked with primary markers for free edges and secondary 
+$# markers for non-manifold edges.
+sgm_incongruent_geom_display(  )
+sgm_incongruent_geom_seg_exit(  )
+sgm_verify_surface_duplicates( FALSE, FALSE )
+$# No Duplicate Surfaces.
+gm_hilight_clear(  )
+ga_view_aa_set( 12.111411, 14.733179, 88.019035 )
+STRING sgm_edit_surface_r_reversed_ids[VIRTUAL]
+sgm_edit_surface_reverse( TRUE, "Surface 145:147",  @
+sgm_edit_surface_r_reversed_ids )
+$# 3 Surfaces Reversed: Surfaces 145:147
+ga_view_aa_set( 25.078363, 16.037691, 88.235542 )
+ga_view_aa_set( -4.375912, 16.714069, 90.638802 )
+db_set_pref( 402, 4, 0, TRUE, -999999., "SHADED" )
+ga_view_aa_set( 38.606140, 68.522919, 63.234436 )
+elementprops_create( "2D_Al7075_Panel_1p5mm", 51, 25, 35, 1, 1, 20, [13, 20,  @
+36, 4037, 4111, 4118, 4119, 8111, 4401, 4402, 4403, 4404, 4405, 4406, 4407,  @
+4408, 4409], [5, 9, 1, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 1, 1, 4, 4], ["m:Al7075", @
+ "", "0.0015", "", "", "", "", "", "", "", "", "", "", "", "", "", ""], "" )
+$# Property Set "2D_Al7075_Panel_1p5mm" created.
+uil_primary_file.db_save(  )
+mesh_seed_display_mgr.plot(  )
+mesh_seed_display_mgr.plot(  )
+uil_viewport_post_groups.posted_groups( "default_viewport", 5, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C", "Bandeja_D", "Eles"] )
+ga_group_current_set("Bandeja_A")
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+sys_poll_option( 0 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+sys_poll_option( 0 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 0 )
+ga_display_beam_set( "general", 0 )
+sys_poll_option( 0 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+sys_poll_option( 0 )
+ga_view_center_set( -0.019670069, -0.10750899 )
+ga_view_center_set( -0.019670069, -0.22415544 )
+ga_view_center_set( -0.019670069, -0.34080189 )
+ga_view_center_set( 0.096976377, -0.34080189 )
+ga_view_center_set( 0.21362282, -0.34080189 )
+ga_view_center_set( 0.096976377, -0.34080189 )
+ga_view_center_set( -0.019670069, -0.34080189 )
+ga_view_center_set( -0.13631651, -0.34080189 )
+ga_view_center_set( -0.13631651, -0.45744833 )
+ga_view_center_set( -0.13631651, -0.57409477 )
+ga_view_center_set( -0.13631651, -0.45744833 )
+ga_view_center_set( -0.13631651, -0.34080189 )
+ga_view_center_set( -0.13631651, -0.22415546 )
+ga_view_center_set( -0.13631651, -0.10750901 )
+ga_view_center_set( -0.13631651, 0.0091374367 )
+ga_view_center_set( -0.13631651, 0.12578389 )
+ga_view_center_set( -0.13631651, 0.0091374442 )
+ga_view_center_set( -0.019670062, 0.0091374442 )
+ga_view_center_set( -0.13631651, 0.0091374442 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+sys_poll_option( 0 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+sys_poll_option( 0 )
+ga_view_center_set( 0.018273, -0.034093 )
+ga_view_zoom_set( 0.304958 )
+ga_view_center_set( 0.211798, -0.088211 )
+ga_view_zoom_set( 0.199972 )
+ga_view_center_set( 0.338699, -0.123698 )
+ga_view_zoom_set( 0.131129 )
+ga_view_center_set( 0.302441, -0.113559 )
+ga_view_zoom_set( 0.150799 )
+ga_view_center_set( 0.253795, -0.099955 )
+ga_view_zoom_set( 0.177189 )
+ga_view_center_set( 0.188471, -0.081688 )
+ga_view_zoom_set( 0.212626 )
+ga_view_center_set( 0.139477, -0.067987 )
+ga_view_zoom_set( 0.239205 )
+ga_view_center_set( 0.084360, -0.052574 )
+ga_view_zoom_set( 0.269105 )
+ga_view_center_set( 0.022353, -0.035234 )
+ga_view_zoom_set( 0.302744 )
+ga_view_center_set( -0.047405, -0.015727 )
+ga_view_zoom_set( 0.340586 )
+ga_view_center_set( -0.099052, -0.031158 )
+ga_view_zoom_set( 0.383160 )
+ga_view_center_set( -0.157154, -0.048519 )
+ga_view_zoom_set( 0.431055 )
+ga_view_center_set( -0.091397, -0.076098 )
+ga_view_zoom_set( 0.484937 )
+ga_view_center_set( -0.017420, -0.107124 )
+ga_view_zoom_set( 0.545554 )
+ga_view_center_set( 0.065805, -0.142029 )
+ga_view_zoom_set( 0.613748 )
+ga_view_center_set( -0.017419, -0.107125 )
+ga_view_zoom_set( 0.545554 )
+ga_view_center_set( -0.091396, -0.076098 )
+ga_view_zoom_set( 0.484937 )
+ga_view_center_set( -0.190032, -0.034730 )
+ga_view_zoom_set( 0.404114 )
+ga_view_center_set( -0.254360, -0.007751 )
+ga_view_zoom_set( 0.351403 )
+ga_view_center_set( -0.333129, 0.025285 )
+ga_view_zoom_set( 0.286860 )
+ga_view_center_set( -0.289368, 0.006932 )
+ga_view_zoom_set( 0.322717 )
+ga_view_center_set( -0.240138, -0.013716 )
+ga_view_zoom_set( 0.363057 )
+ga_view_center_set( -0.184753, -0.036944 )
+ga_view_zoom_set( 0.408439 )
+ga_view_center_set( -0.230880, -0.067912 )
+ga_view_zoom_set( 0.459494 )
+ga_view_center_set( -0.184754, -0.036944 )
+ga_view_zoom_set( 0.408439 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+sys_poll_option( 0 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 0 )
+ga_display_beam_set( "general", 1 )
+sys_poll_option( 0 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 2 )
+sys_poll_option( 0 )
+mesh_seed_display_mgr.erase(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+ga_view_center_set( -0.175119, -0.063113 )
+ga_view_zoom_set( 0.479916 )
+ga_view_center_set( -0.165416, -0.089469 )
+ga_view_zoom_set( 0.551903 )
+ga_view_center_set( -0.156117, -0.114727 )
+ga_view_zoom_set( 0.620891 )
+ga_view_center_set( -0.145656, -0.143142 )
+ga_view_zoom_set( 0.698503 )
+ga_view_center_set( -0.157937, -0.109785 )
+ga_view_zoom_set( 0.607394 )
+ga_view_center_set( -0.167033, -0.085077 )
+ga_view_zoom_set( 0.539905 )
+ga_view_center_set( -0.175120, -0.063113 )
+ga_view_zoom_set( 0.479916 )
+ga_view_center_set( -0.182307, -0.043590 )
+ga_view_zoom_set( 0.426592 )
+ga_view_center_set( -0.188696, -0.026237 )
+ga_view_zoom_set( 0.379193 )
+ga_view_center_set( -0.194375, -0.010811 )
+ga_view_zoom_set( 0.337060 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+sys_poll_option( 0 )
+gm_visibility_widget( " Point 1:200 Curve 1:64 Surface 1:147", FALSE )
+gm_visibility_widget( " Node 1000:1624 2000:3877 10001:10004 10007:10010 1" // @
+"0013:10016 10019:10022 10025:10028 10031:10034 10037:10040 10043:10046 10" // @
+"049:10052 10055:10058 10061:10064 10067:10070 Element 1000:1911 2000:4738" // @
+" 10000:10059 MPC 2001:2003", TRUE )
+ga_view_center_set( 0.066194, -0.004354 )
+ga_view_zoom_set( 0.340096 )
+ga_view_center_set( 0.114651, -0.007176 )
+ga_view_zoom_set( 0.302308 )
+ga_view_center_set( 0.165215, -0.010121 )
+ga_view_zoom_set( 0.262876 )
+ga_view_center_set( 0.202669, -0.012302 )
+ga_view_zoom_set( 0.233668 )
+ga_view_center_set( 0.247296, -0.014901 )
+ga_view_zoom_set( 0.198866 )
+ga_view_center_set( 0.215420, -0.013045 )
+ga_view_zoom_set( 0.223725 )
+ga_view_center_set( 0.179558, -0.010956 )
+ga_view_zoom_set( 0.251690 )
+ga_view_center_set( 0.139214, -0.008607 )
+ga_view_zoom_set( 0.283152 )
+ga_view_center_set( 0.093827, -0.005963 )
+ga_view_zoom_set( 0.318546 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_center_set( 0.089056, 0.006866 )
+ga_view_zoom_set( 0.283152 )
+ga_view_center_set( 0.095735, -0.011095 )
+ga_view_zoom_set( 0.332703 )
+ga_view_center_set( 0.102462, -0.029185 )
+ga_view_zoom_set( 0.382609 )
+ga_view_center_set( 0.108909, -0.046521 )
+ga_view_zoom_set( 0.430435 )
+ga_view_center_set( 0.116161, -0.066023 )
+ga_view_zoom_set( 0.484239 )
+ga_view_center_set( 0.124320, -0.087964 )
+ga_view_zoom_set( 0.544769 )
+ga_view_center_set( 0.135979, -0.118601 )
+ga_view_zoom_set( 0.612865 )
+ga_view_center_set( 0.149096, -0.153068 )
+ga_view_zoom_set( 0.689473 )
+ga_view_center_set( 0.163852, -0.191843 )
+ga_view_zoom_set( 0.775657 )
+ga_view_center_set( 0.180454, -0.235465 )
+ga_view_zoom_set( 0.872614 )
+ga_view_center_set( 0.199130, -0.284539 )
+ga_view_zoom_set( 0.981691 )
+ga_view_center_set( 0.220140, -0.339748 )
+ga_view_zoom_set( 1.104403 )
+ga_view_center_set( 0.199130, -0.284539 )
+ga_view_zoom_set( 0.981691 )
+ga_view_center_set( 0.180454, -0.235465 )
+ga_view_zoom_set( 0.872614 )
+ga_view_center_set( 0.153011, -0.163355 )
+ga_view_zoom_set( 0.712338 )
+ga_view_center_set( 0.139459, -0.127745 )
+ga_view_zoom_set( 0.633189 )
+ga_view_center_set( 0.127413, -0.096092 )
+ga_view_zoom_set( 0.562835 )
+ga_view_center_set( 0.116705, -0.067956 )
+ga_view_zoom_set( 0.500298 )
+ga_view_aa_set( 23., 56., 0. )
+ga_view_aa_set( -67., 0., -34. )
+ga_view_center_set( 0.128097, -0.095864 )
+ga_view_zoom_set( 0.562835 )
+ga_view_center_set( 0.140911, -0.127261 )
+ga_view_zoom_set( 0.633189 )
+ga_view_center_set( 0.155328, -0.162583 )
+ga_view_zoom_set( 0.712338 )
+ga_view_center_set( 0.171547, -0.202319 )
+ga_view_zoom_set( 0.801381 )
+ga_view_center_set( 0.189794, -0.247023 )
+ga_view_zoom_set( 0.901553 )
+ga_view_center_set( 0.171547, -0.202319 )
+ga_view_zoom_set( 0.801381 )
+ga_view_center_set( 0.155328, -0.162583 )
+ga_view_zoom_set( 0.712338 )
+ga_view_center_set( 0.138404, -0.121118 )
+ga_view_zoom_set( 0.619425 )
+ga_view_center_set( 0.117681, -0.070346 )
+ga_view_zoom_set( 0.505653 )
+ga_view_center_set( 0.105667, -0.040912 )
+ga_view_zoom_set( 0.439698 )
+ga_view_center_set( 0.096768, -0.019110 )
+ga_view_zoom_set( 0.390843 )
+ga_view_center_set( 0.088858, 0.000270 )
+ga_view_zoom_set( 0.347416 )
+ga_view_center_set( 0.081827, 0.017497 )
+ga_view_zoom_set( 0.308814 )
+ga_view_center_set( 0.075577, 0.032809 )
+ga_view_zoom_set( 0.274501 )
+ga_view_center_set( 0.081827, 0.017497 )
+ga_view_zoom_set( 0.308814 )
+ga_view_center_set( 0.088858, 0.000270 )
+ga_view_zoom_set( 0.347416 )
+ga_view_center_set( 0.096768, -0.019110 )
+ga_view_zoom_set( 0.390843 )
+ga_view_center_set( 0.094554, -0.026783 )
+ga_view_zoom_set( 0.347416 )
+ga_view_center_set( 0.092585, -0.033603 )
+ga_view_zoom_set( 0.308814 )
+ga_view_center_set( 0.094554, -0.026783 )
+ga_view_zoom_set( 0.347416 )
+ga_view_center_set( 0.092585, -0.033603 )
+ga_view_zoom_set( 0.308814 )
+ga_view_center_set( 0.090530, -0.040720 )
+ga_view_zoom_set( 0.268534 )
+ga_view_center_set( 0.089009, -0.045992 )
+ga_view_zoom_set( 0.238697 )
+ga_view_center_set( 0.090835, -0.039666 )
+ga_view_zoom_set( 0.274501 )
+ga_view_center_set( 0.094335, -0.027541 )
+ga_view_zoom_set( 0.343127 )
+ga_view_center_set( 0.098272, -0.013900 )
+ga_view_zoom_set( 0.420330 )
+ga_view_center_set( 0.100952, -0.004617 )
+ga_view_zoom_set( 0.472871 )
+ga_view_center_set( 0.097806, -0.015514 )
+ga_view_zoom_set( 0.411192 )
+ga_view_center_set( 0.095476, -0.023587 )
+ga_view_zoom_set( 0.365504 )
+ga_view_center_set( 0.097806, -0.015514 )
+ga_view_zoom_set( 0.411192 )
+ga_view_center_set( 0.095071, -0.024991 )
+ga_view_zoom_set( 0.357559 )
+ga_view_center_set( 0.093045, -0.032010 )
+ga_view_zoom_set( 0.317830 )
+ga_view_center_set( 0.091244, -0.038250 )
+ga_view_zoom_set( 0.282516 )
+ga_view_center_set( 0.089643, -0.043796 )
+ga_view_zoom_set( 0.251125 )
+ga_view_center_set( 0.091564, -0.037140 )
+ga_view_zoom_set( 0.288794 )
+ga_view_center_set( 0.093405, -0.030762 )
+ga_view_zoom_set( 0.324893 )
+ga_view_center_set( 0.095476, -0.023587 )
+ga_view_zoom_set( 0.365504 )
+ga_view_center_set( 0.097806, -0.015514 )
+ga_view_zoom_set( 0.411193 )
+ga_view_center_set( 0.100428, -0.006433 )
+ga_view_zoom_set( 0.462592 )
+ga_view_center_set( 0.097351, -0.017094 )
+ga_view_zoom_set( 0.402254 )
+ga_view_center_set( 0.095071, -0.024991 )
+ga_view_zoom_set( 0.357559 )
+ga_view_center_set( 0.093045, -0.032010 )
+ga_view_zoom_set( 0.317830 )
+ga_view_center_set( 0.095071, -0.024990 )
+ga_view_zoom_set( 0.357559 )
+ga_view_center_set( 0.097351, -0.017094 )
+ga_view_zoom_set( 0.402254 )
+ga_view_center_set( 0.095071, -0.024990 )
+ga_view_zoom_set( 0.357559 )
+ga_view_center_set( 0.093045, -0.032010 )
+ga_view_zoom_set( 0.317830 )
+ga_view_center_set( 0.091244, -0.038250 )
+ga_view_zoom_set( 0.282516 )
+ga_view_center_set( 0.089643, -0.043796 )
+ga_view_zoom_set( 0.251125 )
+ga_view_center_set( 0.091564, -0.037140 )
+ga_view_zoom_set( 0.288794 )
+ga_view_center_set( 0.093773, -0.029486 )
+ga_view_zoom_set( 0.332113 )
+ga_view_center_set( 0.095891, -0.022151 )
+ga_view_zoom_set( 0.373627 )
+ga_view_center_set( 0.095346, -0.061488 )
+ga_view_zoom_set( 0.448352 )
+ga_view_center_set( 0.094856, -0.096890 )
+ga_view_zoom_set( 0.515605 )
+ga_view_center_set( 0.094293, -0.137604 )
+ga_view_zoom_set( 0.592946 )
+ga_view_center_set( 0.093753, -0.176620 )
+ga_view_zoom_set( 0.667064 )
+ga_view_center_set( 0.094293, -0.137604 )
+ga_view_zoom_set( 0.592946 )
+ga_view_center_set( 0.094856, -0.096890 )
+ga_view_zoom_set( 0.515605 )
+ga_view_center_set( 0.095274, -0.066733 )
+ga_view_zoom_set( 0.458316 )
+ga_view_center_set( 0.095771, -0.030800 )
+ga_view_zoom_set( 0.390056 )
+ga_view_center_set( 0.096087, -0.007986 )
+ga_view_zoom_set( 0.346716 )
+ga_view_center_set( 0.096367, 0.012294 )
+ga_view_zoom_set( 0.308192 )
+ga_view_center_set( 0.096702, 0.036457 )
+ga_view_zoom_set( 0.262291 )
+ga_view_center_set( 0.096914, 0.051798 )
+ga_view_zoom_set( 0.233148 )
+ga_view_center_set( 0.096405, 0.014979 )
+ga_view_zoom_set( 0.303092 )
+ga_view_center_set( 0.095853, -0.024909 )
+ga_view_zoom_set( 0.378865 )
+ga_view_center_set( 0.094541, -0.119643 )
+ga_view_zoom_set( 0.558826 )
+ga_view_center_set( 0.094032, -0.156414 )
+ga_view_zoom_set( 0.628679 )
+ga_view_center_set( 0.093460, -0.197782 )
+ga_view_zoom_set( 0.707264 )
+ga_view_center_set( 0.094319, -0.135730 )
+ga_view_zoom_set( 0.589387 )
+ga_view_center_set( 0.094958, -0.089521 )
+ga_view_zoom_set( 0.501606 )
+ga_view_center_set( 0.095906, -0.021063 )
+ga_view_zoom_set( 0.371560 )
+ga_view_center_set( 0.096207, 0.000669 )
+ga_view_zoom_set( 0.330275 )
+ga_view_center_set( 0.095906, -0.021063 )
+ga_view_zoom_set( 0.371560 )
+ga_view_center_set( 0.095568, -0.045513 )
+ga_view_zoom_set( 0.418005 )
+ga_view_center_set( 0.093093, -0.065594 )
+ga_view_zoom_set( 0.470255 )
+ga_view_center_set( 0.090309, -0.088186 )
+ga_view_zoom_set( 0.529037 )
+ga_view_center_set( 0.093093, -0.065594 )
+ga_view_zoom_set( 0.470255 )
+ga_view_center_set( 0.090309, -0.088186 )
+ga_view_zoom_set( 0.529037 )
+ga_view_center_set( 0.098233, -0.065166 )
+ga_view_zoom_set( 0.470255 )
+ga_view_center_set( 0.103943, -0.045846 )
+ga_view_zoom_set( 0.418005 )
+ga_view_center_set( 0.108173, -0.029518 )
+ga_view_zoom_set( 0.371560 )
+ga_view_center_set( 0.111331, -0.015907 )
+ga_view_zoom_set( 0.330275 )
+ga_view_center_set( 0.115663, 0.004908 )
+ga_view_zoom_set( 0.264220 )
+ga_view_center_set( 0.117481, 0.013839 )
+ga_view_zoom_set( 0.234863 )
+ga_view_aa_set( -112.151970, 20.071554, 101.394005 )
+ga_view_center_set( 0.118658, 0.026084 )
+ga_view_zoom_set( 0.264220 )
+ga_view_center_set( 0.119981, 0.039741 )
+ga_view_zoom_set( 0.297248 )
+ga_view_center_set( 0.121335, 0.054833 )
+ga_view_zoom_set( 0.334404 )
+ga_view_aa_set( -117.483864, -1.644695, 46.929893 )
+ga_view_center_set( 0.129710, 0.073335 )
+ga_view_zoom_set( 0.376204 )
+ga_view_center_set( 0.138790, 0.093978 )
+ga_view_zoom_set( 0.423230 )
+ga_view_center_set( 0.149004, 0.117202 )
+ga_view_zoom_set( 0.476134 )
+ga_view_center_set( 0.160496, 0.143329 )
+ga_view_zoom_set( 0.535650 )
+ga_view_center_set( 0.053365, 0.014772 )
+ga_view_aa_set( -115.954247, -0.269439, -43.399288 )
+ga_view_center_set( 0.078083, 0.004690 )
+ga_view_zoom_set( 0.476134 )
+ga_view_center_set( 0.100054, -0.004271 )
+ga_view_zoom_set( 0.423230 )
+ga_view_center_set( 0.118898, -0.012238 )
+ga_view_zoom_set( 0.376204 )
+ga_view_center_set( 0.123010, -0.020841 )
+ga_view_zoom_set( 0.334404 )
+ga_view_center_set( 0.125582, -0.028624 )
+ga_view_zoom_set( 0.297248 )
+ga_view_center_set( 0.125101, -0.036144 )
+ga_view_zoom_set( 0.264220 )
+ga_view_center_set( 0.120900, -0.052552 )
+ga_view_zoom_set( 0.192160 )
+ga_view_center_set( 0.118100, -0.057413 )
+ga_view_zoom_set( 0.170809 )
+ga_view_center_set( 0.108144, -0.070377 )
+ga_view_zoom_set( 0.113873 )
+ga_view_center_set( 0.105194, -0.073396 )
+ga_view_zoom_set( 0.101220 )
+ga_view_center_set( 0.098758, -0.079983 )
+ga_view_zoom_set( 0.073615 )
+ga_view_center_set( 0.095451, -0.077882 )
+ga_view_zoom_set( 0.065435 )
+ga_view_center_set( 0.092325, -0.076359 )
+ga_view_zoom_set( 0.058165 )
+ga_view_center_set( 0.085159, -0.073845 )
+ga_view_zoom_set( 0.042302 )
+ga_view_center_set( 0.082659, -0.073426 )
+ga_view_zoom_set( 0.037601 )
+ga_view_center_set( 0.078304, -0.072919 )
+ga_view_zoom_set( 0.030081 )
+ga_view_center_set( 0.074556, -0.072645 )
+ga_view_zoom_set( 0.024065 )
+ga_view_center_set( 0.072685, -0.072650 )
+ga_view_zoom_set( 0.021391 )
+ga_view_center_set( 0.067672, -0.072689 )
+ga_view_zoom_set( 0.014261 )
+ga_view_center_set( 0.070413, -0.072410 )
+ga_view_zoom_set( 0.017826 )
+ga_view_center_set( 0.077524, -0.070932 )
+ga_view_zoom_set( 0.026739 )
+ga_view_center_set( 0.085523, -0.069161 )
+ga_view_zoom_set( 0.036766 )
+ga_view_center_set( 0.096523, -0.066725 )
+ga_view_zoom_set( 0.050553 )
+ga_view_center_set( 0.101518, -0.065424 )
+ga_view_zoom_set( 0.056872 )
+ga_view_center_set( 0.123998, -0.059571 )
+ga_view_zoom_set( 0.085308 )
+ga_view_center_set( 0.132428, -0.057027 )
+ga_view_zoom_set( 0.095972 )
+ga_view_center_set( 0.160878, -0.048439 )
+ga_view_zoom_set( 0.131961 )
+ga_view_center_set( 0.173918, -0.044503 )
+ga_view_zoom_set( 0.148456 )
+ga_view_center_set( 0.188588, -0.040278 )
+ga_view_zoom_set( 0.167013 )
+ga_view_center_set( 0.238099, -0.026018 )
+ga_view_zoom_set( 0.229643 )
+ga_view_center_set( 0.260791, -0.019482 )
+ga_view_zoom_set( 0.258349 )
+ga_view_center_set( 0.311614, -0.005012 )
+ga_view_zoom_set( 0.322936 )
+ga_view_center_set( 0.375142, 0.013076 )
+ga_view_zoom_set( 0.403670 )
+ga_view_center_set( 0.412458, 0.018867 )
+ga_view_zoom_set( 0.454129 )
+ga_view_aa_set( -76.548813, 2.989251, -131.424637 )
+ga_view_aa_set( -85.901192, 3.697473, -125.458450 )
+ga_view_aa_set( -65.674156, 9.858963, 133.408829 )
+ga_view_aa_set( -71.654930, 1.060053, 110.991249 )
+ga_view_aa_set( -80.805656, 2.323457, 115.815895 )
+ga_view_center_set( 0.342974, 0.020356 )
+ga_view_zoom_set( 0.363303 )
+ga_view_center_set( 0.312092, 0.021017 )
+ga_view_zoom_set( 0.322936 )
+ga_view_center_set( 0.284641, 0.021606 )
+ga_view_zoom_set( 0.287054 )
+ga_view_center_set( 0.312092, 0.021540 )
+ga_view_zoom_set( 0.322936 )
+ga_view_center_set( 0.342974, 0.021467 )
+ga_view_zoom_set( 0.363303 )
+ga_view_center_set( 0.412458, 0.021301 )
+ga_view_zoom_set( 0.454129 )
+ga_view_aa_set( -89.480309, 0.263021, 92.959923 )
+ga_view_center_set( 0.493109, 0.001139 )
+ga_view_zoom_set( 0.510895 )
+ga_view_center_set( 0.583842, -0.021545 )
+ga_view_zoom_set( 0.574757 )
+ga_view_center_set( 0.787991, -0.072582 )
+ga_view_zoom_set( 0.718446 )
+ga_view_center_set( 0.915583, -0.104480 )
+ga_view_zoom_set( 0.808251 )
+ga_view_center_set( 0.787990, -0.072582 )
+ga_view_zoom_set( 0.718446 )
+ga_view_center_set( 0.583842, -0.021544 )
+ga_view_zoom_set( 0.574757 )
+ga_view_center_set( 0.493109, 0.001139 )
+ga_view_zoom_set( 0.510895 )
+ga_view_center_set( 0.347937, 0.037432 )
+ga_view_zoom_set( 0.408716 )
+ga_view_center_set( 0.231799, 0.066466 )
+ga_view_zoom_set( 0.326973 )
+ga_view_center_set( 0.138889, 0.089694 )
+ga_view_zoom_set( 0.261578 )
+ga_view_center_set( 0.064560, 0.108276 )
+ga_view_zoom_set( 0.209262 )
+ga_view_aa_set( -177.821457, 45.422657, -13.063560 )
+ga_view_center_set( 0.040504, 0.115942 )
+ga_view_zoom_set( 0.186011 )
+ga_view_center_set( 0.002015, 0.128207 )
+ga_view_zoom_set( 0.148809 )
+ga_view_center_set( -0.039974, 0.141587 )
+ga_view_zoom_set( 0.108225 )
+ga_view_center_set( -0.052415, 0.145552 )
+ga_view_zoom_set( 0.096200 )
+ga_view_center_set( -0.072321, 0.151895 )
+ga_view_zoom_set( 0.076960 )
+ga_view_center_set( -0.081168, 0.154714 )
+ga_view_zoom_set( 0.068409 )
+ga_view_center_set( -0.095323, 0.159225 )
+ga_view_zoom_set( 0.054727 )
+ga_view_aa_set( -162.113815, 44.466511, -12.649729 )
+ga_view_center_set( -0.101681, 0.161119 )
+ga_view_zoom_set( 0.048646 )
+ga_view_center_set( -0.107332, 0.162685 )
+ga_view_zoom_set( 0.043241 )
+ga_view_center_set( -0.112356, 0.164024 )
+ga_view_zoom_set( 0.038436 )
+ga_view_center_set( -0.116588, 0.165183 )
+ga_view_zoom_set( 0.034166 )
+ga_view_center_set( -0.120349, 0.166213 )
+ga_view_zoom_set( 0.030370 )
+ga_view_center_set( -0.123705, 0.167129 )
+ga_view_zoom_set( 0.026995 )
+ga_view_center_set( -0.120325, 0.166778 )
+ga_view_zoom_set( 0.030370 )
+ga_view_center_set( -0.112525, 0.166211 )
+ga_view_zoom_set( 0.037962 )
+ga_view_center_set( -0.107650, 0.165874 )
+ga_view_zoom_set( 0.042707 )
+ga_view_center_set( -0.102049, 0.166117 )
+ga_view_zoom_set( 0.048046 )
+ga_view_aa_set( -171.143143, -7.807032, 2.376444 )
+ga_view_aa_set( 175.803741, 1.161113, 1.897705 )
+ga_view_center_set( -0.108408, 0.166458 )
+ga_view_zoom_set( 0.042707 )
+ga_view_center_set( -0.114061, 0.166760 )
+ga_view_zoom_set( 0.037962 )
+ga_view_center_set( -0.119086, 0.167029 )
+ga_view_zoom_set( 0.033744 )
+ga_view_center_set( -0.123552, 0.167268 )
+ga_view_zoom_set( 0.029995 )
+ga_view_center_set( -0.127522, 0.167481 )
+ga_view_zoom_set( 0.026662 )
+ga_view_center_set( -0.131051, 0.167670 )
+ga_view_zoom_set( 0.023699 )
+ga_view_center_set( -0.127522, 0.167481 )
+ga_view_zoom_set( 0.026662 )
+ga_view_center_set( -0.119582, 0.167056 )
+ga_view_zoom_set( 0.033327 )
+ga_view_center_set( -0.109657, 0.166525 )
+ga_view_zoom_set( 0.041659 )
+ga_view_center_set( -0.103415, 0.166060 )
+ga_view_zoom_set( 0.046867 )
+ga_view_center_set( -0.096394, 0.166156 )
+ga_view_zoom_set( 0.052725 )
+ga_view_center_set( -0.080596, 0.166372 )
+ga_view_zoom_set( 0.065906 )
+ga_view_center_set( -0.060848, 0.166642 )
+ga_view_zoom_set( 0.082383 )
+ga_view_center_set( -0.048505, 0.166811 )
+ga_view_zoom_set( 0.092681 )
+ga_view_center_set( -0.034620, 0.167001 )
+ga_view_zoom_set( 0.104266 )
+ga_view_center_set( 0.012243, 0.167642 )
+ga_view_zoom_set( 0.143365 )
+ga_view_center_set( 0.033721, 0.167936 )
+ga_view_zoom_set( 0.161286 )
+ga_view_aa_set( 107.651245, -17.667578, -19.169407 )
+ga_view_center_set( 0.017465, 0.170906 )
+ga_view_zoom_set( 0.143365 )
+ga_view_center_set( 0.003016, 0.173547 )
+ga_view_zoom_set( 0.127436 )
+ga_view_center_set( -0.028511, 0.179308 )
+ga_view_zoom_set( 0.092681 )
+ga_view_center_set( -0.037777, 0.181052 )
+ga_view_zoom_set( 0.082383 )
+ga_view_center_set( -0.041312, 0.183736 )
+ga_view_zoom_set( 0.073229 )
+ga_view_center_set( -0.044454, 0.186123 )
+ga_view_zoom_set( 0.065093 )
+ga_view_center_set( -0.049481, 0.189940 )
+ga_view_zoom_set( 0.052074 )
+ga_view_center_set( -0.051715, 0.191637 )
+ga_view_zoom_set( 0.046288 )
+ga_view_center_set( -0.053420, 0.193239 )
+ga_view_zoom_set( 0.041145 )
+ga_view_center_set( -0.054936, 0.194663 )
+ga_view_zoom_set( 0.036573 )
+ga_view_center_set( -0.057361, 0.196941 )
+ga_view_zoom_set( 0.029259 )
+ga_view_aa_set( 106.470222, -14.561131, -12.669909 )
+ga_view_center_set( -0.056108, 0.195696 )
+ga_view_zoom_set( 0.032916 )
+ga_view_center_set( -0.054699, 0.194294 )
+ga_view_zoom_set( 0.037030 )
+ga_view_center_set( -0.053114, 0.192718 )
+ga_view_zoom_set( 0.041659 )
+ga_view_center_set( -0.051331, 0.190982 )
+ga_view_zoom_set( 0.046867 )
+ga_view_center_set( -0.049325, 0.189029 )
+ga_view_zoom_set( 0.052725 )
+ga_view_center_set( -0.047068, 0.186832 )
+ga_view_zoom_set( 0.059316 )
+ga_view_center_set( -0.044529, 0.184280 )
+ga_view_zoom_set( 0.066730 )
+ga_view_center_set( -0.041946, 0.181590 )
+ga_view_zoom_set( 0.075071 )
+ga_view_center_set( -0.039109, 0.178599 )
+ga_view_zoom_set( 0.084455 )
+ga_view_center_set( -0.035917, 0.175234 )
+ga_view_zoom_set( 0.095012 )
+ga_view_aa_set( 86.567017, -13.377708, 0.553787 )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_center_set( -0.038878, 0.177676 )
+ga_view_zoom_set( 0.084455 )
+ga_view_center_set( -0.043616, 0.181522 )
+ga_view_zoom_set( 0.067564 )
+ga_view_center_set( -0.045722, 0.183231 )
+ga_view_zoom_set( 0.060057 )
+ga_view_center_set( -0.048031, 0.184945 )
+ga_view_zoom_set( 0.053384 )
+ga_view_center_set( -0.042294, 0.182538 )
+ga_view_zoom_set( 0.066730 )
+ga_view_center_set( -0.031537, 0.178026 )
+ga_view_zoom_set( 0.091754 )
+ga_view_center_set( -0.021593, 0.173806 )
+ga_view_zoom_set( 0.114692 )
+ga_view_center_set( -0.015012, 0.172004 )
+ga_view_zoom_set( 0.129029 )
+ga_view_center_set( -0.000088, 0.168067 )
+ga_view_zoom_set( 0.161286 )
+ga_view_center_set( 0.018567, 0.163147 )
+ga_view_zoom_set( 0.201607 )
+ga_view_center_set( -0.062076, 0.243790 )
+ga_view_center_set( -0.108346, 0.266337 )
+ga_view_zoom_set( 0.161286 )
+ga_view_center_set( -0.145363, 0.284375 )
+ga_view_zoom_set( 0.129029 )
+ga_view_center_set( -0.161815, 0.292392 )
+ga_view_zoom_set( 0.114692 )
+ga_view_center_set( -0.176438, 0.299518 )
+ga_view_zoom_set( 0.101949 )
+ga_view_center_set( -0.188695, 0.305069 )
+ga_view_zoom_set( 0.090621 )
+ga_view_center_set( -0.220692, 0.318211 )
+ga_view_zoom_set( 0.055767 )
+ga_view_center_set( -0.223784, 0.318764 )
+ga_view_zoom_set( 0.049570 )
+ga_view_center_set( -0.233300, 0.320257 )
+ga_view_zoom_set( 0.030505 )
+ga_view_center_set( -0.190898, 0.291582 )
+ga_view_center_set( -0.192639, 0.291675 )
+ga_view_zoom_set( 0.027115 )
+ga_view_center_set( -0.195701, 0.291665 )
+ga_view_zoom_set( 0.021692 )
+ga_view_center_set( -0.198230, 0.291641 )
+ga_view_zoom_set( 0.017354 )
+ga_view_center_set( -0.199993, 0.291905 )
+ga_view_zoom_set( 0.015426 )
+ga_view_center_set( -0.204695, 0.292607 )
+ga_view_zoom_set( 0.010284 )
+ga_view_center_set( -0.205769, 0.292763 )
+ga_view_zoom_set( 0.009141 )
+ga_view_center_set( -0.206727, 0.292902 )
+ga_view_zoom_set( 0.008125 )
+ga_view_center_set( -0.209322, 0.293272 )
+ga_view_zoom_set( 0.005417 )
+ga_view_center_set( -0.209901, 0.293354 )
+ga_view_zoom_set( 0.004815 )
+ga_view_center_set( -0.210831, 0.293486 )
+ga_view_zoom_set( 0.003852 )
+ga_view_center_set( -0.211244, 0.293544 )
+ga_view_zoom_set( 0.003424 )
+ga_view_center_set( -0.211905, 0.293638 )
+ga_view_zoom_set( 0.002739 )
+ga_view_aa_set( 93.951202, -0.590200, -11.983292 )
+ga_view_center_set( -0.211511, 0.293614 )
+ga_view_zoom_set( 0.003082 )
+ga_view_center_set( -0.210180, 0.293531 )
+ga_view_zoom_set( 0.004237 )
+ga_view_center_set( -0.208961, 0.293456 )
+ga_view_zoom_set( 0.005297 )
+ga_view_center_set( -0.206725, 0.293373 )
+ga_view_zoom_set( 0.007283 )
+ga_view_center_set( -0.205700, 0.293335 )
+ga_view_zoom_set( 0.008193 )
+ga_view_center_set( -0.203394, 0.293249 )
+ga_view_zoom_set( 0.010241 )
+ga_view_center_set( -0.199239, 0.293270 )
+ga_view_zoom_set( 0.014082 )
+ga_view_center_set( -0.193525, 0.293299 )
+ga_view_zoom_set( 0.019363 )
+ga_view_center_set( -0.190915, 0.293312 )
+ga_view_zoom_set( 0.021783 )
+ga_view_center_set( -0.185043, 0.293342 )
+ga_view_zoom_set( 0.027229 )
+ga_view_center_set( -0.177703, 0.293379 )
+ga_view_zoom_set( 0.034036 )
+ga_view_center_set( -0.173115, 0.293402 )
+ga_view_zoom_set( 0.038291 )
+ga_view_center_set( -0.162792, 0.293455 )
+ga_view_zoom_set( 0.047863 )
+ga_view_center_set( -0.156341, 0.293487 )
+ga_view_zoom_set( 0.053846 )
+ga_view_center_set( -0.141825, 0.293561 )
+ga_view_zoom_set( 0.067308 )
+ga_view_aa_set( -61.740971, 1.109298, -4.930221 )
+gm_visibility_widget( " Point 1:200 Curve 1:64 Surface 1:147", TRUE )
+ga_view_aa_set( -85.200783, -2.856225, -23.402546 )
+ga_view_center_set( 0.010437, -0.027723 )
+ga_view_zoom_set( 0.547236 )
+ga_view_center_set( 0.034858, -0.046413 )
+ga_view_zoom_set( 0.684045 )
+ga_view_center_set( 0.050121, -0.058406 )
+ga_view_zoom_set( 0.769550 )
+ga_view_center_set( 0.034858, -0.040806 )
+ga_view_zoom_set( 0.684045 )
+ga_view_center_set( -0.014023, 0.013346 )
+ga_view_zoom_set( 0.420951 )
+ga_view_center_set( -0.022713, 0.022973 )
+ga_view_zoom_set( 0.374178 )
+ga_view_center_set( -0.036617, 0.038377 )
+ga_view_zoom_set( 0.299343 )
+ga_view_center_set( -0.042796, 0.045223 )
+ga_view_zoom_set( 0.266082 )
+ga_view_center_set( -0.052684, 0.056176 )
+ga_view_zoom_set( 0.212866 )
+ga_view_center_set( -0.057164, 0.060958 )
+ga_view_zoom_set( 0.189214 )
+ga_view_center_set( -0.069342, 0.073021 )
+ga_view_zoom_set( 0.126143 )
+ga_view_aa_set( -70.862823, -3.964676, -34.387512 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_center_set( -0.059250, 0.295032 )
+ga_view_center_set( -0.075130, 0.290718 )
+ga_view_zoom_set( 0.112127 )
+ga_view_center_set( -0.089245, 0.286746 )
+ga_view_zoom_set( 0.099668 )
+ga_view_center_set( -0.120042, 0.278082 )
+ga_view_zoom_set( 0.072486 )
+ga_view_center_set( -0.129167, 0.275514 )
+ga_view_zoom_set( 0.064432 )
+ga_view_center_set( -0.137278, 0.273180 )
+ga_view_zoom_set( 0.057273 )
+ga_view_center_set( -0.150255, 0.269320 )
+ga_view_zoom_set( 0.045818 )
+ga_view_center_set( -0.156023, 0.267605 )
+ga_view_zoom_set( 0.040727 )
+ga_view_center_set( -0.168608, 0.263862 )
+ga_view_zoom_set( 0.029620 )
+ga_view_center_set( -0.172336, 0.262753 )
+ga_view_zoom_set( 0.026329 )
+ga_view_center_set( -0.180472, 0.260333 )
+ga_view_zoom_set( 0.019148 )
+ga_view_center_set( -0.182882, 0.259616 )
+ga_view_zoom_set( 0.017021 )
+ga_view_aa_set( -84.001976, 0.122033, 3.995893 )
+ga_view_center_set( -0.180503, 0.260379 )
+ga_view_zoom_set( 0.019148 )
+ga_view_center_set( -0.177826, 0.261238 )
+ga_view_zoom_set( 0.021542 )
+ga_view_center_set( -0.174814, 0.262204 )
+ga_view_zoom_set( 0.024234 )
+ga_view_center_set( -0.171426, 0.263291 )
+ga_view_zoom_set( 0.027264 )
+ga_view_center_set( -0.167689, 0.264514 )
+ga_view_zoom_set( 0.030672 )
+ga_view_center_set( -0.159337, 0.267266 )
+ga_view_zoom_set( 0.038340 )
+ga_view_center_set( -0.148897, 0.270705 )
+ga_view_zoom_set( 0.047925 )
+gm_visibility_widget( " Point 1:200 Curve 1:64 Surface 1:147", FALSE )
+ga_view_aa_set( -70.012688, 0.503438, 5.959222 )
+ga_view_center_set( 0.042990, -0.050123 )
+ga_view_zoom_set( 0.495768 )
+ga_view_center_set( 0.096720, -0.113110 )
+ga_view_zoom_set( 0.619710 )
+ga_view_center_set( 0.130302, -0.152477 )
+ga_view_zoom_set( 0.697174 )
+ga_view_center_set( 0.096720, -0.112546 )
+ga_view_zoom_set( 0.619710 )
+ga_view_center_set( 0.007169, -0.006063 )
+ga_view_zoom_set( 0.413140 )
+ga_view_center_set( -0.012731, 0.017600 )
+ga_view_zoom_set( 0.367236 )
+ga_view_center_set( -0.044572, 0.055461 )
+ga_view_zoom_set( 0.293788 )
+ga_view_center_set( -0.079307, 0.096764 )
+ga_view_zoom_set( 0.213664 )
+ga_view_center_set( -0.089599, 0.108829 )
+ga_view_zoom_set( 0.189924 )
+ga_view_center_set( -0.112054, 0.135152 )
+ga_view_zoom_set( 0.138126 )
+ga_view_center_set( -0.124030, 0.148990 )
+ga_view_zoom_set( 0.110501 )
+ga_view_center_set( -0.129397, 0.154871 )
+ga_view_zoom_set( 0.098223 )
+ga_view_center_set( -0.141108, 0.167704 )
+ga_view_zoom_set( 0.071435 )
+ga_view_center_set( -0.144578, 0.171507 )
+ga_view_zoom_set( 0.063498 )
+ga_view_center_set( -0.147662, 0.174758 )
+ga_view_zoom_set( 0.056443 )
+ga_view_center_set( -0.150403, 0.177648 )
+ga_view_zoom_set( 0.050171 )
+ga_view_center_set( -0.152840, 0.180217 )
+ga_view_zoom_set( 0.044597 )
+ga_view_center_set( -0.158157, 0.185822 )
+ga_view_zoom_set( 0.032434 )
+ga_view_center_set( -0.159825, 0.187483 )
+ga_view_zoom_set( 0.028830 )
+ga_view_center_set( -0.164446, 0.191912 )
+ga_view_zoom_set( 0.019220 )
+ga_view_aa_set( -69.264343, -3.342358, -4.351261 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_center_set( -0.162696, 0.191855 )
+ga_view_zoom_set( 0.021623 )
+ga_view_center_set( -0.158737, 0.191825 )
+ga_view_zoom_set( 0.027028 )
+ga_view_center_set( -0.153765, 0.192034 )
+ga_view_zoom_set( 0.033785 )
+ga_view_center_set( -0.150626, 0.192181 )
+ga_view_zoom_set( 0.038008 )
+ga_view_center_set( -0.147096, 0.192345 )
+ga_view_zoom_set( 0.042760 )
+ga_view_center_set( -0.135179, 0.192900 )
+ga_view_zoom_set( 0.058794 )
+ga_view_center_set( -0.124255, 0.193409 )
+ga_view_zoom_set( 0.073493 )
+ga_view_center_set( -0.117428, 0.193727 )
+ga_view_zoom_set( 0.082680 )
+ga_view_center_set( -0.109823, 0.194536 )
+ga_view_zoom_set( 0.093014 )
+ga_view_center_set( -0.092711, 0.196357 )
+ga_view_zoom_set( 0.116268 )
+ga_view_center_set( -0.071321, 0.198634 )
+ga_view_zoom_set( 0.145335 )
+ga_view_aa_set( -58.284336, 0.739160, 38.685558 )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_center_set( -0.085934, 0.207370 )
+ga_view_zoom_set( 0.116268 )
+ga_view_center_set( -0.078839, 0.204273 )
+ga_view_zoom_set( 0.130802 )
+ga_view_center_set( -0.070858, 0.200788 )
+ga_view_zoom_set( 0.147152 )
+ga_view_aa_set( -78.349884, -4.431692, -19.030773 )
+ga_view_center_set( 0.015962, -0.249496 )
+ga_view_center_set( 0.052750, -0.348088 )
+ga_view_center_set( 0.055728, -0.347879 )
+ga_view_zoom_set( 0.130802 )
+ga_view_center_set( 0.058375, -0.347694 )
+ga_view_zoom_set( 0.116268 )
+ga_view_center_set( 0.060728, -0.347529 )
+ga_view_zoom_set( 0.103349 )
+ga_view_center_set( 0.062820, -0.347383 )
+ga_view_zoom_set( 0.091866 )
+ga_view_center_set( 0.067639, -0.346948 )
+ga_view_zoom_set( 0.073493 )
+ga_view_center_set( 0.069781, -0.346754 )
+ga_view_zoom_set( 0.065327 )
+ga_view_center_set( 0.073208, -0.346445 )
+ga_view_zoom_set( 0.052262 )
+ga_view_center_set( 0.078729, -0.346223 )
+ga_view_zoom_set( 0.034841 )
+ga_view_aa_set( -79.613548, 1.476079, 11.420539 )
+ga_view_center_set( 0.075905, -0.346651 )
+ga_view_zoom_set( 0.043551 )
+ga_view_center_set( 0.074140, -0.346919 )
+ga_view_zoom_set( 0.048995 )
+ga_view_center_set( 0.072154, -0.347220 )
+ga_view_zoom_set( 0.055120 )
+ga_view_center_set( 0.069921, -0.347559 )
+ga_view_zoom_set( 0.062010 )
+ga_view_center_set( -0.075182, -0.319655 )
+ga_view_aa_set( -88.394615, 1.094140, -0.538425 )
+ga_view_center_set( -0.199201, -0.302912 )
+ga_view_aa_set( -92.394615, 1.094140, -0.538425 )
+ga_view_center_set( -0.196688, -0.303745 )
+ga_view_zoom_set( 0.069761 )
+ga_view_center_set( -0.188206, -0.306557 )
+ga_view_zoom_set( 0.095921 )
+ga_view_center_set( -0.184319, -0.307845 )
+ga_view_zoom_set( 0.107911 )
+ga_view_center_set( -0.191238, -0.304268 )
+ga_view_zoom_set( 0.086329 )
+ga_view_center_set( -0.194313, -0.302678 )
+ga_view_zoom_set( 0.076737 )
+ga_view_center_set( -0.202513, -0.298438 )
+ga_view_zoom_set( 0.051158 )
+ga_view_center_set( -0.204315, -0.297371 )
+ga_view_zoom_set( 0.045474 )
+ga_view_center_set( -0.209119, -0.294528 )
+ga_view_zoom_set( 0.030316 )
+ga_view_center_set( -0.210186, -0.293896 )
+ga_view_zoom_set( 0.026947 )
+ga_view_center_set( -0.211894, -0.292727 )
+ga_view_zoom_set( 0.021558 )
+ga_view_center_set( -0.213261, -0.291793 )
+ga_view_zoom_set( 0.017246 )
+ga_view_center_set( -0.213868, -0.291378 )
+ga_view_zoom_set( 0.015330 )
+ga_view_aa_set( -90.288445, 1.686272, -3.560858 )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_center_set( -0.213491, -0.291681 )
+ga_view_zoom_set( 0.017246 )
+ga_view_center_set( -0.212643, -0.292364 )
+ga_view_zoom_set( 0.021558 )
+ga_view_center_set( -0.212113, -0.292791 )
+ga_view_zoom_set( 0.024253 )
+ga_view_aa_set( 63.002918, -0.358352, 0.933592 )
+ga_view_center_set( -0.196081, -0.244093 )
+ga_view_zoom_set( 0.030316 )
+ga_view_center_set( -0.193623, -0.239910 )
+ga_view_zoom_set( 0.037895 )
+ga_view_center_set( -0.190552, -0.234785 )
+ga_view_zoom_set( 0.047368 )
+ga_view_center_set( -0.188610, -0.232552 )
+ga_view_zoom_set( 0.053290 )
+ga_view_center_set( -0.180263, -0.227068 )
+ga_view_zoom_set( 0.079934 )
+ga_view_center_set( -0.177059, -0.226322 )
+ga_view_zoom_set( 0.089926 )
+ga_view_center_set( -0.155929, -0.242845 )
+ga_view_zoom_set( 0.123648 )
+ga_view_center_set( -0.147146, -0.249292 )
+ga_view_zoom_set( 0.139104 )
+ga_view_center_set( -0.138151, -0.255341 )
+ga_view_zoom_set( 0.156492 )
+ga_view_center_set( -0.128673, -0.261149 )
+ga_view_zoom_set( 0.176054 )
+ga_view_center_set( -0.121457, -0.262552 )
+ga_view_zoom_set( 0.198061 )
+ga_view_center_set( -0.091514, -0.266340 )
+ga_view_zoom_set( 0.297091 )
+ga_view_aa_set( -82.724693, 2.295202, 8.991838 )
+ga_view_center_set( 0.000584, -0.016784 )
+ga_view_aa_set( -68.781952, -1.101393, -34.463810 )
+ga_view_center_set( 0.000584, -0.014281 )
+ga_view_zoom_set( 0.334228 )
+ga_view_center_set( 0.000584, -0.011465 )
+ga_view_zoom_set( 0.376006 )
+ga_view_center_set( 0.000242, -0.007613 )
+ga_view_zoom_set( 0.423007 )
+ga_view_aa_set( -68.754707, -0.014757, -31.667351 )
+ga_view_aa_set( -85.816528, 1.243417, -21.761271 )
+ga_view_center_set( 0.108321, -0.013665 )
+ga_view_zoom_set( 0.475883 )
+ga_view_aa_set( -78.667534, -0.033644, -33.687019 )
+ga_view_aa_set( -113.173195, 6.445837, 11.702856 )
+ga_view_aa_set( -61.708702, -6.029807, -33.729748 )
+ga_view_aa_set( -58.490601, -0.083672, 12.931177 )
+ga_view_aa_set( -74.525665, -1.293668, 10.191205 )
+ga_view_center_set( 0.115949, -0.038109 )
+ga_view_zoom_set( 0.380706 )
+ga_view_center_set( 0.122051, -0.057665 )
+ga_view_zoom_set( 0.304565 )
+ga_view_center_set( 0.136614, -0.056208 )
+ga_view_zoom_set( 0.342635 )
+ga_view_center_set( 0.169379, -0.052932 )
+ga_view_zoom_set( 0.428294 )
+ga_view_center_set( 0.141468, -0.056312 )
+ga_view_zoom_set( 0.380706 )
+ga_view_center_set( 0.080570, -0.063688 )
+ga_view_zoom_set( 0.276877 )
+ga_view_center_set( 0.062526, -0.065874 )
+ga_view_zoom_set( 0.246113 )
+ga_view_center_set( 0.033656, -0.069370 )
+ga_view_zoom_set( 0.196890 )
+ga_view_center_set( 0.010416, -0.072311 )
+ga_view_zoom_set( 0.157512 )
+ga_view_center_set( 0.000088, -0.073618 )
+ga_view_zoom_set( 0.140011 )
+ga_view_center_set( 0.011706, -0.069793 )
+ga_view_zoom_set( 0.124454 )
+ga_view_center_set( 0.043292, -0.059441 )
+ga_view_zoom_set( 0.082969 )
+ga_view_center_set( 0.053065, -0.056065 )
+ga_view_zoom_set( 0.073751 )
+ga_view_center_set( 0.069239, -0.050772 )
+ga_view_zoom_set( 0.059000 )
+ga_view_center_set( 0.083210, -0.046538 )
+ga_view_zoom_set( 0.047200 )
+ga_view_center_set( 0.101058, -0.041741 )
+ga_view_zoom_set( 0.037760 )
+ga_view_center_set( 0.120529, -0.036507 )
+ga_view_zoom_set( 0.027462 )
+ga_view_center_set( 0.114964, -0.037089 )
+ga_view_zoom_set( 0.030895 )
+ga_view_center_set( 0.102556, -0.038144 )
+ga_view_zoom_set( 0.038618 )
+ga_view_center_set( 0.094853, -0.038680 )
+ga_view_zoom_set( 0.043446 )
+ga_view_center_set( 0.077878, -0.039254 )
+ga_view_zoom_set( 0.054307 )
+ga_view_center_set( 0.071696, -0.036249 )
+ga_view_zoom_set( 0.061096 )
+ga_view_center_set( 0.051665, -0.025524 )
+ga_view_zoom_set( 0.084007 )
+ga_view_center_set( 0.042522, -0.020570 )
+ga_view_zoom_set( 0.094507 )
+ga_view_center_set( 0.023414, -0.009338 )
+ga_view_zoom_set( 0.118134 )
+ga_view_center_set( 0.015129, -0.001564 )
+ga_view_zoom_set( 0.132901 )
+ga_view_center_set( -0.020698, 0.033416 )
+ga_view_zoom_set( 0.199351 )
+ga_view_center_set( -0.032954, 0.045989 )
+ga_view_zoom_set( 0.224270 )
+ga_view_center_set( -0.059098, 0.074074 )
+ga_view_zoom_set( 0.280338 )
+ga_view_center_set( -0.075438, 0.091627 )
+ga_view_zoom_set( 0.315380 )
+ga_view_center_set( -0.112204, 0.131121 )
+ga_view_zoom_set( 0.394225 )
+ga_view_center_set( -0.104319, -0.034454 )
+ga_view_center_set( -0.087564, -0.048097 )
+ga_view_zoom_set( 0.350423 )
+ga_view_center_set( -0.072954, -0.060650 )
+ga_view_zoom_set( 0.311487 )
+ga_view_center_set( -0.049806, -0.081416 )
+ga_view_zoom_set( 0.249189 )
+ga_view_center_set( -0.039820, -0.090847 )
+ga_view_zoom_set( 0.221502 )
+ga_view_center_set( -0.013729, -0.117072 )
+ga_view_zoom_set( 0.147668 )
+ga_view_center_set( -0.007991, -0.122960 )
+ga_view_zoom_set( 0.131260 )
+ga_view_center_set( 0.000903, -0.132762 )
+ga_view_zoom_set( 0.105008 )
+ga_view_center_set( 0.007942, -0.140604 )
+ga_view_zoom_set( 0.084007 )
+ga_view_center_set( 0.028103, -0.201089 )
+ga_view_center_set( 0.026611, -0.196824 )
+ga_view_zoom_set( 0.094507 )
+ga_view_center_set( 0.023255, -0.187227 )
+ga_view_zoom_set( 0.118134 )
+ga_view_center_set( 0.019059, -0.175231 )
+ga_view_zoom_set( 0.147668 )
+ga_view_center_set( 0.016436, -0.167733 )
+ga_view_zoom_set( 0.166126 )
+ga_view_center_set( 0.010838, -0.148896 )
+ga_view_zoom_set( 0.207658 )
+ga_view_center_set( 0.000342, -0.113577 )
+ga_view_zoom_set( 0.285529 )
+ga_view_center_set( -0.004209, -0.097259 )
+ga_view_zoom_set( 0.321221 )
+ga_view_center_set( -0.009329, -0.078902 )
+ga_view_zoom_set( 0.361373 )
+ga_view_center_set( -0.015088, -0.058250 )
+ga_view_zoom_set( 0.406545 )
+ga_view_center_set( -0.011023, -0.009464 )
+ga_view_center_set( -0.016618, 0.006416 )
+ga_view_zoom_set( 0.361373 )
+ga_view_center_set( -0.021591, 0.020531 )
+ga_view_zoom_set( 0.321221 )
+ga_view_center_set( -0.026012, 0.033079 )
+ga_view_zoom_set( 0.285529 )
+ga_view_center_set( -0.033293, 0.052946 )
+ga_view_zoom_set( 0.228424 )
+ga_view_center_set( -0.036529, 0.061684 )
+ga_view_zoom_set( 0.203043 )
+ga_view_center_set( -0.045159, 0.084984 )
+ga_view_zoom_set( 0.135362 )
+ga_view_center_set( -0.047132, 0.089942 )
+ga_view_zoom_set( 0.120322 )
+ga_view_center_set( -0.052684, 0.102873 )
+ga_view_zoom_set( 0.080215 )
+ga_view_center_set( -0.046985, 0.092426 )
+ga_view_zoom_set( 0.120322 )
+ga_view_center_set( -0.042712, 0.084591 )
+ga_view_zoom_set( 0.150402 )
+ga_view_center_set( -0.040452, 0.080584 )
+ga_view_zoom_set( 0.169203 )
+ga_view_center_set( -0.032824, 0.067062 )
+ga_view_zoom_set( 0.232654 )
+ga_view_center_set( -0.029327, 0.060864 )
+ga_view_zoom_set( 0.261735 )
+ga_view_center_set( -0.025513, 0.054011 )
+ga_view_zoom_set( 0.294452 )
+ga_view_center_set( -0.021223, 0.046301 )
+ga_view_zoom_set( 0.331259 )
+ga_view_center_set( -0.016396, 0.037778 )
+ga_view_zoom_set( 0.372666 )
+ga_view_center_set( -0.010965, 0.028190 )
+ga_view_zoom_set( 0.419249 )
+ga_view_center_set( 0.026767, 0.023998 )
+ga_view_aa_set( -96.676949, 0.538300, 31.942123 )
+ga_view_center_set( 0.007252, 0.009149 )
+ga_view_zoom_set( 0.372666 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Panel_xn"] )
+gm_visibility_widget( " Node 1000:1624 2000:3877 10001:10004 10007:10010 1" // @
+"0013:10016 10019:10022 10025:10028 10031:10034 10037:10040 10043:10046 10" // @
+"049:10052 10055:10058 10061:10064 10067:10070 Element 1000:1911 2000:4738" // @
+" 10000:10059 MPC 2001:2003", FALSE )
+gm_visibility_widget( " Point 1:200 Curve 1:64 Surface 1:147", TRUE )
+ga_view_aa_set( -22.498549, -76.244560, -166.402618 )
+ga_view_aa_set( 149.347107, -52.227551, 94.832626 )
+ga_view_aa_set( -110.397789, -83.748466, 145.243042 )
+ga_view_aa_set( -130.697800, 65.377998, 70.000893 )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.plot(  )
+ga_view_aa_set( -74.094933, 6.925579, 92.742271 )
+ga_view_aa_set( -125.264938, 5.523964, 102.266533 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( 180., -90., 180. )
+ga_view_center_set( 0.014284, -0.035890 )
+ga_view_zoom_set( 0.446682 )
+ga_view_center_set( 0.030353, -0.076267 )
+ga_view_zoom_set( 0.502518 )
+ga_view_center_set( 0.014284, -0.037314 )
+ga_view_zoom_set( 0.446682 )
+ga_view_center_set( -0.000000, -0.003232 )
+ga_view_zoom_set( 0.397051 )
+ga_view_center_set( -0.022854, 0.051010 )
+ga_view_zoom_set( 0.317641 )
+ga_view_center_set( -0.032383, -0.047459 )
+ga_view_aa_set( 23., -34., 0. )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( 180., -90., 180. )
+$# UNDO: FEM Create Mesh Seed for Curve 64
+mesh_seed_display_mgr.refresh(  )
+ga_view_center_set( -0.108929, -0.050597 )
+ga_view_zoom_set( 0.373228 )
+ga_view_center_set( -0.198871, -0.054286 )
+ga_view_zoom_set( 0.438543 )
+ga_view_center_set( -0.274358, -0.057381 )
+ga_view_zoom_set( 0.493361 )
+ga_view_center_set( -0.198871, -0.054286 )
+ga_view_zoom_set( 0.438543 )
+ga_view_center_set( -0.131772, -0.051534 )
+ga_view_zoom_set( 0.389816 )
+ga_view_center_set( -0.072128, -0.049088 )
+ga_view_zoom_set( 0.346503 )
+ga_view_center_set( -0.009891, -0.046536 )
+ga_view_zoom_set( 0.301307 )
+ga_view_center_set( 0.036211, -0.044646 )
+ga_view_zoom_set( 0.267828 )
+ga_view_center_set( -0.009891, -0.046536 )
+ga_view_zoom_set( 0.301307 )
+ga_view_center_set( -0.061755, -0.048663 )
+ga_view_zoom_set( 0.338970 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 2, ["Bandeja_A",  @
+"Panel_xn"] )
+ga_view_aa_set( 180., -90., 180. )
+ga_view_aa_set( -60.784386, -17.463419, 52.495815 )
+ga_view_aa_set( -72.435852, -9.645585, 130.188751 )
+ga_view_center_set( 0.091252, -0.220770 )
+ga_view_aa_set( -56.834187, 25.652470, -143.496872 )
+ga_view_center_set( 0.095273, -0.199390 )
+ga_view_zoom_set( 0.331155 )
+ga_view_center_set( 0.099345, -0.175639 )
+ga_view_zoom_set( 0.372549 )
+ga_view_center_set( 0.103925, -0.149598 )
+ga_view_zoom_set( 0.419118 )
+ga_view_center_set( 0.095985, -0.195861 )
+ga_view_zoom_set( 0.335295 )
+ga_view_center_set( 0.092457, -0.216423 )
+ga_view_zoom_set( 0.298040 )
+ga_view_center_set( 0.089320, -0.234700 )
+ga_view_zoom_set( 0.264924 )
+ga_view_center_set( 0.085674, -0.251053 )
+ga_view_zoom_set( 0.235488 )
+ga_view_center_set( 0.082433, -0.265589 )
+ga_view_zoom_set( 0.209323 )
+ga_view_center_set( 0.077248, -0.288847 )
+ga_view_zoom_set( 0.167458 )
+ga_view_center_set( 0.074943, -0.299184 )
+ga_view_zoom_set( 0.148852 )
+ga_view_center_set( 0.072895, -0.308071 )
+ga_view_zoom_set( 0.132313 )
+ga_view_center_set( 0.071074, -0.315971 )
+ga_view_zoom_set( 0.117611 )
+ga_view_center_set( 0.069455, -0.322993 )
+ga_view_zoom_set( 0.104543 )
+ga_view_aa_set( -60.562847, -1.087518, 146.048981 )
+ga_view_center_set( 0.067598, -0.314114 )
+ga_view_zoom_set( 0.117611 )
+ga_view_center_set( 0.065510, -0.304126 )
+ga_view_zoom_set( 0.132313 )
+ga_view_center_set( 0.063100, -0.292768 )
+ga_view_zoom_set( 0.148852 )
+ga_view_center_set( 0.060388, -0.279991 )
+ga_view_zoom_set( 0.167458 )
+ga_view_center_set( 0.057338, -0.265617 )
+ga_view_zoom_set( 0.188390 )
+ga_view_aa_set( -60.550056, -0.595943, 146.919922 )
+ga_view_aa_set( -85.992119, 21.186253, -135.309540 )
+ga_view_aa_set( -60.882530, 11.377912, -162.587097 )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 07-Apr-21 17:37:49
