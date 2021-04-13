@@ -1,0 +1,74 @@
+Grupo 8
+
+Diseño de bandejas:
+	
+	Rigidizadores de sección rectangular en los cuatro bordes (exteriores)
+	Configuración isogrid
+	Masa puntual 10 kg
+	Dimensiones 600 x 600 mm
+
+ 	-Bandeja intermedia
+	Masa puntual a 80mm de la superficie unida RBE2 a 4 cruces de rigidizadores
+	Simplemente apoyada en todo el contorno exterior
+	
+	-Bandeja inferior
+	Masa puntual a 80mm de la superficie, centrada y unida RBE2 a 4 cruces de rigidizadores
+	Masa puntual a 0.38m de la supercicie, centrada y unida RBE2 sobre el contorno exterior
+		M2 = Mequipo * (2+3.5 * L_bandeja)
+	Elementos CBUSH (tornillos) entre 8 y 12 (para unirse al sistema de separación) 
+		con nodos superiores situados en los cruces de rigidizadores y que no coincidan con los de la masa puntual
+		con nodos inferiores a 20 mm de la superficie de la bandeja restringidos sus 6 gdl
+	
+	
+	Diseño óptimo
+		
+		Requisitos:
+			frecuencias > 150 Hz 	(Análisis de modos propios) 	-> La primera entre 150 y 175 Hz
+			MoS > 0			(Análisis estático)		-> MoS para Von Mises en caso más crítico entre 0 y 0.5
+		*Mirar fórmulas del pdf para aceleraciones y MoS*
+
+		Variables:
+			material
+			espesor de la bandeja
+			diseño, cantidad y distribución de rigidizadores interiores
+			sección de los rigidizadores exteriores (rectangulares)
+
+Análisis de la estructura del microsatélite:
+	
+	Bandeja inferior abajo pero sin la segunda masa (A)
+	Tres bandejas intermedias encima (B,C,D) la bandeja de arriba (D) sin equipo
+	Vigas de sección en L en las esquinas
+	Paneles de cierre (láminas) unidos a las vigas y a los bordes de las bandejas
+	Tornillos iguales que antes (ahí se aplican las BC)
+
+	Altura total: 600 mm (sin contar la longitud de los tornillos)
+		A: 0 mm
+		B: 200 mm
+		C: 400 mm
+
+	Diseño optimo
+		
+		Requisitos:
+			Primera frecuencia lateral > 45 Hz
+			Primera frecuencia longitudinal > 90 Hz
+		
+		Variables:
+			dimensiones de vigas y de paneles de cierre
+
+			
+	Análisis
+		
+		MoS Von Mises en elementos 2D
+		Tensiones máximas (Maximum combined, minimum combined) de los elementos 1D -> sección 4.3.14.4 del manual
+			* Sobre cómo visualizar las tensiones ver pdf *
+		MoS tornillos 
+			* Datos y fórmulas en pdf *
+	
+		Satélite completo:
+			Carga gravitatoria
+			Frecuencias como sólido rígido
+			Energía de deformación
+			Análisis estático
+			Vibraciones sinusoidales
+			Vibraciones aleatorias
+	
