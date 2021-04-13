@@ -1,0 +1,3233 @@
+$# Creating journal file C:\MUSE\EUE\Satelite\Bandeja_A\Bandeja_A.db.jou at 
+$# 13-Apr-21 19:48:28
+uil_file_rebuild.start("C:\Program Files\MSC.Software\NaPa_SE\2020\Patran/" // @
+"template.db","C:\MUSE\EUE\Satelite\Bandeja_A\Bandeja_A.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\MUSE\EUE\Satelite\Bandeja_A" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+db_set_pref( 303, 3, 0, FALSE, 4.9999999E-06, "" )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1", "[-0.3 -0.3 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1
+point_size( 9 )
+ga_view_center_set( 0.000008, 0.000007 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.000008, 0.000007 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.000008, 0.000007 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000009, 0.000007 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000009, 0.000007 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000009, 0.000007 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000009, 0.000007 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000009, 0.000007 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000009, 0.000007 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000009, 0.000007 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000008, 0.000007 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000008, 0.000007 )
+ga_view_zoom_set( 0.000004 )
+point_size( 1 )
+point_size( 9 )
+ga_view_center_set( 0.000008, 0.000007 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000008, 0.000007 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.000006, 0.000007 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.000006, 0.000007 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.000006, 0.000007 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000001 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000007, 0.000007 )
+ga_view_zoom_set( 0.000002 )
+ga_view_center_set( 0.000008, 0.000007 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000008, 0.000007 )
+ga_view_zoom_set( 0.000003 )
+ga_view_center_set( 0.000008, 0.000007 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.000008, 0.000007 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.000008, 0.000007 )
+ga_view_zoom_set( 0.000004 )
+ga_view_center_set( 0.000009, 0.000007 )
+ga_view_zoom_set( 0.000005 )
+ga_view_center_set( 0.000010, 0.000007 )
+ga_view_zoom_set( 0.000006 )
+ga_view_center_set( 0.000010, 0.000007 )
+ga_view_zoom_set( 0.000008 )
+ga_view_center_set( 0.000011, 0.000007 )
+ga_view_zoom_set( 0.000009 )
+ga_view_center_set( 0.000012, 0.000008 )
+ga_view_zoom_set( 0.000010 )
+ga_view_center_set( 0.000013, 0.000008 )
+ga_view_zoom_set( 0.000012 )
+ga_view_center_set( 0.000014, 0.000008 )
+ga_view_zoom_set( 0.000014 )
+ga_view_center_set( 0.000015, 0.000008 )
+ga_view_zoom_set( 0.000016 )
+ga_view_center_set( 0.000016, 0.000008 )
+ga_view_zoom_set( 0.000018 )
+ga_view_center_set( 0.000019, 0.000009 )
+ga_view_zoom_set( 0.000022 )
+ga_view_center_set( 0.000023, 0.000009 )
+ga_view_zoom_set( 0.000030 )
+ga_view_center_set( 0.000026, 0.000010 )
+ga_view_zoom_set( 0.000034 )
+ga_view_center_set( 0.000030, 0.000011 )
+ga_view_zoom_set( 0.000043 )
+ga_view_center_set( 0.000033, 0.000011 )
+ga_view_zoom_set( 0.000048 )
+ga_view_center_set( 0.000040, 0.000012 )
+ga_view_zoom_set( 0.000060 )
+ga_view_center_set( 0.000045, 0.000013 )
+ga_view_zoom_set( 0.000067 )
+STRING sgm_transform_point_created_ids[VIRTUAL]
+asm_transform_grid_translate_1( "2", "<0.1091 0 0>", 0.1091, FALSE, "Coord 0", @
+ 5, FALSE, FALSE, "Point 1", sgm_transform_point_created_ids )
+$# 5 Points created: Grid 2:6
+ga_view_center_set( 0.024946, -0.001832 )
+ga_view_zoom_set( 0.090259 )
+ga_view_center_set( 0.000073, -0.000073 )
+ga_view_zoom_set( 0.101542 )
+ga_view_center_set( -0.027908, 0.001905 )
+ga_view_zoom_set( 0.114235 )
+ga_view_center_set( -0.059388, 0.004130 )
+ga_view_zoom_set( 0.128514 )
+ga_view_center_set( -0.094802, 0.006634 )
+ga_view_zoom_set( 0.144578 )
+ga_view_center_set( -0.134643, 0.009450 )
+ga_view_zoom_set( 0.162650 )
+ga_view_center_set( -0.179465, 0.012619 )
+ga_view_zoom_set( 0.182982 )
+asm_transform_grid_translate_1( "7", "<0.05454 0 0>", 0.054540001, FALSE,  @
+"Coord 0", 1, FALSE, FALSE, "Point 6", sgm_transform_point_created_ids )
+$# 1 Point created: Grid 7
+asm_transform_grid_translate_1( "8", "<0 0.0857 0>", 0.085699998, FALSE,  @
+"Coord 0", 7, FALSE, FALSE, "Point 1:7", sgm_transform_point_created_ids )
+$# 49 Points created: Grid 8:56
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "1", "Point 1", "Point 8", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 1
+asm_const_line_2point( "2", "Point 8", "Point 15", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 2
+asm_const_line_2point( "3", "Point 15", "Point 22", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 3
+asm_const_line_2point( "4", "Point 22", "Point 29", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 4
+asm_const_line_2point( "5", "Point 29", "Point 36", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 5
+asm_const_line_2point( "6", "Point 36", "Point 43", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 6
+asm_const_line_2point( "7", "Point 43", "Point 50", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 7
+asm_const_line_2point( "8", "Point 2", "Point 9", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 8
+asm_const_line_2point( "9", "Point 9", "Point 16", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 9
+asm_const_line_2point( "10", "Point 16", "Point 23", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 10
+asm_const_line_2point( "11", "Point 23", "Point 30", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 11
+asm_const_line_2point( "12", "Point 30", "Point 37", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 12
+asm_const_line_2point( "13", "Point 37", "Point 44", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 13
+asm_const_line_2point( "14", "Point 44", "Point 51", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 14
+asm_const_line_2point( "15", "Point 3", "Point 10", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 15
+asm_const_line_2point( "16", "Point 10", "Point 17", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 16
+asm_const_line_2point( "17", "Point 17", "Point 24", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 17
+asm_const_line_2point( "18", "Point 24", "Point 31", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 18
+asm_const_line_2point( "19", "Point 31", "Point 38", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 19
+asm_const_line_2point( "20", "Point 38", "Point 45", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 20
+asm_const_line_2point( "21", "Point 45", "Point 52", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 21
+asm_const_line_2point( "22", "Point 4", "Point 11", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 22
+asm_const_line_2point( "23", "Point 11", "Point 18", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 23
+asm_const_line_2point( "24", "Point 18", "Point 25", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 24
+asm_const_line_2point( "25", "Point 25", "Point 32", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 25
+asm_const_line_2point( "26", "Point 32", "Point 39", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 26
+asm_const_line_2point( "27", "Point 39", "Point 46", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 27
+asm_const_line_2point( "28", "Point 46", "Point 53", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 28
+asm_const_line_2point( "29", "Point 5", "Point 12", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 29
+asm_const_line_2point( "30", "Point 12", "Point 19", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 30
+asm_const_line_2point( "31", "Point 19", "Point 26", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 31
+asm_const_line_2point( "32", "Point 26", "Point 33", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 32
+asm_const_line_2point( "33", "Point 33", "Point 40", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 33
+asm_const_line_2point( "34", "Point 40", "Point 47", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 34
+asm_const_line_2point( "35", "Point 47", "Point 54", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 35
+asm_const_line_2point( "36", "Point 6", "Point 13", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 36
+asm_const_line_2point( "37", "Point 13", "Point 20", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 37
+asm_const_line_2point( "38", "Point 20", "Point 27", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 38
+asm_const_line_2point( "39", "Point 27", "Point 34", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 39
+asm_const_line_2point( "40", "Point 34", "Point 41", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 40
+asm_const_line_2point( "41", "Point 41", "Point 48", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 41
+asm_const_line_2point( "42", "Point 48", "Point 55", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 42
+asm_const_line_2point( "43", "Point 7", "Point 14", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 43
+asm_const_line_2point( "44", "Point 14", "Point 21", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 44
+asm_const_line_2point( "45", "Point 21", "Point 28", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 45
+asm_const_line_2point( "46", "Point 28", "Point 35", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 46
+asm_const_line_2point( "47", "Point 35", "Point 42", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 47
+asm_const_line_2point( "48", "Point 42", "Point 49", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 48
+asm_const_line_2point( "49", "Point 49", "Point 56", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 49
+asm_const_line_2point( "50", "Point 1", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 50
+asm_const_line_2point( "51", "Point 2", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 51
+asm_const_line_2point( "52", "Point 3", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 52
+asm_const_line_2point( "53", "Point 4", "Point 5", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 53
+asm_const_line_2point( "54", "Point 5", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 54
+asm_const_line_2point( "55", "Point 6", "Point 7", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 55
+asm_const_line_2point( "56", "Point 8", "Point 9", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 56
+STRING asm_delete_any_deleted_ids[VIRTUAL]
+asm_delete_curve( "Curve 56", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 56
+asm_delete_point( "Point 9", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 9
+asm_delete_curve( "Curve 8", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 8
+asm_delete_curve( "Curve 9", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 9
+asm_delete_point( "Point 13", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 13
+asm_delete_point( "Point 12", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 12
+asm_delete_point( "Point 11", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 11
+asm_delete_point( "Point 10", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 10
+asm_delete_point( "Point 23", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 23
+asm_delete_point( "Point 24", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 24
+asm_delete_point( "Point 25", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 25
+asm_delete_point( "Point 26", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 26
+asm_delete_point( "Point 27", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 27
+asm_delete_point( "Point 41", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 41
+asm_delete_point( "Point 40", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 40
+asm_delete_point( "Point 39", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 39
+asm_delete_point( "Point 38", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 38
+asm_delete_point( "Point 37", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 37
+asm_delete_curve( "Curve 42", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 42
+asm_delete_curve( "Curve 35", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 35
+asm_delete_curve( "Curve 28", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 28
+asm_delete_curve( "Curve 21", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 21
+asm_delete_curve( "Curve 14", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 14
+asm_delete_curve( "Curve 13", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 13
+asm_delete_curve( "Curve 12", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 12
+asm_delete_curve( "Curve 11", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 11
+asm_delete_curve( "Curve 10", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 10
+asm_delete_curve( "Curve 18", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 18
+asm_delete_curve( "Curve 17", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 17
+asm_delete_curve( "Curve 16", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 16
+asm_delete_curve( "Curve 15", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 15
+asm_delete_curve( "Curve 20", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 20
+asm_delete_curve( "Curve 19", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 19
+asm_delete_curve( "Curve 27", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 27
+asm_delete_curve( "Curve 26", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 26
+asm_delete_curve( "Curve 34", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 34
+asm_delete_curve( "Curve 33", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 33
+asm_delete_curve( "Curve 41", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 41
+asm_delete_curve( "Curve 40", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 40
+asm_delete_curve( "Curve 39", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 39
+asm_delete_curve( "Curve 38", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 38
+asm_delete_curve( "Curve 37", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 37
+asm_delete_curve( "Curve 36", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 36
+asm_delete_curve( "Curve 30", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 30
+asm_delete_curve( "Curve 29", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 29
+asm_delete_curve( "Curve 23", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 23
+asm_delete_curve( "Curve 22", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 22
+asm_delete_curve( "Curve 24", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 24
+asm_delete_curve( "Curve 25", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 25
+asm_delete_curve( "Curve 32", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 32
+asm_delete_curve( "Curve 31", asm_delete_any_deleted_ids )
+$# 1 Curve Deleted: Curve 31
+asm_delete_point( "Point 55", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 55
+asm_delete_point( "Point 54", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 54
+asm_delete_point( "Point 52", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 52
+asm_delete_point( "Point 51", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 51
+asm_delete_point( "Point 53", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 53
+asm_transform_grid_translate_1( "57", "<0.05454 0  0>", 0.054540001, FALSE,  @
+"Coord 0", 1, FALSE, FALSE, "Point 8", sgm_transform_point_created_ids )
+$# 1 Point created: Grid 57
+asm_transform_grid_translate_1( "58", "<0.05454 0  0>", 0.054540001, FALSE,  @
+"Coord 0", 1, FALSE, FALSE, "Point 22", sgm_transform_point_created_ids )
+$# 1 Point created: Grid 58
+asm_transform_grid_translate_1( "59", "<0.05454 0  0>", 0.054540001, FALSE,  @
+"Coord 0", 1, FALSE, FALSE, "Point 36", sgm_transform_point_created_ids )
+$# 1 Point created: Grid 59
+asm_transform_grid_translate_1( "60", "<0.05454 0  0>", 0.054540001, FALSE,  @
+"Coord 0", 1, FALSE, FALSE, "Point 50", sgm_transform_point_created_ids )
+$# 1 Point created: Grid 60
+asm_transform_grid_translate_1( "61", "<0.10909 0  0>", 0.10909, FALSE,  @
+"Coord 0", 4, FALSE, FALSE, "Point 57", sgm_transform_point_created_ids )
+$# 4 Points created: Grid 61:64
+asm_transform_grid_translate_1( "65", "<0.10909 0  0>", 0.10909, FALSE,  @
+"Coord 0", 4, FALSE, FALSE, "Point 58", sgm_transform_point_created_ids )
+$# 4 Points created: Grid 65:68
+asm_transform_grid_translate_1( "69", "<0.10909 0  0>", 0.10909, FALSE,  @
+"Coord 0", 4, FALSE, FALSE, "Point 59", sgm_transform_point_created_ids )
+$# 4 Points created: Grid 69:72
+asm_transform_grid_translate_1( "73", "<0.10909 0  0>", 0.10909, FALSE,  @
+"Coord 0", 4, FALSE, FALSE, "Point 60", sgm_transform_point_created_ids )
+$# 4 Points created: Grid 73:76
+asm_const_line_2point( "56", "Point 50", "Point 60", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 56
+asm_const_line_2point( "57", "Point 60", "Point 73", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 57
+asm_const_line_2point( "58", "Point 73", "Point 74", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 58
+asm_const_line_2point( "59", "Point 74", "Point 75", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 59
+asm_const_line_2point( "60", "Point 75", "Point 76", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 60
+asm_const_line_2point( "61", "Point 76", "Point 56", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 61
+asm_const_line_2point( "62", "Point 43", "Point 44", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 62
+asm_const_line_2point( "63", "Point 44", "Point 45", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 63
+asm_const_line_2point( "64", "Point 45", "Point 46", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 64
+asm_const_line_2point( "65", "Point 46", "Point 47", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 65
+asm_const_line_2point( "66", "Point 47", "Point 48", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 66
+asm_const_line_2point( "67", "Point 48", "Point 49", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 67
+asm_const_line_2point( "68", "Point 36", "Point 59", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 68
+asm_const_line_2point( "69", "Point 59", "Point 69", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 69
+asm_const_line_2point( "70", "Point 69", "Point 70", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 70
+asm_const_line_2point( "71", "Point 70", "Point 71", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 71
+asm_const_line_2point( "72", "Point 71", "Point 72", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 72
+asm_const_line_2point( "73", "Point 72", "Point 42", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 73
+asm_const_line_2point( "74", "Point 29", "Point 30", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 74
+asm_const_line_2point( "75", "Point 30", "Point 31", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 75
+asm_const_line_2point( "76", "Point 31", "Point 32", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 76
+asm_const_line_2point( "77", "Point 32", "Point 33", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 77
+asm_const_line_2point( "78", "Point 33", "Point 34", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 78
+asm_const_line_2point( "79", "Point 34", "Point 35", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 79
+asm_const_line_2point( "80", "Point 22", "Point 58", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 80
+asm_const_line_2point( "81", "Point 58", "Point 65", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 81
+asm_const_line_2point( "82", "Point 65", "Point 66", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 82
+asm_const_line_2point( "83", "Point 66", "Point 67", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 83
+asm_const_line_2point( "84", "Point 67", "Point 68", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 84
+asm_const_line_2point( "85", "Point 68", "Point 28", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 85
+asm_const_line_2point( "86", "Point 15", "Point 16", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 86
+asm_const_line_2point( "87", "Point 16", "Point 17", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 87
+asm_const_line_2point( "88", "Point 17", "Point 18", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 88
+asm_const_line_2point( "89", "Point 18", "Point 19", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 89
+asm_const_line_2point( "90", "Point 19", "Point 20", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 90
+asm_const_line_2point( "91", "Point 20", "Point 21", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 91
+asm_const_line_2point( "92", "Point 8", "Point 57", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 92
+asm_const_line_2point( "93", "Point 57", "Point 61", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 93
+asm_const_line_2point( "94", "Point 61", "Point 62", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 94
+asm_const_line_2point( "95", "Point 62", "Point 63", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 95
+asm_const_line_2point( "96", "Point 63", "Point 64", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 96
+asm_const_line_2point( "97", "Point 64", "Point 14", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 97
+asm_const_line_2point( "98", "Point 6", "Point 14", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 98
+asm_const_line_2point( "99", "Point 14", "Point 20", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 99
+asm_const_line_2point( "100", "Point 20", "Point 28", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 100
+asm_const_line_2point( "101", "Point 28", "Point 34", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 101
+asm_const_line_2point( "102", "Point 34", "Point 42", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 102
+asm_const_line_2point( "103", "Point 42", "Point 48", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 103
+asm_const_line_2point( "104", "Point 48", "Point 56", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 104
+asm_const_line_2point( "105", "Point 76", "Point 48", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 105
+asm_const_line_2point( "106", "Point 48", "Point 72", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 106
+asm_const_line_2point( "107", "Point 72", "Point 34", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 107
+asm_const_line_2point( "108", "Point 34", "Point 68", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 108
+asm_const_line_2point( "109", "Point 68", "Point 20", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 109
+asm_const_line_2point( "110", "Point 20", "Point 64", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 110
+asm_const_line_2point( "111", "Point 64", "Point 6", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 111
+asm_const_line_2point( "112", "Point 5", "Point 64", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 112
+asm_const_line_2point( "113", "Point 64", "Point 19", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 113
+asm_const_line_2point( "114", "Point 19", "Point 68", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 114
+asm_const_line_2point( "115", "Point 68", "Point 33", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 115
+asm_const_line_2point( "116", "Point 33", "Point 72", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 116
+asm_const_line_2point( "117", "Point 72", "Point 47", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 117
+asm_const_line_2point( "118", "Point 47", "Point 76", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 118
+asm_const_line_2point( "119", "Point 75", "Point 47", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 119
+asm_const_line_2point( "120", "Point 47", "Point 71", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 120
+asm_const_line_2point( "121", "Point 71", "Point 33", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 121
+asm_const_line_2point( "122", "Point 33", "Point 67", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 122
+asm_const_line_2point( "123", "Point 67", "Point 19", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 123
+asm_const_line_2point( "124", "Point 19", "Point 63", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 124
+asm_const_line_2point( "125", "Point 63", "Point 5", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 125
+asm_const_line_2point( "126", "Point 4", "Point 63", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 126
+asm_const_line_2point( "127", "Point 63", "Point 18", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 127
+asm_const_line_2point( "128", "Point 18", "Point 67", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 128
+asm_const_line_2point( "129", "Point 67", "Point 32", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 129
+asm_const_line_2point( "130", "Point 32", "Point 71", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 130
+asm_const_line_2point( "131", "Point 71", "Point 46", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 131
+asm_const_line_2point( "132", "Point 46", "Point 75", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 132
+asm_const_line_2point( "133", "Point 74", "Point 46", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 133
+asm_const_line_2point( "134", "Point 46", "Point 70", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 134
+asm_const_line_2point( "135", "Point 70", "Point 32", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 135
+asm_const_line_2point( "136", "Point 32", "Point 66", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 136
+asm_const_line_2point( "137", "Point 66", "Point 18", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 137
+asm_const_line_2point( "138", "Point 18", "Point 62", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 138
+asm_const_line_2point( "139", "Point 62", "Point 4", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 139
+asm_const_line_2point( "140", "Point 3", "Point 62", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 140
+asm_const_line_2point( "141", "Point 62", "Point 17", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 141
+asm_const_line_2point( "142", "Point 17", "Point 66", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 142
+asm_const_line_2point( "143", "Point 66", "Point 31", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 143
+asm_const_line_2point( "144", "Point 31", "Point 70", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 144
+asm_const_line_2point( "145", "Point 70", "Point 45", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 145
+asm_const_line_2point( "146", "Point 45", "Point 74", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 146
+asm_const_line_2point( "147", "Point 73", "Point 45", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 147
+asm_const_line_2point( "148", "Point 45", "Point 69", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 148
+asm_const_line_2point( "149", "Point 69", "Point 31", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 149
+asm_const_line_2point( "150", "Point 31", "Point 65", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 150
+asm_const_line_2point( "151", "Point 65", "Point 17", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 151
+asm_const_line_2point( "152", "Point 17", "Point 61", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 152
+asm_const_line_2point( "153", "Point 61", "Point 3", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 153
+asm_const_line_2point( "154", "Point 2", "Point 61", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 154
+asm_const_line_2point( "155", "Point 61", "Point 16", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 155
+asm_const_line_2point( "156", "Point 16", "Point 65", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 156
+asm_const_line_2point( "157", "Point 65", "Point 30", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 157
+asm_const_line_2point( "158", "Point 30", "Point 69", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 158
+asm_const_line_2point( "159", "Point 69", "Point 44", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 159
+asm_const_line_2point( "160", "Point 44", "Point 73", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 160
+asm_const_line_2point( "161", "Point 44", "Point 60", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 161
+asm_const_line_2point( "162", "Point 60", "Point 43", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 162
+asm_const_line_2point( "163", "Point 43", "Point 59", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 163
+asm_const_line_2point( "164", "Point 59", "Point 44", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 164
+asm_const_line_2point( "165", "Point 30", "Point 59", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 165
+$# UNDO: Create Curve 2Point for Point 59[ -0.300000 0.060797 0.000000 ]
+asm_const_line_2point( "166", "Point 29", "Point 59", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 166
+asm_const_line_2point( "167", "Point 58", "Point 29", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 167
+asm_const_line_2point( "168", "Point 58", "Point 15", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 168
+asm_const_line_2point( "169", "Point 15", "Point 57", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 169
+asm_const_line_2point( "170", "Point 57", "Point 1", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 170
+asm_const_line_2point( "171", "Point 57", "Point 2", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 171
+asm_const_line_2point( "172", "Point 57", "Point 16", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 172
+asm_const_line_2point( "173", "Point 16", "Point 58", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 173
+asm_const_line_2point( "174", "Point 58", "Point 30", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 174
+$# UNDO: Create Surface 3Curve for Curve 50Curve 171Curve 170
+$# UNDO: Create Surface 3Curve for Curve 50Curve 171Curve 170
+ga_view_center_set( -0.015971, -0.001039 )
+ga_view_zoom_set( 0.319947 )
+ga_view_center_set( -0.030168, -0.001962 )
+ga_view_zoom_set( 0.284397 )
+ga_view_center_set( -0.042787, -0.002783 )
+ga_view_zoom_set( 0.252797 )
+ga_view_center_set( -0.054005, -0.003512 )
+ga_view_zoom_set( 0.224709 )
+ga_view_center_set( -0.063975, -0.004161 )
+ga_view_zoom_set( 0.199741 )
+ga_view_center_set( -0.041683, -0.018428 )
+ga_view_zoom_set( 0.224709 )
+ga_view_center_set( -0.016604, -0.034479 )
+ga_view_zoom_set( 0.252797 )
+ga_view_center_set( 0.011610, -0.052536 )
+ga_view_zoom_set( 0.284397 )
+ga_view_center_set( -0.016604, -0.034479 )
+ga_view_zoom_set( 0.252797 )
+ga_view_center_set( -0.041683, -0.018428 )
+ga_view_zoom_set( 0.224709 )
+ga_view_center_set( -0.063976, -0.004161 )
+ga_view_zoom_set( 0.199741 )
+STRING sgm_surface_3curve_created_ids[VIRTUAL]
+sgm_const_surface_3curve_v1( "1", 1, "Curve 136", "Curve 129", "Curve 83",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 1
+ga_view_center_set( -0.001899, 0.002922 )
+ga_view_zoom_set( 0.404932 )
+ga_view_center_set( -0.004035, 0.006208 )
+ga_view_zoom_set( 0.455549 )
+ga_view_center_set( -0.006809, 0.009906 )
+ga_view_zoom_set( 0.512493 )
+ga_view_center_set( -0.010345, 0.014482 )
+ga_view_zoom_set( 0.576554 )
+ga_view_center_set( -0.014322, 0.019630 )
+ga_view_zoom_set( 0.648624 )
+ga_view_center_set( -0.019324, 0.025947 )
+ga_view_zoom_set( 0.729702 )
+ga_view_center_set( -0.024951, 0.033055 )
+ga_view_zoom_set( 0.820914 )
+ga_view_center_set( -0.019324, 0.025355 )
+ga_view_zoom_set( 0.729702 )
+ga_view_center_set( -0.007047, 0.008556 )
+ga_view_zoom_set( 0.530692 )
+ga_view_center_set( -0.000500, -0.000404 )
+ga_view_zoom_set( 0.424554 )
+ga_view_center_set( 0.002410, -0.004386 )
+ga_view_zoom_set( 0.377381 )
+ga_view_center_set( 0.004997, -0.007926 )
+ga_view_zoom_set( 0.335450 )
+ga_view_center_set( 0.003908, -0.012282 )
+ga_view_zoom_set( 0.298178 )
+ga_view_center_set( -0.000053, -0.022844 )
+ga_view_zoom_set( 0.216856 )
+ga_view_center_set( -0.001226, -0.025973 )
+ga_view_zoom_set( 0.192761 )
+ga_view_center_set( -0.003104, -0.030980 )
+ga_view_zoom_set( 0.154209 )
+ga_view_center_set( -0.004606, -0.035185 )
+ga_view_zoom_set( 0.123367 )
+uil_toolbar.shaded_smooth(  )
+sgm_const_surface_3curve_v1( "2", 1, "Curve 129", "Curve 77", "Curve 122",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 2
+uil_toolbar.shaded_smooth(  )
+ga_view_center_set( 0.009947, -0.035363 )
+ga_view_zoom_set( 0.109660 )
+ga_view_center_set( 0.022883, -0.035522 )
+ga_view_zoom_set( 0.097475 )
+ga_view_center_set( 0.034382, -0.035662 )
+ga_view_zoom_set( 0.086645 )
+ga_view_center_set( 0.044603, -0.035787 )
+ga_view_zoom_set( 0.077018 )
+ga_view_center_set( 0.053689, -0.035898 )
+ga_view_zoom_set( 0.068460 )
+ga_view_center_set( 0.057961, -0.036738 )
+ga_view_zoom_set( 0.060853 )
+ga_view_center_set( 0.061715, -0.037484 )
+ga_view_zoom_set( 0.054092 )
+ga_view_center_set( 0.065052, -0.038148 )
+ga_view_zoom_set( 0.048082 )
+ga_view_center_set( 0.067914, -0.038738 )
+ga_view_zoom_set( 0.042739 )
+ga_view_center_set( 0.070427, -0.039293 )
+ga_view_zoom_set( 0.037990 )
+ga_view_center_set( 0.072606, -0.039813 )
+ga_view_zoom_set( 0.033769 )
+ga_view_center_set( 0.071839, -0.041085 )
+ga_view_zoom_set( 0.027015 )
+ga_view_center_set( 0.071154, -0.042103 )
+ga_view_zoom_set( 0.021612 )
+ga_view_center_set( 0.070835, -0.042555 )
+ga_view_zoom_set( 0.019211 )
+ga_view_center_set( 0.070298, -0.043279 )
+ga_view_zoom_set( 0.015369 )
+ga_view_center_set( 0.070049, -0.043611 )
+ga_view_zoom_set( 0.013661 )
+ga_view_center_set( 0.069827, -0.043907 )
+ga_view_zoom_set( 0.012143 )
+ga_view_center_set( 0.070620, -0.044161 )
+ga_view_zoom_set( 0.010794 )
+ga_view_center_set( 0.071488, -0.044387 )
+ga_view_zoom_set( 0.009595 )
+ga_view_center_set( 0.072440, -0.044588 )
+ga_view_zoom_set( 0.008529 )
+ga_view_center_set( 0.073379, -0.044760 )
+ga_view_zoom_set( 0.007581 )
+ga_view_center_set( 0.075126, -0.044927 )
+ga_view_zoom_set( 0.006065 )
+ga_view_center_set( 0.075903, -0.045002 )
+ga_view_zoom_set( 0.005391 )
+ga_view_center_set( 0.076593, -0.045064 )
+ga_view_zoom_set( 0.004792 )
+ga_view_center_set( 0.077204, -0.045116 )
+ga_view_zoom_set( 0.004259 )
+ga_view_center_set( 0.077740, -0.045156 )
+ga_view_zoom_set( 0.003786 )
+ga_view_center_set( 0.078208, -0.045183 )
+ga_view_zoom_set( 0.003366 )
+ga_view_center_set( 0.077491, -0.045426 )
+ga_view_zoom_set( 0.003786 )
+ga_view_center_set( 0.078216, -0.045229 )
+ga_view_zoom_set( 0.003366 )
+ga_view_center_set( 0.078861, -0.045057 )
+ga_view_zoom_set( 0.002992 )
+ga_view_center_set( 0.079434, -0.044904 )
+ga_view_zoom_set( 0.002659 )
+ga_view_center_set( 0.079944, -0.044768 )
+ga_view_zoom_set( 0.002364 )
+ga_view_center_set( 0.080396, -0.044646 )
+ga_view_zoom_set( 0.002101 )
+ga_view_center_set( 0.079983, -0.044797 )
+ga_view_zoom_set( 0.002364 )
+ga_view_center_set( 0.079518, -0.044965 )
+ga_view_zoom_set( 0.002659 )
+ga_view_center_set( 0.078994, -0.045155 )
+ga_view_zoom_set( 0.002992 )
+ga_view_center_set( 0.078405, -0.045369 )
+ga_view_zoom_set( 0.003366 )
+ga_view_center_set( 0.077743, -0.045609 )
+ga_view_zoom_set( 0.003786 )
+ga_view_center_set( 0.076998, -0.045877 )
+ga_view_zoom_set( 0.004259 )
+ga_view_center_set( 0.076744, -0.046354 )
+ga_view_zoom_set( 0.004792 )
+ga_view_center_set( 0.076458, -0.046891 )
+ga_view_zoom_set( 0.005391 )
+ga_view_center_set( 0.076132, -0.047494 )
+ga_view_zoom_set( 0.006065 )
+ga_view_center_set( 0.075765, -0.048169 )
+ga_view_zoom_set( 0.006823 )
+ga_view_center_set( 0.074367, -0.048739 )
+ga_view_zoom_set( 0.007676 )
+ga_view_center_set( 0.072787, -0.049381 )
+ga_view_zoom_set( 0.008635 )
+ga_view_center_set( 0.067415, -0.051505 )
+ga_view_zoom_set( 0.011873 )
+ga_view_center_set( 0.064952, -0.052478 )
+ga_view_zoom_set( 0.013358 )
+ga_view_center_set( 0.062171, -0.053562 )
+ga_view_zoom_set( 0.015027 )
+ga_view_center_set( 0.055914, -0.056002 )
+ga_view_zoom_set( 0.018784 )
+ga_view_center_set( 0.044182, -0.060576 )
+ga_view_zoom_set( 0.025828 )
+ga_view_center_set( 0.038804, -0.062672 )
+ga_view_zoom_set( 0.029057 )
+ga_view_center_set( 0.032755, -0.065031 )
+ga_view_zoom_set( 0.032689 )
+ga_view_center_set( 0.019143, -0.070390 )
+ga_view_zoom_set( 0.040861 )
+ga_view_center_set( 0.010636, -0.073740 )
+ga_view_zoom_set( 0.045968 )
+ga_view_center_set( -0.018075, -0.085046 )
+ga_view_zoom_set( 0.063207 )
+ga_view_center_set( -0.031235, -0.090228 )
+ga_view_zoom_set( 0.071107 )
+ga_view_center_set( -0.046039, -0.096057 )
+ga_view_zoom_set( 0.079996 )
+ga_view_center_set( -0.062694, -0.102615 )
+ga_view_zoom_set( 0.089995 )
+ga_view_center_set( -0.081431, -0.109993 )
+ga_view_zoom_set( 0.101245 )
+ga_view_center_set( -0.102510, -0.118293 )
+ga_view_zoom_set( 0.113900 )
+ga_view_center_set( -0.126224, -0.127631 )
+ga_view_zoom_set( 0.128138 )
+ga_view_center_set( -0.152902, -0.138135 )
+ga_view_zoom_set( 0.144155 )
+ga_view_center_set( -0.182915, -0.149953 )
+ga_view_zoom_set( 0.162175 )
+ga_view_center_set( -0.152551, -0.136731 )
+ga_view_zoom_set( 0.144155 )
+ga_view_center_set( -0.125561, -0.124978 )
+ga_view_zoom_set( 0.128138 )
+ga_view_center_set( -0.101570, -0.114531 )
+ga_view_zoom_set( 0.113900 )
+ga_view_center_set( -0.080244, -0.105245 )
+ga_view_zoom_set( 0.101245 )
+ga_view_center_set( -0.061288, -0.096991 )
+ga_view_zoom_set( 0.089995 )
+ga_view_center_set( -0.044438, -0.089653 )
+ga_view_zoom_set( 0.079996 )
+ga_view_center_set( -0.029461, -0.083131 )
+ga_view_zoom_set( 0.071107 )
+ga_view_center_set( -0.016147, -0.077334 )
+ga_view_zoom_set( 0.063207 )
+ga_view_center_set( 0.019355, -0.061874 )
+ga_view_zoom_set( 0.042138 )
+ga_view_center_set( 0.038720, -0.053442 )
+ga_view_zoom_set( 0.030646 )
+ga_view_center_set( 0.044458, -0.050943 )
+ga_view_zoom_set( 0.027241 )
+ga_view_center_set( 0.035492, -0.052646 )
+ga_view_zoom_set( 0.030646 )
+ga_view_center_set( 0.025604, -0.054487 )
+ga_view_zoom_set( 0.034476 )
+ga_view_center_set( 0.014676, -0.056445 )
+ga_view_zoom_set( 0.038786 )
+ga_view_center_set( 0.002571, -0.058618 )
+ga_view_zoom_set( 0.043634 )
+ga_view_center_set( -0.010869, -0.061026 )
+ga_view_zoom_set( 0.049088 )
+ga_view_center_set( -0.025353, -0.063576 )
+ga_view_zoom_set( 0.055224 )
+ga_view_center_set( -0.041647, -0.066445 )
+ga_view_zoom_set( 0.062127 )
+ga_view_center_set( -0.096639, -0.075976 )
+ga_view_zoom_set( 0.085425 )
+ga_view_center_set( -0.121843, -0.080344 )
+ga_view_zoom_set( 0.096103 )
+ga_view_center_set( -0.154060, -0.088613 )
+ga_view_zoom_set( 0.120129 )
+ga_view_center_set( -0.174195, -0.093781 )
+ga_view_zoom_set( 0.135145 )
+ga_view_center_set( -0.196847, -0.099595 )
+ga_view_zoom_set( 0.152039 )
+ga_view_center_set( -0.222331, -0.106135 )
+ga_view_zoom_set( 0.171043 )
+ga_view_center_set( -0.261413, -0.118491 )
+ga_view_zoom_set( 0.192424 )
+sgm_const_surface_3curve_v1( "3", 1, "Curve 143", "Curve 76", "Curve 136",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 3
+sgm_const_surface_3curve_v1( "4", 1, "Curve 82", "Curve 150", "Curve 143",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 4
+sgm_const_surface_3curve_v1( "5", 1, "Curve 75", "Curve 157", "Curve 150",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 5
+sgm_const_surface_3curve_v1( "6", 1, "Curve 74", "Curve 167", "Curve 174",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 6
+ga_view_center_set( 0.011037, 0.022853 )
+ga_view_zoom_set( 0.319947 )
+ga_view_center_set( 0.020848, 0.042937 )
+ga_view_zoom_set( 0.284397 )
+ga_view_center_set( 0.029569, 0.060788 )
+ga_view_zoom_set( 0.252797 )
+ga_view_center_set( 0.037320, 0.076657 )
+ga_view_zoom_set( 0.224709 )
+ga_view_center_set( 0.049723, 0.102046 )
+ga_view_zoom_set( 0.179767 )
+ga_view_center_set( 0.055235, 0.113330 )
+ga_view_zoom_set( 0.159793 )
+ga_view_center_set( 0.060135, 0.123360 )
+ga_view_zoom_set( 0.142038 )
+ga_view_center_set( 0.064491, 0.132276 )
+ga_view_zoom_set( 0.126256 )
+ga_view_center_set( 0.059891, 0.127084 )
+ga_view_zoom_set( 0.112228 )
+ga_view_center_set( 0.055882, 0.122873 )
+ga_view_zoom_set( 0.099758 )
+ga_view_center_set( 0.059810, 0.126760 )
+ga_view_zoom_set( 0.112228 )
+ga_view_center_set( 0.064228, 0.131132 )
+ga_view_zoom_set( 0.126256 )
+ga_view_center_set( 0.074168, 0.140970 )
+ga_view_zoom_set( 0.157820 )
+ga_view_center_set( 0.080381, 0.147119 )
+ga_view_zoom_set( 0.177548 )
+ga_view_center_set( 0.094360, 0.160954 )
+ga_view_zoom_set( 0.221935 )
+ga_view_center_set( 0.102737, 0.169060 )
+ga_view_zoom_set( 0.249676 )
+ga_view_center_set( 0.098323, 0.160594 )
+ga_view_zoom_set( 0.221935 )
+ga_view_center_set( 0.094400, 0.153068 )
+ga_view_zoom_set( 0.197275 )
+ga_view_center_set( 0.090913, 0.146378 )
+ga_view_zoom_set( 0.175356 )
+ga_view_center_set( 0.087813, 0.140432 )
+ga_view_zoom_set( 0.155872 )
+ga_view_aa_set( -34.784657, 18.734240, 15.142412 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( 0.058067, 0.126599 )
+ga_view_zoom_set( 0.138553 )
+ga_view_center_set( 0.030727, 0.114303 )
+ga_view_zoom_set( 0.123158 )
+ga_view_center_set( 0.006424, 0.103374 )
+ga_view_zoom_set( 0.109474 )
+ga_view_center_set( -0.015179, 0.093658 )
+ga_view_zoom_set( 0.097310 )
+ga_view_center_set( -0.034451, 0.085093 )
+ga_view_zoom_set( 0.086498 )
+ga_view_center_set( -0.051707, 0.077479 )
+ga_view_zoom_set( 0.076887 )
+ga_view_center_set( -0.067101, 0.070767 )
+ga_view_zoom_set( 0.068344 )
+ga_view_center_set( -0.051485, 0.077202 )
+ga_view_zoom_set( 0.076887 )
+ga_view_center_set( -0.033917, 0.084441 )
+ga_view_zoom_set( 0.086498 )
+ga_view_center_set( 0.005610, 0.100730 )
+ga_view_zoom_set( 0.108122 )
+ga_view_center_set( 0.030315, 0.110910 )
+ga_view_zoom_set( 0.121637 )
+ga_view_center_set( 0.113694, 0.145269 )
+ga_view_zoom_set( 0.167251 )
+ga_view_center_set( 0.152045, 0.161016 )
+ga_view_zoom_set( 0.188158 )
+ga_view_center_set( 0.195190, 0.178732 )
+ga_view_zoom_set( 0.211678 )
+ga_view_center_set( 0.152045, 0.161016 )
+ga_view_zoom_set( 0.188158 )
+ga_view_center_set( 0.113694, 0.145269 )
+ga_view_zoom_set( 0.167251 )
+ga_view_center_set( 0.079484, 0.131391 )
+ga_view_zoom_set( 0.148668 )
+ga_view_center_set( 0.048967, 0.119056 )
+ga_view_zoom_set( 0.132149 )
+ga_view_center_set( 0.021650, 0.108186 )
+ga_view_zoom_set( 0.117466 )
+ga_view_center_set( 0.027037, 0.098652 )
+ga_view_zoom_set( 0.132149 )
+ga_view_center_set( 0.033098, 0.087925 )
+ga_view_zoom_set( 0.148668 )
+ga_view_center_set( 0.039916, 0.075858 )
+ga_view_zoom_set( 0.167251 )
+ga_view_center_set( 0.047586, 0.062283 )
+ga_view_zoom_set( 0.188158 )
+ga_view_center_set( 0.026748, 0.047078 )
+ga_view_zoom_set( 0.167251 )
+ga_view_center_set( 0.006414, 0.032959 )
+ga_view_zoom_set( 0.148668 )
+ga_view_center_set( -0.011981, 0.020409 )
+ga_view_zoom_set( 0.132149 )
+ga_view_center_set( -0.028429, 0.009254 )
+ga_view_zoom_set( 0.117466 )
+ga_view_center_set( -0.043133, -0.000662 )
+ga_view_zoom_set( 0.104414 )
+ga_view_center_set( -0.056806, -0.009024 )
+ga_view_zoom_set( 0.092813 )
+ga_view_center_set( -0.069630, -0.015185 )
+ga_view_zoom_set( 0.082500 )
+STRING sgm_surface_3curve_created_ids[VIRTUAL]
+sgm_const_surface_3curve_v1( "7", 1, "Curve 174", "Curve 157", "Curve 81",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 7
+sgm_const_surface_3curve_v1( "8", 1, "Curve 4", "Curve 167", "Curve 80",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 8
+ga_view_center_set( -0.090969, -0.021256 )
+ga_view_zoom_set( 0.073333 )
+ga_view_center_set( -0.109938, -0.026653 )
+ga_view_zoom_set( 0.065185 )
+ga_view_center_set( -0.126798, -0.031450 )
+ga_view_zoom_set( 0.057943 )
+ga_view_center_set( -0.109938, -0.026653 )
+ga_view_zoom_set( 0.065185 )
+ga_view_center_set( -0.090969, -0.021256 )
+ga_view_zoom_set( 0.073333 )
+ga_view_center_set( -0.048291, -0.009113 )
+ga_view_zoom_set( 0.091667 )
+ga_view_center_set( -0.022361, -0.002343 )
+ga_view_zoom_set( 0.103125 )
+ga_view_center_set( 0.035982, 0.012892 )
+ga_view_zoom_set( 0.128907 )
+ga_view_center_set( 0.072446, 0.022413 )
+ga_view_zoom_set( 0.145020 )
+ga_view_center_set( 0.113469, 0.033125 )
+ga_view_zoom_set( 0.163147 )
+ga_view_center_set( 0.159619, 0.045176 )
+ga_view_zoom_set( 0.183541 )
+ga_view_center_set( 0.211537, 0.058733 )
+ga_view_zoom_set( 0.206483 )
+ga_view_center_set( 0.269946, 0.073984 )
+ga_view_zoom_set( 0.232294 )
+ga_view_center_set( 0.335656, 0.091142 )
+ga_view_zoom_set( 0.261330 )
+ga_view_center_set( 0.269946, 0.073984 )
+ga_view_zoom_set( 0.232294 )
+ga_view_center_set( 0.211537, 0.058733 )
+ga_view_zoom_set( 0.206483 )
+ga_view_center_set( 0.159618, 0.045176 )
+ga_view_zoom_set( 0.183541 )
+ga_view_center_set( 0.113468, 0.033125 )
+ga_view_zoom_set( 0.163147 )
+ga_view_center_set( 0.072446, 0.022413 )
+ga_view_zoom_set( 0.145020 )
+ga_view_center_set( 0.036087, 0.012996 )
+ga_view_zoom_set( 0.128906 )
+ga_view_center_set( 0.003860, 0.004626 )
+ga_view_zoom_set( 0.114584 )
+ga_view_center_set( -0.024538, -0.002815 )
+ga_view_zoom_set( 0.101852 )
+sgm_const_surface_3curve_v1( "9", 1, "Curve 115", "Curve 122", "Curve 84",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 9
+sgm_const_surface_3curve_v1( "10", 1, "Curve 78", "Curve 115", "Curve 108",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 10
+ga_view_center_set( 0.004967, -0.000977 )
+ga_view_zoom_set( 0.090535 )
+ga_view_center_set( 0.031193, 0.000656 )
+ga_view_zoom_set( 0.080476 )
+ga_view_center_set( 0.054506, 0.002107 )
+ga_view_zoom_set( 0.071534 )
+ga_view_center_set( 0.075228, 0.003397 )
+ga_view_zoom_set( 0.063586 )
+ga_view_center_set( 0.093648, 0.004544 )
+ga_view_zoom_set( 0.056521 )
+ga_view_center_set( 0.110021, 0.005564 )
+ga_view_zoom_set( 0.050241 )
+ga_view_center_set( 0.124574, 0.006470 )
+ga_view_zoom_set( 0.044658 )
+ga_view_center_set( 0.137511, 0.007276 )
+ga_view_zoom_set( 0.039696 )
+ga_view_center_set( 0.124574, 0.006470 )
+ga_view_zoom_set( 0.044658 )
+ga_view_center_set( 0.095467, 0.004658 )
+ga_view_zoom_set( 0.055823 )
+ga_view_center_set( 0.077275, 0.003525 )
+ga_view_zoom_set( 0.062801 )
+ga_view_center_set( 0.056808, 0.002250 )
+ga_view_zoom_set( 0.070651 )
+ga_view_center_set( 0.033784, 0.000817 )
+ga_view_zoom_set( 0.079482 )
+ga_view_center_set( 0.007816, -0.000602 )
+ga_view_zoom_set( 0.089417 )
+ga_view_center_set( -0.021397, -0.002199 )
+ga_view_zoom_set( 0.100595 )
+ga_view_center_set( -0.054261, -0.003996 )
+ga_view_zoom_set( 0.113169 )
+ga_view_center_set( -0.091234, -0.006016 )
+ga_view_zoom_set( 0.127315 )
+ga_view_center_set( -0.132932, -0.008290 )
+ga_view_zoom_set( 0.143229 )
+ga_view_center_set( -0.153684, -0.004337 )
+ga_view_zoom_set( 0.161133 )
+sgm_const_surface_3curve_v1( "11", 1, "Curve 80", "Curve 168", "Curve 3",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 11
+sgm_const_surface_3curve_v1( "12", 1, "Curve 86", "Curve 173", "Curve 168",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 12
+sgm_const_surface_3curve_v1( "13", 1, "Curve 81", "Curve 173", "Curve 156",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 13
+sgm_const_surface_3curve_v1( "14", 1, "Curve 151", "Curve 87", "Curve 156",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 14
+sgm_const_surface_3curve_v1( "15", 1, "Curve 82", "Curve 142", "Curve 151",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 15
+sgm_const_surface_3curve_v1( "16", 1, "Curve 88", "Curve 142", "Curve 137",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 16
+sgm_const_surface_3curve_v1( "17", 1, "Curve 128", "Curve 137", "Curve 83",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 17
+sgm_const_surface_3curve_v1( "18", 1, "Curve 123", "Curve 128", "Curve 89",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 18
+ga_view_center_set( -0.130723, -0.012708 )
+ga_view_zoom_set( 0.143229 )
+ga_view_center_set( -0.110210, -0.020355 )
+ga_view_zoom_set( 0.127315 )
+ga_view_center_set( -0.091976, -0.027244 )
+ga_view_zoom_set( 0.113169 )
+ga_view_center_set( -0.075768, -0.033450 )
+ga_view_zoom_set( 0.100595 )
+ga_view_center_set( -0.061361, -0.039038 )
+ga_view_zoom_set( 0.089417 )
+ga_view_center_set( -0.048555, -0.044006 )
+ga_view_zoom_set( 0.079482 )
+ga_view_center_set( -0.037172, -0.048422 )
+ga_view_zoom_set( 0.070651 )
+ga_view_center_set( -0.027054, -0.052347 )
+ga_view_zoom_set( 0.062801 )
+ga_view_center_set( -0.042575, -0.049747 )
+ga_view_zoom_set( 0.070651 )
+ga_view_center_set( -0.060037, -0.046822 )
+ga_view_zoom_set( 0.079482 )
+ga_view_center_set( -0.079682, -0.043532 )
+ga_view_zoom_set( 0.089417 )
+ga_view_center_set( -0.101782, -0.039831 )
+ga_view_zoom_set( 0.100595 )
+ga_view_center_set( -0.079319, -0.043459 )
+ga_view_zoom_set( 0.089417 )
+ga_view_center_set( -0.059352, -0.046685 )
+ga_view_zoom_set( 0.079482 )
+ga_view_center_set( -0.041546, -0.049553 )
+ga_view_zoom_set( 0.070651 )
+ga_view_center_set( -0.025718, -0.052101 )
+ga_view_zoom_set( 0.062801 )
+ga_view_center_set( -0.011649, -0.054367 )
+ga_view_zoom_set( 0.055823 )
+ga_view_center_set( 0.000897, -0.056381 )
+ga_view_zoom_set( 0.049620 )
+ga_view_center_set( 0.012049, -0.058171 )
+ga_view_zoom_set( 0.044107 )
+ga_view_center_set( 0.021962, -0.059762 )
+ga_view_zoom_set( 0.039206 )
+ga_view_center_set( 0.012654, -0.058043 )
+ga_view_zoom_set( 0.044107 )
+ga_view_center_set( 0.002182, -0.056110 )
+ga_view_zoom_set( 0.049620 )
+ga_view_center_set( -0.033161, -0.049585 )
+ga_view_zoom_set( 0.068228 )
+ga_view_center_set( -0.049359, -0.046595 )
+ga_view_zoom_set( 0.076756 )
+ga_view_center_set( -0.067583, -0.043231 )
+ga_view_zoom_set( 0.086351 )
+ga_view_center_set( -0.088084, -0.039446 )
+ga_view_zoom_set( 0.097145 )
+ga_view_center_set( -0.110990, -0.035424 )
+ga_view_zoom_set( 0.109288 )
+ga_view_center_set( -0.136760, -0.030900 )
+ga_view_zoom_set( 0.122949 )
+ga_view_center_set( -0.165751, -0.025811 )
+ga_view_zoom_set( 0.138318 )
+ga_view_center_set( -0.198365, -0.020085 )
+ga_view_zoom_set( 0.155607 )
+ga_view_center_set( -0.235057, -0.013643 )
+ga_view_zoom_set( 0.175058 )
+ga_view_center_set( -0.276335, -0.006396 )
+ga_view_zoom_set( 0.196940 )
+ga_view_center_set( -0.322772, 0.001756 )
+ga_view_zoom_set( 0.221558 )
+ga_view_center_set( -0.261788, -0.002400 )
+ga_view_zoom_set( 0.196940 )
+ga_view_center_set( -0.207580, -0.006095 )
+ga_view_zoom_set( 0.175058 )
+ga_view_center_set( -0.159395, -0.009378 )
+ga_view_zoom_set( 0.155607 )
+ga_view_center_set( -0.124085, -0.012971 )
+ga_view_zoom_set( 0.138318 )
+ga_view_center_set( -0.082820, -0.014668 )
+ga_view_zoom_set( 0.122949 )
+ga_view_center_set( -0.046050, -0.016264 )
+ga_view_zoom_set( 0.109288 )
+ga_view_center_set( -0.013366, -0.017684 )
+ga_view_zoom_set( 0.097145 )
+ga_view_center_set( 0.008200, -0.011770 )
+ga_view_zoom_set( 0.109288 )
+ga_view_center_set( 0.057965, 0.001536 )
+ga_view_zoom_set( 0.136610 )
+ga_view_center_set( 0.120614, 0.018169 )
+ga_view_zoom_set( 0.170762 )
+ga_view_center_set( 0.200313, 0.038960 )
+ga_view_zoom_set( 0.213453 )
+ga_view_center_set( 0.176981, 0.032338 )
+ga_view_zoom_set( 0.189736 )
+ga_view_center_set( 0.156241, 0.026451 )
+ga_view_zoom_set( 0.168654 )
+ga_view_center_set( 0.159588, 0.016838 )
+ga_view_zoom_set( 0.149915 )
+ga_view_center_set( 0.161913, 0.007969 )
+ga_view_zoom_set( 0.133258 )
+ga_view_center_set( 0.163980, 0.000085 )
+ga_view_zoom_set( 0.118451 )
+ga_view_center_set( 0.134111, 0.001110 )
+ga_view_zoom_set( 0.105290 )
+ga_view_center_set( 0.107561, 0.002022 )
+ga_view_zoom_set( 0.093591 )
+ga_view_center_set( 0.083960, 0.002832 )
+ga_view_zoom_set( 0.083192 )
+ga_view_center_set( 0.062982, 0.003552 )
+ga_view_zoom_set( 0.073949 )
+ga_view_center_set( 0.040804, 0.005713 )
+ga_view_zoom_set( 0.083192 )
+ga_view_center_set( 0.015853, 0.008144 )
+ga_view_zoom_set( 0.093591 )
+ga_view_center_set( -0.012217, 0.010879 )
+ga_view_zoom_set( 0.105290 )
+ga_view_center_set( 0.015929, 0.008068 )
+ga_view_zoom_set( 0.093591 )
+ga_view_center_set( 0.040947, 0.005570 )
+ga_view_zoom_set( 0.083192 )
+ga_view_center_set( 0.029637, 0.010094 )
+ga_view_zoom_set( 0.093591 )
+ga_view_center_set( 0.016912, 0.015184 )
+ga_view_zoom_set( 0.105290 )
+ga_view_center_set( 0.002597, 0.020910 )
+ga_view_zoom_set( 0.118451 )
+ga_view_center_set( -0.013507, 0.027352 )
+ga_view_zoom_set( 0.133258 )
+ga_view_center_set( -0.031625, 0.034599 )
+ga_view_zoom_set( 0.149915 )
+ga_view_center_set( -0.052007, 0.042751 )
+ga_view_zoom_set( 0.168654 )
+sgm_const_surface_3curve_v1( "19", 1, "Curve 84", "Curve 123", "Curve 114",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 19
+sgm_const_surface_3curve_v1( "20", 1, "Curve 85", "Curve 109", "Curve 100",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 20
+ga_view_center_set( 0.027918, 0.003116 )
+ga_view_zoom_set( 0.319947 )
+ga_view_center_set( 0.052733, 0.005886 )
+ga_view_zoom_set( 0.284397 )
+ga_view_center_set( 0.074791, 0.008349 )
+ga_view_zoom_set( 0.252797 )
+ga_view_center_set( 0.094398, 0.010537 )
+ga_view_zoom_set( 0.224709 )
+ga_view_center_set( 0.111827, 0.012483 )
+ga_view_zoom_set( 0.199741 )
+ga_view_center_set( 0.127319, 0.014212 )
+ga_view_zoom_set( 0.177548 )
+ga_view_center_set( 0.141090, 0.015750 )
+ga_view_zoom_set( 0.157820 )
+ga_view_center_set( 0.153217, 0.017116 )
+ga_view_zoom_set( 0.140285 )
+sgm_const_surface_3curve_v1( "21", 1, "Curve 108", "Curve 85", "Curve 101",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 21
+sgm_const_surface_3curve_v1( "22", 1, "Curve 101", "Curve 79", "Curve 46",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 22
+sgm_const_surface_3curve_v1( "23", 1, "Curve 114", "Curve 109", "Curve 90",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 23
+sgm_const_surface_3curve_v1( "24", 1, "Curve 100", "Curve 91", "Curve 45",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 24
+sgm_const_surface_3curve_v1( "25", 1, "Curve 44", "Curve 91", "Curve 99",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 25
+sgm_const_surface_3curve_v1( "26", 1, "Curve 98", "Curve 43", "Curve 55",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 26
+sgm_const_surface_3curve_v1( "27", 1, "Curve 111", "Curve 97", "Curve 98",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 27
+sgm_const_surface_3curve_v1( "28", 1, "Curve 110", "Curve 99", "Curve 97",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 28
+sgm_const_surface_3curve_v1( "29", 1, "Curve 113", "Curve 90", "Curve 110",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 29
+sgm_const_surface_3curve_v1( "30", 1, "Curve 96", "Curve 124", "Curve 113",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 30
+sgm_const_surface_3curve_v1( "31", 1, "Curve 125", "Curve 96", "Curve 112",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 31
+sgm_const_surface_3curve_v1( "32", 1, "Curve 54", "Curve 111", "Curve 112",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 32
+sgm_const_surface_3curve_v1( "33", 1, "Curve 53", "Curve 125", "Curve 126",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 33
+sgm_const_surface_3curve_v1( "34", 1, "Curve 140", "Curve 139", "Curve 52",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 34
+sgm_const_surface_3curve_v1( "35", 1, "Curve 95", "Curve 139", "Curve 126",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 35
+sgm_const_surface_3curve_v1( "36", 1, "Curve 138", "Curve 127", "Curve 95",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 36
+sgm_const_surface_3curve_v1( "37", 1, "Curve 89", "Curve 127", "Curve 124",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 37
+sgm_const_surface_3curve_v1( "38", 1, "Curve 88", "Curve 141", "Curve 138",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 38
+sgm_const_surface_3curve_v1( "39", 1, "Curve 152", "Curve 141", "Curve 94",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 39
+sgm_const_surface_3curve_v1( "40", 1, "Curve 94", "Curve 153", "Curve 140",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 40
+sgm_const_surface_3curve_v1( "41", 1, "Curve 51", "Curve 154", "Curve 153",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 41
+sgm_const_surface_3curve_v1( "42", 1, "Curve 50", "Curve 170", "Curve 171",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 42
+sgm_const_surface_3curve_v1( "43", 1, "Curve 93", "Curve 171", "Curve 154",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 43
+sgm_const_surface_3curve_v1( "44", 1, "Curve 172", "Curve 155", "Curve 93",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 44
+sgm_const_surface_3curve_v1( "45", 1, "Curve 87", "Curve 155", "Curve 152",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 45
+sgm_const_surface_3curve_v1( "46", 1, "Curve 86", "Curve 169", "Curve 172",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 46
+sgm_const_surface_3curve_v1( "47", 1, "Curve 92", "Curve 169", "Curve 2",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 47
+sgm_const_surface_3curve_v1( "48", 1, "Curve 1", "Curve 92", "Curve 170",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 48
+sgm_const_surface_3curve_v1( "49", 1, "Curve 60", "Curve 119", "Curve 118",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 49
+sgm_const_surface_3curve_v1( "50", 1, "Curve 61", "Curve 105", "Curve 104",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 50
+sgm_const_surface_3curve_v1( "51", 1, "Curve 49", "Curve 104", "Curve 67",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 51
+sgm_const_surface_3curve_v1( "52", 1, "Curve 59", "Curve 133", "Curve 132",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 52
+sgm_const_surface_3curve_v1( "53", 1, "Curve 58", "Curve 147", "Curve 146",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 53
+sgm_const_surface_3curve_v1( "54", 1, "Curve 57", "Curve 161", "Curve 160",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 54
+sgm_const_surface_3curve_v1( "55", 1, "Curve 56", "Curve 7", "Curve 162",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 55
+sgm_const_surface_3curve_v1( "56", 1, "Curve 62", "Curve 161", "Curve 162",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 56
+sgm_const_surface_3curve_v1( "57", 1, "Curve 63", "Curve 147", "Curve 160",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 57
+sgm_const_surface_3curve_v1( "58", 1, "Curve 64", "Curve 133", "Curve 146",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 58
+sgm_const_surface_3curve_v1( "59", 1, "Curve 65", "Curve 119", "Curve 132",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 59
+sgm_const_surface_3curve_v1( "60", 1, "Curve 66", "Curve 105", "Curve 118",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 60
+ga_view_center_set( 0.038768, 0.015399 )
+ga_view_zoom_set( 0.332837 )
+ga_view_center_set( 0.073228, 0.029087 )
+ga_view_zoom_set( 0.295855 )
+ga_view_center_set( 0.128365, 0.050988 )
+ga_view_zoom_set( 0.236684 )
+ga_view_center_set( 0.172474, 0.068509 )
+ga_view_zoom_set( 0.189347 )
+ga_view_center_set( 0.192078, 0.076296 )
+ga_view_zoom_set( 0.168309 )
+ga_view_center_set( 0.209504, 0.083218 )
+ga_view_zoom_set( 0.149608 )
+ga_view_center_set( 0.224994, 0.089370 )
+ga_view_zoom_set( 0.132985 )
+ga_view_center_set( 0.238762, 0.094839 )
+ga_view_zoom_set( 0.118208 )
+ga_view_center_set( 0.231326, 0.085628 )
+ga_view_zoom_set( 0.132985 )
+ga_view_center_set( 0.222961, 0.075266 )
+ga_view_zoom_set( 0.149608 )
+ga_view_center_set( 0.213550, 0.063608 )
+ga_view_zoom_set( 0.168309 )
+sgm_const_surface_3curve_v1( "61", 1, "Curve 103", "Curve 48", "Curve 67",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 61
+sgm_const_surface_3curve_v1( "62", 1, "Curve 102", "Curve 47", "Curve 79",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 62
+sgm_const_surface_3curve_v1( "63", 1, "Curve 106", "Curve 103", "Curve 73",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 63
+sgm_const_surface_3curve_v1( "64", 1, "Curve 73", "Curve 107", "Curve 102",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 64
+sgm_const_surface_3curve_v1( "65", 1, "Curve 78", "Curve 107", "Curve 116",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 65
+sgm_const_surface_3curve_v1( "66", 1, "Curve 72", "Curve 120", "Curve 117",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 66
+sgm_const_surface_3curve_v1( "67", 1, "Curve 66", "Curve 106", "Curve 117",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 67
+sgm_const_surface_3curve_v1( "68", 1, "Curve 121", "Curve 72", "Curve 116",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 68
+sgm_const_surface_3curve_v1( "69", 1, "Curve 77", "Curve 130", "Curve 121",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 69
+sgm_const_surface_3curve_v1( "70", 1, "Curve 135", "Curve 71", "Curve 130",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 70
+sgm_const_surface_3curve_v1( "71", 1, "Curve 76", "Curve 144", "Curve 135",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 71
+sgm_const_surface_3curve_v1( "72", 1, "Curve 134", "Curve 131", "Curve 71",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 72
+sgm_const_surface_3curve_v1( "73", 1, "Curve 65", "Curve 131", "Curve 120",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 73
+sgm_const_surface_3curve_v1( "74", 1, "Curve 64", "Curve 145", "Curve 134",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 74
+sgm_const_surface_3curve_v1( "75", 1, "Curve 148", "Curve 145", "Curve 70",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 75
+sgm_const_surface_3curve_v1( "76", 1, "Curve 70", "Curve 149", "Curve 144",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 76
+ga_view_center_set( 0.176937, 0.063608 )
+ga_view_zoom_set( 0.149608 )
+ga_view_center_set( 0.143853, 0.063500 )
+ga_view_zoom_set( 0.132985 )
+ga_view_center_set( 0.114157, 0.063212 )
+ga_view_zoom_set( 0.118208 )
+ga_view_center_set( 0.087249, 0.062871 )
+ga_view_zoom_set( 0.105074 )
+ga_view_center_set( 0.063103, 0.062492 )
+ga_view_zoom_set( 0.093399 )
+ga_view_center_set( 0.041505, 0.062088 )
+ga_view_zoom_set( 0.083022 )
+ga_view_center_set( 0.022187, 0.061728 )
+ga_view_zoom_set( 0.073797 )
+ga_view_center_set( 0.005016, 0.061409 )
+ga_view_zoom_set( 0.065597 )
+ga_view_center_set( -0.010342, 0.061125 )
+ga_view_zoom_set( 0.058309 )
+sgm_const_surface_3curve_v1( "77", 1, "Curve 75", "Curve 158", "Curve 149",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 77
+ga_view_center_set( -0.021680, 0.064028 )
+ga_view_zoom_set( 0.051830 )
+ga_view_center_set( -0.031758, 0.066608 )
+ga_view_zoom_set( 0.046071 )
+ga_view_center_set( -0.040716, 0.068902 )
+ga_view_zoom_set( 0.040952 )
+ga_view_center_set( -0.048679, 0.070940 )
+ga_view_zoom_set( 0.036402 )
+ga_view_center_set( -0.055757, 0.072753 )
+ga_view_zoom_set( 0.032357 )
+ga_view_center_set( -0.062049, 0.074363 )
+ga_view_zoom_set( 0.028762 )
+ga_view_center_set( -0.067642, 0.075795 )
+ga_view_zoom_set( 0.025566 )
+ga_view_center_set( -0.062049, 0.074363 )
+ga_view_zoom_set( 0.028762 )
+ga_view_center_set( -0.055757, 0.072753 )
+ga_view_zoom_set( 0.032357 )
+ga_view_center_set( -0.027445, 0.065504 )
+ga_view_zoom_set( 0.048536 )
+ga_view_center_set( -0.006211, 0.060067 )
+ga_view_zoom_set( 0.060670 )
+ga_view_center_set( 0.007061, 0.056669 )
+ga_view_zoom_set( 0.068253 )
+ga_view_center_set( -0.010544, 0.060560 )
+ga_view_zoom_set( 0.060670 )
+ga_view_center_set( -0.026062, 0.063974 )
+ga_view_zoom_set( 0.053929 )
+ga_view_center_set( -0.039777, 0.066970 )
+ga_view_zoom_set( 0.047937 )
+ga_view_center_set( -0.051969, 0.069633 )
+ga_view_zoom_set( 0.042610 )
+ga_view_center_set( -0.062806, 0.072000 )
+ga_view_zoom_set( 0.037876 )
+ga_view_center_set( -0.080145, 0.075886 )
+ga_view_zoom_set( 0.030301 )
+ga_view_center_set( -0.087852, 0.077613 )
+ga_view_zoom_set( 0.026934 )
+ga_view_center_set( -0.100182, 0.080377 )
+ga_view_zoom_set( 0.021547 )
+ga_view_center_set( -0.110046, 0.082587 )
+ga_view_zoom_set( 0.017238 )
+ga_view_center_set( -0.114417, 0.083558 )
+ga_view_zoom_set( 0.015322 )
+ga_view_center_set( -0.112658, 0.082886 )
+ga_view_zoom_set( 0.017238 )
+ga_view_center_set( -0.110692, 0.082144 )
+ga_view_zoom_set( 0.019392 )
+ga_view_center_set( -0.101971, 0.078807 )
+ga_view_zoom_set( 0.029089 )
+ga_view_center_set( -0.098725, 0.077580 )
+ga_view_zoom_set( 0.032725 )
+ga_view_center_set( -0.095073, 0.076198 )
+ga_view_zoom_set( 0.036815 )
+ga_view_center_set( -0.090964, 0.074644 )
+ga_view_zoom_set( 0.041417 )
+ga_view_center_set( -0.075718, 0.073333 )
+ga_view_zoom_set( 0.046594 )
+ga_view_center_set( -0.040129, 0.070459 )
+ga_view_zoom_set( 0.058243 )
+ga_view_center_set( -0.017792, 0.068663 )
+ga_view_zoom_set( 0.065523 )
+ga_view_center_set( 0.032467, 0.064621 )
+ga_view_zoom_set( 0.081904 )
+ga_view_center_set( 0.064877, 0.057707 )
+ga_view_zoom_set( 0.092142 )
+ga_view_center_set( 0.101337, 0.049928 )
+ga_view_zoom_set( 0.103660 )
+ga_view_center_set( 0.095167, 0.055687 )
+ga_view_zoom_set( 0.092142 )
+ga_view_center_set( 0.098258, 0.060673 )
+ga_view_zoom_set( 0.081904 )
+ga_view_center_set( 0.102602, 0.065105 )
+ga_view_zoom_set( 0.072804 )
+ga_view_center_set( 0.106935, 0.069045 )
+ga_view_zoom_set( 0.064714 )
+ga_view_center_set( 0.111394, 0.072547 )
+ga_view_zoom_set( 0.057524 )
+ga_view_center_set( 0.116603, 0.075743 )
+ga_view_zoom_set( 0.051132 )
+ga_view_center_set( 0.128353, 0.080059 )
+ga_view_zoom_set( 0.045451 )
+ga_view_center_set( 0.138830, 0.083928 )
+ga_view_zoom_set( 0.040401 )
+ga_view_center_set( 0.148144, 0.087368 )
+ga_view_zoom_set( 0.035912 )
+ga_view_center_set( 0.156422, 0.090425 )
+ga_view_zoom_set( 0.031922 )
+ga_view_center_set( 0.160787, 0.092959 )
+ga_view_zoom_set( 0.028375 )
+ga_view_center_set( 0.155984, 0.090472 )
+ga_view_zoom_set( 0.031922 )
+ga_view_center_set( 0.150582, 0.087673 )
+ga_view_zoom_set( 0.035912 )
+ga_view_center_set( 0.144505, 0.084525 )
+ga_view_zoom_set( 0.040401 )
+ga_view_center_set( 0.137667, 0.080983 )
+ga_view_zoom_set( 0.045451 )
+ga_view_center_set( 0.129975, 0.076999 )
+ga_view_zoom_set( 0.051132 )
+ga_view_center_set( 0.121322, 0.072517 )
+ga_view_zoom_set( 0.057524 )
+ga_view_center_set( 0.111540, 0.067474 )
+ga_view_zoom_set( 0.064714 )
+ga_view_center_set( 0.100535, 0.061801 )
+ga_view_zoom_set( 0.072804 )
+ga_view_center_set( 0.089396, 0.055537 )
+ga_view_zoom_set( 0.081904 )
+ga_view_center_set( 0.076864, 0.048490 )
+ga_view_zoom_set( 0.092142 )
+ga_view_center_set( 0.062766, 0.040562 )
+ga_view_zoom_set( 0.103660 )
+ga_view_center_set( 0.046906, 0.031644 )
+ga_view_zoom_set( 0.116617 )
+ga_view_center_set( 0.029253, 0.021705 )
+ga_view_zoom_set( 0.131195 )
+ga_view_center_set( 0.009392, 0.010523 )
+ga_view_zoom_set( 0.147594 )
+ga_view_center_set( 0.040840, -0.001457 )
+ga_view_zoom_set( 0.166043 )
+ga_view_center_set( 0.076892, -0.014800 )
+ga_view_zoom_set( 0.186799 )
+sgm_const_surface_3curve_v1( "78", 1, "Curve 69", "Curve 165", "Curve 158",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 78
+sgm_const_surface_3curve_v1( "79", 1, "Curve 74", "Curve 165", "Curve 166",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 79
+sgm_const_surface_3curve_v1( "80", 1, "Curve 5", "Curve 68", "Curve 166",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 80
+ga_view_center_set( 0.120332, -0.032994 )
+ga_view_zoom_set( 0.210148 )
+ga_view_center_set( 0.169202, -0.053463 )
+ga_view_zoom_set( 0.236417 )
+ga_view_center_set( 0.137560, -0.057557 )
+ga_view_zoom_set( 0.210148 )
+ga_view_center_set( 0.108828, -0.068929 )
+ga_view_zoom_set( 0.186799 )
+ga_view_center_set( 0.083288, -0.079037 )
+ga_view_zoom_set( 0.166043 )
+ga_view_center_set( 0.060586, -0.088022 )
+ga_view_zoom_set( 0.147594 )
+ga_view_center_set( 0.080293, -0.102638 )
+ga_view_zoom_set( 0.166043 )
+ga_view_center_set( 0.102463, -0.119080 )
+ga_view_zoom_set( 0.186799 )
+ga_view_center_set( 0.127405, -0.137578 )
+ga_view_zoom_set( 0.210148 )
+ga_view_center_set( 0.148642, -0.120521 )
+ga_view_zoom_set( 0.236417 )
+ga_view_center_set( 0.172533, -0.101331 )
+ga_view_zoom_set( 0.265969 )
+ga_view_center_set( 0.146147, -0.075425 )
+ga_view_zoom_set( 0.236417 )
+ga_view_center_set( 0.122693, -0.052397 )
+ga_view_zoom_set( 0.210148 )
+ga_view_center_set( 0.101845, -0.031928 )
+ga_view_zoom_set( 0.186799 )
+ga_view_center_set( 0.083313, -0.013733 )
+ga_view_zoom_set( 0.166043 )
+ga_view_center_set( 0.066961, 0.001601 )
+ga_view_zoom_set( 0.147594 )
+ga_view_center_set( 0.052425, 0.015019 )
+ga_view_zoom_set( 0.131195 )
+ga_view_center_set( 0.039694, 0.026283 )
+ga_view_zoom_set( 0.116617 )
+ga_view_center_set( 0.050437, 0.040008 )
+ga_view_zoom_set( 0.131195 )
+ga_view_center_set( 0.062204, 0.052574 )
+ga_view_zoom_set( 0.147594 )
+ga_view_center_set( 0.075442, 0.066710 )
+ga_view_zoom_set( 0.166043 )
+ga_view_center_set( 0.090335, 0.082614 )
+ga_view_zoom_set( 0.186799 )
+ga_view_center_set( 0.107089, 0.100505 )
+ga_view_zoom_set( 0.210148 )
+ga_view_center_set( 0.125596, 0.120633 )
+ga_view_zoom_set( 0.236417 )
+ga_view_center_set( 0.098219, 0.136838 )
+ga_view_zoom_set( 0.210148 )
+ga_view_center_set( 0.073732, 0.151393 )
+ga_view_zoom_set( 0.186799 )
+ga_view_center_set( 0.051966, 0.164332 )
+ga_view_zoom_set( 0.166043 )
+ga_view_center_set( 0.032618, 0.175833 )
+ga_view_zoom_set( 0.147594 )
+ga_view_center_set( 0.015314, 0.185949 )
+ga_view_zoom_set( 0.131195 )
+ga_view_center_set( -0.000068, 0.194752 )
+ga_view_zoom_set( 0.116617 )
+sgm_const_surface_3curve_v1( "81", 1, "Curve 63", "Curve 159", "Curve 148",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 81
+sgm_const_surface_3curve_v1( "82", 1, "Curve 69", "Curve 164", "Curve 159",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 82
+sgm_const_surface_3curve_v1( "83", 1, "Curve 62", "Curve 163", "Curve 164",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 83
+sgm_const_surface_3curve_v1( "84", 1, "Curve 68", "Curve 163", "Curve 6",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 84
+ga_view_center_set( 0.011838, 0.196435 )
+ga_view_zoom_set( 0.103660 )
+ga_view_center_set( 0.022421, 0.197931 )
+ga_view_zoom_set( 0.092142 )
+ga_view_center_set( 0.031828, 0.199260 )
+ga_view_zoom_set( 0.081904 )
+ga_view_center_set( 0.022421, 0.197931 )
+ga_view_zoom_set( 0.092142 )
+ga_view_center_set( 0.011838, 0.196435 )
+ga_view_zoom_set( 0.103660 )
+ga_view_center_set( -0.000068, 0.194752 )
+ga_view_zoom_set( 0.116617 )
+ga_view_center_set( -0.013462, 0.192859 )
+ga_view_zoom_set( 0.131195 )
+ga_view_center_set( -0.028317, 0.188599 )
+ga_view_zoom_set( 0.147594 )
+ga_view_center_set( -0.045029, 0.183807 )
+ga_view_zoom_set( 0.166043 )
+ga_view_center_set( -0.063830, 0.178282 )
+ga_view_zoom_set( 0.186799 )
+ga_view_center_set( -0.084982, 0.172065 )
+ga_view_zoom_set( 0.210148 )
+ga_view_center_set( -0.108777, 0.165072 )
+ga_view_zoom_set( 0.236417 )
+ga_view_center_set( -0.151666, 0.156436 )
+ga_view_zoom_set( 0.265969 )
+ga_view_center_set( -0.199916, 0.146721 )
+ga_view_zoom_set( 0.299215 )
+ga_view_center_set( -0.254197, 0.135792 )
+ga_view_zoom_set( 0.336617 )
+ga_view_center_set( -0.168100, 0.133364 )
+ga_view_zoom_set( 0.299215 )
+ga_view_center_set( -0.091569, 0.129694 )
+ga_view_zoom_set( 0.265969 )
+ga_view_center_set( -0.023542, 0.125472 )
+ga_view_zoom_set( 0.236417 )
+ga_view_center_set( 0.036757, 0.120184 )
+ga_view_zoom_set( 0.210148 )
+ga_view_center_set( 0.090203, 0.115029 )
+ga_view_zoom_set( 0.186799 )
+ga_view_center_set( 0.137712, 0.110447 )
+ga_view_zoom_set( 0.166043 )
+ga_view_center_set( 0.109881, 0.108290 )
+ga_view_zoom_set( 0.186799 )
+ga_view_center_set( 0.078571, 0.105864 )
+ga_view_zoom_set( 0.210148 )
+ga_view_center_set( 0.043347, 0.103135 )
+ga_view_zoom_set( 0.236417 )
+ga_view_center_set( 0.003720, 0.100065 )
+ga_view_zoom_set( 0.265969 )
+ga_view_center_set( -0.040860, 0.096611 )
+ga_view_zoom_set( 0.299215 )
+ga_view_center_set( -0.091012, 0.092725 )
+ga_view_zoom_set( 0.336617 )
+ga_view_center_set( -0.029445, 0.087139 )
+ga_view_zoom_set( 0.299215 )
+ga_view_center_set( 0.025282, 0.082173 )
+ga_view_zoom_set( 0.265969 )
+ga_view_center_set( -0.021457, 0.078071 )
+ga_view_zoom_set( 0.299215 )
+uil_toolbar.shaded_smooth(  )
+uil_toolbar.shaded_smooth(  )
+ga_view_center_set( -0.017464, 0.060369 )
+ga_view_zoom_set( 0.265969 )
+ga_view_center_set( -0.013913, 0.044633 )
+ga_view_zoom_set( 0.236417 )
+ga_view_center_set( -0.010758, 0.030646 )
+ga_view_zoom_set( 0.210148 )
+ga_view_center_set( -0.007953, 0.018213 )
+ga_view_zoom_set( 0.186799 )
+ga_view_center_set( -0.005459, 0.007162 )
+ga_view_zoom_set( 0.166043 )
+ga_view_center_set( -0.003363, -0.002662 )
+ga_view_zoom_set( 0.147594 )
+ga_view_center_set( -0.001499, -0.011394 )
+ga_view_zoom_set( 0.131195 )
+ga_view_center_set( 0.000157, -0.019156 )
+ga_view_zoom_set( 0.116617 )
+ga_view_center_set( 0.001630, -0.026055 )
+ga_view_zoom_set( 0.103660 )
+ga_view_center_set( 0.002938, -0.032188 )
+ga_view_zoom_set( 0.092142 )
+ga_view_center_set( 0.001704, -0.026055 )
+ga_view_zoom_set( 0.103660 )
+ga_view_center_set( 0.000316, -0.019156 )
+ga_view_zoom_set( 0.116617 )
+ga_view_center_set( -0.001246, -0.011394 )
+ga_view_zoom_set( 0.131195 )
+ga_view_center_set( -0.003003, -0.002662 )
+ga_view_zoom_set( 0.147594 )
+ga_view_center_set( -0.004980, 0.007162 )
+ga_view_zoom_set( 0.166043 )
+ga_view_center_set( -0.007203, 0.018213 )
+ga_view_zoom_set( 0.186799 )
+ga_view_center_set( -0.009705, 0.030646 )
+ga_view_zoom_set( 0.210148 )
+ga_view_center_set( -0.014055, 0.035252 )
+ga_view_zoom_set( 0.236417 )
+ga_view_center_set( -0.019140, 0.039474 )
+ga_view_zoom_set( 0.265969 )
+ga_view_center_set( -0.024861, 0.043791 )
+ga_view_zoom_set( 0.299215 )
+ga_view_center_set( 0.025980, 0.055449 )
+ga_view_zoom_set( 0.265969 )
+ga_view_center_set( 0.027995, 0.052187 )
+ga_view_zoom_set( 0.236417 )
+ga_view_center_set( 0.029615, 0.049628 )
+ga_view_zoom_set( 0.210148 )
+ga_view_center_set( 0.030904, 0.047354 )
+ga_view_zoom_set( 0.186799 )
+ga_view_center_set( 0.031915, 0.045197 )
+ga_view_zoom_set( 0.166043 )
+ga_view_center_set( 0.032693, 0.042801 )
+ga_view_zoom_set( 0.147594 )
+ga_view_center_set( 0.032960, 0.040139 )
+ga_view_zoom_set( 0.131195 )
+ga_view_center_set( 0.032912, 0.037394 )
+ga_view_zoom_set( 0.116617 )
+ga_view_center_set( 0.032786, 0.034870 )
+ga_view_zoom_set( 0.103660 )
+ga_view_center_set( 0.032599, 0.032477 )
+ga_view_zoom_set( 0.092142 )
+ga_view_center_set( 0.033123, 0.037263 )
+ga_view_zoom_set( 0.115178 )
+ga_view_center_set( 0.033450, 0.040255 )
+ga_view_zoom_set( 0.129575 )
+ga_view_center_set( 0.034554, 0.050352 )
+ga_view_zoom_set( 0.178165 )
+ga_view_center_set( 0.035566, 0.059607 )
+ga_view_zoom_set( 0.222707 )
+ga_view_center_set( 0.036199, 0.065391 )
+ga_view_zoom_set( 0.250545 )
+ga_view_center_set( 0.036911, 0.071899 )
+ga_view_zoom_set( 0.281863 )
+ga_view_center_set( 0.037712, 0.079220 )
+ga_view_zoom_set( 0.317096 )
+ga_view_center_set( 0.038613, 0.087457 )
+ga_view_zoom_set( 0.356733 )
+ga_view_center_set( 0.039626, 0.096722 )
+ga_view_zoom_set( 0.401325 )
+ga_view_center_set( 0.040766, 0.107146 )
+ga_view_zoom_set( 0.451491 )
+ga_view_center_set( 0.037968, 0.081560 )
+ga_view_zoom_set( 0.328357 )
+ga_view_center_set( 0.037139, 0.073979 )
+ga_view_zoom_set( 0.291873 )
+ga_view_center_set( 0.036401, 0.067240 )
+ga_view_zoom_set( 0.259442 )
+ga_view_center_set( 0.033313, 0.049270 )
+ga_view_zoom_set( 0.172962 )
+ga_view_center_set( 0.032377, 0.045402 )
+ga_view_zoom_set( 0.153744 )
+ga_view_center_set( 0.031545, 0.041963 )
+ga_view_zoom_set( 0.136661 )
+ga_view_center_set( 0.029730, 0.034460 )
+ga_view_zoom_set( 0.099390 )
+ga_view_center_set( 0.028410, 0.029004 )
+ga_view_zoom_set( 0.072284 )
+ga_view_center_set( 0.028019, 0.027387 )
+ga_view_zoom_set( 0.064252 )
+ga_view_center_set( 0.027671, 0.025950 )
+ga_view_zoom_set( 0.057113 )
+ga_view_center_set( 0.024171, 0.025394 )
+ga_view_zoom_set( 0.064252 )
+ga_view_center_set( 0.020233, 0.024768 )
+ga_view_zoom_set( 0.072284 )
+ga_view_center_set( 0.015804, 0.024064 )
+ga_view_zoom_set( 0.081319 )
+ga_view_center_set( 0.010820, 0.023272 )
+ga_view_zoom_set( 0.091484 )
+ga_view_center_set( 0.005214, 0.022381 )
+ga_view_zoom_set( 0.102919 )
+ga_view_center_set( -0.001093, 0.021378 )
+ga_view_zoom_set( 0.115784 )
+ga_view_center_set( -0.008189, 0.020250 )
+ga_view_zoom_set( 0.130257 )
+ga_view_center_set( -0.016171, 0.018982 )
+ga_view_zoom_set( 0.146539 )
+ga_view_center_set( -0.035084, 0.017079 )
+ga_view_zoom_set( 0.183174 )
+ga_view_center_set( -0.047052, 0.016187 )
+ga_view_zoom_set( 0.206071 )
+ga_view_center_set( -0.088450, 0.014179 )
+ga_view_zoom_set( 0.283348 )
+ga_view_center_set( -0.108345, 0.013719 )
+ga_view_zoom_set( 0.318766 )
+ga_view_center_set( -0.130984, 0.013202 )
+ga_view_zoom_set( 0.358612 )
+ga_view_aa_set( 89.768356, 43.665764, -86.320740 )
+ga_view_center_set( -0.022947, -0.000608 )
+ga_view_zoom_set( 0.421246 )
+ga_view_center_set( -0.048762, -0.001292 )
+ga_view_zoom_set( 0.473902 )
+ga_view_center_set( -0.022946, -0.000608 )
+ga_view_zoom_set( 0.421246 )
+ga_view_center_set( 0.000000, -0.000000 )
+ga_view_zoom_set( 0.374441 )
+ga_view_center_set( 0.020397, 0.000540 )
+ga_view_zoom_set( 0.332837 )
+ga_view_center_set( 0.038528, 0.001021 )
+ga_view_zoom_set( 0.295855 )
+ga_view_center_set( 0.054644, 0.001447 )
+ga_view_zoom_set( 0.262982 )
+ga_view_center_set( 0.062519, -0.001019 )
+ga_view_zoom_set( 0.233762 )
+ga_view_center_set( 0.075118, -0.004966 )
+ga_view_zoom_set( 0.187009 )
+ga_view_center_set( 0.080717, -0.006720 )
+ga_view_zoom_set( 0.166231 )
+ga_view_center_set( 0.085694, -0.008279 )
+ga_view_zoom_set( 0.147761 )
+ga_view_center_set( 0.090119, -0.009665 )
+ga_view_zoom_set( 0.131343 )
+ga_view_center_set( 0.094051, -0.010897 )
+ga_view_zoom_set( 0.116749 )
+ga_view_center_set( 0.097884, -0.009128 )
+ga_view_zoom_set( 0.103777 )
+ga_view_center_set( 0.101291, -0.007556 )
+ga_view_zoom_set( 0.092246 )
+ga_view_center_set( 0.097664, -0.012015 )
+ga_view_zoom_set( 0.081997 )
+ga_view_center_set( 0.094321, -0.015979 )
+ga_view_zoom_set( 0.072886 )
+ga_view_center_set( 0.091350, -0.019502 )
+ga_view_zoom_set( 0.064787 )
+ga_view_center_set( 0.088615, -0.022634 )
+ga_view_zoom_set( 0.057589 )
+ga_view_center_set( 0.086185, -0.025418 )
+ga_view_zoom_set( 0.051190 )
+ga_view_center_set( 0.088616, -0.022634 )
+ga_view_zoom_set( 0.057589 )
+ga_view_center_set( 0.091350, -0.019502 )
+ga_view_zoom_set( 0.064787 )
+ga_view_center_set( 0.094426, -0.015979 )
+ga_view_zoom_set( 0.072886 )
+ga_view_center_set( 0.097887, -0.012015 )
+ga_view_zoom_set( 0.081997 )
+ga_view_center_set( 0.109568, 0.001363 )
+ga_view_zoom_set( 0.112745 )
+ga_view_center_set( 0.114921, 0.007494 )
+ga_view_zoom_set( 0.126839 )
+ga_view_center_set( 0.120944, 0.014392 )
+ga_view_zoom_set( 0.142693 )
+ga_view_center_set( 0.122045, 0.019372 )
+ga_view_zoom_set( 0.160530 )
+ga_view_center_set( 0.123282, 0.024975 )
+ga_view_zoom_set( 0.180596 )
+ga_view_center_set( 0.124675, 0.031279 )
+ga_view_zoom_set( 0.203171 )
+ga_view_center_set( 0.126242, 0.038370 )
+ga_view_zoom_set( 0.228567 )
+ga_view_center_set( 0.128004, 0.046347 )
+ga_view_zoom_set( 0.257138 )
+ga_view_center_set( 0.126242, 0.038370 )
+ga_view_zoom_set( 0.228567 )
+ga_view_center_set( 0.124675, 0.031279 )
+ga_view_zoom_set( 0.203171 )
+ga_view_center_set( 0.123283, 0.024975 )
+ga_view_zoom_set( 0.180596 )
+ga_view_center_set( 0.122045, 0.019372 )
+ga_view_zoom_set( 0.160530 )
+ga_view_center_set( 0.120944, 0.014392 )
+ga_view_zoom_set( 0.142693 )
+ga_view_center_set( 0.119966, 0.009965 )
+ga_view_zoom_set( 0.126839 )
+ga_view_center_set( 0.119097, 0.006030 )
+ga_view_zoom_set( 0.112745 )
+ga_view_center_set( 0.118324, 0.002532 )
+ga_view_zoom_set( 0.100218 )
+ga_view_center_set( 0.114298, 0.000580 )
+ga_view_zoom_set( 0.112745 )
+ga_view_center_set( 0.109768, -0.001616 )
+ga_view_zoom_set( 0.126839 )
+ga_view_center_set( 0.099575, -0.006558 )
+ga_view_zoom_set( 0.158548 )
+ga_view_center_set( 0.093205, -0.009647 )
+ga_view_zoom_set( 0.178367 )
+ga_view_center_set( 0.086039, -0.013122 )
+ga_view_zoom_set( 0.200662 )
+ga_view_center_set( 0.076348, -0.017031 )
+ga_view_zoom_set( 0.225745 )
+ga_view_center_set( 0.065445, -0.021245 )
+ga_view_zoom_set( 0.253963 )
+ga_view_center_set( 0.028649, -0.035469 )
+ga_view_zoom_set( 0.349200 )
+ga_view_center_set( 0.011785, -0.041988 )
+ga_view_zoom_set( 0.392850 )
+ga_view_center_set( 0.026382, -0.039153 )
+ga_view_zoom_set( 0.349200 )
+ga_view_center_set( 0.039357, -0.036634 )
+ga_view_zoom_set( 0.310400 )
+ga_view_center_set( 0.050891, -0.034394 )
+ga_view_zoom_set( 0.275911 )
+ga_view_center_set( 0.061143, -0.032404 )
+ga_view_zoom_set( 0.245254 )
+ga_view_center_set( 0.070256, -0.030634 )
+ga_view_zoom_set( 0.218004 )
+ga_view_center_set( 0.084837, -0.027803 )
+ga_view_zoom_set( 0.174403 )
+ga_view_center_set( 0.091317, -0.026545 )
+ga_view_zoom_set( 0.155025 )
+ga_view_center_set( 0.098084, -0.025090 )
+ga_view_zoom_set( 0.137800 )
+ga_view_center_set( 0.108911, -0.022764 )
+ga_view_zoom_set( 0.110240 )
+ga_view_center_set( 0.113723, -0.021730 )
+ga_view_zoom_set( 0.097991 )
+ga_view_center_set( 0.118001, -0.020811 )
+ga_view_zoom_set( 0.087103 )
+ga_view_center_set( 0.121803, -0.019994 )
+ga_view_zoom_set( 0.077425 )
+ga_view_center_set( 0.125183, -0.019268 )
+ga_view_zoom_set( 0.068822 )
+ga_view_aa_set( 132.742432, 53.370304, -39.785362 )
+ga_view_aa_set( 113.966904, 16.047260, -96.562630 )
+ga_view_center_set( 0.133897, -0.016487 )
+ga_view_zoom_set( 0.061175 )
+ga_view_center_set( 0.144512, -0.020592 )
+ga_view_zoom_set( 0.054378 )
+ga_view_center_set( 0.133941, -0.017767 )
+ga_view_zoom_set( 0.061175 )
+ga_view_center_set( 0.122247, -0.014688 )
+ga_view_zoom_set( 0.068822 )
+ga_view_center_set( 0.095936, -0.007762 )
+ga_view_zoom_set( 0.086028 )
+ga_view_center_set( 0.063327, 0.000757 )
+ga_view_zoom_set( 0.107535 )
+ga_view_center_set( 0.043033, 0.005995 )
+ga_view_zoom_set( 0.120977 )
+ga_view_center_set( 0.021283, 0.007467 )
+ga_view_zoom_set( 0.136099 )
+ga_view_center_set( -0.027655, 0.010782 )
+ga_view_zoom_set( 0.170123 )
+ga_view_center_set( -0.058242, 0.012853 )
+ga_view_zoom_set( 0.191389 )
+ga_view_center_set( -0.092651, 0.015183 )
+ga_view_zoom_set( 0.215312 )
+ga_view_center_set( -0.131187, 0.017630 )
+ga_view_zoom_set( 0.242226 )
+ga_view_center_set( -0.069757, 0.028116 )
+ga_view_zoom_set( 0.215312 )
+ga_view_center_set( -0.015618, 0.037281 )
+ga_view_zoom_set( 0.191389 )
+ga_view_center_set( 0.032229, 0.045290 )
+ga_view_zoom_set( 0.170123 )
+ga_view_aa_set( 126.146049, -7.434495, 48.196697 )
+ga_view_aa_set( 129.337250, -6.224798, 49.799248 )
+ga_view_center_set( 0.058558, 0.054128 )
+ga_view_zoom_set( 0.151221 )
+ga_view_center_set( 0.081961, 0.061984 )
+ga_view_zoom_set( 0.134418 )
+ga_view_center_set( 0.102764, 0.068966 )
+ga_view_zoom_set( 0.119483 )
+ga_view_center_set( 0.121255, 0.075173 )
+ga_view_zoom_set( 0.106207 )
+ga_view_center_set( 0.137692, 0.080691 )
+ga_view_zoom_set( 0.094406 )
+ga_view_center_set( 0.121255, 0.075173 )
+ga_view_zoom_set( 0.106207 )
+ga_view_center_set( 0.102764, 0.068966 )
+ga_view_zoom_set( 0.119483 )
+ga_view_center_set( 0.061158, 0.055001 )
+ga_view_zoom_set( 0.149354 )
+ga_view_center_set( 0.035154, 0.046272 )
+ga_view_zoom_set( 0.168023 )
+ga_view_center_set( -0.023354, 0.026633 )
+ga_view_zoom_set( 0.210029 )
+ga_view_center_set( -0.059921, 0.014359 )
+ga_view_zoom_set( 0.236282 )
+ga_view_center_set( -0.142198, -0.012491 )
+ga_view_zoom_set( 0.295353 )
+ga_view_center_set( -0.193621, -0.029273 )
+ga_view_zoom_set( 0.332272 )
+ga_view_center_set( -0.309323, -0.067031 )
+ga_view_zoom_set( 0.415340 )
+ga_view_center_set( -0.381637, -0.090630 )
+ga_view_zoom_set( 0.467258 )
+ga_view_center_set( -0.462990, -0.117179 )
+ga_view_zoom_set( 0.525665 )
+ga_view_center_set( -0.381637, -0.090630 )
+ga_view_zoom_set( 0.467258 )
+ga_view_center_set( -0.309323, -0.067031 )
+ga_view_zoom_set( 0.415340 )
+ga_view_center_set( -0.245044, -0.046054 )
+ga_view_zoom_set( 0.369191 )
+ga_view_center_set( -0.187908, -0.027408 )
+ga_view_zoom_set( 0.328170 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.175004, -0.029539 )
+ga_view_zoom_set( 0.291707 )
+ga_view_center_set( -0.158903, -0.034590 )
+ga_view_zoom_set( 0.259295 )
+ga_view_center_set( -0.144030, -0.040016 )
+ga_view_zoom_set( 0.230484 )
+ga_view_center_set( -0.158903, -0.034590 )
+ga_view_zoom_set( 0.259295 )
+ga_view_center_set( -0.175635, -0.028487 )
+ga_view_zoom_set( 0.291707 )
+ga_view_center_set( -0.194458, -0.021620 )
+ga_view_zoom_set( 0.328170 )
+ga_view_center_set( -0.215635, -0.013896 )
+ga_view_zoom_set( 0.369191 )
+ga_view_center_set( -0.194458, -0.021620 )
+ga_view_zoom_set( 0.328170 )
+ga_view_center_set( -0.175635, -0.028487 )
+ga_view_zoom_set( 0.291707 )
+ga_view_center_set( -0.158903, -0.034590 )
+ga_view_zoom_set( 0.259295 )
+ga_view_center_set( -0.144030, -0.040016 )
+ga_view_zoom_set( 0.230484 )
+ga_view_center_set( -0.130809, -0.044838 )
+ga_view_zoom_set( 0.204875 )
+ga_view_center_set( -0.119058, -0.049273 )
+ga_view_zoom_set( 0.182111 )
+ga_view_center_set( -0.108612, -0.053215 )
+ga_view_zoom_set( 0.161876 )
+ga_view_aa_set( 87.201126, -69.858521, 83.159111 )
+ga_view_aa_set( -81.354904, -33.657581, -94.572540 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -4.716861, -23.964314, -63.064148 )
+ga_view_aa_set( -1.672717, -43.751919, -51.754730 )
+ga_view_center_set( -0.063822, -0.051579 )
+ga_view_zoom_set( 0.143890 )
+ga_view_center_set( -0.024112, -0.050126 )
+ga_view_zoom_set( 0.127902 )
+ga_view_center_set( 0.011093, -0.048834 )
+ga_view_zoom_set( 0.113691 )
+ga_view_center_set( 0.042305, -0.047686 )
+ga_view_zoom_set( 0.101059 )
+ga_view_center_set( 0.070049, -0.046665 )
+ga_view_zoom_set( 0.089830 )
+ga_view_center_set( 0.094710, -0.045757 )
+ga_view_zoom_set( 0.079849 )
+ga_view_center_set( 0.116631, -0.044951 )
+ga_view_zoom_set( 0.070977 )
+ga_view_center_set( 0.120958, -0.042903 )
+ga_view_zoom_set( 0.063090 )
+ga_view_center_set( 0.124804, -0.041082 )
+ga_view_zoom_set( 0.056080 )
+ga_view_center_set( 0.128223, -0.039463 )
+ga_view_zoom_set( 0.049849 )
+ga_view_center_set( 0.131263, -0.038025 )
+ga_view_zoom_set( 0.044310 )
+ga_view_center_set( 0.128223, -0.039463 )
+ga_view_zoom_set( 0.049849 )
+ga_view_center_set( 0.124804, -0.041082 )
+ga_view_zoom_set( 0.056080 )
+ga_view_center_set( 0.113265, -0.046544 )
+ga_view_zoom_set( 0.077111 )
+ga_view_center_set( 0.102687, -0.051551 )
+ga_view_zoom_set( 0.096388 )
+ga_view_center_set( 0.096859, -0.055776 )
+ga_view_zoom_set( 0.108437 )
+ga_view_center_set( 0.090389, -0.060793 )
+ga_view_zoom_set( 0.121991 )
+ga_view_center_set( 0.075834, -0.072081 )
+ga_view_zoom_set( 0.152489 )
+ga_view_center_set( 0.057886, -0.086439 )
+ga_view_zoom_set( 0.190611 )
+ga_view_center_set( 0.046824, -0.095567 )
+ga_view_zoom_set( 0.214438 )
+ga_viewport_size_set( "default_viewport", 10.033548, 3.747709, 1 )
+STRING asm_delete_any_deleted_ids[VIRTUAL]
+asm_delete_surface( "Surface 31", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 31
+asm_delete_surface( "Surface 33", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 33
+asm_delete_surface( "Surface 35", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 35
+asm_delete_surface( "Surface 34", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 34
+asm_delete_surface( "Surface 40", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 40
+asm_delete_surface( "Surface 41", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 41
+asm_delete_surface( "Surface 43", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 43
+asm_delete_surface( "Surface 42", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 42
+asm_delete_surface( "Surface 48", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 48
+asm_delete_surface( "Surface 47", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 47
+asm_delete_surface( "Surface 46", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 46
+asm_delete_surface( "Surface 44", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 44
+asm_delete_surface( "Surface 45", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 45
+asm_delete_surface( "Surface 39", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 39
+asm_delete_surface( "Surface 38", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 38
+asm_delete_surface( "Surface 36", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 36
+asm_delete_surface( "Surface 37", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 37
+asm_delete_surface( "Surface 30", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 30
+asm_delete_surface( "Surface 28", asm_delete_any_deleted_ids )
+ga_view_center_set( 0.043575, -0.135582 )
+ga_view_zoom_set( 0.155955 )
+$# 1 Surface Deleted: Surface 28
+ga_view_center_set( 0.046254, -0.126576 )
+ga_view_zoom_set( 0.175449 )
+ga_view_center_set( 0.049268, -0.116700 )
+ga_view_zoom_set( 0.197380 )
+ga_view_center_set( 0.052659, -0.105590 )
+ga_view_zoom_set( 0.222053 )
+ga_view_center_set( 0.056473, -0.093092 )
+ga_view_zoom_set( 0.249809 )
+ga_view_center_set( 0.060765, -0.079031 )
+ga_view_zoom_set( 0.281035 )
+ga_view_center_set( 0.065592, -0.063212 )
+ga_view_zoom_set( 0.316165 )
+asm_delete_surface( "Surface 27", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 27
+asm_delete_surface( "Surface 29", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 29
+asm_delete_surface( "Surface 23", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 23
+asm_delete_surface( "Surface 18", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 18
+asm_delete_surface( "Surface 17", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 17
+asm_delete_surface( "Surface 16", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 16
+asm_delete_surface( "Surface 15", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 15
+asm_delete_surface( "Surface 13", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 13
+asm_delete_surface( "Surface 8", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 8
+asm_delete_surface( "Surface 12", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 12
+asm_delete_surface( "Surface 7", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 7
+asm_delete_surface( "Surface 5", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 5
+asm_delete_surface( "Surface 4", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 4
+asm_delete_surface( "Surface 14", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 14
+asm_delete_surface( "Surface 6", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 6
+asm_delete_surface( "Surface 79", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 79
+ga_view_center_set( 0.038783, -0.036711 )
+ga_view_zoom_set( 0.281035 )
+ga_view_center_set( 0.014953, -0.013155 )
+ga_view_zoom_set( 0.249809 )
+ga_view_center_set( -0.006230, 0.007785 )
+ga_view_zoom_set( 0.222053 )
+ga_view_center_set( -0.025059, 0.026397 )
+ga_view_zoom_set( 0.197380 )
+ga_view_center_set( -0.041796, 0.042942 )
+ga_view_zoom_set( 0.175449 )
+ga_view_center_set( -0.056673, 0.057648 )
+ga_view_zoom_set( 0.155955 )
+ga_view_center_set( -0.069897, 0.070720 )
+ga_view_zoom_set( 0.138626 )
+ga_view_center_set( -0.081742, 0.082340 )
+ga_view_zoom_set( 0.123223 )
+asm_delete_surface( "Surface 11", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 11
+asm_delete_surface( "Surface 77", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 77
+asm_delete_surface( "Surface 71", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 71
+asm_delete_surface( "Surface 3", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 3
+asm_delete_surface( "Surface 76", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 76
+asm_delete_surface( "Surface 72", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 72
+asm_delete_surface( "Surface 52", asm_delete_any_deleted_ids )
+ga_view_center_set( -0.035696, 0.083349 )
+ga_view_zoom_set( 0.098579 )
+$# 1 Surface Deleted: Surface 52
+ga_view_center_set( -0.015294, 0.083797 )
+ga_view_zoom_set( 0.087626 )
+ga_view_center_set( 0.002840, 0.084196 )
+ga_view_zoom_set( 0.077889 )
+ga_view_center_set( 0.018959, 0.084550 )
+ga_view_zoom_set( 0.069235 )
+ga_view_center_set( 0.033288, 0.084865 )
+ga_view_zoom_set( 0.061542 )
+asm_delete_surface( "Surface 59", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 59
+asm_delete_surface( "Surface 70", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 70
+asm_delete_surface( "Surface 73", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 73
+asm_delete_surface( "Surface 74", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 74
+asm_delete_surface( "Surface 58", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 58
+asm_delete_surface( "Surface 75", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 75
+ga_view_center_set( 0.040665, 0.086424 )
+ga_view_zoom_set( 0.054704 )
+ga_view_center_set( 0.047224, 0.087811 )
+ga_view_zoom_set( 0.048626 )
+ga_view_center_set( 0.053053, 0.089043 )
+ga_view_zoom_set( 0.043223 )
+ga_view_center_set( 0.058235, 0.090138 )
+ga_view_zoom_set( 0.038421 )
+ga_view_center_set( 0.062841, 0.091112 )
+ga_view_zoom_set( 0.034152 )
+ga_view_center_set( 0.066935, 0.091977 )
+ga_view_zoom_set( 0.030357 )
+ga_view_center_set( 0.070574, 0.092746 )
+ga_view_zoom_set( 0.026984 )
+ga_view_center_set( 0.066935, 0.091977 )
+ga_view_zoom_set( 0.030357 )
+ga_view_center_set( 0.062841, 0.091112 )
+ga_view_zoom_set( 0.034152 )
+ga_view_center_set( 0.053629, 0.089164 )
+ga_view_zoom_set( 0.042689 )
+ga_view_center_set( 0.047871, 0.087947 )
+ga_view_zoom_set( 0.048026 )
+ga_view_center_set( 0.028440, 0.083840 )
+ga_view_zoom_set( 0.066035 )
+ga_view_center_set( 0.019920, 0.081185 )
+ga_view_zoom_set( 0.074290 )
+ga_view_center_set( 0.010335, 0.078144 )
+ga_view_zoom_set( 0.083576 )
+ga_view_center_set( -0.021831, 0.067514 )
+ga_view_zoom_set( 0.114917 )
+ga_view_center_set( -0.051316, 0.057097 )
+ga_view_zoom_set( 0.143646 )
+ga_view_center_set( -0.069324, 0.050167 )
+ga_view_zoom_set( 0.161602 )
+ga_view_center_set( -0.089584, 0.042370 )
+ga_view_zoom_set( 0.181802 )
+ga_view_center_set( -0.135167, 0.024828 )
+ga_view_zoom_set( 0.227253 )
+ga_view_center_set( -0.163657, 0.013864 )
+ga_view_zoom_set( 0.255659 )
+ga_view_center_set( -0.141646, 0.029645 )
+ga_view_zoom_set( 0.227253 )
+ga_view_center_set( -0.122228, 0.043821 )
+ga_view_zoom_set( 0.202002 )
+asm_delete_surface( "Surface 1", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 1
+asm_delete_surface( "Surface 2", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 2
+asm_delete_surface( "Surface 9", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 9
+asm_delete_surface( "Surface 69", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 69
+asm_delete_surface( "Surface 68", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 68
+asm_delete_surface( "Surface 66", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 66
+asm_delete_surface( "Surface 67", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 67
+asm_delete_surface( "Surface 60", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 60
+asm_delete_surface( "Surface 49", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 49
+asm_delete_surface( "Surface 50", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 50
+asm_delete_surface( "Surface 61", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 61
+ga_view_center_set( -0.081211, 0.032008 )
+ga_view_zoom_set( 0.179558 )
+ga_view_center_set( -0.044751, 0.021508 )
+ga_view_zoom_set( 0.159607 )
+ga_view_center_set( -0.012342, 0.012174 )
+ga_view_zoom_set( 0.141873 )
+ga_view_center_set( 0.016465, 0.003877 )
+ga_view_zoom_set( 0.126109 )
+ga_view_center_set( 0.042072, -0.003498 )
+ga_view_zoom_set( 0.112097 )
+ga_view_center_set( 0.064834, -0.010053 )
+ga_view_zoom_set( 0.099642 )
+ga_view_center_set( 0.085067, -0.015880 )
+ga_view_zoom_set( 0.088570 )
+ga_view_center_set( 0.103051, -0.021059 )
+ga_view_zoom_set( 0.078729 )
+ga_view_center_set( 0.119037, -0.025664 )
+ga_view_zoom_set( 0.069982 )
+ga_view_center_set( 0.133247, -0.029801 )
+ga_view_zoom_set( 0.062206 )
+ga_view_center_set( 0.145879, -0.033520 )
+ga_view_zoom_set( 0.055294 )
+asm_delete_surface( "Surface 51", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 51
+asm_delete_surface( "Surface 63", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 63
+ga_view_center_set( 0.152220, -0.036969 )
+ga_view_zoom_set( 0.049150 )
+ga_view_center_set( 0.157665, -0.040035 )
+ga_view_zoom_set( 0.043689 )
+ga_view_center_set( 0.162477, -0.042760 )
+ga_view_zoom_set( 0.038835 )
+ga_view_center_set( 0.166754, -0.045183 )
+ga_view_zoom_set( 0.034520 )
+ga_view_center_set( 0.170533, -0.047336 )
+ga_view_zoom_set( 0.030684 )
+ga_view_center_set( 0.173853, -0.049250 )
+ga_view_zoom_set( 0.027275 )
+ga_view_center_set( 0.176786, -0.050951 )
+ga_view_zoom_set( 0.024244 )
+ga_view_center_set( 0.173853, -0.049250 )
+ga_view_zoom_set( 0.027275 )
+ga_view_center_set( 0.167253, -0.045422 )
+ga_view_zoom_set( 0.034094 )
+ga_view_center_set( 0.163129, -0.043029 )
+ga_view_zoom_set( 0.038355 )
+ga_view_center_set( 0.158489, -0.040338 )
+ga_view_zoom_set( 0.043150 )
+ga_view_center_set( 0.148048, -0.034282 )
+ga_view_zoom_set( 0.053937 )
+ga_view_center_set( 0.139019, -0.026790 )
+ga_view_zoom_set( 0.067422 )
+ga_view_center_set( 0.127733, -0.017426 )
+ga_view_zoom_set( 0.084277 )
+ga_view_center_set( 0.120679, -0.011574 )
+ga_view_zoom_set( 0.094812 )
+ga_view_center_set( 0.113228, -0.004990 )
+ga_view_zoom_set( 0.106663 )
+ga_view_center_set( 0.104847, 0.002417 )
+ga_view_zoom_set( 0.119996 )
+ga_view_center_set( 0.095417, 0.010751 )
+ga_view_zoom_set( 0.134995 )
+ga_view_center_set( 0.084809, 0.020125 )
+ga_view_zoom_set( 0.151870 )
+ga_view_center_set( 0.095417, 0.010751 )
+ga_view_zoom_set( 0.134995 )
+ga_view_center_set( 0.112390, -0.004249 )
+ga_view_zoom_set( 0.107996 )
+ga_view_center_set( 0.119934, -0.010915 )
+ga_view_zoom_set( 0.095997 )
+ga_view_center_set( 0.126639, -0.016841 )
+ga_view_zoom_set( 0.085330 )
+ga_view_center_set( 0.132599, -0.022108 )
+ga_view_zoom_set( 0.075849 )
+ga_view_center_set( 0.137799, -0.026741 )
+ga_view_zoom_set( 0.067422 )
+ga_view_center_set( 0.142421, -0.030859 )
+ga_view_zoom_set( 0.059930 )
+ga_view_center_set( 0.146529, -0.034520 )
+ga_view_zoom_set( 0.053271 )
+ga_view_center_set( 0.142615, -0.031015 )
+ga_view_zoom_set( 0.059930 )
+ga_view_center_set( 0.138344, -0.027510 )
+ga_view_zoom_set( 0.067422 )
+ga_view_center_set( 0.137383, -0.033572 )
+ga_view_zoom_set( 0.075849 )
+ga_view_center_set( 0.136302, -0.040392 )
+ga_view_zoom_set( 0.085330 )
+ga_view_center_set( 0.135085, -0.048064 )
+ga_view_zoom_set( 0.095997 )
+ga_view_center_set( 0.133717, -0.056696 )
+ga_view_zoom_set( 0.107996 )
+ga_view_center_set( 0.130638, -0.076116 )
+ga_view_zoom_set( 0.134995 )
+ga_view_center_set( 0.128714, -0.088451 )
+ga_view_zoom_set( 0.151870 )
+ga_view_center_set( 0.127104, -0.106880 )
+ga_view_zoom_set( 0.170853 )
+ga_view_center_set( 0.125293, -0.127612 )
+ga_view_zoom_set( 0.192210 )
+ga_view_center_set( 0.123256, -0.150936 )
+ga_view_zoom_set( 0.216236 )
+ga_view_center_set( 0.120964, -0.177175 )
+ga_view_zoom_set( 0.243266 )
+asm_delete_surface( "Surface 19", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 19
+asm_delete_surface( "Surface 20", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 20
+asm_delete_surface( "Surface 24", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 24
+asm_delete_surface( "Surface 26", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 26
+ga_view_center_set( 0.007012, -0.016971 )
+ga_view_zoom_set( 0.469944 )
+ga_view_center_set( 0.014799, -0.042316 )
+ga_view_zoom_set( 0.417728 )
+ga_view_center_set( 0.021720, -0.064845 )
+ga_view_zoom_set( 0.371313 )
+ga_view_center_set( 0.027872, -0.084870 )
+ga_view_zoom_set( 0.330056 )
+ga_view_center_set( 0.033341, -0.102670 )
+ga_view_zoom_set( 0.293383 )
+ga_view_center_set( 0.038202, -0.118493 )
+ga_view_zoom_set( 0.260785 )
+ga_view_center_set( 0.042693, -0.132388 )
+ga_view_zoom_set( 0.231809 )
+ga_view_center_set( 0.046835, -0.143684 )
+ga_view_zoom_set( 0.206053 )
+ga_view_center_set( 0.050517, -0.153726 )
+ga_view_zoom_set( 0.183158 )
+ga_view_center_set( 0.056408, -0.169792 )
+ga_view_zoom_set( 0.146526 )
+ga_view_center_set( 0.059026, -0.176933 )
+ga_view_zoom_set( 0.130246 )
+asm_delete_surface( "Surface 21", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 21
+asm_delete_surface( "Surface 22", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 22
+asm_delete_surface( "Surface 62", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 62
+ga_view_center_set( 0.002929, -0.006941 )
+ga_view_zoom_set( 0.469478 )
+ga_view_center_set( 0.005827, -0.023414 )
+ga_view_zoom_set( 0.417313 )
+ga_view_center_set( 0.008132, -0.038870 )
+ga_view_zoom_set( 0.370945 )
+ga_view_center_set( 0.011819, -0.064034 )
+ga_view_zoom_set( 0.296756 )
+ga_view_center_set( 0.014770, -0.084164 )
+ga_view_zoom_set( 0.237405 )
+ga_view_center_set( 0.015926, -0.093111 )
+ga_view_zoom_set( 0.211027 )
+ga_view_center_set( 0.017229, -0.101202 )
+ga_view_zoom_set( 0.187579 )
+ga_view_center_set( 0.028503, -0.107783 )
+ga_view_zoom_set( 0.166737 )
+ga_view_center_set( 0.038525, -0.113634 )
+ga_view_zoom_set( 0.148211 )
+ga_view_center_set( 0.054733, -0.122994 )
+ga_view_zoom_set( 0.118569 )
+ga_view_center_set( 0.061936, -0.127155 )
+ga_view_zoom_set( 0.105394 )
+ga_view_center_set( 0.068339, -0.130853 )
+ga_view_zoom_set( 0.093684 )
+asm_delete_surface( "Surface 10", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 10
+asm_delete_surface( "Surface 65", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 65
+asm_delete_surface( "Surface 64", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 64
+ga_view_center_set( 0.071657, -0.134749 )
+ga_view_zoom_set( 0.083275 )
+ga_view_center_set( 0.074443, -0.138266 )
+ga_view_zoom_set( 0.074022 )
+ga_view_center_set( 0.076997, -0.145105 )
+ga_view_zoom_set( 0.059217 )
+ga_view_center_set( 0.077786, -0.148337 )
+ga_view_zoom_set( 0.052638 )
+ga_view_center_set( 0.078316, -0.151313 )
+ga_view_zoom_set( 0.046789 )
+ga_view_center_set( 0.078757, -0.153958 )
+ga_view_zoom_set( 0.041590 )
+ga_view_center_set( 0.079149, -0.156309 )
+ga_view_zoom_set( 0.036969 )
+ga_view_center_set( 0.078757, -0.153958 )
+ga_view_zoom_set( 0.041590 )
+ga_view_center_set( 0.078316, -0.151313 )
+ga_view_zoom_set( 0.046789 )
+ga_view_center_set( 0.076828, -0.142386 )
+ga_view_zoom_set( 0.064335 )
+ga_view_center_set( 0.075465, -0.134203 )
+ga_view_zoom_set( 0.080419 )
+ga_view_center_set( 0.074612, -0.129089 )
+ga_view_zoom_set( 0.090471 )
+ga_view_center_set( 0.073918, -0.123203 )
+ga_view_zoom_set( 0.101780 )
+ga_view_center_set( 0.073137, -0.116581 )
+ga_view_zoom_set( 0.114502 )
+ga_view_center_set( 0.071379, -0.101682 )
+ga_view_zoom_set( 0.143128 )
+ga_view_center_set( 0.069182, -0.083059 )
+ga_view_zoom_set( 0.178910 )
+ga_view_center_set( 0.078925, -0.065403 )
+ga_view_zoom_set( 0.201274 )
+ga_view_center_set( 0.089886, -0.045541 )
+ga_view_zoom_set( 0.226433 )
+ga_view_center_set( 0.102217, -0.023195 )
+ga_view_zoom_set( 0.254737 )
+ga_view_center_set( 0.115345, 0.001571 )
+ga_view_zoom_set( 0.286579 )
+ga_view_center_set( 0.130114, 0.029433 )
+ga_view_zoom_set( 0.322402 )
+ga_view_center_set( 0.163344, 0.092122 )
+ga_view_zoom_set( 0.403002 )
+ga_view_center_set( 0.181756, 0.136605 )
+ga_view_zoom_set( 0.453378 )
+ga_view_center_set( 0.158631, 0.143970 )
+ga_view_zoom_set( 0.403002 )
+ga_view_center_set( 0.138075, 0.150517 )
+ga_view_zoom_set( 0.358224 )
+ga_view_center_set( 0.119803, 0.156336 )
+ga_view_zoom_set( 0.318422 )
+ga_view_center_set( 0.103561, 0.161508 )
+ga_view_zoom_set( 0.283041 )
+ga_view_center_set( 0.088756, 0.166290 )
+ga_view_zoom_set( 0.251592 )
+ga_view_center_set( 0.063891, 0.192773 )
+ga_view_zoom_set( 0.201274 )
+ga_view_center_set( 0.052971, 0.204413 )
+ga_view_zoom_set( 0.178910 )
+ga_view_center_set( 0.029145, 0.228096 )
+ga_view_zoom_set( 0.130116 )
+ga_view_center_set( 0.016590, 0.239358 )
+ga_view_zoom_set( 0.104093 )
+asm_delete_surface( "Surface 78", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 78
+asm_delete_surface( "Surface 82", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 82
+asm_delete_surface( "Surface 83", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 83
+asm_delete_surface( "Surface 84", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 84
+asm_delete_surface( "Surface 80", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 80
+asm_delete_surface( "Surface 56", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 56
+asm_delete_surface( "Surface 54", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 54
+asm_delete_surface( "Surface 57", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 57
+asm_delete_surface( "Surface 53", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 53
+asm_delete_surface( "Surface 81", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 81
+ga_view_center_set( 0.019329, 0.235300 )
+ga_view_zoom_set( 0.092527 )
+ga_view_center_set( 0.021764, 0.231692 )
+ga_view_zoom_set( 0.082246 )
+ga_view_center_set( 0.023928, 0.228486 )
+ga_view_zoom_set( 0.073108 )
+ga_view_center_set( 0.025852, 0.225636 )
+ga_view_zoom_set( 0.064985 )
+ga_view_center_set( 0.027562, 0.223102 )
+ga_view_zoom_set( 0.057764 )
+ga_view_center_set( 0.029082, 0.220850 )
+ga_view_zoom_set( 0.051346 )
+ga_view_center_set( 0.030434, 0.218848 )
+ga_view_zoom_set( 0.045641 )
+ga_view_center_set( 0.031635, 0.217069 )
+ga_view_zoom_set( 0.040570 )
+ga_view_center_set( 0.030434, 0.218848 )
+ga_view_zoom_set( 0.045641 )
+ga_view_center_set( 0.029082, 0.220850 )
+ga_view_zoom_set( 0.051346 )
+ga_view_center_set( 0.024522, 0.227606 )
+ga_view_zoom_set( 0.070601 )
+ga_view_center_set( 0.018252, 0.236896 )
+ga_view_zoom_set( 0.097076 )
+ga_view_center_set( 0.015662, 0.239167 )
+ga_view_zoom_set( 0.109211 )
+ga_view_center_set( 0.009834, 0.243956 )
+ga_view_zoom_set( 0.136513 )
+ga_view_center_set( 0.002549, 0.249744 )
+ga_view_zoom_set( 0.170642 )
+ga_view_center_set( -0.006557, 0.256231 )
+ga_view_zoom_set( 0.213302 )
+ga_view_center_set( -0.012248, 0.258725 )
+ga_view_zoom_set( 0.239965 )
+asm_delete_surface( "Surface 55", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 55
+ga_view_center_set( -0.006401, 0.252800 )
+ga_view_zoom_set( 0.213302 )
+ga_view_center_set( 0.007591, -0.003028 )
+ga_view_zoom_set( 0.452167 )
+ga_view_center_set( 0.018609, -0.014193 )
+ga_view_zoom_set( 0.401926 )
+ga_view_center_set( 0.028402, -0.024117 )
+ga_view_zoom_set( 0.357268 )
+ga_view_center_set( 0.037340, -0.033403 )
+ga_view_zoom_set( 0.317571 )
+ga_view_center_set( 0.045490, -0.041657 )
+ga_view_zoom_set( 0.282286 )
+ga_view_center_set( 0.052919, -0.049177 )
+ga_view_zoom_set( 0.250921 )
+ga_view_center_set( 0.059522, -0.055862 )
+ga_view_zoom_set( 0.223041 )
+ga_view_center_set( 0.056841, -0.072673 )
+ga_view_zoom_set( 0.198258 )
+ga_view_center_set( 0.059667, -0.056152 )
+ga_view_zoom_set( 0.223040 )
+ga_view_center_set( 0.066026, -0.018978 )
+ga_view_zoom_set( 0.278801 )
+ga_view_center_set( 0.070000, 0.004255 )
+ga_view_zoom_set( 0.313651 )
+ga_view_center_set( 0.074471, 0.030393 )
+ga_view_zoom_set( 0.352857 )
+ga_view_center_set( 0.079500, 0.059798 )
+ga_view_zoom_set( 0.396964 )
+ga_view_center_set( 0.071375, 0.027813 )
+ga_view_zoom_set( 0.352857 )
+ga_view_center_set( 0.067592, -0.007037 )
+ga_view_zoom_set( 0.313651 )
+ga_view_center_set( 0.063822, -0.037607 )
+ga_view_zoom_set( 0.278801 )
+ga_view_center_set( 0.060470, -0.064599 )
+ga_view_zoom_set( 0.247823 )
+ga_view_center_set( 0.057491, -0.088592 )
+ga_view_zoom_set( 0.220287 )
+ga_view_center_set( 0.054986, -0.103192 )
+ga_view_zoom_set( 0.195811 )
+ga_view_center_set( 0.051909, -0.122802 )
+ga_view_zoom_set( 0.220287 )
+ga_view_center_set( 0.048447, -0.144863 )
+ga_view_zoom_set( 0.247823 )
+ga_view_center_set( 0.044552, -0.169681 )
+ga_view_zoom_set( 0.278801 )
+ga_view_center_set( 0.040170, -0.197602 )
+ga_view_zoom_set( 0.313651 )
+ga_view_center_set( 0.035241, -0.229013 )
+ga_view_zoom_set( 0.352857 )
+ga_view_center_set( 0.029695, -0.265640 )
+ga_view_zoom_set( 0.396964 )
+ga_view_center_set( 0.026471, -0.279053 )
+ga_view_zoom_set( 0.352857 )
+ga_view_center_set( 0.023605, -0.291204 )
+ga_view_zoom_set( 0.313651 )
+ga_view_center_set( 0.021058, -0.302006 )
+ga_view_zoom_set( 0.278801 )
+ga_view_center_set( 0.018793, -0.311607 )
+ga_view_zoom_set( 0.247823 )
+ga_view_center_set( 0.015170, -0.326969 )
+ga_view_zoom_set( 0.198258 )
+ga_view_center_set( 0.013560, -0.333797 )
+ga_view_zoom_set( 0.176230 )
+ga_view_center_set( 0.012128, -0.339865 )
+ga_view_zoom_set( 0.156648 )
+ga_view_center_set( 0.010856, -0.345260 )
+ga_view_zoom_set( 0.139243 )
+ga_view_center_set( 0.017053, -0.335579 )
+ga_view_zoom_set( 0.123772 )
+ga_view_center_set( 0.022160, -0.328180 )
+ga_view_zoom_set( 0.110019 )
+ga_view_center_set( 0.026128, -0.322604 )
+ga_view_zoom_set( 0.097795 )
+asm_delete_surface( "Surface 25", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 25
+ga_view_center_set( -0.043743, -0.171152 )
+ga_view_zoom_set( 0.238380 )
+ga_view_center_set( -0.044750, -0.189584 )
+ga_view_zoom_set( 0.211893 )
+ga_view_center_set( -0.045644, -0.205968 )
+ga_view_zoom_set( 0.188349 )
+ga_view_center_set( -0.046440, -0.220532 )
+ga_view_zoom_set( 0.167422 )
+ga_view_center_set( -0.047147, -0.233477 )
+ga_view_zoom_set( 0.148819 )
+ga_view_center_set( -0.047776, -0.244985 )
+ga_view_zoom_set( 0.132284 )
+ga_view_center_set( -0.048506, -0.255213 )
+ga_view_zoom_set( 0.117586 )
+ga_view_center_set( -0.050455, -0.260791 )
+ga_view_zoom_set( 0.104521 )
+ga_view_center_set( -0.052186, -0.265748 )
+ga_view_zoom_set( 0.092907 )
+ga_view_center_set( -0.054957, -0.273681 )
+ga_view_zoom_set( 0.074326 )
+ga_view_center_set( -0.056189, -0.277206 )
+ga_view_zoom_set( 0.066067 )
+ga_view_center_set( -0.057283, -0.280340 )
+ga_view_zoom_set( 0.058726 )
+ga_view_center_set( -0.058256, -0.283126 )
+ga_view_zoom_set( 0.052201 )
+ga_view_center_set( -0.059121, -0.285602 )
+ga_view_zoom_set( 0.046401 )
+asm_delete_surface( "Surface 32", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 32
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( 0.017934, -0.004279 )
+ga_view_zoom_set( 0.450273 )
+ga_view_center_set( 0.031831, -0.010130 )
+ga_view_zoom_set( 0.400242 )
+ga_view_center_set( 0.043664, -0.015852 )
+ga_view_zoom_set( 0.355771 )
+ga_view_center_set( 0.054182, -0.020938 )
+ga_view_zoom_set( 0.316241 )
+ga_view_center_set( 0.063532, -0.025458 )
+ga_view_zoom_set( 0.281103 )
+$# UNDO: Create Surface 3Curve for Curve 50Curve 171Curve 170
+ga_view_center_set( -0.016956, -0.029469 )
+ga_view_zoom_set( 0.319947 )
+ga_view_center_set( -0.032444, -0.056079 )
+ga_view_zoom_set( 0.284397 )
+ga_view_center_set( -0.046581, -0.079733 )
+ga_view_zoom_set( 0.252797 )
+ga_view_center_set( -0.059640, -0.100429 )
+ga_view_zoom_set( 0.224709 )
+ga_view_center_set( -0.071394, -0.118389 )
+ga_view_zoom_set( 0.199741 )
+ga_view_center_set( -0.082101, -0.133574 )
+ga_view_zoom_set( 0.177548 )
+ga_view_center_set( -0.091734, -0.146610 )
+ga_view_zoom_set( 0.157820 )
+ga_view_center_set( -0.100502, -0.157480 )
+ga_view_zoom_set( 0.140285 )
+ga_view_center_set( -0.108478, -0.159941 )
+ga_view_zoom_set( 0.124697 )
+ga_view_center_set( -0.115567, -0.162129 )
+ga_view_zoom_set( 0.110842 )
+ga_view_center_set( -0.121869, -0.164073 )
+ga_view_zoom_set( 0.098526 )
+ga_view_center_set( -0.127471, -0.165802 )
+ga_view_zoom_set( 0.087579 )
+ga_view_center_set( -0.118668, -0.161064 )
+ga_view_zoom_set( 0.098526 )
+ga_view_center_set( -0.109053, -0.157247 )
+ga_view_zoom_set( 0.110842 )
+ga_view_center_set( -0.098398, -0.154249 )
+ga_view_zoom_set( 0.124697 )
+ga_view_center_set( -0.086685, -0.153247 )
+ga_view_zoom_set( 0.140285 )
+ga_view_center_set( -0.098581, -0.160448 )
+ga_view_zoom_set( 0.124697 )
+ga_view_center_set( -0.109884, -0.169117 )
+ga_view_zoom_set( 0.110842 )
+ga_view_center_set( -0.120291, -0.177616 )
+ga_view_zoom_set( 0.098526 )
+ga_view_center_set( -0.129734, -0.185490 )
+ga_view_zoom_set( 0.087579 )
+ga_view_center_set( -0.138184, -0.192490 )
+ga_view_zoom_set( 0.077848 )
+ga_view_center_set( -0.151887, -0.203780 )
+ga_view_zoom_set( 0.062278 )
+ga_view_center_set( -0.158018, -0.208798 )
+ga_view_zoom_set( 0.055359 )
+ga_view_center_set( -0.163576, -0.213186 )
+ga_view_zoom_set( 0.049208 )
+ga_view_center_set( -0.157263, -0.213007 )
+ga_view_zoom_set( 0.055359 )
+ga_view_center_set( -0.150201, -0.212926 )
+ga_view_zoom_set( 0.062278 )
+ga_view_center_set( -0.142257, -0.212835 )
+ga_view_zoom_set( 0.070063 )
+ga_view_center_set( -0.133320, -0.212732 )
+ga_view_zoom_set( 0.078821 )
+ga_view_center_set( -0.123266, -0.212617 )
+ga_view_zoom_set( 0.088674 )
+ga_view_center_set( -0.111955, -0.212487 )
+ga_view_zoom_set( 0.099758 )
+ga_view_center_set( -0.099230, -0.212341 )
+ga_view_zoom_set( 0.112228 )
+ga_view_center_set( -0.084914, -0.212177 )
+ga_view_zoom_set( 0.126256 )
+ga_view_center_set( -0.104234, -0.221201 )
+ga_view_zoom_set( 0.112228 )
+ga_view_center_set( -0.121407, -0.229223 )
+ga_view_zoom_set( 0.099758 )
+ga_view_center_set( -0.136672, -0.236353 )
+ga_view_zoom_set( 0.088674 )
+ga_view_center_set( -0.150241, -0.242403 )
+ga_view_zoom_set( 0.078821 )
+ga_view_center_set( -0.162303, -0.247729 )
+ga_view_zoom_set( 0.070063 )
+ga_view_center_set( -0.173024, -0.252464 )
+ga_view_zoom_set( 0.062278 )
+ga_view_center_set( -0.182554, -0.256511 )
+ga_view_zoom_set( 0.055359 )
+ga_view_center_set( -0.191025, -0.260000 )
+ga_view_zoom_set( 0.049208 )
+STRING sgm_surface_3curve_created_ids[VIRTUAL]
+sgm_const_surface_3curve_v1( "1", 1, "Curve 170", "Curve 171", "Curve 50",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 1
+ga_view_center_set( -0.047463, -0.028973 )
+ga_view_zoom_set( 0.322232 )
+ga_view_center_set( -0.089653, -0.054935 )
+ga_view_zoom_set( 0.286428 )
+ga_view_center_set( -0.127155, -0.078200 )
+ga_view_zoom_set( 0.254603 )
+ga_view_center_set( -0.160490, -0.098879 )
+ga_view_zoom_set( 0.226314 )
+ga_view_center_set( -0.189827, -0.117260 )
+ga_view_zoom_set( 0.201168 )
+ga_view_center_set( -0.215643, -0.133599 )
+ga_view_zoom_set( 0.178816 )
+ga_view_center_set( -0.238474, -0.148123 )
+ga_view_zoom_set( 0.158947 )
+ga_view_center_set( -0.258768, -0.161033 )
+ga_view_zoom_set( 0.141287 )
+ga_view_center_set( -0.276808, -0.172509 )
+ga_view_zoom_set( 0.125588 )
+ga_view_center_set( -0.269178, -0.182627 )
+ga_view_zoom_set( 0.111634 )
+ga_view_center_set( -0.262396, -0.191622 )
+ga_view_zoom_set( 0.099230 )
+ga_view_center_set( -0.256367, -0.199617 )
+ga_view_zoom_set( 0.088205 )
+ga_view_center_set( -0.251008, -0.206724 )
+ga_view_zoom_set( 0.078404 )
+ga_view_center_set( -0.246245, -0.213041 )
+ga_view_zoom_set( 0.069692 )
+ga_view_center_set( -0.242690, -0.217026 )
+ga_view_zoom_set( 0.061949 )
+ga_view_center_set( -0.239651, -0.219844 )
+ga_view_zoom_set( 0.055066 )
+ga_view_center_set( -0.246434, -0.223265 )
+ga_view_zoom_set( 0.061949 )
+ga_view_center_set( -0.261695, -0.230964 )
+ga_view_zoom_set( 0.077436 )
+ga_view_center_set( -0.271233, -0.235775 )
+ga_view_zoom_set( 0.087116 )
+ga_view_center_set( -0.281963, -0.241188 )
+ga_view_zoom_set( 0.098005 )
+ga_view_center_set( -0.294034, -0.247277 )
+ga_view_zoom_set( 0.110256 )
+ga_view_center_set( -0.281963, -0.241188 )
+ga_view_zoom_set( 0.098005 )
+ga_view_center_set( -0.271232, -0.235775 )
+ga_view_zoom_set( 0.087116 )
+ga_view_center_set( -0.261694, -0.230964 )
+ga_view_zoom_set( 0.077436 )
+ga_view_center_set( -0.253216, -0.226687 )
+ga_view_zoom_set( 0.068832 )
+ga_view_center_set( -0.245680, -0.222885 )
+ga_view_zoom_set( 0.061184 )
+ga_view_center_set( -0.238981, -0.219506 )
+ga_view_zoom_set( 0.054386 )
+ga_view_center_set( -0.239564, -0.223146 )
+ga_view_zoom_set( 0.048343 )
+ga_view_center_set( -0.240145, -0.225973 )
+ga_view_zoom_set( 0.042972 )
+ga_view_center_set( -0.240662, -0.228346 )
+ga_view_zoom_set( 0.038197 )
+ga_view_center_set( -0.241121, -0.230357 )
+ga_view_zoom_set( 0.033953 )
+ga_view_center_set( -0.241529, -0.231945 )
+ga_view_zoom_set( 0.030180 )
+ga_view_center_set( -0.241121, -0.231085 )
+ga_view_zoom_set( 0.033953 )
+ga_view_center_set( -0.240687, -0.230141 )
+ga_view_zoom_set( 0.038197 )
+ga_view_center_set( -0.240198, -0.229108 )
+ga_view_zoom_set( 0.042972 )
+ga_view_center_set( -0.239099, -0.227035 )
+ga_view_zoom_set( 0.053714 )
+ga_view_center_set( -0.239710, -0.228187 )
+ga_view_zoom_set( 0.047746 )
+ga_view_center_set( -0.246178, -0.226419 )
+ga_view_zoom_set( 0.042441 )
+ga_view_center_set( -0.251928, -0.224847 )
+ga_view_zoom_set( 0.037725 )
+ga_view_center_set( -0.257039, -0.223449 )
+ga_view_zoom_set( 0.033534 )
+ga_view_center_set( -0.261582, -0.222207 )
+ga_view_zoom_set( 0.029808 )
+ga_view_center_set( -0.262137, -0.221336 )
+ga_view_zoom_set( 0.033534 )
+ga_view_center_set( -0.257834, -0.219440 )
+ga_view_zoom_set( 0.029808 )
+ga_view_center_set( -0.254009, -0.217755 )
+ga_view_zoom_set( 0.026496 )
+ga_view_center_set( -0.250609, -0.216257 )
+ga_view_zoom_set( 0.023552 )
+ga_view_center_set( -0.254439, -0.215207 )
+ga_view_zoom_set( 0.026496 )
+ga_view_center_set( -0.258749, -0.214103 )
+ga_view_zoom_set( 0.029808 )
+ga_view_center_set( -0.263597, -0.212905 )
+ga_view_zoom_set( 0.033534 )
+ga_view_center_set( -0.269051, -0.211606 )
+ga_view_zoom_set( 0.037725 )
+ga_view_center_set( -0.275214, -0.210365 )
+ga_view_zoom_set( 0.042441 )
+ga_view_center_set( -0.270154, -0.213950 )
+ga_view_zoom_set( 0.037725 )
+ga_view_center_set( -0.265827, -0.216818 )
+ga_view_zoom_set( 0.033534 )
+ga_view_center_set( -0.262112, -0.219193 )
+ga_view_zoom_set( 0.029808 )
+ga_view_center_set( -0.258829, -0.221284 )
+ga_view_zoom_set( 0.026496 )
+ga_view_center_set( -0.255911, -0.223144 )
+ga_view_zoom_set( 0.023552 )
+ga_view_center_set( -0.253333, -0.224797 )
+ga_view_zoom_set( 0.020935 )
+ga_view_center_set( -0.255743, -0.223282 )
+ga_view_zoom_set( 0.023552 )
+ga_view_center_set( -0.255781, -0.222853 )
+ga_view_zoom_set( 0.020935 )
+ga_view_center_set( -0.255829, -0.222486 )
+ga_view_zoom_set( 0.018609 )
+ga_view_center_set( -0.255871, -0.222159 )
+ga_view_zoom_set( 0.016541 )
+ga_view_center_set( -0.255909, -0.221869 )
+ga_view_zoom_set( 0.014703 )
+ga_view_center_set( -0.255942, -0.221611 )
+ga_view_zoom_set( 0.013070 )
+ga_view_center_set( -0.257543, -0.220971 )
+ga_view_zoom_set( 0.014703 )
+ga_view_center_set( -0.259343, -0.220251 )
+ga_view_zoom_set( 0.016541 )
+ga_view_center_set( -0.263418, -0.218631 )
+ga_view_zoom_set( 0.020676 )
+ga_view_center_set( -0.268511, -0.216636 )
+ga_view_zoom_set( 0.025846 )
+ga_view_center_set( -0.271695, -0.215426 )
+ga_view_zoom_set( 0.029076 )
+ga_view_center_set( -0.265016, -0.217561 )
+ga_view_zoom_set( 0.025846 )
+ga_view_center_set( -0.254330, -0.220977 )
+ga_view_zoom_set( 0.020676 )
+ga_view_center_set( -0.249581, -0.222495 )
+ga_view_zoom_set( 0.018379 )
+ga_view_center_set( -0.245359, -0.223845 )
+ga_view_zoom_set( 0.016337 )
+ga_view_center_set( -0.248363, -0.223057 )
+ga_view_zoom_set( 0.018379 )
+ga_view_center_set( -0.251728, -0.222170 )
+ga_view_zoom_set( 0.020676 )
+ga_view_center_set( -0.255514, -0.221172 )
+ga_view_zoom_set( 0.023261 )
+ga_view_center_set( -0.259774, -0.220050 )
+ga_view_zoom_set( 0.026169 )
+ga_view_center_set( -0.264566, -0.218788 )
+ga_view_zoom_set( 0.029440 )
+ga_view_center_set( -0.271872, -0.217324 )
+ga_view_zoom_set( 0.033120 )
+ga_view_center_set( -0.280091, -0.215678 )
+ga_view_zoom_set( 0.037260 )
+ga_view_center_set( -0.278578, -0.218728 )
+ga_view_zoom_set( 0.033120 )
+ga_view_center_set( -0.277620, -0.220816 )
+ga_view_zoom_set( 0.029440 )
+ga_view_center_set( -0.279912, -0.219525 )
+ga_view_zoom_set( 0.033120 )
+ga_view_center_set( -0.282491, -0.218072 )
+ga_view_zoom_set( 0.037260 )
+ga_view_center_set( -0.285364, -0.216465 )
+ga_view_zoom_set( 0.041917 )
+ga_view_center_set( -0.278214, -0.218971 )
+ga_view_zoom_set( 0.037260 )
+ga_view_center_set( -0.271859, -0.221198 )
+ga_view_zoom_set( 0.033120 )
+ga_view_center_set( -0.266275, -0.223200 )
+ga_view_zoom_set( 0.029440 )
+ga_view_center_set( -0.271623, -0.221908 )
+ga_view_zoom_set( 0.033120 )
+ga_view_center_set( -0.277687, -0.220528 )
+ga_view_zoom_set( 0.037260 )
+ga_view_center_set( -0.284564, -0.219003 )
+ga_view_zoom_set( 0.041917 )
+ga_view_center_set( -0.292332, -0.217318 )
+ga_view_zoom_set( 0.047157 )
+ga_view_center_set( -0.301070, -0.215456 )
+ga_view_zoom_set( 0.053051 )
+ga_view_center_set( -0.310901, -0.213440 )
+ga_view_zoom_set( 0.059683 )
+ga_view_center_set( -0.305414, -0.219141 )
+ga_view_zoom_set( 0.053051 )
+ga_view_center_set( -0.300536, -0.224173 )
+ga_view_zoom_set( 0.047157 )
+ga_view_center_set( -0.296200, -0.228647 )
+ga_view_zoom_set( 0.041917 )
+ga_view_center_set( -0.292346, -0.232624 )
+ga_view_zoom_set( 0.037260 )
+ga_view_center_set( -0.298325, -0.229137 )
+ga_view_zoom_set( 0.041917 )
+ga_view_center_set( -0.305051, -0.225460 )
+ga_view_zoom_set( 0.047157 )
+ga_view_center_set( -0.312617, -0.221427 )
+ga_view_zoom_set( 0.053051 )
+ga_view_center_set( -0.321129, -0.217045 )
+ga_view_zoom_set( 0.059683 )
+ga_view_center_set( -0.330706, -0.212420 )
+ga_view_zoom_set( 0.067143 )
+ga_view_center_set( -0.341479, -0.207660 )
+ga_view_zoom_set( 0.075536 )
+ga_view_center_set( -0.353488, -0.213236 )
+ga_view_zoom_set( 0.084978 )
+ga_view_center_set( -0.366999, -0.219510 )
+ga_view_zoom_set( 0.095600 )
+ga_view_center_set( -0.382199, -0.226569 )
+ga_view_zoom_set( 0.107550 )
+ga_view_center_set( -0.367069, -0.236422 )
+ga_view_zoom_set( 0.095600 )
+ga_view_center_set( -0.353621, -0.245119 )
+ga_view_zoom_set( 0.084978 )
+ga_view_center_set( -0.341666, -0.252849 )
+ga_view_zoom_set( 0.075536 )
+ga_view_center_set( -0.331040, -0.259720 )
+ga_view_zoom_set( 0.067143 )
+ga_view_center_set( -0.313131, -0.257888 )
+ga_view_zoom_set( 0.059683 )
+ga_view_center_set( -0.298453, -0.256880 )
+ga_view_zoom_set( 0.053051 )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 13-Apr-21 20:44:55
