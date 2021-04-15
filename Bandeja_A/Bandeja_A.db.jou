@@ -3231,3 +3231,47 @@ ga_view_center_set( -0.298453, -0.256880 )
 ga_view_zoom_set( 0.053051 )
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 13-Apr-21 20:44:55
+$# Appending to existing journal file 
+$# D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_A\Bandeja_A.db.jou
+$#  at 15-Apr-21 12:17:41
+$# Synchronizing the User Data Manager
+set_current_dir( "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_A" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "77", "[ -0.245894 -0.238843 0.000000 ]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 77
+elementprops_create( "masa_equipos", 1, 25, 18, 27, 2, 20, [2069, 4001, 4024,  @
+10, 4026, 11, 4028, 4029, 12], [1, 2, 2, 1, 1, 1, 1, 1, 1], ["10", "< 0 0 0 >" @
+, "< 0 0 0 >", "", "", "", "", "", ""], "" )
+$# Property Set "masa_equipos" created.
+elementprops_create( "masa_2", 1, 25, 18, 27, 2, 20, [2069, 4001, 4024, 10,  @
+4026, 11, 4028, 4029, 12], [1, 2, 2, 1, 1, 1, 1, 1, 1], ["41", "< 0 0 0 >",  @
+"< 0 0 0 >", "", "", "", "", "", ""], "" )
+$# Property Set "masa_2" created.
+$# Warning reported from application ELEM_PROPS
+$#     The selected entity does not have an assigned property set.
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset Orientation System" cannot be 
+$# parsed.
+$? NO 20039 
+material.create( "Analysis code ID", 1, "Analysis type ID", 1, "AL_2024_T6",  @
+0, "Date: 15-Apr-21           Time: 12:30:59", "Isotropic", 1,  @
+"Directionality", 1, "Linearity", 1, "Homogeneous", 0, "Linear Elastic", 1,  @
+"Model Options & IDs", ["", "", "", "", ""], [0, 0, 0, 0, 0], "Active Flag",  @
+1, "Create", 10, "External Flag", FALSE, "Property IDs", ["Elastic Modulus",  @
+"Poisson Ratio", "Shear Modulus", "Density", "Thermal Expan. Coeff",  @
+"Reference Temperature"], [2, 5, 8, 16, 24, 1, 0], "Property Values", [ @
+"72.4e9", "0.33", "27e9", "2780", "22.1e-6", "0", ""] )
+material.create( "Analysis code ID", 1, "Analysis type ID", 1, "AL_7075_T6",  @
+0, "Date: 15-Apr-21           Time: 12:30:59", "Isotropic", 1,  @
+"Directionality", 1, "Linearity", 1, "Homogeneous", 0, "Linear Elastic", 1,  @
+"Model Options & IDs", ["", "", "", "", ""], [0, 0, 0, 0, 0], "Active Flag",  @
+1, "Create", 10, "External Flag", FALSE, "Property IDs", ["Elastic Modulus",  @
+"Poisson Ratio", "Shear Modulus", "Density", "Thermal Expan. Coeff",  @
+"Reference Temperature"], [2, 5, 8, 16, 24, 1, 0], "Property Values", [ @
+"71.7e9", "0.33", "26.9e9", "2810", "21.9e-6", "0", ""] )
+uil_primary_file.db_save(  )

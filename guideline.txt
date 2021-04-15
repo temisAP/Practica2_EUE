@@ -14,7 +14,7 @@ Diseño de bandejas:
 	-Bandeja inferior
 	Masa puntual a 80mm de la superficie, centrada y unida RBE2 a 4 cruces de rigidizadores
 	Masa puntual a 0.38m de la supercicie, centrada y unida RBE2 sobre el contorno exterior
-		M2 = Mequipo * (2+3.5 * L_bandeja)
+		M2 = Mequipo * (2+3.5 * L_bandeja) = 41 kg
 	Elementos CBUSH (tornillos) entre 8 y 12 (para unirse al sistema de separación) 
 		con nodos superiores situados en los cruces de rigidizadores y que no coincidan con los de la masa puntual
 		con nodos inferiores a 20 mm de la superficie de la bandeja restringidos sus 6 gdl
