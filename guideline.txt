@@ -7,13 +7,13 @@ Diseño de bandejas:
 	Masa puntual 10 kg
 	Dimensiones 600 x 600 mm
 
- 	-Bandeja intermedia
+ 	-Bandeja intermedia (puntos 1:76, curvas 1:170)
 	Masa puntual a 80mm de la superficie unida RBE2 a 4 cruces de rigidizadores
 	Simplemente apoyada en todo el contorno exterior
 	
-	-Bandeja inferior
-	Masa puntual a 80mm de la superficie, centrada y unida RBE2 a 4 cruces de rigidizadores
-	Masa puntual a 0.38m de la supercicie, centrada y unida RBE2 sobre el contorno exterior
+	-Bandeja inferior (puntos 1:76, curvas 1:170)
+	Masa puntual a 80mm de la superficie, centrada y unida RBE2 a 4 cruces de rigidizadores -> Punto 1111/ Nodo 1011 / Elemento0D 1001
+	Masa puntual a 0.38m de la supercicie, centrada y unida RBE2 sobre el contorno exterior -> Punto 1112/ Nodo 1012 / Elemento0D 1002
 		M2 = Mequipo * (2+3.5 * L_bandeja) = 41 kg
 	Elementos CBUSH (tornillos) entre 8 y 12 (para unirse al sistema de separación) 
 		con nodos superiores situados en los cruces de rigidizadores y que no coincidan con los de la masa puntual

@@ -3275,3 +3275,484 @@ material.create( "Analysis code ID", 1, "Analysis type ID", 1, "AL_7075_T6",  @
 "Reference Temperature"], [2, 5, 8, 16, 24, 1, 0], "Property Values", [ @
 "71.7e9", "0.33", "26.9e9", "2810", "21.9e-6", "0", ""] )
 uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 15-Apr-21 12:53:24
+$# Appending to existing journal file 
+$# D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_A\Bandeja_A.db.jou
+$#  at 15-Apr-21 13:47:07
+$# Synchronizing the User Data Manager
+set_current_dir( "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_A" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ga_view_zoom_set( 0.117155 )
+ga_view_center_set( -0.081716, -0.187758 )
+ga_view_center_set( -0.089363, -0.192856 )
+ga_view_zoom_set( 0.131799 )
+ga_view_center_set( -0.098017, -0.198591 )
+ga_view_zoom_set( 0.148274 )
+ga_view_center_set( -0.107754, -0.205043 )
+ga_view_zoom_set( 0.166808 )
+ga_view_center_set( -0.118707, -0.212367 )
+ga_view_zoom_set( 0.187660 )
+ga_view_center_set( -0.007988, -0.052856 )
+ga_view_center_set( -0.003237, -0.049029 )
+ga_view_zoom_set( 0.166808 )
+ga_view_center_set( 0.000986, -0.045627 )
+ga_view_zoom_set( 0.148274 )
+ga_view_center_set( -0.012563, -0.056889 )
+ga_view_zoom_set( 0.203877 )
+ga_view_center_set( -0.018773, -0.061889 )
+ga_view_zoom_set( 0.229362 )
+ga_view_center_set( -0.025759, -0.067514 )
+ga_view_zoom_set( 0.258032 )
+ga_view_center_set( -0.033618, -0.073842 )
+ga_view_zoom_set( 0.290286 )
+ga_view_center_set( -0.042460, -0.080962 )
+ga_view_zoom_set( 0.326572 )
+ga_view_center_set( -0.053311, -0.095947 )
+ga_view_zoom_set( 0.367393 )
+ga_view_center_set( -0.065519, -0.112514 )
+ga_view_zoom_set( 0.413317 )
+ga_view_center_set( -0.102717, -0.137313 )
+ga_view_center_set( -0.120375, -0.165925 )
+ga_view_zoom_set( 0.464982 )
+ga_view_aa_set( -24.778271, 9.024156, 4.622823 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( 0.023769, -0.040380 )
+point_size( 1 )
+point_size( 9 )
+point_label( TRUE )
+node_label( TRUE )
+point_label( FALSE )
+node_label( FALSE )
+curve_label( TRUE )
+curve_label( FALSE )
+point_label( TRUE )
+point_label( FALSE )
+curve_label( TRUE )
+curve_label( FALSE )
+point_label( TRUE )
+curve_label( TRUE )
+surface_label( TRUE )
+trim_surface_label( TRUE )
+solid_label( TRUE )
+volume_label( TRUE )
+body_label( TRUE )
+point_label( FALSE )
+curve_label( FALSE )
+surface_label( FALSE )
+trim_surface_label( FALSE )
+solid_label( FALSE )
+volume_label( FALSE )
+body_label( FALSE )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "0000", "[0.3 0.3 0.3]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 78
+point_label( TRUE )
+node_label( TRUE )
+node_label( TRUE )
+bar_elem_label( TRUE )
+tri_elem_label( TRUE )
+quad_elem_label( TRUE )
+tet_elem_label( TRUE )
+wedge_elem_label( TRUE )
+hex_elem_label( TRUE )
+mpc_label( TRUE )
+point_size( 1 )
+ga_view_center_set( 0.002933, -0.001613 )
+ga_view_zoom_set( 0.407892 )
+ga_view_center_set( 0.001613, 0.001173 )
+ga_view_zoom_set( 0.362571 )
+ga_view_center_set( 0.000440, 0.003650 )
+ga_view_zoom_set( 0.322285 )
+point_label( FALSE )
+node_label( FALSE )
+bar_elem_label( FALSE )
+tri_elem_label( FALSE )
+quad_elem_label( FALSE )
+tet_elem_label( FALSE )
+wedge_elem_label( FALSE )
+hex_elem_label( FALSE )
+mpc_label( FALSE )
+point_label( TRUE )
+point_label( FALSE )
+curve_label( TRUE )
+point_label( TRUE )
+ga_view_center_set( 0.014781, 0.031942 )
+ga_view_zoom_set( 0.362571 )
+ga_view_center_set( -0.011033, -0.018983 )
+ga_view_zoom_set( 0.290057 )
+ga_view_center_set( -0.026678, -0.040364 )
+ga_view_zoom_set( 0.257828 )
+ga_view_center_set( -0.041604, -0.059462 )
+ga_view_zoom_set( 0.229181 )
+ga_view_aa_set( 0.000000, 0.000000, 0.000000 )
+ga_view_center_set( -0.114942, -0.130508 )
+ga_view_center_set( -0.098069, -0.113079 )
+ga_view_zoom_set( 0.257828 )
+ga_view_center_set( -0.114942, -0.130508 )
+ga_view_zoom_set( 0.229181 )
+ga_view_center_set( -0.129941, -0.146001 )
+ga_view_zoom_set( 0.203716 )
+ga_view_center_set( -0.162665, -0.179804 )
+ga_view_zoom_set( 0.148157 )
+ga_view_center_set( -0.180118, -0.198024 )
+ga_view_zoom_set( 0.118526 )
+ga_view_center_set( -0.162665, -0.179804 )
+ga_view_zoom_set( 0.148157 )
+ga_view_center_set( -0.151757, -0.168417 )
+ga_view_zoom_set( 0.166677 )
+ga_view_center_set( -0.139485, -0.155606 )
+ga_view_zoom_set( 0.187511 )
+ga_view_center_set( -0.125680, -0.141194 )
+ga_view_zoom_set( 0.210950 )
+ga_view_center_set( -0.110149, -0.124980 )
+ga_view_zoom_set( 0.237319 )
+ga_view_center_set( -0.097476, -0.109139 )
+ga_view_zoom_set( 0.266984 )
+ga_view_center_set( -0.103308, -0.109139 )
+ga_view_zoom_set( 0.300357 )
+ga_view_aa_set( 35.148220, -5.289703, 2.540896 )
+curve_label( FALSE )
+ga_view_center_set( -0.077820, -0.116915 )
+ga_view_zoom_set( 0.266984 )
+ga_view_center_set( -0.103308, -0.109139 )
+ga_view_zoom_set( 0.300357 )
+ga_view_center_set( -0.160658, -0.091643 )
+ga_view_zoom_set( 0.375446 )
+ga_view_center_set( -0.195287, -0.080555 )
+ga_view_zoom_set( 0.422377 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.202805, -0.080897 )
+ga_view_zoom_set( 0.475174 )
+ga_view_center_set( -0.219720, -0.081666 )
+ga_view_zoom_set( 0.593968 )
+ga_view_center_set( -0.166539, -0.065434 )
+ga_view_zoom_set( 0.527972 )
+ga_view_center_set( -0.119266, -0.051385 )
+ga_view_zoom_set( 0.469308 )
+ga_view_center_set( -0.166159, -0.063535 )
+ga_view_zoom_set( 0.527972 )
+ga_view_center_set( -0.271668, -0.090874 )
+ga_view_zoom_set( 0.659964 )
+ga_view_center_set( -0.463890, -0.139730 )
+ga_view_zoom_set( 0.907451 )
+ga_view_center_set( -0.551992, -0.162123 )
+ga_view_zoom_set( 1.020882 )
+ga_view_center_set( -0.824558, -0.241415 )
+ga_view_zoom_set( 1.403713 )
+ga_view_center_set( -1.074410, -0.314099 )
+ga_view_zoom_set( 1.754642 )
+ga_view_center_set( -1.542882, -0.456770 )
+ga_view_zoom_set( 2.412632 )
+ga_view_center_set( -1.757598, -0.522161 )
+ga_view_zoom_set( 2.714211 )
+ga_view_center_set( -2.240710, -0.669290 )
+ga_view_zoom_set( 3.392764 )
+ga_view_center_set( -2.542655, -0.761246 )
+ga_view_zoom_set( 3.816859 )
+ga_view_center_set( -2.882344, -0.864697 )
+ga_view_zoom_set( 4.293966 )
+ga_view_center_set( -3.264492, -0.981079 )
+ga_view_zoom_set( 4.830712 )
+ga_view_center_set( -3.694410, -1.112008 )
+ga_view_zoom_set( 5.434551 )
+ga_view_center_set( -4.661725, -1.406599 )
+ga_view_zoom_set( 6.793189 )
+ga_view_center_set( -5.266295, -1.590719 )
+ga_view_zoom_set( 7.642338 )
+ga_view_center_set( -5.946439, -1.797854 )
+ga_view_zoom_set( 8.597630 )
+ga_view_center_set( -6.711598, -2.030879 )
+ga_view_zoom_set( 9.672333 )
+ga_view_center_set( -4.833478, -1.458906 )
+ga_view_zoom_set( 7.034424 )
+ga_view_center_set( -4.276996, -1.289432 )
+ga_view_zoom_set( 6.252821 )
+ga_view_center_set( -3.062854, -0.919672 )
+ga_view_zoom_set( 4.547506 )
+ga_view_center_set( -2.179844, -0.650755 )
+ga_view_zoom_set( 3.307277 )
+ga_view_center_set( -1.918210, -0.571076 )
+ga_view_zoom_set( 2.939802 )
+ga_view_center_set( -1.507207, -0.437881 )
+ga_view_zoom_set( 2.351842 )
+ga_view_center_set( -1.327078, -0.378683 )
+ga_view_zoom_set( 2.090526 )
+ga_view_center_set( -0.934066, -0.249524 )
+ga_view_zoom_set( 1.520382 )
+ga_view_center_set( -0.817618, -0.211255 )
+ga_view_zoom_set( 1.351451 )
+ga_view_center_set( -0.563550, -0.127759 )
+ga_view_zoom_set( 0.982873 )
+ga_view_center_set( -0.488271, -0.102665 )
+ga_view_zoom_set( 0.873665 )
+ga_view_center_set( -0.324025, -0.047917 )
+ga_view_zoom_set( 0.635393 )
+ga_view_center_set( -0.275359, -0.031695 )
+ga_view_zoom_set( 0.564794 )
+ga_view_center_set( -0.232101, -0.017275 )
+ga_view_zoom_set( 0.502039 )
+STRING sgm_edit_point_equiva_point_ids[VIRTUAL]
+sgm_edit_point_equivalence( "0000", sgm_edit_point_equiva_point_ids )
+$# Error reported in application SGM by application Geometry
+$#     There must be at least two points as input. The invalid value input 
+$# was 0000
+$? NO 1000301 
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1111", "[ 0.3 0.3 0.000000 ]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1111
+STRING asm_delete_any_deleted_ids[VIRTUAL]
+asm_delete_point( "Point 1111", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 1111
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "1111", "[ 0 0 80e-3 ]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1111
+asm_const_grid_xyz( "1112", "[ 0 0 0.38 ]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 1112
+curve_label( TRUE )
+point_label( FALSE )
+curve_label( FALSE )
+point_label( TRUE )
+ga_view_aa_set( -70.739044, 14.528590, 37.633408 )
+point_size( 9 )
+uil_toolbar.hidden_line(  )
+uil_toolbar.wireframe(  )
+ga_view_aa_set( -76.776154, -8.681279, -81.895134 )
+STRING asm_delete_any_deleted_ids[VIRTUAL]
+asm_delete_point( "Point 78", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 78
+ga_view_aa_set( -12.715723, -0.483898, -60.625462 )
+asm_delete_point( "Point 77", asm_delete_any_deleted_ids )
+$# 1 Point Deleted: Point 77
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+ga_view_aa_set( -75.046471, 0.295159, -33.661362 )
+elementprops_modify( "masa_2", "masa_2", 1, 25, 18, 27, 2, 20, [2069, 4001,  @
+4024, 10, 4026, 11, 4028, 4029, 12], [1, 2, 2, 1, 1, 1, 1, 1, 1], ["41.",  @
+"<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", ""], "Point 1112" )
+$# Property Set "masa_2" modified.
+elementprops_modify( "masa_equipos", "masa_equipos", 1, 25, 18, 27, 2, 20, [ @
+2069, 4001, 4024, 10, 4026, 11, 4028, 4029, 12], [1, 2, 2, 1, 1, 1, 1, 1, 1],  @
+["10.", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", ""], "Point 1111" )
+$# Property Set "masa_equipos" modified.
+ga_view_aa_set( -108.431206, -11.130317, -33.012814 )
+ga_view_aa_set( -77.119888, 1.667160, -24.843151 )
+ga_view_aa_set( -71.220032, 20.215158, 176.940338 )
+ga_view_aa_set( -53.812122, 23.224619, -178.760757 )
+ga_view_aa_set( -116.812126, 23.224619, -178.760757 )
+ga_view_aa_set( -122.302162, 0.134421, -133.109482 )
+ga_view_aa_set( 0., 0., 0. )
+beam_section_create( "cuadrada_10x10", "BAR", ["10e-3", "10e-3"] )
+$# Beam Section "cuadrada_10x10" created.
+ga_view_sr_set( 0, 0, 30. )
+$# UNDO: Beam Section Create
+elementprops_create( "rigidizador_exterior", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["cuadrada_10x10",  @
+"m:AL_7075_T6", "< 0 0 1>", "<5e-3 0 -5e-3>", "<0 0 -5e-3>", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" @
+, "", "", "Analysis", "Analysis", "Analysis"], "" )
+$# Property Set "rigidizador_exterior" created.
+ga_view_center_set( -0.010414, -0.019947 )
+ga_view_center_set( -0.022129, -0.042388 )
+ga_view_center_set( -0.032339, -0.060580 )
+ga_view_aa_set( 0., 0., 0. )
+$# Error reported from application ELEM_PROPS
+$#     The Element Properties must be Entered to continue.
+$? NO 29002021 
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_7075_T6", "<0. 0. 1.>",  @
+"<0.0049999999 0. -0.0049999999>", "<0. 0. -0.0049999999>", "", "", "", "", "" @
+, "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "Analysis", "Analysis", "Analysis"], "Curve 1:7 43:61" )
+$# Property Set "rigidizador_exterior" modified.
+uil_toolbar.shaded_smooth(  )
+ga_view_aa_set( -127.104179, -14.707344, 2.232332 )
+ga_view_aa_set( -105.480873, -25.431858, 9.989947 )
+ga_view_aa_set( 11.402045, -17.744307, 26.847414 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( -57.648949, -16.697489, -2.615353 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( 180., -90., 180. )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( 23., -34., 0. )
+ga_view_aa_set( 0., 0., 0. )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+uil_toolbar.hidden_line(  )
+point_label( FALSE )
+mesh_seed_display_mgr.refresh(  )
+uil_toolbar.wireframe(  )
+point_label( TRUE )
+mesh_seed_display_mgr.refresh(  )
+ga_view_aa_set( -83.624695, 14.049632, -32.914680 )
+mesh_seed_display_mgr.erase(  )
+STRING fem_create_nodes__nodes_created[VIRTUAL]
+fem_create_nodes_1( "Coord 0", "Coord 0", 3, "1102", "Point 1112",  @
+fem_create_nodes__nodes_created )
+$# === 1 node created.  ID = 1102.
+fem_create_nodes_1( "Coord 0", "Coord 0", 3, "1101", "Point 1111",  @
+fem_create_nodes__nodes_created )
+$# === 1 node created.  ID = 1101.
+mesh_seed_display_mgr.erase(  )
+STRING fem_create_elemen_elems_created[VIRTUAL]
+fem_create_elems_1( "Point ", "Point", "1001", "Standard", 3, "Node 1101", "", @
+ "", "", "", "", "", "", fem_create_elemen_elems_created )
+$# === 1 element created.  ID = 1001.
+fem_associate_elems_to_ep( "masa_equipos", "1001", 1 )
+$# 1 Element(s) associated to the Element Property masa_equipos.
+STRING fem_create_elemen_elems_created[VIRTUAL]
+fem_create_elems_1( "Point ", "Point", "1002", "Standard", 3, "Node 1102", "", @
+ "", "", "", "", "", "", fem_create_elemen_elems_created )
+$# === 1 element created.  ID = 1002.
+fem_associate_elems_to_ep( "masa_2", "1002", 1 )
+$# 1 Element(s) associated to the Element Property masa_2.
+mesh_seed_display_mgr.erase(  )
+beam_section_create( "T_W10_H10_t3", "T", ["10e-3", "10e-3", "3e-3", "3e-3"] )
+$# Beam Section "T_W10_H10_t3" created.
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+elementprops_create( "rigidizador_interior", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["T_W10_H10_t3",  @
+"m:AL_7075_T6", "< 0 0 1 >", "< 0 0 -5e-3 >", "< 0 0 -5e-3 >", "", "", "", "", @
+ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "Analysis", "Analysis", "Analysis"], "" )
+$# Property Set "rigidizador_interior" created.
+ga_view_aa_set( -175.727280, -7.822143, -23.278624 )
+ga_view_aa_set( 0., 0., 0. )
+elementprops_modify( "rigidizador_interior", "rigidizador_interior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], [ @
+"T_W10_H10_t3", "m:AL_7075_T6", "< 0 0 1 >", "< 0 0 -5e-3 >", "< 0 0 -5e-3 >", @
+ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "Analysis", "Analysis", "Analysis"],  @
+"Curve 62:174" )
+$# Property Set "rigidizador_interior" modified.
+ga_view_center_set( -0.058861, -0.025078 )
+ga_view_zoom_set( 0.580769 )
+ga_view_center_set( -0.032339, -0.060580 )
+ga_view_zoom_set( 0.516239 )
+ga_view_center_set( -0.008764, -0.092137 )
+ga_view_zoom_set( 0.458879 )
+ga_view_center_set( 0.020937, -0.137579 )
+ga_view_zoom_set( 0.367103 )
+ga_view_center_set( 0.031893, -0.155796 )
+ga_view_zoom_set( 0.326314 )
+ga_view_center_set( 0.041632, -0.171988 )
+ga_view_zoom_set( 0.290057 )
+ga_view_center_set( 0.044865, -0.184192 )
+ga_view_zoom_set( 0.257828 )
+ga_view_center_set( 0.046627, -0.195131 )
+ga_view_zoom_set( 0.229181 )
+STRING sgm_surface_3curve_created_ids[VIRTUAL]
+sgm_const_surface_3curve_v1( "1", 2, "Curve 170", "Curve 50", "Curve 171",  @
+sgm_surface_3curve_created_ids )
+$# Question from application Geometry
+$#     Surface 1 already exists. Will you permit overwrite?
+$? YESFORALL 1000035 
+$# 1 Surface Created: Surface 1
+uil_toolbar.shaded_smooth(  )
+ga_view_center_set( 0.083526, -0.183450 )
+ga_view_zoom_set( 0.257828 )
+ga_view_center_set( 0.125037, -0.170308 )
+ga_view_zoom_set( 0.290057 )
+ga_view_center_set( 0.050317, -0.193963 )
+ga_view_zoom_set( 0.232045 )
+ga_view_center_set( -0.009459, -0.212887 )
+ga_view_zoom_set( 0.185636 )
+ga_view_center_set( -0.036026, -0.221298 )
+ga_view_zoom_set( 0.165010 )
+ga_view_center_set( -0.059642, -0.228774 )
+ga_view_zoom_set( 0.146676 )
+ga_view_center_set( -0.080633, -0.235420 )
+ga_view_zoom_set( 0.130378 )
+ga_view_center_set( -0.114219, -0.246053 )
+ga_view_zoom_set( 0.104303 )
+ga_view_center_set( -0.129146, -0.250778 )
+ga_view_zoom_set( 0.092713 )
+ga_view_center_set( -0.153030, -0.258339 )
+ga_view_zoom_set( 0.074171 )
+ga_view_center_set( -0.170456, -0.264388 )
+ga_view_zoom_set( 0.059337 )
+sgm_const_surface_3curve_v1( "2", 2, "Curve 171", "Curve 154", "Curve 93",  @
+sgm_surface_3curve_created_ids )
+$# 1 Surface Created: Surface 2
+uil_toolbar.shaded_smooth(  )
+ga_view_center_set( -0.170947, -0.264943 )
+ga_view_zoom_set( 0.052744 )
+ga_view_center_set( -0.171383, -0.265683 )
+ga_view_zoom_set( 0.046883 )
+ga_view_center_set( -0.170511, -0.263407 )
+ga_view_zoom_set( 0.058604 )
+ga_view_center_set( -0.169966, -0.261984 )
+ga_view_zoom_set( 0.065930 )
+ga_view_center_set( -0.168739, -0.258784 )
+ga_view_zoom_set( 0.082412 )
+ga_view_center_set( -0.167972, -0.256784 )
+ga_view_zoom_set( 0.092713 )
+ga_view_center_set( -0.167109, -0.254533 )
+ga_view_zoom_set( 0.104303 )
+ga_view_center_set( -0.166139, -0.252002 )
+ga_view_zoom_set( 0.117341 )
+ga_view_center_set( -0.155601, -0.234201 )
+ga_view_zoom_set( 0.161343 )
+ga_view_center_set( -0.150771, -0.226043 )
+ga_view_zoom_set( 0.181511 )
+ga_view_center_set( -0.145338, -0.216864 )
+ga_view_zoom_set( 0.204200 )
+ga_view_center_set( -0.132781, -0.201830 )
+ga_view_zoom_set( 0.255250 )
+ga_view_center_set( -0.117087, -0.183038 )
+ga_view_zoom_set( 0.319063 )
+ga_view_center_set( -0.107277, -0.171292 )
+ga_view_zoom_set( 0.358945 )
+ga_view_center_set( -0.085206, -0.144865 )
+ga_view_zoom_set( 0.448682 )
+ga_view_center_set( -0.085206, -0.046155 )
+point_size( 1 )
+point_size( 9 )
+uil_toolbar.wireframe(  )
+curve_label( TRUE )
+point_label( FALSE )
+ga_view_center_set( -0.113521, -0.038895 )
+ga_view_zoom_set( 0.504767 )
+ga_view_center_set( -0.093919, -0.032905 )
+ga_view_zoom_set( 0.448682 )
+ga_view_center_set( -0.077623, -0.028065 )
+ga_view_zoom_set( 0.398828 )
+uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 15-Apr-21 14:29:31
