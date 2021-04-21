@@ -12,11 +12,12 @@ Diseño de bandejas:
 	Simplemente apoyada en todo el contorno exterior
 	
 	-Bandeja inferior
-	Masa puntual a 80mm de la superficie, centrada y unida RBE2 a 4 cruces de rigidizadores -> Punto 1111/ Nodo 1011 / Elemento0D 1001 /MCP ID: 1(4376), 2(4467), 3(5559), 4(5468)
-	Masa puntual a 0.38m de la supercicie, centrada y unida RBE2 sobre el contorno exterior -> Punto 1112/ Nodo 1012 / Elemento0D 1002 /MCP ID: 5(4376), 6(4467), 7(5559), 8(5468)
-	Elementos CBUSH (tornillos) entre 8 y 12 (para unirse al sistema de separación) 
-		con nodos superiores situados en los cruces de rigidizadores y que no coincidan con los de la masa puntual
-		con nodos inferiores a 20 mm de la superficie de la bandeja restringidos sus 6 gdl
+	Masa puntual a 80mm de la superficie, centrada y unida RBE2 a 4 cruces de rigidizadores -> Punto 1111/ Nodo 1101 / Elemento0D 1001 /MCP ID: 1(4376), 2(4467), 3(5559), 4(5468)
+	Masa puntual a 0.38m de la supercicie, centrada y unida RBE2 sobre el contorno exterior -> Punto 1112/ Nodo 1102 / Elemento0D 1002 /MCP ID: 5(4376), 6(4467), 7(5559), 8(5468)
+	Elementos CBUSH (tornillos) entre 8 y 12 (para unirse al sistema de separación) *He elegido 10
+		con nodos superiores situados en los cruces de rigidizadores y que no coincidan con los de la masa puntual	-> Puntos :69, 30, 65, 70, 71, 33, 68, 17, 18, 19		Nodos: 6742(69), 5650(30), 4558(65), 6651(70), 6560(71), 53778(33), 4285(68), 3375(17), 3284(18), 3193(19) 
+		con nodos inferiores a 20 mm de la superficie de la bandeja restringidos sus 6 gdl				-> Puntos :691, 301, 651, 701, 711, 331, 681, 171, 181, 191	Nodos: mismo ID que los puntos y los elementos tipo BAR tb tienen el mismo ID
+		* Los he hecho de acero AISI 4037 Steel K1=K2=K3=205 GPa; K4(torsión) = 205 Pa; K5=K6 (flexión) = 80 GPa
 	
 	ID para ambas bandejas
 
