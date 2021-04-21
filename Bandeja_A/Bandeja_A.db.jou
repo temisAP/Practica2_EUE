@@ -10607,3 +10607,925 @@ ga_view_center_set( 0.672725, -0.053146 )
 ga_view_zoom_set( 0.362293 )
 ga_view_center_set( 0.726253, -0.056521 )
 ga_view_zoom_set( 0.407580 )
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 4, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_7075_T6", "<0. 0. 1.>", "<5e-3 0. -0.0049999999>",  @
+"<-5e-3 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "" @
+, "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 1:7 43:61" )
+$# Property Set "rigidizador_exterior" modified.
+ga_view_center_set( 0.095258, 0.043539 )
+ga_view_zoom_set( 0.572661 )
+ga_view_center_set( 0.065235, 0.065498 )
+ga_view_zoom_set( 0.644244 )
+ga_view_center_set( 0.031460, 0.090201 )
+ga_view_zoom_set( 0.724774 )
+ga_view_center_set( -0.006537, 0.117993 )
+ga_view_zoom_set( 0.815371 )
+ga_view_center_set( 0.031460, 0.090201 )
+ga_view_zoom_set( 0.724774 )
+ga_view_center_set( 0.065235, 0.065498 )
+ga_view_zoom_set( 0.644244 )
+ga_view_center_set( 0.095258, 0.043539 )
+ga_view_zoom_set( 0.572661 )
+ga_view_center_set( 0.175980, -0.013032 )
+ga_view_zoom_set( 0.381774 )
+ga_view_center_set( 0.190977, -0.021781 )
+ga_view_zoom_set( 0.339355 )
+ga_view_center_set( 0.223699, -0.040548 )
+ga_view_zoom_set( 0.246803 )
+ga_view_center_set( 0.240979, -0.050215 )
+ga_view_zoom_set( 0.197443 )
+ga_view_center_set( 0.247671, -0.052078 )
+ga_view_zoom_set( 0.175505 )
+ga_view_center_set( 0.253484, -0.053734 )
+ga_view_zoom_set( 0.156004 )
+ga_view_center_set( 0.262676, -0.056383 )
+ga_view_zoom_set( 0.124803 )
+ga_view_center_set( 0.266762, -0.057561 )
+ga_view_zoom_set( 0.110936 )
+ga_view_center_set( 0.270266, -0.055660 )
+ga_view_zoom_set( 0.098610 )
+ga_view_center_set( 0.277909, -0.051512 )
+ga_view_zoom_set( 0.071716 )
+ga_view_center_set( 0.280174, -0.050282 )
+ga_view_zoom_set( 0.063748 )
+ga_view_center_set( 0.282188, -0.049190 )
+ga_view_zoom_set( 0.056665 )
+ga_view_center_set( 0.285409, -0.047442 )
+ga_view_zoom_set( 0.045332 )
+ga_view_center_set( 0.286840, -0.046665 )
+ga_view_zoom_set( 0.040295 )
+ga_view_aa_set( 160.428116, -65.629173, -159.526108 )
+ga_view_center_set( 0.288392, -0.046812 )
+ga_view_zoom_set( 0.035818 )
+ga_view_center_set( 0.290826, -0.047172 )
+ga_view_zoom_set( 0.028654 )
+ga_view_center_set( 0.291896, -0.047355 )
+ga_view_zoom_set( 0.025470 )
+ga_view_center_set( 0.290826, -0.047161 )
+ga_view_zoom_set( 0.028654 )
+ga_view_center_set( 0.288417, -0.046727 )
+ga_view_zoom_set( 0.035818 )
+ga_view_center_set( 0.283901, -0.045912 )
+ga_view_zoom_set( 0.049249 )
+ga_view_center_set( 0.289407, -0.035734 )
+ga_view_zoom_set( 0.086186 )
+ga_view_center_set( 0.297136, -0.034184 )
+ga_view_zoom_set( 0.096960 )
+ga_view_center_set( 0.314529, -0.030781 )
+ga_view_zoom_set( 0.121200 )
+ga_view_center_set( 0.336269, -0.026528 )
+ga_view_zoom_set( 0.151500 )
+ga_view_aa_set( 160.428116, -65.629150, -159.526108 )
+ga_view_center_set( 0.219614, -0.090157 )
+ga_view_center_set( 0.242983, -0.092094 )
+ga_view_zoom_set( 0.170437 )
+ga_view_center_set( 0.269272, -0.094642 )
+ga_view_zoom_set( 0.191742 )
+ga_view_center_set( 0.298847, -0.097508 )
+ga_view_zoom_set( 0.215709 )
+ga_view_center_set( 0.332119, -0.100732 )
+ga_view_zoom_set( 0.242673 )
+ga_view_center_set( 0.250451, -0.091671 )
+ga_view_zoom_set( 0.176490 )
+ga_view_center_set( 0.206894, -0.086838 )
+ga_view_zoom_set( 0.141192 )
+ga_view_center_set( 0.187590, -0.084309 )
+ga_view_zoom_set( 0.125504 )
+ga_view_center_set( 0.156704, -0.080264 )
+ga_view_zoom_set( 0.100403 )
+ga_view_center_set( 0.131995, -0.077027 )
+ga_view_zoom_set( 0.080322 )
+ga_view_center_set( 0.112227, -0.074271 )
+ga_view_zoom_set( 0.064258 )
+ga_view_center_set( 0.090663, -0.071264 )
+ga_view_zoom_set( 0.046733 )
+ga_view_center_set( 0.084507, -0.070391 )
+ga_view_zoom_set( 0.041540 )
+ga_view_center_set( 0.071116, -0.068604 )
+ga_view_zoom_set( 0.030211 )
+ga_view_center_set( 0.067149, -0.068075 )
+ga_view_zoom_set( 0.026854 )
+ga_view_center_set( 0.062401, -0.067946 )
+ga_view_zoom_set( 0.023871 )
+ga_view_center_set( 0.054806, -0.067739 )
+ga_view_zoom_set( 0.019096 )
+ga_view_center_set( 0.051430, -0.067647 )
+ga_view_zoom_set( 0.016975 )
+ga_view_center_set( 0.048544, -0.067817 )
+ga_view_center_set( 0.047936, -0.067552 )
+ga_view_zoom_set( 0.015089 )
+ga_view_center_set( 0.046974, -0.067191 )
+ga_view_zoom_set( 0.012071 )
+ga_view_center_set( 0.046551, -0.067059 )
+ga_view_zoom_set( 0.010730 )
+ga_view_center_set( 0.046923, -0.067103 )
+ga_view_zoom_set( 0.012071 )
+ga_view_center_set( 0.047759, -0.067202 )
+ga_view_zoom_set( 0.015089 )
+ga_view_center_set( 0.048805, -0.067326 )
+ga_view_zoom_set( 0.018861 )
+ga_view_center_set( 0.052115, -0.065966 )
+ga_view_zoom_set( 0.025933 )
+ga_view_center_set( 0.056666, -0.063960 )
+ga_view_zoom_set( 0.035659 )
+ga_view_center_set( 0.058334, -0.062933 )
+ga_view_zoom_set( 0.040116 )
+ga_view_center_set( 0.063966, -0.059465 )
+ga_view_zoom_set( 0.055159 )
+ga_view_center_set( 0.066547, -0.057876 )
+ga_view_zoom_set( 0.062054 )
+ga_view_center_set( 0.068698, -0.051342 )
+ga_view_zoom_set( 0.077568 )
+ga_view_center_set( 0.072731, -0.038991 )
+ga_view_zoom_set( 0.106656 )
+ga_view_center_set( 0.076058, -0.027300 )
+ga_view_zoom_set( 0.133320 )
+ga_view_center_set( 0.078138, -0.019993 )
+ga_view_zoom_set( 0.149985 )
+ga_view_center_set( 0.082816, -0.003552 )
+ga_view_zoom_set( 0.187481 )
+ga_view_center_set( 0.225302, -0.273524 )
+ga_view_center_set( 0.253424, -0.329768 )
+ga_view_aa_set( -179.735886, 0.542355, -103.245071 )
+ga_view_center_set( 0.257648, -0.334033 )
+ga_view_zoom_set( 0.210916 )
+ga_view_center_set( 0.262400, -0.338831 )
+ga_view_zoom_set( 0.237280 )
+ga_view_center_set( 0.267643, -0.344228 )
+ga_view_zoom_set( 0.266940 )
+ga_view_center_set( 0.272038, -0.347409 )
+ga_view_zoom_set( 0.300308 )
+ga_view_center_set( 0.276983, -0.350987 )
+ga_view_zoom_set( 0.337846 )
+ga_view_center_set( 0.282545, -0.355013 )
+ga_view_zoom_set( 0.380077 )
+ga_view_center_set( 0.288638, -0.359541 )
+ga_view_zoom_set( 0.427587 )
+ga_view_center_set( 0.277671, -0.351686 )
+ga_view_zoom_set( 0.342070 )
+ga_view_center_set( 0.265706, -0.343117 )
+ga_view_zoom_set( 0.248778 )
+ga_view_center_set( 0.262161, -0.340578 )
+ga_view_zoom_set( 0.221136 )
+ga_view_center_set( 0.252452, -0.334063 )
+ga_view_zoom_set( 0.147424 )
+ga_view_center_set( 0.250294, -0.332615 )
+ga_view_zoom_set( 0.131043 )
+ga_view_center_set( 0.245480, -0.327028 )
+ga_view_zoom_set( 0.104835 )
+ga_view_center_set( 0.240128, -0.320933 )
+ga_view_zoom_set( 0.076243 )
+ga_view_aa_set( -178.735901, -0.457401, -103.223007 )
+ga_view_center_set( 0.219738, -0.283615 )
+ga_view_zoom_set( 0.085774 )
+ga_view_center_set( 0.220816, -0.286235 )
+ga_view_zoom_set( 0.096496 )
+ga_view_center_set( 0.219738, -0.283615 )
+ga_view_zoom_set( 0.085774 )
+ga_view_center_set( 0.218780, -0.281287 )
+ga_view_zoom_set( 0.076243 )
+ga_view_center_set( 0.216618, -0.276277 )
+ga_view_zoom_set( 0.055450 )
+ga_view_center_set( 0.215977, -0.274793 )
+ga_view_zoom_set( 0.049289 )
+ga_view_center_set( 0.215408, -0.273474 )
+ga_view_zoom_set( 0.043812 )
+ga_view_center_set( 0.213889, -0.270209 )
+ga_view_zoom_set( 0.029208 )
+ga_view_center_set( 0.213013, -0.259986 )
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 4, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_7075_T6", "<0. 0. 1.>", "<0 0. -0.0049999999>",  @
+"<-0 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "" )
+$# Property Set "rigidizador_exterior" modified.
+ga_view_center_set( 0.083022, -0.058727 )
+ga_view_zoom_set( 0.320236 )
+ga_view_center_set( 0.107196, -0.074945 )
+ga_view_zoom_set( 0.284655 )
+ga_view_center_set( 0.128683, -0.088813 )
+ga_view_zoom_set( 0.253026 )
+ga_view_center_set( 0.042733, -0.036410 )
+ga_view_zoom_set( 0.379539 )
+ga_view_center_set( -0.021729, 0.002892 )
+ga_view_zoom_set( 0.474424 )
+ga_view_center_set( 0.013901, -0.016384 )
+ga_view_zoom_set( 0.421711 )
+ga_view_center_set( 0.091638, -0.058442 )
+ga_view_zoom_set( 0.306699 )
+ga_view_center_set( 0.148175, -0.089030 )
+ga_view_zoom_set( 0.223054 )
+ga_view_center_set( 0.178328, -0.103179 )
+ga_view_zoom_set( 0.178443 )
+ga_view_center_set( 0.224479, -0.126373 )
+ga_view_zoom_set( 0.109811 )
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 4, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_7075_T6", "<0. 0. 1.>", "<0 0. -0.0049999999>",  @
+"<-0 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 1:7 43:61" )
+$# Property Set "rigidizador_exterior" modified.
+ga_view_center_set( -0.035770, 0.030602 )
+ga_view_zoom_set( 0.495419 )
+ga_view_center_set( -0.077627, 0.069561 )
+ga_view_zoom_set( 0.557346 )
+ga_view_center_set( -0.035770, 0.031890 )
+ga_view_zoom_set( 0.495419 )
+ga_view_center_set( 0.001437, -0.001596 )
+ga_view_zoom_set( 0.440372 )
+ga_view_center_set( 0.034509, -0.031361 )
+ga_view_zoom_set( 0.391442 )
+ga_view_center_set( 0.063907, -0.057668 )
+ga_view_zoom_set( 0.347948 )
+ga_view_center_set( 0.089905, -0.079042 )
+ga_view_zoom_set( 0.309287 )
+ga_view_center_set( 0.146626, -0.125677 )
+ga_view_zoom_set( 0.224936 )
+ga_view_center_set( 0.176877, -0.150548 )
+ga_view_zoom_set( 0.179949 )
+ga_view_center_set( 0.190738, -0.160909 )
+ga_view_zoom_set( 0.159955 )
+ga_view_center_set( 0.227701, -0.188539 )
+ga_view_zoom_set( 0.106636 )
+ga_view_center_set( 0.235915, -0.194679 )
+ga_view_zoom_set( 0.094788 )
+ga_view_center_set( 0.243216, -0.200136 )
+ga_view_zoom_set( 0.084256 )
+ga_view_center_set( 0.254898, -0.208868 )
+ga_view_zoom_set( 0.067405 )
+ga_view_center_set( 0.264243, -0.215854 )
+ga_view_zoom_set( 0.053924 )
+ga_view_center_set( 0.268459, -0.218917 )
+ga_view_zoom_set( 0.047932 )
+ga_view_center_set( 0.275205, -0.223819 )
+ga_view_zoom_set( 0.038346 )
+ga_view_center_set( 0.278203, -0.225997 )
+ga_view_zoom_set( 0.034085 )
+ga_view_center_set( 0.275205, -0.223819 )
+ga_view_zoom_set( 0.038346 )
+ga_view_center_set( 0.271832, -0.221368 )
+ga_view_zoom_set( 0.043139 )
+ga_view_center_set( 0.260449, -0.213097 )
+ga_view_zoom_set( 0.059316 )
+ga_view_center_set( 0.255232, -0.209306 )
+ga_view_zoom_set( 0.066731 )
+ga_view_center_set( 0.238231, -0.197727 )
+ga_view_zoom_set( 0.091755 )
+ga_view_center_set( 0.222727, -0.187748 )
+ga_view_zoom_set( 0.114693 )
+ga_view_center_set( 0.204986, -0.189015 )
+ga_view_zoom_set( 0.157704 )
+ga_view_center_set( 0.197060, -0.189596 )
+ga_view_zoom_set( 0.177416 )
+ga_view_center_set( 0.186682, -0.193632 )
+ga_view_zoom_set( 0.243948 )
+ga_view_center_set( 0.182455, -0.195482 )
+ga_view_zoom_set( 0.274441 )
+ga_view_zoom_set( 0.301885 )
+ga_view_center_set( -0.016790, 0.109422 )
+ga_view_center_set( -0.001094, 0.110294 )
+ga_view_zoom_set( 0.268342 )
+ga_view_center_set( 0.012548, 0.110863 )
+ga_view_zoom_set( 0.238527 )
+ga_view_center_set( -0.001094, 0.110294 )
+ga_view_zoom_set( 0.268342 )
+ga_view_center_set( -0.016441, 0.109655 )
+ga_view_zoom_set( 0.301885 )
+ga_view_center_set( -0.033706, 0.108936 )
+ga_view_zoom_set( 0.339621 )
+ga_view_center_set( -0.053130, 0.108126 )
+ga_view_zoom_set( 0.382073 )
+ga_view_center_set( -0.074982, 0.107216 )
+ga_view_zoom_set( 0.429833 )
+ga_view_center_set( -0.053130, 0.108126 )
+ga_view_zoom_set( 0.382073 )
+ga_view_center_set( -0.033706, 0.108936 )
+ga_view_zoom_set( 0.339621 )
+ga_view_center_set( 0.017698, 0.111094 )
+ga_view_zoom_set( 0.226414 )
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 4, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_7075_T6", "<1. 0. 0.>", "<0 0. -0.0049999999>",  @
+"<-0 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 1:7 43:61" )
+$# Property Set "rigidizador_exterior" modified.
+$# Unable to Evaluate the specified element. 30140
+$# Unable to Evaluate the specified element. 30141
+$# Unable to Evaluate the specified element. 30142
+$# Unable to Evaluate the specified element. 30143
+$# Unable to Evaluate the specified element. 30144
+$# Unable to Evaluate the specified element. 30145
+$# Unable to Evaluate the specified element. 30146
+$# Unable to Evaluate the specified element. 30147
+$# Unable to Evaluate the specified element. 30148
+$# Unable to Evaluate the specified element. 30149
+$# Unable to Evaluate the specified element. 30150
+$# Unable to Evaluate the specified element. 30151
+$# Unable to Evaluate the specified element. 30152
+$# Unable to Evaluate the specified element. 30153
+$# Unable to Evaluate the specified element. 30154
+$# Unable to Evaluate the specified element. 30155
+$# Unable to Evaluate the specified element. 30156
+$# Unable to Evaluate the specified element. 30157
+$# Unable to Evaluate the specified element. 30158
+$# Unable to Evaluate the specified element. 30159
+$# Unable to Evaluate the specified element. 30160
+$# Unable to Evaluate the specified element. 30161
+$# Unable to Evaluate the specified element. 30162
+$# Unable to Evaluate the specified element. 30163
+$# Unable to Evaluate the specified element. 30164
+$# Unable to Evaluate the specified element. 30165
+$# Unable to Evaluate the specified element. 30166
+$# Unable to Evaluate the specified element. 30167
+$# Unable to Evaluate the specified element. 30168
+$# Unable to Evaluate the specified element. 30169
+$# Unable to Evaluate the specified element. 30170
+$# Unable to Evaluate the specified element. 30171
+$# Unable to Evaluate the specified element. 30172
+$# Unable to Evaluate the specified element. 30173
+$# Unable to Evaluate the specified element. 30174
+$# Unable to Evaluate the specified element. 30175
+$# Unable to Evaluate the specified element. 30176
+$# Unable to Evaluate the specified element. 30177
+$# Unable to Evaluate the specified element. 30178
+$# Unable to Evaluate the specified element. 30179
+$# Unable to Evaluate the specified element. 30180
+$# Unable to Evaluate the specified element. 30181
+$# Unable to Evaluate the specified element. 30182
+$# Unable to Evaluate the specified element. 30183
+$# Unable to Evaluate the specified element. 30184
+$# Unable to Evaluate the specified element. 30185
+$# Unable to Evaluate the specified element. 30186
+$# Unable to Evaluate the specified element. 30187
+$# Unable to Evaluate the specified element. 30188
+$# Unable to Evaluate the specified element. 30189
+$# Unable to Evaluate the specified element. 30190
+$# Unable to Evaluate the specified element. 30191
+$# Unable to Evaluate the specified element. 30192
+$# Unable to Evaluate the specified element. 30193
+$# Unable to Evaluate the specified element. 30194
+$# Unable to Evaluate the specified element. 30195
+$# Unable to Evaluate the specified element. 30196
+$# Unable to Evaluate the specified element. 30197
+$# Unable to Evaluate the specified element. 30198
+$# Unable to Evaluate the specified element. 30199
+$# Unable to Evaluate the specified element. 30200
+$# Unable to Evaluate the specified element. 30201
+$# Unable to Evaluate the specified element. 30202
+$# Unable to Evaluate the specified element. 30203
+$# Unable to Evaluate the specified element. 30204
+$# Unable to Evaluate the specified element. 30205
+$# Unable to Evaluate the specified element. 30206
+$# Unable to Evaluate the specified element. 30207
+$# Unable to Evaluate the specified element. 30208
+$# Unable to Evaluate the specified element. 30209
+$# Unable to Evaluate the specified element. 30210
+$# Unable to Evaluate the specified element. 30211
+$# Unable to Evaluate the specified element. 30212
+$# Unable to Evaluate the specified element. 30213
+$# Unable to Evaluate the specified element. 30214
+$# Unable to Evaluate the specified element. 30215
+$# Unable to Evaluate the specified element. 30216
+$# Unable to Evaluate the specified element. 30217
+$# Unable to Evaluate the specified element. 30218
+$# Unable to Evaluate the specified element. 30219
+$# Unable to Evaluate the specified element. 30220
+$# Unable to Evaluate the specified element. 30221
+$# Unable to Evaluate the specified element. 30222
+$# Unable to Evaluate the specified element. 30223
+$# Unable to Evaluate the specified element. 30224
+$# Unable to Evaluate the specified element. 30225
+$# Unable to Evaluate the specified element. 30226
+$# Unable to Evaluate the specified element. 30227
+$# Unable to Evaluate the specified element. 30228
+$# Unable to Evaluate the specified element. 30229
+$# Unable to Evaluate the specified element. 30230
+$# Unable to Evaluate the specified element. 30231
+$# Unable to Evaluate the specified element. 30232
+$# Unable to Evaluate the specified element. 30233
+$# Unable to Evaluate the specified element. 30234
+$# Unable to Evaluate the specified element. 30235
+$# Unable to Evaluate the specified element. 30236
+$# Unable to Evaluate the specified element. 30237
+$# Unable to Evaluate the specified element. 30238
+$# Unable to Evaluate the specified element. 30239
+$# Unable to Evaluate the specified element. 30240
+$# Unable to Evaluate the specified element. 30241
+$# Unable to Evaluate the specified element. 30242
+$# Unable to Evaluate the specified element. 30243
+$# Unable to Evaluate the specified element. 30244
+$# Unable to Evaluate the specified element. 30245
+$# Unable to Evaluate the specified element. 30246
+$# Unable to Evaluate the specified element. 30247
+$# Unable to Evaluate the specified element. 30248
+$# Unable to Evaluate the specified element. 30249
+$# Unable to Evaluate the specified element. 30250
+$# Unable to Evaluate the specified element. 30251
+$# Unable to Evaluate the specified element. 30252
+$# Unable to Evaluate the specified element. 30253
+$# Unable to Evaluate the specified element. 30254
+$# Unable to Evaluate the specified element. 30255
+$# Unable to Evaluate the specified element. 30256
+$# Unable to Evaluate the specified element. 30257
+$# Unable to Evaluate the specified element. 30258
+$# Unable to Evaluate the specified element. 30259
+ga_view_center_set( -0.036724, -0.015572 )
+ga_view_zoom_set( 0.495419 )
+ga_view_center_set( -0.079440, -0.028559 )
+ga_view_zoom_set( 0.557346 )
+ga_view_center_set( -0.127495, -0.043169 )
+ga_view_zoom_set( 0.627014 )
+ga_view_center_set( -0.079440, -0.028559 )
+ga_view_zoom_set( 0.557346 )
+ga_view_center_set( -0.002551, -0.005183 )
+ga_view_zoom_set( 0.445877 )
+ga_view_center_set( 0.081328, 0.020318 )
+ga_view_zoom_set( 0.324274 )
+ga_view_center_set( 0.105806, 0.027873 )
+ga_view_zoom_set( 0.288244 )
+ga_view_center_set( 0.144771, 0.039963 )
+ga_view_zoom_set( 0.230595 )
+ga_view_center_set( 0.162089, 0.045247 )
+ga_view_zoom_set( 0.204973 )
+ga_view_center_set( 0.177483, 0.049944 )
+ga_view_zoom_set( 0.182198 )
+ga_view_center_set( 0.202113, 0.057459 )
+ga_view_zoom_set( 0.145759 )
+ga_view_center_set( 0.213060, 0.060799 )
+ga_view_zoom_set( 0.129563 )
+ga_view_center_set( 0.222790, 0.063768 )
+ga_view_zoom_set( 0.115167 )
+ga_view_center_set( 0.231439, 0.066407 )
+ga_view_zoom_set( 0.102371 )
+ga_view_center_set( 0.239049, 0.068753 )
+ga_view_zoom_set( 0.090996 )
+ga_view_center_set( 0.251161, 0.072381 )
+ga_view_zoom_set( 0.072797 )
+ga_view_center_set( 0.256544, 0.073965 )
+ga_view_zoom_set( 0.064709 )
+ga_view_center_set( 0.261304, 0.075348 )
+ga_view_zoom_set( 0.057519 )
+ga_view_center_set( 0.256843, 0.073541 )
+ga_view_zoom_set( 0.064709 )
+ga_view_center_set( 0.247422, 0.069420 )
+ga_view_zoom_set( 0.080886 )
+ga_view_center_set( 0.235997, 0.064268 )
+ga_view_zoom_set( 0.101107 )
+ga_view_center_set( 0.236917, 0.059427 )
+ga_view_zoom_set( 0.113746 )
+ga_view_center_set( 0.244803, 0.031213 )
+ga_view_zoom_set( 0.184837 )
+ga_view_center_set( 0.270991, 0.001781 )
+ga_view_zoom_set( 0.254150 )
+ga_view_center_set( 0.282993, -0.011708 )
+ga_view_zoom_set( 0.285919 )
+ga_view_center_set( 0.297116, -0.026884 )
+ga_view_zoom_set( 0.321659 )
+ga_view_center_set( 0.341435, -0.063816 )
+ga_view_zoom_set( 0.402074 )
+ga_view_center_set( 0.315729, -0.045931 )
+ga_view_zoom_set( 0.357399 )
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 4, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_7075_T6", "<0. 1. 0.>", "<0 0. -0.0049999999>",  @
+"<-0 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 1:7 43:61" )
+$# Property Set "rigidizador_exterior" modified.
+$# Unable to Evaluate the specified element. 30000
+$# Unable to Evaluate the specified element. 30001
+$# Unable to Evaluate the specified element. 30002
+$# Unable to Evaluate the specified element. 30003
+$# Unable to Evaluate the specified element. 30004
+$# Unable to Evaluate the specified element. 30005
+$# Unable to Evaluate the specified element. 30006
+$# Unable to Evaluate the specified element. 30007
+$# Unable to Evaluate the specified element. 30008
+$# Unable to Evaluate the specified element. 30009
+$# Unable to Evaluate the specified element. 30010
+$# Unable to Evaluate the specified element. 30011
+$# Unable to Evaluate the specified element. 30012
+$# Unable to Evaluate the specified element. 30013
+$# Unable to Evaluate the specified element. 30014
+$# Unable to Evaluate the specified element. 30015
+$# Unable to Evaluate the specified element. 30016
+$# Unable to Evaluate the specified element. 30017
+$# Unable to Evaluate the specified element. 30018
+$# Unable to Evaluate the specified element. 30019
+$# Unable to Evaluate the specified element. 30020
+$# Unable to Evaluate the specified element. 30021
+$# Unable to Evaluate the specified element. 30022
+$# Unable to Evaluate the specified element. 30023
+$# Unable to Evaluate the specified element. 30024
+$# Unable to Evaluate the specified element. 30025
+$# Unable to Evaluate the specified element. 30026
+$# Unable to Evaluate the specified element. 30027
+$# Unable to Evaluate the specified element. 30028
+$# Unable to Evaluate the specified element. 30029
+$# Unable to Evaluate the specified element. 30030
+$# Unable to Evaluate the specified element. 30031
+$# Unable to Evaluate the specified element. 30032
+$# Unable to Evaluate the specified element. 30033
+$# Unable to Evaluate the specified element. 30034
+$# Unable to Evaluate the specified element. 30035
+$# Unable to Evaluate the specified element. 30036
+$# Unable to Evaluate the specified element. 30037
+$# Unable to Evaluate the specified element. 30038
+$# Unable to Evaluate the specified element. 30039
+$# Unable to Evaluate the specified element. 30040
+$# Unable to Evaluate the specified element. 30041
+$# Unable to Evaluate the specified element. 30042
+$# Unable to Evaluate the specified element. 30043
+$# Unable to Evaluate the specified element. 30044
+$# Unable to Evaluate the specified element. 30045
+$# Unable to Evaluate the specified element. 30046
+$# Unable to Evaluate the specified element. 30047
+$# Unable to Evaluate the specified element. 30048
+$# Unable to Evaluate the specified element. 30049
+$# Unable to Evaluate the specified element. 30050
+$# Unable to Evaluate the specified element. 30051
+$# Unable to Evaluate the specified element. 30052
+$# Unable to Evaluate the specified element. 30053
+$# Unable to Evaluate the specified element. 30054
+$# Unable to Evaluate the specified element. 30055
+$# Unable to Evaluate the specified element. 30056
+$# Unable to Evaluate the specified element. 30057
+$# Unable to Evaluate the specified element. 30058
+$# Unable to Evaluate the specified element. 30059
+$# Unable to Evaluate the specified element. 30060
+$# Unable to Evaluate the specified element. 30061
+$# Unable to Evaluate the specified element. 30062
+$# Unable to Evaluate the specified element. 30063
+$# Unable to Evaluate the specified element. 30064
+$# Unable to Evaluate the specified element. 30065
+$# Unable to Evaluate the specified element. 30066
+$# Unable to Evaluate the specified element. 30067
+$# Unable to Evaluate the specified element. 30068
+$# Unable to Evaluate the specified element. 30069
+$# Unable to Evaluate the specified element. 30070
+$# Unable to Evaluate the specified element. 30071
+$# Unable to Evaluate the specified element. 30072
+$# Unable to Evaluate the specified element. 30073
+$# Unable to Evaluate the specified element. 30074
+$# Unable to Evaluate the specified element. 30075
+$# Unable to Evaluate the specified element. 30076
+$# Unable to Evaluate the specified element. 30077
+$# Unable to Evaluate the specified element. 30078
+$# Unable to Evaluate the specified element. 30079
+$# Unable to Evaluate the specified element. 30080
+$# Unable to Evaluate the specified element. 30081
+$# Unable to Evaluate the specified element. 30082
+$# Unable to Evaluate the specified element. 30083
+$# Unable to Evaluate the specified element. 30084
+$# Unable to Evaluate the specified element. 30085
+$# Unable to Evaluate the specified element. 30086
+$# Unable to Evaluate the specified element. 30087
+$# Unable to Evaluate the specified element. 30088
+$# Unable to Evaluate the specified element. 30089
+$# Unable to Evaluate the specified element. 30090
+$# Unable to Evaluate the specified element. 30091
+$# Unable to Evaluate the specified element. 30092
+$# Unable to Evaluate the specified element. 30093
+$# Unable to Evaluate the specified element. 30094
+$# Unable to Evaluate the specified element. 30095
+$# Unable to Evaluate the specified element. 30096
+$# Unable to Evaluate the specified element. 30097
+$# Unable to Evaluate the specified element. 30098
+$# Unable to Evaluate the specified element. 30099
+$# Unable to Evaluate the specified element. 30100
+$# Unable to Evaluate the specified element. 30101
+$# Unable to Evaluate the specified element. 30102
+$# Unable to Evaluate the specified element. 30103
+$# Unable to Evaluate the specified element. 30104
+$# Unable to Evaluate the specified element. 30105
+$# Unable to Evaluate the specified element. 30106
+$# Unable to Evaluate the specified element. 30107
+$# Unable to Evaluate the specified element. 30108
+$# Unable to Evaluate the specified element. 30109
+$# Unable to Evaluate the specified element. 30110
+$# Unable to Evaluate the specified element. 30111
+$# Unable to Evaluate the specified element. 30112
+$# Unable to Evaluate the specified element. 30113
+$# Unable to Evaluate the specified element. 30114
+$# Unable to Evaluate the specified element. 30115
+$# Unable to Evaluate the specified element. 30116
+$# Unable to Evaluate the specified element. 30117
+$# Unable to Evaluate the specified element. 30118
+$# Unable to Evaluate the specified element. 30119
+$# Unable to Evaluate the specified element. 30120
+$# Unable to Evaluate the specified element. 30121
+$# Unable to Evaluate the specified element. 30122
+$# Unable to Evaluate the specified element. 30123
+$# Unable to Evaluate the specified element. 30124
+$# Unable to Evaluate the specified element. 30125
+$# Unable to Evaluate the specified element. 30126
+$# Unable to Evaluate the specified element. 30127
+$# Unable to Evaluate the specified element. 30128
+$# Unable to Evaluate the specified element. 30129
+$# Unable to Evaluate the specified element. 30130
+$# Unable to Evaluate the specified element. 30131
+$# Unable to Evaluate the specified element. 30132
+$# Unable to Evaluate the specified element. 30133
+$# Unable to Evaluate the specified element. 30134
+$# Unable to Evaluate the specified element. 30135
+$# Unable to Evaluate the specified element. 30136
+$# Unable to Evaluate the specified element. 30137
+$# Unable to Evaluate the specified element. 30138
+$# Unable to Evaluate the specified element. 30139
+ga_view_center_set( -0.010202, 0.009804 )
+ga_view_zoom_set( 0.495419 )
+ga_view_center_set( 0.011778, -0.013378 )
+ga_view_zoom_set( 0.396335 )
+ga_view_center_set( 0.029912, -0.031100 )
+ga_view_zoom_set( 0.317068 )
+$# Unable to Evaluate the specified element. 30000
+$# Unable to Evaluate the specified element. 30001
+$# Unable to Evaluate the specified element. 30002
+$# Unable to Evaluate the specified element. 30003
+$# Unable to Evaluate the specified element. 30004
+$# Unable to Evaluate the specified element. 30005
+$# Unable to Evaluate the specified element. 30006
+$# Unable to Evaluate the specified element. 30007
+$# Unable to Evaluate the specified element. 30008
+$# Unable to Evaluate the specified element. 30009
+$# Unable to Evaluate the specified element. 30010
+$# Unable to Evaluate the specified element. 30011
+$# Unable to Evaluate the specified element. 30012
+$# Unable to Evaluate the specified element. 30013
+$# Unable to Evaluate the specified element. 30014
+$# Unable to Evaluate the specified element. 30015
+$# Unable to Evaluate the specified element. 30016
+$# Unable to Evaluate the specified element. 30017
+$# Unable to Evaluate the specified element. 30018
+$# Unable to Evaluate the specified element. 30019
+$# Unable to Evaluate the specified element. 30020
+$# Unable to Evaluate the specified element. 30021
+$# Unable to Evaluate the specified element. 30022
+$# Unable to Evaluate the specified element. 30023
+$# Unable to Evaluate the specified element. 30024
+$# Unable to Evaluate the specified element. 30025
+$# Unable to Evaluate the specified element. 30026
+$# Unable to Evaluate the specified element. 30027
+$# Unable to Evaluate the specified element. 30028
+$# Unable to Evaluate the specified element. 30029
+$# Unable to Evaluate the specified element. 30030
+$# Unable to Evaluate the specified element. 30031
+$# Unable to Evaluate the specified element. 30032
+$# Unable to Evaluate the specified element. 30033
+$# Unable to Evaluate the specified element. 30034
+$# Unable to Evaluate the specified element. 30035
+$# Unable to Evaluate the specified element. 30036
+$# Unable to Evaluate the specified element. 30037
+$# Unable to Evaluate the specified element. 30038
+$# Unable to Evaluate the specified element. 30039
+$# Unable to Evaluate the specified element. 30040
+$# Unable to Evaluate the specified element. 30041
+$# Unable to Evaluate the specified element. 30042
+$# Unable to Evaluate the specified element. 30043
+$# Unable to Evaluate the specified element. 30044
+$# Unable to Evaluate the specified element. 30045
+$# Unable to Evaluate the specified element. 30046
+$# Unable to Evaluate the specified element. 30047
+$# Unable to Evaluate the specified element. 30048
+$# Unable to Evaluate the specified element. 30049
+$# Unable to Evaluate the specified element. 30050
+$# Unable to Evaluate the specified element. 30051
+$# Unable to Evaluate the specified element. 30052
+$# Unable to Evaluate the specified element. 30053
+$# Unable to Evaluate the specified element. 30054
+$# Unable to Evaluate the specified element. 30055
+$# Unable to Evaluate the specified element. 30056
+$# Unable to Evaluate the specified element. 30057
+$# Unable to Evaluate the specified element. 30058
+$# Unable to Evaluate the specified element. 30059
+$# Unable to Evaluate the specified element. 30060
+$# Unable to Evaluate the specified element. 30061
+$# Unable to Evaluate the specified element. 30062
+$# Unable to Evaluate the specified element. 30063
+$# Unable to Evaluate the specified element. 30064
+$# Unable to Evaluate the specified element. 30065
+$# Unable to Evaluate the specified element. 30066
+$# Unable to Evaluate the specified element. 30067
+$# Unable to Evaluate the specified element. 30068
+$# Unable to Evaluate the specified element. 30069
+$# Unable to Evaluate the specified element. 30070
+$# Unable to Evaluate the specified element. 30071
+$# Unable to Evaluate the specified element. 30072
+$# Unable to Evaluate the specified element. 30073
+$# Unable to Evaluate the specified element. 30074
+$# Unable to Evaluate the specified element. 30075
+$# Unable to Evaluate the specified element. 30076
+$# Unable to Evaluate the specified element. 30077
+$# Unable to Evaluate the specified element. 30078
+$# Unable to Evaluate the specified element. 30079
+$# Unable to Evaluate the specified element. 30080
+$# Unable to Evaluate the specified element. 30081
+$# Unable to Evaluate the specified element. 30082
+$# Unable to Evaluate the specified element. 30083
+$# Unable to Evaluate the specified element. 30084
+$# Unable to Evaluate the specified element. 30085
+$# Unable to Evaluate the specified element. 30086
+$# Unable to Evaluate the specified element. 30087
+$# Unable to Evaluate the specified element. 30088
+$# Unable to Evaluate the specified element. 30089
+$# Unable to Evaluate the specified element. 30090
+$# Unable to Evaluate the specified element. 30091
+$# Unable to Evaluate the specified element. 30092
+$# Unable to Evaluate the specified element. 30093
+$# Unable to Evaluate the specified element. 30094
+$# Unable to Evaluate the specified element. 30095
+$# Unable to Evaluate the specified element. 30096
+$# Unable to Evaluate the specified element. 30097
+$# Unable to Evaluate the specified element. 30098
+$# Unable to Evaluate the specified element. 30099
+$# Unable to Evaluate the specified element. 30100
+$# Unable to Evaluate the specified element. 30101
+$# Unable to Evaluate the specified element. 30102
+$# Unable to Evaluate the specified element. 30103
+$# Unable to Evaluate the specified element. 30104
+$# Unable to Evaluate the specified element. 30105
+$# Unable to Evaluate the specified element. 30106
+$# Unable to Evaluate the specified element. 30107
+$# Unable to Evaluate the specified element. 30108
+$# Unable to Evaluate the specified element. 30109
+$# Unable to Evaluate the specified element. 30110
+$# Unable to Evaluate the specified element. 30111
+$# Unable to Evaluate the specified element. 30112
+$# Unable to Evaluate the specified element. 30113
+$# Unable to Evaluate the specified element. 30114
+$# Unable to Evaluate the specified element. 30115
+$# Unable to Evaluate the specified element. 30116
+$# Unable to Evaluate the specified element. 30117
+$# Unable to Evaluate the specified element. 30118
+$# Unable to Evaluate the specified element. 30119
+$# Unable to Evaluate the specified element. 30120
+$# Unable to Evaluate the specified element. 30121
+$# Unable to Evaluate the specified element. 30122
+$# Unable to Evaluate the specified element. 30123
+$# Unable to Evaluate the specified element. 30124
+$# Unable to Evaluate the specified element. 30125
+$# Unable to Evaluate the specified element. 30126
+$# Unable to Evaluate the specified element. 30127
+$# Unable to Evaluate the specified element. 30128
+$# Unable to Evaluate the specified element. 30129
+$# Unable to Evaluate the specified element. 30130
+$# Unable to Evaluate the specified element. 30131
+$# Unable to Evaluate the specified element. 30132
+$# Unable to Evaluate the specified element. 30133
+$# Unable to Evaluate the specified element. 30134
+$# Unable to Evaluate the specified element. 30135
+$# Unable to Evaluate the specified element. 30136
+$# Unable to Evaluate the specified element. 30137
+$# Unable to Evaluate the specified element. 30138
+$# Unable to Evaluate the specified element. 30139
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 4, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_7075_T6", "<0. 0. 1.>", "<0 0. -0.0049999999>",  @
+"<-0 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 1:7 43:61" )
+$# Property Set "rigidizador_exterior" modified.
+ga_view_center_set( -0.013362, -0.006028 )
+ga_view_zoom_set( 0.356702 )
+ga_view_center_set( -0.062045, 0.022177 )
+ga_view_zoom_set( 0.401289 )
+ga_view_center_set( -0.013362, -0.006028 )
+ga_view_zoom_set( 0.356702 )
+ga_view_center_set( 0.029912, -0.031100 )
+ga_view_zoom_set( 0.317068 )
+ga_view_center_set( 0.068134, -0.053264 )
+ga_view_zoom_set( 0.281838 )
+ga_view_center_set( 0.151526, -0.100821 )
+ga_view_zoom_set( 0.204973 )
+ga_view_center_set( 0.196002, -0.125617 )
+ga_view_zoom_set( 0.163979 )
+ga_view_center_set( 0.255304, -0.158867 )
+ga_view_zoom_set( 0.109319 )
+ga_view_center_set( 0.268482, -0.166341 )
+ga_view_zoom_set( 0.097173 )
+ga_view_center_set( 0.295948, -0.183656 )
+ga_view_zoom_set( 0.070671 )
+ga_view_center_set( 0.310352, -0.192989 )
+ga_view_zoom_set( 0.056537 )
+ga_view_center_set( 0.316318, -0.197115 )
+ga_view_zoom_set( 0.050255 )
+ga_view_center_set( 0.329192, -0.206260 )
+ga_view_zoom_set( 0.036549 )
+ga_view_center_set( 0.333007, -0.208970 )
+ga_view_zoom_set( 0.032488 )
+ga_view_center_set( 0.336335, -0.211304 )
+ga_view_zoom_set( 0.028878 )
+ga_view_center_set( 0.343597, -0.216395 )
+ga_view_zoom_set( 0.021002 )
+ga_view_center_set( 0.345749, -0.217904 )
+ga_view_zoom_set( 0.018669 )
+ga_view_center_set( 0.347589, -0.219108 )
+ga_view_zoom_set( 0.016594 )
+ga_view_center_set( 0.352498, -0.222319 )
+ga_view_zoom_set( 0.011063 )
+ga_view_center_set( 0.351270, -0.221507 )
+ga_view_zoom_set( 0.012446 )
+ga_view_center_set( 0.349890, -0.220593 )
+ga_view_zoom_set( 0.014002 )
+ga_view_center_set( 0.348337, -0.219565 )
+ga_view_zoom_set( 0.015752 )
+ga_view_center_set( 0.346590, -0.218408 )
+ga_view_zoom_set( 0.017721 )
+ga_view_center_set( 0.348589, -0.219551 )
+ga_view_zoom_set( 0.015752 )
+ga_view_center_set( 0.350367, -0.220555 )
+ga_view_zoom_set( 0.014002 )
+ga_view_center_set( 0.353192, -0.222113 )
+ga_view_zoom_set( 0.011201 )
+ga_view_center_set( 0.352153, -0.221577 )
+ga_view_zoom_set( 0.012601 )
+ga_view_center_set( 0.347479, -0.219163 )
+ga_view_zoom_set( 0.018902 )
+ga_view_center_set( 0.344023, -0.217337 )
+ga_view_zoom_set( 0.023628 )
+ga_view_center_set( 0.340624, -0.215013 )
+ga_view_zoom_set( 0.029535 )
+ga_view_center_set( 0.338679, -0.213484 )
+ga_view_zoom_set( 0.033226 )
+ga_view_center_set( 0.331251, -0.206084 )
+ga_view_zoom_set( 0.049840 )
+ga_view_center_set( 0.329005, -0.200578 )
+ga_view_zoom_set( 0.062299 )
+ga_view_center_set( 0.325361, -0.190010 )
+ga_view_zoom_set( 0.085662 )
+ga_view_center_set( 0.323951, -0.185129 )
+ga_view_zoom_set( 0.096369 )
+ga_view_center_set( 0.326373, -0.182394 )
+ga_view_zoom_set( 0.108416 )
+ga_view_center_set( 0.334546, -0.173164 )
+ga_view_zoom_set( 0.149071 )
+ga_view_center_set( 0.338357, -0.168933 )
+ga_view_zoom_set( 0.167705 )
+ga_view_center_set( 0.343080, -0.164174 )
+ga_view_zoom_set( 0.188669 )
+ga_view_center_set( 0.354034, -0.153302 )
+ga_view_zoom_set( 0.235836 )
+ga_view_center_set( 0.360880, -0.146507 )
+ga_view_zoom_set( 0.265315 )
+ga_view_center_set( -0.021174, -0.106709 )
+ga_view_center_set( -0.007890, -0.105126 )
+ga_view_zoom_set( 0.235836 )
+ga_view_center_set( 0.003917, -0.103718 )
+ga_view_zoom_set( 0.209632 )
+ga_view_center_set( 0.014413, -0.102466 )
+ga_view_zoom_set( 0.186339 )
+ga_view_center_set( 0.003917, -0.103718 )
+ga_view_zoom_set( 0.209632 )
+ga_view_center_set( -0.031506, -0.107941 )
+ga_view_zoom_set( 0.288244 )
+ga_view_center_set( -0.063977, -0.111813 )
+ga_view_zoom_set( 0.360305 )
+ga_view_center_set( -0.084271, -0.114233 )
+ga_view_zoom_set( 0.405343 )
+ga_view_center_set( -0.104819, -0.116955 )
+ga_view_zoom_set( 0.456011 )
+ga_view_center_set( -0.126355, -0.119622 )
+ga_view_zoom_set( 0.513012 )
+ga_view_center_set( -0.085314, -0.027280 )
+ga_view_center_set( -0.111098, -0.038949 )
+ga_view_zoom_set( 0.577138 )
+ga_view_center_set( -0.140105, -0.052078 )
+ga_view_zoom_set( 0.649281 )
+ga_view_center_set( -0.172738, -0.066847 )
+ga_view_zoom_set( 0.730441 )
+ga_view_center_set( -0.113999, -0.040262 )
+ga_view_zoom_set( 0.584353 )
+ga_view_center_set( -0.087892, -0.028447 )
+ga_view_zoom_set( 0.519425 )
+ga_view_center_set( -0.030933, -0.002668 )
+ga_view_zoom_set( 0.377763 )
+ga_view_center_set( -0.014056, 0.004970 )
+ga_view_zoom_set( 0.335790 )
+ga_view_center_set( 0.000945, 0.011760 )
+ga_view_zoom_set( 0.298480 )
+uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 21-Apr-21 13:58:04
