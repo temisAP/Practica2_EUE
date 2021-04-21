@@ -1,0 +1,393 @@
+$# Session file patran.ses.01 started recording at 21-Apr-21 05:51:15
+$# Build: 26.0.758311 Tue Sep 15 10:33:18 PDT 2020
+$# Recorded by: Patran 2020  (Student Edition)
+uil_file_open.go( "C:\Users\María\Documents\MUSE\EUE\Practica2_EUE\Bandeja" // @
+"_A\Bandeja_A.db" )
+$# Database version 3.21 created by Patran 2020  (Student Edition) 
+$# successfully opened.
+$# Appending to existing journal file 
+$# C:\Users\María\Documents\MUSE\EUE\Practica2_EUE\Bandeja_A\Bandeja_A.db.jou 
+$# at 21-Apr-21 05:51:23
+$# FLEXlm initialization complete.  Acquiring license(s)...
+$# License File: EDU
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-3VPGNSK(
+$# c01885f775c5) (Windows 6.2 (Build 9200: Service Pack 0)) at 21-Apr-21 
+$# 05:51:23.
+$# Begin Reading RMB Menu definitions
+$# Done Reading RMB Menu definitions
+$# Loading dynamic library C:\Program 
+$# Files\MSC.Software\NaPa_SE\2020\Patran\bin\exe\loads_browser.dll
+$# 0ètq shared library 'Loads Browser', Version 2020, Revision 3, Patch 0, 
+$# has been loaded for: MSC.Patran.
+ga_view_center_set( -0.062157, -0.028723 )
+ga_view_zoom_set( 0.354514 )
+ga_view_center_set( -0.077623, -0.027626 )
+ga_view_zoom_set( 0.398828 )
+ga_view_center_set( -0.095023, -0.026392 )
+ga_view_zoom_set( 0.448682 )
+ga_view_center_set( -0.114597, -0.025004 )
+ga_view_zoom_set( 0.504767 )
+ga_view_center_set( -0.136618, -0.023442 )
+ga_view_zoom_set( 0.567863 )
+ga_view_center_set( -0.114597, -0.025004 )
+ga_view_zoom_set( 0.504767 )
+ga_view_center_set( -0.095023, -0.026392 )
+ga_view_zoom_set( 0.448682 )
+ga_view_center_set( -0.077623, -0.027626 )
+ga_view_zoom_set( 0.398828 )
+ga_view_center_set( -0.062157, -0.028723 )
+ga_view_zoom_set( 0.354514 )
+ga_view_center_set( -0.048410, -0.029698 )
+ga_view_zoom_set( 0.315123 )
+ga_view_center_set( -0.036189, -0.030565 )
+ga_view_zoom_set( 0.280110 )
+ga_view_center_set( -0.025327, -0.031335 )
+ga_view_zoom_set( 0.248986 )
+ga_view_center_set( -0.015672, -0.032020 )
+ga_view_zoom_set( 0.221321 )
+ga_view_center_set( -0.007089, -0.032629 )
+ga_view_zoom_set( 0.196730 )
+ga_view_center_set( 0.000540, -0.033170 )
+ga_view_zoom_set( 0.174871 )
+ga_view_center_set( 0.007321, -0.033651 )
+ga_view_zoom_set( 0.155441 )
+ga_view_center_set( 0.013349, -0.034078 )
+ga_view_zoom_set( 0.138170 )
+ga_view_center_set( 0.018707, -0.034458 )
+ga_view_zoom_set( 0.122818 )
+ga_view_center_set( 0.023470, -0.034796 )
+ga_view_zoom_set( 0.109171 )
+ga_view_center_set( 0.027703, -0.035096 )
+ga_view_zoom_set( 0.097041 )
+ga_view_center_set( 0.031466, -0.035363 )
+ga_view_zoom_set( 0.086259 )
+ga_view_center_set( 0.034811, -0.035600 )
+ga_view_zoom_set( 0.076674 )
+ga_view_center_set( 0.037785, -0.035811 )
+ga_view_zoom_set( 0.068155 )
+ga_view_center_set( 0.040428, -0.035999 )
+ga_view_zoom_set( 0.060582 )
+ga_view_center_set( 0.042777, -0.036165 )
+ga_view_zoom_set( 0.053851 )
+ga_view_center_set( 0.044865, -0.036314 )
+ga_view_zoom_set( 0.047867 )
+ga_view_center_set( 0.046722, -0.036445 )
+ga_view_zoom_set( 0.042549 )
+ga_view_center_set( 0.044865, -0.036314 )
+ga_view_zoom_set( 0.047867 )
+ga_view_center_set( 0.042777, -0.036165 )
+ga_view_zoom_set( 0.053851 )
+ga_view_center_set( 0.040428, -0.035999 )
+ga_view_zoom_set( 0.060582 )
+ga_view_center_set( 0.037785, -0.035811 )
+ga_view_zoom_set( 0.068155 )
+ga_view_center_set( 0.034811, -0.035600 )
+ga_view_zoom_set( 0.076674 )
+ga_view_center_set( 0.031466, -0.035363 )
+ga_view_zoom_set( 0.086259 )
+ga_view_center_set( 0.027703, -0.035096 )
+ga_view_zoom_set( 0.097041 )
+ga_view_center_set( 0.023470, -0.034796 )
+ga_view_zoom_set( 0.109171 )
+ga_view_center_set( 0.018707, -0.034458 )
+ga_view_zoom_set( 0.122818 )
+ga_view_center_set( 0.013349, -0.034078 )
+ga_view_zoom_set( 0.138170 )
+ga_view_center_set( 0.007321, -0.033651 )
+ga_view_zoom_set( 0.155441 )
+ga_view_center_set( 0.000540, -0.033170 )
+ga_view_zoom_set( 0.174871 )
+ga_view_center_set( -0.007089, -0.032629 )
+ga_view_zoom_set( 0.196730 )
+ga_view_center_set( -0.015672, -0.032020 )
+ga_view_zoom_set( 0.221321 )
+ga_view_center_set( -0.025327, -0.031335 )
+ga_view_zoom_set( 0.248986 )
+ga_view_center_set( -0.036189, -0.030565 )
+ga_view_zoom_set( 0.280110 )
+ga_view_center_set( -0.048410, -0.029698 )
+ga_view_zoom_set( 0.315123 )
+ga_view_center_set( -0.062157, -0.028723 )
+ga_view_zoom_set( 0.354514 )
+ga_view_center_set( -0.048410, -0.029698 )
+ga_view_zoom_set( 0.315123 )
+ga_view_center_set( -0.036189, -0.030565 )
+ga_view_zoom_set( 0.280110 )
+ga_view_center_set( -0.048410, -0.029698 )
+ga_view_zoom_set( 0.315123 )
+ga_view_center_set( -0.036189, -0.030565 )
+ga_view_zoom_set( 0.280110 )
+uil_toolbar.shaded_smooth(  )
+uil_toolbar.shaded_smooth(  )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_display_mgr.erase(  )
+STRING sgm_surface_3edge_created_ids[VIRTUAL]
+sgm_const_surface_3edge( "3", "Curve 51", "Curve 153", "Curve 154",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 3
+uil_toolbar.shaded_smooth(  )
+sgm_const_surface_3edge( "4", "Curve 52", "Curve 139", "Curve 140",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 4
+uil_toolbar.shaded_smooth(  )
+sgm_const_surface_3edge( "5", "Curve 53", "Curve 125", "Curve 126",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 5
+sgm_const_surface_3edge( "6", "Curve 54", "Curve 111", "Curve 112",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 6
+sgm_const_surface_3edge( "7", "Curve 55", "Curve 43", "Curve 98",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 7
+STRING asm_delete_any_deleted_ids[VIRTUAL]
+asm_delete_surface( "Surface 2", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 2
+asm_delete_surface( "Surface 1", asm_delete_any_deleted_ids )
+$# 1 Surface Deleted: Surface 1
+sgm_const_surface_3edge( "8", "Curve 50", "Curve 171", "Curve 170",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 8
+sgm_const_surface_3edge( "9", "Curve 170", "Curve 92", "Curve 1",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 9
+uil_toolbar.shaded_smooth(  )
+sgm_const_surface_3edge( "10", "Curve 154", "Curve 93", "Curve 171",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 10
+sgm_const_surface_3edge( "11", "Curve 140", "Curve 94", "Curve 153",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 11
+sgm_const_surface_3edge( "12", "Curve 126", "Curve 95", "Curve 139",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 12
+sgm_const_surface_3edge( "13", "Curve 112", "Curve 96", "Curve 125",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 13
+sgm_const_surface_3edge( "14", "Curve 98", "Curve 97", "Curve 111",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 14
+sgm_const_surface_3edge( "15", "Curve 99", "Curve 44", "Curve 91",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 15
+sgm_const_surface_3edge( "16", "Curve 110", "Curve 90", "Curve 113",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 16
+sgm_const_surface_3edge( "17", "Curve 124", "Curve 89", "Curve 127",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 17
+sgm_const_surface_3edge( "18", "Curve 138", "Curve 88", "Curve 141",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 18
+sgm_const_surface_3edge( "19", "Curve 152", "Curve 87", "Curve 155",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 19
+sgm_const_surface_3edge( "20", "Curve 172", "Curve 86", "Curve 169",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 20
+sgm_const_surface_3edge( "21", "Curve 97", "Curve 99", "Curve 110",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 21
+sgm_const_surface_3edge( "22", "Curve 96", "Curve 113", "Curve 124",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 22
+sgm_const_surface_3edge( "23", "Curve 95", "Curve 127", "Curve 138",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 23
+sgm_const_surface_3edge( "24", "Curve 94", "Curve 141", "Curve 152",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 24
+sgm_const_surface_3edge( "25", "Curve 93", "Curve 155", "Curve 172",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 25
+sgm_const_surface_3edge( "26", "Curve 92", "Curve 169", "Curve 2",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 26
+sgm_const_surface_3edge( "27", "Curve 91", "Curve 45", "Curve 100",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 27
+sgm_const_surface_3edge( "28", "Curve 90", "Curve 109", "Curve 114",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 28
+sgm_const_surface_3edge( "29", "Curve 89", "Curve 123", "Curve 128",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 29
+$# UNDO:
+sgm_const_surface_3edge( "30", "Curve 88", "Curve 137", "Curve 142",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 30
+sgm_const_surface_3edge( "31", "Curve 87", "Curve 151", "Curve 156",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 31
+sgm_const_surface_3edge( "32", "Curve 86", "Curve 173", "Curve 168",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 32
+sgm_const_surface_3edge( "33", "Curve 100", "Curve 85", "Curve 109",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 33
+sgm_const_surface_3edge( "34", "Curve 114", "Curve 84", "Curve 123",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 34
+sgm_const_surface_3edge( "35", "Curve 128", "Curve 83", "Curve 137",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 35
+sgm_const_surface_3edge( "36", "Curve 142", "Curve 82", "Curve 151",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 36
+sgm_const_surface_3edge( "37", "Curve 156", "Curve 81", "Curve 173",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 37
+sgm_const_surface_3edge( "38", "Curve 168", "Curve 80", "Curve 3",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 38
+sgm_const_surface_3edge( "39", "Curve 46", "Curve 79", "Curve 101",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 39
+sgm_const_surface_3edge( "40", "Curve 108", "Curve 78", "Curve 115",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 40
+sgm_const_surface_3edge( "41", "Curve 122", "Curve 77", "Curve 129",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 41
+sgm_const_surface_3edge( "42", "Curve 136", "Curve 76", "Curve 143",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 42
+sgm_const_surface_3edge( "43", "Curve 150", "Curve 75", "Curve 157",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 43
+sgm_const_surface_3edge( "44", "Curve 174", "Curve 74", "Curve 167",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 44
+sgm_const_surface_3edge( "45", "Curve 85", "Curve 101", "Curve 108",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 45
+sgm_const_surface_3edge( "46", "Curve 84", "Curve 115", "Curve 122",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 46
+sgm_const_surface_3edge( "47", "Curve 83", "Curve 129", "Curve 136",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 47
+sgm_const_surface_3edge( "48", "Curve 82", "Curve 143", "Curve 150",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 48
+sgm_const_surface_3edge( "49", "Curve 81", "Curve 157", "Curve 174",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 49
+sgm_const_surface_3edge( "50", "Curve 80", "Curve 167", "Curve 4",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 50
+sgm_const_surface_3edge( "51", "Curve 79", "Curve 47", "Curve 102",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 51
+sgm_const_surface_3edge( "52", "Curve 78", "Curve 107", "Curve 116",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 52
+sgm_const_surface_3edge( "53", "Curve 77", "Curve 121", "Curve 130",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 53
+sgm_const_surface_3edge( "54", "Curve 76", "Curve 135", "Curve 144",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 54
+sgm_const_surface_3edge( "55", "Curve 75", "Curve 149", "Curve 158",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 55
+sgm_const_surface_3edge( "56", "Curve 74", "Curve 165", "Curve 166",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 56
+sgm_const_surface_3edge( "57", "Curve 102", "Curve 73", "Curve 107",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 57
+sgm_const_surface_3edge( "58", "Curve 116", "Curve 72", "Curve 121",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 58
+sgm_const_surface_3edge( "59", "Curve 130", "Curve 71", "Curve 135",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 59
+sgm_const_surface_3edge( "60", "Curve 144", "Curve 70", "Curve 149",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 60
+sgm_const_surface_3edge( "61", "Curve 158", "Curve 69", "Curve 165",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 61
+sgm_const_surface_3edge( "62", "Curve 166", "Curve 68", "Curve 5",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 62
+sgm_const_surface_3edge( "63", "Curve 73", "Curve 103", "Curve 106",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 63
+sgm_const_surface_3edge( "64", "Curve 72", "Curve 117", "Curve 120",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 64
+sgm_const_surface_3edge( "65", "Curve 71", "Curve 131", "Curve 134",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 65
+sgm_const_surface_3edge( "66", "Curve 70", "Curve 145", "Curve 148",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 66
+sgm_const_surface_3edge( "67", "Curve 69", "Curve 159", "Curve 164",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 67
+sgm_const_surface_3edge( "68", "Curve 68", "Curve 163", "Curve 6",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 68
+sgm_const_surface_3edge( "69", "Curve 48", "Curve 67", "Curve 103",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 69
+sgm_const_surface_3edge( "70", "Curve 106", "Curve 66", "Curve 117",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 70
+sgm_const_surface_3edge( "71", "Curve 120", "Curve 65", "Curve 131",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 71
+sgm_const_surface_3edge( "72", "Curve 134", "Curve 64", "Curve 145",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 72
+sgm_const_surface_3edge( "73", "Curve 148", "Curve 63", "Curve 159",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 73
+sgm_const_surface_3edge( "74", "Curve 164", "Curve 62", "Curve 163",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 74
+sgm_const_surface_3edge( "75", "Curve 67", "Curve 49", "Curve 104",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 75
+sgm_const_surface_3edge( "76", "Curve 66", "Curve 105", "Curve 118",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 76
+sgm_const_surface_3edge( "77", "Curve 65", "Curve 119", "Curve 132",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 77
+sgm_const_surface_3edge( "78", "Curve 64", "Curve 133", "Curve 146",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 78
+sgm_const_surface_3edge( "79", "Curve 63", "Curve 147", "Curve 160",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 79
+sgm_const_surface_3edge( "80", "Curve 62", "Curve 161", "Curve 162",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 80
+sgm_const_surface_3edge( "81", "Curve 104", "Curve 61", "Curve 105",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 81
+sgm_const_surface_3edge( "82", "Curve 118", "Curve 60", "Curve 119",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 82
+sgm_const_surface_3edge( "83", "Curve 132", "Curve 59", "Curve 133",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 83
+sgm_const_surface_3edge( "84", "Curve 146", "Curve 58", "Curve 147",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 84
+sgm_const_surface_3edge( "85", "Curve 160", "Curve 57", "Curve 161",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 85
+$# UNDO: Create Surface 3Edge for Curve 162Curve 56Curve 7
+STRING sgm_surface_3edge_created_ids[VIRTUAL]
+sgm_const_surface_3edge( "86", "Curve 162", "Curve 56", "Curve 7",  @
+sgm_surface_3edge_created_ids )
+$# 1 Surface Created: Surface 86
+uil_primary_file.db_save(  )
+uil_file_close.goquit(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 21-Apr-21 06:05:11
+$# Session file patran.ses.01 stopped recording at 21-Apr-21 06:05:11
