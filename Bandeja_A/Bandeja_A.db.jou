@@ -9887,3 +9887,723 @@ ga_view_zoom_set( 0.285151 )
 ga_view_center_set( -0.119497, 0.209849 )
 ga_view_zoom_set( 0.320795 )
 uil_primary_file.db_save(  )
+mesh_seed_display_mgr.erase(  )
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+ga_view_center_set( -0.154245, 0.224235 )
+ga_view_zoom_set( 0.360894 )
+ga_view_center_set( -0.191930, 0.240262 )
+ga_view_zoom_set( 0.406006 )
+ga_view_center_set( -0.233093, 0.257766 )
+ga_view_zoom_set( 0.456757 )
+ga_view_center_set( -0.193689, 0.241670 )
+ga_view_zoom_set( 0.406006 )
+ga_view_center_set( -0.158663, 0.227362 )
+ga_view_zoom_set( 0.360894 )
+ga_view_center_set( -0.127528, 0.214644 )
+ga_view_zoom_set( 0.320795 )
+ga_view_center_set( -0.078158, 0.194296 )
+ga_view_zoom_set( 0.256636 )
+ga_view_center_set( -0.056315, 0.185450 )
+ga_view_zoom_set( 0.228121 )
+ga_view_center_set( -0.037162, 0.179607 )
+ga_view_zoom_set( 0.202774 )
+ga_view_center_set( -0.020137, 0.174414 )
+ga_view_zoom_set( 0.180244 )
+ga_view_center_set( 0.006728, 0.165730 )
+ga_view_zoom_set( 0.144195 )
+ga_view_center_set( 0.018557, 0.161703 )
+ga_view_zoom_set( 0.128173 )
+ga_view_center_set( 0.029022, 0.158075 )
+ga_view_zoom_set( 0.113932 )
+ga_view_center_set( 0.011744, 0.160371 )
+ga_view_zoom_set( 0.128173 )
+ga_view_center_set( -0.007360, 0.163008 )
+ga_view_zoom_set( 0.144195 )
+ga_view_center_set( -0.028664, 0.166038 )
+ga_view_zoom_set( 0.162219 )
+ga_view_center_set( -0.052420, 0.169447 )
+ga_view_zoom_set( 0.182497 )
+ga_view_center_set( -0.076695, 0.173124 )
+ga_view_zoom_set( 0.205309 )
+ga_view_center_set( -0.103827, 0.177261 )
+ga_view_zoom_set( 0.230972 )
+ga_view_center_set( -0.134249, 0.181914 )
+ga_view_zoom_set( 0.259844 )
+ga_view_center_set( -0.168475, 0.187149 )
+ga_view_zoom_set( 0.292324 )
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+ga_view_center_set( -0.158005, 0.189908 )
+ga_view_zoom_set( 0.259844 )
+ga_view_center_set( -0.148798, 0.192359 )
+ga_view_zoom_set( 0.230972 )
+ga_view_center_set( -0.140703, 0.194361 )
+ga_view_zoom_set( 0.205309 )
+ga_view_center_set( -0.148798, 0.192537 )
+ga_view_zoom_set( 0.230972 )
+ga_view_center_set( -0.157904, 0.190486 )
+ga_view_zoom_set( 0.259844 )
+ga_view_center_set( -0.178395, 0.185870 )
+ga_view_zoom_set( 0.324805 )
+ga_view_center_set( -0.191201, 0.182985 )
+ga_view_zoom_set( 0.365405 )
+ga_view_center_set( -0.205608, 0.179739 )
+ga_view_zoom_set( 0.411081 )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+REAL fem_equiv_all_x_equivtol_ab
+fem_equiv_all_group4( [" "], 0, "", 1, 1, 4.9999999E-06, FALSE,  @
+fem_equiv_all_x_equivtol_ab, fem_equiv_all_x_segment )
+$# Realigning database with new node numbers...
+$# Database realignment completed.
+$# Geometric equivalencing completed. 15 nodes deleted.
+ga_view_center_set( -0.199196, 0.207792 )
+ga_view_zoom_set( 0.462466 )
+ga_view_center_set( -0.191983, 0.239351 )
+ga_view_zoom_set( 0.520274 )
+ga_view_center_set( -0.199197, 0.207792 )
+ga_view_zoom_set( 0.462466 )
+ga_view_center_set( -0.205609, 0.179739 )
+ga_view_zoom_set( 0.411081 )
+ga_view_center_set( -0.211308, 0.154804 )
+ga_view_zoom_set( 0.365405 )
+ga_view_center_set( -0.216374, 0.132639 )
+ga_view_zoom_set( 0.324805 )
+ga_view_center_set( -0.220878, 0.112936 )
+ga_view_zoom_set( 0.288715 )
+ga_view_center_set( -0.211092, 0.104986 )
+ga_view_zoom_set( 0.256636 )
+ga_view_center_set( -0.202395, 0.097919 )
+ga_view_zoom_set( 0.228121 )
+ga_view_center_set( -0.183576, 0.084240 )
+ga_view_zoom_set( 0.182497 )
+ga_view_center_set( -0.175563, 0.077808 )
+ga_view_zoom_set( 0.162219 )
+point_label( FALSE )
+node_label( FALSE )
+ga_view_center_set( -0.144975, 0.083375 )
+ga_view_zoom_set( 0.129775 )
+ga_view_center_set( -0.160213, 0.080704 )
+ga_view_zoom_set( 0.145997 )
+ga_view_center_set( -0.177355, 0.077700 )
+ga_view_zoom_set( 0.164247 )
+ga_view_center_set( -0.215926, 0.070939 )
+ga_view_zoom_set( 0.205309 )
+ga_view_center_set( -0.240033, 0.066714 )
+ga_view_zoom_set( 0.230972 )
+ga_view_center_set( -0.267153, 0.061960 )
+ga_view_zoom_set( 0.259844 )
+ga_view_center_set( -0.297664, 0.056612 )
+ga_view_zoom_set( 0.292324 )
+ga_view_center_set( -0.366312, 0.044580 )
+ga_view_zoom_set( 0.365405 )
+$# Acknowledgement requested from application Graphics Manager
+$#     You have turned on visible entity picking. The following picking 
+$# behavior will occur in this mode:
+$#  1)	Preselection highlighting will be disabled until visible entity 
+$# picking is turned off.
+$#  2)	Rectangular/Polygon picking mode will be changed to "Enclose Any 
+$# Portion of Entity" until visible entity picking is turned off.
+$? NO 15000091 
+ga_view_center_set( -0.463521, 0.033972 )
+ga_view_zoom_set( 0.456757 )
+ga_view_center_set( -0.524277, 0.027343 )
+ga_view_zoom_set( 0.513851 )
+ga_view_center_set( -0.463521, 0.033972 )
+ga_view_zoom_set( 0.456757 )
+ga_view_center_set( -0.409516, 0.039865 )
+ga_view_zoom_set( 0.406006 )
+ga_view_center_set( -0.323107, 0.049294 )
+ga_view_zoom_set( 0.324805 )
+ga_view_center_set( -0.253981, 0.056837 )
+ga_view_zoom_set( 0.259844 )
+ga_view_center_set( -0.163313, 0.074100 )
+ga_view_zoom_set( 0.173229 )
+ga_view_center_set( -0.127046, 0.081005 )
+ga_view_zoom_set( 0.138583 )
+ga_view_center_set( -0.111942, 0.082046 )
+ga_view_zoom_set( 0.123185 )
+ga_view_center_set( -0.098515, 0.082971 )
+ga_view_zoom_set( 0.109498 )
+ga_view_center_set( -0.111942, 0.082046 )
+ga_view_zoom_set( 0.123185 )
+ga_view_center_set( -0.127046, 0.081005 )
+ga_view_zoom_set( 0.138583 )
+ga_view_center_set( -0.144039, 0.079835 )
+ga_view_zoom_set( 0.155906 )
+ga_view_center_set( -0.163156, 0.078517 )
+ga_view_zoom_set( 0.175395 )
+ga_view_center_set( -0.144039, 0.079835 )
+ga_view_zoom_set( 0.155906 )
+ga_view_center_set( -0.127046, 0.081005 )
+ga_view_zoom_set( 0.138583 )
+ga_view_center_set( -0.099858, 0.082879 )
+ga_view_zoom_set( 0.110867 )
+ga_view_center_set( -0.078107, 0.084378 )
+ga_view_zoom_set( 0.088693 )
+ga_view_center_set( -0.068440, 0.085044 )
+ga_view_zoom_set( 0.078839 )
+ga_view_center_set( -0.059848, 0.085727 )
+ga_view_zoom_set( 0.070079 )
+ga_view_center_set( -0.046099, 0.086820 )
+ga_view_zoom_set( 0.056063 )
+ga_view_center_set( -0.035100, 0.087617 )
+ga_view_zoom_set( 0.044850 )
+ga_view_center_set( -0.026301, 0.088223 )
+ga_view_zoom_set( 0.035880 )
+ga_view_center_set( -0.019262, 0.088683 )
+ga_view_zoom_set( 0.028704 )
+ga_view_center_set( -0.011583, 0.089131 )
+ga_view_zoom_set( 0.020876 )
+ga_view_center_set( -0.009307, 0.089263 )
+ga_view_zoom_set( 0.018556 )
+ga_view_center_set( -0.007235, 0.089389 )
+ga_view_zoom_set( 0.016494 )
+ga_view_center_set( -0.005393, 0.089500 )
+ga_view_zoom_set( 0.014662 )
+ga_view_center_set( -0.001359, 0.089673 )
+ga_view_zoom_set( 0.010663 )
+ga_view_center_set( -0.000164, 0.089724 )
+ga_view_zoom_set( 0.009478 )
+ga_view_center_set( -0.001359, 0.089730 )
+ga_view_zoom_set( 0.010663 )
+ga_view_center_set( -0.002704, 0.089737 )
+ga_view_zoom_set( 0.011996 )
+ga_view_center_set( -0.004216, 0.089745 )
+ga_view_zoom_set( 0.013495 )
+ga_view_center_set( -0.005918, 0.089754 )
+ga_view_zoom_set( 0.015182 )
+ga_view_center_set( -0.003439, 0.090698 )
+ga_view_zoom_set( 0.013495 )
+ga_view_center_set( -0.001261, 0.091527 )
+ga_view_zoom_set( 0.011996 )
+ga_view_center_set( 0.002182, 0.092829 )
+ga_view_zoom_set( 0.009597 )
+ga_view_center_set( 0.000506, 0.092153 )
+ga_view_zoom_set( 0.010796 )
+ga_view_center_set( -0.003264, 0.090633 )
+ga_view_zoom_set( 0.013495 )
+ga_view_center_set( -0.005620, 0.089683 )
+ga_view_zoom_set( 0.015182 )
+ga_view_center_set( -0.008271, 0.088614 )
+ga_view_zoom_set( 0.017080 )
+ga_view_center_set( -0.011254, 0.087411 )
+ga_view_zoom_set( 0.019215 )
+ga_view_center_set( -0.017864, 0.084755 )
+ga_view_zoom_set( 0.024019 )
+ga_view_center_set( -0.026086, 0.081456 )
+ga_view_zoom_set( 0.030024 )
+ga_view_center_set( -0.031224, 0.079394 )
+ga_view_zoom_set( 0.033777 )
+ga_view_center_set( -0.037005, 0.077075 )
+ga_view_zoom_set( 0.037999 )
+ga_view_center_set( -0.043508, 0.074465 )
+ga_view_zoom_set( 0.042749 )
+ga_view_center_set( -0.050824, 0.071530 )
+ga_view_zoom_set( 0.048092 )
+ga_view_center_set( -0.059055, 0.068227 )
+ga_view_zoom_set( 0.054104 )
+ga_view_center_set( -0.077574, 0.060796 )
+ga_view_zoom_set( 0.067630 )
+ga_view_center_set( -0.100723, 0.051507 )
+ga_view_zoom_set( 0.084537 )
+ga_view_center_set( -0.115191, 0.045701 )
+ga_view_zoom_set( 0.095104 )
+ga_view_center_set( -0.131467, 0.039170 )
+ga_view_zoom_set( 0.106992 )
+ga_view_center_set( -0.149778, 0.031823 )
+ga_view_zoom_set( 0.120367 )
+ga_view_center_set( -0.252778, -0.009508 )
+ga_view_zoom_set( 0.195596 )
+ga_view_center_set( -0.286253, -0.022940 )
+ga_view_zoom_set( 0.220045 )
+ga_view_center_set( -0.399231, -0.068274 )
+ga_view_zoom_set( 0.302562 )
+ga_view_center_set( -0.502795, -0.109831 )
+ga_view_zoom_set( 0.378202 )
+ga_view_center_set( -0.567522, -0.135803 )
+ga_view_zoom_set( 0.425478 )
+$# Error reported from application ELEM_PROPS
+$#     Property Set Name is "blank".
+$? NO 29002005 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_7075_T6", "<0. 0. 1.>", "<0. 0. -0.0049999999>",  @
+"<0. 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 1:7 43:61" )
+$# Property Set "rigidizador_exterior" modified.
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_2024_T6", "<0. 0. 1.>", "<0. 0. -0.0049999999>",  @
+"<0. 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "" )
+$# Property Set "rigidizador_exterior" modified.
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_2024_T6", "<0. 0. 1.>", "<0. 0. -0.0049999999>",  @
+"<0. 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "" )
+$# Property Set "rigidizador_exterior" modified.
+ga_view_center_set( -0.007851, 0.151112 )
+ga_view_zoom_set( 0.349266 )
+ga_view_center_set( -0.063540, 0.175098 )
+ga_view_zoom_set( 0.392924 )
+ga_view_center_set( -0.009516, 0.153382 )
+ga_view_zoom_set( 0.349266 )
+ga_view_center_set( 0.038505, 0.134079 )
+ga_view_zoom_set( 0.310458 )
+ga_view_center_set( 0.081191, 0.116921 )
+ga_view_zoom_set( 0.275963 )
+ga_view_center_set( 0.119134, 0.101670 )
+ga_view_zoom_set( 0.245300 )
+ga_view_center_set( 0.179333, 0.077267 )
+ga_view_zoom_set( 0.196240 )
+ga_view_center_set( 0.227356, 0.057745 )
+ga_view_zoom_set( 0.156992 )
+ga_view_center_set( 0.247006, 0.049431 )
+ga_view_zoom_set( 0.139549 )
+ga_view_center_set( 0.278447, 0.036130 )
+ga_view_zoom_set( 0.111639 )
+ga_view_center_set( 0.292421, 0.030218 )
+ga_view_zoom_set( 0.099235 )
+ga_view_center_set( 0.304842, 0.024962 )
+ga_view_zoom_set( 0.088209 )
+ga_view_center_set( 0.315883, 0.020291 )
+ga_view_zoom_set( 0.078408 )
+ga_view_center_set( 0.333548, 0.012817 )
+ga_view_zoom_set( 0.062726 )
+ga_view_center_set( 0.324715, 0.016554 )
+ga_view_zoom_set( 0.070567 )
+ga_view_center_set( 0.304842, 0.024962 )
+ga_view_zoom_set( 0.088209 )
+ga_view_center_set( 0.292421, 0.030218 )
+ga_view_zoom_set( 0.099235 )
+ga_view_center_set( 0.278447, 0.036129 )
+ga_view_zoom_set( 0.111639 )
+ga_view_center_set( 0.262727, 0.042780 )
+ga_view_zoom_set( 0.125594 )
+ga_view_center_set( 0.227356, 0.057745 )
+ga_view_zoom_set( 0.156992 )
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_7075_T6", "<0. 0. 1.>", "<0. 0. -0.0049999999>",  @
+"<0. 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "" )
+$# Property Set "rigidizador_exterior" modified.
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE], [3, 4, 5, 6, 1, 1, 7, 8, 9,  @
+10], [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, TRUE, TRUE, TRUE, TRUE], TRUE )
+display_fa_vectors( TRUE )
+sys_poll_option( 0 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+$# Warning reported from application ELEM_PROPS
+$#     Beam Section Name is "blank". Input a Beam Section Name. You may have 
+$# to create a Beam Library before you define an Arbitrary Beam element 
+$# property.
+ga_view_center_set( 0.239025, 0.055961 )
+ga_view_zoom_set( 0.139549 )
+ga_view_center_set( 0.249290, 0.054215 )
+ga_view_zoom_set( 0.124043 )
+ga_view_center_set( 0.258367, 0.052471 )
+ga_view_zoom_set( 0.110261 )
+ga_view_center_set( 0.249290, 0.054597 )
+ga_view_zoom_set( 0.124043 )
+ga_view_center_set( 0.239079, 0.056988 )
+ga_view_zoom_set( 0.139549 )
+ga_view_center_set( 0.216103, 0.062370 )
+ga_view_zoom_set( 0.174436 )
+ga_view_center_set( 0.205446, 0.065808 )
+ga_view_zoom_set( 0.196240 )
+ga_view_center_set( 0.184190, 0.074906 )
+ga_view_zoom_set( 0.245300 )
+ga_view_center_set( 0.171436, 0.080699 )
+ga_view_zoom_set( 0.275963 )
+ga_view_center_set( 0.107964, 0.177286 )
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+elementprops_create( "rigidizador_exterior", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 4, 6, 4, 4, 4], ["cuadrada_10x10",  @
+"m:AL_7075_T6", "<0. 0. 1.>", "< -0. 0. -0.0049999999>",  @
+"<0. 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 1:7 43:61" )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Property Set "rigidizador_exterior" Exists. Overwrite?
+$? YES 29002006 
+$# Property Set "rigidizador_exterior" created.
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 1" cannot be parsed.
+$? NO 20039 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 2" cannot be parsed.
+$? NO 20039 
+$# Acknowledgement requested from application ELEM_PROPS
+$#     The data entered for Property "Offset @ Node 2" cannot be parsed.
+$? NO 20039 
+elementprops_create( "rigidizador_exterior", 11, 2, 42, 1, 1, 20, [39, 13, 6,  @
+4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048,  @
+4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410,  @
+4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 4, 6, 4, 4, 4], ["cuadrada_10x10",  @
+"m:AL_7075_T6", "<0. 0. 1.>", "<0. 0. -0.0049999999>", "<-0.005 0 -0.005>", "" @
+, "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "Analysis", "Analysis", "Analysis"], "" )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Property Set "rigidizador_exterior" Exists. Overwrite?
+$? YES 29002006 
+$# Property Set "rigidizador_exterior" created.
+ga_view_center_set( 0.072454, 0.129321 )
+ga_view_zoom_set( 0.349266 )
+ga_view_center_set( 0.106805, 0.128640 )
+ga_view_zoom_set( 0.392924 )
+ga_view_center_set( 0.070184, 0.133558 )
+ga_view_zoom_set( 0.349266 )
+ga_view_center_set( 0.011589, 0.141427 )
+ga_view_zoom_set( 0.279413 )
+ga_view_center_set( -0.014453, 0.144925 )
+ga_view_zoom_set( 0.248367 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.022009, 0.152146 )
+ga_view_zoom_set( 0.220770 )
+ga_view_center_set( -0.028726, 0.158056 )
+ga_view_zoom_set( 0.196240 )
+ga_view_center_set( -0.022009, 0.152317 )
+ga_view_zoom_set( 0.220770 )
+ga_view_center_set( -0.014452, 0.145860 )
+ga_view_zoom_set( 0.248367 )
+ga_view_center_set( 0.002550, 0.131332 )
+ga_view_zoom_set( 0.310458 )
+ga_view_center_set( 0.013177, 0.121715 )
+ga_view_zoom_set( 0.349266 )
+ga_view_center_set( -0.025242, -0.014499 )
+$# UNDO: Element Property Create
+ga_view_center_set( 0.099330, -0.081280 )
+ga_view_zoom_set( 0.474348 )
+ga_view_center_set( 0.105249, -0.075854 )
+ga_view_zoom_set( 0.379478 )
+ga_view_center_set( 0.109458, -0.071514 )
+ga_view_zoom_set( 0.303582 )
+ga_view_center_set( 0.107748, -0.073816 )
+ga_view_zoom_set( 0.341530 )
+ga_view_center_set( 0.109458, -0.071514 )
+ga_view_zoom_set( 0.303582 )
+ga_view_center_set( 0.111984, -0.067831 )
+ga_view_zoom_set( 0.242866 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( 0.094305, -0.063855 )
+ga_view_zoom_set( 0.215881 )
+ga_view_center_set( 0.078508, -0.060405 )
+ga_view_zoom_set( 0.191894 )
+ga_view_center_set( 0.094305, -0.063855 )
+ga_view_zoom_set( 0.215881 )
+ga_view_center_set( 0.112077, -0.067737 )
+ga_view_zoom_set( 0.242866 )
+ga_view_center_set( 0.172057, -0.080838 )
+ga_view_zoom_set( 0.333941 )
+ga_view_center_set( 0.208229, -0.091617 )
+ga_view_zoom_set( 0.375683 )
+ga_view_center_set( 0.248923, -0.103744 )
+ga_view_zoom_set( 0.422644 )
+ga_view_center_set( 0.294703, -0.117387 )
+ga_view_zoom_set( 0.475474 )
+ga_view_center_set( 0.346206, -0.133146 )
+ga_view_zoom_set( 0.534908 )
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 4, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_7075_T6", "<0. 0. 1.>", "<0. 0. -0.0049999999>",  @
+"<-0.0049999999 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "" @
+, "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis",  @
+"Analysis", "Analysis"], "Curve 1:7 43:61" )
+$# Property Set "rigidizador_exterior" modified.
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 4, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_7075_T6", "<0. 0. 1.>", "<0. 0. -0.0049999999>",  @
+"<0. 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "" )
+$# Property Set "rigidizador_exterior" modified.
+ga_view_center_set( -0.032586, 0.016530 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( -0.069244, 0.035126 )
+ga_view_zoom_set( 0.462057 )
+ga_view_center_set( -0.032586, 0.016530 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( 0.047397, -0.024043 )
+ga_view_zoom_set( 0.298703 )
+ga_view_center_set( 0.071095, -0.036065 )
+ga_view_zoom_set( 0.265514 )
+ga_view_aa_set( -169.617569, -55.906025, -165.289886 )
+ga_view_center_set( 0.082548, -0.044399 )
+ga_view_zoom_set( 0.236013 )
+elementprops_modify( "rigidizador_exterior", "rigidizador_exterior", 11, 2,  @
+42, 1, 1, 20, [39, 13, 6, 4042, 4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, @
+ 4045, 4037, 4047, 4048, 4050, 4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, @
+ 8111, 4403, 4404, 4410, 4411, 8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, @
+ 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 4, 6, 4, 4, 4], [ @
+"cuadrada_10x10", "m:AL_7075_T6", "<0. 0. 1.>", "<0. 0. -0.0049999999>",  @
+"<0. 0. -0.0049999999>", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 1:7 43:61" )
+$# Property Set "rigidizador_exterior" modified.
+ga_view_center_set( 0.072469, -0.003598 )
+ga_view_zoom_set( 0.451003 )
+ga_view_center_set( 0.034169, 0.012718 )
+ga_view_zoom_set( 0.507378 )
+ga_view_center_set( -0.007820, 0.030415 )
+ga_view_zoom_set( 0.570800 )
+ga_view_center_set( 0.033509, 0.012718 )
+ga_view_zoom_set( 0.507378 )
+ga_view_center_set( 0.123202, -0.027811 )
+ga_view_zoom_set( 0.369002 )
+ga_view_center_set( 0.149777, -0.039962 )
+ga_view_zoom_set( 0.328002 )
+ga_view_center_set( 0.172390, -0.050384 )
+ga_view_zoom_set( 0.291557 )
+ga_view_center_set( 0.219520, -0.073398 )
+ga_view_zoom_set( 0.212042 )
+ga_view_center_set( 0.233403, -0.080217 )
+ga_view_zoom_set( 0.188481 )
+ga_view_center_set( 0.223685, -0.076093 )
+ga_view_zoom_set( 0.212042 )
+ga_view_center_set( 0.202738, -0.066813 )
+ga_view_zoom_set( 0.265052 )
+ga_view_center_set( 0.171042, -0.047003 )
+ga_view_zoom_set( 0.364447 )
+ga_view_aa_set( -14.831794, -66.510925, 48.327763 )
+ga_view_center_set( 0.140724, -0.042503 )
+ga_view_zoom_set( 0.410002 )
+ga_view_center_set( 0.106616, -0.037440 )
+ga_view_zoom_set( 0.461253 )
+ga_view_center_set( 0.029874, -0.026049 )
+ga_view_zoom_set( 0.576566 )
+ga_view_center_set( 0.072509, -0.032155 )
+ga_view_zoom_set( 0.512503 )
+ga_view_center_set( 0.110406, -0.037583 )
+ga_view_zoom_set( 0.455558 )
+ga_view_center_set( 0.144093, -0.042408 )
+ga_view_zoom_set( 0.404941 )
+ga_view_center_set( 0.197991, -0.050409 )
+ga_view_zoom_set( 0.323953 )
+ga_view_center_set( 0.221946, -0.054463 )
+ga_view_zoom_set( 0.287958 )
+ga_view_center_set( 0.273939, -0.063310 )
+ga_view_zoom_set( 0.209424 )
+ga_view_center_set( 0.287086, -0.057302 )
+ga_view_zoom_set( 0.186155 )
+ga_view_center_set( 0.307992, -0.047687 )
+ga_view_zoom_set( 0.148924 )
+ga_view_aa_set( -4.414653, -75.408813, 44.521164 )
+ga_view_center_set( 0.301346, -0.051785 )
+ga_view_zoom_set( 0.167539 )
+ga_view_center_set( 0.286393, -0.061004 )
+ga_view_zoom_set( 0.209424 )
+ga_view_center_set( 0.277046, -0.066766 )
+ga_view_zoom_set( 0.235602 )
+ga_view_center_set( 0.286302, -0.061004 )
+ga_view_zoom_set( 0.209424 )
+ga_view_center_set( 0.305505, -0.048432 )
+ga_view_zoom_set( 0.152308 )
+ga_view_center_set( 0.311078, -0.044766 )
+ga_view_zoom_set( 0.135385 )
+ga_view_center_set( 0.315197, -0.041455 )
+ga_view_zoom_set( 0.120342 )
+ga_view_center_set( 0.320286, -0.036491 )
+ga_view_zoom_set( 0.096274 )
+ga_view_center_set( 0.322437, -0.034285 )
+ga_view_zoom_set( 0.085577 )
+ga_view_center_set( 0.319174, -0.026009 )
+ga_view_zoom_set( 0.068461 )
+ga_view_center_set( 0.317724, -0.022331 )
+ga_view_zoom_set( 0.060855 )
+ga_view_aa_set( 7.585342, -75.408813, 44.521160 )
+ga_view_center_set( 0.314700, -0.025366 )
+ga_view_zoom_set( 0.054093 )
+ga_view_center_set( 0.311950, -0.028064 )
+ga_view_zoom_set( 0.048083 )
+ga_view_center_set( 0.307350, -0.032447 )
+ga_view_zoom_set( 0.038466 )
+ga_view_center_set( 0.303404, -0.036061 )
+ga_view_zoom_set( 0.030773 )
+ga_view_center_set( 0.301555, -0.037702 )
+ga_view_zoom_set( 0.027354 )
+ga_view_center_set( 0.297366, -0.041309 )
+ga_view_zoom_set( 0.019894 )
+ga_view_center_set( 0.296125, -0.042378 )
+ga_view_zoom_set( 0.017683 )
+ga_view_center_set( 0.295015, -0.043328 )
+ga_view_zoom_set( 0.015718 )
+ga_view_center_set( 0.292593, -0.045401 )
+ga_view_zoom_set( 0.011432 )
+ga_view_center_set( 0.291875, -0.046015 )
+ga_view_zoom_set( 0.010161 )
+ga_view_center_set( 0.292593, -0.045401 )
+ga_view_zoom_set( 0.011432 )
+ga_view_center_set( 0.293400, -0.044710 )
+ga_view_zoom_set( 0.012860 )
+ga_view_center_set( 0.294308, -0.043933 )
+ga_view_zoom_set( 0.014468 )
+ga_view_center_set( 0.295330, -0.043058 )
+ga_view_zoom_set( 0.016277 )
+ga_view_center_set( 0.296480, -0.042075 )
+ga_view_zoom_set( 0.018311 )
+ga_view_center_set( 0.295330, -0.043058 )
+ga_view_zoom_set( 0.016277 )
+ga_view_center_set( 0.294308, -0.043933 )
+ga_view_zoom_set( 0.014468 )
+ga_view_center_set( 0.293400, -0.044710 )
+ga_view_zoom_set( 0.012860 )
+ga_view_center_set( 0.292593, -0.045401 )
+ga_view_zoom_set( 0.011432 )
+ga_view_center_set( 0.292311, -0.045808 )
+ga_view_zoom_set( 0.010161 )
+ga_view_center_set( 0.291839, -0.046474 )
+ga_view_zoom_set( 0.008129 )
+ga_view_center_set( 0.291445, -0.047024 )
+ga_view_zoom_set( 0.006503 )
+ga_view_center_set( 0.291653, -0.046738 )
+ga_view_zoom_set( 0.007316 )
+ga_view_center_set( 0.291888, -0.046416 )
+ga_view_zoom_set( 0.008231 )
+ga_view_center_set( 0.292679, -0.045330 )
+ga_view_zoom_set( 0.011317 )
+ga_view_center_set( 0.293121, -0.044803 )
+ga_view_zoom_set( 0.012732 )
+ga_view_center_set( 0.295349, -0.042144 )
+ga_view_zoom_set( 0.019098 )
+ga_view_center_set( 0.296202, -0.041122 )
+ga_view_zoom_set( 0.021485 )
+ga_view_center_set( 0.296993, -0.039349 )
+ga_view_zoom_set( 0.024171 )
+ga_view_center_set( 0.298752, -0.035359 )
+ga_view_zoom_set( 0.030213 )
+ga_view_center_set( 0.299839, -0.032865 )
+ga_view_zoom_set( 0.033990 )
+ga_view_aa_set( 27.017273, -72.284050, 64.325447 )
+ga_view_center_set( 0.299918, -0.032322 )
+ga_view_zoom_set( 0.030213 )
+ga_view_center_set( 0.301017, -0.033461 )
+ga_view_zoom_set( 0.037767 )
+ga_view_center_set( 0.291519, -0.032813 )
+ga_view_zoom_set( 0.033570 )
+ga_view_center_set( 0.283076, -0.032238 )
+ga_view_zoom_set( 0.029840 )
+ga_view_center_set( 0.275572, -0.031727 )
+ga_view_zoom_set( 0.026525 )
+ga_view_center_set( 0.283525, -0.032267 )
+ga_view_zoom_set( 0.033156 )
+ga_view_center_set( 0.298350, -0.033280 )
+ga_view_zoom_set( 0.045589 )
+ga_view_center_set( 0.305125, -0.033744 )
+ga_view_zoom_set( 0.051288 )
+ga_view_center_set( 0.312703, -0.034199 )
+ga_view_zoom_set( 0.057699 )
+ga_view_center_set( 0.338278, -0.035437 )
+ga_view_zoom_set( 0.079336 )
+ga_view_center_set( 0.349999, -0.036004 )
+ga_view_zoom_set( 0.089253 )
+ga_view_center_set( 0.363186, -0.036642 )
+ga_view_zoom_set( 0.100410 )
+ga_view_center_set( 0.378021, -0.037360 )
+ga_view_zoom_set( 0.112961 )
+ga_view_center_set( 0.411401, -0.038975 )
+ga_view_zoom_set( 0.141202 )
+ga_view_center_set( 0.432263, -0.039985 )
+ga_view_zoom_set( 0.158852 )
+ga_view_center_set( 0.455733, -0.041120 )
+ga_view_zoom_set( 0.178708 )
+ga_view_center_set( 0.482136, -0.042398 )
+ga_view_zoom_set( 0.201047 )
+ga_view_center_set( 0.511840, -0.043835 )
+ga_view_zoom_set( 0.226178 )
+ga_view_center_set( 0.545258, -0.045550 )
+ga_view_zoom_set( 0.254450 )
+ga_view_center_set( 0.582852, -0.047480 )
+ga_view_zoom_set( 0.286256 )
+ga_view_center_set( 0.625145, -0.050146 )
+ga_view_zoom_set( 0.322038 )
+ga_view_center_set( 0.672725, -0.053146 )
+ga_view_zoom_set( 0.362293 )
+ga_view_center_set( 0.726253, -0.056521 )
+ga_view_zoom_set( 0.407580 )
