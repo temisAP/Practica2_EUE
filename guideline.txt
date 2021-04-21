@@ -8,13 +8,12 @@ Diseño de bandejas:
 	Dimensiones 600 x 600 mm
 
  	-Bandeja intermedia
-	Masa puntual a 80mm de la superficie unida RBE2 a 4 cruces de rigidizadores
+	Masa puntual a 80mm de la superficie unida RBE2 a 4 cruces de rigidizadores -> -> Punto 1111/ Nodo 1011 / Elemento0D 1001 /MCP ID: 1,2,3,4
 	Simplemente apoyada en todo el contorno exterior
 	
 	-Bandeja inferior
-	Masa puntual a 80mm de la superficie, centrada y unida RBE2 a 4 cruces de rigidizadores -> Punto 1111/ Nodo 1011 / Elemento0D 1001
-	Masa puntual a 0.38m de la supercicie, centrada y unida RBE2 sobre el contorno exterior -> Punto 1112/ Nodo 1012 / Elemento0D 1002
-		M2 = Mequipo * (2+3.5 * L_bandeja) = 41 kg
+	Masa puntual a 80mm de la superficie, centrada y unida RBE2 a 4 cruces de rigidizadores -> Punto 1111/ Nodo 1011 / Elemento0D 1001 /MCP ID: 1(4376), 2(4467), 3(5559), 4(5468)
+	Masa puntual a 0.38m de la supercicie, centrada y unida RBE2 sobre el contorno exterior -> Punto 1112/ Nodo 1012 / Elemento0D 1002 /MCP ID: 5(4376), 6(4467), 7(5559), 8(5468)
 	Elementos CBUSH (tornillos) entre 8 y 12 (para unirse al sistema de separación) 
 		con nodos superiores situados en los cruces de rigidizadores y que no coincidan con los de la masa puntual
 		con nodos inferiores a 20 mm de la superficie de la bandeja restringidos sus 6 gdl
@@ -22,8 +21,8 @@ Diseño de bandejas:
 	ID para ambas bandejas
 
  		geometria: puntos 1:76, curvas  1:7 43:174 , superficies 3.  4.  5.  6.  7.  8.  9. 15. 16. 17. 18. 19. 21. 22. 23. 24. 26. 31. 32. 38. 39. 40. 41. 42. 43. 45. 46. 47. 48. 50. 55. 56. 63. 64. 65. 66. 67. 68. 69. 70. 71. 72. 73. 79. 80. 86.
-		malla superficie: nodos 2000:9644 , elementos 21000:27300
-		malla curvas	: nodos 10 000:11 529, elementos 30 000:31 390
+		malla superficie: nodos 2000:9644 , elementos 21000:27300		*Algunos eliminados por la equivalencia
+		malla curvas	: nodos 10000:11529, elementos 30000:31390
 
 	
 	
