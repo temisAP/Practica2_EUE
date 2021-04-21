@@ -4140,3 +4140,971 @@ $# 1 Surface Created: Surface 86
 uil_primary_file.db_save(  )
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 21-Apr-21 06:05:11
+$# Appending to existing journal file 
+$# D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_A\Bandeja_A.db.jou
+$#  at 21-Apr-21 10:33:46
+$# Synchronizing the User Data Manager
+set_current_dir( "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_A" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ga_view_aa_set( 123.937782, 15.345768, -16.725924 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( 0.016293, 0.011152 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( 0.000000, 0.000316 )
+ga_view_zoom_set( 0.365082 )
+ga_view_center_set( -0.014482, -0.009034 )
+ga_view_zoom_set( 0.324517 )
+ga_view_center_set( -0.027356, -0.017345 )
+ga_view_zoom_set( 0.288460 )
+ga_view_center_set( -0.038798, -0.024733 )
+ga_view_zoom_set( 0.256409 )
+ga_view_center_set( -0.054599, -0.032683 )
+ga_view_zoom_set( 0.227919 )
+ga_view_aa_set( -36.093914, 4.572426, 1.834825 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.020411, -0.203622 )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( 0., 0., 0. )
+curve_label( FALSE )
+node_label( TRUE )
+point_size( 1 )
+bar_elem_label( TRUE )
+tri_elem_label( TRUE )
+quad_elem_label( TRUE )
+tet_elem_label( TRUE )
+wedge_elem_label( TRUE )
+hex_elem_label( TRUE )
+mpc_label( TRUE )
+ga_view_center_set( -0.034335, -0.220064 )
+ga_view_aa_set( 75.505836, -35.088070, 53.875370 )
+ga_view_aa_set( -34.419247, 54.820549, 34.349209 )
+ga_view_center_set( -0.046666, -0.226230 )
+ga_view_zoom_set( 0.288460 )
+ga_view_center_set( -0.060539, -0.233166 )
+ga_view_zoom_set( 0.324517 )
+ga_view_center_set( -0.076147, -0.241111 )
+ga_view_zoom_set( 0.365082 )
+ga_view_center_set( -0.093705, -0.250048 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( -0.113458, -0.260102 )
+ga_view_zoom_set( 0.462057 )
+ga_view_aa_set( -62.627804, -4.965197, -110.213554 )
+surface_label( TRUE )
+trim_surface_label( TRUE )
+surface_label( FALSE )
+trim_surface_label( FALSE )
+surface_label( TRUE )
+trim_surface_label( TRUE )
+ga_view_center_set( -0.127672, -0.275618 )
+ga_view_zoom_set( 0.519814 )
+ga_view_center_set( -0.143662, -0.292847 )
+ga_view_zoom_set( 0.584791 )
+ga_view_center_set( -0.161652, -0.312230 )
+ga_view_zoom_set( 0.657890 )
+ga_view_center_set( -0.181891, -0.334036 )
+ga_view_zoom_set( 0.740126 )
+ga_view_center_set( -0.161652, -0.312230 )
+ga_view_zoom_set( 0.657890 )
+ga_view_center_set( -0.143662, -0.292847 )
+ga_view_zoom_set( 0.584791 )
+ga_view_center_set( -0.114879, -0.261834 )
+ga_view_zoom_set( 0.467833 )
+ga_view_center_set( -0.102086, -0.248050 )
+ga_view_zoom_set( 0.415851 )
+ga_view_center_set( -0.090715, -0.235798 )
+ga_view_zoom_set( 0.369646 )
+ga_view_center_set( -0.080607, -0.224907 )
+ga_view_zoom_set( 0.328574 )
+ga_view_center_set( -0.064435, -0.207482 )
+ga_view_zoom_set( 0.262859 )
+ga_view_center_set( -0.057247, -0.199738 )
+ga_view_zoom_set( 0.233652 )
+ga_view_center_set( -0.050858, -0.192854 )
+ga_view_zoom_set( 0.207691 )
+ga_view_center_set( -0.045179, -0.186734 )
+ga_view_zoom_set( 0.184614 )
+ga_view_center_set( -0.040131, -0.181295 )
+ga_view_zoom_set( 0.164102 )
+ga_view_center_set( -0.035643, -0.176460 )
+ga_view_zoom_set( 0.145868 )
+ga_view_center_set( -0.031655, -0.172163 )
+ga_view_zoom_set( 0.129661 )
+ga_view_center_set( -0.035643, -0.176460 )
+ga_view_zoom_set( 0.145868 )
+ga_view_center_set( -0.040131, -0.181295 )
+ga_view_zoom_set( 0.164102 )
+ga_view_center_set( -0.050227, -0.192174 )
+ga_view_zoom_set( 0.205127 )
+ga_view_center_set( -0.056537, -0.198973 )
+ga_view_zoom_set( 0.230768 )
+ga_view_center_set( -0.063636, -0.206622 )
+ga_view_zoom_set( 0.259614 )
+surface_label( FALSE )
+trim_surface_label( FALSE )
+surface_label( TRUE )
+trim_surface_label( TRUE )
+node_label( FALSE )
+bar_elem_label( FALSE )
+tri_elem_label( FALSE )
+quad_elem_label( FALSE )
+tet_elem_label( FALSE )
+wedge_elem_label( FALSE )
+hex_elem_label( FALSE )
+mpc_label( FALSE )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.061040, -0.045661 )
+ga_view_center_set( -0.077688, -0.042005 )
+ga_view_zoom_set( 0.292066 )
+ga_view_center_set( -0.096417, -0.037893 )
+ga_view_zoom_set( 0.328574 )
+ga_view_center_set( -0.117486, -0.033266 )
+ga_view_zoom_set( 0.369646 )
+ga_view_aa_set( 1.000457, -1.999847, 0.017462 )
+ga_view_aa_set( 0., 0., 0. )
+surface_label( FALSE )
+trim_surface_label( FALSE )
+point_label( TRUE )
+point_label( FALSE )
+node_label( TRUE )
+node_label( FALSE )
+point_label( TRUE )
+point_size( 9 )
+point_size( 1 )
+point_label( FALSE )
+node_label( TRUE )
+node_label( FALSE )
+point_label( TRUE )
+point_size( 9 )
+point_size( 1 )
+node_label( TRUE )
+node_label( FALSE )
+curve_label( TRUE )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_create( "Curve 1:7 43:174 Surface 3.1 4.1 5.1 6.1 7.1 8.1 9.1 15" // @
+".1 16.1 17.1 18.1 19.1 21.1 22.1 23.1 24.1 26.1 31.1 32.1 38.1 39.1 40.1 " // @
+"41.1 42.1 43.1 45.1 46.1 47.1 48.1 50.1 55.1 56.1 63.1 64.1 65.1 66.1 67." // @
+"1 68.1 69.1 70.1 71.1 72.1 73.1 79.1 80.1 86.1", 1, 10, 0., 0., 0. )
+$# Surface 3.1 has zero length.  Ignored.
+$# Surface 4.1 has zero length.  Ignored.
+$# Surface 5.1 has zero length.  Ignored.
+$# Surface 6.1 has zero length.  Ignored.
+$# Surface 7.1 has zero length.  Ignored.
+$# Surface 8.1 has zero length.  Ignored.
+$# Surface 9.1 has zero length.  Ignored.
+$# Surface 15.1 has zero length.  Ignored.
+$# Surface 16.1 has zero length.  Ignored.
+$# Surface 17.1 has zero length.  Ignored.
+$# Surface 18.1 has zero length.  Ignored.
+$# Surface 19.1 has zero length.  Ignored.
+$# Surface 21.1 has zero length.  Ignored.
+$# Surface 22.1 has zero length.  Ignored.
+$# Surface 23.1 has zero length.  Ignored.
+$# Surface 24.1 has zero length.  Ignored.
+$# Surface 26.1 has zero length.  Ignored.
+$# Surface 31.1 has zero length.  Ignored.
+$# Surface 32.1 has zero length.  Ignored.
+$# Surface 38.1 has zero length.  Ignored.
+$# Surface 39.1 has zero length.  Ignored.
+$# Surface 40.1 has zero length.  Ignored.
+$# Surface 41.1 has zero length.  Ignored.
+$# Surface 42.1 has zero length.  Ignored.
+$# Surface 43.1 has zero length.  Ignored.
+$# Surface 45.1 has zero length.  Ignored.
+$# Surface 46.1 has zero length.  Ignored.
+$# Surface 47.1 has zero length.  Ignored.
+$# Surface 48.1 has zero length.  Ignored.
+$# Surface 50.1 has zero length.  Ignored.
+$# Surface 55.1 has zero length.  Ignored.
+$# Surface 56.1 has zero length.  Ignored.
+$# Surface 63.1 has zero length.  Ignored.
+$# Surface 64.1 has zero length.  Ignored.
+$# Surface 65.1 has zero length.  Ignored.
+$# Surface 66.1 has zero length.  Ignored.
+$# Surface 67.1 has zero length.  Ignored.
+$# Surface 68.1 has zero length.  Ignored.
+$# Surface 69.1 has zero length.  Ignored.
+$# Surface 70.1 has zero length.  Ignored.
+$# Surface 71.1 has zero length.  Ignored.
+$# Surface 72.1 has zero length.  Ignored.
+$# Surface 73.1 has zero length.  Ignored.
+$# Surface 79.1 has zero length.  Ignored.
+$# Surface 80.1 has zero length.  Ignored.
+$# Surface 86.1 has zero length.  Ignored.
+ga_view_center_set( -0.178827, -0.033025 )
+ga_view_zoom_set( 0.415851 )
+ga_view_center_set( -0.244232, -0.032575 )
+ga_view_zoom_set( 0.467833 )
+ga_view_center_set( -0.313758, -0.032068 )
+ga_view_zoom_set( 0.526312 )
+ga_view_center_set( -0.387870, -0.032867 )
+ga_view_zoom_set( 0.592101 )
+ga_view_center_set( -0.314214, -0.031840 )
+ga_view_zoom_set( 0.526312 )
+ga_view_center_set( -0.117797, -0.028496 )
+ga_view_zoom_set( 0.350875 )
+ga_view_center_set( -0.081311, -0.024104 )
+ga_view_zoom_set( 0.311888 )
+ga_view_center_set( -0.025312, -0.017726 )
+ga_view_zoom_set( 0.249511 )
+ga_view_aa_set( -6.791325, -0.072532, 0.316069 )
+ga_view_center_set( -0.015414, -0.005666 )
+ga_view_zoom_set( 0.221787 )
+ga_view_center_set( -0.024639, -0.016861 )
+ga_view_zoom_set( 0.249511 )
+ga_view_center_set( -0.035017, -0.029455 )
+ga_view_zoom_set( 0.280700 )
+ga_view_center_set( -0.058368, -0.057793 )
+ga_view_zoom_set( 0.350875 )
+ga_view_center_set( -0.072507, -0.075200 )
+ga_view_zoom_set( 0.394734 )
+ga_view_center_set( -0.088412, -0.094782 )
+ga_view_zoom_set( 0.444076 )
+ga_view_aa_set( 0., 0., 0. )
+mesh_seed_display_mgr.erase(  )
+elementprops_create( "bandeja", 51, 25, 35, 1, 1, 20, [13, 20, 36, 4037, 4111, @
+ 4118, 4119, 8111, 4401, 4402, 4403, 4404, 4405, 4406, 4407, 4408, 4409], [5,  @
+2, 1, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 1, 1, 4, 4], ["m:AL_7075_T6", "<0 0 5e-3>" @
+, "10e-3", "", "", "", "", "", "", "", "", "", "", "", "", "", ""],  @
+"Surface 3:86" )
+$# Property Set "bandeja" created.
+mesh_seed_display_mgr.erase(  )
+INTEGER fem_create_mesh_surfa_num_nodes
+INTEGER fem_create_mesh_surfa_num_elems
+STRING fem_create_mesh_s_nodes_created[VIRTUAL]
+STRING fem_create_mesh_s_elems_created[VIRTUAL]
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 3:86", 1, ["0.0119784"],  @
+"Quad4", "2000", "21000", "Coord 0", "Coord 0",  @
+fem_create_mesh_surfa_num_nodes, fem_create_mesh_surfa_num_elems,  @
+fem_create_mesh_s_nodes_created, fem_create_mesh_s_elems_created )
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 3.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 4.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 5.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 6.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 7.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 8.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 9.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 10.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 11.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 12.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 13.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 14.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 15.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 16.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 17.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 18.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 19.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 20.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 21.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 22.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 23.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 24.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 25.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 26.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 27.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 28.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 29.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 30.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 31.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 32.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 33.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 34.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 35.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 36.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 37.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 38.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 39.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 40.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 41.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 42.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 43.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 44.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 45.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 46.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 47.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 48.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 49.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 50.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 51.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 52.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 53.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 54.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 55.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 56.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 57.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 58.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 59.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 60.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 61.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 62.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 63.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 64.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 65.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 66.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 67.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 68.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 69.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 70.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 71.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 72.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 73.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 74.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 75.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 76.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 77.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 78.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 79.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 80.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 81.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 82.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 83.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 84.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 85.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 86.
+$# === 7644 nodes created.  IDs  = 2000:9643.
+$# === 6300 elements created.  IDs  = 21000:27299.
+fem_associate_elems_to_ep( "bandeja", fem_create_mesh_s_elems_created,  @
+fem_create_mesh_surfa_num_elems )
+$# 6300 Element(s) associated to the Element Property bandeja.
+ga_view_center_set( -0.148251, -0.076408 )
+ga_view_center_set( -0.214054, -0.056818 )
+ga_view_center_set( -0.286378, -0.035511 )
+ga_view_center_set( -0.219168, -0.050243 )
+ga_view_center_set( -0.159426, -0.063339 )
+ga_view_center_set( -0.106321, -0.074980 )
+ga_view_center_set( -0.033668, -0.086524 )
+ga_view_center_set( 0.023715, -0.096006 )
+ga_view_center_set( 0.048781, -0.100220 )
+ga_view_center_set( 0.064057, -0.101436 )
+ga_view_center_set( 0.088030, -0.103382 )
+ga_view_center_set( 0.098616, -0.104316 )
+ga_view_center_set( 0.107841, -0.105146 )
+ga_view_center_set( 0.115987, -0.105884 )
+ga_view_center_set( 0.123227, -0.106540 )
+ga_view_center_set( 0.129663, -0.107124 )
+ga_view_center_set( 0.135384, -0.107642 )
+ga_view_center_set( 0.140469, -0.108103 )
+ga_view_center_set( 0.144989, -0.108512 )
+ga_view_center_set( 0.149007, -0.108876 )
+ga_view_center_set( 0.144989, -0.108512 )
+ga_view_center_set( 0.140469, -0.108103 )
+ga_view_center_set( 0.130299, -0.107181 )
+ga_view_center_set( 0.123942, -0.106605 )
+ga_view_center_set( 0.116791, -0.105957 )
+ga_view_center_set( 0.092657, -0.103771 )
+ga_view_center_set( 0.081595, -0.102768 )
+ga_view_center_set( 0.056706, -0.100513 )
+ga_view_center_set( 0.059490, -0.101395 )
+ga_view_center_set( 0.061800, -0.102261 )
+ga_view_center_set( 0.064967, -0.103647 )
+ga_view_center_set( 0.066316, -0.104087 )
+ga_view_center_set( 0.068475, -0.104791 )
+ga_view_center_set( 0.069434, -0.105104 )
+ga_view_center_set( 0.070287, -0.105382 )
+ga_view_center_set( 0.071652, -0.105827 )
+ga_view_center_set( 0.072258, -0.106024 )
+ga_view_center_set( 0.072797, -0.106200 )
+ga_view_center_set( 0.073276, -0.106356 )
+ga_view_center_set( 0.072318, -0.106044 )
+ga_view_center_set( 0.070521, -0.105458 )
+ga_view_center_set( 0.068874, -0.105064 )
+ga_view_center_set( 0.067845, -0.104818 )
+ga_view_center_set( 0.066687, -0.104541 )
+ga_view_center_set( 0.065384, -0.104229 )
+ga_view_center_set( 0.063918, -0.103879 )
+ga_view_center_set( 0.062269, -0.103485 )
+ga_view_center_set( 0.060414, -0.103041 )
+ga_view_center_set( 0.056240, -0.102043 )
+ga_view_center_set( 0.053631, -0.101419 )
+ga_view_aa_set( 0.000000, 0.000000, 0.000000 )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+ga_view_center_set( 0.002209, -0.114753 )
+ga_view_zoom_set( 0.331312 )
+ga_view_center_set( 0.039978, -0.099633 )
+ga_view_zoom_set( 0.294500 )
+ga_view_center_set( 0.072530, -0.086306 )
+ga_view_zoom_set( 0.261777 )
+ga_view_center_set( 0.053589, -0.100086 )
+ga_view_zoom_set( 0.294500 )
+ga_view_center_set( 0.011226, -0.131093 )
+ga_view_zoom_set( 0.368124 )
+ga_view_center_set( -0.015251, -0.150472 )
+ga_view_zoom_set( 0.414140 )
+ga_view_center_set( -0.030324, -0.173350 )
+ga_view_zoom_set( 0.465908 )
+ga_view_aa_set( -14.000605, 0.997564, 0.069763 )
+ga_view_center_set( -0.025665, -0.098805 )
+curve_label( FALSE )
+point_label( FALSE )
+curve_label( TRUE )
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 1:7 43:174", 16384, 0.010914, "Bar2", "#", "#", @
+ "Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# 11 nodes and 10 elements created for Curve 1.
+$# 11 nodes and 10 elements created for Curve 2.
+$# 11 nodes and 10 elements created for Curve 3.
+$# 11 nodes and 10 elements created for Curve 4.
+$# 11 nodes and 10 elements created for Curve 5.
+$# 11 nodes and 10 elements created for Curve 6.
+$# 11 nodes and 10 elements created for Curve 7.
+$# 11 nodes and 10 elements created for Curve 43.
+$# 11 nodes and 10 elements created for Curve 44.
+$# 11 nodes and 10 elements created for Curve 45.
+$# 11 nodes and 10 elements created for Curve 46.
+$# 11 nodes and 10 elements created for Curve 47.
+$# 11 nodes and 10 elements created for Curve 48.
+$# 11 nodes and 10 elements created for Curve 49.
+$# 11 nodes and 10 elements created for Curve 50.
+$# 11 nodes and 10 elements created for Curve 51.
+$# 11 nodes and 10 elements created for Curve 52.
+$# 11 nodes and 10 elements created for Curve 53.
+$# 11 nodes and 10 elements created for Curve 54.
+$# 11 nodes and 10 elements created for Curve 55.
+$# 11 nodes and 10 elements created for Curve 56.
+$# 11 nodes and 10 elements created for Curve 57.
+$# 11 nodes and 10 elements created for Curve 58.
+$# 11 nodes and 10 elements created for Curve 59.
+$# 11 nodes and 10 elements created for Curve 60.
+$# 11 nodes and 10 elements created for Curve 61.
+$# 11 nodes and 10 elements created for Curve 62.
+$# 11 nodes and 10 elements created for Curve 63.
+$# 11 nodes and 10 elements created for Curve 64.
+$# 11 nodes and 10 elements created for Curve 65.
+$# 11 nodes and 10 elements created for Curve 66.
+$# 11 nodes and 10 elements created for Curve 67.
+$# 11 nodes and 10 elements created for Curve 68.
+$# 11 nodes and 10 elements created for Curve 69.
+$# 11 nodes and 10 elements created for Curve 70.
+$# 11 nodes and 10 elements created for Curve 71.
+$# 11 nodes and 10 elements created for Curve 72.
+$# 11 nodes and 10 elements created for Curve 73.
+$# 11 nodes and 10 elements created for Curve 74.
+$# 11 nodes and 10 elements created for Curve 75.
+$# 11 nodes and 10 elements created for Curve 76.
+$# 11 nodes and 10 elements created for Curve 77.
+$# 11 nodes and 10 elements created for Curve 78.
+$# 11 nodes and 10 elements created for Curve 79.
+$# 11 nodes and 10 elements created for Curve 80.
+$# 11 nodes and 10 elements created for Curve 81.
+$# 11 nodes and 10 elements created for Curve 82.
+$# 11 nodes and 10 elements created for Curve 83.
+$# 11 nodes and 10 elements created for Curve 84.
+$# 11 nodes and 10 elements created for Curve 85.
+$# 11 nodes and 10 elements created for Curve 86.
+$# 11 nodes and 10 elements created for Curve 87.
+$# 11 nodes and 10 elements created for Curve 88.
+$# 11 nodes and 10 elements created for Curve 89.
+$# 11 nodes and 10 elements created for Curve 90.
+$# 11 nodes and 10 elements created for Curve 91.
+$# 11 nodes and 10 elements created for Curve 92.
+$# 11 nodes and 10 elements created for Curve 93.
+$# 11 nodes and 10 elements created for Curve 94.
+$# 11 nodes and 10 elements created for Curve 95.
+$# 11 nodes and 10 elements created for Curve 96.
+$# 11 nodes and 10 elements created for Curve 97.
+$# 11 nodes and 10 elements created for Curve 98.
+$# 11 nodes and 10 elements created for Curve 99.
+$# 11 nodes and 10 elements created for Curve 100.
+$# 11 nodes and 10 elements created for Curve 101.
+$# 11 nodes and 10 elements created for Curve 102.
+$# 11 nodes and 10 elements created for Curve 103.
+$# 11 nodes and 10 elements created for Curve 104.
+$# 11 nodes and 10 elements created for Curve 105.
+$# 11 nodes and 10 elements created for Curve 106.
+$# 11 nodes and 10 elements created for Curve 107.
+$# 11 nodes and 10 elements created for Curve 108.
+$# 11 nodes and 10 elements created for Curve 109.
+$# 11 nodes and 10 elements created for Curve 110.
+$# 11 nodes and 10 elements created for Curve 111.
+$# 11 nodes and 10 elements created for Curve 112.
+$# 11 nodes and 10 elements created for Curve 113.
+$# 11 nodes and 10 elements created for Curve 114.
+$# 11 nodes and 10 elements created for Curve 115.
+$# 11 nodes and 10 elements created for Curve 116.
+$# 11 nodes and 10 elements created for Curve 117.
+$# 11 nodes and 10 elements created for Curve 118.
+$# 11 nodes and 10 elements created for Curve 119.
+$# 11 nodes and 10 elements created for Curve 120.
+$# 11 nodes and 10 elements created for Curve 121.
+$# 11 nodes and 10 elements created for Curve 122.
+$# 11 nodes and 10 elements created for Curve 123.
+$# 11 nodes and 10 elements created for Curve 124.
+$# 11 nodes and 10 elements created for Curve 125.
+$# 11 nodes and 10 elements created for Curve 126.
+$# 11 nodes and 10 elements created for Curve 127.
+$# 11 nodes and 10 elements created for Curve 128.
+$# 11 nodes and 10 elements created for Curve 129.
+$# 11 nodes and 10 elements created for Curve 130.
+$# 11 nodes and 10 elements created for Curve 131.
+$# 11 nodes and 10 elements created for Curve 132.
+$# 11 nodes and 10 elements created for Curve 133.
+$# 11 nodes and 10 elements created for Curve 134.
+$# 11 nodes and 10 elements created for Curve 135.
+$# 11 nodes and 10 elements created for Curve 136.
+$# 11 nodes and 10 elements created for Curve 137.
+$# 11 nodes and 10 elements created for Curve 138.
+$# 11 nodes and 10 elements created for Curve 139.
+$# 11 nodes and 10 elements created for Curve 140.
+$# 11 nodes and 10 elements created for Curve 141.
+$# 11 nodes and 10 elements created for Curve 142.
+$# 11 nodes and 10 elements created for Curve 143.
+$# 11 nodes and 10 elements created for Curve 144.
+$# 11 nodes and 10 elements created for Curve 145.
+$# 11 nodes and 10 elements created for Curve 146.
+$# 11 nodes and 10 elements created for Curve 147.
+$# 11 nodes and 10 elements created for Curve 148.
+$# 11 nodes and 10 elements created for Curve 149.
+$# 11 nodes and 10 elements created for Curve 150.
+$# 11 nodes and 10 elements created for Curve 151.
+$# 11 nodes and 10 elements created for Curve 152.
+$# 11 nodes and 10 elements created for Curve 153.
+$# 11 nodes and 10 elements created for Curve 154.
+$# 11 nodes and 10 elements created for Curve 155.
+$# 11 nodes and 10 elements created for Curve 156.
+$# 11 nodes and 10 elements created for Curve 157.
+$# 11 nodes and 10 elements created for Curve 158.
+$# 11 nodes and 10 elements created for Curve 159.
+$# 11 nodes and 10 elements created for Curve 160.
+$# 11 nodes and 10 elements created for Curve 161.
+$# 11 nodes and 10 elements created for Curve 162.
+$# 11 nodes and 10 elements created for Curve 163.
+$# 11 nodes and 10 elements created for Curve 164.
+$# 11 nodes and 10 elements created for Curve 165.
+$# 11 nodes and 10 elements created for Curve 166.
+$# 11 nodes and 10 elements created for Curve 167.
+$# 11 nodes and 10 elements created for Curve 168.
+$# 11 nodes and 10 elements created for Curve 169.
+$# 11 nodes and 10 elements created for Curve 170.
+$# 11 nodes and 10 elements created for Curve 171.
+$# 11 nodes and 10 elements created for Curve 172.
+$# 11 nodes and 10 elements created for Curve 173.
+$# 11 nodes and 10 elements created for Curve 174.
+$# === 1529 nodes created.  IDs  = 9644:11172.
+$# === 1390 elements created.  IDs  = 27300:28689.
+mesh_seed_display_mgr.erase(  )
+$# UNDO: Finite Element :  Modify / Mesh / Surface :  Surface 3:86
+INTEGER fem_create_mesh_surfa_num_nodes
+INTEGER fem_create_mesh_surfa_num_elems
+STRING fem_create_mesh_s_nodes_created[VIRTUAL]
+STRING fem_create_mesh_s_elems_created[VIRTUAL]
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 3:86", 1, ["0.0119784"],  @
+"Quad4", "2000", "21000", "Coord 0", "Coord 0",  @
+fem_create_mesh_surfa_num_nodes, fem_create_mesh_surfa_num_elems,  @
+fem_create_mesh_s_nodes_created, fem_create_mesh_s_elems_created )
+$# Question from application FEM
+$#     Do you wish to delete the existing mesh on Surface 3?
+$? YESFORALL 2001103 
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 3.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 4.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 5.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 6.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 7.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 8.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 9.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 10.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 11.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 12.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 13.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 14.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 15.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 16.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 17.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 18.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 19.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 20.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 21.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 22.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 23.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 24.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 25.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 26.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 27.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 28.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 29.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 30.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 31.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 32.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 33.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 34.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 35.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 36.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 37.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 38.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 39.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 40.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 41.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 42.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 43.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 44.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 45.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 46.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 47.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 48.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 49.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 50.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 51.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 52.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 53.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 54.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 55.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 56.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 57.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 58.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 59.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 60.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 61.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 62.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 63.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 64.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 65.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 66.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 67.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 68.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 69.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 70.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 71.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 72.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 73.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 74.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 75.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 76.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 77.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 78.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 79.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 80.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 81.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 82.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 83.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 84.
+$# Smoothing took 7 cycle(s).
+$# 91 nodes and 75 elements created for Surface 85.
+$# Smoothing took 8 cycle(s).
+$# 91 nodes and 75 elements created for Surface 86.
+$# === 7644 nodes created.  IDs  = 2000:9643.
+$# === 6300 elements created.  IDs  = 21000:27299.
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 1:7 43:174", 16384, 0.010914, "Bar2", "10000",  @
+"30000", "Coord 0", "Coord 0", fem_create_mesh_curve_num_nodes,  @
+fem_create_mesh_curve_num_elems, fem_create_mesh_c_nodes_created,  @
+fem_create_mesh_c_elems_created )
+$# Question from application FEM
+$#     Do you wish to delete the existing mesh on Curve 1?
+$? YESFORALL 2001103 
+$# 11 nodes and 10 elements created for Curve 1.
+$# 11 nodes and 10 elements created for Curve 2.
+$# 11 nodes and 10 elements created for Curve 3.
+$# 11 nodes and 10 elements created for Curve 4.
+$# 11 nodes and 10 elements created for Curve 5.
+$# 11 nodes and 10 elements created for Curve 6.
+$# 11 nodes and 10 elements created for Curve 7.
+$# 11 nodes and 10 elements created for Curve 43.
+$# 11 nodes and 10 elements created for Curve 44.
+$# 11 nodes and 10 elements created for Curve 45.
+$# 11 nodes and 10 elements created for Curve 46.
+$# 11 nodes and 10 elements created for Curve 47.
+$# 11 nodes and 10 elements created for Curve 48.
+$# 11 nodes and 10 elements created for Curve 49.
+$# 11 nodes and 10 elements created for Curve 50.
+$# 11 nodes and 10 elements created for Curve 51.
+$# 11 nodes and 10 elements created for Curve 52.
+$# 11 nodes and 10 elements created for Curve 53.
+$# 11 nodes and 10 elements created for Curve 54.
+$# 11 nodes and 10 elements created for Curve 55.
+$# 11 nodes and 10 elements created for Curve 56.
+$# 11 nodes and 10 elements created for Curve 57.
+$# 11 nodes and 10 elements created for Curve 58.
+$# 11 nodes and 10 elements created for Curve 59.
+$# 11 nodes and 10 elements created for Curve 60.
+$# 11 nodes and 10 elements created for Curve 61.
+$# 11 nodes and 10 elements created for Curve 62.
+$# 11 nodes and 10 elements created for Curve 63.
+$# 11 nodes and 10 elements created for Curve 64.
+$# 11 nodes and 10 elements created for Curve 65.
+$# 11 nodes and 10 elements created for Curve 66.
+$# 11 nodes and 10 elements created for Curve 67.
+$# 11 nodes and 10 elements created for Curve 68.
+$# 11 nodes and 10 elements created for Curve 69.
+$# 11 nodes and 10 elements created for Curve 70.
+$# 11 nodes and 10 elements created for Curve 71.
+$# 11 nodes and 10 elements created for Curve 72.
+$# 11 nodes and 10 elements created for Curve 73.
+$# 11 nodes and 10 elements created for Curve 74.
+$# 11 nodes and 10 elements created for Curve 75.
+$# 11 nodes and 10 elements created for Curve 76.
+$# 11 nodes and 10 elements created for Curve 77.
+$# 11 nodes and 10 elements created for Curve 78.
+$# 11 nodes and 10 elements created for Curve 79.
+$# 11 nodes and 10 elements created for Curve 80.
+$# 11 nodes and 10 elements created for Curve 81.
+$# 11 nodes and 10 elements created for Curve 82.
+$# 11 nodes and 10 elements created for Curve 83.
+$# 11 nodes and 10 elements created for Curve 84.
+$# 11 nodes and 10 elements created for Curve 85.
+$# 11 nodes and 10 elements created for Curve 86.
+$# 11 nodes and 10 elements created for Curve 87.
+$# 11 nodes and 10 elements created for Curve 88.
+$# 11 nodes and 10 elements created for Curve 89.
+$# 11 nodes and 10 elements created for Curve 90.
+$# 11 nodes and 10 elements created for Curve 91.
+$# 11 nodes and 10 elements created for Curve 92.
+$# 11 nodes and 10 elements created for Curve 93.
+$# 11 nodes and 10 elements created for Curve 94.
+$# 11 nodes and 10 elements created for Curve 95.
+$# 11 nodes and 10 elements created for Curve 96.
+$# 11 nodes and 10 elements created for Curve 97.
+$# 11 nodes and 10 elements created for Curve 98.
+$# 11 nodes and 10 elements created for Curve 99.
+$# 11 nodes and 10 elements created for Curve 100.
+$# 11 nodes and 10 elements created for Curve 101.
+$# 11 nodes and 10 elements created for Curve 102.
+$# 11 nodes and 10 elements created for Curve 103.
+$# 11 nodes and 10 elements created for Curve 104.
+$# 11 nodes and 10 elements created for Curve 105.
+$# 11 nodes and 10 elements created for Curve 106.
+$# 11 nodes and 10 elements created for Curve 107.
+$# 11 nodes and 10 elements created for Curve 108.
+$# 11 nodes and 10 elements created for Curve 109.
+$# 11 nodes and 10 elements created for Curve 110.
+$# 11 nodes and 10 elements created for Curve 111.
+$# 11 nodes and 10 elements created for Curve 112.
+$# 11 nodes and 10 elements created for Curve 113.
+$# 11 nodes and 10 elements created for Curve 114.
+$# 11 nodes and 10 elements created for Curve 115.
+$# 11 nodes and 10 elements created for Curve 116.
+$# 11 nodes and 10 elements created for Curve 117.
+$# 11 nodes and 10 elements created for Curve 118.
+$# 11 nodes and 10 elements created for Curve 119.
+$# 11 nodes and 10 elements created for Curve 120.
+$# 11 nodes and 10 elements created for Curve 121.
+$# 11 nodes and 10 elements created for Curve 122.
+$# 11 nodes and 10 elements created for Curve 123.
+$# 11 nodes and 10 elements created for Curve 124.
+$# 11 nodes and 10 elements created for Curve 125.
+$# 11 nodes and 10 elements created for Curve 126.
+$# 11 nodes and 10 elements created for Curve 127.
+$# 11 nodes and 10 elements created for Curve 128.
+$# 11 nodes and 10 elements created for Curve 129.
+$# 11 nodes and 10 elements created for Curve 130.
+$# 11 nodes and 10 elements created for Curve 131.
+$# 11 nodes and 10 elements created for Curve 132.
+$# 11 nodes and 10 elements created for Curve 133.
+$# 11 nodes and 10 elements created for Curve 134.
+$# 11 nodes and 10 elements created for Curve 135.
+$# 11 nodes and 10 elements created for Curve 136.
+$# 11 nodes and 10 elements created for Curve 137.
+$# 11 nodes and 10 elements created for Curve 138.
+$# 11 nodes and 10 elements created for Curve 139.
+$# 11 nodes and 10 elements created for Curve 140.
+$# 11 nodes and 10 elements created for Curve 141.
+$# 11 nodes and 10 elements created for Curve 142.
+$# 11 nodes and 10 elements created for Curve 143.
+$# 11 nodes and 10 elements created for Curve 144.
+$# 11 nodes and 10 elements created for Curve 145.
+$# 11 nodes and 10 elements created for Curve 146.
+$# 11 nodes and 10 elements created for Curve 147.
+$# 11 nodes and 10 elements created for Curve 148.
+$# 11 nodes and 10 elements created for Curve 149.
+$# 11 nodes and 10 elements created for Curve 150.
+$# 11 nodes and 10 elements created for Curve 151.
+$# 11 nodes and 10 elements created for Curve 152.
+$# 11 nodes and 10 elements created for Curve 153.
+$# 11 nodes and 10 elements created for Curve 154.
+$# 11 nodes and 10 elements created for Curve 155.
+$# 11 nodes and 10 elements created for Curve 156.
+$# 11 nodes and 10 elements created for Curve 157.
+$# 11 nodes and 10 elements created for Curve 158.
+$# 11 nodes and 10 elements created for Curve 159.
+$# 11 nodes and 10 elements created for Curve 160.
+$# 11 nodes and 10 elements created for Curve 161.
+$# 11 nodes and 10 elements created for Curve 162.
+$# 11 nodes and 10 elements created for Curve 163.
+$# 11 nodes and 10 elements created for Curve 164.
+$# 11 nodes and 10 elements created for Curve 165.
+$# 11 nodes and 10 elements created for Curve 166.
+$# 11 nodes and 10 elements created for Curve 167.
+$# 11 nodes and 10 elements created for Curve 168.
+$# 11 nodes and 10 elements created for Curve 169.
+$# 11 nodes and 10 elements created for Curve 170.
+$# 11 nodes and 10 elements created for Curve 171.
+$# 11 nodes and 10 elements created for Curve 172.
+$# 11 nodes and 10 elements created for Curve 173.
+$# 11 nodes and 10 elements created for Curve 174.
+$# === 1529 nodes created.  IDs  = 10000:11528.
+$# === 1390 elements created.  IDs  = 30000:31389.
