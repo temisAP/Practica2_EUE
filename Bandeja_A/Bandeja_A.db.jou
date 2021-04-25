@@ -17554,3 +17554,171 @@ ga_view_aa_set( -121.234009, 5.315483, -78.957245 )
 ga_view_aa_set( -151.522034, -1.057058, -72.722992 )
 res_display_anim_step(  )
 uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 25-Apr-21 13:53:30
+$# Appending to existing journal file 
+$# C:\MUSE\EUE\Practica2_EUE\Bandeja_A\Bandeja_A.db.jou at 25-Apr-21 13:59:20
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\MUSE\EUE\Practica2_EUE\Bandeja_A" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\Bandej" // @
+"a_A.db" )
+msc_dra_add_param( "JOBNAME", "Bandeja_A" )
+msc_dra_add_param( "RESULTS FILE", "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\An" // @
+"alisis_A\ESTATICO\eje_y\model_quasistatic_y.h5" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "OBJECTIVE FUNCTION", "ON" )
+msc_dra_add_param( "DESIGN CONSTRAINTS", "ON" )
+msc_dra_add_param( "DESIGN VARIABLES", "ON" )
+msc_dra_add_param( "COMBINE RESULTCASES", "ON" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "CREATE P-ORDER FIELD", "" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "NASTRAN VERSION", "" )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "Bandeja_A", "Attach HDF5 Results File",  @
+"C:\MUSE\EUE\Practica2_EUE\Bandeja_A\Analisis_A\ESTATICO\eje_y\model_quasi" // @
+"static_y.h5", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\Analisis_A\ESTATICO\eje_y\model_quasis
+$# tatic_y.h5"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:QSTATIC_Y
+$# Processing result sub-case: Static subcase
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.015
+$# *** End:   Attach Result File ***
+res_data_load_dbresult( 0, "Nodal", "Scalar", "SC1:QSTATIC_Y",  @
+"A2:Static subcase", "Stress Tensor", "", "At Z1", "VONM", "Default",  @
+"DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "SC1:QSTATIC_Y",  @
+"A2:Static subcase", "Constraint Forces", "Translational", "(NON-LAYERED)", "" @
+, "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+res_display_tool_animate_scale( "Modal", "Fringe", "", 0. )
+res_display_tool_animate_scale( "Modal", "Deformation", "", 0. )
+res_display_anim_setup_3d( 8, "Linear" )
+res_display_anim_run( 10 )
+res_display_anim_step(  )
+res_display_anim_run( 10 )
+ga_view_center_set( 0.020795, -0.196719 )
+ga_view_zoom_set( 0.283162 )
+ga_view_aa_set( -116.047447, 32.925827, -102.080315 )
+ga_view_aa_set( -120.552177, 23.433243, -82.055458 )
+ga_view_aa_set( 174.204559, -10.321433, -71.464531 )
+ga_view_aa_set( -117.112282, 1.373335, -80.860542 )
+ga_view_aa_set( -93.994942, 1.307822, -85.756828 )
+ga_view_aa_set( -110.970711, 1.665918, -86.690826 )
+ga_view_aa_set( -90.913795, 1.977731, -88.681801 )
+ga_view_aa_set( -98.913795, 1.977732, -88.681801 )
+ga_view_center_set( -0.032744, -0.209559 )
+ga_view_zoom_set( 0.251700 )
+ga_view_center_set( -0.080334, -0.220972 )
+ga_view_zoom_set( 0.223733 )
+ga_view_aa_set( -93.118660, 3.161376, -86.781326 )
+res_display_anim_bounds( 2, 2, 8 )
+res_display_anim_bounds( 4, 3, 8 )
+res_display_anim_bounds( 7, 4, 8 )
+res_display_anim_bounds( 5, 5, 8 )
+res_display_anim_bounds( 5, 4, 8 )
+res_display_anim_bounds( 7, 3, 8 )
+res_display_anim_bounds( 5, 2, 8 )
+res_display_anim_bounds( 2, 1, 8 )
+res_display_anim_step(  )
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\Bandej" // @
+"a_A.db" )
+msc_dra_add_param( "JOBNAME", "Bandeja_A" )
+msc_dra_add_param( "RESULTS FILE", "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\An" // @
+"alisis_A\ESTATICO\eje_z\model_quasistatic_z.h5" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "4.9999999E-06" )
+msc_dra_add_param( "OBJECTIVE FUNCTION", "ON" )
+msc_dra_add_param( "DESIGN CONSTRAINTS", "ON" )
+msc_dra_add_param( "DESIGN VARIABLES", "ON" )
+msc_dra_add_param( "COMBINE RESULTCASES", "ON" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "CREATE P-ORDER FIELD", "" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "NASTRAN VERSION", "" )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "Bandeja_A", "Attach HDF5 Results File",  @
+"C:\MUSE\EUE\Practica2_EUE\Bandeja_A\Analisis_A\ESTATICO\eje_z\model_quasi" // @
+"static_z.h5", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\Analisis_A\ESTATICO\eje_z\model_quasis
+$# tatic_z.h5"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:QSTATIC_Z
+$# Processing result sub-case: Static subcase
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.000
+$# *** End:   Attach Result File ***
+res_data_load_dbresult( 0, "Nodal", "Scalar", "SC1:QSTATIC_Z",  @
+"A3:Static subcase", "Stress Tensor", "", "At Z1", "VONM", "Default",  @
+"DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "SC1:QSTATIC_Z",  @
+"A3:Static subcase", "Constraint Forces", "Translational", "(NON-LAYERED)", "" @
+, "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+res_display_tool_animate_scale( "Modal", "Fringe", "", 0. )
+res_display_tool_animate_scale( "Modal", "Deformation", "", 0. )
+res_display_anim_setup_3d( 8, "Linear" )
+res_display_anim_run( 10 )
+ga_view_aa_set( -95.307106, 2.806341, -82.618973 )
+ga_view_aa_set( -110.521408, 1.246081, -76.830330 )
+ga_view_aa_set( -87.472191, 1.540898, -78.804138 )
+ga_view_aa_set( -107.574768, 0.630032, -73.904839 )
+res_display_anim_step(  )
+ga_view_aa_set( -66.114555, 0.750126, -92.763885 )
+ga_view_aa_set( -41.129124, -6.634617, -100.927605 )
+uil_primary_file.db_save(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 25-Apr-21 14:04:50
