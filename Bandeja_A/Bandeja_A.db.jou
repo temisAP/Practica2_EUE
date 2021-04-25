@@ -15366,3 +15366,266 @@ $# has been loaded for: MSC.Patran.
 uil_primary_file.db_save(  )
 $# Flushing the User Data Manager
 $# Journal file stopped recording at 25-Apr-21 09:30:23
+$# Appending to existing journal file 
+$# C:\Users\María\Documents\MUSE\EUE\Practica2_EUE\Bandeja_A\Bandeja_A.db.jou 
+$# at 25-Apr-21 09:44:20
+$# FLEXlm initialization complete.  Acquiring license(s)...
+$# License File: EDU
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-3VPGNSK(
+$# c01885f775c5) (Windows 6.2 (Build 9200: Service Pack 0)) at 25-Apr-21 
+$# 09:44:20.
+$# Begin Reading RMB Menu definitions
+$# Done Reading RMB Menu definitions
+$# Loading dynamic library C:\Program 
+$# Files\MSC.Software\NaPa_SE\2020\Patran\bin\exe\loads_browser.dll
+$#  shared library 'Loads Browser', Version 2020, Revision 3, Patch 0, has 
+$# been loaded for: MSC.Patran.
+ga_view_aa_set( -24.203297, -7.477777, -2.457610 )
+ga_view_aa_set( -32.119061, -26.737228, 105.672104 )
+ga_view_aa_set( -18.738848, -8.110058, 48.535057 )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 25-Apr-21 10:07:40
+$# Appending to existing journal file 
+$# C:\Users\María\Documents\MUSE\EUE\Practica2_EUE\Bandeja_A\Bandeja_A.db.jou 
+$# at 25-Apr-21 10:40:19
+$# FLEXlm initialization complete.  Acquiring license(s)...
+$# License File: EDU
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-3VPGNSK(
+$# c01885f775c5) (Windows 6.2 (Build 9200: Service Pack 0)) at 25-Apr-21 
+$# 10:40:20.
+$# Begin Reading RMB Menu definitions
+$# Done Reading RMB Menu definitions
+$# Loading dynamic library C:\Program 
+$# Files\MSC.Software\NaPa_SE\2020\Patran\bin\exe\loads_browser.dll
+$#  shared library 'Loads Browser', Version 2020, Revision 3, Patch 0, has 
+$# been loaded for: MSC.Patran.
+ga_view_center_set( 1.505207, -0.141515 )
+ga_view_zoom_set( 0.772779 )
+ga_view_center_set( 1.309461, -0.104109 )
+ga_view_zoom_set( 0.686914 )
+ga_view_center_set( 0.882381, -0.022495 )
+ga_view_zoom_set( 0.499574 )
+ga_view_center_set( 0.755839, 0.001687 )
+ga_view_zoom_set( 0.444066 )
+ga_view_center_set( 0.643357, 0.023182 )
+ga_view_zoom_set( 0.394725 )
+ga_view_center_set( 0.543373, 0.042289 )
+ga_view_zoom_set( 0.350867 )
+ga_view_center_set( 0.639232, 0.034038 )
+ga_view_zoom_set( 0.394725 )
+ga_view_center_set( 0.540333, 0.043592 )
+ga_view_zoom_set( 0.350867 )
+ga_view_center_set( 0.451266, 0.052277 )
+ga_view_zoom_set( 0.311882 )
+ga_view_center_set( 0.303508, 0.066790 )
+ga_view_zoom_set( 0.249505 )
+ga_view_center_set( 0.184807, 0.078401 )
+ga_view_zoom_set( 0.199604 )
+ga_view_center_set( 0.136450, 0.069385 )
+ga_view_zoom_set( 0.224555 )
+ga_view_center_set( 0.082049, 0.059241 )
+ga_view_zoom_set( 0.252624 )
+ga_view_center_set( 0.020847, 0.047829 )
+ga_view_zoom_set( 0.284202 )
+ga_view_center_set( 0.082049, 0.059241 )
+ga_view_zoom_set( 0.252624 )
+ga_view_aa_set( -89.275200, -8.261642, 65.710686 )
+ga_view_aa_set( -90.722229, -2.741049, 48.603683 )
+ga_view_center_set( 0.063081, 0.049514 )
+ga_view_zoom_set( 0.224555 )
+ga_view_center_set( 0.082049, 0.059241 )
+ga_view_zoom_set( 0.252624 )
+ga_view_center_set( 0.103387, 0.070184 )
+ga_view_zoom_set( 0.284202 )
+ga_view_center_set( 0.127393, 0.082495 )
+ga_view_zoom_set( 0.319727 )
+ga_view_aa_set( -103.512146, -11.402317, 70.490433 )
+ga_viewport_size_set( "default_viewport", 10.568935, 4.937458, 1 )
+ga_view_center_set( 0.114706, 0.062810 )
+ga_view_zoom_set( 0.284202 )
+ga_view_center_set( 0.127547, 0.079880 )
+ga_view_zoom_set( 0.319727 )
+ga_view_center_set( 0.170887, 0.135417 )
+ga_view_zoom_set( 0.439625 )
+ga_view_center_set( 0.190751, 0.160396 )
+ga_view_zoom_set( 0.494578 )
+ga_view_center_set( 0.213098, 0.188229 )
+ga_view_zoom_set( 0.556401 )
+ga_view_center_set( 0.238238, 0.219542 )
+ga_view_zoom_set( 0.625951 )
+ga_view_aa_set( -115.684525, -12.747193, 105.475151 )
+ga_view_aa_set( -81.077812, -84.297485, -178.294693 )
+ga_view_center_set( 0.212665, 0.248333 )
+ga_view_zoom_set( 0.704194 )
+ga_view_center_set( 0.183895, 0.280723 )
+ga_view_zoom_set( 0.792219 )
+ga_view_center_set( 0.212665, 0.248333 )
+ga_view_zoom_set( 0.704194 )
+ga_view_center_set( 0.258087, 0.197119 )
+ga_view_zoom_set( 0.563356 )
+ga_view_center_set( 0.278275, 0.174357 )
+ga_view_zoom_set( 0.500760 )
+ga_view_center_set( 0.294051, 0.156533 )
+ga_view_zoom_set( 0.445120 )
+ga_view_center_set( 0.328473, 0.117644 )
+ga_view_zoom_set( 0.323724 )
+ga_view_center_set( 0.338361, 0.106121 )
+ga_view_zoom_set( 0.287755 )
+ga_view_center_set( 0.342306, 0.096709 )
+ga_view_zoom_set( 0.255782 )
+ga_view_center_set( 0.345812, 0.088343 )
+ga_view_zoom_set( 0.227362 )
+ga_view_center_set( 0.348929, 0.080907 )
+ga_view_zoom_set( 0.202099 )
+ga_view_center_set( 0.348880, 0.074783 )
+ga_view_zoom_set( 0.179644 )
+ga_view_center_set( 0.348837, 0.069339 )
+ga_view_zoom_set( 0.159683 )
+ga_view_center_set( 0.348799, 0.064500 )
+ga_view_zoom_set( 0.141941 )
+ga_view_aa_set( -91.282166, -81.722221, 154.533676 )
+$# UNDO: Element Property Create
+ga_view_aa_set( -82.086006, -80.015144, 98.085388 )
+ga_view_center_set( 0.359360, 0.062196 )
+ga_view_zoom_set( 0.159683 )
+ga_view_center_set( 0.371241, 0.059603 )
+ga_view_zoom_set( 0.179644 )
+ga_view_center_set( 0.359360, 0.062196 )
+ga_view_zoom_set( 0.159683 )
+ga_view_center_set( 0.348799, 0.064500 )
+ga_view_zoom_set( 0.141941 )
+ga_view_center_set( 0.339411, 0.066548 )
+ga_view_zoom_set( 0.126170 )
+ga_view_center_set( 0.331067, 0.068369 )
+ga_view_zoom_set( 0.112151 )
+ga_view_center_set( 0.323164, 0.070634 )
+ga_view_zoom_set( 0.099690 )
+ga_view_center_set( 0.316139, 0.072648 )
+ga_view_zoom_set( 0.088613 )
+ga_view_center_set( 0.304823, 0.075871 )
+ga_view_zoom_set( 0.070890 )
+ga_view_center_set( 0.298122, 0.078940 )
+ga_view_zoom_set( 0.063014 )
+ga_view_center_set( 0.292166, 0.081667 )
+ga_view_zoom_set( 0.056012 )
+ga_view_center_set( 0.286872, 0.084119 )
+ga_view_zoom_set( 0.049789 )
+ga_view_aa_set( -91.959106, -82.905884, 65.098602 )
+ga_view_center_set( 0.279748, 0.080144 )
+ga_view_zoom_set( 0.044256 )
+ga_view_center_set( 0.273415, 0.076610 )
+ga_view_zoom_set( 0.039339 )
+ga_view_center_set( 0.267785, 0.073469 )
+ga_view_zoom_set( 0.034968 )
+ga_view_center_set( 0.272147, 0.073601 )
+ga_view_zoom_set( 0.039339 )
+ga_view_center_set( 0.277224, 0.074219 )
+ga_view_zoom_set( 0.044256 )
+ga_view_aa_set( -98.089874, -78.228699, 13.567265 )
+ga_view_center_set( 0.283223, 0.075272 )
+ga_view_zoom_set( 0.049789 )
+ga_view_center_set( 0.289972, 0.076458 )
+ga_view_zoom_set( 0.056012 )
+ga_view_center_set( 0.297564, 0.077792 )
+ga_view_zoom_set( 0.063014 )
+ga_view_center_set( 0.306106, 0.079292 )
+ga_view_zoom_set( 0.070890 )
+ga_view_center_set( 0.315715, 0.080980 )
+ga_view_zoom_set( 0.079752 )
+ga_view_center_set( 0.326526, 0.082879 )
+ga_view_zoom_set( 0.089721 )
+ga_view_center_set( 0.338688, 0.084966 )
+ga_view_zoom_set( 0.100936 )
+ga_view_center_set( 0.379734, 0.092012 )
+ga_view_zoom_set( 0.138786 )
+ga_view_center_set( 0.417359, 0.098471 )
+ga_view_zoom_set( 0.173483 )
+ga_view_center_set( 0.440875, 0.102507 )
+ga_view_zoom_set( 0.195169 )
+ga_view_center_set( 0.429282, 0.108891 )
+ga_view_zoom_set( 0.173483 )
+ga_view_aa_set( -91.947891, -76.031754, -16.728119 )
+ga_view_center_set( 0.449700, 0.108046 )
+ga_view_zoom_set( 0.195169 )
+ga_view_center_set( 0.472670, 0.107096 )
+ga_view_zoom_set( 0.219565 )
+ga_view_center_set( 0.524353, 0.104957 )
+ga_view_zoom_set( 0.274456 )
+ga_view_center_set( 0.556655, 0.103620 )
+ga_view_zoom_set( 0.308763 )
+ga_view_center_set( 0.592995, 0.102117 )
+ga_view_zoom_set( 0.347358 )
+ga_view_center_set( 0.556655, 0.103620 )
+ga_view_zoom_set( 0.308763 )
+ga_view_center_set( 0.444326, 0.109275 )
+ga_view_zoom_set( 0.190008 )
+ga_view_center_set( 0.394862, 0.111967 )
+ga_view_zoom_set( 0.138188 )
+ga_view_center_set( 0.380205, 0.112765 )
+ga_view_zoom_set( 0.122833 )
+ga_view_center_set( 0.356224, 0.114467 )
+ga_view_zoom_set( 0.098267 )
+ga_view_center_set( 0.336868, 0.115743 )
+ga_view_zoom_set( 0.078613 )
+ga_view_center_set( 0.328228, 0.116272 )
+ga_view_zoom_set( 0.069879 )
+ga_view_center_set( 0.320077, 0.116541 )
+ga_view_zoom_set( 0.062114 )
+ga_view_center_set( 0.312802, 0.116750 )
+ga_view_zoom_set( 0.055213 )
+ga_view_center_set( 0.306335, 0.116936 )
+ga_view_zoom_set( 0.049078 )
+ga_view_center_set( 0.295988, 0.117234 )
+ga_view_zoom_set( 0.039262 )
+$# Error reported from application ELEM_PROPS
+$#     The Element Properties must be Entered to continue.
+$? NO 29002021 
+$# Call traceback...
+$#   Function UI_CLEAR_FOCUS
+$#   Function SELECT_FOCUS.EXIT0, Line Number 90
+$#   Function SELECT_FOCUS.EXIT, Line Number 106
+$#   Function NAST_ELEMENTPROPS_INPUTPROP.CHECK_CORRECT_DBOX, Line Number 421
+$#   Function ELEMENTPROPS_INPUTPROP_UTIL.OPTIONMENU_CALLBACK, Line Number 826
+$#   Function NAST_ELEMENTPROPS_INPUTPROP.BUILD_FORM, Line Number 885
+$#   Function NAST_ELEMENTPROPS_INPUTPROP.NASTRAN_BUILD_FORM, Line Number 2206
+$#   Function NAST_ELEMENTPROPS_INPUTPROP.RESET, Line Number 272
+$#   Function NAST_ELEMENTPROPS_INPUTPROP.DISPLAY, Line Number 301
+$#   Function UI_EXEC_FUNCTION
+$#   Function ELEMENTPROPS_MAIN.TRIGGER_INPUTDATA_FORM, Line Number 3606
+$#   Function ELEMENTPROPS_MAIN.INPUT_DATA, Line Number 5906
+elementprops_modify( "tornillo", "tornillo", 89, 25, 20, 37, 2, 20, [4174,  @
+4177, 4175, 4176, 2104, 2105, 4178, 4179, 4186, 4187, 4198, 4199, 4200, 4201,  @
+4202, 4203, 4192, 4193, 4194, 4195, 4196, 4197, 2028, 2029, 4188, 4189, 4190,  @
+4191, 4204, 4205, 4206, 4207, 4208, 4209, 4180, 4210, 4298, 4299, 4300, 4301,  @
+4302, 4181, 4182, 4183, 4184, 4290, 4291, 4292, 4293, 4294, 4295, 4296, 4297], @
+ [2, 1, 9, 2, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 4, 4, 4, 4, 1, 1,  @
+1, 4], ["<0. 1. 0.>", "", "", "", "2.05E+11", "2.05E+11", "2.05E+11", "205.",  @
+"8E+10", "8E+10", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" @
+, "", "", "", "", "", "", "", ""], "Element 171:191:10 301 331 651 681:711:10" )
+$# Property Set "tornillo" modified.
+ga_viewport_size_set( "default_viewport", 10.568935, 4.669764, 1 )
+ga_view_center_set( 0.298707, 0.118147 )
+ga_view_zoom_set( 0.044170 )
+ga_view_center_set( 0.301766, 0.119176 )
+ga_view_zoom_set( 0.049691 )
+ga_view_center_set( 0.305208, 0.120332 )
+ga_view_zoom_set( 0.055903 )
+ga_view_center_set( 0.309079, 0.121633 )
+ga_view_zoom_set( 0.062891 )
+ga_view_center_set( 0.313434, 0.123097 )
+ga_view_zoom_set( 0.070752 )
+ga_view_center_set( 0.318334, 0.124744 )
+ga_view_zoom_set( 0.079596 )
+ga_view_center_set( 0.323526, 0.126597 )
+ga_view_zoom_set( 0.089546 )
+ga_view_center_set( 0.335208, 0.130765 )
+ga_view_zoom_set( 0.111932 )
+ga_view_center_set( 0.342510, 0.133370 )
+ga_view_zoom_set( 0.125923 )
+ga_view_center_set( 0.350724, 0.136301 )
+ga_view_zoom_set( 0.141664 )
+uil_primary_file.db_save(  )
