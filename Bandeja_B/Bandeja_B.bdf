@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on April     25, 2021 at 11:39:07 by
+$ MSC.Nastran input file created on April     25, 2021 at 12:11:22 by
 $ Patran 2020  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -14534,19 +14534,6 @@ CQUAD4*  27298           3               9631            9632
 *        9008            9009            -145.82143
 CQUAD4*  27299           3               9632            9633
 *        7925            9008            -145.59923
-$ Elements and Element Properties for region : tornillo
-PBUSH    4       K       2.05+11 2.05+11 2.05+11 205.    8.+10   8.+10
-$ Pset: "tornillo" will be imported as: "pbush.4"
-CBUSH    171     4       3375    171     0.      1.      0.
-CBUSH    181     4       3284    181     0.      1.      0.
-CBUSH    191     4       3193    191     0.      1.      0.
-CBUSH    301     4       5650    301     0.      1.      0.
-CBUSH    331     4       5377    331     0.      1.      0.
-CBUSH    651     4       4558    651     0.      1.      0.
-CBUSH    681     4       681     4285    0.      1.      0.
-CBUSH    691     4       6742    691     0.      1.      0.
-CBUSH    701     4       6651    701     0.      1.      0.
-CBUSH    711     4       6560    711     0.      1.      0.
 $ Referenced Material Records
 $ Material Record : AL_7075_T6
 $ Description of Material : Date: 15-Apr-21           Time: 12:30:59
@@ -14558,26 +14545,6 @@ RBE2     2       1101    123     4467
 RBE2     3       1101    123     5559
 RBE2     4       1101    123     5468
 $ Nodes of the Entire Model
-GRID*    171                            -.08180001378059-.12860001623631
-*       -.01999999955297
-GRID*    181                            .027300000190735-.12860001623631
-*       -.01999999955297
-GRID*    191                            .136399984359741-.12860001623631
-*       -.01999999955297
-GRID*    301                            -.19090001285076.042799979448318
-*       -.01999999955297
-GRID*    331                            .136399984359741.042799979448318
-*       -.01999999955297
-GRID*    651                            -.13637000322342-.04290002584457
-*       -.01999999955297
-GRID*    681                             .1908999979496 -.04290002584457
-*       -.01999999955297
-GRID*    691                            -.13637000322342.128499984741211
-*       -.01999999955297
-GRID*    701                            -.02728000283241.128499984741211
-*       -.01999999955297
-GRID*    711                            .081809997558594.128499984741211
-*       -.01999999955297
 GRID*    1101                            0.              0.
 *       .079999998211861
 GRID*    2000                           -.19090001285076-.30000001192093
@@ -27484,4 +27451,4 @@ SPC1     1       123     9554    THRU    9564
 SPC1     1       123     9571    9578    9587    9603    9610    9619
          9626    9633
 $ Referenced Coordinate Frames
-ENDDATA 8f7d3d8f
+ENDDATA 536491ef
