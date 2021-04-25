@@ -1,7 +1,3 @@
-$ Direct Text Input for Bulk Data
-MDLPRM   HDF5    0
-PARAM    POST    0
-PARAM   PRTMAXIM YES
 $ Elements and Element Properties for region : masa_equipos
 CONM2    1001    1101    -1      10.     0.      0.      0.
 $ Elements and Element Properties for region : rigidizador_exterior
