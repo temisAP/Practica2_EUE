@@ -1,0 +1,140 @@
+MSC Nastran V2020 (Intel Windows 10 Home 6.2 9200) Control File: 
+----------------------------------------------------------------- 
+Nastran BUFFSIZE=8193 $(c:/program files/msc.software/napa_se/2020/nastran/conf/nast20200.rcf[2])
+JID='c:/muse/eue/practica2_eue/bandeja_a/analisis_a/estatico/eje_y/model_quasistatic_y.dat'
+OUT='./model_quasistatic_y'
+MEM=637MB      $ 
+MACH='Intel'
+OPER='Windows 10 Home'
+OSV='6.2 9200'
+MODEL='Xeon/2550 (DESKTOP-3VPGNSK)'
+NPROC='4'
+CONFIG=6
+NPROC=4
+symbol=DELDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/del' $(program default)
+symbol=DEMODIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/demo' $(program default)
+symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/sssalter' $(program default)
+symbol=TPLDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/tpl' $(program default)
+SDIR='c:/scratch/model_quasistatic_y.T3324_31'
+DBS='./model_quasistatic_y'
+SCR='no'
+SMEM=100
+BPOOL=150
+DMPMEM=0
+NEWDEL='c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/SSS'
+DEL='MSCDEF'
+DML=MSCDEF
+SDL=MSCDEF
+AUTH='EDU'
+AUTHQUE=20
+MSGCAT='c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/analysis.msg'
+MSGDEST='f06'
+NEWS='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/news.txt'
+----------------------------------------------------------------- 
+MSC_ISHELLPATH=c:\muse\eue\practica2_eue\bandeja_a\analisis_a\estatico\eje_y 
+MSC_JIDPATH= 
+PATH=c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\nCode\bin;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\nvidia;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\lib;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8;C:\Program Files\MSC.Software\NaPa_SE\2020\Patran\bin;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.2.254\windows\mpi\intel64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.2.190\windows\mpi\intel64\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017b\runtime\win64;C:\Program Files\MATLAB\R2017b\bin;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\LyX 2.3\Perl\bin;C:\Users\Mar¡a\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Mar¡a\AppData\Local\Programs\Python\Python38\;C:\Users\Mar¡a\AppData\Local\Microsoft\WindowsApps;C:\Users\Mar¡a\AppData\Local\GitHubDesktop\bin 
+SCA_SERVICE_CATALOG=c:\program files\msc.software\napa_se\2020\nastran\msc20200\res\SCAServiceCatalog.xml 
+SCA_RESOURCE_DIR=c:\program files\msc.software\napa_se\2020\nastran\msc20200\res 
+Cmd Line:    C:\Program Files\MSC.Software\NaPa_SE\2020\Nastran\msc20200\win64i8\nastran.exe JID=C:\MUSE\EUE\Practica2_EUE\Bandeja_A\Analisis_A\ESTATICO\eje_y\MODEL_quasistatic_y.dat 
+Current Dir: C:\MUSE\EUE\Practica2_EUE\Bandeja_A\Analisis_A\ESTATICO\eje_y 
+Time Cmd:    c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\msctime 
+Executable:  c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\analysis.exe 
+Arch= Kywd:  [Not specified]  
+MSC_MSG:     stderr  
+FPE:         yes  
+----------------------------------------------------------------- 
+Current resource limits:
+ Physical memory:                     8030 MB
+ Physical memory available:           2320 MB
+ Paging file size:                   11924 MB
+ Paging file size available:          4280 MB
+ Virtual memory:                 134217727 MB
+ Virtual memory available:       134213511 MB
+----------------------------------------------------------------- 
+System configuration:
+ Hostname:         DESKTOP-3VPGNSK
+ Architecture:     win64i8
+ Platform:         Intel Windows 10 Home 6.2 9200 (Windows Compute Cluster)
+ Model:            Xeon/2550
+ Clock freq.:      2550 MHz
+ Number of CPUs:   4
+ Executable:       standard
+ Raw model ID:     6
+ Config number:    6
+ Physical memory:  8030 MB
+ Virtual memory:   11924 MB
+ Numeric format:   64-bit little-endian IEEE.
+ Bytes per word:   8
+ Disk block size:  512 bytes (64 words)
+ Remote shell cmd: "c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
+                   <ccs_cmd> (Windows CCS nodes)
+----------------------------------------------------------------- 
+MSC Nastran started  Sun Apr 25 13:51:32 Hdvr 2021 
+ 13:51:44  Beginning Analysis
+SCA Kernel 24.7.714370 successfully initialized
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\libimalloc.dll" has been loaded.
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_core.dll" has been loaded.
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_intel_thread.dll" has been loaded.
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_rt.dll" has been loaded.
+BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\MSCblas.dll" has been loaded.
+
+ 13:51:44  MSC Authorization Information - Checkout Successful (1016, 0)
+ 13:51:44  -------------------------------------------------------------
+ 13:51:44  Acquired 1 license for Student Edition Nastran
+
+
+Beginning bulk data processing using the IFPStar component.
+For more information on IFPStar, please see KB article KB8019200
+on our support pages, at http://simcompanion.mscsoftware.com.
+
+ 13:51:45  Reading INCLUDE file "../../Bandeja_A_sinc.bdf"
+ 13:51:45  27463 records read from INCLUDE file "../../Bandeja_A_sinc.bdf"
+ 13:51:45  43 records read from JID file "c:/muse/eue/practica2_eue/bandeja_a/analisis_a/estatico/eje_y/model_quasistatic_y.dat"
+ 13:51:45  A total of 27506 records were read from 2 files.
+
+Processing of bulk data entries is complete.
+
+ 13:51:46  Analysis started.
+ 13:51:46  Geometry access/verification to CAD part initiated (if needed).
+ 13:51:46  Geometry access/verification to CAD part successfully completed (if needed).
+ 13:51:46  Finite element model generation started.
+ 13:51:47  Finite element model generated 38664 degrees of freedom.
+ 13:51:47  Finite element model generation successfully completed.
+ 13:51:47  Application of Loads and Boundary Conditions to the finite element model started.
+ 13:51:47  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 13:51:49  Solution of the system equations for linear statics started.
+ 13:51:49  Solution of the system equations for linear statics successfully completed.
+ 13:51:50  Linear static analysis completed.
+ ================================================== 
+ Warning/Fatal Message Summary           Occurrence
+       USER WARNING MESSAGE     6418.1          1 
+ ================================================== 
+ 13:51:50  21 records read from JID file "c:/muse/eue/practica2_eue/bandeja_a/analisis_a/estatico/eje_y/model_quasistatic_y.dat"
+ 13:51:50  NSEXIT: EXIT(0)
+ 13:51:50  Analysis complete  0
+Real:       14.579 seconds ( 0:00:14.579)
+User:        3.359 seconds ( 0:00:03.359)
+Sys:         1.109 seconds ( 0:00:01.109)
+ ==================================================
+ OS:                           6.2
+ OEM ID:                       9
+ Model:                        Intel(R) Core(TM) i5-3210M CPU @ 2.50GHz  
+ Number of processors:         4
+ Page size:                    4096
+ Processor type:               8664
+ Minimum application address:  10000
+ Maximum application address:  fffeffff
+ Active processor mask:        15
+ Nsocket:                      1
+ Ncore:                        2  ( 1 X 2 )
+ HyperThreading:               On
+ Ram:                          8030 Mb
+ ==================================================
+ Time Summary                 CPU       Wall   ( Time in Seconds )
+ Consider using SOLVE=AUTO if you have not.
+ =====================================================
+ Detailed performance information can be found in the 
+ "MSC Nastran High Performance Computing User's Guide"
+ =====================================================
+MSC Nastran finished Sun Apr 25 13:51:51 Hdvr 2021 

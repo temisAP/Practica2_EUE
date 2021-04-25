@@ -359,3 +359,7 @@ ga_view_aa_set( -121.234009, 5.315483, -78.957245 )
 ga_view_aa_set( -151.522034, -1.057058, -72.722992 )
 res_display_anim_step(  )
 uil_primary_file.db_save(  )
+uil_file_close.goquit(  )
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 25-Apr-21 13:53:30
+$# Session file patran.ses.06 stopped recording at 25-Apr-21 13:53:31
