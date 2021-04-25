@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on April     25, 2021 at 11:35:12 by
+$ MSC.Nastran input file created on April     25, 2021 at 11:39:07 by
 $ Patran 2020  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -19,6 +19,7 @@ $ Subcase name : Default
 BEGIN BULK
 $ Direct Text Input for Bulk Data
 MDLPRM   HDF5    0
+PARAM    POST    0
 PARAM   PRTMAXIM YES
 $ Elements and Element Properties for region : masa_equipos
 CONM2    1001    1101    -1      10.     0.      0.      0.
@@ -27483,4 +27484,4 @@ SPC1     1       123     9554    THRU    9564
 SPC1     1       123     9571    9578    9587    9603    9610    9619
          9626    9633
 $ Referenced Coordinate Frames
-ENDDATA a3e7bd85
+ENDDATA 8f7d3d8f
