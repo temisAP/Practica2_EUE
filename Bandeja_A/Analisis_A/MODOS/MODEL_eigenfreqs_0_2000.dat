@@ -1,0 +1,32 @@
+SOL 103
+CEND
+$ Direct Text Input for Global Case Control Data
+TITLE = EIGENFREQUENCIES
+ECHO = NONE
+LINES=50000
+RESVEC = NO
+AUTOSPC(NOPRINT) = YES
+SUBCASE 1
+$ Subcase name : Freqs
+   SUBTITLE=Freqs
+   METHOD = 1
+   SPC = 2
+   VECTOR(PLOT,SORT1,REAL)=ALL
+   WEIGHTCHECK(PRINT,SET=ALL)=YES
+   MEFFMASS(SUMMARY,PARTFAC,MEFFM,FRACSUM)
+BEGIN BULK
+$ Direct Text Input for Bulk Data
+PARAM    POST    0
+PARAM   PRTMAXIM YES
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+EIGRL    1       0.      2000.            0
+$ Loads for Load Case : Freqs
+SPCADD   2       1
+$ Displacement Constraints of Load Set : CBUSH-D
+SPC1     1       123456  171     181     191     301     331     651
+         681     691     701     711
+$------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
+$
+INCLUDE '../Bandeja_A_sinc.bdf'
+$
+ENDDATA 
