@@ -8,8 +8,8 @@ Diseño de bandejas:
 	Dimensiones 600 x 600 mm
 
  	-Bandeja intermedia
-	Masa puntual a 80mm de la superficie unida RBE2 a 4 cruces de rigidizadores -> -> Punto 1111/ Nodo 1011 / Elemento0D 1001 /MCP ID: 1,2,3,4
-	Simplemente apoyada en todo el contorno exterior
+	Masa puntual a 80mm de la superficie unida RBE2 a 4 cruces de rigidizadores 	-> Punto 1111/ Nodo 1011 / Elemento0D 1001 /MCP ID: 1,2,3,4
+	Simplemente apoyada en todo el contorno exterior				-> Curvas 1:7 43:61
 	
 	-Bandeja inferior
 	Masa puntual a 80mm de la superficie, centrada y unida RBE2 a 4 cruces de rigidizadores -> Punto 1111/ Nodo 1101 / Elemento0D 1001 /MCP ID: 1(4376), 2(4467), 3(5559), 4(5468)
