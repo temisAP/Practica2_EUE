@@ -1,0 +1,664 @@
+1
+ 
+ 
+ 
+ 
+                      Warning: This computer program is protected by copyright law and international treaties.       
+                  Unauthorized use, reproduction or distribution of this computer program, or any portion of it, may 
+                                          result in severe civil and criminal penalties.                             
+                         Copyright (C) 2020 MSC Software Corporation and its licensors. All rights reserved.         
+ 
+ 
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * *                                 * *
+                                              * *           MSC Software          * *
+                                              * *               CORP              * *
+                                              * *                                 * *
+                                              * *      M S C   N a s t r a n      * *
+                                              * *                                 * *
+                                              * *  S T U D E N T   E D I T I O N  * *
+                                              * *                                 * *
+                                              * *     Version 2020SP1-CL749017    * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *          AUG  4, 2020           * *
+                                              * *                                 * *
+                                              * *              Intel              * *
+                                              * *     MODEL Xeon/2773 (temis)     * *
+                                              * *     Windows 10 Pro 6.2 9200     * *
+                                              * * Compiled for 8664 (SINGLE Mode) * *
+                                              * *                                 * *
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * * * * * * * * * * * * * * * * * * * *
+
+ 
+ 
+                                                 This Student Edition version is  
+                                                    valid until APR 30, 2022.     
+ 
+ 
+                  This program is being distributed as part of the MSC Software Student Edition. Use of this program 
+                     or its results at a commercial installation, for commercial purposes, or for production work    
+                                             I S   S T R I C T L Y  P R O H I B I T E D.                             
+                  ==================================== FOR EDUCATIONAL USE ONLY =====================================
+ 
+ 
+1News file - July 31, 2020)
+  
+               Welcome to MSC Nastran 2020 Service Pack 1 (2020 SP1)
+  
+  
+   MSC Nastran brings powerful new features and enhancements for engineering
+   solutions.
+  
+     MSC Nastran 2020 SP1 corrects four defects, evident in version 2020,
+     that concern the import of Nastran Embedded Fatigue and acoustic pressure
+     results into Patran, corrects a licensing defect concerning the
+     TABLRPC entry, and shell elements SFRP failure indicator output in
+     the Digimat-to-SOL 400 MATDIGI interface.
+  
+     MSC Nastran 2020 SP1 Features and Enhancements
+  
+     Dynamics
+     - Data recovery of Poroelastic material (PEM) trim parts interior grids.
+     - New PLTSURF entry introduced for easier PEM parts coupling surface
+       defintions.
+     - Restart support for models with invariant PEM components.
+     - Temperature dependency added for frequency dependent materials.
+     - SOL 108 (direct frequency response) support added for models with PEM
+       parts.
+  
+     Rotordynamics
+     - New 2D Bush (CBUSH2DA) and Squeeze File Damper (NLRSFDA) user-defined
+       subroutines enabled to include inertia & acceleration terms respectively.
+     - Integration of user-defined squeeze file damper libraries.
+     - Cross-coupling inertia terms specification for 2D Bush (CBUSH2D) element.
+     - Frequency dependent 2D Bush (PBSH2DT) property with tabular input.
+  
+     Composites
+     - Layered Solid and Solid-Shell elements available in linear solutions.
+  
+     Fatigue
+     - Control of the number of angles to be analyzed when using critical plane
+       analysis.
+     - New stress/strain output requests via FATIGUE case control.
+     - More control over the amound of results data returned at critical
+       locations.
+     - Significant performance improvement of SOL 112 duty cycle jobs.
+     - Direct access to dynamic load data in multi-channel time histroy files via
+       new TABLRPC entry.
+  
+     Topology Optimization
+     - Anisotropic materials support added.
+     - Over-hang constraints for additive manufacturing.
+     - New DRESP2 response types: Magnigtude of Displacement and
+       maximization of stiffness and frequency.
+1 
+     Nonlinear
+     - Nonlinear Buckling available in SOL 400
+     - Allow represtentation of imperfect structural geometry through
+       use modification of grid coordinates based on displacements or
+       modes from a previous run.
+     - MATVE limitation of five scale factor/time constraint data pairs
+       removed.
+  
+     HPC
+     - CASI (Iterative) Solver support available for inertia relief analysis.
+     - Faster Global Transformation Matrix for ACMS to speed up Nastran
+       interface to MSC Adams and AVL EXCITE.
+     - Improved GPU acceleration for FASTFR (Fast Frequency Response) and
+       MPYAD for large models.
+  
+     Nastran HDF5
+     - Support NLLOAD outputs in HDF5
+     - Add KHH/MHH/BHH matrix output control
+     - Support nonlinear buckling and imperfection outputs
+     - Support layered solid and solid shell composite elements
+  
+  
+     Documentation
+     The complete documentation set is provided in a separate installer and
+     when installed is available at: MSC_DOC_DIR/doc/pdf_nastran directory.
+     Where MSC_DOC_DIR is the directory where documentation was installed
+     This help set has cross references between documents, links to how-to
+     videos, and example files.
+  
+     Individual MSC Nastran documents are available for download from the
+       Simcompanion Website at:
+       http://simcompanion.mscsoftware.com/
+  
+     These documents were updated for the MSC Nastran 2020 SP1 Release
+  
+         1.  Installation and Operations Guide
+         2.  Quick Reference Guide
+         3.  Release Guide
+         4.  Linear Statics Analysis User's Guide
+         5.  Dynamic Analysis User's Guide
+         6.  Superelements User's Guide
+         7.  Rotordynamics User's Guide
+         8.  Demonstration Problems Manual
+         9.  Nastran Embedded Fatigue User's Guide
+        10.  Design Sensitivity and Optimization
+        11.   Nonlinear User's Guide SOL 400
+        12.  DMAP Programmer's Guide
+        13.  High Performance Computing User's Guide
+        14.  DEMATD Guide
+1       15.  Explicit Nonlinear (SOL 700) User's Guide
+  
+   Please refer to  MSC_DOC_DIR/doc/pdf_nastran/nastran_library.pdf
+   for the complete document set:
+  
+  
+   Feature Deprecation List
+   To streamline the MSC Nastran program and simplify ongoing maintenance
+   activiy, some obsolete capabilities have been identified and tagged for
+   removal from a future release of the program in late 2020. Please review
+   the list of features marked for deprecation below to ensure that there
+   will be no disruption to your use of MSC Nastran. If you see a feature
+   that you currently use and do not wish to lose, contact MSC Technical
+   Support to report it.
+  
+     Features tagged for removal:
+     - P-elements
+     - SOL 600 nonlinear solution sequence
+     - Unstructured one- and two-digit solution sequences (e.g. SOL 3, SOL 24)
+     - SOL 190 (DBTRANS)
+     - TAUCS solver
+     - MSGMESH
+     - Obsolete DMAP modules
+     - SSSALTERS
+  
+     Refer to the MSC Nastran 2020 Release Guide for more details.
+  
+  
+   Additional information about the release can be found at the MSC Nastran
+   Product Support page: http://simcompanion.mscsoftware.com
+  
+   The support page provides links to these valuable information:
+      * A searchable Knowledge Base containing examples and answers to thousands
+        of frequently asked questions written by MSC Software subject-matter
+        experts.
+      * Peer-to-peer Discussion Forums enabling you to post questions for your
+        MSC Software products and receive answers from other users worldwide.
+      * A list of known issues with the product and any workarounds.
+      * Instructions on how to contact technical support
+      * A mechanism for sending us product feedback or enhancement requests.
+      * Hardware and software requirements.
+      * Examples and Tutorials
+      * and much more.
+  
+   For information on training, please visit our Training web site
+  
+      http://www.mscsoftware.com/Contents/Services/Training/
+  
+1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     1
+                                                                                                                                    
+0        N A S T R A N    F I L E    A N D    S Y S T E M    P A R A M E T E R    E C H O                                           
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     NASTRAN BUFFSIZE=8193 $(D:/ARCHIVOS DE PROGRAMA/MSC.SOFTWARE/NAPA_SE/2020/NASTRA
+1                                                       **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     2
+                                                                                                                                    
+0        N A S T R A N    E X E C U T I V E    C O N T R O L    E C H O                                                             
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     SOL 103                                                                                 
+     CEND                                                                                    
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     3
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L    E C H O                                                        
+                 COMMAND                                                                                                            
+                 COUNT                                                                                                              
+                  1      $ DIRECT TEXT INPUT FOR GLOBAL CASE CONTROL DATA                                        
+                  2      TITLE = EIGENFREQUENCIES                                                                
+                  3      ECHO = NONE                                                                             
+                  4      LINES=50000                                                                             
+                  5      RESVEC = NO                                                                             
+                  6      AUTOSPC(NOPRINT) = YES                                                                  
+                  7      SUBCASE 1                                                                               
+                  8      $ SUBCASE NAME : FREQS                                                                  
+                  9         SUBTITLE=FREQS                                                                       
+                 10         METHOD = 1                                                                           
+                 11         SPC = 2                                                                              
+                 12         WEIGHTCHECK(PRINT, SET=ALL) = YES                                                    
+                 13         VECTOR(PLOT,SORT1,REAL)=ALL                                                          
+                 14         MEFFMASS(SUMMARY,PARTFAC,MEFFM,FRACSUM)                                              
+                 15      BEGIN BULK                                                                              
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     4
+                                                                                                                                    
+0                                                                                                                                   
+                                              I N P U T   B U L K   D A T A   E C H O                                               
+                 ENTRY                                                                                                              
+                 COUNT        .   1  ..   2  ..   3  ..   4  ..   5  ..   6  ..   7  ..   8  ..   9  ..  10  .                      
+                              $INCLUDE "../Bandeja_B_sinc.bdf"
+                              $END OF INCLUDE "../Bandeja_B_sinc.bdf"
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     5
+                                                                                                                                    
+0                                                                                                                                   
+                                        M O D E L   S U M M A R Y          BULK = 0
+                                   ENTRY NAME        NUMBER OF ENTRIES
+                                   ----------        -----------------
+                                         CBAR                     1390
+                                        CONM2                        1
+                                       CQUAD4                     6300
+                                        EIGRL                        1
+                                         GRID                     6433
+                                         MAT1                        1
+                                       MDLPRM                        1
+                                        PARAM                        2
+                                        PBARL                        2
+                                       PSHELL                        1
+                                         RBE2                        4
+                                         SPC1                        1
+                                       SPCADD                        1
+
+ ^^^     
+ ^^^ >>> IFP OPERATIONS COMPLETE <<< 
+ ^^^     
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK PVT, TRAILER[101, 9, 0, 0, 0, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK CASECC, TRAILER[102, 1, 0, 1000, 0, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK GEOM1Q, TRAILER[101, 0, 0, 8, 0, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK EPT, TRAILER[101, 0, 4608, 0, 0, 0, 32])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK MPT, TRAILER[102, 32768, 0, 0, 0, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK GEOM2, TRAILER[103, 2, 256, 0, 8192, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK GEOM4S, TRAILER[105, 0, 0, 0, 96, 2048, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (DATA BLOCK GEOM4S IS NOT SUPPORTED)
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK GEOM1, TRAILER[101, 0, 0, 8, 0, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK DYNAMIC, TRAILER[102, 256, 0, 0, 0, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK EDT, TRAILER[103, 0, 0, 0, 0, 0, 4])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK GEOM4, TRAILER[102, 0, 0, 0, 96, 2048, 0])
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     6
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+                                           O U T P U T   F R O M   W E I G H T   C H E C K
+0                                                     DEGREES OF FREEDOM SET = G       
+0                                                     REFERENCE POINT =        0
+                                                                M O
+                      *  1.694661E+01  1.726584E-18  0.000000E+00  0.000000E+00 -4.699529E-02  1.129434E-02 *
+                      *  1.726584E-18  1.694661E+01  0.000000E+00  4.699529E-02  0.000000E+00 -8.830468E-03 *
+                      *  0.000000E+00  0.000000E+00  1.694661E+01 -1.129434E-02  8.830468E-03  0.000000E+00 *
+                      *  0.000000E+00  4.699529E-02 -1.129434E-02  2.402070E-01  2.677392E-03 -7.049628E-05 *
+                      * -4.699529E-02  0.000000E+00  8.830468E-03  2.677392E-03  2.483925E-01 -8.946548E-05 *
+                      *  1.129434E-02 -8.830468E-03  0.000000E+00 -7.049628E-05 -8.946548E-05  4.874549E-01 *
+                                                                 S
+                                           *  1.000000E+00  0.000000E+00  0.000000E+00 *
+                                           *  0.000000E+00  1.000000E+00  0.000000E+00 *
+                                           *  0.000000E+00  0.000000E+00  1.000000E+00 *
+                               DIRECTION
+                          MASS AXIS SYSTEM (S)     MASS              X-C.G.        Y-C.G.        Z-C.G.
+                                  X            1.694661E+01      0.000000E+00 -6.664662E-04 -2.773138E-03
+                                  Y            1.694661E+01     -5.210758E-04  0.000000E+00 -2.773138E-03
+                                  Z            1.694661E+01     -5.210758E-04 -6.664662E-04  0.000000E+00
+                                                                I(S)
+                                           *  2.400692E-01 -2.683277E-03  4.600818E-05 *
+                                           * -2.683277E-03  2.482576E-01  5.814471E-05 *
+                                           *  4.600818E-05  5.814471E-05  4.874428E-01 *
+                                                                I(Q)
+                                           *  2.392682E-01                             *
+                                           *                4.874428E-01               *
+                                           *                              2.490585E-01 *
+                                                                 Q
+                                           *  9.582221E-01  1.886464E-04  2.860251E-01 *
+                                           * -2.860252E-01  2.452112E-04  9.582221E-01 *
+                                           *  1.106286E-04 -1.000000E+00  2.889244E-04 *
+
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     7
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     8
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+                                           O U T P U T   F R O M   W E I G H T   C H E C K
+0                                                     DEGREES OF FREEDOM SET = N       
+0                                                     REFERENCE POINT =        0
+                                                                M O
+                      *  1.694661E+01  1.726584E-18  0.000000E+00  0.000000E+00 -4.699529E-02  1.129434E-02 *
+                      *  1.726584E-18  1.694661E+01  0.000000E+00  4.699529E-02  0.000000E+00 -8.830468E-03 *
+                      *  0.000000E+00  0.000000E+00  1.694661E+01 -1.129434E-02  8.830468E-03  0.000000E+00 *
+                      *  0.000000E+00  4.699529E-02 -1.129434E-02  2.402070E-01  2.677392E-03 -7.049628E-05 *
+                      * -4.699529E-02  0.000000E+00  8.830468E-03  2.677392E-03  2.483925E-01 -8.946548E-05 *
+                      *  1.129434E-02 -8.830468E-03  0.000000E+00 -7.049628E-05 -8.946548E-05  4.874549E-01 *
+
+0                                    CHANGE WITH RESPECT TO G-SET RIGID BODY MASS/WEIGHT
+                      *       0 %                                                                           *
+                      *                     0 %                                                             *
+                      *                                   0 %                                               *
+                      *                                                 0 %                                 *
+                      *                                                               0 %                   *
+                      *                                                                             0 %     *
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE     9
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    10
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+                                           O U T P U T   F R O M   W E I G H T   C H E C K
+0                                                     DEGREES OF FREEDOM SET = N+AUTO  
+0                                                     REFERENCE POINT =        0
+                                                                M O
+                      *  1.694661E+01  1.726584E-18  0.000000E+00  0.000000E+00 -4.699529E-02  1.129434E-02 *
+                      *  1.726584E-18  1.694661E+01  0.000000E+00  4.699529E-02  0.000000E+00 -8.830468E-03 *
+                      *  0.000000E+00  0.000000E+00  1.694661E+01 -1.129434E-02  8.830468E-03  0.000000E+00 *
+                      *  0.000000E+00  4.699529E-02 -1.129434E-02  2.402070E-01  2.677392E-03 -7.049628E-05 *
+                      * -4.699529E-02  0.000000E+00  8.830468E-03  2.677392E-03  2.483925E-01 -8.946548E-05 *
+                      *  1.129434E-02 -8.830468E-03  0.000000E+00 -7.049628E-05 -8.946548E-05  4.874549E-01 *
+
+0                                    CHANGE WITH RESPECT TO G-SET RIGID BODY MASS/WEIGHT
+                      *       0 %                                                                           *
+                      *                     0 %                                                             *
+                      *                                   0 %                                               *
+                      *                                                 0 %                                 *
+                      *                                                               0 %                   *
+                      *                                                                             0 %     *
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    11
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    12
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+                                           O U T P U T   F R O M   W E I G H T   C H E C K
+0                                                     DEGREES OF FREEDOM SET = F       
+0                                                     REFERENCE POINT =        0
+                                                                M O
+                      *  1.552044E+01  1.087683E-18  0.000000E+00  0.000000E+00 -3.314212E-02  2.073825E-04 *
+                      *  1.087683E-18  1.552044E+01  0.000000E+00  3.314212E-02  0.000000E+00  3.875612E-05 *
+                      *  0.000000E+00  0.000000E+00  1.552044E+01 -2.073825E-04 -3.875612E-05  0.000000E+00 *
+                      *  0.000000E+00  3.314212E-02 -2.073825E-04  1.555745E-01 -2.337318E-04  5.095476E-07 *
+                      * -3.314212E-02  0.000000E+00 -3.875612E-05 -2.337318E-04  1.632586E-01 -1.657340E-06 *
+                      *  2.073825E-04  3.875612E-05  0.000000E+00  5.095476E-07 -1.657340E-06  3.176885E-01 *
+
+0                                    CHANGE WITH RESPECT TO G-SET RIGID BODY MASS/WEIGHT
+                      *      -8 %                                                                           *
+                      *                    -8 %                                                             *
+                      *                                  -8 %                                               *
+                      *                                               -35 %                                 *
+                      *                                                             -34 %                   *
+                      *                                                                           -35 %     *
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    13
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    14
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+                                           O U T P U T   F R O M   W E I G H T   C H E C K
+0                                                     DEGREES OF FREEDOM SET = A       
+0                                                     REFERENCE POINT =        0
+                                                                M O
+                      *  1.552044E+01  1.087683E-18  0.000000E+00  0.000000E+00 -3.314212E-02  2.073825E-04 *
+                      *  1.087683E-18  1.552044E+01  0.000000E+00  3.314212E-02  0.000000E+00  3.875612E-05 *
+                      *  0.000000E+00  0.000000E+00  1.552044E+01 -2.073825E-04 -3.875612E-05  0.000000E+00 *
+                      *  0.000000E+00  3.314212E-02 -2.073825E-04  1.555745E-01 -2.337318E-04  5.095476E-07 *
+                      * -3.314212E-02  0.000000E+00 -3.875612E-05 -2.337318E-04  1.632586E-01 -1.657340E-06 *
+                      *  2.073825E-04  3.875612E-05  0.000000E+00  5.095476E-07 -1.657340E-06  3.176885E-01 *
+
+0                                    CHANGE WITH RESPECT TO G-SET RIGID BODY MASS/WEIGHT
+                      *      -8 %                                                                           *
+                      *                    -8 %                                                             *
+                      *                                  -8 %                                               *
+                      *                                               -35 %                                 *
+                      *                                                             -34 %                   *
+                      *                                                                           -35 %     *
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    15
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+ *** USER INFORMATION MESSAGE 5010 (LNCILS)
+     STURM SEQUENCE DATA FOR EIGENVALUE EXTRACTION.
+     TRIAL EIGENVALUE = 1.579137D+08, CYCLES = 2.000000D+03 THE STURM COUNT = 12
+ *** USER INFORMATION MESSAGE 5010 (LNCILS)
+     STURM SEQUENCE DATA FOR EIGENVALUE EXTRACTION.
+     TRIAL EIGENVALUE = -6.398475D+04, CYCLES = 4.025857D+01 THE STURM COUNT = 0
+
+ TABLE OF SHIFTS:  (LNNRIGL)
+ SHIFT #        SHIFT VALUE         FREQUENCY, CYCLES     # EIGENVALUES BELOW    # NEW EIGENVALUES FOUND
+     1.        1.5791367E+08          2.0000000E+03                12                        0
+     2.       -6.3984754E+04         -4.0258574E+01                 0                       12
+
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    16
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+0
+
+
+                          E I G E N V A L U E  A N A L Y S I S   S U M M A R Y   (READ MODULE) 
+
+
+
+                                     BLOCK SIZE USED ......................     7
+
+                                     NUMBER OF DECOMPOSITIONS .............     2
+
+                                     NUMBER OF ROOTS FOUND ................    12
+
+                                     NUMBER OF SOLVES REQUIRED ............    11
+
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    17
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+ 
+                                              R E A L   E I G E N V A L U E S
+   MODE    EXTRACTION      EIGENVALUE            RADIANS             CYCLES            GENERALIZED         GENERALIZED
+    NO.       ORDER                                                                       MASS              STIFFNESS
+        1         1        4.765622E+05        6.903349E+02        1.098702E+02        1.000000E+00        4.765622E+05
+        2         2        1.620198E+07        4.025168E+03        6.406254E+02        1.000000E+00        1.620198E+07
+        3         3        1.789609E+07        4.230377E+03        6.732854E+02        1.000000E+00        1.789609E+07
+        4         4        3.187433E+07        5.645736E+03        8.985467E+02        1.000000E+00        3.187433E+07
+        5         5        4.777417E+07        6.911886E+03        1.100061E+03        1.000000E+00        4.777417E+07
+        6         6        5.502215E+07        7.417691E+03        1.180562E+03        1.000000E+00        5.502215E+07
+        7         7        5.826465E+07        7.633128E+03        1.214850E+03        1.000000E+00        5.826465E+07
+        8         8        6.976787E+07        8.352716E+03        1.329376E+03        1.000000E+00        6.976787E+07
+        9         9        9.426974E+07        9.709261E+03        1.545277E+03        1.000000E+00        9.426974E+07
+       10        10        1.018289E+08        1.009103E+04        1.606037E+03        1.000000E+00        1.018289E+08
+       11        11        1.375754E+08        1.172925E+04        1.866769E+03        1.000000E+00        1.375754E+08
+       12        12        1.501834E+08        1.225494E+04        1.950434E+03        1.000000E+00        1.501834E+08
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    18
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+
+                                       M O D A L   E F F E C T I V E   M A S S   S U M M A R Y
+
+
+
+                                                    TOTAL EFFECTIVE MASS FRACTION
+                                         REFERENCE POINT AT ORIGIN OF BASIC COORDINATE SYSTEM
+
+
+                        T1                T2                T3                R1                R2                R3
+                   7.703456E-01      7.754446E-01      9.385033E-01      6.951978E-01      5.578425E-01      2.601979E-05
+
+
+
+
+                                                        EFFECTIVE MASS MATRIX   
+                       ***                                                                                  ***
+                       *   1.195610E+01  4.913035E-02 -4.073232E-04 -2.210053E-03  2.330019E-02 -6.738559E-06 *
+                       *   4.913035E-02  1.203524E+01 -1.876228E-04 -1.854733E-02  3.310210E-03 -8.940816E-06 *
+                       *  -4.073232E-04 -1.876228E-04  1.456598E+01  1.710395E-04 -9.746652E-04  2.955722E-05 *
+                       *  -2.210053E-03 -1.854733E-02  1.710395E-04  1.081550E-01 -8.443763E-04  5.406620E-06 *
+                       *   2.330019E-02  3.310210E-03 -9.746652E-04 -8.443763E-04  9.107261E-02 -3.572016E-06 *
+                       *  -6.738559E-06 -8.940816E-06  2.955722E-05  5.406620E-06 -3.572016E-06  8.266186E-06 *
+                       ***                                                                                  ***
+
+                                                     A-SET RIGID BODY MASS MATRIX
+                       ***                                                                                  ***
+                       *   1.552044E+01  1.087683E-18  0.000000E+00  0.000000E+00 -3.314212E-02  2.073825E-04 *
+                       *   1.087683E-18  1.552044E+01  0.000000E+00  3.314212E-02  0.000000E+00  3.875612E-05 *
+                       *   0.000000E+00  0.000000E+00  1.552044E+01 -2.073825E-04 -3.875612E-05  0.000000E+00 *
+                       *   0.000000E+00  3.314212E-02 -2.073825E-04  1.555745E-01 -2.337318E-04  5.095476E-07 *
+                       *  -3.314212E-02  0.000000E+00 -3.875612E-05 -2.337318E-04  1.632586E-01 -1.657340E-06 *
+                       *   2.073825E-04  3.875612E-05  0.000000E+00  5.095476E-07 -1.657340E-06  3.176885E-01 *
+                       ***                                                                                  ***
+
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    19
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+
+                                                    MODAL EFFECTIVE MASS FRACTION
+                                                (FOR TRANSLATIONAL DEGREES OF FREEDOM)
+
+    MODE    FREQUENCY                      T1                                  T2                                  T3
+     NO.                        FRACTION            SUM             FRACTION            SUM             FRACTION            SUM
+
+       1    1.098702E+02      1.510351E-09      1.510351E-09      2.759950E-09      2.759950E-09      8.507761E-01      8.507761E-01
+       2    6.406254E+02      3.029615E-05      3.029766E-05      2.314531E-02      2.314531E-02      8.837567E-08      8.507762E-01
+       3    6.732854E+02      3.226601E-02      3.229631E-02      2.020588E-05      2.316552E-02      2.903531E-07      8.507765E-01
+       4    8.985467E+02      3.181950E-07      3.229663E-02      3.942504E-08      2.316556E-02      7.017401E-02      9.209505E-01
+       5    1.100061E+03      2.223288E-07      3.229685E-02      2.765564E-08      2.316558E-02      2.286229E-03      9.232367E-01
+       6    1.180562E+03      3.571313E-01      3.894281E-01      3.842947E-01      4.074603E-01      1.041838E-09      9.232367E-01
+       7    1.214850E+03      3.758034E-01      7.652316E-01      3.654402E-01      7.729005E-01      5.176726E-10      9.232367E-01
+       8    1.329376E+03      6.454683E-09      7.652316E-01      5.096660E-09      7.729005E-01      5.530806E-03      9.287675E-01
+       9    1.545277E+03      4.589251E-03      7.698208E-01      1.342985E-03      7.742435E-01      3.751723E-08      9.287676E-01
+      10    1.606037E+03      5.145998E-04      7.703354E-01      3.762514E-04      7.746198E-01      4.395211E-08      9.287676E-01
+      11    1.866769E+03      1.007433E-05      7.703455E-01      8.245728E-04      7.754444E-01      3.906070E-07      9.287680E-01
+      12    1.950434E+03      8.208839E-08      7.703456E-01      2.785357E-07      7.754446E-01      9.735316E-03      9.385033E-01
+
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    20
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+
+                                                    MODAL EFFECTIVE MASS FRACTION
+                                                 (FOR ROTATIONAL DEGREES OF FREEDOM)
+
+    MODE    FREQUENCY                      R1                                  R2                                  R3
+     NO.                        FRACTION            SUM             FRACTION            SUM             FRACTION            SUM
+
+       1    1.098702E+02      3.251376E-08      3.251376E-08      4.354271E-08      4.354271E-08      7.227805E-10      7.227805E-10
+       2    6.406254E+02      5.065817E-01      5.065817E-01      3.576328E-04      3.576764E-04      2.825114E-10      1.005292E-09
+       3    6.732854E+02      3.193680E-04      5.069011E-01      4.860678E-01      4.864254E-01      1.374013E-10      1.142693E-09
+       4    8.985467E+02      9.101500E-07      5.069020E-01      1.359944E-06      4.864268E-01      1.640393E-06      1.641536E-06
+       5    1.100061E+03      3.562369E-09      5.069020E-01      4.064256E-09      4.864268E-01      2.070975E-05      2.235129E-05
+       6    1.180562E+03      7.521844E-03      5.144239E-01      9.547922E-03      4.959747E-01      1.836512E-13      2.235129E-05
+       7    1.214850E+03      8.978681E-03      5.234025E-01      1.209279E-02      5.080675E-01      9.940328E-13      2.235129E-05
+       8    1.329376E+03      4.837272E-11      5.234025E-01      1.676023E-08      5.080675E-01      3.376929E-06      2.572822E-05
+       9    1.545277E+03      5.039877E-05      5.234529E-01      4.975688E-02      5.578244E-01      8.574039E-10      2.572908E-05
+      10    1.606037E+03      5.700188E-02      5.804548E-01      3.047748E-07      5.578247E-01      1.229400E-09      2.573031E-05
+      11    1.866769E+03      1.147354E-01      6.951902E-01      7.188263E-06      5.578319E-01      4.320604E-10      2.573074E-05
+      12    1.950434E+03      7.634497E-06      6.951978E-01      1.058573E-05      5.578425E-01      2.890471E-07      2.601979E-05
+
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    21
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+
+                                                     MODAL PARTICIPATION FACTORS
+
+    MODE     FREQUENCY               T1                T2                T3                R1                R2                R3
+     NO.
+
+       1    1.098702E+02      1.531055E-04      2.069677E-04     -3.633789E+00     -7.112180E-05      8.431325E-05      1.515319E-05
+       2    6.406254E+02     -2.168432E-02     -5.993541E-01      1.171166E-03      2.807333E-01     -7.641116E-03      9.473680E-06
+       3    6.732854E+02      7.076600E-01     -1.770887E-02     -2.122830E-03      7.048794E-03      2.816998E-01     -6.606876E-06
+       4    8.985467E+02     -2.222279E-03     -7.822365E-04     -1.043615E+00      3.762926E-04     -4.711927E-04     -7.218962E-04
+       5    1.100061E+03     -1.857590E-03     -6.551547E-04      1.883701E-01      2.354174E-05      2.575898E-05     -2.565005E-03
+       6    1.180562E+03     -2.354322E+00      2.442217E+00      1.271605E-04      3.420829E-02      3.948140E-02      2.415448E-07
+       7    1.214850E+03      2.415085E+00      2.381553E+00     -8.963541E-05      3.737451E-02     -4.443256E-02     -5.619544E-07
+       8    1.329376E+03      3.165115E-04      2.812515E-04      2.929856E-01      2.743276E-06      5.230920E-05     -1.035766E-03
+       9    1.545277E+03     -2.668842E-01     -1.443736E-01      7.630753E-04      2.800136E-03     -9.012903E-02      1.650416E-05
+      10    1.606037E+03     -8.936899E-02     -7.641719E-02      8.259274E-04      9.417026E-02      2.230630E-04      1.976275E-05
+      11    1.866769E+03      1.250432E-02      1.131271E-01     -2.462192E-03     -1.336035E-01      1.083303E-03     -1.171583E-05
+      12    1.950434E+03      1.128737E-03      2.079182E-03      3.887112E-01     -1.089832E-03     -1.314615E-03      3.030296E-04
+
+                  TOTAL       4.005076E-01      4.100173E+00     -3.809124E+00      3.219734E-01      1.786614E-01     -3.977387E-03
+
+
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    22
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+
+                                                         MODAL EFFECTIVE MASS   
+
+    MODE     FREQUENCY               T1                T2                T3                R1                R2                R3
+     NO.
+
+       1    1.098702E+02      2.344131E-08      4.283564E-08      1.320442E+01      5.058310E-09      7.108724E-09      2.296190E-10
+       2    6.406254E+02      4.702095E-04      3.592254E-01      1.371629E-06      7.881118E-02      5.838665E-05      8.975061E-11
+       3    6.732854E+02      5.007827E-01      3.136041E-04      4.506408E-06      4.968550E-05      7.935476E-02      4.365081E-11
+       4    8.985467E+02      4.938526E-06      6.118940E-07      1.089132E+00      1.415961E-07      2.220225E-07      5.211341E-07
+       5    1.100061E+03      3.450641E-06      4.292277E-07      3.548328E-02      5.542137E-10      6.635249E-10      6.579250E-06
+       6    1.180562E+03      5.542834E+00      5.964423E+00      1.616979E-08      1.170207E-03      1.558781E-03      5.834387E-14
+       7    1.214850E+03      5.832635E+00      5.671793E+00      8.034507E-09      1.396854E-03      1.974252E-03      3.157928E-13
+       8    1.329376E+03      1.001795E-07      7.910240E-08      8.584053E-02      7.525561E-12      2.736252E-09      1.072812E-06
+       9    1.545277E+03      7.122720E-02      2.084372E-02      5.822840E-07      7.840762E-06      8.123241E-03      2.723874E-10
+      10    1.606037E+03      7.986816E-03      5.839587E-03      6.821561E-07      8.868037E-03      4.975712E-08      3.905663E-10
+      11    1.866769E+03      1.563581E-04      1.279773E-02      6.062392E-06      1.784990E-02      1.173546E-06      1.372606E-10
+      12    1.950434E+03      1.274048E-06      4.322996E-06      1.510964E-01      1.187733E-06      1.728212E-06      9.182692E-08
+
+                  TOTAL       1.195610E+01      1.203524E+01      1.456598E+01      1.081550E-01      9.107261E-02      8.266186E-06
+
+
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeDataBlock)
+ *** USER INFORMATION MESSAGE  (EFMASS)
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    23
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+0                                                  MAXIMUM  DISPLACEMENTS   
+  SUBCASE/
+  DAREA ID        T1             T2             T3             R1             R2             R3
+0        1   2.4187207E-03  2.2935568E-03  3.1090115E-01  1.4164458E+00  1.5464513E+00  7.5732967E-02
+0        2   4.0198764E-02  6.9998593E-01  8.3033870E-01  8.7422930E+00  4.4557403E+00  4.0401902E-01
+0        3   6.6507837E-01  1.6517449E-02  8.2929663E-01  4.4174064E+00  8.6051134E+00  4.2640556E-01
+0        4   1.7622400E-02  2.4225142E-02  8.7522597E-01  9.8445312E+00  7.9727142E+00  6.2737174E-01
+0        5   3.3144837E-02  3.2391037E-02  9.8920522E-01  1.1676440E+01  9.2108490E+00  8.7673510E-01
+0        6   2.1047176E-01  2.1724478E-01  1.9321483E-01  2.3526016E+00  2.2634692E+00  2.1499947E+00
+0        7   2.1491056E-01  2.1080205E-01  2.5010571E-01  3.5127660E+00  3.0930522E+00  2.6121525E+00
+0        8   4.3966427E-02  3.0701148E-02  9.9255821E-01  1.0808595E+01  1.4076869E+01  7.5770717E-01
+0        9   4.7152493E-01  4.9095087E-02  8.7592153E-01  1.3805418E+01  9.5188285E+00  1.0739326E+00
+0       10   1.5808571E-01  4.8837120E-01  9.0902957E-01  1.0191609E+01  1.4160015E+01  1.0916525E+00
+0       11   3.7130249E-02  1.1352389E+00  9.1352968E-01  1.9055106E+01  7.5026145E+00  7.8852226E-01
+0       12   4.8183383E-02  5.4818579E-02  1.1829582E+00  1.8853834E+01  1.6374525E+01  1.5319153E+00
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeOutput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK OLAMA, TRAILER[101, 12, 0, 0, 0, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeOutput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK OUG1, TRAILER[101, 0, 617568, 0, 0, 0, 2])
+1    EIGENFREQUENCIES                                   **STUDENT EDITION*    APRIL  25, 2021  MSC Nastran  8/ 4/20   PAGE    24
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+ * * * *  D B D I C T   P R I N T  * * * *      SUBDMAP = PRTSUM  ,  DMAP STATEMENT NO.     71
+
+
+
+0                                   * * * *  A N A L Y S I S  S U M M A R Y  T A B L E  * * * *
+0 SEID  PEID PROJ VERS APRCH      SEMG SEMR SEKR SELG SELR MODES DYNRED SOLLIN PVALID SOLNL LOOPID DESIGN CYCLE SENSITIVITY
+ --------------------------------------------------------------------------------------------------------------------------
+     0     0    1    1 '        '    T    T    T    F    F     T      F      T      0     F     -1            0           F
+0SEID = SUPERELEMENT ID.
+ PEID = PRIMARY SUPERELEMENT ID OF IMAGE SUPERELEMENT.
+ PROJ = PROJECT ID NUMBER.
+ VERS = VERSION ID.
+ APRCH = BLANK FOR STRUCTURAL ANALYSIS.  HEAT FOR HEAT TRANSFER ANALYSIS.
+ SEMG = STIFFNESS AND MASS MATRIX GENERATION STEP.
+ SEMR = MASS MATRIX REDUCTION STEP (INCLUDES EIGENVALUE SOLUTION FOR MODES).
+ SEKR = STIFFNESS MATRIX REDUCTION STEP.
+ SELG = LOAD MATRIX GENERATION STEP.
+ SELR = LOAD MATRIX REDUCTION STEP. 
+ MODES = T (TRUE) IF NORMAL MODES OR BUCKLING MODES CALCULATED.
+ DYNRED = T (TRUE) MEANS GENERALIZED DYNAMIC AND/OR COMPONENT MODE REDUCTION PERFORMED.
+ SOLLIN = T (TRUE) IF LINEAR SOLUTION EXISTS IN DATABASE.
+ PVALID = P-DISTRIBUTION ID OF P-VALUE FOR P-ELEMENTS
+ LOOPID = THE LAST LOOPID VALUE USED IN THE NONLINEAR ANALYSIS.  USEFUL FOR RESTARTS.
+ SOLNL = T (TRUE) IF NONLINEAR SOLUTION EXISTS IN DATABASE.
+ DESIGN CYCLE = THE LAST DESIGN CYCLE (ONLY VALID IN OPTIMIZATION).
+ SENSITIVITY = SENSITIVITY MATRIX GENERATION FLAG.
+ 
+ No PARAM values were set in the Control File.
+ 
+1                                        * * * END OF JOB * * *
+ 
+ 
+ No Symbolic Replacement variables or values were specified.
+
