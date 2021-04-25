@@ -9,7 +9,7 @@ Diseño de bandejas:
 
  	-Bandeja intermedia
 	Masa puntual a 80mm de la superficie unida RBE2 a 4 cruces de rigidizadores 	-> Punto 1111/ Nodo 1011 / Elemento0D 1001 /MCP ID: 1,2,3,4
-	Simplemente apoyada en todo el contorno exterior				-> Curvas 1:7 43:61
+	Simplemente apoyada en todo el contorno exterior				-> Point 1:8 14 15 21 22 28 29 35 36 42 43 49 50 56 60 73:76 Curve 1:7 43:61
 	
 	-Bandeja inferior
 	Masa puntual a 80mm de la superficie, centrada y unida RBE2 a 4 cruces de rigidizadores -> Punto 1111/ Nodo 1101 / Elemento0D 1001 /MCP ID: 1(4376), 2(4467), 3(5559), 4(5468)
@@ -26,6 +26,7 @@ Diseño de bandejas:
 		malla curvas	: nodos 10000:11529, elementos 30000:31390
 		
 		rigidizadores exteriores: Curve 1:7 43:61
+		bandeja: Surface 3:86
 	
 	
 	Diseño óptimo
