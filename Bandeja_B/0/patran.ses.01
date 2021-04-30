@@ -1,0 +1,41 @@
+$# Session file patran.ses.01 started recording at 30-Apr-21 21:23:22
+$# Build: 26.0.758311 Tue Sep 15 10:33:18 PDT 2020
+$# Recorded by: Patran 2020  (Student Edition)
+uil_file_open.go( "C:\MUSE\EUE\Practica2_EUE\Bandeja_B\0\Bandeja_B.db" )
+$# Database version 3.21 created by Patran 2020  (Student Edition) 
+$# successfully opened.
+$# Warning reported in application FILE by application Journal
+$#     Journal file C:\MUSE\EUE\Practica2_EUE\Bandeja_B\0\Bandeja_B.db.jou 
+$# does not exist. No journal file will be created.
+$# FLEXlm initialization complete.  Acquiring license(s)...
+$# License File: EDU
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-3VPGNSK(
+$# c01885f775c5) (Windows 6.2 (Build 9200: Service Pack 0)) at 30-Apr-21 
+$# 21:23:25.
+$# Begin Reading RMB Menu definitions
+$# Done Reading RMB Menu definitions
+$# Loading dynamic library C:\Program 
+$# Files\MSC.Software\NaPa_SE\2020\Patran\bin\exe\loads_browser.dll
+$# 0ня7 shared library 'Loads Browser', Version 2020, Revision 3, Patch 0, 
+$# has been loaded for: MSC.Patran.
+material.create( "Analysis code ID", 1, "Analysis type ID", 1,  @
+"Carbon_fibre_tape", 0, "Date: 30-Apr-21           Time: 21:23:41",  @
+"2d Orthotropic", 5, "Directionality", 4, "Linearity", 1, "Homogeneous", 0,  @
+"Linear Elastic", 1, "Model Options & IDs", ["", "", "", "", ""], [0, 0, 0, 0, @
+ 0], "Active Flag", 1, "Create", 10, "External Flag", FALSE, "Property IDs", [ @
+"Elastic Modulus 11", "Elastic Modulus 22", "Poisson Ratio 12",  @
+"Shear Modulus 12", "Shear Modulus 23", "Shear Modulus 13",  @
+"Thermal Expan. Coeff 11", "Thermal Expan. Coeff 22", "Reference Temperature"] @
+, [2, 3, 5, 8, 9, 10, 24, 25, 1, 0], "Property Values", ["78000000.",  @
+"2600000.", "0.25", "1250000.", "1250000.", "1250000.", "35000000.",  @
+"1.14E+08", "270.", ""] )
+mat_create_lam3( "ply_symmetric", "", 1, ["Carbon_fibre_tape",  @
+"Carbon_fibre_tape", "Carbon_fibre_tape"], [" 4.850000E-02", " 4.850000E-01",  @
+" 4.850000E-02"], [" 0.000000E+00", " 9.000000E+01", " 0.000000E+00"], ["", "" @
+, ""], 3, "", "Create" )
+elementprops_create( "composite_plate", 51, 25, 35, 1, 3, 20, [13, 20, 4037,  @
+4111, 4265, 1005, 5, 8111, 4213], [5, 2, 1, 1, 1, 1, 1, 4, 4], [ @
+"m:ply_symmetric", "<1 0 0>", "", "", "", "", "", "", ""], "" )
+$# Property Set "composite_plate" created.
+uil_primary_file.db_save(  )

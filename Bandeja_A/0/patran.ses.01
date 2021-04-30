@@ -1,0 +1,95 @@
+$# Session file patran.ses.01 started recording at 30-Apr-21 20:10:07
+$# Build: 26.0.758311 Tue Sep 15 10:33:18 PDT 2020
+$# Recorded by: Patran 2020  (Student Edition)
+uil_file_open.go( "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\0\Bandeja_A.db" )
+$# Database version 3.21 created by Patran 2020  (Student Edition) 
+$# successfully opened.
+$# Warning reported in application FILE by application Journal
+$#     Journal file C:\MUSE\EUE\Practica2_EUE\Bandeja_A\0\Bandeja_A.db.jou 
+$# does not exist. No journal file will be created.
+$# FLEXlm initialization complete.  Acquiring license(s)...
+$# License File: EDU
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-3VPGNSK(
+$# c01885f775c5) (Windows 6.2 (Build 9200: Service Pack 0)) at 30-Apr-21 
+$# 20:10:14.
+$# Begin Reading RMB Menu definitions
+$# Done Reading RMB Menu definitions
+$# Loading dynamic library C:\Program 
+$# Files\MSC.Software\NaPa_SE\2020\Patran\bin\exe\loads_browser.dll
+$# 0￡P shared library 'Loads Browser', Version 2020, Revision 3, Patch 0, 
+$# has been loaded for: MSC.Patran.
+ga_view_aa_set( -135.739838, 16.708956, -114.219719 )
+material.create( "Analysis code ID", 1, "Analysis type ID", 1,  @
+"graphite_epoxy_tape", 0, "Date: 30-Apr-21           Time: 20:51:04",  @
+"2d Orthotropic", 5, "Directionality", 4, "Linearity", 1, "Homogeneous", 0,  @
+"Linear Elastic", 1, "Model Options & IDs", ["", "", "", "", ""], [0, 0, 0, 0, @
+ 0], "Active Flag", 1, "Create", 10, "External Flag", FALSE, "Property IDs", [ @
+"Elastic Modulus 11", "Elastic Modulus 22", "Poisson Ratio 12",  @
+"Shear Modulus 12", "Shear Modulus 23", "Shear Modulus 13"], [2, 3, 5, 8, 9,  @
+10, 0], "Property Values", ["20e6", "2e6", "0.35", "1e6", "1e6", "1e6", ""] )
+$# Error reported from application MATERIALS
+$#     Material 8_ply_symmetric does not exist.
+$? NO 28004416 
+$# UNDO: Materials Modify
+material.rename( "graphite_epoxy_tape", "graphite_epoxy_tape" )
+material.create( "Analysis code ID", 1, "Analysis type ID", 1,  @
+"graphite_epoxy_tape", 3, "Date: 30-Apr-21           Time: 20:51:04",  @
+"2d Orthotropic", 5, "Directionality", 4, "Linearity", 1, "Homogeneous", 0,  @
+"Linear Elastic", 1, "Model Options & IDs", ["", "", "", "", ""], [0, 0, 0, 0, @
+ 0], "Active Flag", 1, "Modify", 31, "External Flag", FALSE, "Property IDs", [ @
+"Elastic Modulus 11", "Elastic Modulus 22", "Poisson Ratio 12",  @
+"Shear Modulus 12", "Shear Modulus 23", "Shear Modulus 13",  @
+"Thermal Expan. Coeff 11", "Thermal Expan. Coeff 22", "Reference Temperature"] @
+, [2, 3, 5, 8, 9, 10, 24, 25, 1, 0], "Property Values", ["78000000.",  @
+"2600000.", "0.25", "1250000.", "1250000.", "1250000.", "35000000",  @
+"114000000", "270", ""] )
+mat_create_lam3( "8_ply_symmetric", "", 1, ["graphite_epoxy_tape",  @
+"graphite_epoxy_tape", "graphite_epoxy_tape"], [" 4.850000E-02",  @
+" 4.850000E-01", " 4.850000E-02"], [" 0.000000E+00", " 9.000000E+01",  @
+" 0.000000E+00"], ["", "", ""], 3, "", "Create" )
+elementprops_create( "composite_plate", 51, 25, 35, 1, 3, 20, [13, 20, 4037,  @
+4111, 4265, 1005, 5, 8111, 4213], [5, 2, 1, 1, 1, 1, 1, 4, 4], [ @
+"m:8_ply_symmetric", "<1 0 0>", "", "", "", "", "", "", ""], "" )
+$# Property Set "composite_plate" created.
+ga_view_center_set( -0.027831, 0.013143 )
+ga_view_zoom_set( 0.190473 )
+ga_view_center_set( -0.003536, 0.019760 )
+ga_view_zoom_set( 0.169309 )
+ga_view_center_set( 0.018060, 0.025641 )
+ga_view_zoom_set( 0.150497 )
+ga_view_center_set( 0.037256, 0.030870 )
+ga_view_zoom_set( 0.133775 )
+ga_view_center_set( 0.018060, 0.025641 )
+ga_view_zoom_set( 0.150497 )
+ga_view_center_set( -0.003536, 0.019760 )
+ga_view_zoom_set( 0.169309 )
+ga_view_center_set( -0.027831, 0.013143 )
+ga_view_zoom_set( 0.190473 )
+ga_view_center_set( -0.055163, 0.005699 )
+ga_view_zoom_set( 0.214282 )
+ga_view_center_set( -0.085912, -0.002675 )
+ga_view_zoom_set( 0.241067 )
+uil_primary_file.db_save(  )
+ga_viewport_location_set( "default_viewport", 0.000000, 0.000000, 1 )
+ga_viewport_size_set( "default_viewport", 10.578850, 4.511131, 1 )
+material.rename( "graphite_epoxy_tape", "Carbon_fibre_tape" )
+material.create( "Analysis code ID", 1, "Analysis type ID", 1,  @
+"Carbon_fibre_tape", 3, "Date: 30-Apr-21           Time: 20:51:04",  @
+"2d Orthotropic", 5, "Directionality", 4, "Linearity", 1, "Homogeneous", 0,  @
+"Linear Elastic", 1, "Model Options & IDs", ["", "", "", "", ""], [0, 0, 0, 0, @
+ 0], "Active Flag", 1, "Modify", 31, "External Flag", FALSE, "Property IDs", [ @
+"", ""], [0], "Property Values", [""] )
+material.rename( "8_ply_symmetric", "ply_symmetric" )
+mat_create_lam3( "ply_symmetric", "", 1, ["Carbon_fibre_tape",  @
+"Carbon_fibre_tape", "Carbon_fibre_tape"], ["  4.850000E-2", "  4.850000E-1",  @
+"  4.850000E-2"], ["  0.000000E+0", "  9.000000E+1", "  0.000000E+0"], ["", "" @
+, ""], 3, "", "Modify" )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -81.817215, 10.643250, -137.009338 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
