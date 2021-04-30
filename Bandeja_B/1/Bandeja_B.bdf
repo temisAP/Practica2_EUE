@@ -1,0 +1,23 @@
+$ Elements and Element Properties for region : masa_equipos
+CONM2    1001    1101    -1      10.     0.      0.      0.
+
+$ Rigidizador_exterior
+INCLUDE '1_RE.bdf'
+
+$ Rigidizador_interior
+INCLUDE '2_RI.bdf'
+
+$ Bandeja
+INCLUDE '3_B1.bdf'
+
+$ Material
+INCLUDE 'Al_7075_T6.bdf'
+
+$ Multipoint Constraints of the Entire Model
+RBE2     1       1101    123456  4376
+RBE2     2       1101    123456  4467
+RBE2     3       1101    123456  5559
+RBE2     4       1101    123456  5468
+
+$ Grid
+INCLUDE '4_G1.bdf'
