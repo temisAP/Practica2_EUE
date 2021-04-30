@@ -9,7 +9,7 @@ UPM-SAT2 like sat NASTRAN-PATRAN analysis
   
 Bandeja_X/1
  
-   Bandeja_X.bdf: archivo sin cabecera que incluye los siguientes elementos
+    Bandeja_X.bdf: archivo sin cabecera que incluye los siguientes elementos
   
     1_RE : Rigidizador exterior
     2_RI : Rigidizador interior
