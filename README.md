@@ -1,8 +1,8 @@
-## Practica2_EUE
+# Practica2_EUE
 UPM-SAT2 like sat NASTRAN-PATRAN analysis
 
 
-# Estructura de directorios
+## Estructura de directorios
 
     Bandeja_X/0: el db para Patran y el bdf original, para sacar elementos, grids, propiedades ...
     Bandeja_X/1: para hacer las iteraciones
