@@ -1,31 +1,7 @@
-$ MSC.Nastran input file created on May       01, 2021 at 10:21:24 by
-$ Patran 2020  (Student Edition)
-$ Direct Text Input for Nastran System Cell Section
-$ Direct Text Input for File Management Section
-$ Direct Text Input for Executive Control
-$ Linear Static Analysis, Database
-SOL 101
-CEND
-$ Direct Text Input for Global Case Control Data
-TITLE = MSC.Nastran job created on 25-Apr-21 at 11:10:02
-ECHO = NONE
-SUBCASE 1
-$ Subcase name : Default
-   SUBTITLE=Default
-   SPC = 2
-   DISPLACEMENT(SORT1,REAL)=ALL
-   SPCFORCES(SORT1,REAL)=ALL
-   STRESS(SORT1,REAL,VONMISES,BILIN)=ALL
-BEGIN BULK
-$ Direct Text Input for Bulk Data
-MDLPRM   HDF5    0
-PARAM    POST    0
-PARAM   PRTMAXIM YES
-$ Elements and Element Properties for region : masa_equipos
-CONM2    1001    1101    -1      10.     0.      0.      0.
+
 $ Elements and Element Properties for region : rigidizador_exterior
-PBARL    1       1               BAR
-         .01     .026
+PBARL    1       1               I1
+         .015    .002    .021    .024
 $ Pset: "rigidizador_exterior" will be imported as: "pbarl.1"
 CBAR     30000   1       2455    2626    0.      0.      1.
                          0.      0.      -.013   0.      0.      -.013
@@ -527,30 +503,30 @@ CBAR     30248   1       9262    9269    0.      0.      1.
                          0.      0.      -.013   0.      0.      -.013
 CBAR     30249   1       9269    8653    0.      0.      1.
                          0.      0.      -.013   0.      0.      -.013
+CBAR     30250   1       8653    9109    0.      0.      1.
+                         0.      0.      -.013   0.      0.      -.013
+CBAR     30251   1       9109    9116    0.      0.      1.
+                         0.      0.      -.013   0.      0.      -.013
+CBAR     30252   1       9116    9124    0.      0.      1.
+                         0.      0.      -.013   0.      0.      -.013
+CBAR     30253   1       9124    9132    0.      0.      1.
+                         0.      0.      -.013   0.      0.      -.013
+CBAR     30254   1       9132    9148    0.      0.      1.
+                         0.      0.      -.013   0.      0.      -.013
+CBAR     30255   1       9148    9155    0.      0.      1.
+                         0.      0.      -.013   0.      0.      -.013
+CBAR     30256   1       9155    9164    0.      0.      1.
+                         0.      0.      -.013   0.      0.      -.013
+CBAR     30257   1       9164    9171    0.      0.      1.
+                         0.      0.      -.013   0.      0.      -.013
+CBAR     30258   1       9171    9178    0.      0.      1.
+                         0.      0.      -.013   0.      0.      -.013
+CBAR     30259   1       9178    8562    0.      0.      1.
+                         0.      0.      -.013   0.      0.      -.013
 $ Elements and Element Properties for region : rigidizador_interior
-PBARL    2       1               HAT
+PBARL    2       2               HAT
          .026    .001    .015    .008
 $ Pset: "rigidizador_interior" will be imported as: "pbarl.2"
-CBAR     30250   2       8653    9109    0.      0.      -1.
-                         0.      0.      -.013   0.      0.      -.013
-CBAR     30251   2       9109    9116    0.      0.      -1.
-                         0.      0.      -.013   0.      0.      -.013
-CBAR     30252   2       9116    9124    0.      0.      -1.
-                         0.      0.      -.013   0.      0.      -.013
-CBAR     30253   2       9124    9132    0.      0.      -1.
-                         0.      0.      -.013   0.      0.      -.013
-CBAR     30254   2       9132    9148    0.      0.      -1.
-                         0.      0.      -.013   0.      0.      -.013
-CBAR     30255   2       9148    9155    0.      0.      -1.
-                         0.      0.      -.013   0.      0.      -.013
-CBAR     30256   2       9155    9164    0.      0.      -1.
-                         0.      0.      -.013   0.      0.      -.013
-CBAR     30257   2       9164    9171    0.      0.      -1.
-                         0.      0.      -.013   0.      0.      -.013
-CBAR     30258   2       9171    9178    0.      0.      -1.
-                         0.      0.      -.013   0.      0.      -.013
-CBAR     30259   2       9178    8562    0.      0.      -1.
-                         0.      0.      -.013   0.      0.      -.013
 CBAR     30260   2       7925    8472    0.      0.      -1.
                          0.      0.      -.013   0.      0.      -.013
 CBAR     30261   2       8472    8479    0.      0.      -1.
@@ -2814,9 +2790,21 @@ CBAR     31389   2       5820    5650    0.      0.      -1.
 $ Elements and Element Properties for region : composite_plate
 $ Composite Property Reference Material: ply_symmetric
 $ Composite Material Description :
-PCOMP    3                                       270.
-         2       .0485   0.      YES     2       .485    90.     YES
-         2       .0485   0.      YES
+PCOMP    3
+*        3               1.9999999-4     0.              YES
+*        3               1.9999999-4     45.             YES
+*        3               1.9999999-4     90.             YES
+*        3               1.9999999-4     -45.            YES
+*        3               1.9999999-4     0.              YES
+*        3               1.9999999-4     90.             YES
+*        3               1.9999999-4     45.             YES
+*        3               1.9999999-4     90.             YES
+*        3               1.9999999-4     0.              YES
+*        3               1.9999999-4     -45.            YES
+*        3               1.9999999-4     90.             YES
+*        3               1.9999999-4     45.             YES
+*        3               1.9999999-4     0.              YES
+*
 $ Pset: "composite_plate" will be imported as: "pcomp.3"
 CQUAD4   21000   3       2000    2081    2043    2001    90.
 CQUAD4*  21001           3               2001            2043
@@ -14541,12 +14529,15 @@ CQUAD4*  27299           3               9632            9633
 $ Referenced Material Records
 $ Material Record : AL_7075_T6
 $ Description of Material : Date: 15-Apr-21           Time: 12:30:59
-MAT1*    1               7.1699997+10    2.6900001+10    .33
+MAT1*    2               7.1699997+10    2.6900001+10    .33
 *        2810.           2.1899999-5     0.
 $ Material Record : Carbon_fibre_tape
 $ Description of Material : Date: 30-Apr-21           Time: 21:23:41
-MAT8     2       7.8+7  2600000. .25    1250000.1250000.1250000.
-         3.5+7   1.14+8  270.
+MAT1*    1               1.4+11          7.1000003+9     .3
+*        1700.           0.              0.
+MAT8*    3               1.4+11          1.05+10         .3
+*        7.1000003+9     7.1000003+9     7.1000003+9     1700.
+         0.      0.      0.
 $ Multipoint Constraints of the Entire Model
 RBE2     1       1101    123     4376
 RBE2     2       1101    123     4467
@@ -27459,4 +27450,4 @@ SPC1     1       123     9554    THRU    9564
 SPC1     1       123     9571    9578    9587    9603    9610    9619
          9626    9633
 $ Referenced Coordinate Frames
-ENDDATA 7e214db9
+ENDDATA 313cf65d

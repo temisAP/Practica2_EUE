@@ -1,6 +1,7 @@
-$ Elements and Element Properties for region : composite_plate
-$ Composite Property Reference Material: ply_symmetric
-$ Composite Material Description :
-PCOMP    1                                       270.
-         2       .0485   0.      YES     2       .485    90.     YES
-         2       .0485   0.      YES
+$ Material Record : Carbon_fibre_tape
+$ Description of Material : Date: 30-Apr-21           Time: 21:23:41
+MAT1*    1               1.4+11          7.1000003+9     .3
+*        1700.           0.              0.
+MAT8*    3               1.4+11          1.05+10         .3
+*        7.1000003+9     7.1000003+9     7.1000003+9     1700.
+         0.      0.      0.
