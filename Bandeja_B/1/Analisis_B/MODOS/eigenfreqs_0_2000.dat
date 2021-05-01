@@ -17,7 +17,9 @@ $ Subcase name : Freqs
 BEGIN BULK
 $ Direct Text Input for Bulk Data
 MDLPRM   HDF5    0
-PARAM    POST    0
+PARAM    GRDPNT   0
+PARAM    POST    -1
+PARAM    SRCSPEC  0
 PARAM   PRTMAXIM YES
 $------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
 EIGRL    1       0.      2000.            0

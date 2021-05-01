@@ -36,6 +36,9 @@ Diseño de bandejas:
 			frecuencias > 150 Hz 	(Análisis de modos propios) 	-> La primera entre 150 y 175 Hz
 			MoS > 0			(Análisis estático)		-> MoS para Von Mises en caso más crítico entre 0 y 0.5
 		*Mirar fórmulas del pdf para aceleraciones y MoS*
+		Para mirar los Von Mises en Patran
+			Fringe -> Domain Name -> Extrapolation Centroid -> Bar Stresses Max y Min comb
+			Stress Tensor Von Mises -> Las dos caras
 
 		Variables:
 			material

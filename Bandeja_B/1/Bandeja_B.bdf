@@ -8,10 +8,10 @@ $ Rigidizador_interior
 INCLUDE '2_I_1.bdf'
 
 $ Bandeja
-INCLUDE '3_Comp_2.bdf'
+INCLUDE '3_Al_3.bdf'
 
 $ Material
-INCLUDE 'Composite.bdf'
+INCLUDE 'Al_7075_T6.bdf'
 
 $ Multipoint Constraints of the Entire Model
 RBE2     1       1101    123456  4376
