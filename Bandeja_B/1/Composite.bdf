@@ -1,0 +1,6 @@
+$ Elements and Element Properties for region : composite_plate
+$ Composite Property Reference Material: ply_symmetric
+$ Composite Material Description :
+PCOMP    1                                       270.
+         2       .0485   0.      YES     2       .485    90.     YES
+         2       .0485   0.      YES

@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on April     25, 2021 at 18:31:16 by
+$ MSC.Nastran input file created on May       01, 2021 at 10:21:24 by
 $ Patran 2020  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -2811,9 +2811,13 @@ CBAR     31388   2       5819    5820    0.      0.      -1.
                          0.      0.      -.013   0.      0.      -.013
 CBAR     31389   2       5820    5650    0.      0.      -1.
                          0.      0.      -.013   0.      0.      -.013
-$ Elements and Element Properties for region : bandeja
-PSHELL   3       1       .003    1               1
-$ Pset: "bandeja" will be imported as: "pshell.3"
+$ Elements and Element Properties for region : composite_plate
+$ Composite Property Reference Material: ply_symmetric
+$ Composite Material Description :
+PCOMP    3                                       270.
+         2       .0485   0.      YES     2       .485    90.     YES
+         2       .0485   0.      YES
+$ Pset: "composite_plate" will be imported as: "pcomp.3"
 CQUAD4   21000   3       2000    2081    2043    2001    90.
 CQUAD4*  21001           3               2001            2043
 *        2028            2002            92.338654
@@ -14539,6 +14543,10 @@ $ Material Record : AL_7075_T6
 $ Description of Material : Date: 15-Apr-21           Time: 12:30:59
 MAT1*    1               7.1699997+10    2.6900001+10    .33
 *        2810.           2.1899999-5     0.
+$ Material Record : Carbon_fibre_tape
+$ Description of Material : Date: 30-Apr-21           Time: 21:23:41
+MAT8     2       7.8+7  2600000. .25    1250000.1250000.1250000.
+         3.5+7   1.14+8  270.
 $ Multipoint Constraints of the Entire Model
 RBE2     1       1101    123     4376
 RBE2     2       1101    123     4467
@@ -27451,4 +27459,4 @@ SPC1     1       123     9554    THRU    9564
 SPC1     1       123     9571    9578    9587    9603    9610    9619
          9626    9633
 $ Referenced Coordinate Frames
-ENDDATA 86dfba53
+ENDDATA 7e214db9

@@ -11,7 +11,7 @@ $ Bandeja
 INCLUDE '3_B1.bdf'
 
 $ Material
-INCLUDE 'Al_7075_T6.bdf'
+INCLUDE 'Composite.bdf'
 
 $ Multipoint Constraints of the Entire Model
 RBE2     1       1101    123456  4376
