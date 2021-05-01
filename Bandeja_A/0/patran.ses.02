@@ -1,0 +1,74 @@
+$# Session file patran.ses.02 started recording at 01-May-21 10:08:46
+$# Build: 26.0.758311 Tue Sep 15 10:33:18 PDT 2020
+$# Recorded by: Patran 2020  (Student Edition)
+uil_file_open.go( "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\0\Bandeja_A.db" )
+$# Database version 3.21 created by Patran 2020  (Student Edition) 
+$# successfully opened.
+$# Warning reported in application FILE by application Journal
+$#     Journal file C:\MUSE\EUE\Practica2_EUE\Bandeja_A\0\Bandeja_A.db.jou 
+$# does not exist. No journal file will be created.
+$# FLEXlm initialization complete.  Acquiring license(s)...
+$# License File: EDU
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-3VPGNSK(
+$# c01885f775c5) (Windows 6.2 (Build 9200: Service Pack 0)) at 01-May-21 
+$# 10:08:53.
+$# Begin Reading RMB Menu definitions
+$# Done Reading RMB Menu definitions
+$# Loading dynamic library C:\Program 
+$# Files\MSC.Software\NaPa_SE\2020\Patran\bin\exe\loads_browser.dll
+$#  shared library 'Loads Browser', Version 2020, Revision 3, Patch 0, has 
+$# been loaded for: MSC.Patran.
+ga_view_center_set( -0.073382, -0.005041 )
+ga_view_zoom_set( 0.214282 )
+ga_view_center_set( -0.060767, -0.007030 )
+ga_view_zoom_set( 0.190473 )
+ga_view_center_set( -0.047029, -0.008797 )
+ga_view_zoom_set( 0.169309 )
+ga_view_center_set( -0.065515, -0.007434 )
+ga_view_zoom_set( 0.190473 )
+ga_view_center_set( -0.086313, -0.005899 )
+ga_view_zoom_set( 0.214282 )
+ga_view_center_set( -0.109710, -0.004173 )
+ga_view_zoom_set( 0.241067 )
+ga_view_center_set( -0.136032, -0.002232 )
+ga_view_zoom_set( 0.271201 )
+$# MSC.Patran Analysis Manager NOT licensed or installed!
+$# Error reported from application ELEM_PROPS
+$#     The Element Properties must be Entered to continue.
+$? NO 29002021 
+$# Error reported from application ELEM_PROPS
+$#     The Element Properties must be Entered to continue.
+$? NO 29002021 
+elementprops_modify( "composite_plate", "composite_plate", 51, 25, 35, 1, 3,  @
+20, [13, 20, 4037, 4111, 4265, 1005, 5, 8111, 4213], [5, 2, 1, 1, 1, 1, 1, 4,  @
+4], ["m:ply_symmetric", "<0. 0.0049999999 0.>", "", "", "", "", "", "", ""],  @
+"" )
+$# Property Set "composite_plate" modified.
+$# Error reported from application ELEM_PROPS
+$#     The Element Properties must be Entered to continue.
+$? NO 29002021 
+$# Error reported from application ELEM_PROPS
+$#     The Element Properties must be Entered to continue.
+$? NO 29002021 
+$# Error reported from application ELEM_PROPS
+$#     The Element Properties must be Entered to continue.
+$? NO 29002021 
+$# Error reported from application ELEM_PROPS
+$#     The Element Properties must be Entered to continue.
+$? NO 29002021 
+$# Error reported from application ELEM_PROPS
+$#     The Element Properties must be Entered to continue.
+$? NO 29002021 
+elementprops_delete( ["bandeja"] )
+$# 1 Property Sets deleted.
+sandia_utils.delete_n_metadata( 1, ["bandeja"] )
+$# Error reported from application ELEM_PROPS
+$#     The Element Properties must be Entered to continue.
+$? NO 29002021 
+$# Error reported from application ELEM_PROPS
+$#     The Element Properties must be Entered to continue.
+$? NO 29002021 
+uil_file_close.goquit(  )
+$# Flushing the User Data Manager
+$# Session file patran.ses.02 stopped recording at 01-May-21 11:06:40

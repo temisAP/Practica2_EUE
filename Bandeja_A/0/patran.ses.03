@@ -1,0 +1,32 @@
+$# Session file patran.ses.03 started recording at 01-May-21 11:07:29
+$# Build: 26.0.758311 Tue Sep 15 10:33:18 PDT 2020
+$# Recorded by: Patran 2020  (Student Edition)
+uil_file_open.go( "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\0\Bandeja_A.db" )
+$# Database version 3.21 created by Patran 2020  (Student Edition) 
+$# successfully opened.
+$# Warning reported in application FILE by application Journal
+$#     Journal file C:\MUSE\EUE\Practica2_EUE\Bandeja_A\0\Bandeja_A.db.jou 
+$# does not exist. No journal file will be created.
+$# FLEXlm initialization complete.  Acquiring license(s)...
+$# License File: EDU
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-3VPGNSK(
+$# c01885f775c5) (Windows 6.2 (Build 9200: Service Pack 0)) at 01-May-21 
+$# 11:07:31.
+$# Begin Reading RMB Menu definitions
+$# Done Reading RMB Menu definitions
+$# Loading dynamic library C:\Program 
+$# Files\MSC.Software\NaPa_SE\2020\Patran\bin\exe\loads_browser.dll
+$# °è¿W© shared library 'Loads Browser', Version 2020, Revision 3, Patch 0, 
+$# has been loaded for: MSC.Patran.
+ga_view_aa_set( -103.256149, 34.280308, 19.885637 )
+ga_view_aa_set( -39.181175, 50.456879, -8.016184 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+uil_file_close.goquit(  )
+$# Flushing the User Data Manager
+$# Session file patran.ses.03 stopped recording at 01-May-21 11:09:17
