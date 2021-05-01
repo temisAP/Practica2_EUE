@@ -15,7 +15,7 @@ symbol=DELDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/
 symbol=DEMODIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/demo' $(program default)
 symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/sssalter' $(program default)
 symbol=TPLDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/tpl' $(program default)
-SDIR='c:/scratch/model_eigenfreqs_0_2000.T14312_56'
+SDIR='c:/scratch/model_eigenfreqs_0_2000.T4272_46'
 DBS='./model_eigenfreqs_0_2000'
 SCR='no'
 SMEM=100
@@ -33,7 +33,7 @@ NEWS='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/news.txt'
 ----------------------------------------------------------------- 
 MSC_ISHELLPATH=c:\muse\eue\practica2_eue\bandeja_a\1\analisis_a\modos 
 MSC_JIDPATH= 
-PATH=c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\nCode\bin;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\nvidia;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\lib;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8;C:\Program Files\MSC.Software\NaPa_SE\2020\Patran\bin;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.2.254\windows\mpi\intel64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.2.190\windows\mpi\intel64\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017b\runtime\win64;C:\Program Files\MATLAB\R2017b\bin;C:\WINDOWS\System32\OpenSSH\;C:\WINDOWS\system32\config\systemprofile\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\LyX 2.3\Perl\bin;C:\Users\Mar¡a\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Mar¡a\AppData\Local\Programs\Python\Python38\;C:\Users\Mar¡a\AppData\Local\Microsoft\WindowsApps;C:\Users\Mar¡a\AppData\Local\GitHubDesktop\bin 
+PATH=c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\nCode\bin;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\nvidia;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\lib;c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8;C:\Program Files\MSC.Software\NaPa_SE\2020\Patran\bin;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2020.2.254\windows\mpi\intel64\bin;C:\ProgramData\Oracle\Java\javapath;C:\Program Files (x86)\IntelSWTools\compilers_and_libraries_2019.2.190\windows\mpi\intel64\bin;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\mpirt;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\intel64_win\compiler;C:\Program Files (x86)\Common Files\Intel\Shared Libraries\redist\ia32_win\compiler;C:\WINDOWS\system32;C:\WINDOWS;C:\WINDOWS\System32\Wbem;C:\WINDOWS\System32\WindowsPowerShell\v1.0\;C:\Program Files\MATLAB\R2017b\runtime\win64;C:\Program Files\MATLAB\R2017b\bin;C:\WINDOWS\System32\OpenSSH\;C:\Users\Mar¡a\.dnx\bin;C:\Program Files\Microsoft DNX\Dnvm\;C:\Program Files\Microsoft SQL Server\120\Tools\Binn\;C:\Program Files\Microsoft SQL Server\130\Tools\Binn\;C:\Program Files\MiKTeX 2.9\miktex\bin\x64\;C:\Program Files (x86)\LyX 2.3\Perl\bin;C:\Users\Mar¡a\AppData\Local\Programs\Python\Python38\Scripts\;C:\Users\Mar¡a\AppData\Local\Programs\Python\Python38\;C:\Users\Mar¡a\AppData\Local\Microsoft\WindowsApps;C:\Users\Mar¡a\AppData\Local\GitHubDesktop\bin 
 SCA_SERVICE_CATALOG=c:\program files\msc.software\napa_se\2020\nastran\msc20200\res\SCAServiceCatalog.xml 
 SCA_RESOURCE_DIR=c:\program files\msc.software\napa_se\2020\nastran\msc20200\res 
 Cmd Line:    C:\Program Files\MSC.Software\NaPa_SE\2020\Nastran\msc20200\win64i8\nastran.exe JID=C:\MUSE\EUE\Practica2_EUE\Bandeja_A\1\Analisis_A\MODOS\MODEL_eigenfreqs_0_2000.dat 
@@ -46,9 +46,9 @@ FPE:         yes
 ----------------------------------------------------------------- 
 Current resource limits:
  Physical memory:                     8030 MB
- Physical memory available:           3655 MB
+ Physical memory available:           3264 MB
  Paging file size:                   10206 MB
- Paging file size available:          4130 MB
+ Paging file size available:          3761 MB
  Virtual memory:                 134217727 MB
  Virtual memory available:       134213511 MB
 ----------------------------------------------------------------- 
@@ -56,8 +56,8 @@ System configuration:
  Hostname:         DESKTOP-3VPGNSK
  Architecture:     win64i8
  Platform:         Intel Windows 10 Home 6.2 9200 (Windows Compute Cluster)
- Model:            Xeon/2550
- Clock freq.:      2550 MHz
+ Model:            Xeon/1223
+ Clock freq.:      1223 MHz
  Number of CPUs:   4
  Executable:       standard
  Raw model ID:     6
@@ -70,8 +70,8 @@ System configuration:
  Remote shell cmd: "c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
                    <ccs_cmd> (Windows CCS nodes)
 ----------------------------------------------------------------- 
-MSC Nastran started  Sat May  1 11:23:56 Hdvr 2021 
- 11:23:58  Beginning Analysis
+MSC Nastran started  Sun May  2 00:21:47 Hdvr 2021 
+ 00:21:51  Beginning Analysis
 SCA Kernel 24.7.714370 successfully initialized
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\libimalloc.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_core.dll" has been loaded.
@@ -79,42 +79,42 @@ BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\wi
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_rt.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\MSCblas.dll" has been loaded.
 
- 11:23:59  MSC Authorization Information - Checkout Successful (1016, 0)
- 11:23:59  -------------------------------------------------------------
- 11:23:59  Acquired 1 license for Student Edition Nastran
+ 00:21:51  MSC Authorization Information - Checkout Successful (1016, 0)
+ 00:21:51  -------------------------------------------------------------
+ 00:21:51  Acquired 1 license for Student Edition Nastran
 
 
 Beginning bulk data processing using the IFPStar component.
 For more information on IFPStar, please see KB article KB8019200
 on our support pages, at http://simcompanion.mscsoftware.com.
 
- 11:23:59  Reading INCLUDE file "../../Bandeja_A.bdf"
- 11:24:00  27472 records read from INCLUDE file "../../Bandeja_A.bdf"
- 11:24:00  32 records read from JID file "c:/muse/eue/practica2_eue/bandeja_a/1/analisis_a/modos/model_eigenfreqs_0_2000.dat"
- 11:24:00  A total of 27504 records were read from 2 files.
+ 00:21:51  Reading INCLUDE file "../../Bandeja_A.bdf"
+ 00:21:51  27485 records read from INCLUDE file "../../Bandeja_A.bdf"
+ 00:21:51  32 records read from JID file "c:/muse/eue/practica2_eue/bandeja_a/1/analisis_a/modos/model_eigenfreqs_0_2000.dat"
+ 00:21:51  A total of 27517 records were read from 2 files.
 
 Processing of bulk data entries is complete.
 
- 11:24:00  Analysis started.
- 11:24:00  Geometry access/verification to CAD part initiated (if needed).
- 11:24:00  Geometry access/verification to CAD part successfully completed (if needed).
- 11:24:01  Finite element model generation started.
- 11:24:02  Finite element model generated 38664 degrees of freedom.
- 11:24:02  Finite element model generation successfully completed.
- 11:24:03  Solution of the system equations for normal modes started.
- 11:24:04  Solution of the system equations for normal modes successfully completed.
- 11:24:05  Normal modes analysis completed.
+ 00:21:52  Analysis started.
+ 00:21:52  Geometry access/verification to CAD part initiated (if needed).
+ 00:21:52  Geometry access/verification to CAD part successfully completed (if needed).
+ 00:21:52  Finite element model generation started.
+ 00:21:53  Finite element model generated 38664 degrees of freedom.
+ 00:21:53  Finite element model generation successfully completed.
+ 00:21:53  Solution of the system equations for normal modes started.
+ 00:21:55  Solution of the system equations for normal modes successfully completed.
+ 00:21:56  Normal modes analysis completed.
  ================================================== 
  Warning/Fatal Message Summary           Occurrence
        USER WARNING MESSAGE     6064.0          1 
-       USER WARNING MESSAGE     6064.0       7699 
+       USER WARNING MESSAGE     6064.0       1389 
  ================================================== 
- 11:24:05  17 records read from JID file "c:/muse/eue/practica2_eue/bandeja_a/1/analisis_a/modos/model_eigenfreqs_0_2000.dat"
- 11:24:05  NSEXIT: EXIT(0)
- 11:24:05  Analysis complete  0
-Real:        7.308 seconds ( 0:00:07.308)
-User:        3.718 seconds ( 0:00:03.718)
-Sys:         1.359 seconds ( 0:00:01.359)
+ 00:21:56  17 records read from JID file "c:/muse/eue/practica2_eue/bandeja_a/1/analisis_a/modos/model_eigenfreqs_0_2000.dat"
+ 00:21:56  NSEXIT: EXIT(0)
+ 00:21:56  Analysis complete  0
+Real:        6.826 seconds ( 0:00:06.826)
+User:        3.937 seconds ( 0:00:03.937)
+Sys:         1.296 seconds ( 0:00:01.296)
  ==================================================
  OS:                           6.2
  OEM ID:                       9
@@ -131,14 +131,14 @@ Sys:         1.359 seconds ( 0:00:01.359)
  Ram:                          8030 Mb
  ==================================================
  Time Summary                 CPU       Wall   ( Time in Seconds )
- Eigenvalue                   1.4          1 
- Miscellaneous                3.1          5 
+ Eigenvalue                   1.9          2 
+ Miscellaneous                2.9          3 
  -------------------------------------------
- Total:                       4.5          6 
+ Total:                       4.8          5 
  ==================================================
  Consider using SOLVE=AUTO if you have not.
  =====================================================
  Detailed performance information can be found in the 
  "MSC Nastran High Performance Computing User's Guide"
  =====================================================
-MSC Nastran finished Sat May  1 11:24:06 Hdvr 2021 
+MSC Nastran finished Sun May  2 00:21:56 Hdvr 2021 
