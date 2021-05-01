@@ -39,3 +39,6 @@ elementprops_create( "composite_plate", 51, 25, 35, 1, 3, 20, [13, 20, 4037,  @
 "m:ply_symmetric", "<1 0 0>", "", "", "", "", "", "", ""], "" )
 $# Property Set "composite_plate" created.
 uil_primary_file.db_save(  )
+uil_file_close.goquit(  )
+$# Flushing the User Data Manager
+$# Session file patran.ses.01 stopped recording at 30-Apr-21 21:34:50

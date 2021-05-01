@@ -93,3 +93,6 @@ gm_hilight_clear(  )
 gm_hilight_clear(  )
 gm_hilight_clear(  )
 gm_hilight_clear(  )
+uil_file_close.goquit(  )
+$# Flushing the User Data Manager
+$# Session file patran.ses.01 stopped recording at 30-Apr-21 21:34:52
