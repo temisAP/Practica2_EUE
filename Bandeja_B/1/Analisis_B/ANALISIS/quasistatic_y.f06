@@ -1,0 +1,692 @@
+1
+ 
+ 
+ 
+ 
+                      Warning: This computer program is protected by copyright law and international treaties.       
+                  Unauthorized use, reproduction or distribution of this computer program, or any portion of it, may 
+                                          result in severe civil and criminal penalties.                             
+                         Copyright (C) 2020 MSC Software Corporation and its licensors. All rights reserved.         
+ 
+ 
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * *                                 * *
+                                              * *           MSC Software          * *
+                                              * *               CORP              * *
+                                              * *                                 * *
+                                              * *      M S C   N a s t r a n      * *
+                                              * *                                 * *
+                                              * *  S T U D E N T   E D I T I O N  * *
+                                              * *                                 * *
+                                              * *     Version 2020SP1-CL749017    * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *                                 * *
+                                              * *          AUG  4, 2020           * *
+                                              * *                                 * *
+                                              * *              Intel              * *
+                                              * *     MODEL Xeon/1972 (temis)     * *
+                                              * *     Windows 10 Pro 6.2 9200     * *
+                                              * * Compiled for 8664 (SINGLE Mode) * *
+                                              * *                                 * *
+                                              * * * * * * * * * * * * * * * * * * * *
+                                              * * * * * * * * * * * * * * * * * * * *
+
+ 
+ 
+                                                 This Student Edition version is  
+                                                    valid until APR 30, 2022.     
+ 
+ 
+                  This program is being distributed as part of the MSC Software Student Edition. Use of this program 
+                     or its results at a commercial installation, for commercial purposes, or for production work    
+                                             I S   S T R I C T L Y  P R O H I B I T E D.                             
+                  ==================================== FOR EDUCATIONAL USE ONLY =====================================
+ 
+ 
+1News file - July 31, 2020)
+  
+               Welcome to MSC Nastran 2020 Service Pack 1 (2020 SP1)
+  
+  
+   MSC Nastran brings powerful new features and enhancements for engineering
+   solutions.
+  
+     MSC Nastran 2020 SP1 corrects four defects, evident in version 2020,
+     that concern the import of Nastran Embedded Fatigue and acoustic pressure
+     results into Patran, corrects a licensing defect concerning the
+     TABLRPC entry, and shell elements SFRP failure indicator output in
+     the Digimat-to-SOL 400 MATDIGI interface.
+  
+     MSC Nastran 2020 SP1 Features and Enhancements
+  
+     Dynamics
+     - Data recovery of Poroelastic material (PEM) trim parts interior grids.
+     - New PLTSURF entry introduced for easier PEM parts coupling surface
+       defintions.
+     - Restart support for models with invariant PEM components.
+     - Temperature dependency added for frequency dependent materials.
+     - SOL 108 (direct frequency response) support added for models with PEM
+       parts.
+  
+     Rotordynamics
+     - New 2D Bush (CBUSH2DA) and Squeeze File Damper (NLRSFDA) user-defined
+       subroutines enabled to include inertia & acceleration terms respectively.
+     - Integration of user-defined squeeze file damper libraries.
+     - Cross-coupling inertia terms specification for 2D Bush (CBUSH2D) element.
+     - Frequency dependent 2D Bush (PBSH2DT) property with tabular input.
+  
+     Composites
+     - Layered Solid and Solid-Shell elements available in linear solutions.
+  
+     Fatigue
+     - Control of the number of angles to be analyzed when using critical plane
+       analysis.
+     - New stress/strain output requests via FATIGUE case control.
+     - More control over the amound of results data returned at critical
+       locations.
+     - Significant performance improvement of SOL 112 duty cycle jobs.
+     - Direct access to dynamic load data in multi-channel time histroy files via
+       new TABLRPC entry.
+  
+     Topology Optimization
+     - Anisotropic materials support added.
+     - Over-hang constraints for additive manufacturing.
+     - New DRESP2 response types: Magnigtude of Displacement and
+       maximization of stiffness and frequency.
+1 
+     Nonlinear
+     - Nonlinear Buckling available in SOL 400
+     - Allow represtentation of imperfect structural geometry through
+       use modification of grid coordinates based on displacements or
+       modes from a previous run.
+     - MATVE limitation of five scale factor/time constraint data pairs
+       removed.
+  
+     HPC
+     - CASI (Iterative) Solver support available for inertia relief analysis.
+     - Faster Global Transformation Matrix for ACMS to speed up Nastran
+       interface to MSC Adams and AVL EXCITE.
+     - Improved GPU acceleration for FASTFR (Fast Frequency Response) and
+       MPYAD for large models.
+  
+     Nastran HDF5
+     - Support NLLOAD outputs in HDF5
+     - Add KHH/MHH/BHH matrix output control
+     - Support nonlinear buckling and imperfection outputs
+     - Support layered solid and solid shell composite elements
+  
+  
+     Documentation
+     The complete documentation set is provided in a separate installer and
+     when installed is available at: MSC_DOC_DIR/doc/pdf_nastran directory.
+     Where MSC_DOC_DIR is the directory where documentation was installed
+     This help set has cross references between documents, links to how-to
+     videos, and example files.
+  
+     Individual MSC Nastran documents are available for download from the
+       Simcompanion Website at:
+       http://simcompanion.mscsoftware.com/
+  
+     These documents were updated for the MSC Nastran 2020 SP1 Release
+  
+         1.  Installation and Operations Guide
+         2.  Quick Reference Guide
+         3.  Release Guide
+         4.  Linear Statics Analysis User's Guide
+         5.  Dynamic Analysis User's Guide
+         6.  Superelements User's Guide
+         7.  Rotordynamics User's Guide
+         8.  Demonstration Problems Manual
+         9.  Nastran Embedded Fatigue User's Guide
+        10.  Design Sensitivity and Optimization
+        11.   Nonlinear User's Guide SOL 400
+        12.  DMAP Programmer's Guide
+        13.  High Performance Computing User's Guide
+        14.  DEMATD Guide
+1       15.  Explicit Nonlinear (SOL 700) User's Guide
+  
+   Please refer to  MSC_DOC_DIR/doc/pdf_nastran/nastran_library.pdf
+   for the complete document set:
+  
+  
+   Feature Deprecation List
+   To streamline the MSC Nastran program and simplify ongoing maintenance
+   activiy, some obsolete capabilities have been identified and tagged for
+   removal from a future release of the program in late 2020. Please review
+   the list of features marked for deprecation below to ensure that there
+   will be no disruption to your use of MSC Nastran. If you see a feature
+   that you currently use and do not wish to lose, contact MSC Technical
+   Support to report it.
+  
+     Features tagged for removal:
+     - P-elements
+     - SOL 600 nonlinear solution sequence
+     - Unstructured one- and two-digit solution sequences (e.g. SOL 3, SOL 24)
+     - SOL 190 (DBTRANS)
+     - TAUCS solver
+     - MSGMESH
+     - Obsolete DMAP modules
+     - SSSALTERS
+  
+     Refer to the MSC Nastran 2020 Release Guide for more details.
+  
+  
+   Additional information about the release can be found at the MSC Nastran
+   Product Support page: http://simcompanion.mscsoftware.com
+  
+   The support page provides links to these valuable information:
+      * A searchable Knowledge Base containing examples and answers to thousands
+        of frequently asked questions written by MSC Software subject-matter
+        experts.
+      * Peer-to-peer Discussion Forums enabling you to post questions for your
+        MSC Software products and receive answers from other users worldwide.
+      * A list of known issues with the product and any workarounds.
+      * Instructions on how to contact technical support
+      * A mechanism for sending us product feedback or enhancement requests.
+      * Hardware and software requirements.
+      * Examples and Tutorials
+      * and much more.
+  
+   For information on training, please visit our Training web site
+  
+      http://www.mscsoftware.com/Contents/Services/Training/
+  
+1                                                       **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE     1
+                                                                                                                                    
+0        N A S T R A N    F I L E    A N D    S Y S T E M    P A R A M E T E R    E C H O                                           
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     NASTRAN BUFFSIZE=8193 $(D:/ARCHIVOS DE PROGRAMA/MSC.SOFTWARE/NAPA_SE/2020/NASTRA
+     $ DIRECT TEXT INPUT FOR NASTRAN SYSTEM CELL SECTION                             
+     NASTRAN SYSTEM(151)=1                                                           
+     NASTRAN BUFFSIZE=65537                                                          
+     NASTRAN DBCFACT=4                                                               
+1                                                       **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE     2
+                                                                                                                                    
+0        N A S T R A N    E X E C U T I V E    C O N T R O L    E C H O                                                             
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     SOL 101                                                                                 
+     CEND                                                                                    
+1    QUASI_STATIC_Y                                     **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE     3
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L    E C H O                                                        
+                 COMMAND                                                                                                            
+                 COUNT                                                                                                              
+                  1      $ DIRECT TEXT INPUT FOR GLOBAL CASE CONTROL DATA                                        
+                  2      TITLE = QUASI_STATIC_Y                                                                  
+                  3      ECHO = NONE                                                                             
+                  4      LINES=50000                                                                             
+                  5      SUBCASE 1                                                                               
+                  6       $SUBCASE NAME : QSTATIC_X                                                              
+                  7         SUBTITLE=QSTATIC_Y                                                                   
+                  8         SPC = 2                                                                              
+                  9         LOAD = 11                                                                            
+                 10         $ WEIGHTCHECK(PRINT, SET=ALL) = ALL                                                  
+                 11         $VECTOR(PLOT,SORT1,REAL) = ALL                                                       
+                 12      $   DISPLACEMENT(SORT1,REAL)=ALL                                                        
+                 13         $ BANDEJA B::NADA                                                                    
+                 14         SPCFORCES(SORT1,PHASE)=ALL                                                           
+                 15         $ BANDEJA B: NADA                                                                    
+                 16         STRESS(PLOT,SORT1,REAL,VONMISES,BILIN)=ALL                                           
+                 17      BEGIN BULK                                                                              
+1    QUASI_STATIC_Y                                     **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE     4
+                                                                                                                                    
+0                                                                                                                                   
+                                              I N P U T   B U L K   D A T A   E C H O                                               
+                 ENTRY                                                                                                              
+                 COUNT        .   1  ..   2  ..   3  ..   4  ..   5  ..   6  ..   7  ..   8  ..   9  ..  10  .                      
+                              $INCLUDE "../../Bandeja_B.bdf"
+                              $INCLUDE "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\1_10x26.bdf"
+                              $END OF INCLUDE "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\1_10x26.bdf"
+                              $INCLUDE "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\2_I1.bdf"
+                              $END OF INCLUDE "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\2_I1.bdf"
+                              $INCLUDE "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\3_Al_3.bdf"
+                              $END OF INCLUDE "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\3_Al_3.bdf"
+                              $INCLUDE "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Al_7075_T6.bdf"
+                              $END OF INCLUDE "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Al_7075_T6.bdf"
+                              $INCLUDE "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Grid.bdf"
+                              $END OF INCLUDE "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Grid.bdf"
+                              $END OF INCLUDE "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Grid.bdf"
+1    QUASI_STATIC_Y                                     **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE     5
+                                                                                                                                    
+0                                                                                                                                   
+                                        M O D E L   S U M M A R Y          BULK = 0
+                                   ENTRY NAME        NUMBER OF ENTRIES
+                                   ----------        -----------------
+                                         CBAR                     1390
+                                        CONM2                        1
+                                       CQUAD4                     6300
+                                         GRAV                        3
+                                         GRID                     6433
+                                         LOAD                        1
+                                         MAT1                        1
+                                       MDLPRM                        1
+                                        PARAM                        2
+                                        PBARL                        2
+                                       PSHELL                        1
+                                         RBE2                        4
+                                         SPC1                        1
+                                       SPCADD                        1
+
+ ^^^     
+ ^^^ >>> IFP OPERATIONS COMPLETE <<< 
+ ^^^     
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK PVT, TRAILER[101, 9, 0, 0, 0, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK CASECC, TRAILER[102, 1, 0, 1000, 0, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK GEOM1Q, TRAILER[101, 0, 0, 8, 0, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK EPT, TRAILER[101, 0, 4608, 0, 0, 0, 32])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK MPT, TRAILER[102, 32768, 0, 0, 0, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK GEOM2, TRAILER[103, 2, 256, 0, 8192, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK GEOM3S, TRAILER[104, 0, 0, 16, 8, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (DATA BLOCK GEOM3S IS NOT SUPPORTED)
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK GEOM4S, TRAILER[105, 0, 0, 0, 96, 2048, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (DATA BLOCK GEOM4S IS NOT SUPPORTED)
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK GEOM1, TRAILER[101, 0, 0, 8, 0, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK EDT, TRAILER[103, 0, 0, 0, 0, 0, 4])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK GEOM3, TRAILER[101, 0, 0, 16, 8, 0, 0])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeInput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK GEOM4, TRAILER[102, 0, 0, 0, 96, 2048, 0])
+1    QUASI_STATIC_Y                                     **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE     6
+                                                                                                                                    
+0                                                                                                                                   
+ *** USER INFORMATION MESSAGE 7310 (VECPRN)
+     ORIGIN OF SUPERELEMENT OR MODULE BASIC COORDINATE SYSTEM WILL BE USED AS REFERENCE LOCATION.
+     RESULTANTS ABOUT ORIGIN OF SUPERELEMENT OR MODULE BASIC COORDINATE SYSTEM IN SUPERELEMENT OR MODULE
+     BASIC SYSTEM COORDINATES.
+0                                                  OLOAD    RESULTANT       
+  SUBCASE/    LOAD
+  DAREA ID    TYPE       T1            T2            T3            R1            R2            R3
+0        1     FX    8.468895E-16     ----          ----          ----       0.000000E+00  2.645346E-16                             
+               FY       ----       8.692482E+03     ----      -3.924000E+02     ----      -6.096868E+00                             
+               FZ       ----          ----       0.000000E+00  0.000000E+00  0.000000E+00     ----                                  
+               MX       ----          ----          ----       4.242582E+02     ----          ----                                  
+               MY       ----          ----          ----          ----       0.000000E+00     ----                                  
+               MZ       ----          ----          ----          ----          ----       0.000000E+00                             
+             TOTALS  8.468895E-16  8.692482E+03  0.000000E+00  3.185824E+01  0.000000E+00 -6.096868E+00
+1    QUASI_STATIC_Y                                     **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE     7
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+0                                         G R I D   P O I N T   S I N G U L A R I T Y   T A B L E
+0                             POINT    TYPE   FAILED      STIFFNESS       OLD USET           NEW USET
+                               ID            DIRECTION      RATIO     EXCLUSIVE  UNION   EXCLUSIVE  UNION
+                             9647        G      1         0.00E+00          B        F         SB       S    *
+                             9647        G      2         0.00E+00          B        F         SB       S    *
+                             9647        G      3         0.00E+00          B        F         SB       S    *
+                             9647        G      4         0.00E+00          B        F         SB       S    *
+                             9647        G      5         0.00E+00          B        F         SB       S    *
+                             9647        G      6         0.00E+00          B        F         SB       S    *
+1    QUASI_STATIC_Y                                     **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE     8
+                                                                                                                                    
+0                                                                                                            SUBCASE 1              
+  
+ *** SYSTEM INFORMATION MESSAGE 4159 (DFMSA)
+     THE DECOMPOSITION OF KLL      YIELDS A MAXIMUM MATRIX-TO-FACTOR-DIAGONAL RATIO OF    1.963278E+02
+ *** USER INFORMATION MESSAGE 5293 (SSG3A)
+    FOR DATA BLOCK KLL     
+    LOAD SEQ. NO.             EPSILON              EXTERNAL WORK      EPSILONS LARGER THAN 0.001 ARE FLAGGED WITH ASTERISKS
+                1          6.9407743E-14          2.7530218E-02
+1    QUASI_STATIC_Y                                     **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE     9
+                                                                                                                                    
+0                                                                                                                                   
+ *** USER INFORMATION MESSAGE 7310 (VECPRN)
+     ORIGIN OF SUPERELEMENT OR MODULE BASIC COORDINATE SYSTEM WILL BE USED AS REFERENCE LOCATION.
+     RESULTANTS ABOUT ORIGIN OF SUPERELEMENT OR MODULE BASIC COORDINATE SYSTEM IN SUPERELEMENT OR MODULE
+     BASIC SYSTEM COORDINATES.
+0                                                  SPCFORCE RESULTANT       
+  SUBCASE/    LOAD
+  DAREA ID    TYPE       T1            T2            T3            R1            R2            R3
+0        1     FX    2.735945E-11     ----          ----          ----       0.000000E+00 -3.697748E-01                             
+               FY       ----      -8.692482E+03     ----       0.000000E+00     ----       6.466643E+00                             
+               FZ       ----          ----      -2.562306E-11 -3.185824E+01  9.276449E-13     ----                                  
+               MX       ----          ----          ----       0.000000E+00     ----          ----                                  
+               MY       ----          ----          ----          ----       0.000000E+00     ----                                  
+               MZ       ----          ----          ----          ----          ----       0.000000E+00                             
+             TOTALS  2.735945E-11 -8.692482E+03 -2.562306E-11 -3.185824E+01  9.276449E-13  6.096868E+00
+1    QUASI_STATIC_Y                                     **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE    10
+                                                                                                                                    
+0                                                                                                                                   
+0                                                  MAXIMUM  SPCFORCES       
+  SUBCASE/
+  DAREA ID        T1             T2             T3             R1             R2             R3
+0        1   3.5566946E+01  1.4478370E+02  7.8108961E+01  0.0000000E+00  0.0000000E+00  0.0000000E+00
+1    QUASI_STATIC_Y                                     **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE    11
+                                                                                                                                    
+0                                                                                                                                   
+0                                                  MAXIMUM  DISPLACEMENTS   
+  SUBCASE/
+  DAREA ID        T1             T2             T3             R1             R2             R3
+0        1   1.6164372E-06  2.4137077E-05  1.2632733E-05  2.1806374E-04  7.0787710E-05  6.3219479E-05
+1    QUASI_STATIC_Y                                     **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE    12
+                                                                                                                                    
+0                                                                                                                                   
+0                                                  MAXIMUM  APPLIED LOADS   
+  SUBCASE/
+  DAREA ID        T1             T2             T3             R1             R2             R3
+0        1   4.8194481E-17  4.9050000E+03  0.0000000E+00  3.9239999E+02  0.0000000E+00  0.0000000E+00
+1    QUASI_STATIC_Y                                     **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE    13
+     QSTATIC_Y                                                                                                                      
+0                                                                                                            SUBCASE 1              
+ 
+                               F O R C E S   O F   S I N G L E - P O I N T   C O N S T R A I N T
+ 
+      POINT ID.   TYPE          T1             T2             T3             R1             R2             R3
+          2000      G     -2.904348E+01  -8.559594E+01   5.674637E+00   0.0            0.0            0.0
+          2081      G     -2.013336E+01  -4.118587E+01  -5.577765E+00   0.0            0.0            0.0
+          2082      G     -1.730575E+01  -4.660666E+01  -3.560240E+00   0.0            0.0            0.0
+          2083      G     -1.541392E+01  -5.027178E+01  -2.205886E+00   0.0            0.0            0.0
+          2084      G     -1.420741E+01  -5.310829E+01  -1.189717E+00   0.0            0.0            0.0
+          2085      G     -1.350248E+01  -5.556310E+01  -3.419484E-01   0.0            0.0            0.0
+          2086      G     -1.320425E+01  -5.778093E+01   4.578875E-01   0.0            0.0            0.0
+          2087      G     -1.328675E+01  -5.972557E+01   1.321969E+00   0.0            0.0            0.0
+          2088      G     -1.379009E+01  -6.117590E+01   2.375502E+00   0.0            0.0            0.0
+          2089      G     -1.483044E+01  -6.164195E+01   3.796462E+00   0.0            0.0            0.0
+          2090      G     -2.177815E+01  -1.289027E+02   5.078903E+00   0.0            0.0            0.0
+          2172      G     -1.316247E+01  -6.338617E+01  -3.514684E+00   0.0            0.0            0.0
+          2173      G     -1.041936E+01  -6.744848E+01  -2.367128E+00   0.0            0.0            0.0
+          2174      G     -8.215639E+00  -6.985293E+01  -1.655355E+00   0.0            0.0            0.0
+          2175      G     -6.361976E+00  -7.139850E+01  -1.197648E+00   0.0            0.0            0.0
+          2176      G     -4.703418E+00  -7.245147E+01  -9.117260E-01   0.0            0.0            0.0
+          2177      G     -3.127289E+00  -7.311129E+01  -7.568424E-01   0.0            0.0            0.0
+          2178      G     -1.542009E+00  -7.329522E+01  -7.127067E-01   0.0            0.0            0.0
+          2179      G      1.420730E-01  -7.268993E+01  -7.843258E-01   0.0            0.0            0.0
+          2180      G      2.001155E+00  -7.062976E+01  -1.021734E+00   0.0            0.0            0.0
+          2181      G      4.552188E+00  -1.447837E+02   5.103722E+00   0.0            0.0            0.0
+          2263      G      4.686485E+00  -7.063085E+01   1.158828E+00   0.0            0.0            0.0
+          2264      G      5.539140E+00  -7.177656E+01   6.271973E-01   0.0            0.0            0.0
+          2265      G      6.537248E+00  -7.161953E+01   1.703127E-01   0.0            0.0            0.0
+          2266      G      7.676776E+00  -7.075531E+01  -2.689747E-01   0.0            0.0            0.0
+          2267      G      8.991003E+00  -6.945823E+01  -7.489002E-01   0.0            0.0            0.0
+          2268      G      1.054612E+01  -6.779453E+01  -1.335412E+00   0.0            0.0            0.0
+          2269      G      1.245369E+01  -6.565024E+01  -2.109881E+00   0.0            0.0            0.0
+          2270      G      1.489804E+01  -6.262849E+01  -3.199501E+00   0.0            0.0            0.0
+          2271      G      1.811981E+01  -5.789793E+01  -4.855875E+00   0.0            0.0            0.0
+          2272      G      2.843278E+01  -1.186640E+02   6.988259E+00   0.0            0.0            0.0
+          2354      G      1.942122E+01  -5.587647E+01   5.382723E+00   0.0            0.0            0.0
+          2355      G      1.744412E+01  -5.444286E+01   3.379955E+00   0.0            0.0            0.0
+          2356      G      1.621539E+01  -5.223092E+01   1.945827E+00   0.0            0.0            0.0
+          2357      G      1.556516E+01  -4.963369E+01   8.072267E-01   0.0            0.0            0.0
+          2358      G      1.541603E+01  -4.683349E+01  -2.097030E-01   0.0            0.0            0.0
+          2359      G      1.577183E+01  -4.385406E+01  -1.249633E+00   0.0            0.0            0.0
+          2360      G      1.671955E+01  -4.056135E+01  -2.459587E+00   0.0            0.0            0.0
+          2361      G      1.845501E+01  -3.655019E+01  -4.041280E+00   0.0            0.0            0.0
+          2362      G      2.125967E+01  -3.099722E+01  -6.424893E+00   0.0            0.0            0.0
+          2363      G      2.321874E+01  -5.549994E+01   2.164249E+00   0.0            0.0            0.0
+          2374      G      3.556695E+01  -4.837054E+01  -8.093723E+00   0.0            0.0            0.0
+          2375      G      1.869174E+01  -2.348154E+01   6.150290E+00   0.0            0.0            0.0
+          2382      G      1.740472E+01  -2.041910E+01   4.416146E+00   0.0            0.0            0.0
+          2389      G      1.638955E+01  -1.807947E+01   2.959756E+00   0.0            0.0            0.0
+          2398      G      1.542989E+01  -1.629238E+01   1.813150E+00   0.0            0.0            0.0
+          2414      G      1.433427E+01  -1.493166E+01   8.560284E-01   0.0            0.0            0.0
+          2421      G      1.291081E+01  -1.392404E+01  -9.283420E-03   0.0            0.0            0.0
+          2430      G      1.088465E+01  -1.322911E+01  -8.721080E-01   0.0            0.0            0.0
+          2437      G      7.794492E+00  -1.281034E+01  -1.811093E+00   0.0            0.0            0.0
+          2444      G      2.572413E+00  -1.250447E+01  -2.852877E+00   0.0            0.0            0.0
+          2445      G      1.158983E+01  -1.543702E+01   4.477028E+00   0.0            0.0            0.0
+          2446      G      1.038913E+01  -1.429285E+01   3.347590E+00   0.0            0.0            0.0
+          2447      G      9.372666E+00  -1.311686E+01   2.500304E+00   0.0            0.0            0.0
+          2448      G      8.516367E+00  -1.186834E+01   1.828754E+00   0.0            0.0            0.0
+          2449      G      7.800271E+00  -1.048785E+01   1.265160E+00   0.0            0.0            0.0
+          2450      G      7.202899E+00  -8.893900E+00   7.659434E-01   0.0            0.0            0.0
+          2451      G      6.700132E+00  -6.965206E+00   3.087277E-01   0.0            0.0            0.0
+          2452      G      6.261028E+00  -4.526082E+00  -1.139915E-01   0.0            0.0            0.0
+          2453      G      5.973126E+00  -1.035435E+00  -5.142007E-01   0.0            0.0            0.0
+          2454      G      6.036248E+00  -2.957330E+00   3.420690E+01   0.0            0.0            0.0
+          2455      G     -1.517749E+01  -1.389321E+01   7.810896E+01   0.0            0.0            0.0
+          2536      G     -1.703440E+01  -8.706811E+00  -6.987876E+00   0.0            0.0            0.0
+          2537      G     -1.483363E+01  -1.706243E+01  -4.525167E+00   0.0            0.0            0.0
+          2538      G     -1.362169E+01  -2.240872E+01  -2.741828E+00   0.0            0.0            0.0
+          2539      G     -1.316949E+01  -2.641873E+01  -1.361961E+00   0.0            0.0            0.0
+          2540      G     -1.332847E+01  -2.979590E+01  -1.785028E-01   0.0            0.0            0.0
+          2541      G     -1.403705E+01  -3.283211E+01   9.769738E-01   0.0            0.0            0.0
+          2542      G     -1.531955E+01  -3.559377E+01   2.269393E+00   0.0            0.0            0.0
+          2543      G     -1.728895E+01  -3.796960E+01   3.899118E+00   0.0            0.0            0.0
+          2544      G     -2.014580E+01  -3.961425E+01   6.182216E+00   0.0            0.0            0.0
+          2556      G     -2.697413E+01  -1.674734E+01  -3.561626E+00   0.0            0.0            0.0
+          2557      G     -1.723528E+01  -1.416658E+01  -6.956347E-01   0.0            0.0            0.0
+          2564      G     -1.624944E+01  -1.410798E+01  -1.114042E+00   0.0            0.0            0.0
+          2571      G     -1.540491E+01  -1.430907E+01  -1.747235E+00   0.0            0.0            0.0
+          2580      G     -1.456136E+01  -1.478659E+01  -2.574253E+00   0.0            0.0            0.0
+          2596      G     -1.355209E+01  -1.561471E+01  -3.657701E+00   0.0            0.0            0.0
+          2603      G     -1.220420E+01  -1.689800E+01  -5.123002E+00   0.0            0.0            0.0
+          2612      G     -1.030535E+01  -1.877499E+01  -7.151386E+00   0.0            0.0            0.0
+          2619      G     -7.612250E+00  -2.141758E+01  -9.899130E+00   0.0            0.0            0.0
+          2626      G     -3.698226E+00  -2.503334E+01  -1.295409E+01   0.0            0.0            0.0
+          3093      G      1.517354E+01  -2.468983E+01  -7.783998E+00   0.0            0.0            0.0
+          3094      G      1.606182E+01  -2.223312E+01  -5.777578E+00   0.0            0.0            0.0
+          3095      G      1.661067E+01  -2.046108E+01  -4.152905E+00   0.0            0.0            0.0
+          3096      G      1.691275E+01  -1.920081E+01  -2.991468E+00   0.0            0.0            0.0
+          3097      G      1.702552E+01  -1.831991E+01  -2.152519E+00   0.0            0.0            0.0
+          3098      G      1.702120E+01  -1.772031E+01  -1.526223E+00   0.0            0.0            0.0
+          3099      G      1.697969E+01  -1.733266E+01  -1.039938E+00   0.0            0.0            0.0
+          3100      G      1.700984E+01  -1.711048E+01  -6.513511E-01   0.0            0.0            0.0
+          3101      G      1.726052E+01  -1.703335E+01  -3.607871E-01   0.0            0.0            0.0
+          3102      G      2.872146E+01  -1.864221E+01  -1.180352E+00   0.0            0.0            0.0
+          3557      G     -3.029326E+01  -5.535895E+01  -5.332324E+00   0.0            0.0            0.0
+          4094      G     -1.404205E+01  -1.527922E+01  -7.668687E-01   0.0            0.0            0.0
+          4095      G     -1.480856E+01  -1.549254E+01  -3.910186E-01   0.0            0.0            0.0
+          4096      G     -1.516113E+01  -1.580516E+01  -6.297132E-02   0.0            0.0            0.0
+          4097      G     -1.530793E+01  -1.624787E+01   2.612826E-01   0.0            0.0            0.0
+          4098      G     -1.533126E+01  -1.683111E+01   6.083991E-01   0.0            0.0            0.0
+          4099      G     -1.529291E+01  -1.757339E+01   1.004762E+00   0.0            0.0            0.0
+          4100      G     -1.525746E+01  -1.850974E+01   1.476664E+00   0.0            0.0            0.0
+          4101      G     -1.532481E+01  -1.970093E+01   2.036305E+00   0.0            0.0            0.0
+          4102      G     -1.568007E+01  -2.122574E+01   2.589393E+00   0.0            0.0            0.0
+          4194      G      1.032833E+01  -5.623132E+01  -2.476866E+00   0.0            0.0            0.0
+          4195      G      6.695707E+00  -1.791830E+01  -4.867051E-01   0.0            0.0            0.0
+          4202      G      7.363307E+00  -1.764297E+01  -1.650936E-01   0.0            0.0            0.0
+          4209      G      8.312254E+00  -1.743154E+01  -6.755172E-02   0.0            0.0            0.0
+          4218      G      9.335533E+00  -1.727573E+01  -7.497135E-02   0.0            0.0            0.0
+          4234      G      1.035236E+01  -1.716685E+01  -1.286816E-01   0.0            0.0            0.0
+          4241      G      1.131661E+01  -1.710428E+01  -2.138408E-01   0.0            0.0            0.0
+          4250      G      1.219154E+01  -1.708976E+01  -3.362219E-01   0.0            0.0            0.0
+          4257      G      1.294777E+01  -1.712408E+01  -5.033149E-01   0.0            0.0            0.0
+          4264      G      1.354014E+01  -1.719728E+01  -7.089686E-01   0.0            0.0            0.0
+          5195      G     -1.458415E+01  -1.896020E+01   3.703640E-01   0.0            0.0            0.0
+          5196      G     -9.280102E+00  -1.791705E+01   1.654767E-02   0.0            0.0            0.0
+          5203      G     -9.623182E+00  -1.796530E+01  -2.015467E-01   0.0            0.0            0.0
+          5210      G     -1.014317E+01  -1.807686E+01  -4.345716E-01   0.0            0.0            0.0
+          5219      G     -1.072025E+01  -1.827020E+01  -6.915776E-01   0.0            0.0            0.0
+          5235      G     -1.127477E+01  -1.856590E+01  -1.003111E+00   0.0            0.0            0.0
+          5242      G     -1.174709E+01  -1.899402E+01  -1.409767E+00   0.0            0.0            0.0
+          5251      G     -1.208608E+01  -1.959627E+01  -1.963699E+00   0.0            0.0            0.0
+          5258      G     -1.225180E+01  -2.043072E+01  -2.709327E+00   0.0            0.0            0.0
+          5265      G     -1.215647E+01  -2.157830E+01  -3.539580E+00   0.0            0.0            0.0
+          5357      G      3.000423E+00  -1.785348E+01   6.608765E-02   0.0            0.0            0.0
+          5358      G      2.198323E+00  -1.768072E+01  -1.155409E-01   0.0            0.0            0.0
+          5359      G      1.146491E+00  -1.756649E+01  -1.270374E-01   0.0            0.0            0.0
+          5360      G      7.223874E-04  -1.750137E+01  -8.241516E-02   0.0            0.0            0.0
+          5361      G     -1.184576E+00  -1.747912E+01  -2.189697E-02   0.0            0.0            0.0
+          5362      G     -2.370333E+00  -1.749620E+01   5.165693E-02   0.0            0.0            0.0
+          5363      G     -3.526992E+00  -1.754926E+01   1.504136E-01   0.0            0.0            0.0
+          5364      G     -4.639421E+00  -1.763403E+01   2.829931E-01   0.0            0.0            0.0
+          5365      G     -5.721594E+00  -1.774493E+01   4.269182E-01   0.0            0.0            0.0
+          5366      G     -1.452428E+01  -1.895767E+01  -3.318739E-01   0.0            0.0            0.0
+          5741      G      1.026510E+01  -5.622784E+01   2.512831E+00   0.0            0.0            0.0
+          6278      G     -5.743677E+00  -1.774285E+01  -4.269010E-01   0.0            0.0            0.0
+          6279      G     -4.658033E+00  -1.763228E+01  -2.833352E-01   0.0            0.0            0.0
+          6280      G     -3.544820E+00  -1.754843E+01  -1.496691E-01   0.0            0.0            0.0
+          6281      G     -2.388046E+00  -1.749632E+01  -4.945743E-02   0.0            0.0            0.0
+          6282      G     -1.202415E+00  -1.748041E+01   2.548316E-02   0.0            0.0            0.0
+          6283      G     -1.824217E-02  -1.750483E+01   8.764476E-02   0.0            0.0            0.0
+          6284      G      1.124912E+00  -1.757304E+01   1.348252E-01   0.0            0.0            0.0
+          6285      G      2.174126E+00  -1.769122E+01   1.274866E-01   0.0            0.0            0.0
+          6286      G      2.976563E+00  -1.786716E+01  -4.982860E-02   0.0            0.0            0.0
+          6378      G     -3.021173E+01  -5.543200E+01   5.507042E+00   0.0            0.0            0.0
+          6379      G     -1.214564E+01  -2.153513E+01   3.502907E+00   0.0            0.0            0.0
+          6386      G     -1.224658E+01  -2.039890E+01   2.679937E+00   0.0            0.0            0.0
+          6393      G     -1.208284E+01  -1.957300E+01   1.941735E+00   0.0            0.0            0.0
+          6402      G     -1.174425E+01  -1.897722E+01   1.393704E+00   0.0            0.0            0.0
+          6418      G     -1.127149E+01  -1.855373E+01   9.916776E-01   0.0            0.0            0.0
+          6425      G     -1.071485E+01  -1.826099E+01   6.835627E-01   0.0            0.0            0.0
+          6434      G     -1.013319E+01  -1.806960E+01   4.288822E-01   0.0            0.0            0.0
+          6441      G     -9.606583E+00  -1.795968E+01   1.976822E-01   0.0            0.0            0.0
+          6448      G     -9.254894E+00  -1.791288E+01  -1.790140E-02   0.0            0.0            0.0
+          7370      G      6.668996E+00  -1.793493E+01   4.771200E-01   0.0            0.0            0.0
+          7371      G      7.339881E+00  -1.765518E+01   1.563427E-01   0.0            0.0            0.0
+          7372      G      8.291949E+00  -1.743976E+01   6.064206E-02   0.0            0.0            0.0
+          7373      G      9.317853E+00  -1.728107E+01   6.998931E-02   0.0            0.0            0.0
+          7374      G      1.033605E+01  -1.717062E+01   1.253500E-01   0.0            0.0            0.0
+          7375      G      1.130004E+01  -1.710714E+01   2.117514E-01   0.0            0.0            0.0
+          7376      G      1.217373E+01  -1.709196E+01   3.351371E-01   0.0            0.0            0.0
+          7377      G      1.292829E+01  -1.712592E+01   5.032143E-01   0.0            0.0            0.0
+          7378      G      1.351855E+01  -1.719860E+01   7.099437E-01   0.0            0.0            0.0
+          7379      G      2.867145E+01  -1.864432E+01   1.199091E+00   0.0            0.0            0.0
+          7916      G      1.724215E+01  -1.703304E+01   3.619575E-01   0.0            0.0            0.0
+          7917      G      1.699345E+01  -1.711061E+01   6.524641E-01   0.0            0.0            0.0
+          7918      G      1.696410E+01  -1.733338E+01   1.041914E+00   0.0            0.0            0.0
+          7919      G      1.700634E+01  -1.772194E+01   1.529586E+00   0.0            0.0            0.0
+          7920      G      1.701127E+01  -1.832318E+01   2.157778E+00   0.0            0.0            0.0
+          7921      G      1.689832E+01  -1.920674E+01   2.998726E+00   0.0            0.0            0.0
+          7922      G      1.659524E+01  -2.047010E+01   4.162113E+00   0.0            0.0            0.0
+          7923      G      1.604546E+01  -2.224523E+01   5.788299E+00   0.0            0.0            0.0
+          7924      G      1.515982E+01  -2.470592E+01   7.803196E+00   0.0            0.0            0.0
+          7925      G      3.553476E+01  -4.837169E+01   8.098419E+00   0.0            0.0            0.0
+          8087      G     -1.564462E+01  -2.119549E+01  -2.544507E+00   0.0            0.0            0.0
+          8088      G     -1.530586E+01  -1.966747E+01  -2.015782E+00   0.0            0.0            0.0
+          8089      G     -1.525522E+01  -1.846641E+01  -1.478460E+00   0.0            0.0            0.0
+          8090      G     -1.530482E+01  -1.751423E+01  -1.025857E+00   0.0            0.0            0.0
+          8091      G     -1.535380E+01  -1.674995E+01  -6.495661E-01   0.0            0.0            0.0
+          8092      G     -1.533474E+01  -1.613859E+01  -3.252151E-01   0.0            0.0            0.0
+          8093      G     -1.517708E+01  -1.565921E+01  -2.771601E-02   0.0            0.0            0.0
+          8094      G     -1.478566E+01  -1.529803E+01   2.697878E-01   0.0            0.0            0.0
+          8095      G     -1.393302E+01  -1.501901E+01   6.071275E-01   0.0            0.0            0.0
+          8096      G     -2.718512E+01  -1.633923E+01   3.381582E+00   0.0            0.0            0.0
+          8562      G     -1.368755E+01  -2.008140E+01  -5.780950E+01   0.0            0.0            0.0
+          8563      G     -6.300516E+00  -2.006676E+01   8.844184E+00   0.0            0.0            0.0
+          8570      G     -9.349105E+00  -1.770083E+01   6.861591E+00   0.0            0.0            0.0
+          8577      G     -1.143787E+01  -1.601899E+01   5.021418E+00   0.0            0.0            0.0
+          8586      G     -1.295232E+01  -1.486363E+01   3.618853E+00   0.0            0.0            0.0
+          8602      G     -1.405879E+01  -1.411462E+01   2.580542E+00   0.0            0.0            0.0
+          8609      G     -1.490215E+01  -1.367967E+01   1.795838E+00   0.0            0.0            0.0
+          8618      G     -1.560705E+01  -1.349073E+01   1.179817E+00   0.0            0.0            0.0
+          8625      G     -1.629959E+01  -1.350084E+01   6.945741E-01   0.0            0.0            0.0
+          8632      G     -1.706929E+01  -1.371153E+01   3.794348E-01   0.0            0.0            0.0
+          8653      G     -3.028560E+01  -8.199135E+01  -2.945869E+01   0.0            0.0            0.0
+          8744      G     -2.209229E+01  -1.287824E+02  -4.822085E+00   0.0            0.0            0.0
+          8835      G      4.510293E+00  -1.446989E+02  -5.052958E+00   0.0            0.0            0.0
+          8926      G      2.842057E+01  -1.185918E+02  -6.961674E+00   0.0            0.0            0.0
+          9017      G      2.322370E+01  -5.548073E+01  -2.160756E+00   0.0            0.0            0.0
+          9109      G     -1.357639E+01  -3.911068E+01  -1.645247E+00   0.0            0.0            0.0
+          9116      G     -1.297688E+01  -3.600010E+01  -8.977575E-01   0.0            0.0            0.0
+          9124      G     -1.248171E+01  -3.301973E+01  -3.502019E-01   0.0            0.0            0.0
+          9132      G     -1.210808E+01  -3.007281E+01   1.402092E-01   0.0            0.0            0.0
+          9148      G     -1.186450E+01  -2.709634E+01   6.517101E-01   0.0            0.0            0.0
+          9155      G     -1.177255E+01  -2.404256E+01   1.241864E+00   0.0            0.0            0.0
+          9164      G     -1.187073E+01  -2.084470E+01   1.982406E+00   0.0            0.0            0.0
+          9171      G     -1.220425E+01  -1.736146E+01   3.015336E+00   0.0            0.0            0.0
+          9178      G     -1.266551E+01  -1.337550E+01   4.500224E+00   0.0            0.0            0.0
+          9200      G     -1.514673E+01  -6.158260E+01  -3.595674E+00   0.0            0.0            0.0
+          9207      G     -1.424409E+01  -6.114614E+01  -2.101618E+00   0.0            0.0            0.0
+          9215      G     -1.393870E+01  -5.971744E+01  -9.343260E-01   0.0            0.0            0.0
+          9223      G     -1.414200E+01  -5.779153E+01   9.817528E-02   0.0            0.0            0.0
+          9239      G     -1.485316E+01  -5.559245E+01   1.144340E+00   0.0            0.0            0.0
+          9246      G     -1.615402E+01  -5.315950E+01   2.351082E+00   0.0            0.0            0.0
+          9255      G     -1.822352E+01  -5.035430E+01   3.891253E+00   0.0            0.0            0.0
+          9262      G     -2.137204E+01  -4.673900E+01   6.019295E+00   0.0            0.0            0.0
+          9269      G     -2.602608E+01  -4.141156E+01   9.191840E+00   0.0            0.0            0.0
+          9291      G      1.988891E+00  -7.058858E+01   1.035245E+00   0.0            0.0            0.0
+          9298      G      1.215685E-01  -7.266047E+01   7.961052E-01   0.0            0.0            0.0
+          9306      G     -1.569539E+00  -7.327001E+01   7.249189E-01   0.0            0.0            0.0
+          9314      G     -3.163137E+00  -7.308852E+01   7.711245E-01   0.0            0.0            0.0
+          9330      G     -4.750201E+00  -7.243088E+01   9.299989E-01   0.0            0.0            0.0
+          9337      G     -6.423782E+00  -7.137910E+01   1.222345E+00   0.0            0.0            0.0
+          9346      G     -8.297878E+00  -6.983268E+01   1.689829E+00   0.0            0.0            0.0
+          9353      G     -1.053127E+01  -6.742397E+01   2.416945E+00   0.0            0.0            0.0
+          9360      G     -1.331937E+01  -6.335171E+01   3.591174E+00   0.0            0.0            0.0
+          9382      G      1.812747E+01  -5.786470E+01   4.865944E+00   0.0            0.0            0.0
+          9389      G      1.489830E+01  -6.260588E+01   3.206631E+00   0.0            0.0            0.0
+          9397      G      1.244995E+01  -6.562829E+01   2.114643E+00   0.0            0.0            0.0
+          9405      G      1.054023E+01  -6.777138E+01   1.338106E+00   0.0            0.0            0.0
+          9421      G      8.984701E+00  -6.943405E+01   7.498866E-01   0.0            0.0            0.0
+          9428      G      7.669725E+00  -7.073065E+01   2.684364E-01   0.0            0.0            0.0
+          9437      G      6.529279E+00  -7.159451E+01  -1.724332E-01   0.0            0.0            0.0
+          9444      G      5.529857E+00  -7.175101E+01  -6.312414E-01   0.0            0.0            0.0
+          9451      G      4.674964E+00  -7.060315E+01  -1.163902E+00   0.0            0.0            0.0
+          9473      G      2.127542E+01  -3.097726E+01   6.433084E+00   0.0            0.0            0.0
+          9480      G      1.846235E+01  -3.653791E+01   4.047534E+00   0.0            0.0            0.0
+          9488      G      1.672235E+01  -4.054787E+01   2.463732E+00   0.0            0.0            0.0
+          9496      G      1.577220E+01  -4.383870E+01   1.251617E+00   0.0            0.0            0.0
+          9512      G      1.541633E+01  -4.681615E+01   2.097736E-01   0.0            0.0            0.0
+          9519      G      1.556537E+01  -4.961510E+01  -8.088353E-01   0.0            0.0            0.0
+          9528      G      1.621494E+01  -5.221207E+01  -1.949185E+00   0.0            0.0            0.0
+          9535      G      1.744336E+01  -5.442514E+01  -3.386187E+00   0.0            0.0            0.0
+          9542      G      1.942137E+01  -5.586078E+01  -5.393043E+00   0.0            0.0            0.0
+          9554      G      1.158779E+01  -1.542968E+01  -4.488166E+00   0.0            0.0            0.0
+          9555      G      1.038200E+01  -1.428113E+01  -3.352066E+00   0.0            0.0            0.0
+          9556      G      9.366076E+00  -1.310722E+01  -2.500870E+00   0.0            0.0            0.0
+          9557      G      8.513315E+00  -1.186377E+01  -1.827534E+00   0.0            0.0            0.0
+          9558      G      7.800965E+00  -1.048648E+01  -1.263420E+00   0.0            0.0            0.0
+          9559      G      7.206331E+00  -8.892657E+00  -7.638095E-01   0.0            0.0            0.0
+          9560      G      6.705134E+00  -6.962867E+00  -3.062720E-01   0.0            0.0            0.0
+          9561      G      6.268454E+00  -4.522610E+00   1.163601E-01   0.0            0.0            0.0
+          9562      G      5.980337E+00  -1.030044E+00   5.164172E-01   0.0            0.0            0.0
+          9563      G      6.045430E+00  -2.959438E+00  -3.425039E+01   0.0            0.0            0.0
+          9564      G      2.569798E+00  -1.251132E+01   2.856685E+00   0.0            0.0            0.0
+          9571      G      7.785794E+00  -1.281445E+01   1.812475E+00   0.0            0.0            0.0
+          9578      G      1.087339E+01  -1.323210E+01   8.716728E-01   0.0            0.0            0.0
+          9587      G      1.289883E+01  -1.392811E+01   7.277509E-03   0.0            0.0            0.0
+          9603      G      1.432445E+01  -1.493724E+01  -8.595656E-01   0.0            0.0            0.0
+          9610      G      1.542229E+01  -1.629939E+01  -1.818704E+00   0.0            0.0            0.0
+          9619      G      1.638249E+01  -1.808969E+01  -2.968437E+00   0.0            0.0            0.0
+          9626      G      1.739601E+01  -2.043462E+01  -4.428658E+00   0.0            0.0            0.0
+          9633      G      1.867977E+01  -2.350361E+01  -6.162849E+00   0.0            0.0            0.0
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeOutput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK OES1X, TRAILER[101, 63, 5, 3, 21, 0, 2])
+ *** USER INFORMATION MESSAGE 3 (crdb::nastran::Processor::writeOutput)
+ *** USER INFORMATION MESSAGE  (WRITE DATA BLOCK OQG1, TRAILER[102, 0, 51464, 0, 0, 0, 1])
+1    QUASI_STATIC_Y                                     **STUDENT EDITION*      MAY   3, 2021  MSC Nastran  8/ 4/20   PAGE    14
+                                                                                                                                    
+0                                                                                                                                   
+ * * * *  D B D I C T   P R I N T  * * * *      SUBDMAP = PRTSUM  ,  DMAP STATEMENT NO.     71
+
+
+
+0                                   * * * *  A N A L Y S I S  S U M M A R Y  T A B L E  * * * *
+0 SEID  PEID PROJ VERS APRCH      SEMG SEMR SEKR SELG SELR MODES DYNRED SOLLIN PVALID SOLNL LOOPID DESIGN CYCLE SENSITIVITY
+ --------------------------------------------------------------------------------------------------------------------------
+     0     0    1    1 '        '    T    T    T    T    T     F      F      T      0     F     -1            0           F
+0SEID = SUPERELEMENT ID.
+ PEID = PRIMARY SUPERELEMENT ID OF IMAGE SUPERELEMENT.
+ PROJ = PROJECT ID NUMBER.
+ VERS = VERSION ID.
+ APRCH = BLANK FOR STRUCTURAL ANALYSIS.  HEAT FOR HEAT TRANSFER ANALYSIS.
+ SEMG = STIFFNESS AND MASS MATRIX GENERATION STEP.
+ SEMR = MASS MATRIX REDUCTION STEP (INCLUDES EIGENVALUE SOLUTION FOR MODES).
+ SEKR = STIFFNESS MATRIX REDUCTION STEP.
+ SELG = LOAD MATRIX GENERATION STEP.
+ SELR = LOAD MATRIX REDUCTION STEP. 
+ MODES = T (TRUE) IF NORMAL MODES OR BUCKLING MODES CALCULATED.
+ DYNRED = T (TRUE) MEANS GENERALIZED DYNAMIC AND/OR COMPONENT MODE REDUCTION PERFORMED.
+ SOLLIN = T (TRUE) IF LINEAR SOLUTION EXISTS IN DATABASE.
+ PVALID = P-DISTRIBUTION ID OF P-VALUE FOR P-ELEMENTS
+ LOOPID = THE LAST LOOPID VALUE USED IN THE NONLINEAR ANALYSIS.  USEFUL FOR RESTARTS.
+ SOLNL = T (TRUE) IF NONLINEAR SOLUTION EXISTS IN DATABASE.
+ DESIGN CYCLE = THE LAST DESIGN CYCLE (ONLY VALID IN OPTIMIZATION).
+ SENSITIVITY = SENSITIVITY MATRIX GENERATION FLAG.
+ 
+ No PARAM values were set in the Control File.
+ 
+1                                        * * * END OF JOB * * *
+ 
+ 
+ No Symbolic Replacement variables or values were specified.
+
