@@ -3,10 +3,10 @@ CONM2    1001    1101    -1      10.     0.      0.      0.
 $ Elements and Element Properties for region : masa_2
 CONM2    1002    1102    -1      41.     0.      0.      0.
 $ Rigidizador_exterior
-INCLUDE '1_26x10.bdf'
+INCLUDE '1_10x10.bdf'
 
 $ Rigidizador_interior
-INCLUDE '2_I1.bdf'
+INCLUDE '2_O1.bdf'
 
 $ Elements and Element Properties for region : tornillo
 PBUSH    3       K       2.05+11 2.05+11 2.05+11 205.    8.+10   8.+10
@@ -22,9 +22,9 @@ CBUSH    691     3       6742    691     0.      1.      0.
 CBUSH    701     3       6651    701     0.      1.      0.
 CBUSH    711     3       6560    711     0.      1.      0.
 $ Bandeja
-INCLUDE '3_Al_3.bdf'
+INCLUDE '3_comp3.bdf'
 $ Material
-INCLUDE 'Al_7075_T6.bdf'
+INCLUDE 'CFRP.bdf'
 
 $ Multipoint Constraints of the Entire Model
 RBE2     1       1101    123     4376

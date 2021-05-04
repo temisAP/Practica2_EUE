@@ -26,7 +26,7 @@ Diseño de bandejas:
 		malla curvas	: nodos 10000:11529, elementos 30000:31390
 		
 		rigidizadores exteriores: Curve 1:7 43:61
-		rigidizadores interiores: Curve 61:174
+		rigidizadores interiores: Curve 62:174
 		bandeja: Surface 3:86
 	
 	
