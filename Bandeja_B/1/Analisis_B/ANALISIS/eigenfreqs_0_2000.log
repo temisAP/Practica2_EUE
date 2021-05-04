@@ -7,7 +7,7 @@ MEM=527MB      $
 MACH='Intel'
 OPER='Windows 10 Pro'
 OSV='6.2 9200'
-MODEL='Xeon/1890 (temis)'
+MODEL='Xeon/1693 (temis)'
 NPROC='8'
 CONFIG=6
 NPROC=8
@@ -15,8 +15,8 @@ symbol=DELDIR='d:/archivos de programa/msc.software/napa_se/2020/nastran/msc2020
 symbol=DEMODIR='d:/archivos de programa/msc.software/napa_se/2020/nastran/msc20200/nast/demo' $(program default)
 symbol=SSSALTERDIR='d:/archivos de programa/msc.software/napa_se/2020/nastran/msc20200/nast/sssalter' $(program default)
 symbol=TPLDIR='d:/archivos de programa/msc.software/napa_se/2020/nastran/msc20200/nast/tpl' $(program default)
-SDIR='d:/archivos_de_programa/scratch/eigenfreqs_0_2000.T17580_59'
-DBS='d:/archivos_de_programa/scratch/eigenfreqs_0_2000.T17580_59'
+SDIR='d:/archivos_de_programa/scratch/eigenfreqs_0_2000.T24316_36'
+DBS='d:/archivos_de_programa/scratch/eigenfreqs_0_2000.T24316_36'
 SCR='yes'
 SMEM=100
 BPOOL=150
@@ -46,18 +46,18 @@ FPE:         yes
 ----------------------------------------------------------------- 
 Current resource limits:
  Physical memory:                     8101 MB
- Physical memory available:           2995 MB
+ Physical memory available:           2081 MB
  Paging file size:                   15269 MB
- Paging file size available:          5141 MB
+ Paging file size available:          4302 MB
  Virtual memory:                 134217727 MB
  Virtual memory available:       134213510 MB
 ----------------------------------------------------------------- 
 System configuration:
- Hostname:         temis.home
+ Hostname:         temis.upm.es
  Architecture:     win64i8
  Platform:         Intel Windows 10 Pro 6.2 9200 (Windows Compute Cluster)
- Model:            Xeon/1975
- Clock freq.:      1967 MHz
+ Model:            Xeon/1733
+ Clock freq.:      1738 MHz
  Number of CPUs:   8
  Executable:       standard
  Raw model ID:     6
@@ -70,8 +70,8 @@ System configuration:
  Remote shell cmd: "d:/archivos de programa/msc.software/napa_se/2020/nastran/msc20200/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
                    <ccs_cmd> (Windows CCS nodes)
 ----------------------------------------------------------------- 
-MSC Nastran started  Mon May  3 11:55:01 RST 2021 
- 11:55:07  Beginning Analysis
+MSC Nastran started  Tue May  4 12:41:37 RST 2021 
+ 12:41:40  Beginning Analysis
 SCA Kernel 24.7.714370 successfully initialized
 BLAS/LAPACK .dll "d:\archivos de programa\msc.software\napa_se\2020\nastran\msc20200\win64i8\libimalloc.dll" has been loaded.
 BLAS/LAPACK .dll "d:\archivos de programa\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_core.dll" has been loaded.
@@ -79,47 +79,40 @@ BLAS/LAPACK .dll "d:\archivos de programa\msc.software\napa_se\2020\nastran\msc2
 BLAS/LAPACK .dll "d:\archivos de programa\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_rt.dll" has been loaded.
 BLAS/LAPACK .dll "d:\archivos de programa\msc.software\napa_se\2020\nastran\msc20200\win64i8\MSCblas.dll" has been loaded.
 
- 11:55:14  MSC Authorization Information - Checkout Successful (1016, 0)
- 11:55:14  -------------------------------------------------------------
- 11:55:14  Acquired 1 license for Student Edition Nastran
+ 12:41:40  MSC Authorization Information - Checkout Successful (1016, 0)
+ 12:41:40  -------------------------------------------------------------
+ 12:41:40  Acquired 1 license for Student Edition Nastran
 
 
 Beginning bulk data processing using the IFPStar component.
 For more information on IFPStar, please see KB article KB8019200
 on our support pages, at http://simcompanion.mscsoftware.com.
 
- 11:55:24  Reading INCLUDE file "../../Bandeja_B.bdf"
- 11:55:24  Reading INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\1_10x26.bdf"
- 11:55:24  504 records read from INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\1_10x26.bdf"
- 11:55:24  Reading INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\2_I1.bdf"
- 11:55:24  2284 records read from INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\2_I1.bdf"
- 11:55:24  Reading INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\3_Al_3.bdf"
- 11:55:25  11723 records read from INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\3_Al_3.bdf"
- 11:55:25  Reading INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Al_7075_T6.bdf"
- 11:55:25  5 records read from INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Al_7075_T6.bdf"
- 11:55:25  Reading INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Grid.bdf"
- 11:55:25  12867 records read from INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Grid.bdf"
- 11:55:25  23 records read from INCLUDE file "../../Bandeja_B.bdf"
- 11:55:25  66 records read from JID file "d:/0_andres/1_universidad/muse/eue/practica2_eue/bandeja_b/1/analisis_b/analisis/eigenfreqs_0_2000.dat"
- 11:55:25  A total of 27472 records were read from 7 files.
-
-Processing of bulk data entries is complete.
-
- 11:55:29  Analysis started.
- 11:55:29  Geometry access/verification to CAD part initiated (if needed).
- 11:55:29  Geometry access/verification to CAD part successfully completed (if needed).
- 11:55:31  Finite element model generation started.
- 11:55:33  Finite element model generated 38598 degrees of freedom.
- 11:55:33  Finite element model generation successfully completed.
- 11:55:35  Solution of the system equations for normal modes started.
- 11:55:40  Solution of the system equations for normal modes successfully completed.
- 11:55:41  Normal modes analysis completed.
- 11:55:42  17 records read from JID file "d:/0_andres/1_universidad/muse/eue/practica2_eue/bandeja_b/1/analisis_b/analisis/eigenfreqs_0_2000.dat"
- 11:55:42  NSEXIT: EXIT(0)
- 11:55:42  Analysis complete  0
-Real:       38.593 seconds ( 0:00:38.593)
-User:        6.875 seconds ( 0:00:06.875)
-Sys:         2.609 seconds ( 0:00:02.609)
+ 12:41:41  Reading INCLUDE file "../../Bandeja_B.bdf"
+ 12:41:41  Reading INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\1_10x10_comp.bdf"
+ 12:41:41  504 records read from INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\1_10x10_comp.bdf"
+ 12:41:41  Reading INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\2_I3_comp.bdf"
+ 12:41:41  2284 records read from INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\2_I3_comp.bdf"
+ 12:41:41  Reading INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\3_Comp_26.bdf"
+ 12:41:41  11743 records read from INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\3_Comp_26.bdf"
+ 12:41:41  Reading INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Composite.bdf"
+ 12:41:41  7 records read from INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Composite.bdf"
+ 12:41:41  Reading INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Grid.bdf"
+ 12:41:41  12867 records read from INCLUDE file "d:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Bandeja_B\1\Grid.bdf"
+ 12:41:41  23 records read from INCLUDE file "../../Bandeja_B.bdf"
+ 12:41:41  66 records read from JID file "d:/0_andres/1_universidad/muse/eue/practica2_eue/bandeja_b/1/analisis_b/analisis/eigenfreqs_0_2000.dat"
+ 12:41:41  A total of 27494 records were read from 7 files.
+ ================================================== 
+ Warning/Fatal Message Summary           Occurrence
+       SYSTEM FATAL MESSAGE    6352.34          1 
+ ================================================== 
+ 12:41:42  17 records read from JID file "d:/0_andres/1_universidad/muse/eue/practica2_eue/bandeja_b/1/analisis_b/analisis/eigenfreqs_0_2000.dat"
+ 12:41:42  NSEXIT: EXIT(20)
+ 12:41:42  Analysis complete  -20
+20
+Real:        2.419 seconds ( 0:00:02.419)
+User:        1.734 seconds ( 0:00:01.734)
+Sys:         0.515 seconds ( 0:00:00.515)
  ==================================================
  OS:                           6.2
  OEM ID:                       9
@@ -136,15 +129,14 @@ Sys:         2.609 seconds ( 0:00:02.609)
  Ram:                          8101 Mb
  ==================================================
  Time Summary                 CPU       Wall   ( Time in Seconds )
- Input File                   1.2          7 
- Eigenvalue                   3.3          5 
- Miscellaneous                3.5         15 
+ Input File                   1.2          1 
+ Miscellaneous                0.0          0 
  -------------------------------------------
- Total:                       8.0         27 
+ Total:                       0.0          0 
  ==================================================
  Consider using SOLVE=AUTO if you have not.
  =====================================================
  Detailed performance information can be found in the 
  "MSC Nastran High Performance Computing User's Guide"
  =====================================================
-MSC Nastran finished Mon May  3 11:55:43 RST 2021 
+MSC Nastran finished Tue May  4 12:41:43 RST 2021 
