@@ -2,16 +2,16 @@ $ Elements and Element Properties for region : masa_equipos
 CONM2    1001    1101    -1      10.     0.      0.      0.
 
 $ Rigidizador_exterior
-INCLUDE '1_10x26.bdf'
+INCLUDE '1_2x2_comp.bdf'
 
 $ Rigidizador_interior
-INCLUDE '2_I1.bdf'
+INCLUDE '2_I3_comp.bdf'
 
 $ Bandeja
-INCLUDE '3_Al_3.bdf'
+INCLUDE '3_Comp_104.bdf'
 
 $ Material
-INCLUDE 'Al_7075_T6.bdf'
+INCLUDE 'Composite.bdf'
 
 $ Multipoint Constraints of the Entire Model
 RBE2     1       1101    123456  4376
@@ -20,4 +20,4 @@ RBE2     3       1101    123456  5559
 RBE2     4       1101    123456  5468
 
 $ Grid
-INCLUDE 'Grid.bdf'
+INCLUDE 'Grid_Comp.bdf'
