@@ -2,13 +2,13 @@ $ Elements and Element Properties for region : masa_equipos
 CONM2    1001    1101    -1      10.     0.      0.      0.
 
 $ Rigidizador_exterior
-INCLUDE '1_2x2_comp.bdf'
+INCLUDE '1_1x1_comp.bdf'
 
 $ Rigidizador_interior
-INCLUDE '2_I3_comp.bdf'
+INCLUDE '2_I7_comp.bdf'
 
 $ Bandeja
-INCLUDE '3_Comp_104.bdf'
+INCLUDE '3_Comp_91.bdf'
 
 $ Material
 INCLUDE 'Composite.bdf'
