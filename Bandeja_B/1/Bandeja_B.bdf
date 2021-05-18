@@ -5,7 +5,7 @@ $ Rigidizador_exterior
 INCLUDE '1_1x1_comp.bdf'
 
 $ Rigidizador_interior
-INCLUDE '2_I7_comp.bdf'
+INCLUDE '2_I27_comp.bdf'
 
 $ Bandeja
 INCLUDE '3_Comp_91.bdf'
