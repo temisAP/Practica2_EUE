@@ -1533,3 +1533,231 @@ $#     Invalid Beam Section Dimension "".
 $? NO 29002046 
 uil_primary_file.db_save(  )
 $# Reclaimed 0.64 MB of 3.58 MB.
+beam_section_create( "L_45x45", "L", ["45e-3", "45e-3", "1e-3", "1e-3"] )
+$# Beam Section "L_45x45" created.
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+ga_view_center_set( -0.085716, -0.004258 )
+ga_view_zoom_set( 0.512578 )
+ga_view_center_set( -0.109988, 0.025053 )
+ga_view_zoom_set( 0.576650 )
+ga_view_center_set( -0.085716, -0.004053 )
+ga_view_zoom_set( 0.512578 )
+ga_view_center_set( -0.064142, -0.029924 )
+ga_view_zoom_set( 0.455625 )
+ga_view_aa_set( -72.881638, 0.175710, -35.657761 )
+ga_view_center_set( -0.068164, -0.019045 )
+ga_view_zoom_set( 0.512578 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 4, ["Bandeja_B",  @
+"Bandeja_C", "Bandeja_D", "Rigidizadores"] )
+ga_view_center_set( -0.046368, 0.021974 )
+ga_view_zoom_set( 0.970079 )
+ga_view_center_set( -0.098531, 0.046694 )
+ga_view_zoom_set( 1.091339 )
+ga_view_center_set( -0.004637, 0.002199 )
+ga_view_zoom_set( 0.873071 )
+ga_view_center_set( 0.037093, -0.017576 )
+ga_view_zoom_set( 0.776063 )
+ga_view_center_set( 0.074187, -0.035154 )
+ga_view_zoom_set( 0.689834 )
+ga_view_center_set( 0.107160, -0.050779 )
+ga_view_zoom_set( 0.613186 )
+ga_view_center_set( 0.136468, -0.064668 )
+ga_view_zoom_set( 0.545054 )
+ga_view_center_set( 0.162520, -0.077014 )
+ga_view_zoom_set( 0.484492 )
+ga_view_center_set( 0.185678, -0.087988 )
+ga_view_zoom_set( 0.430660 )
+ga_view_center_set( 0.162520, -0.077014 )
+ga_view_zoom_set( 0.484492 )
+ga_view_center_set( 0.110416, -0.052323 )
+ga_view_zoom_set( 0.605615 )
+ga_view_center_set( 0.045286, -0.021459 )
+ga_view_zoom_set( 0.757019 )
+ga_view_center_set( -0.036127, 0.017121 )
+ga_view_zoom_set( 0.946274 )
+ga_view_center_set( -0.087010, 0.041234 )
+ga_view_zoom_set( 1.064559 )
+ga_view_center_set( -0.036127, 0.017121 )
+ga_view_zoom_set( 0.946274 )
+ga_view_center_set( 0.074891, -0.035488 )
+ga_view_zoom_set( 0.688199 )
+ga_view_center_set( 0.134100, -0.063546 )
+ga_view_zoom_set( 0.550560 )
+ga_view_center_set( 0.160415, -0.076016 )
+ga_view_zoom_set( 0.489386 )
+ga_view_center_set( 0.183807, -0.087101 )
+ga_view_zoom_set( 0.435010 )
+ga_view_center_set( 0.204599, -0.096954 )
+ga_view_zoom_set( 0.386676 )
+ga_view_center_set( 0.223081, -0.105712 )
+ga_view_zoom_set( 0.343712 )
+ga_view_center_set( 0.239510, -0.113498 )
+ga_view_zoom_set( 0.305521 )
+ga_view_center_set( 0.254113, -0.120418 )
+ga_view_zoom_set( 0.271575 )
+ga_view_center_set( 0.240818, -0.123197 )
+ga_view_zoom_set( 0.305521 )
+ga_view_center_set( 0.225983, -0.125955 )
+ga_view_zoom_set( 0.343712 )
+ga_view_center_set( 0.218949, -0.111680 )
+ga_view_zoom_set( 0.386676 )
+ga_view_center_set( 0.204984, -0.077698 )
+ga_view_zoom_set( 0.483344 )
+ga_view_center_set( 0.219531, -0.063248 )
+ga_view_zoom_set( 0.543763 )
+ga_view_center_set( 0.235896, -0.046992 )
+ga_view_zoom_set( 0.611733 )
+ga_view_aa_set( -74.462280, 0.529489, -65.419289 )
+ga_view_center_set( 0.259707, -0.033859 )
+ga_view_zoom_set( 0.688199 )
+ga_view_aa_set( -83.594933, 0.986841, -46.763004 )
+ga_view_aa_set( -81.552299, -0.577989, -57.651207 )
+point_label( FALSE )
+ga_view_center_set( 0.323777, -0.008590 )
+ga_view_zoom_set( 0.774224 )
+ga_view_center_set( 0.395856, 0.019837 )
+ga_view_zoom_set( 0.871002 )
+ga_view_center_set( 0.264996, -0.022944 )
+ga_view_zoom_set( 0.696802 )
+ga_view_center_set( 0.206836, -0.041958 )
+ga_view_zoom_set( 0.619380 )
+ga_view_center_set( 0.155138, -0.058859 )
+ga_view_zoom_set( 0.550560 )
+ga_group_move_translate_1( 1, ["Bandeja_D"], "Coord 0", "<0 0 0.6>",  @
+0.60000002, FALSE, 25 )
+$# 68 Points in Group ["Bandeja_D"] are moved.
+$# 185 Curves in Group ["Bandeja_D"] are moved.
+$# 84 Surfaces in Group ["Bandeja_D"] are moved.
+$# 674 Nodes in Group ["Bandeja_D"] are moved.
+$# 1079 Elements in Group ["Bandeja_D"] are moved.
+$# Property Set "masa_equipos.20" created from "masa_equipos.19"
+$# 1 ElementProperty is created in Group ["Bandeja_D"].
+$# 3 ElementProperties are updated.
+ga_view_center_set( -0.044265, 0.011234 )
+ga_view_zoom_set( 1.010003 )
+ga_view_center_set( -0.094927, 0.044671 )
+ga_view_zoom_set( 1.136253 )
+ga_view_center_set( 0.050980, -0.027675 )
+ga_view_zoom_set( 0.757502 )
+ga_view_aa_set( -82.307198, 0.379454, -43.835979 )
+ga_group_move_translate_1( 1, ["Bandeja_D"], "Coord 0", "<0 0 0.2>", 0.2,  @
+FALSE, 25 )
+$# Question from application Group Applications
+$#     Point 40005 already exists. Do you wish to create a duplicate one?
+$? YESFORALL 11012003 
+$# 68 Points in Group ["Bandeja_D"] are moved.
+$# 185 Curves in Group ["Bandeja_D"] are moved.
+$# 84 Surfaces in Group ["Bandeja_D"] are moved.
+$# 674 Nodes in Group ["Bandeja_D"] are moved.
+$# 1079 Elements in Group ["Bandeja_D"] are moved.
+$# Property Set "masa_equipos.21" created from "masa_equipos.20"
+$# 1 ElementProperty is created in Group ["Bandeja_D"].
+$# 3 ElementProperties are updated.
+ga_view_center_set( -0.031079, 0.076530 )
+ga_view_zoom_set( 1.125619 )
+ga_view_center_set( -0.006587, 0.079943 )
+ga_view_zoom_set( 1.000550 )
+ga_view_center_set( 0.046850, 0.107537 )
+ga_view_zoom_set( 0.727673 )
+ga_view_aa_set( -86.575974, 2.257630, -40.820015 )
+ga_view_aa_set( -80.399666, 1.707921, -45.789505 )
+ga_group_move_translate_1( 1, ["Bandeja_C"], "Coord 0", "<0 0 0.6>",  @
+0.60000002, FALSE, 25 )
+$# 68 Points in Group ["Bandeja_C"] are moved.
+$# 185 Curves in Group ["Bandeja_C"] are moved.
+$# 84 Surfaces in Group ["Bandeja_C"] are moved.
+$# 674 Nodes in Group ["Bandeja_C"] are moved.
+$# 1079 Elements in Group ["Bandeja_C"] are moved.
+$# Property Set "masa_equipos.22" created from "masa_equipos.11"
+$# 1 ElementProperty is created in Group ["Bandeja_C"].
+$# 3 ElementProperties are updated.
+ga_view_aa_set( -58.868393, -5.222694, -32.513988 )
+ga_view_center_set( -0.038781, 0.123911 )
+ga_view_zoom_set( 1.128932 )
+ga_view_center_set( -0.079553, 0.192091 )
+ga_view_zoom_set( 1.270049 )
+ga_view_center_set( -0.006978, 0.078337 )
+ga_view_zoom_set( 1.016039 )
+ga_view_center_set( 0.049777, -0.010709 )
+ga_view_zoom_set( 0.812831 )
+ga_view_center_set( 0.066593, -0.027380 )
+ga_view_zoom_set( 0.722517 )
+ga_view_center_set( 0.081025, -0.041426 )
+ga_view_zoom_set( 0.642237 )
+ga_view_center_set( 0.104117, -0.063899 )
+ga_view_zoom_set( 0.513790 )
+ga_view_aa_set( -66.513840, -7.014309, -52.235302 )
+ga_group_move_translate_1( 1, ["Bandeja_C"], "Coord 0", "<0 0 0.2>", 0.2,  @
+FALSE, 25 )
+$# 68 Points in Group ["Bandeja_C"] are moved.
+$# 185 Curves in Group ["Bandeja_C"] are moved.
+$# 84 Surfaces in Group ["Bandeja_C"] are moved.
+$# 674 Nodes in Group ["Bandeja_C"] are moved.
+$# 1079 Elements in Group ["Bandeja_C"] are moved.
+$# Property Set "masa_equipos.23" created from "masa_equipos.22"
+$# 1 ElementProperty is created in Group ["Bandeja_C"].
+$# 3 ElementProperties are updated.
+ga_view_aa_set( -99.416000, 35.187393, 81.642929 )
+ga_view_aa_set( -75.897552, -1.757190, -25.585323 )
+ga_view_center_set( 0.007082, 0.007559 )
+ga_view_zoom_set( 1.116038 )
+ga_view_center_set( 0.008675, 0.004175 )
+ga_view_zoom_set( 0.992034 )
+ga_view_center_set( 0.010090, 0.001167 )
+ga_view_zoom_set( 0.881808 )
+ga_view_center_set( 0.010719, -0.001192 )
+ga_view_zoom_set( 0.783829 )
+$# UNDO: uil_group_translate TRANSLATE Group "Bandeja_C..."
+ga_view_center_set( 0.006049, 0.045487 )
+ga_view_zoom_set( 1.126745 )
+ga_view_center_set( 0.006953, 0.149255 )
+ga_view_zoom_set( 1.267588 )
+ga_view_center_set( 0.006049, 0.045487 )
+ga_view_zoom_set( 1.126745 )
+ga_view_center_set( 0.005245, -0.046750 )
+ga_view_zoom_set( 1.001551 )
+ga_view_center_set( 0.004530, -0.128739 )
+ga_view_zoom_set( 0.890268 )
+ga_view_center_set( 0.014057, -0.198125 )
+ga_view_zoom_set( 0.791349 )
+ga_view_center_set( 0.025743, -0.311683 )
+ga_view_zoom_set( 0.633079 )
+ga_group_move_translate_1( 1, ["Bandeja_B"], "Coord 0", "<0 0 0.6>",  @
+0.60000002, FALSE, 25 )
+$# Question from application Group Applications
+$#     Point 40001 already exists. Do you wish to create a duplicate one?
+$? YESFORALL 11012003 
+$# 68 Points in Group ["Bandeja_B"] are moved.
+$# 185 Curves in Group ["Bandeja_B"] are moved.
+$# 84 Surfaces in Group ["Bandeja_B"] are moved.
+$# 674 Nodes in Group ["Bandeja_B"] are moved.
+$# 1079 Elements in Group ["Bandeja_B"] are moved.
+$# Property Set "masa_equipos.24" created from "masa_equipos.17"
+$# 1 ElementProperty is created in Group ["Bandeja_B"].
+$# 3 ElementProperties are updated.
+ga_group_move_translate_1( 1, ["Bandeja_B"], "Coord 0", "<0 0 0.2>", 0.2,  @
+FALSE, 25 )
+$# 68 Points in Group ["Bandeja_B"] are moved.
+$# 185 Curves in Group ["Bandeja_B"] are moved.
+$# 84 Surfaces in Group ["Bandeja_B"] are moved.
+$# 674 Nodes in Group ["Bandeja_B"] are moved.
+$# 1079 Elements in Group ["Bandeja_B"] are moved.
+$# Property Set "masa_equipos.25" created from "masa_equipos.24"
+$# 1 ElementProperty is created in Group ["Bandeja_B"].
+$# 3 ElementProperties are updated.
+ga_view_aa_set( -82.606224, 1.903026, -96.782982 )
+uil_primary_file.db_save(  )
+$# Reclaimed 0.78 MB of 3.67 MB.
