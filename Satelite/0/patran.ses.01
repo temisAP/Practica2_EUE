@@ -1316,3 +1316,41 @@ ga_view_aa_set( -166.172180, 3.939179, 80.912987 )
 ga_view_aa_set( -60.657253, 7.190810, 114.244217 )
 uil_primary_file.db_save(  )
 $# Reclaimed 1.16 MB of 3.90 MB.
+ga_view_aa_set( -57.707203, 1.722198, 100.691322 )
+mesh_seed_display_mgr.erase(  )
+ga_view_aa_set( -42.258450, -1.752993, 111.109001 )
+ga_view_aa_set( -67.806755, -6.076130, 100.744431 )
+STRING sgm_renum_point_new_ids[VIRTUAL]
+sgm_renumber( 1, "point", "50000", "Point 1:8 14:22 28:36 42:50 56:76 171:" // @
+"191:10 301 331 651 681:711:10 1111", sgm_renum_point_new_ids )
+$# 67 Points Renumbered: Points 50000:50066
+repaint_graphics(  )
+STRING sgm_renum_curve_new_ids[VIRTUAL]
+sgm_renumber( 1, "curve", "50000", "Curve 1:7 43:174", sgm_renum_curve_new_ids )
+$# 139 Curves Renumbered: Curves 50000:50138
+repaint_graphics(  )
+STRING sgm_renum_surface_new_ids[VIRTUAL]
+sgm_renumber( 1, "surface", "50000", "Surface 3:86", sgm_renum_surface_new_ids )
+$# 84 Surfaces Renumbered: Surfaces 50000:50083
+repaint_graphics(  )
+ga_viewport_location_set( "default_viewport", -0.059487, 0.009915, 1 )
+STRING sgm_renum_point_new_ids[VIRTUAL]
+sgm_renumber( 1, "point", "#", "Point 1112 50000:50066",  @
+sgm_renum_point_new_ids )
+$# 68 Points Renumbered: Points 50067:50134
+repaint_graphics(  )
+STRING sgm_renum_curve_new_ids[VIRTUAL]
+sgm_renumber( 1, "curve", "#", "Curve 50000:50138", sgm_renum_curve_new_ids )
+$# 139 Curves Renumbered: Curves 50139:50277
+repaint_graphics(  )
+STRING sgm_renum_surface_new_ids[VIRTUAL]
+sgm_renumber( 1, "surface", "#", "Surface 50000:50083",  @
+sgm_renum_surface_new_ids )
+$# 84 Surfaces Renumbered: Surfaces 50084:50167
+repaint_graphics(  )
+$# Error reported in application SGM by application Geometry
+$#     Solid list is blank. Input required data.
+$? NO 1000058 
+uil_primary_file.db_save(  )
+mesh_seed_display_mgr.erase(  )
+uil_primary_file.db_save(  )
