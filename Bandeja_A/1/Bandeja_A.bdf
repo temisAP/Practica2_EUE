@@ -6,7 +6,7 @@ $ Rigidizador_exterior
 INCLUDE '1_10x10.bdf'
 
 $ Rigidizador_interior
-INCLUDE '2_O1.bdf'
+INCLUDE '2_I5_3.bdf'
 
 $ Elements and Element Properties for region : tornillo
 PBUSH    3       K       2.05+11 2.05+11 2.05+11 205.    8.+10   8.+10
@@ -27,11 +27,11 @@ $ Material
 INCLUDE 'CFRP.bdf'
 
 $ Multipoint Constraints of the Entire Model
-RBE2     1       1101    123     4376
-RBE2     2       1101    123     4467
-RBE2     3       1101    123     5559
-RBE2     4       1101    123     5468
-RBE2     5       1102    123     8562    8653    8744    8835    8926
+RBE2     1       1101    123456     4376
+RBE2     2       1101    123456     4467
+RBE2     3       1101    123456     5559
+RBE2     4       1101    123456     5468
+RBE2     5       1102    123456     8562    8653    8744    8835    8926
          9017    9109    9116    9124    9132    9148    9155    9164
          9171    9178    9200    9207    9215    9223    9239    9246
          9255    9262    9269    9291    9298    9306    9314    9330

@@ -7,7 +7,7 @@ MEM=527MB      $
 MACH='Intel'
 OPER='Windows 10 Home'
 OSV='6.2 9200'
-MODEL='Xeon/3160 (DESKTOP-3VPGNSK)'
+MODEL='Xeon/2956 (DESKTOP-3VPGNSK)'
 NPROC='4'
 CONFIG=6
 NPROC=4
@@ -15,7 +15,7 @@ symbol=DELDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/
 symbol=DEMODIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/demo' $(program default)
 symbol=SSSALTERDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/sssalter' $(program default)
 symbol=TPLDIR='c:/program files/msc.software/napa_se/2020/nastran/msc20200/nast/tpl' $(program default)
-SDIR='c:/scratch/bandeja_a.T8484_44'
+SDIR='c:/scratch/bandeja_a.T124_15'
 DBS='./bandeja_a'
 SCR='no'
 SMEM=100
@@ -47,9 +47,9 @@ FPE:         yes
 ----------------------------------------------------------------- 
 Current resource limits:
  Physical memory:                     8030 MB
- Physical memory available:           3968 MB
+ Physical memory available:           3053 MB
  Paging file size:                   10206 MB
- Paging file size available:          4156 MB
+ Paging file size available:          3789 MB
  Virtual memory:                 134217727 MB
  Virtual memory available:       134213511 MB
 ----------------------------------------------------------------- 
@@ -57,7 +57,7 @@ System configuration:
  Hostname:         DESKTOP-3VPGNSK
  Architecture:     win64i8
  Platform:         Intel Windows 10 Home 6.2 9200 (Windows Compute Cluster)
- Model:            Xeon/2956
+ Model:            Xeon/3159
  Clock freq.:      3167 MHz
  Number of CPUs:   4
  Executable:       standard
@@ -71,8 +71,8 @@ System configuration:
  Remote shell cmd: "c:/program files/msc.software/napa_se/2020/nastran/msc20200/win64i8/mscrmtcmd.exe" (Windows non-CCS nodes, UNIX)
                    <ccs_cmd> (Windows CCS nodes)
 ----------------------------------------------------------------- 
-MSC Nastran started  Tue May  4 14:23:44 Hdvr 2021 
- 14:23:51  Beginning Analysis
+MSC Nastran started  Thu Jun  3 12:25:16 Hdvr 2021 
+ 12:25:36  Beginning Analysis
 SCA Kernel 24.7.714370 successfully initialized
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\libimalloc.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_core.dll" has been loaded.
@@ -80,40 +80,40 @@ BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\wi
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\mkl_rt.dll" has been loaded.
 BLAS/LAPACK .dll "c:\program files\msc.software\napa_se\2020\nastran\msc20200\win64i8\MSCblas.dll" has been loaded.
 
- 14:23:51  MSC Authorization Information - Checkout Successful (1016, 0)
- 14:23:51  -------------------------------------------------------------
- 14:23:51  Acquired 1 license for Student Edition Nastran
+ 12:25:45  MSC Authorization Information - Checkout Successful (1016, 0)
+ 12:25:45  -------------------------------------------------------------
+ 12:25:45  Acquired 1 license for Student Edition Nastran
 
 
 Beginning bulk data processing using the IFPStar component.
 For more information on IFPStar, please see KB article KB8019200
 on our support pages, at http://simcompanion.mscsoftware.com.
 
- 14:23:52  27518 records read from JID file "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\0\bandeja_a.bdf"
+ 12:25:55  27516 records read from JID file "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\0\bandeja_a.bdf"
 
 Processing of bulk data entries is complete.
 
- 14:23:52  Analysis started.
- 14:23:52  Geometry access/verification to CAD part initiated (if needed).
- 14:23:52  Geometry access/verification to CAD part successfully completed (if needed).
- 14:23:52  Finite element model generation started.
- 14:23:53  Finite element model generated 38664 degrees of freedom.
- 14:23:53  Finite element model generation successfully completed.
- 14:23:53  Application of Loads and Boundary Conditions to the finite element model started.
- 14:23:53  Application of Loads and Boundary Conditions to the finite element model successfully completed.
- 14:23:54  Solution of the system equations for linear statics started.
- 14:23:54  Solution of the system equations for linear statics successfully completed.
- 14:23:56  Linear static analysis completed.
+ 12:26:00  Analysis started.
+ 12:26:00  Geometry access/verification to CAD part initiated (if needed).
+ 12:26:00  Geometry access/verification to CAD part successfully completed (if needed).
+ 12:26:01  Finite element model generation started.
+ 12:26:05  Finite element model generated 38664 degrees of freedom.
+ 12:26:05  Finite element model generation successfully completed.
+ 12:26:05  Application of Loads and Boundary Conditions to the finite element model started.
+ 12:26:07  Application of Loads and Boundary Conditions to the finite element model successfully completed.
+ 12:26:10  Solution of the system equations for linear statics started.
+ 12:26:10  Solution of the system equations for linear statics successfully completed.
+ 12:26:15  Linear static analysis completed.
  ================================================== 
  Warning/Fatal Message Summary           Occurrence
        USER WARNING MESSAGE     9058.1          1 
  ================================================== 
- 14:23:56  19 records read from JID file "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\0\bandeja_a.bdf"
- 14:23:56  NSEXIT: EXIT(0)
- 14:23:56  Analysis complete  0
-Real:        9.841 seconds ( 0:00:09.841)
-User:        3.296 seconds ( 0:00:03.296)
-Sys:         1.906 seconds ( 0:00:01.906)
+ 12:26:16  19 records read from JID file "C:\MUSE\EUE\Practica2_EUE\Bandeja_A\0\bandeja_a.bdf"
+ 12:26:16  NSEXIT: EXIT(0)
+ 12:26:16  Analysis complete  0
+Real:       58.095 seconds ( 0:00:58.095)
+User:        3.593 seconds ( 0:00:03.593)
+Sys:         2.468 seconds ( 0:00:02.468)
  ==================================================
  OS:                           6.2
  OEM ID:                       9
@@ -135,4 +135,4 @@ Sys:         1.906 seconds ( 0:00:01.906)
  Detailed performance information can be found in the 
  "MSC Nastran High Performance Computing User's Guide"
  =====================================================
-MSC Nastran finished Tue May  4 14:23:58 Hdvr 2021 
+MSC Nastran finished Thu Jun  3 12:26:23 Hdvr 2021 
