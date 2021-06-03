@@ -1761,3 +1761,2011 @@ $# 3 ElementProperties are updated.
 ga_view_aa_set( -82.606224, 1.903026, -96.782982 )
 uil_primary_file.db_save(  )
 $# Reclaimed 0.78 MB of 3.67 MB.
+$# Appending to existing journal file 
+$# D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db.jou 
+$# at 03-Jun-21 16:19:37
+$# Synchronizing the User Data Manager
+set_current_dir( "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\0" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ga_view_center_set( -0.027408, -0.038388 )
+ga_view_zoom_set( 0.704359 )
+ga_view_center_set( -0.023912, -0.057214 )
+ga_view_zoom_set( 0.626097 )
+ga_view_center_set( -0.023673, -0.074904 )
+ga_view_zoom_set( 0.556530 )
+ga_view_center_set( -0.023461, -0.090629 )
+ga_view_zoom_set( 0.494694 )
+ga_view_center_set( -0.023272, -0.104607 )
+ga_view_zoom_set( 0.439728 )
+ga_view_center_set( -0.023104, -0.117031 )
+ga_view_zoom_set( 0.390869 )
+ga_view_center_set( 0.003909, -0.134045 )
+ga_view_zoom_set( 0.347439 )
+ga_view_center_set( -0.014746, -0.120016 )
+ga_view_zoom_set( 0.390869 )
+ga_view_center_set( -0.056721, -0.088115 )
+ga_view_zoom_set( 0.488586 )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_create( "Curve 40000 40003:40001:-1", 2, 0, 0., 0.029999999, 0. )
+ga_view_center_set( -0.057980, -0.056634 )
+ga_view_zoom_set( 0.549660 )
+ga_view_center_set( -0.059397, -0.021218 )
+ga_view_zoom_set( 0.618367 )
+ga_view_center_set( -0.057980, -0.056634 )
+ga_view_zoom_set( 0.549660 )
+ga_view_center_set( -0.056721, -0.088115 )
+ga_view_zoom_set( 0.488586 )
+ga_view_center_set( -0.055602, -0.116098 )
+ga_view_zoom_set( 0.434299 )
+ga_view_aa_set( -92.606224, 1.903026, -96.782982 )
+ga_view_aa_set( -92.606224, 1.903026, -96.782982 )
+ga_view_aa_set( -93.606224, 1.903026, -96.782982 )
+ga_view_aa_set( -72.370789, -1.797043, -118.352371 )
+ga_view_center_set( -0.184324, -0.047819 )
+ga_view_zoom_set( 0.542874 )
+ga_view_center_set( -0.076123, -0.105651 )
+ga_view_zoom_set( 0.434299 )
+ga_view_center_set( -0.035827, -0.125219 )
+ga_view_zoom_set( 0.386043 )
+ga_view_center_set( -0.014601, -0.131262 )
+ga_view_zoom_set( 0.343150 )
+ga_view_center_set( 0.015351, -0.141403 )
+ga_view_zoom_set( 0.274520 )
+ga_view_aa_set( -92.794441, -3.466592, -122.580673 )
+mesh_seed_create( "Curve 40000 40003:40001:-1", 2, 0, 0., 0.039999999, 0. )
+$# Question from application FEM
+$#     Curve 40000 already has a mesh seed. Do you wish to replace it?
+$? YESFORALL 2001026 
+ga_view_center_set( 0.062991, -0.124305 )
+ga_view_zoom_set( 0.308835 )
+ga_view_center_set( 0.015350, -0.138220 )
+ga_view_zoom_set( 0.274520 )
+ga_view_center_set( -0.026996, -0.150588 )
+ga_view_zoom_set( 0.244018 )
+ga_view_aa_set( -102.733475, -3.687533, -121.603477 )
+ga_view_aa_set( -82.784256, 0.731847, -120.416679 )
+ga_view_center_set( -0.066129, -0.153104 )
+ga_view_zoom_set( 0.216905 )
+ga_view_center_set( -0.100913, -0.155340 )
+ga_view_zoom_set( 0.192804 )
+ga_view_center_set( -0.035154, -0.142917 )
+ga_view_zoom_set( 0.241005 )
+ga_view_center_set( 0.047044, -0.126560 )
+ga_view_zoom_set( 0.301256 )
+ga_view_center_set( 0.096477, -0.109867 )
+ga_view_zoom_set( 0.338913 )
+ga_view_center_set( 0.152089, -0.091087 )
+ga_view_zoom_set( 0.381278 )
+ga_view_aa_set( -94.432060, 3.137926, -127.998878 )
+ga_view_aa_set( -94.432060, 3.137926, -127.998878 )
+ga_view_center_set( 0.071641, -0.114147 )
+ga_view_zoom_set( 0.305022 )
+ga_view_center_set( 0.110686, -0.100914 )
+ga_view_zoom_set( 0.343150 )
+ga_view_center_set( 0.154611, -0.086026 )
+ga_view_zoom_set( 0.386043 )
+ga_view_center_set( 0.204028, -0.069278 )
+ga_view_zoom_set( 0.434299 )
+ga_view_aa_set( -80.443520, 0.787323, -133.009552 )
+ga_view_center_set( 0.266337, -0.025064 )
+ga_view_zoom_set( 0.488586 )
+ga_view_aa_set( -123.307121, -2.901636, -120.666985 )
+ga_view_aa_set( -135.345612, 27.714428, -133.914001 )
+ga_view_aa_set( -118.477837, 28.878866, -135.739944 )
+ga_view_aa_set( -69.843071, 28.618793, -139.128647 )
+ga_view_center_set( 0.340632, -0.043953 )
+ga_view_zoom_set( 0.549660 )
+ga_view_center_set( 0.424214, -0.065439 )
+ga_view_zoom_set( 0.618367 )
+ga_view_center_set( 0.338979, -0.040411 )
+ga_view_zoom_set( 0.549660 )
+ga_view_center_set( 0.261536, -0.018374 )
+ga_view_zoom_set( 0.488586 )
+ga_view_center_set( 0.188780, 0.001400 )
+ga_view_zoom_set( 0.434299 )
+ga_view_center_set( 0.072370, 0.033040 )
+ga_view_zoom_set( 0.347439 )
+ga_view_center_set( 0.020632, 0.047102 )
+ga_view_zoom_set( 0.308835 )
+ga_view_aa_set( -73.843071, 28.618797, -139.128647 )
+ga_view_center_set( -0.105990, -0.292616 )
+ga_view_aa_set( -65.073181, 15.068578, 119.458496 )
+ga_view_aa_set( -80.340515, 1.669343, -23.515223 )
+INTEGER fem_create_mesh_curve_num_nodes
+INTEGER fem_create_mesh_curve_num_elems
+STRING fem_create_mesh_c_nodes_created[VIRTUAL]
+STRING fem_create_mesh_c_elems_created[VIRTUAL]
+fem_create_mesh_curv_1( "Curve 40001 40000 40003 40002", 16384, 0.059999999,  @
+"Bar2", "40000", "40000", "Coord 0", "Coord 0",  @
+fem_create_mesh_curve_num_nodes, fem_create_mesh_curve_num_elems,  @
+fem_create_mesh_c_nodes_created, fem_create_mesh_c_elems_created )
+$# 16 nodes and 15 elements created for Curve 40001.
+$# 16 nodes and 15 elements created for Curve 40000.
+$# 16 nodes and 15 elements created for Curve 40003.
+$# 16 nodes and 15 elements created for Curve 40002.
+$# === 64 nodes created.  IDs  = 40000:40063.
+$# === 60 elements created.  IDs  = 40000:40059.
+ga_view_center_set( -0.084234, -0.291157 )
+ga_view_zoom_set( 0.347439 )
+ga_view_center_set( -0.059758, -0.289515 )
+ga_view_zoom_set( 0.390869 )
+ga_view_center_set( -0.032223, -0.287668 )
+ga_view_zoom_set( 0.439728 )
+ga_view_center_set( -0.059758, -0.289515 )
+ga_view_zoom_set( 0.390869 )
+ga_view_center_set( -0.121667, -0.293545 )
+ga_view_zoom_set( 0.284268 )
+ga_view_center_set( -0.140228, -0.294739 )
+ga_view_zoom_set( 0.252683 )
+ga_view_center_set( -0.158077, -0.293967 )
+ga_view_zoom_set( 0.224607 )
+ga_view_center_set( -0.174028, -0.293281 )
+ga_view_zoom_set( 0.199651 )
+mesh_seed_display_mgr.erase(  )
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+$# UNDO: Beam Section Create
+ga_view_aa_set( -80.340515, 1.669344, -23.515223 )
+ga_view_center_set( -0.142697, -0.289469 )
+ga_view_zoom_set( 0.177467 )
+ga_view_center_set( -0.116677, -0.286623 )
+ga_view_zoom_set( 0.157749 )
+ga_view_center_set( -0.094150, -0.284274 )
+ga_view_zoom_set( 0.140221 )
+ga_view_center_set( -0.161369, -0.291321 )
+ga_view_zoom_set( 0.192804 )
+ga_view_center_set( -0.192178, -0.294551 )
+ga_view_zoom_set( 0.216905 )
+ga_view_center_set( -0.226838, -0.298185 )
+ga_view_zoom_set( 0.244018 )
+ga_view_center_set( -0.265830, -0.302273 )
+ga_view_zoom_set( 0.274520 )
+ga_view_center_set( -0.309697, -0.306872 )
+ga_view_zoom_set( 0.308835 )
+$# Critical Decision requested from application Regions
+$#     The Select Members databox contains some data.  Do you wish to add it 
+$# to the Application Region List before continuing?
+$? YES 67001017 
+elementprops_create( "vigas_en_L", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042,  @
+4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050,  @
+4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411,  @
+8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"<0 1 0>", "<-0.5e-3 -0.5e-3 0>", "<-0.5e-3 -0.5e-3 0>", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "" @
+, "", "Analysis", "Analysis", "Analysis"], "Curve 40000:40003" )
+$# Property Set "vigas_en_L" created.
+ga_view_center_set( 0.014243, -0.016327 )
+ga_view_zoom_set( 0.699975 )
+ga_view_center_set( 0.036493, 0.007126 )
+ga_view_zoom_set( 0.787472 )
+ga_view_center_set( 0.014243, -0.016327 )
+ga_view_zoom_set( 0.699975 )
+ga_view_center_set( -0.021357, -0.053851 )
+ga_view_zoom_set( 0.559980 )
+ga_view_center_set( -0.049837, -0.083871 )
+ga_view_zoom_set( 0.447984 )
+ga_view_center_set( -0.068482, -0.082844 )
+ga_view_zoom_set( 0.398208 )
+ga_view_center_set( -0.099955, -0.077918 )
+ga_view_zoom_set( 0.318567 )
+ga_view_aa_set( 0.508885, -0.258099, -17.043839 )
+ga_view_center_set( -0.106113, -0.091192 )
+ga_view_zoom_set( 0.358387 )
+ga_view_center_set( -0.135825, -0.104123 )
+ga_view_zoom_set( 0.403186 )
+ga_view_center_set( -0.169597, -0.120057 )
+ga_view_zoom_set( 0.453584 )
+ga_view_center_set( -0.201356, -0.140320 )
+ga_view_zoom_set( 0.510282 )
+ga_view_center_set( -0.236646, -0.163116 )
+ga_view_zoom_set( 0.574067 )
+ga_view_center_set( -0.316049, -0.206270 )
+ga_view_zoom_set( 0.645826 )
+ga_view_center_set( -0.405377, -0.254818 )
+ga_view_zoom_set( 0.726554 )
+ga_view_center_set( -0.316049, -0.206270 )
+ga_view_zoom_set( 0.645826 )
+ga_view_center_set( -0.174011, -0.128593 )
+ga_view_zoom_set( 0.516660 )
+ga_view_center_set( -0.111081, -0.094070 )
+ga_view_zoom_set( 0.459254 )
+ga_view_center_set( -0.010393, -0.038834 )
+ga_view_zoom_set( 0.367403 )
+ga_view_center_set( 0.070158, 0.005103 )
+ga_view_zoom_set( 0.293922 )
+ga_view_center_set( 0.104500, 0.023059 )
+ga_view_zoom_set( 0.261264 )
+ga_view_center_set( 0.134527, 0.038721 )
+ga_view_zoom_set( 0.232235 )
+ga_view_center_set( 0.181453, 0.062982 )
+ga_view_zoom_set( 0.185788 )
+ga_view_center_set( 0.202166, 0.074119 )
+ga_view_zoom_set( 0.165145 )
+ga_view_center_set( 0.247361, 0.098419 )
+ga_view_zoom_set( 0.120105 )
+ga_view_center_set( 0.260889, 0.106307 )
+ga_view_zoom_set( 0.106760 )
+ga_view_center_set( 0.282535, 0.118927 )
+ga_view_zoom_set( 0.085408 )
+ga_view_center_set( 0.292644, 0.124862 )
+ga_view_zoom_set( 0.075918 )
+ga_view_center_set( 0.314701, 0.137812 )
+ga_view_zoom_set( 0.055213 )
+ga_view_aa_set( -15.493715, -1.238051, -17.243093 )
+ga_view_center_set( 0.322079, 0.138065 )
+ga_view_zoom_set( 0.049079 )
+ga_view_center_set( 0.314701, 0.137812 )
+ga_view_zoom_set( 0.055213 )
+ga_view_center_set( 0.306400, 0.137527 )
+ga_view_zoom_set( 0.062115 )
+ga_view_center_set( 0.297061, 0.137207 )
+ga_view_zoom_set( 0.069879 )
+ga_view_center_set( 0.286555, 0.136847 )
+ga_view_zoom_set( 0.078614 )
+ga_view_center_set( 0.275546, 0.138097 )
+ga_view_zoom_set( 0.088441 )
+ga_view_center_set( 0.263162, 0.139502 )
+ga_view_zoom_set( 0.099496 )
+ga_view_center_set( 0.249229, 0.141084 )
+ga_view_zoom_set( 0.111933 )
+ga_view_center_set( 0.233698, 0.142767 )
+ga_view_zoom_set( 0.125925 )
+ga_view_center_set( 0.229900, 0.142045 )
+ga_view_zoom_set( 0.111933 )
+ga_view_center_set( 0.233698, 0.142767 )
+ga_view_zoom_set( 0.125925 )
+ga_view_center_set( 0.237972, 0.143578 )
+ga_view_zoom_set( 0.141666 )
+ga_view_center_set( 0.247586, 0.145404 )
+ga_view_zoom_set( 0.177082 )
+ga_view_center_set( 0.254432, 0.150424 )
+ga_view_zoom_set( 0.199217 )
+ga_view_center_set( 0.262134, 0.156072 )
+ga_view_zoom_set( 0.224120 )
+ga_view_center_set( 0.270799, 0.162426 )
+ga_view_zoom_set( 0.252135 )
+ga_view_center_set( 0.280546, 0.169574 )
+ga_view_zoom_set( 0.283651 )
+ga_view_center_set( 0.291512, 0.177616 )
+ga_view_zoom_set( 0.319108 )
+ga_view_center_set( -0.126519, -0.087244 )
+ga_view_center_set( -0.096637, -0.067642 )
+ga_view_zoom_set( 0.358996 )
+ga_view_center_set( -0.129261, -0.079567 )
+ga_view_zoom_set( 0.319108 )
+ga_view_center_set( -0.181459, -0.098648 )
+ga_view_zoom_set( 0.255286 )
+ga_view_center_set( -0.204658, -0.107031 )
+ga_view_zoom_set( 0.226921 )
+ga_view_center_set( -0.225279, -0.114396 )
+ga_view_zoom_set( 0.201708 )
+ga_view_center_set( -0.255916, -0.125070 )
+ga_view_zoom_set( 0.161366 )
+ga_view_center_set( -0.269533, -0.129814 )
+ga_view_zoom_set( 0.143437 )
+ga_view_center_set( -0.281637, -0.134032 )
+ga_view_zoom_set( 0.127499 )
+ga_view_center_set( -0.292201, -0.137683 )
+ga_view_zoom_set( 0.113333 )
+ga_view_center_set( -0.301591, -0.140928 )
+ga_view_zoom_set( 0.100740 )
+ga_view_center_set( -0.292547, -0.144953 )
+ga_view_zoom_set( 0.113333 )
+ga_view_center_set( -0.282372, -0.149480 )
+ga_view_zoom_set( 0.127499 )
+ga_view_center_set( -0.274869, -0.149042 )
+ga_view_zoom_set( 0.143437 )
+ga_view_center_set( -0.257987, -0.146208 )
+ga_view_zoom_set( 0.179296 )
+ga_view_center_set( -0.245356, -0.144513 )
+ga_view_zoom_set( 0.201708 )
+ga_view_center_set( -0.231146, -0.142607 )
+ga_view_zoom_set( 0.226921 )
+ga_view_center_set( -0.215161, -0.140463 )
+ga_view_zoom_set( 0.255286 )
+ga_view_aa_set( -81.261909, -0.374003, -38.003021 )
+ga_view_center_set( -0.189622, -0.133834 )
+ga_view_zoom_set( 0.226921 )
+ga_view_center_set( -0.239919, -0.145921 )
+ga_view_zoom_set( 0.283651 )
+ga_view_center_set( -0.271355, -0.153476 )
+ga_view_zoom_set( 0.319108 )
+ga_view_center_set( -0.263679, -0.152927 )
+ga_view_zoom_set( 0.358996 )
+ga_view_center_set( -0.254889, -0.152465 )
+ga_view_zoom_set( 0.403871 )
+ga_view_center_set( -0.263679, -0.152927 )
+ga_view_zoom_set( 0.358996 )
+ga_view_center_set( -0.271492, -0.152927 )
+ga_view_zoom_set( 0.319108 )
+ga_view_center_set( -0.283993, -0.152927 )
+ga_view_zoom_set( 0.255286 )
+ga_view_center_set( -0.289549, -0.152927 )
+ga_view_zoom_set( 0.226921 )
+ga_view_center_set( -0.294488, -0.152927 )
+ga_view_zoom_set( 0.201708 )
+ga_view_center_set( -0.304346, -0.151079 )
+ga_view_zoom_set( 0.179296 )
+ga_view_center_set( -0.313451, -0.149436 )
+ga_view_zoom_set( 0.159374 )
+ga_view_center_set( -0.321544, -0.147975 )
+ga_view_zoom_set( 0.141666 )
+ga_view_aa_set( -78.219597, 0.048552, -0.761537 )
+ga_view_center_set( -0.318015, -0.150775 )
+ga_view_zoom_set( 0.159374 )
+ga_view_center_set( -0.314044, -0.153924 )
+ga_view_zoom_set( 0.179296 )
+ga_view_center_set( -0.309577, -0.157467 )
+ga_view_zoom_set( 0.201708 )
+ga_view_center_set( -0.304552, -0.161452 )
+ga_view_zoom_set( 0.226921 )
+ga_view_center_set( -0.298898, -0.165936 )
+ga_view_zoom_set( 0.255286 )
+ga_view_center_set( -0.292538, -0.170980 )
+ga_view_zoom_set( 0.287197 )
+ga_view_center_set( -0.285382, -0.176655 )
+ga_view_zoom_set( 0.323097 )
+ga_view_aa_set( -81.360153, -5.142608, -26.273911 )
+ga_view_aa_set( -63.381367, -0.772094, -32.997334 )
+elementprops_create( "vigas_en_L", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042,  @
+4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050,  @
+4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411,  @
+8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"<0. -1. 0.>", "<-0.00050000002 -0.00050000002 0.>",  @
+"<-0.00050000002 -0.00050000002 0.>", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis",  @
+"Analysis", "Analysis"], "Curve 40000:40003" )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Property Set "vigas_en_L" Exists. Overwrite?
+$? YES 29002006 
+$# Property Set "vigas_en_L" created.
+ga_view_center_set( 0.016532, -0.059525 )
+ga_view_zoom_set( 0.722951 )
+ga_view_center_set( 0.038892, -0.024433 )
+ga_view_zoom_set( 0.813320 )
+ga_view_center_set( 0.016532, -0.058593 )
+ga_view_zoom_set( 0.722951 )
+ga_view_center_set( -0.019243, -0.113249 )
+ga_view_zoom_set( 0.578361 )
+ga_view_center_set( -0.035142, -0.137541 )
+ga_view_zoom_set( 0.514099 )
+ga_view_center_set( -0.049276, -0.159133 )
+ga_view_zoom_set( 0.456977 )
+ga_view_center_set( -0.071889, -0.193681 )
+ga_view_zoom_set( 0.365581 )
+ga_view_aa_set( -81.388412, 10.491483, -97.123619 )
+ga_view_aa_set( -68.264107, -3.822840, -139.901245 )
+ga_view_center_set( -0.149308, -0.203732 )
+ga_view_zoom_set( 0.411279 )
+ga_view_center_set( -0.236405, -0.215038 )
+ga_view_zoom_set( 0.462689 )
+ga_view_center_set( -0.150191, -0.201965 )
+ga_view_zoom_set( 0.411279 )
+ga_view_center_set( 0.035597, -0.166118 )
+ga_view_zoom_set( 0.299112 )
+ga_view_center_set( 0.090646, -0.155153 )
+ga_view_zoom_set( 0.265877 )
+ga_view_center_set( 0.126584, -0.132921 )
+ga_view_zoom_set( 0.236335 )
+ga_view_center_set( 0.158257, -0.113700 )
+ga_view_zoom_set( 0.210076 )
+ga_view_aa_set( -31.898748, -9.271466, -145.740189 )
+ga_view_center_set( 0.187535, -0.099422 )
+ga_view_zoom_set( 0.186734 )
+ga_view_center_set( 0.234379, -0.076577 )
+ga_view_zoom_set( 0.149387 )
+ga_view_center_set( 0.255084, -0.066367 )
+ga_view_zoom_set( 0.132789 )
+ga_view_center_set( 0.317565, -0.033723 )
+ga_view_zoom_set( 0.081716 )
+ga_view_center_set( 0.328017, -0.027451 )
+ga_view_zoom_set( 0.072637 )
+ga_view_center_set( 0.337170, -0.022015 )
+ga_view_zoom_set( 0.064566 )
+ga_view_center_set( 0.345305, -0.017183 )
+ga_view_zoom_set( 0.057392 )
+ga_view_center_set( 0.352515, -0.012888 )
+ga_view_zoom_set( 0.051015 )
+ga_view_center_set( 0.358923, -0.009070 )
+ga_view_zoom_set( 0.045347 )
+ga_view_center_set( 0.364620, -0.005676 )
+ga_view_zoom_set( 0.040308 )
+ga_view_center_set( 0.358716, -0.008429 )
+ga_view_zoom_set( 0.045347 )
+ga_view_center_set( 0.352073, -0.011526 )
+ga_view_zoom_set( 0.051015 )
+ga_view_aa_set( -21.962824, -10.199097, -146.119141 )
+ga_view_center_set( 0.345565, -0.011110 )
+ga_view_zoom_set( 0.057392 )
+ga_view_center_set( 0.338243, -0.010641 )
+ga_view_zoom_set( 0.064566 )
+ga_view_center_set( 0.330006, -0.010114 )
+ga_view_zoom_set( 0.072637 )
+ga_view_center_set( 0.322393, -0.008398 )
+ga_view_zoom_set( 0.081716 )
+ga_view_center_set( 0.313828, -0.006467 )
+ga_view_zoom_set( 0.091931 )
+ga_view_center_set( 0.304193, -0.004295 )
+ga_view_zoom_set( 0.103422 )
+ga_view_center_set( 0.295664, -0.001408 )
+ga_view_zoom_set( 0.116350 )
+ga_view_center_set( 0.270624, 0.008788 )
+ga_view_zoom_set( 0.159981 )
+ga_view_aa_set( -83.599808, 10.687248, 155.973206 )
+sys_poll_option( 2 )
+ga_group_create( "Bandeja_A" )
+ga_viewport_group_unpost_all( "" )
+ga_group_current_set( "Bandeja_A" )
+$# Group "Bandeja_A" created.
+sys_poll_option( 0 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+ga_view_aa_set( 0., 0., 0. )
+db_import_database_v3( "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\S" // @
+"atelite\0\Bandeja_A.db", ["Point", "Curve", "Surface", "Solid",  @
+"Coordinate Frame", "Plane", "Vector", "Node", "Element", "MPC", "User Data",  @
+"Connector", "Job", "Material", "Element Property", "Load/BC, Load Case",  @
+"Field", "DOF List", "Super Element", "Group", ""], ["All", "All", "All",  @
+"All", "All", "All", "All", "All", "All", "All", "All", "All", "All", "All",  @
+"All", "All", "All", "All", "All", "All"], [-2000000000, -2000000000,  @
+-2000000000, -2000000000, -2000000000, -2000000000, -2000000000, -2000000000,  @
+-2000000000, -2000000000, -2000000000, -2000000000, -2000000000, 0, 0, 0, 0,  @
+0, 0, 0], ["", "", "", "", "", "", "", "", "", "", "", "", "", "SM_001_",  @
+"SM_001_", "SM_001_", "SM_001_", "SM_001_", "SM_001_", "SM_001_"], [ @
+"DATA_AND_NAME", "DATA_AND_NAME", "DATA_AND_NAME", "DATA_AND_NAME",  @
+"DATA_AND_NAME", "DATA_AND_NAME", "DATA_AND_NAME"], 3, TRUE, TRUE, "cube",  @
+0.00039999999, TRUE, ["useprim", "useprim", "useprim"] )
+$# Loading 68 "Point" entities.
+$# Loading 139 "Curve" entities.
+$# Loading 84 "Surface" entities.
+$# Loading 1995 "Node" entities.
+$# Loading 1091 "Element" entities.
+$# Loading 8 "MPC" entities.
+$# Loading 1 "User Data" entities.
+$# Loading 2 "Job" entities.
+$# Loading 4 "Material" entities.
+$# Loading 7 "Element Property" entities.
+$# Loading 5 "Load/BC, Load Case" entities.
+$# Loading 1 "Group" entities.
+$# Loading all referenced entities.
+$# Saving 3454 entities.
+$# Equivalencing duplicate geometry.
+$# 113 duplicate geometry entities deleted.
+$# Posting all entities.
+ga_view_center_set( -0.003607, 0.006116 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( -0.003615, 0.006288 )
+ga_view_zoom_set( 0.411682 )
+ga_view_center_set( -0.007683, 0.013361 )
+ga_view_zoom_set( 0.463143 )
+ga_view_center_set( -0.003615, 0.006288 )
+ga_view_zoom_set( 0.411682 )
+ga_view_center_set( 0.000000, 0.000000 )
+ga_view_zoom_set( 0.365940 )
+ga_view_center_set( -0.001537, -0.003912 )
+ga_view_zoom_set( 0.325280 )
+ga_view_center_set( 0.004331, -0.010899 )
+ga_view_zoom_set( 0.365940 )
+ga_view_center_set( 0.010933, -0.018758 )
+ga_view_zoom_set( 0.411682 )
+$# Equivalencing duplicate nodes.
+$# Realigning database with new node numbers...
+$# Database realignment completed.
+$# 4 duplicate nodes deleted.
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+ga_view_center_set( -0.003214, -0.044380 )
+ga_view_zoom_set( 0.365940 )
+ga_view_aa_set( -103.099876, 0.348374, -11.632122 )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+INTEGER fem_delete_any_nnode
+INTEGER fem_delete_any_idnodes(VIRTUAL)
+INTEGER fem_delete_any_nnon
+INTEGER fem_delete_any_idnoexist(VIRTUAL)
+fem_get_node_ids( "Node 41165", fem_delete_any_nnode, fem_delete_any_idnodes,  @
+fem_delete_any_nnon, fem_delete_any_idnoexist )
+INTEGER fem_delete_any_nnode_groups
+INTEGER fem_delete_node_assoc_group_ids(VIRTUAL)
+fem_get_node_assoc_groups( 1, [41165], fem_delete_any_nnode_groups,  @
+fem_delete_node_assoc_group_ids )
+STRING fem_delete_any_deleted_ids[VIRTUAL]
+STRING fem_delete_any_not_found_ids[VIRTUAL]
+fem_delete_free_node( "Node 41165", fem_delete_any_deleted_ids,  @
+fem_delete_any_not_found_ids )
+$# No Nodes deleted.
+$# 1 FEM entity does not exist or is still associated and cannot be deleted: 
+$# Node 41165
+fem_delete_assoc_group( 3, [8, 9, 10], fem_delete_any_deleted_ids )
+$# No Groups deleted.
+fem_get_node_ids( "Node 41165 Elm 41061 Mpc 5:8", fem_delete_any_nnode,  @
+fem_delete_any_idnodes, fem_delete_any_nnon, fem_delete_any_idnoexist )
+fem_get_node_assoc_groups( 1, [41165], fem_delete_any_nnode_groups,  @
+fem_delete_node_assoc_group_ids )
+INTEGER fem_delete_any_nmpc
+INTEGER fem_delete_any_idmpcs(VIRTUAL)
+fem_get_mpc_ids( "Node 41165 Elm 41061 Mpc 5:8", fem_delete_any_nmpc,  @
+fem_delete_any_idmpcs, fem_delete_any_nnon, fem_delete_any_idnoexist )
+INTEGER fem_delete_any_nmpc_groups
+INTEGER fem_delete__mpc_assoc_group_ids(VIRTUAL)
+fem_get_mpc_assoc_groups( 4, [5, 6, 7, 8], fem_delete_any_nmpc_groups,  @
+fem_delete__mpc_assoc_group_ids )
+INTEGER fem_delete_any_nmpc_nodes
+INTEGER fem_delete_a_mpc_assoc_node_ids(VIRTUAL)
+fem_get_mpc_assoc_nodes( 4, [5, 6, 7, 8], fem_delete_any_nmpc_nodes,  @
+fem_delete_a_mpc_assoc_node_ids )
+fem_delete_mpc_by_id( 4, [5, 6, 7, 8], fem_delete_any_deleted_ids )
+$# 4 MPCs deleted: MPC 5:8
+fem_delete_assoc_node( 261, [48625, 48716, 48807, 48898, 48989, 49080, 49172,  @
+49179, 49187, 49195, 49211, 49218, 49227, 49234, 49241, 49263, 49270, 49278,  @
+49286, 49302, 49309, 49318, 49325, 49332, 49354, 49361, 49369, 49377, 49393,  @
+49400, 49409, 49416, 49423, 49445, 49452, 49460, 49468, 49484, 49491, 49500,  @
+49507, 49514, 49536, 49543, 49551, 49559, 49575, 49582, 49591, 49598, 49605,  @
+49617, 49618, 49619, 49620, 49621, 49622, 49623, 49624, 49625, 49626, 41165,  @
+42437, 42438, 42445, 42452, 42461, 42477, 42484, 42493, 42500, 42507, 42517,  @
+43156, 43157, 43158, 43159, 43160, 43161, 43162, 43163, 43164, 43165, 44257,  @
+44258, 44265, 44272, 44281, 44297, 44304, 44313, 44320, 44327, 45420, 45421,  @
+45422, 45423, 45424, 45425, 45426, 45427, 45428, 45429, 46441, 46442, 46449,  @
+46456, 46465, 46481, 46488, 46497, 46504, 46511, 48150, 48151, 48152, 48153,  @
+48154, 48155, 48156, 48157, 48158, 48159, 48626, 48633, 48640, 48649, 48665,  @
+48672, 48681, 48688, 48695, 42518, 42619, 42620, 42627, 42634, 42643, 42659,  @
+42666, 42675, 42682, 42689, 43620, 44157, 44158, 44159, 44160, 44161, 44162,  @
+44163, 44164, 44165, 45258, 45259, 45266, 45273, 45282, 45298, 45305, 45314,  @
+45321, 45328, 45804, 46341, 46342, 46343, 46344, 46345, 46346, 46347, 46348,  @
+46349, 47433, 47434, 47435, 47436, 47437, 47438, 47439, 47440, 47441, 47442,  @
+47979, 47980, 47981, 47982, 47983, 47984, 47985, 47986, 47987, 47988, 49627,  @
+49634, 49641, 49650, 49666, 49673, 49682, 49689, 49696, 42063, 42144, 42145,  @
+42146, 42147, 42148, 42149, 42150, 42151, 42152, 42153, 42235, 42236, 42237,  @
+42238, 42239, 42240, 42241, 42242, 42243, 42244, 42326, 42327, 42328, 42329,  @
+42330, 42331, 42332, 42333, 42334, 42335, 42417, 42418, 42419, 42420, 42421,  @
+42422, 42423, 42424, 42425, 42426, 42508, 42509, 42510, 42511, 42512, 42513,  @
+42514, 42515, 42516, 42599, 42600, 42601, 42602, 42603, 42604, 42605, 42606,  @
+42607, 42606, 42607, 0], fem_delete_any_deleted_ids )
+INTEGER fem_delete_any_nelem
+INTEGER fem_delete_any_idelems(VIRTUAL)
+fem_get_elem_ids( "Node 41165 Elm 41061 Mpc 5:8", fem_delete_any_nelem,  @
+fem_delete_any_idelems, fem_delete_any_nnon, fem_delete_any_idnoexist )
+INTEGER fem_delete_any_nelem_groups
+INTEGER fem_delete_elem_assoc_group_ids(VIRTUAL)
+fem_get_elem_assoc_groups( 1, [41061], fem_delete_any_nelem_groups,  @
+fem_delete_elem_assoc_group_ids )
+fem_delete_elem_and_node( "Node 41165 Elm 41061 Mpc 5:8",  @
+fem_delete_any_deleted_ids )
+$# 1 element deleted. ID = Element 41061
+$# 1 node deleted. ID = Node 41165
+fem_delete_free_node( "Node 41165 Elm 41061 Mpc 5:8",  @
+fem_delete_any_deleted_ids, fem_delete_any_not_found_ids )
+$# No Nodes deleted.
+$# 1 FEM entity does not exist or is still associated and cannot be deleted: 
+$# Node 41165
+fem_delete_assoc_group( 9, [8, 9, 10, 8, 9, 10, 8, 9, 10],  @
+fem_delete_any_deleted_ids )
+$# No Groups deleted.
+ga_view_center_set( -0.009816, -0.019387 )
+ga_view_zoom_set( 0.411682 )
+ga_view_center_set( -0.003214, -0.044380 )
+ga_view_zoom_set( 0.365940 )
+ga_view_center_set( 0.002655, -0.066457 )
+ga_view_zoom_set( 0.325280 )
+ga_view_center_set( 0.007747, -0.085584 )
+ga_view_zoom_set( 0.289138 )
+ga_view_center_set( 0.002889, -0.094857 )
+ga_view_zoom_set( 0.257011 )
+ga_view_center_set( -0.004883, -0.109695 )
+ga_view_zoom_set( 0.205609 )
+ga_view_center_set( -0.003028, -0.106515 )
+ga_view_zoom_set( 0.231310 )
+ga_view_center_set( 0.003529, -0.099461 )
+ga_view_zoom_set( 0.260224 )
+ga_view_center_set( 0.011801, -0.091189 )
+ga_view_zoom_set( 0.292752 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 5, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C", "Bandeja_D", "Rigidizadores"] )
+ga_view_center_set( -0.026374, -0.002247 )
+ga_view_zoom_set( 0.744494 )
+ga_view_center_set( -0.052278, 0.028134 )
+ga_view_zoom_set( 0.837556 )
+ga_view_center_set( 0.011305, -0.046437 )
+ga_view_zoom_set( 0.609131 )
+ga_view_center_set( 0.030144, -0.068533 )
+ga_view_zoom_set( 0.541450 )
+ga_view_center_set( 0.046889, -0.088173 )
+ga_view_zoom_set( 0.481289 )
+ga_view_center_set( 0.061774, -0.105631 )
+ga_view_zoom_set( 0.427812 )
+ga_view_center_set( 0.075006, -0.121149 )
+ga_view_zoom_set( 0.380278 )
+ga_view_center_set( 0.085983, -0.142319 )
+ga_view_zoom_set( 0.304222 )
+ga_view_aa_set( -94.992943, 20.282923, -4.232024 )
+ga_view_aa_set( -82.453934, 0.148165, -150.273178 )
+ga_view_center_set( 0.092517, -0.131342 )
+ga_view_zoom_set( 0.342250 )
+ga_view_center_set( 0.100015, -0.117670 )
+ga_view_zoom_set( 0.385031 )
+ga_view_center_set( 0.108450, -0.102288 )
+ga_view_zoom_set( 0.433160 )
+ga_view_aa_set( -82.453934, 0.148165, -150.273178 )
+ga_view_center_set( 0.099786, -0.544112 )
+ga_view_center_set( 0.136627, -0.550624 )
+ga_view_zoom_set( 0.487305 )
+ga_view_center_set( 0.178073, -0.557950 )
+ga_view_zoom_set( 0.548218 )
+ga_view_center_set( 0.224700, -0.566192 )
+ga_view_zoom_set( 0.616745 )
+ga_view_center_set( 0.178073, -0.557950 )
+ga_view_zoom_set( 0.548218 )
+ga_view_center_set( 0.076342, -0.539967 )
+ga_view_zoom_set( 0.398704 )
+ga_view_center_set( 0.040719, -0.533573 )
+ga_view_zoom_set( 0.354404 )
+ga_view_center_set( -0.037336, -0.519623 )
+ga_view_zoom_set( 0.257748 )
+ga_view_center_set( -0.060464, -0.515490 )
+ga_view_zoom_set( 0.229109 )
+ga_view_center_set( -0.110852, -0.505412 )
+ga_view_zoom_set( 0.183288 )
+ga_view_center_set( -0.133247, -0.500933 )
+ga_view_zoom_set( 0.162922 )
+ga_view_center_set( -0.156699, -0.497574 )
+ga_view_zoom_set( 0.144820 )
+ga_view_center_set( -0.210175, -0.490787 )
+ga_view_zoom_set( 0.105323 )
+ga_view_center_set( -0.231449, -0.491230 )
+ga_view_zoom_set( 0.093621 )
+ga_view_center_set( -0.265552, -0.491937 )
+ga_view_zoom_set( 0.074897 )
+ga_view_center_set( -0.280394, -0.491537 )
+ga_view_zoom_set( 0.066575 )
+ga_view_aa_set( -73.195007, 15.216549, -88.902870 )
+ga_view_center_set( -0.266953, -0.495226 )
+ga_view_zoom_set( 0.074897 )
+ga_view_center_set( -0.251446, -0.499859 )
+ga_view_zoom_set( 0.084259 )
+ga_view_center_set( -0.410695, -0.413915 )
+ga_view_center_set( -0.322223, -0.462785 )
+ga_view_center_set( -0.316758, -0.462206 )
+ga_view_zoom_set( 0.094791 )
+ga_view_center_set( -0.322223, -0.462785 )
+ga_view_zoom_set( 0.084259 )
+ga_view_center_set( -0.327081, -0.463300 )
+ga_view_zoom_set( 0.074897 )
+ga_view_center_set( -0.331399, -0.463757 )
+ga_view_zoom_set( 0.066575 )
+ga_view_center_set( -0.335238, -0.464164 )
+ga_view_zoom_set( 0.059178 )
+ga_view_center_set( -0.339305, -0.464390 )
+ga_view_zoom_set( 0.052602 )
+ga_view_center_set( -0.342940, -0.464591 )
+ga_view_zoom_set( 0.046758 )
+ga_view_aa_set( -82.739258, 15.478767, -86.846802 )
+ga_view_center_set( -0.341537, -0.431393 )
+ga_view_center_set( -0.336356, -0.431734 )
+ga_view_zoom_set( 0.052602 )
+ga_view_center_set( -0.330526, -0.432119 )
+ga_view_zoom_set( 0.059178 )
+ga_view_center_set( -0.323968, -0.432551 )
+ga_view_zoom_set( 0.066575 )
+ga_view_center_set( -0.316590, -0.433037 )
+ga_view_zoom_set( 0.074897 )
+ga_view_center_set( -0.299989, -0.434131 )
+ga_view_zoom_set( 0.093621 )
+ga_view_center_set( -0.289613, -0.434814 )
+ga_view_zoom_set( 0.105323 )
+ga_view_aa_set( -83.980896, 5.296087, -163.809982 )
+ga_view_center_set( -0.296635, -0.434525 )
+ga_view_zoom_set( 0.084259 )
+ga_view_center_set( -0.299917, -0.434557 )
+ga_view_zoom_set( 0.074897 )
+ga_view_center_set( -0.296603, -0.434460 )
+ga_view_zoom_set( 0.084259 )
+ga_view_center_set( -0.289147, -0.434243 )
+ga_view_zoom_set( 0.105323 )
+ga_view_center_set( -0.284487, -0.434108 )
+ga_view_zoom_set( 0.118489 )
+ga_view_center_set( -0.266775, -0.425862 )
+ga_view_zoom_set( 0.162922 )
+ga_view_center_set( -0.258657, -0.422083 )
+ga_view_zoom_set( 0.183288 )
+ga_view_center_set( -0.267238, -0.419170 )
+ga_view_zoom_set( 0.206198 )
+ga_view_center_set( -0.276893, -0.415893 )
+ga_view_zoom_set( 0.231973 )
+ga_view_center_set( -0.292836, -0.418384 )
+ga_view_zoom_set( 0.260970 )
+ga_view_aa_set( -79.049881, -0.503094, 110.349701 )
+ga_view_center_set( -0.314808, -0.420177 )
+ga_view_zoom_set( 0.326212 )
+ga_view_center_set( -0.328540, -0.421298 )
+ga_view_zoom_set( 0.366989 )
+ga_view_center_set( -0.360226, -0.399544 )
+ga_view_zoom_set( 0.412863 )
+ga_view_aa_set( -83.798523, 1.740796, 171.392883 )
+ga_view_center_set( 0.263197, -0.350000 )
+ga_view_center_set( 0.268517, -0.342020 )
+ga_view_zoom_set( 0.464470 )
+ga_view_center_set( 0.274502, -0.333041 )
+ga_view_zoom_set( 0.522529 )
+ga_view_aa_set( -89.798523, 1.740796, 171.392883 )
+ga_view_center_set( 0.291561, -0.296456 )
+ga_view_zoom_set( 0.587845 )
+ga_view_center_set( 0.310751, -0.255296 )
+ga_view_zoom_set( 0.661326 )
+ga_view_center_set( 0.290045, -0.294688 )
+ga_view_zoom_set( 0.587845 )
+ga_view_center_set( 0.271191, -0.329703 )
+ga_view_zoom_set( 0.522529 )
+ga_view_center_set( 0.254233, -0.360827 )
+ga_view_zoom_set( 0.464470 )
+ga_view_center_set( 0.223907, -0.409349 )
+ga_view_zoom_set( 0.371576 )
+ga_view_center_set( 0.242900, -0.379821 )
+ga_view_zoom_set( 0.418023 )
+ga_view_center_set( 0.288868, -0.309432 )
+ga_view_zoom_set( 0.522529 )
+ga_view_aa_set( -72.624664, -1.291607, 154.719055 )
+ga_view_center_set( 0.364509, -0.349609 )
+ga_view_zoom_set( 0.587845 )
+ga_view_center_set( 0.449606, -0.392031 )
+ga_view_zoom_set( 0.661326 )
+ga_view_center_set( 0.364257, -0.351629 )
+ga_view_zoom_set( 0.587845 )
+ga_view_center_set( 0.288840, -0.315941 )
+ga_view_zoom_set( 0.522529 )
+ga_view_center_set( 0.223599, -0.285216 )
+ga_view_zoom_set( 0.464470 )
+ga_view_center_set( 0.167203, -0.258437 )
+ga_view_zoom_set( 0.412863 )
+ga_view_center_set( 0.122433, -0.238101 )
+ga_view_zoom_set( 0.366989 )
+ga_view_center_set( 0.049792, -0.206321 )
+ga_view_zoom_set( 0.293591 )
+ga_view_center_set( 0.017170, -0.192308 )
+ga_view_zoom_set( 0.260970 )
+ga_view_center_set( -0.029663, -0.191610 )
+ga_view_zoom_set( 0.231973 )
+ga_view_center_set( -0.071292, -0.190990 )
+ga_view_zoom_set( 0.206198 )
+ga_view_center_set( -0.108296, -0.190439 )
+ga_view_zoom_set( 0.183288 )
+ga_view_center_set( -0.167502, -0.189558 )
+ga_view_zoom_set( 0.146630 )
+sys_poll_option( 2 )
+uil_group_delete_group.delete_groups( FALSE, 2, ["SM_001", "default_group"] )
+sys_poll_option( 0 )
+ga_group_current_set( "Rigidizadores" )
+ga_view_center_set( -0.181555, -0.187766 )
+ga_view_zoom_set( 0.130338 )
+ga_view_center_set( -0.167502, -0.189558 )
+ga_view_zoom_set( 0.146630 )
+ga_view_center_set( -0.153079, -0.188550 )
+ga_view_zoom_set( 0.164959 )
+ga_view_center_set( -0.136852, -0.187416 )
+ga_view_zoom_set( 0.185579 )
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+ga_view_center_set( -0.134620, -0.184387 )
+ga_view_zoom_set( 0.208776 )
+ga_view_center_set( -0.129239, -0.177571 )
+ga_view_zoom_set( 0.260970 )
+ga_view_center_set( -0.123859, -0.184746 )
+ga_view_zoom_set( 0.293591 )
+ga_view_center_set( -0.111752, -0.200888 )
+ga_view_zoom_set( 0.366989 )
+ga_view_aa_set( -90.768883, -0.115742, 94.429596 )
+ga_view_aa_set( -91.748016, 3.586591, 117.061157 )
+ga_view_aa_set( -87.430603, 3.052807, 50.937946 )
+elementprops_create( "viga1", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6", "<0 -1 0>" @
+, "<0 0 0>", "<0 0 0>", "", "", "", "", "", "", "", "", "", "", "", "", "", "" @
+, "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 40001" )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Curve 40001  already has been associated to an element property 
+$# region. Overwrite the association?
+$? YESFORALL 29002022 
+$# Property Set "viga1" created.
+ga_view_center_set( -0.123417, -0.185912 )
+ga_view_zoom_set( 0.412863 )
+ga_view_center_set( -0.136541, -0.169064 )
+ga_view_zoom_set( 0.464470 )
+ga_view_center_set( -0.151305, -0.151108 )
+ga_view_zoom_set( 0.522529 )
+ga_view_aa_set( -74.939964, 6.055556, 41.671219 )
+uil_toolbar.shaded_smooth(  )
+ga_view_aa_set( -70.395866, -2.240445, -38.436279 )
+ga_view_center_set( -0.129981, -0.146843 )
+ga_view_zoom_set( 0.587845 )
+ga_view_center_set( -0.105993, -0.142046 )
+ga_view_zoom_set( 0.661326 )
+ga_view_center_set( -0.079006, -0.136648 )
+ga_view_zoom_set( 0.743992 )
+ga_view_center_set( -0.048006, -0.131535 )
+ga_view_zoom_set( 0.836991 )
+ga_view_center_set( -0.142922, -0.137287 )
+ga_view_zoom_set( 0.557994 )
+ga_view_center_set( -0.180889, -0.139588 )
+ga_view_zoom_set( 0.446395 )
+ga_view_center_set( -0.200661, -0.137372 )
+ga_view_zoom_set( 0.396796 )
+ga_view_center_set( -0.233932, -0.133009 )
+ga_view_zoom_set( 0.317437 )
+ga_view_aa_set( -75.592842, 11.968060, 58.382084 )
+ga_view_center_set( -0.272793, -0.135054 )
+ga_view_zoom_set( 0.357116 )
+ga_view_center_set( -0.233932, -0.133009 )
+ga_view_zoom_set( 0.317437 )
+ga_view_center_set( -0.199388, -0.131191 )
+ga_view_zoom_set( 0.282166 )
+ga_view_center_set( -0.168791, -0.133130 )
+ga_view_zoom_set( 0.250814 )
+ga_view_center_set( -0.142454, -0.135524 )
+ga_view_zoom_set( 0.222946 )
+ga_view_center_set( -0.159405, -0.128150 )
+ga_view_zoom_set( 0.250814 )
+ga_view_center_set( -0.178475, -0.119531 )
+ga_view_zoom_set( 0.282166 )
+ga_view_center_set( -0.220654, -0.099654 )
+ga_view_zoom_set( 0.352707 )
+ga_view_center_set( -0.230351, -0.067837 )
+ga_view_zoom_set( 0.396796 )
+ga_view_center_set( -0.241089, -0.031874 )
+ga_view_zoom_set( 0.446395 )
+ga_view_center_set( -0.176354, -0.070224 )
+ga_view_zoom_set( 0.357116 )
+ga_view_center_set( -0.147583, -0.087268 )
+ga_view_zoom_set( 0.317437 )
+ga_view_center_set( -0.123948, -0.094783 )
+ga_view_zoom_set( 0.282166 )
+ga_view_center_set( -0.102939, -0.101463 )
+ga_view_zoom_set( 0.250814 )
+elementprops_delete( ["vigas_en_L"] )
+$# 1 Property Sets deleted.
+sandia_utils.delete_n_metadata( 1, ["vigas_en_L"] )
+ga_view_center_set( -0.079145, -0.024660 )
+ga_view_zoom_set( 0.740022 )
+ga_view_center_set( -0.132549, 0.017618 )
+ga_view_zoom_set( 0.832525 )
+ga_view_center_set( -0.082642, -0.022435 )
+ga_view_zoom_set( 0.740022 )
+ga_view_center_set( 0.038576, -0.130937 )
+ga_view_zoom_set( 0.493348 )
+ga_view_aa_set( -71.503120, -2.414479, 12.293417 )
+ga_view_center_set( 0.048113, -0.113560 )
+ga_view_zoom_set( 0.555017 )
+ga_view_center_set( 0.061225, -0.094011 )
+ga_view_zoom_set( 0.624394 )
+ga_view_center_set( 0.021745, -0.117184 )
+ga_view_zoom_set( 0.499515 )
+ga_view_center_set( -0.029752, -0.135910 )
+ga_view_zoom_set( 0.363284 )
+ga_view_center_set( -0.050420, -0.133413 )
+ga_view_zoom_set( 0.322919 )
+ga_view_center_set( -0.081269, -0.125201 )
+ga_view_zoom_set( 0.258335 )
+ga_view_center_set( -0.094980, -0.121552 )
+ga_view_zoom_set( 0.229631 )
+ga_view_center_set( -0.116917, -0.115712 )
+ga_view_zoom_set( 0.183705 )
+elementprops_modify( "viga1", "viga1", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042,  @
+4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050,  @
+4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411,  @
+8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"<0. 1. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis" @
+, "Analysis", "Analysis"], "Curve 40001" )
+$# Property Set "viga1" modified.
+ga_view_center_set( 0.046391, -0.069558 )
+ga_view_zoom_set( 0.737161 )
+ga_view_center_set( 0.091355, -0.077791 )
+ga_view_zoom_set( 0.829306 )
+ga_view_center_set( 0.048290, -0.071458 )
+ga_view_zoom_set( 0.737161 )
+ga_view_center_set( 0.010292, -0.066392 )
+ga_view_zoom_set( 0.655254 )
+ga_view_center_set( -0.023234, -0.062138 )
+ga_view_zoom_set( 0.582448 )
+ga_view_center_set( -0.037912, -0.065696 )
+ga_view_zoom_set( 0.517732 )
+ga_view_center_set( -0.069937, -0.073460 )
+ga_view_zoom_set( 0.376532 )
+ga_view_center_set( -0.078563, -0.075760 )
+ga_view_zoom_set( 0.334695 )
+ga_view_center_set( -0.087764, -0.075632 )
+ga_view_zoom_set( 0.297507 )
+ga_view_center_set( -0.095943, -0.075519 )
+ga_view_zoom_set( 0.264451 )
+elementprops_modify( "viga1", "viga1", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042,  @
+4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050,  @
+4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411,  @
+8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"<1. 0. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis" @
+, "Analysis", "Analysis"], "" )
+$# Property Set "viga1" modified.
+ga_view_center_set( -0.000302, -0.081915 )
+ga_view_zoom_set( 0.579796 )
+ga_view_center_set( -0.007608, -0.100511 )
+ga_view_zoom_set( 0.515374 )
+ga_view_center_set( -0.015479, -0.118025 )
+ga_view_zoom_set( 0.458110 )
+ga_view_center_set( -0.022476, -0.133593 )
+ga_view_zoom_set( 0.407209 )
+ga_view_aa_set( -79.333298, 1.797248, 30.897564 )
+ga_view_center_set( -0.004634, -0.144612 )
+ga_view_zoom_set( 0.458110 )
+ga_view_center_set( 0.015438, -0.157010 )
+ga_view_zoom_set( 0.515374 )
+ga_view_center_set( -0.001683, -0.144612 )
+ga_view_zoom_set( 0.458110 )
+ga_view_center_set( -0.029075, -0.124777 )
+ga_view_zoom_set( 0.366488 )
+ga_view_center_set( -0.046958, -0.109412 )
+ga_view_zoom_set( 0.293191 )
+ga_view_center_set( -0.061265, -0.097120 )
+ga_view_zoom_set( 0.234553 )
+ga_view_center_set( -0.065743, -0.087179 )
+ga_view_zoom_set( 0.208491 )
+elementprops_modify( "viga1", "viga1", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042,  @
+4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050,  @
+4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411,  @
+8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"<1. 0. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis" @
+, "Analysis", "Analysis"], "Curve 40001" )
+$# Property Set "viga1" modified.
+ga_view_center_set( 0.024266, -0.011922 )
+ga_view_zoom_set( 0.724753 )
+ga_view_center_set( -0.004791, -0.037105 )
+ga_view_zoom_set( 0.644225 )
+ga_view_center_set( -0.051281, -0.077396 )
+ga_view_zoom_set( 0.515380 )
+ga_view_center_set( -0.071943, -0.095304 )
+ga_view_zoom_set( 0.458115 )
+ga_view_center_set( -0.105003, -0.123956 )
+ga_view_zoom_set( 0.366492 )
+ga_view_center_set( -0.119697, -0.136690 )
+ga_view_zoom_set( 0.325771 )
+ga_view_aa_set( -59.407692, -1.502519, 22.458872 )
+ga_view_center_set( -0.116960, -0.128231 )
+ga_view_zoom_set( 0.289574 )
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+$# Critical Decision requested from application Regions
+$#     The Select Members databox contains some data.  Do you wish to add it 
+$# to the Application Region List before continuing?
+$? YES 67001017 
+elementprops_modify( "viga1", "viga2", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042,  @
+4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050,  @
+4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411,  @
+8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"<0 -1 0>", "<0 0 0>", "<0 0 0>", "", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis",  @
+"Analysis", "Analysis"], "Curve 40002" )
+$# Property Set "viga1" modified.
+ga_view_center_set( 0.035602, -0.095059 )
+ga_view_zoom_set( 0.730448 )
+ga_view_center_set( 0.071057, -0.084077 )
+ga_view_zoom_set( 0.821754 )
+ga_view_center_set( 0.002719, -0.099891 )
+ga_view_zoom_set( 0.657403 )
+ga_view_center_set( -0.073681, -0.115294 )
+ga_view_zoom_set( 0.478111 )
+ga_view_center_set( -0.107818, -0.113104 )
+ga_view_zoom_set( 0.424988 )
+ga_view_center_set( -0.183097, -0.108324 )
+ga_view_zoom_set( 0.309082 )
+ga_view_aa_set( -84.268761, 1.685367, 31.007278 )
+ga_view_center_set( -0.165867, -0.111156 )
+ga_view_zoom_set( 0.274740 )
+ga_view_center_set( -0.150551, -0.113674 )
+ga_view_zoom_set( 0.244213 )
+ga_view_center_set( -0.197757, -0.104023 )
+ga_view_zoom_set( 0.305266 )
+ga_view_center_set( -0.286662, -0.084747 )
+ga_view_zoom_set( 0.419741 )
+ga_view_center_set( -0.370322, -0.061308 )
+ga_view_zoom_set( 0.524677 )
+ga_view_center_set( -0.422609, -0.046658 )
+ga_view_zoom_set( 0.590261 )
+ga_view_center_set( -0.370322, -0.061308 )
+ga_view_zoom_set( 0.524677 )
+ga_view_center_set( -0.323844, -0.074330 )
+ga_view_zoom_set( 0.466379 )
+ga_view_center_set( -0.282531, -0.085905 )
+ga_view_zoom_set( 0.414559 )
+ga_view_center_set( -0.216429, -0.104424 )
+ga_view_zoom_set( 0.331647 )
+elementprops_create( "viga1", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6", "<1 0 0>", @
+ "<0 0 0>", "<0 0 0>", "", "", "", "", "", "", "", "", "", "", "", "", "", "", @
+ "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 40001" )
+$# Property Set "viga1" created.
+ga_view_center_set( -0.005575, -0.002933 )
+ga_view_zoom_set( 0.708763 )
+ga_view_center_set( -0.006793, 0.015943 )
+ga_view_zoom_set( 0.797359 )
+ga_view_center_set( -0.005575, -0.002933 )
+ga_view_zoom_set( 0.708763 )
+ga_view_center_set( -0.003626, -0.033134 )
+ga_view_zoom_set( 0.567011 )
+ga_view_center_set( -0.002760, -0.046557 )
+ga_view_zoom_set( 0.504009 )
+ga_view_center_set( -0.001991, -0.058489 )
+ga_view_zoom_set( 0.448008 )
+ga_view_center_set( -0.000311, -0.084521 )
+ga_view_zoom_set( 0.325824 )
+elementprops_create( "viga3", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6", "<0 1 0>", @
+ "<0 0 0>", "<0 0 0>", "", "", "", "", "", "", "", "", "", "", "", "", "", "", @
+ "", "", "", "", "", "", "", "", "", "", "", "", "Analysis", "Analysis",  @
+"Analysis"], "Curve 40003" )
+$# Property Set "viga3" created.
+ga_view_center_set( -0.055239, 0.004535 )
+ga_view_zoom_set( 0.708763 )
+ga_view_center_set( -0.168495, 0.062381 )
+ga_view_zoom_set( 0.885954 )
+ga_view_center_set( -0.105575, 0.030244 )
+ga_view_zoom_set( 0.787515 )
+ga_view_aa_set( -41.192810, -23.767052, -68.290947 )
+ga_view_center_set( -0.174245, 0.044114 )
+ga_view_zoom_set( 0.885954 )
+ga_view_center_set( -0.328755, 0.075320 )
+ga_view_zoom_set( 1.107442 )
+ga_view_center_set( -0.242916, 0.057983 )
+ga_view_zoom_set( 0.984393 )
+ga_view_center_set( 0.021202, 0.004639 )
+ga_view_zoom_set( 0.605781 )
+ga_view_center_set( 0.072089, -0.005307 )
+ga_view_zoom_set( 0.538472 )
+ga_view_center_set( 0.116499, -0.014970 )
+ga_view_zoom_set( 0.478641 )
+ga_view_center_set( 0.155060, -0.024291 )
+ga_view_zoom_set( 0.425459 )
+ga_view_aa_set( -59.666264, -2.694604, -34.480976 )
+elementprops_create( "viga3", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"<0. -1. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "", @
+ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"Analysis", "Analysis", "Analysis"], "" )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Property Set "viga3" Exists. Overwrite?
+$? YES 29002006 
+$# Property Set "viga3" created.
+ga_view_center_set( -0.061925, -0.069038 )
+ga_view_zoom_set( 0.759796 )
+ga_view_center_set( 0.001899, -0.089926 )
+ga_view_zoom_set( 0.675374 )
+ga_view_center_set( 0.057858, -0.108751 )
+ga_view_zoom_set( 0.600333 )
+elementprops_create( "viga3", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"<0. -1. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "", @
+ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"Analysis", "Analysis", "Analysis"], "Curve 40003" )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Property Set "viga3" Exists. Overwrite?
+$? YES 29002006 
+$# Property Set "viga3" created.
+ga_view_center_set( -0.068045, -0.073369 )
+ga_view_zoom_set( 0.760840 )
+ga_view_center_set( -0.149097, -0.054740 )
+ga_view_zoom_set( 0.855945 )
+ga_view_center_set( -0.012617, -0.085331 )
+ga_view_zoom_set( 0.684756 )
+ga_view_center_set( 0.133063, -0.119344 )
+ga_view_zoom_set( 0.498005 )
+ga_view_aa_set( -72.385147, -4.966647, -92.017776 )
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+elementprops_create( "viga4", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"< -1 0 0>", "< 0 0 0>", "< 0 0 0>", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis",  @
+"Analysis", "Analysis"], "" )
+$# Property Set "viga4" created.
+elementprops_create( "viga4", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"< -1 0 0>", "< 0 0 0>", "< 0 0 0>", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis",  @
+"Analysis", "Analysis"], "Curve 40000" )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Property Set "viga4" Exists. Overwrite?
+$? YES 29002006 
+$# Property Set "viga4" created.
+ga_view_aa_set( -30.167833, 7.048768, -18.233288 )
+ga_view_center_set( -0.014862, -0.000283 )
+ga_view_zoom_set( 0.760695 )
+ga_view_center_set( -0.043290, 0.041216 )
+ga_view_zoom_set( 0.855782 )
+ga_view_center_set( 0.007881, -0.033481 )
+ga_view_zoom_set( 0.684625 )
+ga_view_center_set( 0.063703, -0.114969 )
+ga_view_zoom_set( 0.497909 )
+ga_view_center_set( 0.087467, -0.137593 )
+ga_view_zoom_set( 0.442586 )
+ga_view_center_set( 0.150839, -0.197922 )
+ga_view_zoom_set( 0.295057 )
+ga_view_center_set( 0.164921, -0.211329 )
+ga_view_zoom_set( 0.262273 )
+ga_view_center_set( 0.177439, -0.223246 )
+ga_view_zoom_set( 0.233132 )
+ga_view_center_set( 0.188566, -0.233839 )
+ga_view_zoom_set( 0.207228 )
+ga_view_center_set( 0.198457, -0.243255 )
+ga_view_zoom_set( 0.184203 )
+ga_view_center_set( 0.214282, -0.258321 )
+ga_view_zoom_set( 0.147362 )
+ga_view_aa_set( -42.213123, -6.224404, -27.401625 )
+ga_view_center_set( 0.223397, -0.257434 )
+ga_view_zoom_set( 0.165783 )
+ga_view_center_set( 0.233723, -0.256437 )
+ga_view_zoom_set( 0.186505 )
+ga_view_center_set( 0.223753, -0.256651 )
+ga_view_zoom_set( 0.165783 )
+ga_view_center_set( 0.197167, -0.257221 )
+ga_view_zoom_set( 0.110522 )
+ga_view_center_set( 0.190500, -0.255870 )
+ga_view_zoom_set( 0.098242 )
+ga_view_center_set( 0.174755, -0.252740 )
+ga_view_zoom_set( 0.071448 )
+ga_view_center_set( 0.167717, -0.247093 )
+ga_view_zoom_set( 0.063510 )
+ga_view_center_set( 0.161460, -0.242073 )
+ga_view_zoom_set( 0.056453 )
+ga_view_center_set( 0.166529, -0.246753 )
+ga_view_zoom_set( 0.063510 )
+ga_view_center_set( 0.187371, -0.261485 )
+ga_view_zoom_set( 0.095265 )
+ga_view_center_set( 0.194491, -0.265495 )
+ga_view_zoom_set( 0.107173 )
+ga_view_center_set( 0.202456, -0.269869 )
+ga_view_zoom_set( 0.120569 )
+ga_view_aa_set( -42.691921, -9.914685, -30.809687 )
+elementprops_create( "viga4", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"<1. 0. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis" @
+, "Analysis", "Analysis"], "" )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Property Set "viga4" Exists. Overwrite?
+$? YES 29002006 
+$# Property Set "viga4" created.
+ga_view_center_set( -0.056994, -0.058429 )
+ga_view_zoom_set( 0.724469 )
+ga_view_center_set( -0.137594, -0.007081 )
+ga_view_zoom_set( 0.815028 )
+ga_view_center_set( 0.060243, -0.132353 )
+ga_view_zoom_set( 0.592748 )
+ga_view_center_set( 0.118862, -0.169470 )
+ga_view_zoom_set( 0.526887 )
+ga_view_center_set( 0.120446, -0.152043 )
+ga_view_zoom_set( 0.592748 )
+ga_view_center_set( 0.124011, -0.112832 )
+ga_view_zoom_set( 0.740935 )
+ga_view_center_set( 0.122030, -0.134616 )
+ga_view_zoom_set( 0.658609 )
+ga_view_center_set( 0.120270, -0.153980 )
+ga_view_zoom_set( 0.585430 )
+ga_view_center_set( 0.116429, -0.196227 )
+ga_view_zoom_set( 0.425767 )
+ga_view_aa_set( -93.341835, -9.985062, -28.781096 )
+elementprops_create( "viga4", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"<1. 0. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis" @
+, "Analysis", "Analysis"], "Curve 40000" )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Property Set "viga4" Exists. Overwrite?
+$? YES 29002006 
+$# Property Set "viga4" created.
+ga_view_center_set( -0.028280, 0.007551 )
+ga_view_zoom_set( 0.718830 )
+ga_view_center_set( -0.070582, 0.055720 )
+ga_view_zoom_set( 0.808683 )
+ga_view_center_set( -0.118172, 0.109910 )
+ga_view_zoom_set( 0.909769 )
+ga_view_center_set( 0.045361, -0.077671 )
+ga_view_zoom_set( 0.559858 )
+ga_view_center_set( 0.074433, -0.111019 )
+ga_view_zoom_set( 0.497651 )
+ga_view_center_set( 0.117529, -0.163007 )
+ga_view_zoom_set( 0.398121 )
+ga_view_center_set( 0.136682, -0.186113 )
+ga_view_zoom_set( 0.353885 )
+ga_view_center_set( 0.153708, -0.206652 )
+ga_view_zoom_set( 0.314565 )
+ga_view_center_set( 0.160554, -0.220344 )
+ga_view_zoom_set( 0.279613 )
+ga_view_center_set( 0.171508, -0.242829 )
+ga_view_zoom_set( 0.223690 )
+ga_view_aa_set( -114.216377, -3.506248, -50.919575 )
+ga_view_aa_set( -19.442301, 19.796738, -62.000744 )
+ga_view_aa_set( -30.003004, 7.256536, -68.355507 )
+elementprops_modify( "viga2", "viga4", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042,  @
+4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050,  @
+4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411,  @
+8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"<0 1. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis" @
+, "Analysis", "Analysis"], "" )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Property Set "viga4" Exists. Overwrite?
+$? YES 29002006 
+$# Property Set "viga2" modified.
+ga_view_aa_set( -82.128242, 7.514255, -67.381203 )
+ga_view_center_set( -0.008955, -0.048337 )
+ga_view_zoom_set( 0.716407 )
+ga_view_center_set( 0.024896, -0.020641 )
+ga_view_zoom_set( 0.895508 )
+ga_view_center_set( 0.006090, -0.036028 )
+ga_view_zoom_set( 0.796007 )
+ga_view_center_set( -0.044059, -0.077059 )
+ga_view_zoom_set( 0.530672 )
+elementprops_modify( "viga4", "viga4", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042,  @
+4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050,  @
+4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411,  @
+8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"<0 1. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis" @
+, "Analysis", "Analysis"], "Curve 40000" )
+$# Property Set "viga4" modified.
+ga_view_center_set( -0.032206, -0.088001 )
+ga_view_zoom_set( 0.663340 )
+ga_view_center_set( -0.038791, -0.081922 )
+ga_view_zoom_set( 0.589635 )
+ga_view_center_set( -0.053159, -0.068659 )
+ga_view_zoom_set( 0.428826 )
+ga_view_center_set( -0.057743, -0.064893 )
+ga_view_zoom_set( 0.381178 )
+ga_view_center_set( -0.068104, -0.056677 )
+ga_view_zoom_set( 0.277221 )
+ga_view_center_set( -0.074666, -0.050432 )
+ga_view_zoom_set( 0.246418 )
+ga_view_center_set( -0.088985, -0.036806 )
+ga_view_zoom_set( 0.179213 )
+ga_view_aa_set( -89.301582, 2.466881, -118.232330 )
+ga_view_center_set( -0.083784, -0.033316 )
+ga_view_zoom_set( 0.159301 )
+ga_view_center_set( -0.075464, -0.027951 )
+ga_view_zoom_set( 0.127441 )
+ga_view_center_set( -0.071911, -0.025810 )
+ga_view_zoom_set( 0.113280 )
+ga_view_center_set( -0.076096, -0.025762 )
+ga_view_zoom_set( 0.127441 )
+ga_view_center_set( -0.095584, -0.021820 )
+ga_view_zoom_set( 0.191161 )
+ga_view_center_set( -0.109872, -0.013116 )
+ga_view_zoom_set( 0.238951 )
+ga_view_center_set( -0.127732, -0.002236 )
+ga_view_zoom_set( 0.298689 )
+ga_view_aa_set( -90.207169, 2.093559, -146.250198 )
+ga_view_center_set( -0.161989, 0.001741 )
+ga_view_zoom_set( 0.336025 )
+ga_view_aa_set( -75.788338, -8.254268, 140.438766 )
+ga_view_aa_set( -95.788338, -8.254268, 140.438766 )
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+elementprops_create( "viga2", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042, 4043,  @
+2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050, 4051,  @
+4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411, 8200,  @
+8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_45x45", "m:AL_7075_T6",  @
+"< 0 -1 0>", "< 0 0 0>", "< 0 0 0>", "", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis",  @
+"Analysis", "Analysis"], "Curve 40002" )
+$# Property Set "viga2" created.
+ga_view_aa_set( -38.650562, -6.404849, 141.626495 )
+ga_view_center_set( -0.190713, 0.020361 )
+ga_view_zoom_set( 0.378028 )
+ga_view_center_set( -0.223027, 0.041471 )
+ga_view_zoom_set( 0.425281 )
+ga_view_center_set( -0.190713, 0.020361 )
+ga_view_zoom_set( 0.378028 )
+ga_view_center_set( -0.161989, 0.001597 )
+ga_view_zoom_set( 0.336025 )
+ga_view_center_set( -0.136328, -0.013543 )
+ga_view_zoom_set( 0.298689 )
+ga_view_center_set( -0.095066, -0.032634 )
+ga_view_zoom_set( 0.238951 )
+ga_view_aa_set( -77.191002, 5.075706, -83.648399 )
+ga_view_center_set( -0.085942, -0.041302 )
+ga_view_zoom_set( 0.212401 )
+ga_view_center_set( -0.077832, -0.049007 )
+ga_view_zoom_set( 0.188801 )
+ga_view_center_set( -0.070623, -0.055855 )
+ga_view_zoom_set( 0.167823 )
+ga_view_center_set( -0.077832, -0.049007 )
+ga_view_zoom_set( 0.188801 )
+ga_view_center_set( -0.102162, -0.025893 )
+ga_view_zoom_set( 0.259601 )
+ga_view_center_set( -0.113313, -0.015299 )
+ga_view_zoom_set( 0.292051 )
+ga_view_aa_set( -81.895172, 1.596414, -106.421585 )
+ga_view_center_set( -0.097367, -0.029573 )
+ga_view_zoom_set( 0.259601 )
+ga_view_center_set( -0.083193, -0.042261 )
+ga_view_zoom_set( 0.230757 )
+ga_view_center_set( -0.070593, -0.053538 )
+ga_view_zoom_set( 0.205117 )
+ga_view_center_set( -0.083193, -0.042260 )
+ga_view_zoom_set( 0.230757 )
+ga_view_center_set( -0.125716, -0.004197 )
+ga_view_zoom_set( 0.317290 )
+ga_view_center_set( -0.145206, 0.013248 )
+ga_view_zoom_set( 0.356952 )
+ga_view_center_set( -0.167132, 0.032874 )
+ga_view_zoom_set( 0.401570 )
+ga_view_aa_set( -90.895172, 1.596414, -106.421577 )
+ga_view_center_set( -0.149192, 0.012788 )
+ga_view_zoom_set( 0.356952 )
+ga_view_center_set( -0.133928, -0.006020 )
+ga_view_zoom_set( 0.317290 )
+ga_view_center_set( -0.149192, 0.013061 )
+ga_view_zoom_set( 0.356952 )
+ga_view_center_set( -0.200711, 0.077919 )
+ga_view_zoom_set( 0.490808 )
+ga_view_center_set( -0.224324, 0.107857 )
+ga_view_zoom_set( 0.552159 )
+ga_view_center_set( -0.254683, 0.155294 )
+ga_view_zoom_set( 0.621179 )
+ga_view_center_set( -0.324059, 0.266828 )
+ga_view_zoom_set( 0.776474 )
+ga_view_aa_set( -76.557335, 0.035290, -122.285812 )
+ga_view_zoom_set( 0.656175 )
+ga_view_center_set( -0.107521, -0.507459 )
+ga_view_center_set( -0.107521, -0.284359 )
+ga_view_center_set( -0.142472, -0.283795 )
+ga_view_zoom_set( 0.738197 )
+ga_view_center_set( -0.181792, -0.283161 )
+ga_view_zoom_set( 0.830472 )
+ga_view_center_set( -0.142472, -0.283795 )
+ga_view_zoom_set( 0.738197 )
+ga_view_center_set( -0.056684, -0.285179 )
+ga_view_zoom_set( 0.536871 )
+ga_view_center_set( -0.035774, -0.283949 )
+ga_view_zoom_set( 0.477218 )
+ga_view_center_set( -0.017735, -0.283220 )
+ga_view_zoom_set( 0.424194 )
+ga_view_aa_set( -86.552834, -0.296735, -120.313560 )
+ga_view_center_set( -0.031401, -0.282309 )
+ga_view_zoom_set( 0.477218 )
+ga_view_center_set( -0.035993, -0.270830 )
+ga_view_zoom_set( 0.381775 )
+ga_view_center_set( -0.040454, -0.262433 )
+ga_view_zoom_set( 0.305420 )
+ga_view_center_set( -0.054623, -0.261646 )
+ga_view_zoom_set( 0.343597 )
+ga_view_center_set( -0.070710, -0.260760 )
+ga_view_zoom_set( 0.386547 )
+ga_view_aa_set( -29.663082, -3.504956, -124.087563 )
+ga_view_center_set( -0.094953, -0.237514 )
+ga_view_zoom_set( 0.483184 )
+ga_view_center_set( -0.081300, -0.251720 )
+ga_view_zoom_set( 0.429497 )
+ga_view_center_set( -0.050708, -0.282312 )
+ga_view_zoom_set( 0.312361 )
+ga_view_center_set( -0.041167, -0.291019 )
+ga_view_zoom_set( 0.277654 )
+ga_view_center_set( -0.029081, -0.290595 )
+ga_view_zoom_set( 0.246804 )
+ga_view_center_set( -0.001787, -0.288976 )
+ga_view_zoom_set( 0.179494 )
+ga_view_center_set( 0.008494, -0.282807 )
+ga_view_zoom_set( 0.159550 )
+ga_view_center_set( 0.024942, -0.272938 )
+ga_view_zoom_set( 0.127640 )
+ga_view_center_set( 0.035118, -0.273903 )
+ga_view_zoom_set( 0.102112 )
+ga_view_center_set( 0.040343, -0.279011 )
+ga_view_zoom_set( 0.090766 )
+ga_view_center_set( 0.048702, -0.287183 )
+ga_view_zoom_set( 0.072613 )
+ga_view_center_set( 0.050864, -0.286656 )
+ga_view_zoom_set( 0.064545 )
+ga_view_center_set( 0.055462, -0.285688 )
+ga_view_zoom_set( 0.046942 )
+ga_view_center_set( 0.057272, -0.286477 )
+ga_view_zoom_set( 0.041726 )
+ga_view_center_set( 0.061144, -0.288588 )
+ga_view_zoom_set( 0.030346 )
+ga_view_center_set( 0.062754, -0.289944 )
+ga_view_zoom_set( 0.026974 )
+ga_view_center_set( 0.065331, -0.292113 )
+ga_view_zoom_set( 0.021579 )
+ga_view_center_set( 0.067393, -0.293848 )
+ga_view_zoom_set( 0.017264 )
+ga_view_aa_set( -45.622917, -2.818406, -123.359360 )
+ga_view_center_set( 0.068772, -0.293344 )
+ga_view_zoom_set( 0.019422 )
+ga_view_center_set( 0.071875, -0.292193 )
+ga_view_zoom_set( 0.024277 )
+ga_view_center_set( 0.073815, -0.291473 )
+ga_view_zoom_set( 0.027312 )
+ga_view_center_set( 0.078179, -0.289854 )
+ga_view_zoom_set( 0.034139 )
+ga_view_center_set( 0.086362, -0.286775 )
+ga_view_zoom_set( 0.046942 )
+ga_view_center_set( 0.090032, -0.285605 )
+ga_view_zoom_set( 0.052809 )
+ga_view_center_set( 0.106456, -0.280615 )
+ga_view_zoom_set( 0.079214 )
+ga_view_center_set( 0.110981, -0.279832 )
+ga_view_zoom_set( 0.089116 )
+ga_view_center_set( 0.129815, -0.266511 )
+ga_view_zoom_set( 0.133674 )
+ga_view_aa_set( 5.377082, -2.818399, -123.359367 )
+ga_view_center_set( 0.109764, -0.384144 )
+ga_view_aa_set( -5.621630, -0.823499, -123.285408 )
+ga_view_center_set( 0.112405, -0.381330 )
+ga_view_zoom_set( 0.150383 )
+ga_view_center_set( 0.109936, -0.384374 )
+ga_view_zoom_set( 0.133674 )
+ga_view_center_set( 0.105986, -0.389243 )
+ga_view_zoom_set( 0.106939 )
+ga_view_center_set( 0.104230, -0.391407 )
+ga_view_zoom_set( 0.095057 )
+ga_view_center_set( 0.102669, -0.393331 )
+ga_view_zoom_set( 0.084495 )
+ga_view_center_set( 0.099264, -0.397528 )
+ga_view_zoom_set( 0.061451 )
+ga_view_center_set( 0.098255, -0.398771 )
+ga_view_zoom_set( 0.054623 )
+ga_view_center_set( 0.095665, -0.400498 )
+ga_view_zoom_set( 0.043698 )
+ga_view_center_set( 0.094513, -0.401266 )
+ga_view_zoom_set( 0.038843 )
+ga_view_center_set( 0.093490, -0.401948 )
+ga_view_zoom_set( 0.034527 )
+beam_section_create( "L_30x30", "L", ["0.030", "0.030", "5.2e-3", "5.2e-3"] )
+$# Beam Section "L_30x30" created.
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+elementprops_modify( "viga1", "viga1", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042,  @
+4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050,  @
+4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411,  @
+8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_30x30", "m:AL_7075_T6",  @
+"<1. 0. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis" @
+, "Analysis", "Analysis"], "Curve 40001" )
+$# Property Set "viga1" modified.
+ga_view_center_set( 0.093831, -0.401295 )
+ga_view_zoom_set( 0.038843 )
+ga_view_center_set( 0.094599, -0.399827 )
+ga_view_zoom_set( 0.048554 )
+ga_view_center_set( 0.095078, -0.398909 )
+ga_view_zoom_set( 0.054623 )
+ga_view_center_set( 0.095548, -0.401420 )
+ga_view_zoom_set( 0.061451 )
+ga_view_center_set( 0.096260, -0.404482 )
+ga_view_zoom_set( 0.069132 )
+ga_view_center_set( 0.104813, -0.437979 )
+ga_view_zoom_set( 0.138265 )
+ga_view_aa_set( -61.496620, -2.359004, -120.684074 )
+ga_view_center_set( -0.131620, -0.433831 )
+ga_view_center_set( -0.129066, -0.440721 )
+ga_view_zoom_set( 0.155548 )
+ga_view_center_set( -0.126193, -0.448471 )
+ga_view_zoom_set( 0.174991 )
+ga_view_center_set( -0.122961, -0.457191 )
+ga_view_zoom_set( 0.196865 )
+ga_view_center_set( -0.123384, -0.465055 )
+ga_view_zoom_set( 0.221473 )
+ga_view_center_set( -0.123859, -0.473808 )
+ga_view_zoom_set( 0.249157 )
+ga_view_aa_set( -9.093600, -6.714157, 111.080162 )
+ga_view_aa_set( -12.070767, -5.736308, 111.290718 )
+ga_view_center_set( 0.035602, -0.217176 )
+ga_view_center_set( 0.048059, -0.169836 )
+ga_view_center_set( 0.005891, -0.169729 )
+ga_view_zoom_set( 0.280302 )
+ga_view_center_set( -0.041548, -0.169608 )
+ga_view_zoom_set( 0.315340 )
+ga_view_center_set( -0.094918, -0.169473 )
+ga_view_zoom_set( 0.354757 )
+ga_view_center_set( -0.041548, -0.169608 )
+ga_view_zoom_set( 0.315340 )
+ga_view_center_set( 0.043843, -0.169825 )
+ga_view_zoom_set( 0.252272 )
+ga_view_center_set( 0.081794, -0.169921 )
+ga_view_zoom_set( 0.224242 )
+ga_view_center_set( 0.142517, -0.170075 )
+ga_view_zoom_set( 0.179393 )
+ga_view_center_set( 0.173409, -0.170007 )
+ga_view_zoom_set( 0.159461 )
+ga_view_center_set( 0.221850, -0.170336 )
+ga_view_zoom_set( 0.127569 )
+ga_view_center_set( 0.239677, -0.168582 )
+ga_view_zoom_set( 0.113394 )
+ga_view_center_set( 0.268045, -0.165776 )
+ga_view_zoom_set( 0.090715 )
+ga_view_center_set( 0.290740, -0.162908 )
+ga_view_zoom_set( 0.072572 )
+ga_view_center_set( 0.308895, -0.160614 )
+ga_view_zoom_set( 0.058058 )
+ga_view_center_set( 0.317208, -0.156380 )
+ga_view_zoom_set( 0.051607 )
+ga_view_center_set( 0.324499, -0.153010 )
+ga_view_zoom_set( 0.045873 )
+ga_view_center_set( 0.336070, -0.147903 )
+ga_view_zoom_set( 0.036698 )
+ga_view_center_set( 0.348864, -0.142400 )
+ga_view_zoom_set( 0.026690 )
+ga_view_center_set( 0.355504, -0.139777 )
+ga_view_zoom_set( 0.021352 )
+ga_view_center_set( 0.353101, -0.139511 )
+ga_view_zoom_set( 0.024021 )
+ga_view_center_set( 0.347695, -0.138912 )
+ga_view_zoom_set( 0.030026 )
+ga_view_center_set( 0.344316, -0.138551 )
+ga_view_zoom_set( 0.033779 )
+ga_view_center_set( 0.336712, -0.137738 )
+ga_view_zoom_set( 0.042224 )
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+elementprops_modify( "viga2", "viga2", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042,  @
+4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050,  @
+4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411,  @
+8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_30x30", "m:AL_7075_T6",  @
+"<0. -1. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "", @
+ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"Analysis", "Analysis", "Analysis"], "Curve 40002" )
+$# Property Set "viga2" modified.
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+elementprops_modify( "viga3", "viga3", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042,  @
+4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050,  @
+4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411,  @
+8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_30x30", "m:AL_7075_T6",  @
+"<0. -1. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "", @
+ "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "",  @
+"Analysis", "Analysis", "Analysis"], "Curve 40003" )
+$# Property Set "viga3" modified.
+$# Warning reported from application ELEM_PROPS
+$#     The section selected is not a good candidate for CBARs because the 
+$# shear center and centroid are not coincident.
+$#  There is no Nastran equivalent section in its beam section library. 
+$# Therefore the properties are written as PBAR and not PBARL entries.
+$#  Consider using the General Section (CBEAM) property instead, which uses 
+$# CBEAM/PBEAML instead.
+elementprops_modify( "viga4", "viga4", 11, 2, 42, 1, 1, 20, [39, 13, 6, 4042,  @
+4043, 2047, 2048, 1, 10, 11, 4026, 1026, 4044, 4045, 4037, 4047, 4048, 4050,  @
+4051, 4053, 4054, 4056, 4057, 8112, 4061, 4303, 8111, 4403, 4404, 4410, 4411,  @
+8200, 8201, 8202], [11, 5, 2, 2, 2, 4, 4, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1, 1,  @
+1, 1, 1, 1, 1, 6, 4, 4, 1, 1, 1, 6, 4, 4, 4], ["L_30x30", "m:AL_7075_T6",  @
+"<0. 1. 0.>", "<0. 0. 0.>", "<0. 0. 0.>", "", "", "", "", "", "", "", "", "",  @
+"", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "", "Analysis" @
+, "Analysis", "Analysis"], "Curve 40000" )
+$# Property Set "viga4" modified.
+ga_view_center_set( -0.027420, -0.035088 )
+ga_view_zoom_set( 0.703409 )
+ga_view_center_set( -0.001368, -0.034551 )
+ga_view_zoom_set( 0.625253 )
+ga_view_center_set( 0.040316, -0.033692 )
+ga_view_zoom_set( 0.500202 )
+ga_view_aa_set( -66.608452, -1.442305, 119.170166 )
+ga_view_aa_set( -74.608452, -1.442304, 119.170174 )
+ga_view_center_set( 0.040101, -0.005974 )
+ga_view_zoom_set( 0.562727 )
+ga_view_center_set( 0.039859, 0.025208 )
+ga_view_zoom_set( 0.633068 )
+ga_view_center_set( 0.039587, 0.060288 )
+ga_view_zoom_set( 0.712202 )
+ga_view_center_set( 0.039859, 0.025208 )
+ga_view_zoom_set( 0.633068 )
+ga_view_center_set( 0.021451, -0.040894 )
+ga_view_zoom_set( 0.389580 )
+ga_view_center_set( 0.011039, -0.045059 )
+ga_view_zoom_set( 0.346294 )
+ga_view_center_set( -0.005859, -0.051009 )
+ga_view_zoom_set( 0.277035 )
+ga_view_center_set( -0.013899, -0.053548 )
+ga_view_zoom_set( 0.246253 )
+ga_view_center_set( -0.027100, -0.057609 )
+ga_view_zoom_set( 0.197003 )
+ga_view_center_set( -0.033118, -0.059415 )
+ga_view_zoom_set( 0.175113 )
+ga_view_center_set( -0.047396, -0.058102 )
+ga_view_zoom_set( 0.127355 )
+ga_view_center_set( -0.051772, -0.057518 )
+ga_view_zoom_set( 0.113205 )
+ga_view_aa_set( -60.608456, -1.442302, 119.170166 )
+ga_view_center_set( -0.045840, -0.054649 )
+ga_view_zoom_set( 0.127355 )
+ga_view_center_set( -0.055468, -0.058938 )
+ga_view_zoom_set( 0.101884 )
+ga_view_center_set( -0.059747, -0.060844 )
+ga_view_zoom_set( 0.090564 )
+ga_view_center_set( -0.063551, -0.062539 )
+ga_view_zoom_set( 0.080501 )
+ga_view_center_set( -0.066932, -0.064045 )
+ga_view_zoom_set( 0.071557 )
+ga_view_center_set( -0.069992, -0.065411 )
+ga_view_zoom_set( 0.063606 )
+ga_view_center_set( -0.076788, -0.068392 )
+ga_view_zoom_set( 0.046259 )
+ga_view_center_set( -0.078801, -0.069275 )
+ga_view_zoom_set( 0.041119 )
+ga_view_center_set( -0.081115, -0.068851 )
+ga_view_zoom_set( 0.046259 )
+ga_view_center_set( -0.083658, -0.068374 )
+ga_view_zoom_set( 0.052041 )
+ga_view_center_set( -0.084754, -0.067368 )
+ga_view_zoom_set( 0.058546 )
+ga_view_center_set( -0.086036, -0.062313 )
+ga_view_zoom_set( 0.080501 )
+ga_view_center_set( -0.086555, -0.059961 )
+ga_view_zoom_set( 0.090564 )
+ga_view_center_set( -0.088033, -0.052881 )
+ga_view_zoom_set( 0.113205 )
+ga_view_aa_set( -86.608459, -1.442301, 119.170166 )
+mesh_seed_display_mgr.erase(  )
+ga_view_center_set( -0.100968, -0.050158 )
+ga_view_zoom_set( 0.127355 )
+ga_view_center_set( -0.115247, -0.046985 )
+ga_view_zoom_set( 0.143275 )
+ga_view_center_set( -0.105947, -0.051307 )
+ga_view_zoom_set( 0.127355 )
+ga_view_center_set( -0.098069, -0.055197 )
+ga_view_zoom_set( 0.113205 )
+ga_view_center_set( -0.091412, -0.058655 )
+ga_view_zoom_set( 0.100626 )
+ga_view_center_set( -0.097853, -0.055197 )
+ga_view_zoom_set( 0.113205 )
+ga_view_center_set( -0.112344, -0.047417 )
+ga_view_zoom_set( 0.141506 )
+ga_view_center_set( -0.121401, -0.042554 )
+ga_view_zoom_set( 0.159194 )
+ga_view_center_set( -0.118802, -0.075652 )
+ga_view_zoom_set( 0.198993 )
+point_size( 1 )
+point_size( 9 )
+point_label( TRUE )
+point_size( 1 )
+uil_toolbar.wireframe(  )
+point_size( 9 )
+ga_view_center_set( -0.132479, -0.051889 )
+ga_view_zoom_set( 0.223867 )
+ga_view_center_set( -0.118802, -0.067446 )
+ga_view_zoom_set( 0.198993 )
+ga_view_center_set( -0.096920, -0.090833 )
+ga_view_zoom_set( 0.159194 )
+ga_view_center_set( -0.079414, -0.109542 )
+ga_view_zoom_set( 0.127355 )
+ga_view_center_set( -0.088167, -0.100187 )
+ga_view_zoom_set( 0.143275 )
+ga_view_center_set( -0.098014, -0.089663 )
+ga_view_zoom_set( 0.161184 )
+ga_view_center_set( -0.142326, -0.041198 )
+ga_view_zoom_set( 0.241776 )
+ga_view_center_set( -0.158943, -0.022400 )
+ga_view_zoom_set( 0.271998 )
+ga_view_center_set( -0.177637, -0.001018 )
+ga_view_zoom_set( 0.305998 )
+ga_view_center_set( -0.219698, 0.047089 )
+ga_view_zoom_set( 0.382497 )
+ga_view_aa_set( -86.634102, -1.501238, 118.171577 )
+ga_view_aa_set( -79.438484, 6.253002, 71.517815 )
+mesh_seed_display_mgr.erase(  )
+ga_view_center_set( -0.273589, 0.029509 )
+ga_view_zoom_set( 0.430309 )
+ga_view_center_set( -0.331260, 0.010285 )
+ga_view_zoom_set( 0.484098 )
+ga_view_center_set( -0.393020, -0.013420 )
+ga_view_zoom_set( 0.544610 )
+ga_view_center_set( -0.281852, 0.029250 )
+ga_view_zoom_set( 0.435688 )
+ga_view_center_set( -0.160577, 0.075800 )
+ga_view_zoom_set( 0.316864 )
+ga_view_aa_set( -86.011467, 5.972128, 67.504974 )
+ga_view_center_set( -0.198688, 0.056064 )
+ga_view_zoom_set( 0.356472 )
+ga_view_center_set( -0.241563, 0.033861 )
+ga_view_zoom_set( 0.401031 )
+ga_view_center_set( -0.289797, 0.008882 )
+ga_view_zoom_set( 0.451160 )
+ga_view_center_set( -0.398324, -0.047319 )
+ga_view_zoom_set( 0.563950 )
+ga_view_center_set( -0.471240, -0.091408 )
+ga_view_zoom_set( 0.634444 )
+ga_view_aa_set( -86.304703, 11.781492, -17.483152 )
+STRING asm_delete_point_deleted_ids[VIRTUAL]
+asm_delete_point( "Point 20067", asm_delete_point_deleted_ids )
+$# 1 Point Deleted: Point 20067
+asm_delete_point( "Point 30067", asm_delete_point_deleted_ids )
+$# 1 Point Deleted: Point 30067
+ga_view_center_set( -0.568532, -0.138283 )
+ga_view_zoom_set( 0.713749 )
+ga_view_aa_set( -90.163017, 19.196417, -70.582367 )
+ga_view_center_set( -0.658977, -0.163730 )
+ga_view_zoom_set( 0.802968 )
+ga_view_center_set( -0.509973, -0.103025 )
+ga_view_zoom_set( 0.642374 )
+ga_view_center_set( -0.390770, -0.051370 )
+ga_view_zoom_set( 0.513899 )
+ga_view_center_set( -0.336417, -0.024488 )
+ga_view_zoom_set( 0.456799 )
+ga_view_center_set( -0.282347, 0.008477 )
+ga_view_zoom_set( 0.406044 )
+ga_view_center_set( -0.271960, 0.028167 )
+ga_view_zoom_set( 0.360928 )
+ga_view_center_set( -0.262727, 0.045668 )
+ga_view_zoom_set( 0.320825 )
+ga_view_center_set( -0.254519, 0.061226 )
+ga_view_zoom_set( 0.285178 )
+ga_view_center_set( -0.247333, 0.074837 )
+ga_view_zoom_set( 0.253491 )
+ga_view_center_set( -0.241816, 0.086838 )
+ga_view_zoom_set( 0.225326 )
+ga_view_center_set( -0.233453, 0.105732 )
+ga_view_zoom_set( 0.180260 )
+ga_view_center_set( -0.229736, 0.114129 )
+ga_view_zoom_set( 0.160231 )
+ga_view_aa_set( -81.075768, 7.644290, -93.700089 )
+ga_view_aa_set( -77.465477, 6.584504, -98.624496 )
+ga_view_center_set( -0.058524, 0.066636 )
+ga_view_zoom_set( 0.142428 )
+ga_view_center_set( -0.082323, 0.061252 )
+ga_view_zoom_set( 0.160231 )
+ga_view_center_set( -0.109097, 0.055195 )
+ga_view_zoom_set( 0.180260 )
+ga_view_aa_set( -86.958122, 7.238653, -77.493950 )
+ga_view_center_set( -0.089757, 0.052649 )
+ga_view_zoom_set( 0.160231 )
+ga_view_center_set( -0.109029, 0.055195 )
+ga_view_zoom_set( 0.180260 )
+ga_view_center_set( -0.130709, 0.058060 )
+ga_view_zoom_set( 0.202793 )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+ga_view_aa_set( -139.454666, -4.561604, -37.200443 )
+ga_view_center_set( -0.126789, 0.059105 )
+ga_view_zoom_set( 0.228142 )
+ga_view_center_set( -0.122379, 0.060281 )
+ga_view_zoom_set( 0.256660 )
+ga_view_center_set( -0.117528, 0.061604 )
+ga_view_zoom_set( 0.288742 )
+ga_view_center_set( -0.113063, 0.063092 )
+ga_view_zoom_set( 0.324835 )
+ga_view_center_set( -0.121156, 0.076767 )
+ga_view_zoom_set( 0.365439 )
+ga_view_center_set( -0.130261, 0.092150 )
+ga_view_zoom_set( 0.411119 )
+ga_view_center_set( -0.140503, 0.109457 )
+ga_view_zoom_set( 0.462509 )
+ga_view_aa_set( 24.078617, 0.750370, -75.683128 )
+ga_view_aa_set( -81.554771, -2.446718, 6.433984 )
+ga_view_center_set( -0.172887, 0.133496 )
+ga_view_zoom_set( 0.520323 )
+ga_view_center_set( 0.035242, -0.064227 )
+ga_view_center_set( 0.038818, -0.063109 )
+ga_view_zoom_set( 0.585363 )
+ga_view_center_set( 0.035242, -0.064227 )
+ga_view_zoom_set( 0.520323 )
+ga_view_center_set( 0.032063, -0.065220 )
+ga_view_zoom_set( 0.462509 )
+ga_view_center_set( 0.029238, -0.066103 )
+ga_view_zoom_set( 0.411119 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_B"] )
+ga_view_center_set( 0.040069, -0.081016 )
+ga_view_zoom_set( 0.365439 )
+ga_view_center_set( 0.049418, -0.095388 )
+ga_view_zoom_set( 0.324835 )
+ga_view_center_set( 0.040069, -0.081015 )
+ga_view_zoom_set( 0.365439 )
+ga_view_center_set( 0.029552, -0.064847 )
+ga_view_zoom_set( 0.411119 )
+ga_view_center_set( 0.017896, -0.046657 )
+ga_view_zoom_set( 0.462509 )
+mesh_seed_display_mgr.erase(  )
+STRING asm_delete_point_deleted_ids[VIRTUAL]
+asm_delete_point( "Point 10067", asm_delete_point_deleted_ids )
+$# 1 Point Deleted: Point 10067
+ga_view_center_set( -0.000382, -0.037717 )
+ga_view_zoom_set( 0.520323 )
+ga_view_center_set( -0.020944, -0.027659 )
+ga_view_zoom_set( 0.585363 )
+ga_view_center_set( -0.000382, -0.037717 )
+ga_view_zoom_set( 0.520323 )
+ga_view_center_set( 0.017499, -0.046657 )
+ga_view_zoom_set( 0.462509 )
+ga_view_center_set( 0.042929, -0.060962 )
+ga_view_zoom_set( 0.370007 )
+ga_view_center_set( 0.053384, -0.067036 )
+ga_view_zoom_set( 0.328896 )
+ga_view_center_set( 0.059411, -0.075702 )
+ga_view_zoom_set( 0.292352 )
+ga_view_center_set( 0.063542, -0.083404 )
+ga_view_zoom_set( 0.259868 )
+ga_view_center_set( 0.066419, -0.090052 )
+ga_view_zoom_set( 0.230994 )
+ga_view_aa_set( -88.644409, -2.773367, 4.459098 )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+STRING fem_create_nodes__nodes_created[VIRTUAL]
+fem_create_nodes_1( "Coord 0", "Coord 0", 3, "10066", "Point 10066",  @
+fem_create_nodes__nodes_created )
+$# Question from application FEM
+$#     Node 10066 already exists. Will you permit overwrite?
+$? NO 2001323 
+$# Existing node 10066 skipped.
+$# === No nodes created.
+mesh_seed_display_mgr.erase(  )
+point_label( FALSE )
+node_label( TRUE )
+ga_view_center_set( 0.073960, -0.074474 )
+ga_view_zoom_set( 0.259868 )
+ga_view_center_set( 0.082332, -0.056948 )
+ga_view_zoom_set( 0.292352 )
+ga_view_center_set( 0.073960, -0.074474 )
+ga_view_zoom_set( 0.259868 )
+ga_view_center_set( 0.066518, -0.090052 )
+ga_view_zoom_set( 0.230994 )
+ga_view_center_set( 0.054611, -0.114024 )
+ga_view_zoom_set( 0.184795 )
+ga_view_center_set( 0.049249, -0.124326 )
+ga_view_zoom_set( 0.164262 )
+ga_view_center_set( 0.044420, -0.133170 )
+ga_view_zoom_set( 0.146011 )
+ga_view_center_set( 0.036693, -0.147319 )
+ga_view_zoom_set( 0.116809 )
+ga_view_center_set( 0.033258, -0.153608 )
+ga_view_zoom_set( 0.103830 )
+ga_view_center_set( 0.033838, -0.149014 )
+ga_view_zoom_set( 0.116809 )
+ga_view_center_set( 0.034490, -0.143846 )
+ga_view_zoom_set( 0.131410 )
+ga_view_center_set( 0.035224, -0.137919 )
+ga_view_zoom_set( 0.147836 )
+ga_view_center_set( 0.036113, -0.131060 )
+ga_view_zoom_set( 0.166316 )
+ga_view_center_set( 0.037471, -0.122630 )
+ga_view_zoom_set( 0.187105 )
+ga_view_center_set( 0.038998, -0.113147 )
+ga_view_zoom_set( 0.210493 )
+ga_view_center_set( 0.041077, -0.108806 )
+ga_view_zoom_set( 0.236805 )
+ga_view_aa_set( -73.520493, -0.564559, 10.113336 )
+ga_view_center_set( 0.031007, -0.102093 )
+ga_view_zoom_set( 0.266405 )
+ga_view_center_set( 0.039653, -0.106569 )
+ga_view_zoom_set( 0.236805 )
+ga_view_center_set( 0.031007, -0.102093 )
+ga_view_zoom_set( 0.266405 )
+ga_view_center_set( 0.021280, -0.097058 )
+ga_view_zoom_set( 0.299706 )
+ga_view_center_set( 0.009693, -0.088947 )
+ga_view_zoom_set( 0.337169 )
+ga_view_center_set( 0.011496, -0.081609 )
+ga_view_zoom_set( 0.299706 )
+ga_view_center_set( 0.012869, -0.075200 )
+ga_view_zoom_set( 0.266405 )
+ga_view_aa_set( -85.520493, -0.564559, 10.113338 )
+ga_view_center_set( 0.008978, -0.065702 )
+ga_view_zoom_set( 0.299706 )
+ga_view_center_set( 0.004601, -0.055017 )
+ga_view_zoom_set( 0.337169 )
+ga_view_center_set( 0.008849, -0.062355 )
+ga_view_zoom_set( 0.299706 )
+ga_view_center_set( 0.011825, -0.067276 )
+ga_view_zoom_set( 0.266405 )
+ga_view_center_set( 0.013554, -0.069412 )
+ga_view_zoom_set( 0.236805 )
+ga_view_center_set( 0.015091, -0.071310 )
+ga_view_zoom_set( 0.210493 )
+ga_view_center_set( 0.015975, -0.072435 )
+ga_view_zoom_set( 0.187105 )
+ga_view_center_set( 0.016332, -0.072650 )
+ga_view_zoom_set( 0.166316 )
+ga_view_aa_set( -67.531593, 0.848186, 12.754306 )
+ga_view_center_set( 0.017618, -0.074079 )
+ga_view_zoom_set( 0.187105 )
+ga_view_center_set( 0.019065, -0.075686 )
+ga_view_zoom_set( 0.210493 )
+ga_view_aa_set( -81.492538, 0.613463, 9.764174 )
+mesh_seed_display_mgr.erase(  )
+point_label( TRUE )
+STRING fem_create_nodes__nodes_created[VIRTUAL]
+fem_create_nodes_1( "Coord 0", "Coord 0", 3, "60000", "Point 10066",  @
+fem_create_nodes__nodes_created )
+$# === 1 node created.  ID = 60000.
+mesh_seed_display_mgr.erase(  )
+STRING fem_create_elemen_elems_created[VIRTUAL]
+fem_create_elems_1( "Point ", "Point", "60000", "Standard", 3, "Node 60000",  @
+"", "", "", "", "", "", "", fem_create_elemen_elems_created )
+$# === 1 element created.  ID = 60000.
+fem_associate_elems_to_ep( "masa_equipos", "60000", 1 )
+$# 1 Element(s) associated to the Element Property masa_equipos.
+uil_primary_file.db_save(  )
+$# Reclaimed 0.72 MB of 3.87 MB.

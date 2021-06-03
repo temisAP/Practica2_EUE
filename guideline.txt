@@ -61,10 +61,12 @@ Análisis de la estructura del microsatélite:
 				Interior: Curve 62:174
 
 	Altura total: 600 mm (sin contar la longitud de los tornillos)
-		A: 0 mm
+		A: 0 mm	  -> Renumeración 50000
 		B: 200 mm -> Renumeración 10000
 		C: 400 mm -> Renumeración 20000
 		D: 600 mm -> Renumeración 30000
+
+		Vigas: 	-> Numeración a partir de 40000
 
 	Diseño optimo
 		
