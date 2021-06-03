@@ -56,12 +56,15 @@ Análisis de la estructura del microsatélite:
 
 	Nodos y elementos:
 		Bandeja: 	Surface 9.1 15.1 16.1 17.1 18.1 38.1 40.1 41.1 42.1 43.1 70.1 71.1 72.1 73.1 86.1, nodos 1:1121, elementos 1:631
-		Rigidizadores: 	Curve 1:7 43:174, nodos 2000:2588, elementos 2000:2449
+		Rigidizadores: 	Curve 1:7 43:174, nodos 2000:2588, elementos 2000:2449 *Algunos eliminados por la equivalencia
+				Exterior: Curve 1:7 43:61
+				Interior: Curve 62:174
 
 	Altura total: 600 mm (sin contar la longitud de los tornillos)
 		A: 0 mm
-		B: 200 mm
-		C: 400 mm
+		B: 200 mm -> Renumeración 10000
+		C: 400 mm -> Renumeración 20000
+		D: 600 mm -> Renumeración 30000
 
 	Diseño optimo
 		
