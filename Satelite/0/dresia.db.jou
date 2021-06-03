@@ -1,6 +1,6 @@
 $# Creating journal file 
 $# D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db.jou 
-$# at 03-Jun-21 12:25:22
+$# at 03-Jun-21 12:38:17
 uil_file_rebuild.start("D:\Archivos de programa\MSC.Software\NaPa_SE\2020\" // @
 "Patran/template.db","D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Sat" // @
 "elite\0\dresia.db")
@@ -10,7 +10,16 @@ $# The current working directory has been changed to the database location
 $# shown.                                                                     
 $#                                                                            
 $#                                   
-$# UNDO: MSC.Patran Database Import Command
+db_set_pref( 303, 3, 0, FALSE, 0.00039999999, "" )
+sys_poll_option( 2 )
+ga_group_create( "Bandeja_B" )
+ga_viewport_group_unpost_all( "" )
+ga_group_current_set( "Bandeja_B" )
+$# Group "Bandeja_B" created.
+sys_poll_option( 0 )
+sys_poll_option( 2 )
+uil_group_delete_group.delete_groups( FALSE, 1, ["default_group"] )
+sys_poll_option( 0 )
 db_import_database_v3( "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\S" // @
 "atelite\0\Bandeja_B.db", ["Point", "Curve", "Surface", "Solid",  @
 "Coordinate Frame", "Plane", "Vector", "Node", "Element", "MPC", "User Data",  @
@@ -40,54 +49,1487 @@ $# Loading all referenced entities.
 $# Saving 2112 entities.
 $# Equivalencing duplicate geometry.
 $# Posting all entities.
+STRING sgm_renum_point_new_ids[VIRTUAL]
+sgm_renumber( 1, "point", "10000", "Point 1:8 14:22 28:36 42:50 56:76 171:" // @
+"191:10 301 331 651 681:711:10 1111 1112", sgm_renum_point_new_ids )
+$# 68 Points Renumbered: Points 10000:10067
+repaint_graphics(  )
+STRING sgm_renum_curve_new_ids[VIRTUAL]
+sgm_renumber( 1, "curve", "10000", "Curve 1:7 43:174", sgm_renum_curve_new_ids )
+$# 139 Curves Renumbered: Curves 10000:10138
+repaint_graphics(  )
+point_label( TRUE )
+ga_view_center_set( -0.008776, -0.019841 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( -0.018649, -0.042163 )
+ga_view_zoom_set( 0.462057 )
+ga_view_center_set( -0.000878, -0.001984 )
+ga_view_zoom_set( 0.369646 )
+ga_view_center_set( 0.007021, 0.015873 )
+ga_view_zoom_set( 0.328574 )
+ga_view_center_set( 0.014042, 0.031746 )
+ga_view_zoom_set( 0.292066 )
+ga_view_center_set( 0.020282, 0.045856 )
+ga_view_zoom_set( 0.259614 )
+ga_view_center_set( 0.025830, 0.058397 )
+ga_view_zoom_set( 0.230768 )
+ga_view_center_set( 0.030761, 0.069546 )
+ga_view_zoom_set( 0.205127 )
+ga_view_center_set( 0.035144, 0.079455 )
+ga_view_zoom_set( 0.182335 )
+ga_view_center_set( 0.039040, 0.088264 )
+ga_view_zoom_set( 0.162076 )
+ga_view_center_set( 0.037515, 0.079726 )
+ga_view_zoom_set( 0.182335 )
+ga_view_center_set( 0.035800, 0.072713 )
+ga_view_zoom_set( 0.205127 )
+ga_view_center_set( 0.032112, 0.067225 )
+ga_view_zoom_set( 0.256409 )
+ga_view_center_set( 0.027235, 0.059936 )
+ga_view_zoom_set( 0.288460 )
+ga_view_center_set( 0.034772, 0.052338 )
+ga_view_zoom_set( 0.324517 )
+ga_view_center_set( 0.044337, 0.044605 )
+ga_view_zoom_set( 0.365082 )
+ga_view_center_set( 0.064712, 0.033922 )
+ga_view_zoom_set( 0.410717 )
+STRING sgm_renum_surface_new_ids[VIRTUAL]
+sgm_renumber( 1, "surface", "10000", "Surface 3:86", sgm_renum_surface_new_ids )
+$# 84 Surfaces Renumbered: Surfaces 10000:10083
+repaint_graphics(  )
+curve_label( TRUE )
+surface_label( TRUE )
+trim_surface_label( TRUE )
+node_label( TRUE )
+surface_label( FALSE )
+trim_surface_label( FALSE )
+curve_label( FALSE )
+point_label( FALSE )
+ga_view_center_set( 0.038699, 0.050749 )
+ga_view_zoom_set( 0.462057 )
+ga_view_center_set( 0.009434, 0.069679 )
+ga_view_zoom_set( 0.519814 )
+ga_view_center_set( 0.038699, 0.050749 )
+ga_view_zoom_set( 0.462057 )
+ga_view_center_set( 0.064712, 0.033922 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( 0.038699, 0.050749 )
+ga_view_zoom_set( 0.462057 )
+ga_view_aa_set( -86.067268, 3.408842, 2.071591 )
+ga_view_center_set( 0.065399, 0.048688 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( 0.045911, 0.061394 )
+ga_view_zoom_set( 0.462057 )
+ga_view_center_set( 0.025532, 0.081677 )
+ga_view_zoom_set( 0.519814 )
+ga_view_center_set( 0.060823, 0.042039 )
+ga_view_zoom_set( 0.415851 )
+ga_view_center_set( 0.076508, 0.024422 )
+ga_view_zoom_set( 0.369646 )
+bar_elem_label( TRUE )
+tri_elem_label( TRUE )
+quad_elem_label( TRUE )
+tet_elem_label( TRUE )
+wedge_elem_label( TRUE )
+hex_elem_label( TRUE )
+mpc_label( TRUE )
+bar_elem_label( FALSE )
+tri_elem_label( FALSE )
+quad_elem_label( FALSE )
+tet_elem_label( FALSE )
+wedge_elem_label( FALSE )
+hex_elem_label( FALSE )
+mpc_label( FALSE )
+solid_label( TRUE )
+volume_label( TRUE )
+body_label( TRUE )
+node_label( FALSE )
+node_label( TRUE )
+ga_view_center_set( 0.080758, 0.038794 )
+ga_view_zoom_set( 0.415851 )
+ga_view_center_set( 0.085539, 0.054962 )
+ga_view_zoom_set( 0.467833 )
+ga_view_aa_set( 4.934037, -3.373713, -2.173171 )
+ga_view_center_set( 0.058451, 0.069435 )
+ga_view_zoom_set( 0.526312 )
+ga_view_center_set( 0.085539, 0.054962 )
+ga_view_zoom_set( 0.467833 )
+ga_view_center_set( 0.128880, 0.031805 )
+ga_view_zoom_set( 0.374266 )
+ga_view_aa_set( 0., 0., 0. )
+node_label( FALSE )
+solid_label( FALSE )
+volume_label( FALSE )
+body_label( FALSE )
+STRING fem_renum_node_new_ids[VIRTUAL]
+fem_renum_node_1( "Node 1:14 16:28 30:42 44:56 58:79 82:87 94 97:99 101:10" // @
+"3 108 111:113 115:117 122 125:127 129:131 136 139:141 143:145 150 153:155" // @
+" 157:159 162:170 172:183 186:197 200:211 214:225 228:239 244:250:2 258:26" // @
+"4:2 272:278:2 286:292:2 300:306:2 312 314:316 322 324:329 333 334 336:338" // @
+" 340:343 347 348 350:352 354:357 361 362 364:366 368:371 375 376 378:380 " // @
+"382:385 389 390 392:394 396:399 404 407:409 411:413 418 421:423 425:427 4" // @
+"32 435:437 439:441 446 449:451 453:455 460 463:465 467:469 472:477 482:49" // @
+"0 492:503 506:517 520:531 534:545 548:559 564:570:2 578:584:2 592:598:2 6" // @
+"06:612:2 620:626:2 632 634:636 642 644:649 653 654 656:658 660:663 667 66" // @
+"8 670:672 674:677 681 682 684:686 688:691 695 696 698:700 702:705 709 710" // @
+" 712:714 716:719 724 727:729 731:733 738 741:743 745:747 752 755:757 759:" // @
+"761 766 769:771 773:775 780 783:785 787:789 792 794 795 797:799 803 804 8" // @
+"06:808 810:813 817 818 820:822 824:827 831 832 834:836 838:841 845 846 84" // @
+"8:850 852:855 859 860 862:864 866:869 872 874:879 883 884 886 887 889 890" // @
+" 892:894 896 897 899 900 906:908 910 911 913 914 920:922 924 925 927 928 " // @
+"934:936 938 939 941 942 950 953:955 957:959 962 964:969 973 974 976:978 9" // @
+"80:983 987 988 990:992 994:997 1001 1002 1004:1006 1008:1011 1015 1016 10" // @
+"18:1020 1022:1025 1029 1030 1032:1034 1036:1039 1044 1047:1049 1051:1053 " // @
+"1058 1061:1063 1065:1067 1072 1075:1077 1079:1081 1086 1089:1091 1093:109" // @
+"5 1100 1103:1105 1107:1109 1112:1117", "10000", 2, fem_renum_node_new_ids )
+$# 674 FEM entities renumbered.  New IDs are:  Node 10000:10673
+repaint_graphics(  )
+gm_visibility_widget( " Point 10000:10067 Curve 10000:10138 Surface 10000:" // @
+"10083", FALSE )
+uil_toolbar.shaded_smooth(  )
+uil_toolbar.hidden_line(  )
+ga_view_aa_set( 0.999625, -4.017284, 2.724708 )
 sys_poll_option( 2 )
-ga_group_create( "Bandeja_B" )
-ga_group_entity_add( "Bandeja_B", "Point 1:8 14:22 28:36 42:50 56:76 171:1" // @
-"91:10 301 331 651 681:711:10 1111 1112 Curve 1:7 43:174 Surface 3:86 Node" // @
-" 1:14 16:28 30:42 44:56 58:79 82:87 94 97:99 101:103 108 111:113 115:117 " // @
-"122 125:127 129:131 136 139:141 143:145 150 153:155 157:159 162:170 172:1" // @
-"83 186:197 200:211 214:225 228:239 244:250:2 258:264:2 272:278:2 286:292:" // @
-"2 300:306:2 312 314:316 322 324:329 333 334 336:338 340:343 347 348 350:3" // @
-"52 354:357 361 362 364:366 368:371 375 376 378:380 382:385 389 390 392:39" // @
-"4 396:399 404 407:409 411:413 418 421:423 425:427 432 435:437 439:441 446" // @
-" 449:451 453:455 460 463:465 467:469 472:477 482:490 492:503 506:517 520:" // @
-"531 534:545 548:559 564:570:2 578:584:2 592:598:2 606:612:2 620:626:2 632" // @
-" 634:636 642 644:649 653 654 656:658 660:663 667 668 670:672 674:677 681 " // @
-"682 684:686 688:691 695 696 698:700 702:705 709 710 712:714 716:719 724 7" // @
-"27:729 731:733 738 741:743 745:747 752 755:757 759:761 766 769:771 773:77" // @
-"5 780 783:785 787:789 792 794 795 797:799 803 804 806:808 810:813 817 818" // @
-" 820:822 824:827 831 832 834:836 838:841 845 846 848:850 852:855 859 860 " // @
-"862:864 866:869 872 874:879 883 884 886 887 889 890 892:894 896 897 899 9" // @
-"00 906:908 910 911 913 914 920:922 924 925 927 928 934:936 938 939 941 94" // @
-"2 950 953:955 957:959 962 964:969 973 974 976:978 980:983 987 988 990:992" // @
-" 994:997 1001 1002 1004:1006 1008:1011 1015 1016 1018:1020 1022:1025 1029" // @
-" 1030 1032:1034 1036:1039 1044 1047:1049 1051:1053 1058 1061:1063 1065:10" // @
-"67 1072 1075:1077 1079:1081 1086 1089:1091 1093:1095 1100 1103:1105 1107:" // @
-"1109 1112:1117 Elm 1:630 2000:2448" )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 6 )
+sys_poll_option( 0 )
+ga_view_aa_set( -44.864979, 31.195078, 11.787477 )
+ga_view_aa_set( 3.377385, 0.740592, 1.167106 )
+ga_view_aa_set( -136.692169, -1.169358, -5.272554 )
+ga_view_center_set( -0.003868, 0.013783 )
+ga_view_zoom_set( 0.425976 )
+ga_view_center_set( -0.008231, 0.029811 )
+ga_view_zoom_set( 0.479223 )
+ga_view_center_set( -0.013139, 0.047842 )
+ga_view_zoom_set( 0.539126 )
+ga_view_center_set( -0.004304, 0.015386 )
+ga_view_zoom_set( 0.431301 )
+ga_view_center_set( 0.005334, -0.018053 )
+ga_view_zoom_set( 0.313673 )
+ga_view_center_set( 0.008190, -0.027845 )
+ga_view_zoom_set( 0.278821 )
+ga_view_center_set( 0.010729, -0.036548 )
+ga_view_zoom_set( 0.247841 )
+ga_view_center_set( -0.001290, -0.030912 )
+ga_view_zoom_set( 0.198273 )
+ga_view_center_set( -0.006632, -0.028554 )
+ga_view_zoom_set( 0.176242 )
+ga_view_center_set( -0.011184, -0.026524 )
+ga_view_zoom_set( 0.156660 )
+ga_view_center_set( -0.021115, -0.022523 )
+ga_view_zoom_set( 0.113934 )
+ga_view_center_set( -0.018948, -0.022237 )
+ga_view_zoom_set( 0.128176 )
+ga_view_center_set( -0.016509, -0.021915 )
+ga_view_zoom_set( 0.144198 )
+ga_view_center_set( -0.011024, -0.021192 )
+ga_view_zoom_set( 0.180248 )
+ga_view_center_set( -0.000060, -0.018705 )
+ga_view_zoom_set( 0.247841 )
+ga_view_center_set( 0.004966, -0.017565 )
+ga_view_zoom_set( 0.278821 )
+ga_view_aa_set( -5.633107, 2.963994, -0.153258 )
+ga_view_center_set( 0.007239, -0.016283 )
+ga_view_zoom_set( 0.313673 )
+ga_view_center_set( 0.009796, -0.014841 )
+ga_view_zoom_set( 0.352883 )
+ga_view_center_set( 0.012672, -0.013218 )
+ga_view_zoom_set( 0.396993 )
+gm_visibility_widget( " Point 10000:10067 Curve 10000:10138 Surface 10000:" // @
+"10083", TRUE )
+node_label( TRUE )
+solid_label( TRUE )
+volume_label( TRUE )
+body_label( TRUE )
+STRING fem_renum_elem_new_ids[VIRTUAL]
+fem_renum_elem_1( "Elm 1:630 2000:2448", "10000", 2, fem_renum_elem_new_ids )
+$# 1079 FEM entities renumbered.  New IDs are:  Element 10000:11078
+repaint_graphics(  )
+bar_elem_label( TRUE )
+tri_elem_label( TRUE )
+quad_elem_label( TRUE )
+tet_elem_label( TRUE )
+wedge_elem_label( TRUE )
+hex_elem_label( TRUE )
+mpc_label( TRUE )
+bar_elem_label( FALSE )
+tri_elem_label( FALSE )
+quad_elem_label( FALSE )
+tet_elem_label( FALSE )
+wedge_elem_label( FALSE )
+hex_elem_label( FALSE )
+mpc_label( FALSE )
+node_label( FALSE )
+solid_label( FALSE )
+volume_label( FALSE )
+body_label( FALSE )
+ga_view_aa_set( 0., 0., 0. )
+ga_view_center_set( -0.047219, 0.015137 )
+ga_view_zoom_set( 0.419661 )
+ga_view_center_set( -0.008465, -0.011998 )
+ga_view_zoom_set( 0.373032 )
+ga_view_center_set( 0.025289, -0.034316 )
+ga_view_zoom_set( 0.331584 )
+ga_view_center_set( 0.055047, -0.053785 )
+ga_view_zoom_set( 0.294741 )
+ga_view_center_set( 0.023071, -0.037397 )
+ga_view_zoom_set( 0.331584 )
+ga_view_center_set( -0.012901, -0.018960 )
+ga_view_zoom_set( 0.373032 )
+ga_view_center_set( -0.053370, 0.001781 )
+ga_view_zoom_set( 0.419661 )
+ga_group_move_translate_1( 1, ["Bandeja_B"], "Coord 0", "<0 0 0.2>", 0.2,  @
+FALSE, 25 )
+$# 32 Points in Group ["Bandeja_B"] are moved.
+$# 36 Points are created in Group ["Bandeja_B"].
+$# 125 Curves in Group ["Bandeja_B"] are moved.
+$# 60 Curves are created in Group ["Bandeja_B"].
+$# 69 Surfaces in Group ["Bandeja_B"] are moved.
+$# 15 Surfaces are created in Group ["Bandeja_B"].
+$# 1 CoordFrame is created in Group ["Bandeja_B"].
+$# 674 Nodes in Group ["Bandeja_B"] are moved.
+$# 1079 Elements in Group ["Bandeja_B"] are moved.
+$# Property Set "masa_equipos.8" created from "masa_equipos"
+$# Question in application Group Applications by application ELEM_PROPS
+$#     Curve 10001  already has been associated to an element property 
+$# region. Overwrite the association?
+$? YESFORALL 29002022 
+$# 1 ElementProperty is created in Group ["Bandeja_B"].
+$# 3 ElementProperties are updated.
+$# Load/BC set "BC_simplemente.1" created from "BC_simplemente"
+$# 1 Load/BC is created in Group ["Bandeja_B"].
+ga_view_center_set( 0.020070, 0.018468 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( 0.002289, 0.000458 )
+ga_view_zoom_set( 0.365082 )
+ga_view_center_set( -0.013516, -0.015551 )
+ga_view_zoom_set( 0.324517 )
+ga_view_center_set( 0.002289, 0.000458 )
+ga_view_zoom_set( 0.365082 )
+ga_view_center_set( 0.020070, 0.018468 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( 0.040074, 0.038729 )
+ga_view_zoom_set( 0.462057 )
+ga_view_aa_set( -82.049843, 13.887310, 3.529755 )
+ga_view_aa_set( -68.084610, 10.237688, -10.257310 )
+ga_view_aa_set( 0., 0., 0. )
+sys_poll_option( 2 )
+ga_group_create( "Bandeja_C" )
 ga_viewport_group_unpost_all( "" )
-ga_group_current_set( "Bandeja_B" )
-$# Group "Bandeja_B" created.
+ga_group_current_set( "Bandeja_C" )
+$# Group "Bandeja_C" created.
 sys_poll_option( 0 )
-sys_poll_option( 2 )
-$# Question from application Group Applications
-$#     Group name "Bandeja_B" already exists and may not be empty. Any 
-$# existing members will be overwritten. Do you wish to continue?
-$? NO 11001017 
-$# Warning reported in application Group Applications by application CORE
-$#     Last command aborted
-sys_poll_option( 0 )
-$# Question from application Group Applications
-$#     Unposting the current group will render newly created entities 
-$# invisible in the current viewport. Continue?
-$? YES 11001022 
-sys_poll_option( 2 )
-$# Question from application Group Applications
-$#     Group name "Bandeja_B" already exists and may not be empty. Any 
-$# existing members will be overwritten. Do you wish to continue?
-$? NO 11001017 
-$# Warning reported in application Group Applications by application CORE
-$#     Last command aborted
-sys_poll_option( 0 )
+db_import_database_v3( "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\S" // @
+"atelite\0\Bandeja_B.db", ["Point", "Curve", "Surface", "Solid",  @
+"Coordinate Frame", "Plane", "Vector", "Node", "Element", "MPC", "User Data",  @
+"Connector", "Job", "Material", "Element Property", "Load/BC, Load Case",  @
+"Field", "DOF List", "Super Element", "Group", ""], ["All", "All", "All",  @
+"All", "All", "All", "All", "All", "All", "All", "All", "All", "All", "All",  @
+"All", "All", "All", "All", "All", "All"], [-2000000000, -2000000000,  @
+-2000000000, -2000000000, -2000000000, -2000000000, -2000000000, -2000000000,  @
+-2000000000, -2000000000, -2000000000, -2000000000, -2000000000, 0, 0, 0, 0,  @
+0, 0, 0], ["", "", "", "", "", "", "", "", "", "", "", "", "", "SM_002_",  @
+"SM_002_", "SM_002_", "SM_002_", "SM_002_", "SM_002_", "SM_002_"], [ @
+"DATA_AND_NAME", "DATA_AND_NAME", "DATA_AND_NAME", "DATA_AND_NAME",  @
+"DATA_AND_NAME", "DATA_AND_NAME", "DATA_AND_NAME"], 3, TRUE, TRUE, "cube",  @
+0.00039999999, TRUE, ["useprim", "useprim", "useprim"] )
+$# Loading 68 "Point" entities.
+$# Loading 139 "Curve" entities.
+$# Loading 84 "Surface" entities.
+$# Loading 674 "Node" entities.
+$# Loading 1079 "Element" entities.
+$# Loading 1 "User Data" entities.
+$# Loading 2 "Job" entities.
+$# Loading 5 "Material" entities.
+$# Loading 5 "Element Property" entities.
+$# Loading 5 "Load/BC, Load Case" entities.
+$# Loading 1 "Group" entities.
+$# Loading all referenced entities.
+$# Saving 2112 entities.
+$# Equivalencing duplicate geometry.
+$# 111 duplicate geometry entities deleted.
+$# Posting all entities.
+ga_view_center_set( -0.047238, 0.010226 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( -0.100380, 0.021730 )
+ga_view_zoom_set( 0.462057 )
+ga_view_center_set( -0.160166, 0.034672 )
+ga_view_zoom_set( 0.519814 )
+ga_view_center_set( -0.227424, 0.049232 )
+ga_view_zoom_set( 0.584791 )
+ga_view_aa_set( -87.526436, -5.477949, 32.305122 )
+$# Equivalencing duplicate nodes.
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_B"] )
+ga_view_center_set( -0.011093, -0.009385 )
+ga_view_zoom_set( 0.310129 )
+ga_view_center_set( -0.042793, 0.000209 )
+ga_view_zoom_set( 0.348895 )
+ga_view_center_set( -0.078310, 0.011003 )
+ga_view_zoom_set( 0.392507 )
+ga_view_center_set( -0.117938, 0.023146 )
+ga_view_zoom_set( 0.441570 )
+ga_view_center_set( -0.161966, 0.036437 )
+ga_view_zoom_set( 0.496767 )
+ga_view_center_set( -0.211497, 0.051390 )
+ga_view_zoom_set( 0.558862 )
+ga_view_center_set( -0.322943, 0.085034 )
+ga_view_zoom_set( 0.698578 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_C"] )
+uil_viewport_post_groups.posted_groups( "default_viewport", 5, ["Bandeja_B",  @
+"Bandeja_C", "SM_001", "SM_002", "default_group"] )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_B"] )
+uil_viewport_post_groups.posted_groups( "default_viewport", 2, ["Bandeja_B",  @
+"Bandeja_C"] )
+ga_view_center_set( -0.014044, 0.000087 )
+ga_view_zoom_set( 0.444387 )
+ga_view_center_set( -0.049063, 0.020337 )
+ga_view_zoom_set( 0.499936 )
+ga_view_center_set( -0.014044, 0.000087 )
+ga_view_zoom_set( 0.444387 )
+ga_view_center_set( 0.041988, -0.032313 )
+ga_view_zoom_set( 0.355510 )
+ga_view_center_set( 0.066891, -0.046713 )
+ga_view_zoom_set( 0.316009 )
+ga_view_aa_set( -72.796150, 8.247634, 63.394833 )
+ga_view_center_set( 0.050971, -0.029671 )
+ga_view_zoom_set( 0.355510 )
+ga_view_center_set( 0.033062, -0.010499 )
+ga_view_zoom_set( 0.399948 )
+ga_group_current_set( "Bandeja_C" )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_C"] )
+ga_view_center_set( 0.012747, -0.028389 )
+ga_view_zoom_set( 0.449942 )
+ga_view_center_set( -0.009919, -0.048516 )
+ga_view_zoom_set( 0.506185 )
+ga_view_center_set( -0.024415, -0.030529 )
+ga_view_zoom_set( 0.569458 )
+ga_view_center_set( -0.008015, -0.046400 )
+ga_view_zoom_set( 0.506185 )
+ga_view_center_set( 0.006563, -0.060508 )
+ga_view_zoom_set( 0.449942 )
+ga_view_center_set( 0.019521, -0.073048 )
+ga_view_zoom_set( 0.399948 )
+ga_view_center_set( 0.031040, -0.084195 )
+ga_view_zoom_set( 0.355510 )
+ga_group_move_translate_1( 1, ["Bandeja_B"], "Coord 0", "<0 0 0.4>",  @
+0.40000001, FALSE, 25 )
+$# 68 Points in Group ["Bandeja_B"] are moved.
+$# 185 Curves in Group ["Bandeja_B"] are moved.
+$# 84 Surfaces in Group ["Bandeja_B"] are moved.
+$# 1 CoordFrame is created in Group ["Bandeja_B"].
+$# 674 Nodes in Group ["Bandeja_B"] are moved.
+$# 1079 Elements in Group ["Bandeja_B"] are moved.
+$# Property Set "masa_equipos.9" created from "masa_equipos.8"
+$# 1 ElementProperty is created in Group ["Bandeja_B"].
+$# 3 ElementProperties are updated.
+$# 1 Load/BC in Group ["Bandeja_B"] is moved.
+ga_group_move_translate_1( 1, ["Bandeja_B"], "Coord 0", "<0 0 0.4>",  @
+0.40000001, TRUE, 25 )
+$# 68 Points in Group ["Bandeja_B"] are moved.
+$# 185 Curves in Group ["Bandeja_B"] are moved.
+$# 84 Surfaces in Group ["Bandeja_B"] are moved.
+$# 1 CoordFrame is created in Group ["Bandeja_B"].
+$# 674 Nodes in Group ["Bandeja_B"] are moved.
+$# 1079 Elements in Group ["Bandeja_B"] are moved.
+$# Property Set "masa_equipos.10" created from "masa_equipos.9"
+$# 1 ElementProperty is created in Group ["Bandeja_B"].
+$# 3 ElementProperties are updated.
+$# 1 Load/BC in Group ["Bandeja_B"] is moved.
+ga_view_center_set( -0.026074, -0.045163 )
+ga_view_zoom_set( 0.506128 )
+ga_view_center_set( -0.024910, -0.017444 )
+ga_view_zoom_set( 0.569394 )
+ga_view_center_set( -0.023601, 0.013739 )
+ga_view_zoom_set( 0.640569 )
+ga_view_center_set( -0.022128, 0.048820 )
+ga_view_zoom_set( 0.720640 )
+ga_view_center_set( -0.001374, 0.029807 )
+ga_view_zoom_set( 0.640569 )
+ga_view_center_set( 0.017075, 0.012906 )
+ga_view_zoom_set( 0.569394 )
+ga_view_center_set( 0.033473, -0.002117 )
+ga_view_zoom_set( 0.506128 )
+ga_view_center_set( 0.048050, -0.015471 )
+ga_view_zoom_set( 0.449892 )
+$# UNDO: uil_group_translate TRANSLATE Group "Bandeja_C..."
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_C"] )
+ga_view_aa_set( 0., 0., 0. )
+STRING sgm_renum_point_new_ids[VIRTUAL]
+sgm_renumber( 1, "point", "20000", "Point 10068:10075 10081:10089 10095:10" // @
+"103 10109:10117 10123:10143 10238:10258:10 10368 10398 10718 10748:10778:" // @
+"10 11178 11179", sgm_renum_point_new_ids )
+$# 68 Points Renumbered: Points 20000:20067
+repaint_graphics(  )
+STRING sgm_renum_curve_new_ids[VIRTUAL]
+sgm_renumber( 1, "curve", "20000", "Curve 10139:10145 10181:10312",  @
+sgm_renum_curve_new_ids )
+$# 139 Curves Renumbered: Curves 20000:20138
+repaint_graphics(  )
+STRING sgm_renum_surface_new_ids[VIRTUAL]
+sgm_renumber( 1, "surface", "20000", "Surface 10086:10169",  @
+sgm_renum_surface_new_ids )
+$# 84 Surfaces Renumbered: Surfaces 20000:20083
+repaint_graphics(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+STRING fem_renum_node_new_ids[VIRTUAL]
+fem_renum_node_1( "Node 10674:10687 10689:10701 10703:10715 10717:10729 10" // @
+"731:10752 10755:10760 10767 10770:10772 10774:10776 10781 10784:10786 107" // @
+"88:10790 10795 10798:10800 10802:10804 10809 10812:10814 10816:10818 1082" // @
+"3 10826:10828 10830:10832 10835:10843 10845:10856 10859:10870 10873:10884" // @
+" 10887:10898 10901:10912 10917:10923:2 10931:10937:2 10945:10951:2 10959:" // @
+"10965:2 10973:10979:2 10985 10987:10989 10995 10997:11002 11006 11007 110" // @
+"09:11011 11013:11016 11020 11021 11023:11025 11027:11030 11034 11035 1103" // @
+"7:11039 11041:11044 11048 11049 11051:11053 11055:11058 11062 11063 11065" // @
+":11067 11069:11072 11077 11080:11082 11084:11086 11091 11094:11096 11098:" // @
+"11100 11105 11108:11110 11112:11114 11119 11122:11124 11126:11128 11133 1" // @
+"1136:11138 11140:11142 11145:11150 11155:11163 11165:11176 11179:11190 11" // @
+"193:11204 11207:11218 11221:11232 11237:11243:2 11251:11257:2 11265:11271" // @
+":2 11279:11285:2 11293:11299:2 11305 11307:11309 11315 11317:11322 11326 " // @
+"11327 11329:11331 11333:11336 11340 11341 11343:11345 11347:11350 11354 1" // @
+"1355 11357:11359 11361:11364 11368 11369 11371:11373 11375:11378 11382 11" // @
+"383 11385:11387 11389:11392 11397 11400:11402 11404:11406 11411 11414:114" // @
+"16 11418:11420 11425 11428:11430 11432:11434 11439 11442:11444 11446:1144" // @
+"8 11453 11456:11458 11460:11462 11465 11467 11468 11470:11472 11476 11477" // @
+" 11479:11481 11483:11486 11490 11491 11493:11495 11497:11500 11504 11505 " // @
+"11507:11509 11511:11514 11518 11519 11521:11523 11525:11528 11532 11533 1" // @
+"1535:11537 11539:11542 11545 11547:11552 11556 11557 11559 11560 11562 11" // @
+"563 11565:11567 11569 11570 11572 11573 11579:11581 11583 11584 11586 115" // @
+"87 11593:11595 11597 11598 11600 11601 11607:11609 11611 11612 11614 1161" // @
+"5 11623 11626:11628 11630:11632 11635 11637:11642 11646 11647 11649:11651" // @
+" 11653:11656 11660 11661 11663:11665 11667:11670 11674 11675 11677:11679 " // @
+"11681:11684 11688 11689 11691:11693 11695:11698 11702 11703 11705:11707 1" // @
+"1709:11712 11717 11720:11722 11724:11726 11731 11734:11736 11738:11740 11" // @
+"745 11748:11750 11752:11754 11759 11762:11764 11766:11768 11773 11776:117" // @
+"78 11780:11782 11785:11790", "20000", 2, fem_renum_node_new_ids )
+$# 674 FEM entities renumbered.  New IDs are:  Node 20000:20673
+repaint_graphics(  )
+STRING fem_renum_elem_new_ids[VIRTUAL]
+fem_renum_elem_1( "Elm 11079:11708 13078:13526", "20000", 2,  @
+fem_renum_elem_new_ids )
+$# 1079 FEM entities renumbered.  New IDs are:  Element 20000:21078
+repaint_graphics(  )
+ga_group_move_translate_1( 1, ["Bandeja_C"], "Coord 0", "<0 0 0.4>",  @
+0.40000001, TRUE, 25 )
+$# 32 Points in Group ["Bandeja_C"] are moved.
+$# 36 Points are created in Group ["Bandeja_C"].
+$# 125 Curves in Group ["Bandeja_C"] are moved.
+$# 60 Curves are created in Group ["Bandeja_C"].
+$# 69 Surfaces in Group ["Bandeja_C"] are moved.
+$# 15 Surfaces are created in Group ["Bandeja_C"].
+$# 1 CoordFrame is created in Group ["Bandeja_C"].
+$# 674 Nodes in Group ["Bandeja_C"] are moved.
+$# 1079 Elements in Group ["Bandeja_C"] are moved.
+$# Property Set "masa_equipos.11" created from "masa_equipos"
+$# Question in application Group Applications by application ELEM_PROPS
+$#     Curve 20001  already has been associated to an element property 
+$# region. Overwrite the association?
+$? YES 29002022 
+$# Question in application Group Applications by application ELEM_PROPS
+$#     Curve 20003  already has been associated to an element property 
+$# region. Overwrite the association?
+$? YES 29002022 
+$# Question in application Group Applications by application ELEM_PROPS
+$#     Curve 20004  already has been associated to an element property 
+$# region. Overwrite the association?
+$? YESFORALL 29002022 
+$# 1 ElementProperty is created in Group ["Bandeja_C"].
+$# 3 ElementProperties are updated.
+$# Load/BC set "BC_simplemente.2" created from "BC_simplemente"
+$# 1 Load/BC is created in Group ["Bandeja_C"].
+ga_view_center_set( -0.004045, 0.012515 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( -0.008595, 0.026595 )
+ga_view_zoom_set( 0.462057 )
+ga_view_aa_set( -16.002312, 0.961258, 0.275663 )
+ga_view_aa_set( -73.079086, -2.650592, 35.438808 )
+ga_view_center_set( -0.019509, 0.049003 )
+ga_view_zoom_set( 0.519814 )
+ga_view_center_set( -0.031352, 0.075949 )
+ga_view_zoom_set( 0.584791 )
+ga_view_center_set( -0.044432, 0.107732 )
+ga_view_zoom_set( 0.657890 )
+ga_view_center_set( -0.059147, 0.143761 )
+ga_view_zoom_set( 0.740126 )
+ga_view_center_set( -0.075700, 0.184295 )
+ga_view_zoom_set( 0.832641 )
+ga_view_center_set( -0.112946, 0.278280 )
+ga_view_zoom_set( 1.040802 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 5, ["Bandeja_B",  @
+"Bandeja_C", "SM_001", "SM_002", "default_group"] )
+ga_view_center_set( -0.117950, 0.320487 )
+ga_view_zoom_set( 1.170902 )
+ga_view_center_set( -0.127006, 0.380207 )
+ga_view_zoom_set( 1.317265 )
+ga_view_center_set( -0.117950, 0.313634 )
+ga_view_zoom_set( 1.170902 )
+ga_view_center_set( -0.109900, 0.254023 )
+ga_view_zoom_set( 1.040802 )
+ga_view_center_set( -0.102745, 0.201035 )
+ga_view_zoom_set( 0.925157 )
+ga_view_center_set( -0.095353, 0.153935 )
+ga_view_zoom_set( 0.822362 )
+ga_view_center_set( -0.088783, 0.112068 )
+ga_view_zoom_set( 0.730988 )
 uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["SM_001"] )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["SM_002"] )
 uil_viewport_post_groups.posted_groups( "default_viewport", 1, [ @
 "default_group"] )
+ga_group_current_set( "Bandeja_B" )
+sys_poll_option( 2 )
+uil_group_delete_group.delete_groups( FALSE, 1, ["SM_001"] )
+sys_poll_option( 0 )
+sys_poll_option( 2 )
+uil_group_delete_group.delete_groups( FALSE, 1, ["SM_002"] )
+sys_poll_option( 0 )
+sys_poll_option( 2 )
+uil_group_delete_group.delete_groups( FALSE, 1, ["default_group"] )
+sys_poll_option( 0 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_C"] )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_B"] )
+ga_view_center_set( -0.056561, 0.045934 )
+ga_view_zoom_set( 0.652112 )
+ga_view_center_set( -0.112585, 0.104821 )
+ga_view_zoom_set( 0.733626 )
+ga_view_aa_set( -64.126747, -6.483341, 19.529999 )
+ga_view_center_set( -0.155676, 0.147759 )
+ga_view_zoom_set( 0.825329 )
+ga_view_center_set( -0.204154, 0.196064 )
+ga_view_zoom_set( 0.928495 )
+ga_view_center_set( -0.258691, 0.250407 )
+ga_view_zoom_set( 1.044557 )
+ga_view_center_set( -0.204154, 0.196064 )
+ga_view_zoom_set( 0.928495 )
+ga_view_center_set( -0.155676, 0.147759 )
+ga_view_zoom_set( 0.825329 )
+ga_view_center_set( -0.112585, 0.104821 )
+ga_view_zoom_set( 0.733626 )
+ga_view_center_set( -0.074281, 0.066654 )
+ga_view_zoom_set( 0.652112 )
+ga_view_center_set( -0.040234, 0.032727 )
+ga_view_zoom_set( 0.579655 )
+ga_view_aa_set( -70.600975, -4.318717, 25.149273 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 2, ["Bandeja_B",  @
+"Bandeja_C"] )
+sys_poll_option( 2 )
+ga_group_create( "Bandeja_D" )
+ga_viewport_group_unpost_all( "" )
+ga_group_current_set( "Bandeja_D" )
+$# Group "Bandeja_D" created.
+sys_poll_option( 0 )
+db_import_database_v3( "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\S" // @
+"atelite\0\Bandeja_B.db", ["Point", "Curve", "Surface", "Solid",  @
+"Coordinate Frame", "Plane", "Vector", "Node", "Element", "MPC", "User Data",  @
+"Connector", "Job", "Material", "Element Property", "Load/BC, Load Case",  @
+"Field", "DOF List", "Super Element", "Group", ""], ["All", "All", "All",  @
+"All", "All", "All", "All", "All", "All", "All", "All", "All", "All", "All",  @
+"All", "All", "All", "All", "All", "All"], [-2000000000, -2000000000,  @
+-2000000000, -2000000000, -2000000000, -2000000000, -2000000000, -2000000000,  @
+-2000000000, -2000000000, -2000000000, -2000000000, -2000000000, 0, 0, 0, 0,  @
+0, 0, 0], ["", "", "", "", "", "", "", "", "", "", "", "", "", "SM_001_",  @
+"SM_001_", "SM_001_", "SM_001_", "SM_001_", "SM_001_", "SM_001_"], [ @
+"DATA_AND_NAME", "DATA_AND_NAME", "DATA_AND_NAME", "DATA_AND_NAME",  @
+"DATA_AND_NAME", "DATA_AND_NAME", "DATA_AND_NAME"], 3, TRUE, TRUE, "cube",  @
+0.00039999999, TRUE, ["useprim", "useprim", "useprim"] )
+$# Loading 68 "Point" entities.
+$# Loading 139 "Curve" entities.
+$# Loading 84 "Surface" entities.
+$# Loading 674 "Node" entities.
+$# Loading 1079 "Element" entities.
+$# Loading 1 "User Data" entities.
+$# Loading 2 "Job" entities.
+$# Loading 5 "Material" entities.
+$# Loading 5 "Element Property" entities.
+$# Loading 5 "Load/BC, Load Case" entities.
+$# Loading 1 "Group" entities.
+$# Loading all referenced entities.
+$# Saving 2112 entities.
+$# Equivalencing duplicate geometry.
+$# 111 duplicate geometry entities deleted.
+$# Posting all entities.
+ga_view_center_set( -0.008524, 0.007559 )
+ga_view_zoom_set( 0.634871 )
+ga_view_center_set( -0.026970, 0.017114 )
+ga_view_zoom_set( 0.714230 )
+ga_view_center_set( -0.008789, 0.007293 )
+ga_view_zoom_set( 0.634871 )
+ga_view_center_set( 0.007371, -0.001436 )
+ga_view_zoom_set( 0.564330 )
+$# Equivalencing duplicate nodes.
+ga_view_aa_set( 0., 0., 0. )
+STRING sgm_renum_point_new_ids[VIRTUAL]
+sgm_renumber( 1, "point", "30000", "Point 20068:20075 20081:20089 20095:20" // @
+"103 20109:20117 20123:20143 20238:20258:10 20368 20398 20718 20748:20778:" // @
+"10 21178 21179", sgm_renum_point_new_ids )
+$# 68 Points Renumbered: Points 30000:30067
+repaint_graphics(  )
+point_label( TRUE )
+point_size( 9 )
+curve_label( TRUE )
+ga_view_center_set( -0.009261, -0.030454 )
+ga_view_zoom_set( 0.634871 )
+ga_view_center_set( 0.007371, -0.001436 )
+ga_view_zoom_set( 0.564330 )
+ga_view_center_set( 0.022156, 0.024359 )
+ga_view_zoom_set( 0.501627 )
+ga_view_center_set( 0.035298, 0.047287 )
+ga_view_zoom_set( 0.445890 )
+ga_view_center_set( 0.047808, 0.067502 )
+ga_view_zoom_set( 0.396347 )
+ga_view_center_set( 0.058928, 0.085471 )
+ga_view_zoom_set( 0.352308 )
+ga_view_center_set( 0.076720, 0.114221 )
+ga_view_zoom_set( 0.281847 )
+ga_view_center_set( 0.077133, 0.105855 )
+ga_view_zoom_set( 0.317078 )
+ga_view_center_set( 0.077597, 0.096444 )
+ga_view_zoom_set( 0.356712 )
+ga_view_center_set( 0.078119, 0.085856 )
+ga_view_zoom_set( 0.401301 )
+ga_view_center_set( 0.075183, 0.090385 )
+ga_view_zoom_set( 0.451464 )
+ga_view_center_set( 0.071880, 0.095481 )
+ga_view_zoom_set( 0.507897 )
+STRING sgm_renum_curve_new_ids[VIRTUAL]
+sgm_renumber( 1, "curve", "30000", "Curve 20139:20145 20181:20312",  @
+sgm_renum_curve_new_ids )
+$# 139 Curves Renumbered: Curves 30000:30138
+repaint_graphics(  )
+ga_view_center_set( 0.052027, 0.106735 )
+ga_view_zoom_set( 0.571384 )
+ga_view_center_set( 0.030409, 0.119634 )
+ga_view_zoom_set( 0.642807 )
+ga_view_center_set( 0.052027, 0.106735 )
+ga_view_zoom_set( 0.571384 )
+ga_view_center_set( 0.086615, 0.086096 )
+ga_view_zoom_set( 0.457107 )
+ga_view_center_set( 0.101988, 0.076923 )
+ga_view_zoom_set( 0.406318 )
+ga_view_center_set( 0.115653, 0.068770 )
+ga_view_zoom_set( 0.361171 )
+ga_view_center_set( 0.127799, 0.061522 )
+ga_view_zoom_set( 0.321041 )
+ga_view_center_set( 0.138596, 0.055080 )
+ga_view_zoom_set( 0.285370 )
+ga_view_center_set( 0.148193, 0.049354 )
+ga_view_zoom_set( 0.253662 )
+ga_view_center_set( 0.156724, 0.044263 )
+ga_view_zoom_set( 0.225477 )
+ga_view_center_set( 0.148193, 0.049354 )
+ga_view_zoom_set( 0.253662 )
+ga_view_center_set( 0.138596, 0.055080 )
+ga_view_zoom_set( 0.285370 )
+ga_view_center_set( 0.127799, 0.061522 )
+ga_view_zoom_set( 0.321041 )
+ga_view_center_set( 0.103507, 0.076018 )
+ga_view_zoom_set( 0.401301 )
+ga_view_center_set( 0.144293, 0.066623 )
+ga_view_zoom_set( 0.356712 )
+ga_view_center_set( 0.177896, 0.057476 )
+ga_view_zoom_set( 0.317078 )
+ga_view_center_set( 0.158941, 0.066490 )
+ga_view_zoom_set( 0.396347 )
+ga_view_center_set( 0.147093, 0.072124 )
+ga_view_zoom_set( 0.445890 )
+ga_view_center_set( 0.133765, 0.078462 )
+ga_view_zoom_set( 0.501627 )
+STRING sgm_renum_surface_new_ids[VIRTUAL]
+sgm_renumber( 1, "surface", "30000", "Surface 20086:20169",  @
+sgm_renum_surface_new_ids )
+$# 84 Surfaces Renumbered: Surfaces 30000:30083
+repaint_graphics(  )
+STRING fem_renum_node_new_ids[VIRTUAL]
+fem_renum_node_1( "Node 20674:20687 20689:20701 20703:20715 20717:20729 20" // @
+"731:20752 20755:20760 20767 20770:20772 20774:20776 20781 20784:20786 207" // @
+"88:20790 20795 20798:20800 20802:20804 20809 20812:20814 20816:20818 2082" // @
+"3 20826:20828 20830:20832 20835:20843 20845:20856 20859:20870 20873:20884" // @
+" 20887:20898 20901:20912 20917:20923:2 20931:20937:2 20945:20951:2 20959:" // @
+"20965:2 20973:20979:2 20985 20987:20989 20995 20997:21002 21006 21007 210" // @
+"09:21011 21013:21016 21020 21021 21023:21025 21027:21030 21034 21035 2103" // @
+"7:21039 21041:21044 21048 21049 21051:21053 21055:21058 21062 21063 21065" // @
+":21067 21069:21072 21077 21080:21082 21084:21086 21091 21094:21096 21098:" // @
+"21100 21105 21108:21110 21112:21114 21119 21122:21124 21126:21128 21133 2" // @
+"1136:21138 21140:21142 21145:21150 21155:21163 21165:21176 21179:21190 21" // @
+"193:21204 21207:21218 21221:21232 21237:21243:2 21251:21257:2 21265:21271" // @
+":2 21279:21285:2 21293:21299:2 21305 21307:21309 21315 21317:21322 21326 " // @
+"21327 21329:21331 21333:21336 21340 21341 21343:21345 21347:21350 21354 2" // @
+"1355 21357:21359 21361:21364 21368 21369 21371:21373 21375:21378 21382 21" // @
+"383 21385:21387 21389:21392 21397 21400:21402 21404:21406 21411 21414:214" // @
+"16 21418:21420 21425 21428:21430 21432:21434 21439 21442:21444 21446:2144" // @
+"8 21453 21456:21458 21460:21462 21465 21467 21468 21470:21472 21476 21477" // @
+" 21479:21481 21483:21486 21490 21491 21493:21495 21497:21500 21504 21505 " // @
+"21507:21509 21511:21514 21518 21519 21521:21523 21525:21528 21532 21533 2" // @
+"1535:21537 21539:21542 21545 21547:21552 21556 21557 21559 21560 21562 21" // @
+"563 21565:21567 21569 21570 21572 21573 21579:21581 21583 21584 21586 215" // @
+"87 21593:21595 21597 21598 21600 21601 21607:21609 21611 21612 21614 2161" // @
+"5 21623 21626:21628 21630:21632 21635 21637:21642 21646 21647 21649:21651" // @
+" 21653:21656 21660 21661 21663:21665 21667:21670 21674 21675 21677:21679 " // @
+"21681:21684 21688 21689 21691:21693 21695:21698 21702 21703 21705:21707 2" // @
+"1709:21712 21717 21720:21722 21724:21726 21731 21734:21736 21738:21740 21" // @
+"745 21748:21750 21752:21754 21759 21762:21764 21766:21768 21773 21776:217" // @
+"78 21780:21782 21785:21790", "30000", 2, fem_renum_node_new_ids )
+$# 674 FEM entities renumbered.  New IDs are:  Node 30000:30673
+repaint_graphics(  )
+STRING fem_renum_elem_new_ids[VIRTUAL]
+fem_renum_elem_1( "Elm 21079:21708 23078:23526", "30000", 2,  @
+fem_renum_elem_new_ids )
+$# 1079 FEM entities renumbered.  New IDs are:  Element 30000:31078
+repaint_graphics(  )
+uil_viewport_post_groups.posted_groups( "default_viewport", 3, ["Bandeja_B",  @
+"Bandeja_C", "Bandeja_D"] )
+ga_view_center_set( -0.054259, 0.023352 )
+ga_view_zoom_set( 0.410717 )
+ga_view_center_set( -0.115300, 0.049623 )
+ga_view_zoom_set( 0.462057 )
+ga_view_center_set( -0.183971, 0.079177 )
+ga_view_zoom_set( 0.519814 )
+ga_view_center_set( -0.261226, 0.112426 )
+ga_view_zoom_set( 0.584791 )
+ga_view_center_set( -0.348137, 0.149831 )
+ga_view_zoom_set( 0.657890 )
+ga_view_aa_set( -80.236443, -15.216661, 94.443275 )
+ga_view_aa_set( -73.884247, -0.025406, -106.636620 )
+sys_poll_option( 2 )
+uil_group_delete_group.delete_groups( FALSE, 2, ["SM_001", "default_group"] )
+sys_poll_option( 0 )
+ga_group_move_translate_1( 1, ["Bandeja_D"], "Coord 0", "<0 0 0.6>",  @
+0.60000002, TRUE, 25 )
+$# 32 Points in Group ["Bandeja_D"] are moved.
+$# 36 Points are created in Group ["Bandeja_D"].
+$# 125 Curves in Group ["Bandeja_D"] are moved.
+$# 60 Curves are created in Group ["Bandeja_D"].
+$# 69 Surfaces in Group ["Bandeja_D"] are moved.
+$# 15 Surfaces are created in Group ["Bandeja_D"].
+$# 1 CoordFrame is created in Group ["Bandeja_D"].
+$# 674 Nodes in Group ["Bandeja_D"] are moved.
+$# 1079 Elements in Group ["Bandeja_D"] are moved.
+$# Property Set "masa_equipos.12" created from "masa_equipos"
+$# Question in application Group Applications by application ELEM_PROPS
+$#     Curve 30001  already has been associated to an element property 
+$# region. Overwrite the association?
+$? YESFORALL 29002022 
+$# 1 ElementProperty is created in Group ["Bandeja_D"].
+$# 3 ElementProperties are updated.
+$# Load/BC set "BC_simplemente.3" created from "BC_simplemente"
+$# 1 Load/BC is created in Group ["Bandeja_D"].
+ga_view_center_set( 0.003242, -0.137848 )
+ga_view_zoom_set( 0.882020 )
+ga_view_center_set( 0.006745, -0.129736 )
+ga_view_zoom_set( 0.992272 )
+ga_view_center_set( 0.003242, -0.137480 )
+ga_view_zoom_set( 0.882020 )
+ga_view_center_set( 0.000128, -0.144363 )
+ga_view_zoom_set( 0.784018 )
+ga_view_center_set( -0.002640, -0.150481 )
+ga_view_zoom_set( 0.696905 )
+ga_view_center_set( -0.007738, -0.128630 )
+ga_view_zoom_set( 0.784018 )
+ga_view_center_set( -0.013474, -0.104047 )
+ga_view_zoom_set( 0.882020 )
+ga_view_center_set( -0.022140, -0.086717 )
+ga_view_zoom_set( 0.992272 )
+ga_view_center_set( -0.031888, -0.065975 )
+ga_view_zoom_set( 1.116306 )
+ga_view_center_set( -0.042855, -0.042641 )
+ga_view_zoom_set( 1.255845 )
+ga_view_center_set( -0.055193, -0.016390 )
+ga_view_zoom_set( 1.412825 )
+ga_view_center_set( -0.078524, 0.001329 )
+ga_view_zoom_set( 1.589429 )
+ga_view_center_set( -0.104770, 0.021264 )
+ga_view_zoom_set( 1.788107 )
+ga_view_center_set( -0.134298, 0.043690 )
+ga_view_zoom_set( 2.011621 )
+ga_view_center_set( -0.167517, 0.068919 )
+ga_view_zoom_set( 2.263073 )
+ga_view_center_set( -0.134298, 0.043690 )
+ga_view_zoom_set( 2.011621 )
+ga_view_center_set( -0.081148, 0.003323 )
+ga_view_zoom_set( 1.609296 )
+ga_view_center_set( -0.057526, -0.014618 )
+ga_view_zoom_set( 1.430486 )
+ga_view_center_set( -0.036528, -0.030566 )
+ga_view_zoom_set( 1.271543 )
+ga_view_center_set( -0.009831, -0.046159 )
+ga_view_zoom_set( 1.130260 )
+ga_view_center_set( 0.061361, -0.087740 )
+ga_view_zoom_set( 0.753507 )
+ga_view_center_set( 0.089838, -0.104373 )
+ga_view_zoom_set( 0.602805 )
+ga_view_center_set( 0.112620, -0.117679 )
+ga_view_zoom_set( 0.482244 )
+ga_view_center_set( 0.142817, -0.144022 )
+ga_view_zoom_set( 0.428662 )
+ga_view_center_set( 0.168861, -0.167916 )
+ga_view_zoom_set( 0.381033 )
+ga_view_center_set( 0.128560, -0.129049 )
+ga_view_zoom_set( 0.476291 )
+ga_view_center_set( 0.078183, -0.080464 )
+ga_view_zoom_set( 0.595363 )
+ga_view_center_set( 0.046697, -0.050098 )
+ga_view_zoom_set( 0.669784 )
+ga_view_center_set( 0.014076, -0.019577 )
+ga_view_zoom_set( 0.753507 )
+ga_view_center_set( -0.022623, 0.014759 )
+ga_view_zoom_set( 0.847695 )
+ga_view_center_set( -0.060011, 0.022910 )
+ga_view_zoom_set( 0.953657 )
+ga_view_center_set( -0.099680, 0.032080 )
+ga_view_zoom_set( 1.072864 )
+ga_view_center_set( -0.060010, 0.022910 )
+ga_view_zoom_set( 0.953657 )
+ga_view_center_set( -0.024749, 0.014759 )
+ga_view_zoom_set( 0.847695 )
+ga_view_center_set( 0.031670, 0.001718 )
+ga_view_zoom_set( 0.678156 )
+ga_view_center_set( 0.056745, -0.004079 )
+ga_view_zoom_set( 0.602805 )
+ga_view_center_set( 0.073881, -0.006095 )
+ga_view_zoom_set( 0.535827 )
+ga_view_center_set( 0.118981, -0.011471 )
+ga_view_zoom_set( 0.357218 )
+curve_label( FALSE )
+point_label( FALSE )
+ga_view_center_set( 0.100837, 0.005255 )
+ga_view_zoom_set( 0.401870 )
+ga_view_center_set( 0.080424, 0.024072 )
+ga_view_zoom_set( 0.452104 )
+ga_view_center_set( 0.057460, 0.045240 )
+ga_view_zoom_set( 0.508617 )
+ga_view_center_set( 0.033113, 0.073521 )
+ga_view_zoom_set( 0.572194 )
+ga_view_center_set( -0.018317, 0.141457 )
+ga_view_zoom_set( 0.715243 )
+ga_view_center_set( -0.050162, 0.184216 )
+ga_view_zoom_set( 0.804648 )
+ga_view_center_set( -0.150911, 0.239047 )
+ga_view_zoom_set( 0.905229 )
+ga_group_move_translate_1( 1, ["Bandeja_D"], "Coord 0", "<0 0 0.4>",  @
+0.40000001, FALSE, 25 )
+$# 68 Points in Group ["Bandeja_D"] are moved.
+$# 185 Curves in Group ["Bandeja_D"] are moved.
+$# 84 Surfaces in Group ["Bandeja_D"] are moved.
+$# 1 CoordFrame is created in Group ["Bandeja_D"].
+$# 674 Nodes in Group ["Bandeja_D"] are moved.
+$# 1079 Elements in Group ["Bandeja_D"] are moved.
+$# Property Set "masa_equipos.13" created from "masa_equipos.12"
+$# 1 ElementProperty is created in Group ["Bandeja_D"].
+$# 3 ElementProperties are updated.
+$# 1 Load/BC in Group ["Bandeja_D"] is moved.
+ga_group_move_translate_1( 1, ["Bandeja_D"], "Coord 0", "<0 0 0.2>", 0.2,  @
+FALSE, 25 )
+$# 32 Points in Group ["Bandeja_D"] are moved.
+$# 36 Points in Group ["Bandeja_D"] already exist and are not created.
+$# 125 Curves in Group ["Bandeja_D"] are moved.
+$# 60 Curves in Group ["Bandeja_D"] already exist and are not created.
+$# 69 Surfaces in Group ["Bandeja_D"] are moved.
+$# 15 Surfaces in Group ["Bandeja_D"] already exist and are not created.
+$# 1 CoordFrame is created in Group ["Bandeja_D"].
+$# 674 Nodes in Group ["Bandeja_D"] are moved.
+$# 1079 Elements in Group ["Bandeja_D"] are moved.
+$# Property Set "masa_equipos.14" created from "masa_equipos.13"
+$# 1 ElementProperty is created in Group ["Bandeja_D"].
+$# 3 ElementProperties are updated.
+$# Load/BC set "BC_simplemente.4" created from "BC_simplemente.3"
+$# 1 Load/BC is created in Group ["Bandeja_D"].
+$# UNDO: uil_group_translate TRANSLATE Group "Bandeja_D..."
+ga_group_move_translate_1( 1, ["Bandeja_D"], "Coord 0", "<0 0 0.4>",  @
+0.40000001, FALSE, 25 )
+$# 32 Points in Group ["Bandeja_D"] are moved.
+$# 36 Points are created in Group ["Bandeja_D"].
+$# 125 Curves in Group ["Bandeja_D"] are moved.
+$# 60 Curves are created in Group ["Bandeja_D"].
+$# 69 Surfaces in Group ["Bandeja_D"] are moved.
+$# 15 Surfaces are created in Group ["Bandeja_D"].
+$# 1 CoordFrame is created in Group ["Bandeja_D"].
+$# 674 Nodes in Group ["Bandeja_D"] are moved.
+$# 1079 Elements in Group ["Bandeja_D"] are moved.
+$# Question in application Group Applications by application ELEM_PROPS
+$#     Curve 30001  already has been associated to an element property 
+$# region. Overwrite the association?
+$? YESFORALL 29002022 
+$# Property Set "masa_equipos.15" created from "masa_equipos.14"
+$# 1 ElementProperty is created in Group ["Bandeja_D"].
+$# 3 ElementProperties are updated.
+$# Load/BC set "BC_simplemente.5" created from "BC_simplemente.4"
+$# 1 Load/BC is created in Group ["Bandeja_D"].
+ga_group_move_translate_1( 1, ["Bandeja_B"], "Coord 0", "<0 0 0.4>",  @
+0.40000001, TRUE, 25 )
+$# 68 Points in Group ["Bandeja_B"] are moved.
+$# 185 Curves in Group ["Bandeja_B"] are moved.
+$# 84 Surfaces in Group ["Bandeja_B"] are moved.
+$# 1 CoordFrame is created in Group ["Bandeja_B"].
+$# 674 Nodes in Group ["Bandeja_B"] are moved.
+$# 1079 Elements in Group ["Bandeja_B"] are moved.
+$# Property Set "masa_equipos.16" created from "masa_equipos.10"
+$# 1 ElementProperty is created in Group ["Bandeja_B"].
+$# 3 ElementProperties are updated.
+$# 1 Load/BC in Group ["Bandeja_B"] is moved.
+ga_group_move_translate_1( 1, ["Bandeja_B"], "Coord 0", "<0 0 0.4>",  @
+0.40000001, TRUE, 25 )
+$# 68 Points in Group ["Bandeja_B"] are moved.
+$# 185 Curves in Group ["Bandeja_B"] are moved.
+$# 84 Surfaces in Group ["Bandeja_B"] are moved.
+$# 1 CoordFrame is created in Group ["Bandeja_B"].
+$# 674 Nodes in Group ["Bandeja_B"] are moved.
+$# 1079 Elements in Group ["Bandeja_B"] are moved.
+$# Property Set "masa_equipos.17" created from "masa_equipos.16"
+$# 1 ElementProperty is created in Group ["Bandeja_B"].
+$# 3 ElementProperties are updated.
+$# 1 Load/BC in Group ["Bandeja_B"] is moved.
+ga_view_center_set( -0.001962, 0.020786 )
+ga_view_zoom_set( 0.998745 )
+ga_view_center_set( 0.000079, -0.048989 )
+ga_view_zoom_set( 0.887774 )
+ga_view_center_set( 0.003346, -0.160628 )
+ga_view_zoom_set( 0.710219 )
+ga_view_center_set( 0.006909, -0.209191 )
+ga_view_zoom_set( 0.631306 )
+ga_view_center_set( 0.010076, -0.252357 )
+ga_view_zoom_set( 0.561161 )
+ga_view_center_set( 0.015810, -0.289059 )
+ga_view_zoom_set( 0.498809 )
+ga_view_center_set( 0.020908, -0.321682 )
+ga_view_zoom_set( 0.443386 )
+ga_view_center_set( -0.026823, -0.293507 )
+ga_view_zoom_set( 0.498809 )
+ga_view_center_set( -0.080520, -0.261810 )
+ga_view_zoom_set( 0.561161 )
+ga_view_center_set( -0.134830, -0.231547 )
+ga_view_zoom_set( 0.631306 )
+ga_group_move_translate_1( 1, ["Bandeja_D"], "Coord 0", "<0 0 0.4>",  @
+0.40000001, TRUE, 25 )
+$# 32 Points in Group ["Bandeja_D"] are moved.
+$# 36 Points in Group ["Bandeja_D"] already exist and are not created.
+$# 125 Curves in Group ["Bandeja_D"] are moved.
+$# 60 Curves in Group ["Bandeja_D"] already exist and are not created.
+$# 69 Surfaces in Group ["Bandeja_D"] are moved.
+$# 15 Surfaces in Group ["Bandeja_D"] already exist and are not created.
+$# 1 CoordFrame is created in Group ["Bandeja_D"].
+$# 674 Nodes in Group ["Bandeja_D"] are moved.
+$# 1079 Elements in Group ["Bandeja_D"] are moved.
+$# Property Set "masa_equipos.18" created from "masa_equipos.15"
+$# 1 ElementProperty is created in Group ["Bandeja_D"].
+$# 3 ElementProperties are updated.
+$# Load/BC set "BC_simplemente.6" created from "BC_simplemente.5"
+$# 1 Load/BC is created in Group ["Bandeja_D"].
+ga_view_center_set( -0.080994, -0.024406 )
+ga_view_zoom_set( 0.882020 )
+ga_view_center_set( -0.263519, 0.030904 )
+ga_view_zoom_set( 1.102525 )
+ga_view_center_set( -0.082469, -0.024406 )
+ga_view_zoom_set( 0.882020 )
+ga_view_center_set( 0.062371, -0.068655 )
+ga_view_zoom_set( 0.705616 )
+ga_view_center_set( 0.178243, -0.104054 )
+ga_view_zoom_set( 0.564493 )
+ga_view_center_set( 0.229742, -0.119786 )
+ga_view_zoom_set( 0.501771 )
+ga_group_move_translate_1( 1, ["Bandeja_D"], "Coord 0", "<0 0 0.2>", 0.2,  @
+TRUE, 25 )
+$# 32 Points in Group ["Bandeja_D"] are moved.
+$# 36 Points are created in Group ["Bandeja_D"].
+$# 125 Curves in Group ["Bandeja_D"] are moved.
+$# 60 Curves are created in Group ["Bandeja_D"].
+$# 69 Surfaces in Group ["Bandeja_D"] are moved.
+$# 15 Surfaces are created in Group ["Bandeja_D"].
+$# 1 CoordFrame is created in Group ["Bandeja_D"].
+$# 674 Nodes in Group ["Bandeja_D"] are moved.
+$# 1079 Elements in Group ["Bandeja_D"] are moved.
+$# Question in application Group Applications by application ELEM_PROPS
+$#     Curve 30001  already has been associated to an element property 
+$# region. Overwrite the association?
+$? YESFORALL 29002022 
+$# Property Set "masa_equipos.19" created from "masa_equipos.18"
+$# 1 ElementProperty is created in Group ["Bandeja_D"].
+$# 3 ElementProperties are updated.
+$# Load/BC set "BC_simplemente.7" created from "BC_simplemente.6"
+$# 1 Load/BC is created in Group ["Bandeja_D"].
+ga_view_center_set( -0.031490, 0.006201 )
+ga_view_zoom_set( 0.881768 )
+ga_view_center_set( 0.000130, -0.048848 )
+ga_view_zoom_set( 0.783794 )
+ga_view_center_set( 0.028238, -0.097780 )
+ga_view_zoom_set( 0.696705 )
+ga_view_center_set( 0.053222, -0.141276 )
+ga_view_zoom_set( 0.619294 )
+ga_view_center_set( 0.075200, -0.179478 )
+ga_view_zoom_set( 0.550483 )
+ga_view_center_set( 0.094735, -0.213436 )
+ga_view_zoom_set( 0.489319 )
+ga_view_center_set( 0.148286, -0.238347 )
+ga_view_zoom_set( 0.434950 )
+ga_view_center_set( 0.107827, -0.213800 )
+ga_view_zoom_set( 0.489319 )
+ga_view_center_set( 0.064153, -0.186184 )
+ga_view_zoom_set( 0.550483 )
+ga_view_center_set( -0.027671, -0.120825 )
+ga_view_zoom_set( 0.688104 )
+ga_view_center_set( -0.076718, -0.073360 )
+ga_view_zoom_set( 0.774117 )
+ga_view_center_set( -0.181897, 0.038615 )
+ga_view_zoom_set( 0.967646 )
+ga_view_aa_set( -101.022263, 18.533342, -160.299805 )
+ga_view_center_set( -0.216890, 0.001803 )
+ga_view_zoom_set( 1.088602 )
+ga_view_center_set( -0.295622, -0.081026 )
+ga_view_zoom_set( 1.360753 )
+ga_view_center_set( -0.251882, -0.035010 )
+ga_view_zoom_set( 1.209558 )
+ga_view_center_set( -0.181897, 0.038615 )
+ga_view_zoom_set( 0.967646 )
+ga_view_center_set( -0.150793, 0.071338 )
+ga_view_zoom_set( 0.860130 )
+ga_view_center_set( -0.082929, 0.142732 )
+ga_view_zoom_set( 0.625549 )
+ga_view_center_set( -0.062822, 0.163886 )
+ga_view_zoom_set( 0.556044 )
+ga_view_center_set( -0.044948, 0.182689 )
+ga_view_zoom_set( 0.494261 )
+ga_view_center_set( -0.005951, 0.223264 )
+ga_view_zoom_set( 0.359463 )
+ga_view_center_set( 0.005603, 0.235152 )
+ga_view_zoom_set( 0.319522 )
+ga_view_center_set( 0.016112, 0.245483 )
+ga_view_zoom_set( 0.284020 )
+ga_view_center_set( 0.025558, 0.254560 )
+ga_view_zoom_set( 0.252462 )
+ga_view_center_set( 0.019278, 0.263214 )
+ga_view_zoom_set( 0.284020 )
+ga_view_center_set( -0.008507, 0.318783 )
+ga_view_zoom_set( 0.426030 )
+ga_view_center_set( -0.028989, 0.361885 )
+ga_view_zoom_set( 0.532537 )
+ga_view_center_set( -0.054592, 0.415762 )
+ga_view_zoom_set( 0.665671 )
+ga_view_center_set( -0.070593, 0.449435 )
+ga_view_zoom_set( 0.748880 )
+ga_view_center_set( -0.106598, 0.525200 )
+ga_view_zoom_set( 0.936100 )
+ga_view_center_set( -0.129882, 0.538897 )
+ga_view_zoom_set( 1.053113 )
+ga_view_center_set( -0.182274, 0.569715 )
+ga_view_zoom_set( 1.316391 )
+ga_view_center_set( -0.215019, 0.606588 )
+ga_view_zoom_set( 1.480940 )
+ga_view_center_set( -0.325532, 0.731031 )
+ga_view_zoom_set( 2.036293 )
+ga_view_aa_set( -47.207581, -4.213269, 31.798698 )
+uil_primary_file.db_save(  )
+$# Reclaimed 1.13 MB of 4.14 MB.
+ga_view_center_set( -0.368523, 0.822120 )
+ga_view_zoom_set( 2.290829 )
+ga_view_center_set( -0.325532, 0.731031 )
+ga_view_zoom_set( 2.036293 )
+ga_view_center_set( -0.287319, 0.650064 )
+ga_view_zoom_set( 1.810038 )
+ga_view_center_set( -0.226177, 0.520516 )
+ga_view_zoom_set( 1.448030 )
+ga_view_center_set( -0.199003, 0.462939 )
+ga_view_zoom_set( 1.287138 )
+ga_view_center_set( -0.155524, 0.370816 )
+ga_view_zoom_set( 1.029710 )
+ga_view_center_set( -0.136200, 0.329873 )
+ga_view_zoom_set( 0.915298 )
+ga_view_center_set( -0.105282, 0.264363 )
+ga_view_zoom_set( 0.732239 )
+ga_view_center_set( -0.091541, 0.235248 )
+ga_view_zoom_set( 0.650879 )
+ga_view_center_set( -0.079326, 0.209367 )
+ga_view_zoom_set( 0.578559 )
+ga_view_center_set( -0.068469, 0.186363 )
+ga_view_zoom_set( 0.514274 )
+ga_view_center_set( 0.106385, -0.250771 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+loadsbcs_delete( ["BC_simplemente", "BC_simplemente.1", "BC_simplemente.2",  @
+"BC_simplemente.3", "BC_simplemente.4", "BC_simplemente.5", "BC_simplemente.6" @
+, "BC_simplemente.7"] )
+$# 8 Load/BC set(s) deleted.
+ga_view_center_set( 0.084922, -0.227348 )
+ga_view_zoom_set( 0.578559 )
+ga_view_center_set( 0.060777, -0.200997 )
+ga_view_zoom_set( 0.650879 )
+ga_view_center_set( 0.084922, -0.227348 )
+ga_view_zoom_set( 0.578559 )
+ga_view_center_set( 0.105972, -0.250564 )
+ga_view_zoom_set( 0.514274 )
+ga_view_center_set( 0.138661, -0.287381 )
+ga_view_zoom_set( 0.411420 )
+ga_view_aa_set( -100.256676, 9.583939, 155.801956 )
+ga_view_aa_set( -80.997559, 2.182933, -116.278755 )
+ga_view_center_set( 0.166727, -0.287463 )
+ga_view_zoom_set( 0.462847 )
+ga_view_center_set( 0.138661, -0.287381 )
+ga_view_zoom_set( 0.411420 )
+ga_view_center_set( 0.113713, -0.287307 )
+ga_view_zoom_set( 0.365706 )
+ga_view_center_set( 0.156124, -0.266982 )
+ga_view_zoom_set( 0.411420 )
+ga_view_center_set( 0.204332, -0.247748 )
+ga_view_zoom_set( 0.462847 )
+ga_view_center_set( 0.258566, -0.226110 )
+ga_view_zoom_set( 0.520703 )
+sys_poll_option( 2 )
+ga_group_create( "Rigidizadores" )
+ga_viewport_group_unpost_all( "" )
+ga_group_current_set( "Rigidizadores" )
+$# Group "Rigidizadores" created.
+sys_poll_option( 0 )
+ga_view_center_set( -0.031368, 0.026947 )
+ga_view_zoom_set( 0.799442 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+$# UNDO: Delete for entities Coord 2 8 3 11 9 4 10 3 11 3
+ga_view_center_set( -0.060881, 0.025183 )
+ga_view_zoom_set( 0.899372 )
+ga_view_center_set( -0.031368, 0.026947 )
+ga_view_zoom_set( 0.799442 )
+$# UNDO: Delete for entities Coord 2 8 3 11 9 4 10 3 11 3
+STRING asm_delete_coord_deleted_ids[VIRTUAL]
+asm_delete_coord( "Coord 1:12", asm_delete_coord_deleted_ids )
+$# 12 Coordinate Frames deleted: Coord 1:12
+ga_view_center_set( -0.076601, 0.023258 )
+ga_view_zoom_set( 0.899372 )
+ga_view_center_set( -0.127488, 0.019108 )
+ga_view_zoom_set( 1.011793 )
+ga_view_center_set( -0.076601, 0.023258 )
+ga_view_zoom_set( 0.899372 )
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "40000", "[0 0 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 40000
+asm_const_grid_xyz( "40001", "[0 0 0.6]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 40001
+point_size( 1 )
+ga_view_center_set( 0.010160, -0.014640 )
+ga_view_zoom_set( 0.399808 )
+ga_view_center_set( 0.021772, -0.030880 )
+ga_view_zoom_set( 0.449784 )
+ga_view_center_set( 0.034834, -0.049150 )
+ga_view_zoom_set( 0.506007 )
+ga_view_center_set( 0.050721, -0.063350 )
+ga_view_zoom_set( 0.569258 )
+ga_view_center_set( 0.074850, -0.094739 )
+ga_view_zoom_set( 0.640415 )
+ga_view_center_set( 0.098476, -0.154432 )
+ga_view_zoom_set( 0.720467 )
+ga_view_center_set( 0.085909, -0.109066 )
+ga_view_zoom_set( 0.640415 )
+ga_view_center_set( 0.072281, -0.070974 )
+ga_view_zoom_set( 0.569258 )
+ga_view_center_set( 0.058777, -0.038306 )
+ga_view_zoom_set( 0.506007 )
+ga_view_center_set( 0.043772, -0.012622 )
+ga_view_zoom_set( 0.449784 )
+ga_view_center_set( 0.030278, 0.009581 )
+ga_view_zoom_set( 0.399808 )
+ga_view_center_set( 0.043301, -0.010582 )
+ga_view_zoom_set( 0.449784 )
+ga_view_center_set( 0.057953, -0.033265 )
+ga_view_zoom_set( 0.506007 )
+ga_view_center_set( 0.074436, -0.058784 )
+ga_view_zoom_set( 0.569258 )
+ga_view_center_set( 0.092979, -0.087493 )
+ga_view_zoom_set( 0.640415 )
+ga_view_center_set( 0.113840, -0.119790 )
+ga_view_zoom_set( 0.720467 )
+ga_view_center_set( 0.160778, -0.192459 )
+ga_view_zoom_set( 0.900583 )
+ga_view_center_set( 0.190114, -0.237877 )
+ga_view_zoom_set( 1.013156 )
+ga_view_center_set( 0.223117, -0.292948 )
+ga_view_zoom_set( 1.139801 )
+ga_view_center_set( 0.261588, -0.385322 )
+ga_view_zoom_set( 1.282276 )
+ga_view_center_set( 0.304867, -0.489243 )
+ga_view_zoom_set( 1.442560 )
+ga_view_center_set( 0.353556, -0.606154 )
+ga_view_zoom_set( 1.622880 )
+ga_view_center_set( 0.407695, -0.763155 )
+ga_view_zoom_set( 1.825741 )
+ga_view_center_set( 0.468601, -0.939782 )
+ga_view_zoom_set( 2.053958 )
+ga_view_center_set( 0.537120, -1.129620 )
+ga_view_zoom_set( 2.310703 )
+ga_view_center_set( 0.614203, -1.338654 )
+ga_view_zoom_set( 2.599541 )
+ga_view_center_set( 0.700923, -1.570756 )
+ga_view_zoom_set( 2.924484 )
+ga_view_center_set( 0.798482, -1.831870 )
+ga_view_zoom_set( 3.290044 )
+ga_view_center_set( 0.903071, -2.027491 )
+ga_view_zoom_set( 3.701300 )
+ga_view_center_set( 1.020733, -2.247565 )
+ga_view_zoom_set( 4.163962 )
+ga_view_center_set( 0.903070, -2.027491 )
+ga_view_zoom_set( 3.701300 )
+ga_view_center_set( 0.794608, -1.834453 )
+ga_view_zoom_set( 3.290044 )
+ga_view_center_set( 0.698195, -1.662863 )
+ga_view_zoom_set( 2.924484 )
+ga_view_center_set( 0.538428, -1.403011 )
+ga_view_zoom_set( 2.339587 )
+ga_view_center_set( 0.409144, -1.195129 )
+ga_view_zoom_set( 1.871670 )
+ga_view_center_set( 0.351685, -1.103390 )
+ga_view_zoom_set( 1.663706 )
+ga_view_center_set( 0.309316, -1.013139 )
+ga_view_zoom_set( 1.478850 )
+ga_view_center_set( 0.271655, -0.932915 )
+ga_view_zoom_set( 1.314533 )
+ga_view_center_set( 0.239554, -0.859771 )
+ga_view_zoom_set( 1.168474 )
+ga_view_center_set( 0.209471, -0.715591 )
+ga_view_zoom_set( 0.934779 )
+ga_view_center_set( 0.181295, -0.593791 )
+ga_view_zoom_set( 0.747823 )
+ga_view_center_set( 0.168773, -0.539658 )
+ga_view_zoom_set( 0.664732 )
+ga_view_center_set( 0.157642, -0.491539 )
+ga_view_zoom_set( 0.590873 )
+ga_view_center_set( 0.124620, -0.436812 )
+ga_view_zoom_set( 0.472698 )
+ga_view_center_set( 0.097312, -0.393920 )
+ga_view_zoom_set( 0.378159 )
+ga_view_center_set( 0.085175, -0.374857 )
+ga_view_zoom_set( 0.336141 )
+ga_view_center_set( 0.058694, -0.332114 )
+ga_view_zoom_set( 0.244466 )
+ga_view_center_set( 0.044571, -0.309318 )
+ga_view_zoom_set( 0.195573 )
+ga_view_center_set( 0.039932, -0.297207 )
+ga_view_zoom_set( 0.173843 )
+ga_view_center_set( 0.032509, -0.277831 )
+ga_view_zoom_set( 0.139074 )
+ga_view_center_set( 0.026570, -0.262330 )
+ga_view_zoom_set( 0.111259 )
+ga_view_center_set( 0.025367, -0.255324 )
+ga_view_zoom_set( 0.098897 )
+ga_view_center_set( 0.024090, -0.249269 )
+ga_view_zoom_set( 0.087909 )
+ga_view_center_set( 0.022864, -0.243979 )
+ga_view_zoom_set( 0.078141 )
+ga_view_center_set( 0.024857, -0.248196 )
+ga_view_zoom_set( 0.087909 )
+point_size( 9 )
+gm_plot_erase_geometry( 1 )
+gm_plot_erase_geometry( 1 )
+gm_visibility_widget( "Rigidizadores", TRUE )
+gm_plot_erase_all( 1 )
+ga_view_center_set( 0.028721, -0.251697 )
+ga_view_zoom_set( 0.098897 )
+ga_view_center_set( 0.033068, -0.255637 )
+ga_view_zoom_set( 0.111259 )
+STRING asm_delete_point_deleted_ids[VIRTUAL]
+asm_delete_point( "Point 40000", asm_delete_point_deleted_ids )
+$# 1 Point Deleted: Point 40000
+asm_delete_point( "Point 40001", asm_delete_point_deleted_ids )
+$# 1 Point Deleted: Point 40001
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "40000", "[0.3 0 0.6]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 40000
+asm_const_grid_xyz( "40001", "[0.3 0 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 40001
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "40000", "40000", "40001", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# Error reported from application APP
+$#     Unable to process list: "40000"
+$? NO 16000101 
+ga_view_center_set( 0.010901, 0.023985 )
+ga_view_zoom_set( 0.399808 )
+ga_view_center_set( 0.023610, 0.050424 )
+ga_view_zoom_set( 0.449784 )
+ga_view_center_set( 0.038968, 0.079815 )
+ga_view_zoom_set( 0.506007 )
+ga_view_center_set( 0.059621, 0.108710 )
+ga_view_zoom_set( 0.569258 )
+ga_view_center_set( 0.082856, 0.141217 )
+ga_view_zoom_set( 0.640415 )
+ga_view_center_set( 0.108996, 0.177787 )
+ga_view_zoom_set( 0.720467 )
+ga_view_center_set( 0.139533, 0.213838 )
+ga_view_zoom_set( 0.810525 )
+ga_view_center_set( 0.108713, 0.178070 )
+ga_view_zoom_set( 0.720467 )
+ga_view_center_set( 0.081317, 0.146275 )
+ga_view_zoom_set( 0.640415 )
+ga_view_center_set( 0.056965, 0.118013 )
+ga_view_zoom_set( 0.569258 )
+ga_view_center_set( 0.050262, 0.088411 )
+ga_view_zoom_set( 0.640415 )
+ga_view_center_set( 0.044984, 0.056868 )
+ga_view_zoom_set( 0.720467 )
+ga_view_center_set( 0.040743, 0.023078 )
+ga_view_zoom_set( 0.810525 )
+ga_view_center_set( 0.037880, -0.014299 )
+ga_view_zoom_set( 0.911841 )
+ga_view_center_set( 0.034659, -0.056348 )
+ga_view_zoom_set( 1.025821 )
+ga_view_center_set( 0.083329, -0.023245 )
+ga_view_zoom_set( 0.911841 )
+ga_view_center_set( 0.123728, 0.003634 )
+ga_view_zoom_set( 0.810525 )
+ga_view_center_set( 0.157942, 0.026396 )
+ga_view_zoom_set( 0.720467 )
+ga_view_center_set( 0.127121, 0.003634 )
+ga_view_zoom_set( 0.810525 )
+ga_view_center_set( 0.092448, -0.021973 )
+ga_view_zoom_set( 0.911841 )
+ga_view_center_set( 0.014433, -0.079589 )
+ga_view_zoom_set( 1.139801 )
+asm_const_line_2point( "40000", "40000", "40001", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# Error reported from application APP
+$#     Unable to process list: "40000"
+$? NO 16000101 
+point_size( 1 )
+ga_view_center_set( 0.096742, -0.030607 )
+ga_view_zoom_set( 1.282276 )
+ga_view_center_set( 0.189340, 0.024499 )
+ga_view_zoom_set( 1.442560 )
+ga_view_aa_set( 0., 0., 0. )
+uil_toolbar.wireframe(  )
+ga_view_center_set( 0.222336, 0.035787 )
+ga_view_zoom_set( 1.622880 )
+ga_view_center_set( 0.188761, 0.021026 )
+ga_view_zoom_set( 1.442560 )
+ga_view_center_set( 0.158917, 0.007905 )
+ga_view_zoom_set( 1.282276 )
+ga_view_center_set( 0.132389, -0.003759 )
+ga_view_zoom_set( 1.139801 )
+ga_view_center_set( 0.108808, -0.014126 )
+ga_view_zoom_set( 1.013156 )
+ga_view_center_set( 0.087847, -0.023341 )
+ga_view_zoom_set( 0.900583 )
+ga_view_center_set( 0.069216, -0.031533 )
+ga_view_zoom_set( 0.800519 )
+ga_view_center_set( 0.039405, -0.044639 )
+ga_view_zoom_set( 0.640415 )
+ga_view_center_set( 0.026156, -0.050007 )
+ga_view_zoom_set( 0.569258 )
+ga_view_center_set( 0.004957, -0.058597 )
+ga_view_zoom_set( 0.455406 )
+ga_view_center_set( -0.004464, -0.062414 )
+ga_view_zoom_set( 0.404805 )
+asm_const_line_2point( "40000", "Point 40001", "Point 40000", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 40000
+ga_view_aa_set( -58.936817, 1.936792, -0.507952 )
+ga_view_aa_set( -6.902461, 0.800085, -2.486861 )
+STRING asm_delete_point_deleted_ids[VIRTUAL]
+asm_delete_point( "Point 40000 40001", asm_delete_point_deleted_ids )
+$# 2 Points Deleted: Point 40000 40001
+STRING asm_delete_curve_deleted_ids[VIRTUAL]
+asm_delete_curve( "Curve 40000", asm_delete_curve_deleted_ids )
+$# 1 Curve Deleted: Curve 40000
+STRING asm_create_grid_xyz_created_ids[VIRTUAL]
+asm_const_grid_xyz( "40000", "[0.3 0.3 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 40000
+asm_const_grid_xyz( "40001", "[0.3 -0.3 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 40001
+ga_view_aa_set( 0., 0., 0. )
+point_size( 9 )
+asm_const_grid_xyz( "40002", "[-0.3 -0.3 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 40002
+asm_const_grid_xyz( "40003", "[-0.3 0.3 0]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 40003
+asm_const_grid_xyz( "40004", "[0.3 0.3 0.6]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 40004
+point_label( TRUE )
+asm_const_grid_xyz( "40005", "[0.3 -0.3 0.6]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 40005
+asm_const_grid_xyz( "40006", "[-0.3 -0.3 0.6]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 40006
+asm_const_grid_xyz( "40007", "[-0.3 +0.3 0.6]", "Coord 0",  @
+asm_create_grid_xyz_created_ids )
+$# 1 Point created: Point 40007
+ga_view_aa_set( 0., 0., 0. )
+ga_view_aa_set( 0., 0., 0. )
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "40000", "Point 40001", "Point 40005", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 40000
+asm_const_line_2point( "40001", "Point 40002", "Point 40006", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 40001
+asm_const_line_2point( "40002", "Point 40003", "Point 40007", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 40002
+$# UNDO: Create Curve 2Point for Point 40004Point 40008
+ga_view_aa_set( -10.999999, 0.000000, 0.000000 )
+ga_view_center_set( -0.022536, -0.005995 )
+ga_view_zoom_set( 0.405000 )
+mesh_seed_display_mgr.erase(  )
+ga_view_center_set( -0.069992, -0.028667 )
+ga_view_zoom_set( 0.455625 )
+ga_view_center_set( -0.117529, -0.074833 )
+ga_view_zoom_set( 0.512578 )
+ga_view_center_set( -0.064142, -0.030312 )
+ga_view_zoom_set( 0.455625 )
+STRING asm_line_2point_created_ids[VIRTUAL]
+asm_const_line_2point( "40003", "Point 40004", "Point 40000", 0, "", 50., 1,  @
+asm_line_2point_created_ids )
+$# 1 Line created: Line 40003
+beam_section_display( "L", "L_45x45", ["", "", "", ""], "", "", 0. )
+$# Error reported from application ELEM_PROPS
+$#     Invalid Beam Section Dimension "".
+$? NO 29002046 
+uil_primary_file.db_save(  )
+$# Reclaimed 0.64 MB of 3.58 MB.
