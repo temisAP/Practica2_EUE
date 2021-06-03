@@ -17,7 +17,7 @@ Diseño de bandejas:
 	Elementos CBUSH (tornillos) entre 8 y 12 (para unirse al sistema de separación) *He elegido 10
 		con nodos superiores situados en los cruces de rigidizadores y que no coincidan con los de la masa puntual	-> Puntos :69, 30, 65, 70, 71, 33, 68, 17, 18, 19		Nodos: 6742(69), 5650(30), 4558(65), 6651(70), 6560(71), 53778(33), 4285(68), 3375(17), 3284(18), 3193(19) 
 		con nodos inferiores a 20 mm de la superficie de la bandeja restringidos sus 6 gdl				-> Puntos :691, 301, 651, 701, 711, 331, 681, 171, 181, 191	Nodos: mismo ID que los puntos y los elementos tipo BAR tb tienen el mismo ID
-		* Los he hecho de acero AISI 4037 Steel K1=K2=K3=205 GPa; K4(torsión) = 205 Pa; K5=K6 (flexión) = 80 GPa
+		* Los he hecho de acero AISI 4037 Steel K1=K2=K3=205 GPa; K4(torsión) = 205 Pa; K5=K6 (flexión) = 80 GPa; 13um/
 	
 	ID para ambas bandejas
 
@@ -69,7 +69,8 @@ Análisis de la estructura del microsatélite:
 		Vigas: 	-> Numeración a partir de 40000
 		Equipos -> Numeración a partir de 60000
 
-		Paneles -> Numeración a partir de 70000
+		Paneles -> Numeración a partir de 70000 las curvas y 100 000 el mallado
+	
 
 	Diseño optimo
 		
