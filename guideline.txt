@@ -54,6 +54,10 @@ Análisis de la estructura del microsatélite:
 	Paneles de cierre (láminas) unidos a las vigas y a los bordes de las bandejas
 	Tornillos iguales que antes (ahí se aplican las BC)
 
+	Nodos y elementos:
+		Bandeja: 	Surface 9.1 15.1 16.1 17.1 18.1 38.1 40.1 41.1 42.1 43.1 70.1 71.1 72.1 73.1 86.1, nodos 1:1121, elementos 1:631
+		Rigidizadores: 	Curve 1:7 43:174, nodos 2000:2588, elementos 2000:2449
+
 	Altura total: 600 mm (sin contar la longitud de los tornillos)
 		A: 0 mm
 		B: 200 mm

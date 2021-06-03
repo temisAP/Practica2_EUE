@@ -1,0 +1,93 @@
+$# Creating journal file 
+$# D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db.jou 
+$# at 03-Jun-21 12:25:22
+uil_file_rebuild.start("D:\Archivos de programa\MSC.Software\NaPa_SE\2020\" // @
+"Patran/template.db","D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Sat" // @
+"elite\0\dresia.db")
+$# Synchronizing the User Data Manager
+set_current_dir( "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\0" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+$# UNDO: MSC.Patran Database Import Command
+db_import_database_v3( "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\S" // @
+"atelite\0\Bandeja_B.db", ["Point", "Curve", "Surface", "Solid",  @
+"Coordinate Frame", "Plane", "Vector", "Node", "Element", "MPC", "User Data",  @
+"Connector", "Job", "Material", "Element Property", "Load/BC, Load Case",  @
+"Field", "DOF List", "Super Element", "Group", ""], ["All", "All", "All",  @
+"All", "All", "All", "All", "All", "All", "All", "All", "All", "All", "All",  @
+"All", "All", "All", "All", "All", "All"], [-2000000000, -2000000000,  @
+-2000000000, -2000000000, -2000000000, -2000000000, -2000000000, -2000000000,  @
+-2000000000, -2000000000, -2000000000, -2000000000, -2000000000, 0, 0, 0, 0,  @
+0, 0, 0], ["", "", "", "", "", "", "", "", "", "", "", "", "", "SM_001_",  @
+"SM_001_", "SM_001_", "SM_001_", "SM_001_", "SM_001_", "SM_001_"], [ @
+"DATA_AND_NAME", "DATA_AND_NAME", "DATA_AND_NAME", "DATA_AND_NAME",  @
+"DATA_AND_NAME", "DATA_AND_NAME", "DATA_AND_NAME"], 3, TRUE, TRUE, "cube",  @
+0.00039999999, TRUE, ["useprim", "useprim", "useprim"] )
+$# Loading 68 "Point" entities.
+$# Loading 139 "Curve" entities.
+$# Loading 84 "Surface" entities.
+$# Loading 674 "Node" entities.
+$# Loading 1079 "Element" entities.
+$# Loading 1 "User Data" entities.
+$# Loading 2 "Job" entities.
+$# Loading 5 "Material" entities.
+$# Loading 5 "Element Property" entities.
+$# Loading 5 "Load/BC, Load Case" entities.
+$# Loading 1 "Group" entities.
+$# Loading all referenced entities.
+$# Saving 2112 entities.
+$# Equivalencing duplicate geometry.
+$# Posting all entities.
+sys_poll_option( 2 )
+ga_group_create( "Bandeja_B" )
+ga_group_entity_add( "Bandeja_B", "Point 1:8 14:22 28:36 42:50 56:76 171:1" // @
+"91:10 301 331 651 681:711:10 1111 1112 Curve 1:7 43:174 Surface 3:86 Node" // @
+" 1:14 16:28 30:42 44:56 58:79 82:87 94 97:99 101:103 108 111:113 115:117 " // @
+"122 125:127 129:131 136 139:141 143:145 150 153:155 157:159 162:170 172:1" // @
+"83 186:197 200:211 214:225 228:239 244:250:2 258:264:2 272:278:2 286:292:" // @
+"2 300:306:2 312 314:316 322 324:329 333 334 336:338 340:343 347 348 350:3" // @
+"52 354:357 361 362 364:366 368:371 375 376 378:380 382:385 389 390 392:39" // @
+"4 396:399 404 407:409 411:413 418 421:423 425:427 432 435:437 439:441 446" // @
+" 449:451 453:455 460 463:465 467:469 472:477 482:490 492:503 506:517 520:" // @
+"531 534:545 548:559 564:570:2 578:584:2 592:598:2 606:612:2 620:626:2 632" // @
+" 634:636 642 644:649 653 654 656:658 660:663 667 668 670:672 674:677 681 " // @
+"682 684:686 688:691 695 696 698:700 702:705 709 710 712:714 716:719 724 7" // @
+"27:729 731:733 738 741:743 745:747 752 755:757 759:761 766 769:771 773:77" // @
+"5 780 783:785 787:789 792 794 795 797:799 803 804 806:808 810:813 817 818" // @
+" 820:822 824:827 831 832 834:836 838:841 845 846 848:850 852:855 859 860 " // @
+"862:864 866:869 872 874:879 883 884 886 887 889 890 892:894 896 897 899 9" // @
+"00 906:908 910 911 913 914 920:922 924 925 927 928 934:936 938 939 941 94" // @
+"2 950 953:955 957:959 962 964:969 973 974 976:978 980:983 987 988 990:992" // @
+" 994:997 1001 1002 1004:1006 1008:1011 1015 1016 1018:1020 1022:1025 1029" // @
+" 1030 1032:1034 1036:1039 1044 1047:1049 1051:1053 1058 1061:1063 1065:10" // @
+"67 1072 1075:1077 1079:1081 1086 1089:1091 1093:1095 1100 1103:1105 1107:" // @
+"1109 1112:1117 Elm 1:630 2000:2448" )
+ga_viewport_group_unpost_all( "" )
+ga_group_current_set( "Bandeja_B" )
+$# Group "Bandeja_B" created.
+sys_poll_option( 0 )
+sys_poll_option( 2 )
+$# Question from application Group Applications
+$#     Group name "Bandeja_B" already exists and may not be empty. Any 
+$# existing members will be overwritten. Do you wish to continue?
+$? NO 11001017 
+$# Warning reported in application Group Applications by application CORE
+$#     Last command aborted
+sys_poll_option( 0 )
+$# Question from application Group Applications
+$#     Unposting the current group will render newly created entities 
+$# invisible in the current viewport. Continue?
+$? YES 11001022 
+sys_poll_option( 2 )
+$# Question from application Group Applications
+$#     Group name "Bandeja_B" already exists and may not be empty. Any 
+$# existing members will be overwritten. Do you wish to continue?
+$? NO 11001017 
+$# Warning reported in application Group Applications by application CORE
+$#     Last command aborted
+sys_poll_option( 0 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["SM_001"] )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, [ @
+"default_group"] )
