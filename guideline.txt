@@ -67,6 +67,9 @@ Análisis de la estructura del microsatélite:
 		D: 600 mm -> Renumeración 30000
 
 		Vigas: 	-> Numeración a partir de 40000
+		Equipos -> Numeración a partir de 60000
+
+		Paneles -> Numeración a partir de 70000
 
 	Diseño optimo
 		
