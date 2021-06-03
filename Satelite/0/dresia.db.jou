@@ -5683,3 +5683,42 @@ ga_view_aa_set( -60.251530, 7.288301, -75.046860 )
 uil_primary_file.db_save(  )
 $# Reclaimed 1.07 MB of 4.20 MB.
 uil_primary_file.db_save(  )
+$# Appending to existing journal file 
+$# C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db.jou at 03-Jun-21 18:54:21
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\MUSE\EUE\Practica2_EUE\Satelite\0" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ga_view_aa_set( -105.548347, -4.603235, -144.322372 )
+ga_view_aa_set( -89.467720, 14.573696, 109.295616 )
+ga_view_aa_set( -85.057610, 9.785626, 5.756449 )
+ga_view_aa_set( -113.236298, 23.990732, -72.427437 )
+ga_view_aa_set( -91.295906, 36.724285, -161.162598 )
+ga_view_aa_set( -98.514694, 37.309654, -142.995316 )
+ga_view_aa_set( -79.039978, 38.669239, -140.613693 )
+ga_view_aa_set( -69.078880, 30.838539, -173.506546 )
+ga_view_aa_set( -106.351151, 10.048367, -133.991364 )
+ga_view_aa_set( -89.379845, 13.765038, -161.281494 )
+ga_view_aa_set( -65.624275, -3.809980, 174.815308 )
+ga_view_aa_set( -87.350929, -10.842316, -142.891739 )
+ga_view_aa_set( -82.738007, 8.694246, -49.545666 )
+ga_view_aa_set( -125.696861, 11.200910, -55.905762 )
+ga_view_aa_set( -154.162170, 6.169811, -58.107841 )
+ga_view_aa_set( -67.938766, -23.180405, 68.590004 )
+ga_view_aa_set( -78.661873, 18.045210, 145.067047 )
+ga_view_aa_set( -83.508858, 13.881980, 115.229248 )
+ga_view_aa_set( -96.978256, 36.031204, 55.215984 )
+ga_view_aa_set( -89.718254, 1.119615, -45.318066 )
+ga_view_aa_set( -93.300026, 11.504417, -136.404678 )
+ga_view_aa_set( -89.505600, 11.322539, -130.289581 )
+elementprops_create( "composite_panel", 51, 25, 35, 1, 1, 20, [13, 20, 36,  @
+4037, 4111, 4118, 4119, 8111, 4401, 4402, 4403, 4404, 4405, 4406, 4407, 4408,  @
+4409], [5, 2, 1, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 1, 1, 4, 4], [ @
+"m:ply_symmetric91", "<1 0 0>", "0.91E-03", "", "", "", "", "", "", "", "", "" @
+, "", "", "", "", ""], "Surface 70000:70003" )
+$# Property Set "composite_panel" created.
+ga_view_aa_set( -54.301689, -2.609677, 39.093273 )
+ga_view_aa_set( -45.521252, 5.146091, 46.954037 )
+uil_primary_file.db_save(  )
