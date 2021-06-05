@@ -14893,3 +14893,2791 @@ ga_view_aa_set( -59.977348, -8.890156, -58.985283 )
 ga_view_aa_set( -72.926224, 14.394310, -137.450607 )
 uil_primary_file.db_save(  )
 ga_view_aa_set( -64.790001, 10.707106, -127.291267 )
+$# Appending to existing journal file 
+$# C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db.jou at 05-Jun-21 09:14:41
+$# Warning reported from application Results
+$#     Direct Results Access file time stamp changed!
+$#  Attempting to re-attach file with default settings: 
+$# "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb"
+$#  If postprocessing plots continue to fail, detach and re-attach file under 
+$# the Analysis form.
+$# Warning reported from application Results
+$#     Direct Results Access file time stamp changed!
+$#  Attempting to re-attach file with default settings: 
+$# "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb"
+$#  If postprocessing plots continue to fail, detach and re-attach file under 
+$# the Analysis form.
+$# Attaching Direct Results Access file: 
+$# "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/4/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/2550 (DESKTOP-3 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:DEFAULT
+$# Processing result sub-case: Mode 1 : Freq. = 31.419
+$# Processing result sub-case: Mode 2 : Freq. = 48.912
+$# Processing result sub-case: Mode 3 : Freq. = 62.47
+$# Processing result sub-case: Mode 4 : Freq. = 93.174
+$# Processing result sub-case: Mode 5 : Freq. = 95.415
+$# Processing result sub-case: Mode 6 : Freq. = 101.77
+$# Processing result sub-case: Mode 7 : Freq. = 103.94
+$# Processing result sub-case: Mode 8 : Freq. = 103.98
+$# Processing result sub-case: Mode 9 : Freq. = 104.
+$# Processing result sub-case: Mode 10 : Freq. = 104.02
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.016
+$# *** End:   Attach Result File ***
+$# Synchronizing the User Data Manager
+set_current_dir( "C:\MUSE\EUE\Practica2_EUE\Satelite\0" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ga_view_aa_set( -70.492531, 25.019688, -174.989532 )
+ga_view_aa_set( -93.846771, 22.594320, -91.964828 )
+ga_view_aa_set( -48.334492, 12.657394, -129.178436 )
+ga_view_aa_set( -35.378445, 1.610237, -161.435059 )
+ga_view_aa_set( -19.584864, 6.747731, -158.383759 )
+ga_view_aa_set( -68.811913, 22.917931, -152.677704 )
+ga_view_aa_set( -85.395149, 6.332377, 120.125412 )
+ga_view_aa_set( -43.202835, 1.835085, -100.446068 )
+ga_view_aa_set( -77.930840, 25.155823, -179.182297 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 3, ["Bandeja_A",  @
+"Bandeja_D", "Panel1"] )
+ga_group_current_set("Panel1")
+ga_view_aa_set( -77.329178, 2.637497, -17.719131 )
+ga_view_aa_set( -86.150055, 4.355681, -4.817335 )
+ui_exec_function( "mesh_seed_display_mgr", "init" )
+mesh_seed_display_mgr.erase(  )
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_mesh_from_surface( "Surface 70000",  @
+fem_delete_mesh__deleted_labels, fem_delete_mes_not_found_labels )
+$# Mesh deleted from 1 surface: Surface 70000
+ga_view_aa_set( -70.032570, 3.451748, -6.660511 )
+mesh_seed_display_mgr.erase(  )
+ga_view_center_set( -0.005360, 0.020325 )
+ga_view_zoom_set( 0.352000 )
+ga_view_center_set( -0.010125, 0.038391 )
+ga_view_zoom_set( 0.312889 )
+ga_view_center_set( -0.014361, 0.054451 )
+ga_view_zoom_set( 0.278123 )
+ga_view_center_set( -0.021137, 0.080145 )
+ga_view_zoom_set( 0.222499 )
+ga_view_center_set( -0.026558, 0.100701 )
+ga_view_zoom_set( 0.177999 )
+ga_view_center_set( -0.028968, 0.109837 )
+ga_view_zoom_set( 0.158221 )
+ga_view_center_set( -0.031110, 0.117958 )
+ga_view_zoom_set( 0.140641 )
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_seeds_from_edge( "Curve 70003", fem_delete_mesh__deleted_labels,  @
+fem_delete_mes_not_found_labels )
+$# Mesh seeds deleted from 1 edge: Curve 70003
+ga_view_center_set( -0.018259, 0.130273 )
+ga_view_zoom_set( 0.175802 )
+ga_view_center_set( -0.010228, 0.137970 )
+ga_view_zoom_set( 0.197777 )
+ga_view_center_set( -0.001192, 0.146629 )
+ga_view_zoom_set( 0.222499 )
+ga_view_center_set( 0.008973, 0.156370 )
+ga_view_zoom_set( 0.250311 )
+ga_view_center_set( 0.020408, 0.167329 )
+ga_view_zoom_set( 0.281600 )
+ga_view_center_set( 0.033273, 0.179658 )
+ga_view_zoom_set( 0.316800 )
+ga_view_center_set( 0.047746, 0.193528 )
+ga_view_zoom_set( 0.356400 )
+ga_view_center_set( 0.034680, 0.177246 )
+ga_view_zoom_set( 0.316800 )
+ga_view_center_set( 0.023066, 0.162773 )
+ga_view_zoom_set( 0.281600 )
+ga_view_center_set( 0.012742, 0.149908 )
+ga_view_zoom_set( 0.250311 )
+ga_view_center_set( 0.003566, 0.138472 )
+ga_view_zoom_set( 0.222499 )
+ga_view_aa_set( -159.834930, 0.718966, -3.865284 )
+ga_view_aa_set( -126.925278, 1.723693, -3.850726 )
+ga_view_center_set( 0.011048, 0.141578 )
+ga_view_zoom_set( 0.250311 )
+ga_view_center_set( 0.019466, 0.145072 )
+ga_view_zoom_set( 0.281600 )
+ga_view_center_set( 0.028936, 0.149003 )
+ga_view_zoom_set( 0.316800 )
+ga_view_center_set( 0.039590, 0.153426 )
+ga_view_zoom_set( 0.356400 )
+ga_view_center_set( 0.051576, 0.158401 )
+ga_view_zoom_set( 0.400950 )
+ga_view_center_set( 0.065059, 0.163998 )
+ga_view_zoom_set( 0.451069 )
+ga_view_aa_set( -101.952499, -1.109495, 5.728147 )
+fem_delete_seeds_from_edge( "Curve 70000", fem_delete_mesh__deleted_labels,  @
+fem_delete_mes_not_found_labels )
+$# Mesh seeds deleted from 1 edge: Curve 70000
+ga_view_aa_set( -69.388718, 6.721364, -10.901573 )
+ga_view_aa_set( -91.797821, 12.763777, 22.949173 )
+ga_view_aa_set( -68.120628, 18.598066, -3.889377 )
+ga_view_center_set( 0.021579, -0.001494 )
+ga_view_zoom_set( 0.519301 )
+ga_view_center_set( 0.047280, -0.003142 )
+ga_view_zoom_set( 0.584214 )
+ga_view_center_set( 0.076195, -0.004995 )
+ga_view_zoom_set( 0.657241 )
+ga_view_center_set( 0.141251, -0.009165 )
+ga_view_zoom_set( 0.821551 )
+ga_view_center_set( 0.181912, -0.011772 )
+ga_view_zoom_set( 0.924245 )
+ga_view_center_set( 0.227655, -0.014704 )
+ga_view_zoom_set( 1.039776 )
+ga_view_center_set( 0.183671, -0.011772 )
+ga_view_zoom_set( 0.924245 )
+ga_view_center_set( 0.144574, -0.009165 )
+ga_view_zoom_set( 0.821551 )
+ga_view_center_set( 0.109822, -0.006849 )
+ga_view_zoom_set( 0.730268 )
+ga_view_center_set( 0.002891, 0.000280 )
+ga_view_zoom_set( 0.449396 )
+ga_view_center_set( -0.031327, 0.002561 )
+ga_view_zoom_set( 0.359516 )
+ga_view_center_set( -0.036599, 0.004792 )
+ga_view_zoom_set( 0.319570 )
+ga_view_center_set( -0.035878, 0.006775 )
+ga_view_zoom_set( 0.284062 )
+ga_view_center_set( -0.028348, 0.009338 )
+ga_view_zoom_set( 0.252500 )
+ga_view_aa_set( -26.468708, 5.557788, -18.807835 )
+ga_view_aa_set( -29.473362, 8.726232, -18.230055 )
+ga_view_center_set( -0.060819, 0.011901 )
+ga_view_zoom_set( 0.224444 )
+ga_view_center_set( -0.089681, 0.014180 )
+ga_view_zoom_set( 0.199506 )
+ga_view_aa_set( -47.241005, -18.346886, -2.258158 )
+ga_view_aa_set( -10.773778, -12.219050, 8.515874 )
+ga_view_aa_set( -82.262314, -16.801771, -18.934746 )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_center_set( -0.095124, 0.006585 )
+ga_view_zoom_set( 0.224444 )
+ga_view_center_set( -0.102530, -0.001675 )
+ga_view_zoom_set( 0.252500 )
+ga_view_center_set( -0.122076, -0.019619 )
+ga_view_zoom_set( 0.315625 )
+ga_view_center_set( -0.147310, -0.041649 )
+ga_view_zoom_set( 0.394531 )
+ga_view_center_set( -0.178853, -0.069186 )
+ga_view_zoom_set( 0.493164 )
+ga_view_center_set( -0.198567, -0.086397 )
+ga_view_zoom_set( 0.554809 )
+ga_view_center_set( -0.175411, -0.069499 )
+ga_view_zoom_set( 0.493164 )
+ga_view_center_set( -0.154828, -0.054479 )
+ga_view_zoom_set( 0.438368 )
+ga_view_center_set( -0.136531, -0.041128 )
+ga_view_zoom_set( 0.389660 )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_aa_set( 158.054504, 0.937466, -179.087936 )
+ga_view_center_set( -0.142685, -0.053875 )
+ga_view_zoom_set( 0.346365 )
+ga_view_center_set( -0.093651, -0.066377 )
+ga_view_zoom_set( 0.307880 )
+ga_view_center_set( -0.050065, -0.077491 )
+ga_view_zoom_set( 0.273671 )
+ga_view_center_set( -0.011322, -0.087370 )
+ga_view_zoom_set( 0.243263 )
+ga_view_center_set( 0.023116, -0.096151 )
+ga_view_zoom_set( 0.216234 )
+ga_view_center_set( 0.010067, -0.105054 )
+ga_view_zoom_set( 0.192208 )
+ga_view_center_set( -0.002942, -0.112968 )
+ga_view_zoom_set( 0.170851 )
+ga_view_center_set( -0.014602, -0.120002 )
+ga_view_zoom_set( 0.151868 )
+ga_view_center_set( -0.024966, -0.126255 )
+ga_view_zoom_set( 0.134994 )
+ga_view_center_set( -0.034179, -0.131813 )
+ga_view_zoom_set( 0.119994 )
+ga_view_center_set( -0.042368, -0.136754 )
+ga_view_zoom_set( 0.106662 )
+ga_view_center_set( -0.049647, -0.141146 )
+ga_view_zoom_set( 0.094810 )
+ga_view_center_set( -0.056118, -0.145049 )
+ga_view_zoom_set( 0.084276 )
+ga_view_aa_set( 164.482712, -14.244294, 175.821365 )
+ga_view_center_set( -0.034782, -0.132857 )
+ga_view_zoom_set( 0.115879 )
+ga_view_center_set( -0.025002, -0.127269 )
+ga_view_zoom_set( 0.130364 )
+ga_view_center_set( -0.014001, -0.120983 )
+ga_view_zoom_set( 0.146660 )
+ga_view_center_set( -0.011023, -0.109629 )
+ga_view_zoom_set( 0.164992 )
+ga_view_center_set( -0.007673, -0.096857 )
+ga_view_zoom_set( 0.185616 )
+ga_view_center_set( -0.003904, -0.082488 )
+ga_view_zoom_set( 0.208818 )
+ga_view_center_set( 0.000336, -0.066323 )
+ga_view_zoom_set( 0.234921 )
+ga_view_center_set( 0.005106, -0.048138 )
+ga_view_zoom_set( 0.264286 )
+ga_view_aa_set( 153.028549, -17.925152, 174.233887 )
+ga_view_center_set( -0.009651, -0.039250 )
+ga_view_zoom_set( 0.297322 )
+ga_view_center_set( -0.042854, -0.019253 )
+ga_view_zoom_set( 0.371652 )
+ga_view_center_set( -0.063606, -0.006754 )
+ga_view_zoom_set( 0.418108 )
+ga_view_center_set( -0.110299, 0.021367 )
+ga_view_zoom_set( 0.522636 )
+ga_view_center_set( -0.139481, 0.038943 )
+ga_view_zoom_set( 0.587965 )
+ga_view_center_set( -0.169700, 0.053120 )
+ga_view_zoom_set( 0.661461 )
+ga_view_aa_set( 101.711159, -16.478304, -171.657852 )
+gm_visibility_widget( "Surface 70000", FALSE )
+ga_view_aa_set( 108.535225, -4.009816, -98.489006 )
+gm_visibility_widget( "Point 30000:30055 Curve 30000:30138 40000 40001 700" // @
+"03 Surface 30000:30083 Node 10000 10062 20000:20052:13 20061 20062 30000:" // @
+"30673 40004 40006:40009 40011:40014 40025 40027:40030 Elm 30000:31078", FALSE )
+ga_view_center_set( -0.002426, 0.008693 )
+ga_view_zoom_set( 0.358416 )
+ga_view_center_set( -0.005155, 0.018472 )
+ga_view_zoom_set( 0.403218 )
+ga_view_center_set( -0.008225, 0.029473 )
+ga_view_zoom_set( 0.453620 )
+ga_view_center_set( -0.011679, 0.041850 )
+ga_view_zoom_set( 0.510323 )
+ga_view_center_set( -0.015565, 0.055774 )
+ga_view_zoom_set( 0.574113 )
+ga_view_center_set( -0.019936, 0.071438 )
+ga_view_zoom_set( 0.645877 )
+ga_view_center_set( -0.015565, 0.055774 )
+ga_view_zoom_set( 0.574113 )
+ga_view_center_set( -0.011679, 0.041850 )
+ga_view_zoom_set( 0.510323 )
+ga_view_center_set( -0.008225, 0.029473 )
+ga_view_zoom_set( 0.453620 )
+ga_view_center_set( -0.005155, 0.018472 )
+ga_view_zoom_set( 0.403218 )
+ga_view_center_set( -0.002653, 0.008693 )
+ga_view_zoom_set( 0.358416 )
+ga_view_center_set( -0.003260, -0.000202 )
+ga_view_zoom_set( 0.318592 )
+ga_view_center_set( -0.004158, -0.008109 )
+ga_view_zoom_set( 0.283193 )
+ga_view_center_set( -0.004957, -0.015137 )
+ga_view_zoom_set( 0.251727 )
+ga_view_aa_set( 90.949699, -8.168412, -148.354324 )
+ga_view_center_set( -0.003998, -0.012421 )
+ga_view_zoom_set( 0.283193 )
+ga_view_center_set( -0.002920, -0.009546 )
+ga_view_zoom_set( 0.318592 )
+ga_view_center_set( -0.001707, -0.006312 )
+ga_view_zoom_set( 0.358416 )
+ga_view_center_set( -0.000343, -0.002673 )
+ga_view_zoom_set( 0.403218 )
+ga_view_center_set( 0.001192, 0.001421 )
+ga_view_zoom_set( 0.453620 )
+ga_view_center_set( 0.002919, 0.006026 )
+ga_view_zoom_set( 0.510323 )
+ga_view_center_set( 0.001192, 0.001421 )
+ga_view_zoom_set( 0.453620 )
+ga_view_center_set( -0.000343, -0.002673 )
+ga_view_zoom_set( 0.403218 )
+ga_view_center_set( -0.001707, -0.006312 )
+ga_view_zoom_set( 0.358416 )
+ga_view_center_set( -0.002920, -0.009546 )
+ga_view_zoom_set( 0.318592 )
+ga_view_center_set( -0.004178, -0.012421 )
+ga_view_zoom_set( 0.283193 )
+ga_view_center_set( -0.005296, -0.014977 )
+ga_view_zoom_set( 0.251727 )
+ga_view_center_set( -0.001782, -0.013380 )
+ga_view_zoom_set( 0.283193 )
+ga_view_center_set( 0.002171, -0.011583 )
+ga_view_zoom_set( 0.318592 )
+ga_view_aa_set( 131.623199, -8.130578, -157.501816 )
+gm_plot_erase_all( 1 )
+ga_view_aa_set( -106.906937, -26.931839, -54.438190 )
+ga_view_aa_set( -71.633987, -31.380404, 14.017030 )
+ga_view_aa_set( -101.615204, -30.401669, 2.639649 )
+gm_visibility_widget( "Surface 70000", FALSE )
+gm_visibility_widget( "Point 40000 40002 40003 40009:40012 40015 40022:400" // @
+"27 40029 40035:40043 40049:40056 40064:40083 40178:40198:10 40308 40338 4" // @
+"0658 40688:40718:10 41118 Curve 40001 40004:40010 40048:40057 40059:40100" // @
+" 40102:40177 70000 Surface 30086:30089 30091:30169 Node 10000 10062 40000" // @
+":40004 40006 40047 40048 40234:40254:10 40364 40394 40714 40744:40774:10 " // @
+"41164 43256:43438:91 44348:44621:91 45440:45713:91 46623:46805:91 49710 7" // @
+"0001:70004 70113:70118 91184 91185 91188 91189 91192 91193 91196 91197 91" // @
+"200 91201 91204 91205 91208 91209 91222 91224:91226 91228:91230 91232:912" // @
+"34 91236 91237 91240:91242 91245:91247 91250:91252 91255:91257 91260 9126" // @
+"8 91269 91271:91274 91276:91279 91281:91284 91286:91289 91291:91293 91296" // @
+":91299 91301:91304 91306:91309 91311:91314 91316:91319 91321 91324 91325 " // @
+"91327:91329 91332:91334 91337:91339 91342:91345 91347:91349 91352:91354 9" // @
+"1357:91359 91362:91364 91367:91369 91372:91375 91377 91380 91381 91383:91" // @
+"385 91388:91390 91393:91395 91398:91400 91403:91405 91408:91411 91413:914" // @
+"15 91418:91420 91423:91425 91428:91431 91436 91437 91439:91442 91444:9144" // @
+"7 91449:91452 91454:91457 91459 91472 91473 91476 91477 91480 91481 91484" // @
+" 91485 91488 91489 91492 91493 91496 91497 91500 91501 91504 91505 91508 " // @
+"91509 91512 91513 91516 91520 91521 91524 91525 91528 91529 91532 91533 9" // @
+"1536 91537 91540 91541 91544 91545 91548 91549 91552 91553 91556 91557 91" // @
+"560 91561 91564 91565 91568 91569 91572 91573 91576 91577 91580 91581 915" // @
+"84 91585 91588 91589 91592 91593 91596 91597 91600 91601 91604 91605 9160" // @
+"8 91609 91612 91613 91616 91617 91620 91621 91624 91625 91628 91629 91632" // @
+" 91633 91636 91637 91640 91641 91644 91645 91648 91649 91652 91653 91656 " // @
+"91657 91660 91661 91664 91665 91668 91669 91672 91673 91676 91677 91680 9" // @
+"1681 91684 91685 91688 91689 91692 91693 91696 91697 91700 91701 91704 91" // @
+"705 91708 91709 91712 91713 91716 91717 91720 91721 91724 91725 91728 917" // @
+"29 91732 91733 91736 91737 91740 91741 91744 91745 91748 91749 91752 9175" // @
+"3 91756 91757 91760 91761 91764 91765 91768 91769 91774:91780:2 91788:917" // @
+"94:2 91802:91808:2 91816 91820 91840:91846:2 91855 91857 91864 91867:9186" // @
+"9 91878 91881:91883 91892 91895:91897 91906 91909:91911 91946 91947 91949" // @
+" 91950 91960 91961 91963 91964 91974 91975 91977 91978 91988 91989 91991 " // @
+"91992 92000 92003:92005 92014 92028:92034:2 92042:92048:2 92056:92062:2 9" // @
+"2070:92076:2 92084 92086 92104:92110:2 92118:92124:2 92132:92138:2 92146:" // @
+"92152:2 92160:92166:2 92174 92177:92179 92188 92191:92193 92202 92205:922" // @
+"07 92216 92219:92221 92230 92233:92235 92245 92247 92254 92257 92266 9226" // @
+"7 92269 92270 92280 92281 92283 92284 92294 92295 92297 92298 92308 92309" // @
+" 92311 92312 92320 92323:92325 92334:92340:2 92348:92354:2 92362:92368:2 " // @
+"92376:92382:2 92390:92396:2 92404 92406 92414 92416 92424:92430:2 92438:9" // @
+"2444:2 92452:92458:2 92466:92472:2 92480:92486:2 92494 92497:92499 92508 " // @
+"92511:92513 92522 92525:92527 92536 92539:92541 92550 92553:92555 92564 9" // @
+"2567 92574:92580:2 92588:92594:2 92602:92608:2 92616:92622:2 92630:92636:" // @
+"2 92644 92646 92654 92657 92666 92667 92669 92670 92680 92681 92683 92684" // @
+" 92694 92695 92697 92698 92708 92709 92711 92712 92720 92723:92725 92734 " // @
+"92736 92744:92750:2 92758:92764:2 92772:92778:2 92786:92792:2 92800:92806" // @
+":2 92814 92817:92819 92828 92831:92833 92842 92845:92847 92856 92859:9286" // @
+"1 92870 92873:92875 92885 92887 Elm 40230:40250:10 40360 40390 40710 4074" // @
+"0:40770:10 41060 90689:90709 90719:90748 90753:90883 90885:90904 90912:90" // @
+"947 90949:91168 91175:91219 91222 91224 91225 91232:91276 91278 91279 912" // @
+"81:91321 91323:91767 Mpc 1", FALSE )
+gm_visibility_widget( "Point 40001 40013 40021 40028 Curve 40000 40046 400" // @
+"47 40058 40101 Surface 30090 Node 40016:40020 70005 91212:91214 91216:912" // @
+"18 91220 91221 91261 91262 91265 91433 91460 91461 91464 91465 91468 9146" // @
+"9 91517 91818 91822 91830 91832 91920 91923:91925 91935 91936 92016:92020" // @
+":2 92094 92096 Elm 90710:90718 90749:90752 90884 90905:90911 90948 91169:" // @
+"91174 91220 91221 91223 91226:91231 91277 91280 91322", FALSE )
+ga_view_aa_set( -30.491274, -14.896700, 25.942835 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( -13.081734, 1.962886, 2.272635 )
+ga_view_center_set( 0.018012, -0.032370 )
+ga_view_zoom_set( 0.411414 )
+ga_view_center_set( 0.034023, -0.061143 )
+ga_view_zoom_set( 0.365701 )
+ga_view_center_set( 0.048255, -0.086720 )
+ga_view_zoom_set( 0.325068 )
+ga_view_center_set( 0.060906, -0.109454 )
+ga_view_zoom_set( 0.288949 )
+ga_view_center_set( 0.072151, -0.129663 )
+ga_view_zoom_set( 0.256844 )
+ga_view_center_set( 0.082146, -0.146756 )
+ga_view_zoom_set( 0.228306 )
+ga_view_center_set( 0.091031, -0.161951 )
+ga_view_zoom_set( 0.202938 )
+ga_view_center_set( 0.098929, -0.175457 )
+ga_view_zoom_set( 0.180390 )
+ga_view_center_set( 0.105949, -0.187463 )
+ga_view_zoom_set( 0.160346 )
+ga_view_center_set( 0.112189, -0.198134 )
+ga_view_zoom_set( 0.142530 )
+ga_view_aa_set( -10.183580, 7.839351, 3.486234 )
+ga_view_aa_set( -14.977155, -1.530083, -0.013233 )
+gm_plot_erase_all( 1 )
+ga_view_center_set( 0.023975, -0.005431 )
+ga_view_zoom_set( 0.402066 )
+ga_view_center_set( 0.044838, -0.005658 )
+ga_view_zoom_set( 0.357392 )
+ga_view_center_set( 0.063383, -0.005053 )
+ga_view_zoom_set( 0.317682 )
+ga_view_center_set( 0.079868, -0.004516 )
+ga_view_zoom_set( 0.282384 )
+ga_view_center_set( 0.094520, -0.003879 )
+ga_view_zoom_set( 0.251008 )
+ga_view_center_set( 0.107545, -0.003313 )
+ga_view_zoom_set( 0.223118 )
+ga_view_center_set( 0.118997, -0.002809 )
+ga_view_zoom_set( 0.198327 )
+ga_view_aa_set( -48.721031, -4.116895, 3.156491 )
+mesh_seed_create_tabular_points( "Curve 70003",  @
+"Node 30000 30001 30004 30008 30013 30014 30017 30021 30026 30027 30030 30" // @
+"034 30039 30040 30043 30047 30052 30054 30061:30063 30066 30070 ",  @
+0.00039999999 )
+ga_view_aa_set( -127.691696, 1.404261, -1.911225 )
+ga_view_center_set( 0.090808, -0.010989 )
+ga_view_zoom_set( 0.223118 )
+ga_view_center_set( 0.059096, -0.020191 )
+ga_view_zoom_set( 0.251008 )
+ga_view_center_set( -0.047933, -0.051249 )
+ga_view_zoom_set( 0.345135 )
+ga_view_center_set( -0.146042, -0.079718 )
+ga_view_zoom_set( 0.431419 )
+ga_view_center_set( -0.207361, -0.097511 )
+ga_view_zoom_set( 0.485347 )
+ga_view_center_set( -0.276344, -0.117529 )
+ga_view_zoom_set( 0.546015 )
+ga_view_aa_set( -89.719398, 2.138568, -1.886856 )
+ga_view_aa_set( -87.825371, 2.063296, 1.111064 )
+gm_visibility_widget( "Point 30000:30055 41118 Curve 30000:30138 40000 400" // @
+"01 70003 Surface 30000:30083 70000 Node 10000:10052:13 10061 10062 20000:" // @
+"20052:13 20061 20062 30000:30673 40002:40004 40006:40009 40011:40014 4001" // @
+"9 40020 40022:40025 40027:40030 41164 Elm 30000:31078 41060 Mpc 1", FALSE )
+ga_view_center_set( -0.005680, -0.006543 )
+ga_view_zoom_set( 0.127473 )
+ga_view_center_set( -0.012070, -0.013903 )
+ga_view_zoom_set( 0.143407 )
+ga_view_center_set( -0.019258, -0.022184 )
+ga_view_zoom_set( 0.161333 )
+ga_view_center_set( -0.027345, -0.031499 )
+ga_view_zoom_set( 0.181500 )
+ga_view_center_set( -0.036328, -0.041864 )
+ga_view_zoom_set( 0.204188 )
+ga_view_center_set( -0.046434, -0.053524 )
+ga_view_zoom_set( 0.229711 )
+ga_view_aa_set( -47.804440, 2.977517, -1.160173 )
+ga_view_center_set( -0.056928, -0.054982 )
+ga_view_zoom_set( 0.258425 )
+ga_view_center_set( -0.068735, -0.056458 )
+ga_view_zoom_set( 0.290728 )
+ga_view_center_set( -0.082017, -0.058118 )
+ga_view_zoom_set( 0.327069 )
+ga_view_center_set( -0.096959, -0.059986 )
+ga_view_zoom_set( 0.367953 )
+ga_view_center_set( -0.113769, -0.062087 )
+ga_view_zoom_set( 0.413947 )
+ga_view_aa_set( 5.192492, -0.402197, -2.789811 )
+ga_view_center_set( -0.040458, -0.072360 )
+ga_view_zoom_set( 0.367953 )
+ga_view_center_set( 0.024706, -0.081699 )
+ga_view_zoom_set( 0.327069 )
+ga_view_aa_set( 11.172542, -3.429543, -2.697624 )
+ga_view_aa_set( 49.687344, 37.919250, -45.787449 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( -21.076412, -2.601752, 0.977565 )
+ga_view_center_set( 0.065659, -0.089631 )
+ga_view_zoom_set( 0.290728 )
+ga_view_center_set( 0.065167, -0.100290 )
+ga_view_zoom_set( 0.258425 )
+ga_view_center_set( 0.077793, -0.126853 )
+ga_view_zoom_set( 0.290728 )
+ga_view_center_set( 0.091998, -0.156738 )
+ga_view_zoom_set( 0.327069 )
+ga_view_center_set( 0.107978, -0.190358 )
+ga_view_zoom_set( 0.367953 )
+ga_view_center_set( 0.125955, -0.228181 )
+ga_view_zoom_set( 0.413947 )
+ga_view_center_set( 0.146180, -0.270731 )
+ga_view_zoom_set( 0.465690 )
+ga_view_center_set( 0.168932, -0.318600 )
+ga_view_zoom_set( 0.523901 )
+ga_view_center_set( 0.194529, -0.372453 )
+ga_view_zoom_set( 0.589389 )
+ga_view_center_set( 0.223325, -0.433037 )
+ga_view_zoom_set( 0.663063 )
+ga_view_center_set( 0.190041, -0.447249 )
+ga_view_zoom_set( 0.589389 )
+ga_view_center_set( 0.160455, -0.459881 )
+ga_view_zoom_set( 0.523901 )
+ga_view_center_set( 0.134157, -0.471109 )
+ga_view_zoom_set( 0.465690 )
+ga_view_center_set( 0.110780, -0.481090 )
+ga_view_zoom_set( 0.413947 )
+ga_view_center_set( 0.090001, -0.489962 )
+ga_view_zoom_set( 0.367953 )
+ga_view_center_set( 0.071531, -0.497848 )
+ga_view_zoom_set( 0.327069 )
+ga_view_center_set( 0.060832, -0.464090 )
+ga_view_zoom_set( 0.290728 )
+ga_view_center_set( 0.051321, -0.434082 )
+ga_view_zoom_set( 0.258425 )
+ga_view_center_set( 0.042867, -0.407409 )
+ga_view_zoom_set( 0.229711 )
+ga_view_center_set( 0.035353, -0.383699 )
+ga_view_zoom_set( 0.204188 )
+ga_view_center_set( 0.028673, -0.362624 )
+ga_view_zoom_set( 0.181500 )
+ga_view_center_set( 0.022736, -0.343891 )
+ga_view_zoom_set( 0.161333 )
+ga_view_center_set( 0.017458, -0.327239 )
+ga_view_zoom_set( 0.143407 )
+ga_view_center_set( 0.022736, -0.343891 )
+ga_view_zoom_set( 0.161333 )
+ga_view_center_set( 0.029083, -0.361703 )
+ga_view_zoom_set( 0.181500 )
+ga_view_center_set( 0.022736, -0.343891 )
+ga_view_zoom_set( 0.161333 )
+ga_view_center_set( 0.029083, -0.361703 )
+ga_view_zoom_set( 0.181500 )
+gm_plot_erase_all( 1 )
+ga_view_aa_set( -138.919113, -10.019450, -8.626688 )
+ga_view_center_set( 0.051599, 0.001376 )
+ga_view_zoom_set( 0.433572 )
+ga_view_center_set( 0.097083, 0.007001 )
+ga_view_zoom_set( 0.385397 )
+ga_view_center_set( 0.137514, 0.012001 )
+ga_view_zoom_set( 0.342575 )
+ga_view_center_set( 0.173453, 0.016445 )
+ga_view_zoom_set( 0.304511 )
+ga_view_center_set( 0.205398, 0.020395 )
+ga_view_zoom_set( 0.270677 )
+ga_view_center_set( 0.233794, 0.023906 )
+ga_view_zoom_set( 0.240601 )
+ga_view_aa_set( -138.360306, -25.212271, 3.365662 )
+mesh_seed_create_tabular_points( "Curve 70000",  @
+"Node 40000 91240 91241 40016 70005 91262 91265 70001 70002 91242 91245:91" // @
+"247 70003 70004 91250:91252 91255:91257 91260 91261", 0.00039999999 )
+ga_view_aa_set( -85.448647, -16.654608, 4.148390 )
+ga_view_center_set( 0.198375, 0.015663 )
+ga_view_zoom_set( 0.270677 )
+ga_view_center_set( 0.165228, 0.008106 )
+ga_view_zoom_set( 0.304511 )
+ga_view_center_set( 0.127937, -0.000396 )
+ga_view_zoom_set( 0.342575 )
+ga_view_center_set( 0.085984, -0.009960 )
+ga_view_zoom_set( 0.385397 )
+ga_view_center_set( 0.038788, -0.020720 )
+ga_view_zoom_set( 0.433572 )
+ga_view_aa_set( -87.712715, -17.078268, 3.122138 )
+INTEGER fem_create_mesh_surfa_num_nodes
+INTEGER fem_create_mesh_surfa_num_elems
+STRING fem_create_mesh_s_nodes_created[VIRTUAL]
+STRING fem_create_mesh_s_elems_created[VIRTUAL]
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 70000", 1, ["0.02"],  @
+"Quad4", "#", "#", "Coord 0", "Coord 0", fem_create_mesh_surfa_num_nodes,  @
+fem_create_mesh_surfa_num_elems, fem_create_mesh_s_nodes_created,  @
+fem_create_mesh_s_elems_created )
+$# 368 nodes and 330 elements created for Surface 70000.
+$# === 368 nodes created.  IDs  = 110351:110718.
+$# === 330 elements created.  IDs  = 110300:110629.
+ga_view_aa_set( -96.515366, -26.734995, 42.915047 )
+ga_view_aa_set( -70.038841, -8.903557, 14.368572 )
+ga_view_center_set( 0.040255, -0.012650 )
+ga_view_zoom_set( 0.385397 )
+ga_view_center_set( 0.041342, -0.005042 )
+ga_view_zoom_set( 0.342575 )
+ga_view_center_set( 0.042308, 0.001914 )
+ga_view_zoom_set( 0.304511 )
+ga_view_center_set( 0.043545, 0.013971 )
+ga_view_zoom_set( 0.243609 )
+ga_view_center_set( 0.043957, 0.019604 )
+ga_view_zoom_set( 0.216541 )
+ga_view_center_set( 0.040904, 0.032184 )
+ga_view_zoom_set( 0.192481 )
+ga_view_center_set( 0.038189, 0.043366 )
+ga_view_zoom_set( 0.171094 )
+ga_view_aa_set( -45.545719, 3.579010, 20.544018 )
+ga_view_center_set( 0.043401, 0.041086 )
+ga_view_zoom_set( 0.192481 )
+ga_view_center_set( 0.049263, 0.038521 )
+ga_view_zoom_set( 0.216541 )
+ga_view_center_set( 0.055858, 0.035636 )
+ga_view_zoom_set( 0.243609 )
+ga_view_center_set( 0.063278, 0.032390 )
+ga_view_zoom_set( 0.274060 )
+ga_view_center_set( 0.071625, 0.028738 )
+ga_view_zoom_set( 0.308318 )
+ga_view_center_set( 0.081015, 0.024630 )
+ga_view_zoom_set( 0.346857 )
+ga_view_center_set( 0.091579, 0.020008 )
+ga_view_zoom_set( 0.390214 )
+ga_view_center_set( 0.103464, 0.014808 )
+ga_view_zoom_set( 0.438991 )
+ga_view_aa_set( -105.320282, 0.188374, 4.310842 )
+ga_view_aa_set( -91.326805, 0.084182, 7.308634 )
+ga_view_aa_set( -90.432014, 0.381144, 38.300327 )
+ga_view_aa_set( -90.480850, 0.317311, 46.300228 )
+ga_view_aa_set( -94.027824, 1.687074, 73.244743 )
+ga_view_aa_set( -88.751900, 5.154066, -11.885505 )
+ga_view_aa_set( -87.714371, -0.245574, 10.454422 )
+ga_view_center_set( 0.153726, 0.004657 )
+ga_view_zoom_set( 0.390214 )
+ga_view_center_set( 0.198404, -0.004367 )
+ga_view_zoom_set( 0.346857 )
+ga_view_center_set( 0.238117, -0.012388 )
+ga_view_zoom_set( 0.308318 )
+ga_view_center_set( 0.273418, -0.019518 )
+ga_view_zoom_set( 0.274060 )
+ga_view_center_set( 0.304797, -0.025855 )
+ga_view_zoom_set( 0.243609 )
+ga_view_center_set( 0.275737, -0.020754 )
+ga_view_zoom_set( 0.274060 )
+ga_view_center_set( 0.243044, -0.015016 )
+ga_view_zoom_set( 0.308318 )
+ga_view_center_set( 0.206265, -0.008560 )
+ga_view_zoom_set( 0.346857 )
+ga_view_center_set( 0.164889, -0.001297 )
+ga_view_zoom_set( 0.390214 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 4, ["Panel1",  @
+"Panel2", "Panel3", "Panel4"] )
+ga_view_aa_set( -87.815285, -0.715304, -1.536837 )
+ga_view_aa_set( -90.564621, 1.750847, 47.389664 )
+ga_view_aa_set( -74.440247, 0.944599, 42.466469 )
+ga_view_aa_set( -82.620117, -1.965651, 27.763912 )
+ga_view_aa_set( -26.548090, -0.036573, 32.571270 )
+ga_view_aa_set( -40.488899, -17.531782, 20.828211 )
+ga_view_aa_set( -14.913945, 7.116303, 109.723221 )
+ga_view_aa_set( -24.687952, 16.431938, 113.428024 )
+ga_view_aa_set( -35.652878, 10.897091, 109.044777 )
+ga_view_center_set( 0.063437, 0.005852 )
+ga_view_zoom_set( 0.368917 )
+ga_view_center_set( 0.119825, 0.011054 )
+ga_view_zoom_set( 0.327926 )
+ga_view_center_set( 0.169948, 0.015678 )
+ga_view_zoom_set( 0.291490 )
+ga_view_center_set( 0.214501, 0.019788 )
+ga_view_zoom_set( 0.259102 )
+ga_view_center_set( 0.254104, 0.023441 )
+ga_view_zoom_set( 0.230313 )
+ga_view_center_set( 0.217570, 0.021103 )
+ga_view_zoom_set( 0.259102 )
+ga_view_center_set( 0.176469, 0.018473 )
+ga_view_zoom_set( 0.291490 )
+ga_view_center_set( 0.130230, 0.015513 )
+ga_view_zoom_set( 0.327926 )
+ga_view_center_set( 0.078211, 0.012184 )
+ga_view_zoom_set( 0.368917 )
+ga_view_center_set( 0.019690, 0.008439 )
+ga_view_zoom_set( 0.415031 )
+ga_view_aa_set( -53.001255, -5.731144, 83.199081 )
+ga_view_aa_set( -65.593910, -1.486493, 89.974861 )
+ga_view_aa_set( -44.625916, 2.371758, 96.664230 )
+ga_view_aa_set( -87.765945, 4.095445, 70.019272 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 3, ["Bandeja_A",  @
+"Bandeja_D", "Panel2"] )
+ga_group_current_set("Panel2")
+ga_view_aa_set( -92.023560, 2.964974, 82.086411 )
+mesh_seed_display_mgr.erase(  )
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_mesh_from_surface( "Surface 70001",  @
+fem_delete_mesh__deleted_labels, fem_delete_mes_not_found_labels )
+$# Mesh deleted from 1 surface: Surface 70001
+ga_view_aa_set( -50.045746, 2.079304, 82.305199 )
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_seeds_from_edge( "Curve 70004", fem_delete_mesh__deleted_labels,  @
+fem_delete_mes_not_found_labels )
+$# Mesh seeds deleted from 1 edge: Curve 70004
+ga_view_aa_set( -118.390015, -0.434474, 93.547340 )
+ga_view_aa_set( -99.399361, -0.107973, 91.574142 )
+fem_delete_seeds_from_edge( "Curve 70005", fem_delete_mesh__deleted_labels,  @
+fem_delete_mes_not_found_labels )
+$# Mesh seeds deleted from 1 edge: Curve 70005
+ga_view_aa_set( -82.484726, 1.570052, 88.447113 )
+ga_view_aa_set( -94.544785, -1.405767, 101.060371 )
+ga_view_aa_set( -81.370918, -6.474928, 74.499504 )
+ga_view_aa_set( -74.966072, -2.360738, 92.072670 )
+ga_view_center_set( 0.078476, 0.000129 )
+ga_view_zoom_set( 0.344455 )
+ga_view_center_set( 0.115389, 0.000517 )
+ga_view_zoom_set( 0.306182 )
+ga_view_center_set( 0.148373, 0.001035 )
+ga_view_zoom_set( 0.272162 )
+gm_visibility_widget( "Surface 70001", FALSE )
+ga_view_aa_set( -99.099495, -3.570574, 89.158340 )
+ga_view_center_set( 0.115044, 0.002762 )
+ga_view_zoom_set( 0.306182 )
+ga_view_center_set( 0.077548, 0.004705 )
+ga_view_zoom_set( 0.344455 )
+ga_view_center_set( 0.035365, 0.006891 )
+ga_view_zoom_set( 0.387512 )
+ga_view_center_set( -0.012090, 0.009350 )
+ga_view_zoom_set( 0.435951 )
+ga_view_center_set( -0.065477, 0.012116 )
+ga_view_zoom_set( 0.490444 )
+ga_view_aa_set( -50.717098, -6.051989, 95.296440 )
+ga_view_center_set( -0.129895, 0.018029 )
+ga_view_zoom_set( 0.551750 )
+ga_view_center_set( -0.065477, 0.012116 )
+ga_view_zoom_set( 0.490444 )
+ga_view_center_set( -0.008217, 0.006860 )
+ga_view_zoom_set( 0.435951 )
+ga_view_center_set( 0.042681, 0.002188 )
+ga_view_zoom_set( 0.387512 )
+ga_view_center_set( 0.087923, -0.001746 )
+ga_view_zoom_set( 0.344455 )
+ga_view_center_set( 0.128139, -0.005243 )
+ga_view_zoom_set( 0.306182 )
+ga_view_center_set( 0.144027, 0.000801 )
+ga_view_zoom_set( 0.272162 )
+ga_view_center_set( 0.156154, 0.006634 )
+ga_view_zoom_set( 0.241922 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_center_set( 0.154465, -0.005646 )
+ga_view_zoom_set( 0.272162 )
+ga_view_center_set( 0.152565, -0.019461 )
+ga_view_zoom_set( 0.306182 )
+ga_view_center_set( 0.150428, -0.035003 )
+ga_view_zoom_set( 0.344455 )
+ga_view_center_set( 0.145620, -0.069973 )
+ga_view_zoom_set( 0.430568 )
+ga_view_center_set( 0.142615, -0.091830 )
+ga_view_zoom_set( 0.484390 )
+ga_view_center_set( 0.139541, -0.117647 )
+ga_view_zoom_set( 0.544938 )
+ga_view_center_set( 0.136083, -0.146692 )
+ga_view_zoom_set( 0.613055 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_center_set( 0.141616, -0.113152 )
+ga_view_zoom_set( 0.544938 )
+ga_view_center_set( 0.146533, -0.083339 )
+ga_view_zoom_set( 0.484390 )
+ga_view_center_set( 0.150905, -0.056838 )
+ga_view_zoom_set( 0.430568 )
+ga_view_center_set( 0.154790, -0.033282 )
+ga_view_zoom_set( 0.382728 )
+ga_view_center_set( 0.158244, -0.012343 )
+ga_view_zoom_set( 0.340202 )
+ga_view_aa_set( -62.066051, 1.850536, 2.632802 )
+ga_view_aa_set( 180., 90., 180. )
+ga_view_center_set( 0.166015, -0.038247 )
+ga_view_zoom_set( 0.382728 )
+ga_view_center_set( 0.174758, -0.067389 )
+ga_view_zoom_set( 0.430568 )
+ga_view_center_set( 0.184593, -0.100173 )
+ga_view_zoom_set( 0.484390 )
+ga_view_center_set( 0.174758, -0.067389 )
+ga_view_zoom_set( 0.430568 )
+ga_view_center_set( 0.166015, -0.038247 )
+ga_view_zoom_set( 0.382728 )
+ga_view_aa_set( 1.479462, 45.996067, -0.580700 )
+ga_view_center_set( 0.154143, -0.020330 )
+ga_view_zoom_set( 0.340202 )
+ga_view_center_set( 0.143589, -0.004404 )
+ga_view_zoom_set( 0.302402 )
+ga_view_center_set( 0.154142, -0.020330 )
+ga_view_zoom_set( 0.340202 )
+ga_view_center_set( 0.166015, -0.038247 )
+ga_view_zoom_set( 0.382728 )
+ga_view_aa_set( 180., -90., 180. )
+ga_view_aa_set( 0., 180., 0. )
+ga_view_aa_set( 89.896004, -1.810187, -94.500092 )
+ga_view_center_set( 0.192998, -0.029181 )
+ga_view_zoom_set( 0.340202 )
+ga_view_aa_set( 132.944290, -1.980392, -90.016167 )
+ga_view_center_set( 0.201633, -0.025343 )
+ga_view_zoom_set( 0.302402 )
+ga_view_center_set( 0.209308, -0.021932 )
+ga_view_zoom_set( 0.268802 )
+ga_view_center_set( 0.216130, -0.018900 )
+ga_view_zoom_set( 0.238935 )
+ga_view_center_set( 0.222194, -0.016205 )
+ga_view_zoom_set( 0.212387 )
+ga_view_center_set( 0.200513, -0.018600 )
+ga_view_zoom_set( 0.188788 )
+ga_view_center_set( 0.180707, -0.020943 )
+ga_view_zoom_set( 0.167812 )
+ga_view_center_set( 0.158938, -0.023782 )
+ga_view_zoom_set( 0.149166 )
+ga_view_center_set( 0.139251, -0.026390 )
+ga_view_zoom_set( 0.132592 )
+gm_visibility_widget( "Surface 70001", TRUE )
+ga_view_center_set( 0.032586, -0.021052 )
+ga_view_zoom_set( 0.475410 )
+ga_view_center_set( 0.059400, -0.031509 )
+ga_view_zoom_set( 0.422587 )
+ga_view_center_set( 0.082043, -0.040566 )
+ga_view_zoom_set( 0.375632 )
+ga_view_center_set( 0.098780, -0.047770 )
+ga_view_zoom_set( 0.333896 )
+ga_view_center_set( 0.106124, -0.053043 )
+ga_view_zoom_set( 0.296796 )
+ga_view_center_set( 0.105120, -0.056391 )
+ga_view_zoom_set( 0.263819 )
+ga_view_center_set( 0.097233, -0.057879 )
+ga_view_zoom_set( 0.234505 )
+ga_view_center_set( 0.084272, -0.057085 )
+ga_view_zoom_set( 0.208449 )
+ga_view_center_set( 0.067577, -0.055087 )
+ga_view_zoom_set( 0.185288 )
+ga_view_center_set( 0.047303, -0.052160 )
+ga_view_zoom_set( 0.164701 )
+mesh_seed_create_tabular_points( "Curve 70005",  @
+"Node 40000 91184 70118 91185 91188 91189 70117 91192 40048 91209 91208 70" // @
+"113:70115 91197 91200 91201 91204 91205 70116 91193 91196", 0.00039999999 )
+ga_view_center_set( 0.012920, -0.057699 )
+ga_view_zoom_set( 0.185288 )
+ga_view_center_set( -0.025760, -0.063930 )
+ga_view_zoom_set( 0.208449 )
+ga_view_center_set( 0.012803, -0.057934 )
+ga_view_zoom_set( 0.185288 )
+ga_view_center_set( 0.046976, -0.052709 )
+ga_view_zoom_set( 0.164701 )
+gm_visibility_widget( "Surface 70001", FALSE )
+ga_view_aa_set( 111.051407, 0.619347, -82.428490 )
+ga_view_center_set( 0.065474, -0.052082 )
+ga_view_zoom_set( 0.185288 )
+ga_view_center_set( 0.086166, -0.051377 )
+ga_view_zoom_set( 0.208449 )
+ga_view_center_set( 0.109444, -0.050583 )
+ga_view_zoom_set( 0.234505 )
+ga_view_center_set( 0.135633, -0.049690 )
+ga_view_zoom_set( 0.263819 )
+ga_view_center_set( 0.165095, -0.048686 )
+ga_view_zoom_set( 0.296796 )
+ga_view_center_set( 0.198239, -0.047556 )
+ga_view_zoom_set( 0.333896 )
+ga_view_center_set( 0.235527, -0.046285 )
+ga_view_zoom_set( 0.375632 )
+ga_view_center_set( 0.277476, -0.044855 )
+ga_view_zoom_set( 0.422587 )
+ga_view_center_set( 0.246729, -0.077985 )
+ga_view_zoom_set( 0.375632 )
+ga_view_center_set( 0.219187, -0.106162 )
+ga_view_zoom_set( 0.333896 )
+ga_view_center_set( 0.247789, -0.082434 )
+ga_view_zoom_set( 0.375632 )
+ga_view_center_set( 0.280204, -0.056454 )
+ga_view_zoom_set( 0.422587 )
+ga_view_center_set( 0.316670, -0.027495 )
+ga_view_zoom_set( 0.475410 )
+ga_view_center_set( 0.357696, -0.003363 )
+ga_view_zoom_set( 0.534836 )
+ga_view_center_set( 0.403849, 0.022090 )
+ga_view_zoom_set( 0.601691 )
+ga_view_center_set( 0.455772, 0.050723 )
+ga_view_zoom_set( 0.676902 )
+ga_view_center_set( 0.396977, 0.000710 )
+ga_view_zoom_set( 0.601691 )
+ga_view_center_set( 0.344715, -0.043747 )
+ga_view_zoom_set( 0.534836 )
+ga_view_center_set( 0.298260, -0.083264 )
+ga_view_zoom_set( 0.475410 )
+ga_view_center_set( 0.256967, -0.118390 )
+ga_view_zoom_set( 0.422587 )
+ga_view_center_set( 0.220262, -0.149613 )
+ga_view_zoom_set( 0.375632 )
+ga_view_center_set( 0.187423, -0.176308 )
+ga_view_zoom_set( 0.333896 )
+ga_view_center_set( 0.158233, -0.200036 )
+ga_view_zoom_set( 0.296796 )
+ga_view_center_set( 0.132286, -0.221129 )
+ga_view_zoom_set( 0.263819 )
+ga_view_center_set( 0.109223, -0.239877 )
+ga_view_zoom_set( 0.234505 )
+ga_view_center_set( 0.117258, -0.265917 )
+ga_view_zoom_set( 0.263819 )
+ga_view_center_set( 0.126297, -0.295211 )
+ga_view_zoom_set( 0.296796 )
+ga_view_center_set( 0.136467, -0.328168 )
+ga_view_zoom_set( 0.333896 )
+ga_view_center_set( 0.147907, -0.365244 )
+ga_view_zoom_set( 0.375632 )
+ga_view_center_set( 0.160778, -0.406954 )
+ga_view_zoom_set( 0.422587 )
+ga_view_center_set( 0.132415, -0.401711 )
+ga_view_zoom_set( 0.375632 )
+ga_view_center_set( 0.107203, -0.397050 )
+ga_view_zoom_set( 0.333896 )
+ga_view_center_set( 0.084793, -0.392906 )
+ga_view_zoom_set( 0.296796 )
+ga_view_center_set( 0.064872, -0.389224 )
+ga_view_zoom_set( 0.263819 )
+ga_view_center_set( 0.047165, -0.385950 )
+ga_view_zoom_set( 0.234505 )
+ga_view_center_set( 0.031426, -0.383040 )
+ga_view_zoom_set( 0.208449 )
+ga_view_center_set( 0.017435, -0.380454 )
+ga_view_zoom_set( 0.185288 )
+ga_view_center_set( 0.037082, -0.383067 )
+ga_view_zoom_set( 0.164701 )
+ga_view_center_set( 0.054546, -0.385389 )
+ga_view_zoom_set( 0.146401 )
+ga_view_center_set( 0.070070, -0.387453 )
+ga_view_zoom_set( 0.130134 )
+ga_view_center_set( 0.027279, -0.390022 )
+ga_view_zoom_set( 0.115675 )
+ga_view_center_set( -0.010757, -0.392306 )
+ga_view_zoom_set( 0.102822 )
+ga_view_center_set( 0.001835, -0.391197 )
+ga_view_zoom_set( 0.115675 )
+ga_view_center_set( 0.015927, -0.389949 )
+ga_view_zoom_set( 0.130134 )
+ga_view_center_set( -0.003083, -0.391857 )
+ga_view_zoom_set( 0.115675 )
+ga_view_aa_set( 167.675568, 0.103799, -85.337669 )
+ga_view_center_set( -0.004184, -0.390095 )
+ga_view_zoom_set( 0.130134 )
+ga_view_center_set( -0.005423, -0.388114 )
+ga_view_zoom_set( 0.146401 )
+ga_view_center_set( -0.004019, -0.390178 )
+ga_view_zoom_set( 0.130134 )
+gm_visibility_widget( "Surface 70001", TRUE )
+ga_view_aa_set( 119.515694, -4.185523, -89.606743 )
+ga_view_aa_set( 80.437950, -2.040792, -93.444061 )
+ga_view_center_set( 0.007819, -0.024238 )
+ga_view_zoom_set( 0.414997 )
+ga_view_center_set( 0.015543, -0.042729 )
+ga_view_zoom_set( 0.368886 )
+ga_view_center_set( 0.022409, -0.059166 )
+ga_view_zoom_set( 0.327899 )
+ga_view_center_set( 0.028512, -0.073776 )
+ga_view_zoom_set( 0.291465 )
+ga_view_center_set( 0.019306, -0.093996 )
+ga_view_zoom_set( 0.259080 )
+ga_view_center_set( 0.011123, -0.111970 )
+ga_view_zoom_set( 0.230294 )
+ga_view_center_set( 0.003849, -0.127946 )
+ga_view_zoom_set( 0.204705 )
+ga_view_center_set( -0.002616, -0.142147 )
+ga_view_zoom_set( 0.181960 )
+ga_view_center_set( -0.008363, -0.154770 )
+ga_view_zoom_set( 0.161743 )
+mesh_seed_create_tabular_points( "Curve 70004",  @
+"Node 30062 30076 30077 30079 30205 30207 30181 30297 30298 30300 30391 30" // @
+"393 30367 30482:30486:2 30533:30537:2 30669 30670 30672 ", 0.00039999999 )
+ga_view_aa_set( 94.115822, -2.590179, -78.470871 )
+ga_view_center_set( -0.000461, -0.157131 )
+ga_view_zoom_set( 0.181960 )
+ga_view_center_set( 0.008314, -0.159902 )
+ga_view_zoom_set( 0.204705 )
+ga_view_center_set( 0.018185, -0.163019 )
+ga_view_zoom_set( 0.230294 )
+ga_view_center_set( 0.029291, -0.166526 )
+ga_view_zoom_set( 0.259080 )
+ga_view_center_set( 0.041785, -0.170472 )
+ga_view_zoom_set( 0.291465 )
+ga_view_aa_set( 110.122299, -1.470337, -91.976646 )
+ga_view_center_set( 0.002392, -0.169547 )
+ga_view_zoom_set( 0.327899 )
+ga_view_center_set( -0.041924, -0.168507 )
+ga_view_zoom_set( 0.368886 )
+ga_view_center_set( -0.091780, -0.167336 )
+ga_view_zoom_set( 0.414997 )
+INTEGER fem_create_mesh_surfa_num_nodes
+INTEGER fem_create_mesh_surfa_num_elems
+STRING fem_create_mesh_s_nodes_created[VIRTUAL]
+STRING fem_create_mesh_s_elems_created[VIRTUAL]
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 70001", 1, ["0.02"],  @
+"Quad4", "#", "#", "Coord 0", "Coord 0", fem_create_mesh_surfa_num_nodes,  @
+fem_create_mesh_surfa_num_elems, fem_create_mesh_s_nodes_created,  @
+fem_create_mesh_s_elems_created )
+$# 352 nodes and 315 elements created for Surface 70001.
+$# === 352 nodes created.  IDs  = 110719:111070.
+$# === 315 elements created.  IDs  = 110630:110944.
+uil_viewport_post_groups.posted_groups( "default_viewport", 3, ["Bandeja_A",  @
+"Bandeja_D", "Panel3"] )
+ga_group_current_set("Panel3")
+ga_view_aa_set( 101.420174, -0.279411, 1.034830 )
+ga_view_aa_set( 92.406784, -0.336142, -1.967010 )
+mesh_seed_display_mgr.erase(  )
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_mesh_from_surface( "Surface 70002",  @
+fem_delete_mesh__deleted_labels, fem_delete_mes_not_found_labels )
+$# Mesh deleted from 1 surface: Surface 70002
+ga_view_aa_set( 134.072662, -5.961139, -5.518483 )
+ga_view_center_set( 0.070025, 0.036672 )
+ga_view_zoom_set( 0.455309 )
+ga_view_center_set( 0.115222, 0.047458 )
+ga_view_zoom_set( 0.404719 )
+ga_view_center_set( 0.152658, 0.057045 )
+ga_view_zoom_set( 0.359750 )
+ga_view_center_set( 0.185731, 0.065567 )
+ga_view_zoom_set( 0.319778 )
+ga_view_center_set( 0.215130, 0.073142 )
+ga_view_zoom_set( 0.284247 )
+ga_view_center_set( 0.262168, 0.085262 )
+ga_view_zoom_set( 0.227398 )
+ga_view_center_set( 0.283074, 0.090649 )
+ga_view_zoom_set( 0.202131 )
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_seeds_from_edge( "Curve 70007", fem_delete_mesh__deleted_labels,  @
+fem_delete_mes_not_found_labels )
+$# Mesh seeds deleted from 1 edge: Curve 70007
+ga_view_aa_set( 36.537876, 2.473356, -0.781899 )
+ga_view_aa_set( 52.242565, 8.836246, -9.808393 )
+fem_delete_seeds_from_edge( "Curve 70006", fem_delete_mesh__deleted_labels,  @
+fem_delete_mes_not_found_labels )
+$# Mesh seeds deleted from 1 edge: Curve 70006
+ga_view_aa_set( 100.816910, -9.012261, 14.024223 )
+ga_view_center_set( 0.253959, 0.097446 )
+ga_view_zoom_set( 0.227398 )
+ga_view_center_set( 0.221206, 0.105094 )
+ga_view_zoom_set( 0.255822 )
+ga_view_center_set( 0.184359, 0.113697 )
+ga_view_zoom_set( 0.287800 )
+ga_view_aa_set( 69.245430, -4.548310, -13.979897 )
+ga_view_center_set( 0.147653, 0.123558 )
+ga_view_zoom_set( 0.323775 )
+ga_view_center_set( 0.106360, 0.134652 )
+ga_view_zoom_set( 0.364247 )
+ga_view_center_set( 0.059904, 0.147133 )
+ga_view_zoom_set( 0.409778 )
+ga_view_center_set( 0.007642, 0.161173 )
+ga_view_zoom_set( 0.461000 )
+ga_view_center_set( -0.051153, 0.176969 )
+ga_view_zoom_set( 0.518625 )
+ga_view_aa_set( 105.908974, -6.778730, 15.469108 )
+ga_view_aa_set( 68.854332, 9.033063, -3.633097 )
+ga_view_aa_set( 121.598473, 4.174422, -28.958643 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( -57.838772, 1.879010, -164.428406 )
+ga_view_aa_set( -41.943634, 1.662804, 179.423157 )
+ga_view_center_set( -0.040623, 0.140697 )
+ga_view_zoom_set( 0.461000 )
+ga_view_center_set( -0.031262, 0.108456 )
+ga_view_zoom_set( 0.409778 )
+ga_view_center_set( -0.022942, 0.079797 )
+ga_view_zoom_set( 0.364247 )
+ga_view_center_set( -0.015546, 0.054322 )
+ga_view_zoom_set( 0.323775 )
+ga_view_center_set( -0.008972, 0.031678 )
+ga_view_zoom_set( 0.287800 )
+ga_view_center_set( -0.003128, 0.011550 )
+ga_view_zoom_set( 0.255822 )
+ga_view_center_set( 0.002066, -0.006342 )
+ga_view_zoom_set( 0.227398 )
+ga_view_center_set( 0.006683, -0.022245 )
+ga_view_zoom_set( 0.202131 )
+ga_view_center_set( 0.014321, -0.032620 )
+ga_view_zoom_set( 0.179672 )
+ga_view_center_set( 0.021212, -0.041841 )
+ga_view_zoom_set( 0.159709 )
+ga_view_center_set( 0.037325, -0.035356 )
+ga_view_zoom_set( 0.179672 )
+ga_view_center_set( 0.055452, -0.028059 )
+ga_view_zoom_set( 0.202131 )
+ga_view_center_set( 0.096237, -0.011643 )
+ga_view_zoom_set( 0.252664 )
+ga_view_center_set( 0.147219, 0.008878 )
+ga_view_zoom_set( 0.315830 )
+ga_view_center_set( 0.164654, 0.018097 )
+ga_view_zoom_set( 0.355309 )
+ga_view_center_set( 0.184268, 0.028467 )
+ga_view_zoom_set( 0.399722 )
+ga_view_center_set( 0.228400, 0.051801 )
+ga_view_zoom_set( 0.499653 )
+ga_view_center_set( 0.255982, 0.066385 )
+ga_view_zoom_set( 0.562110 )
+ga_view_center_set( 0.287012, 0.082792 )
+ga_view_zoom_set( 0.632373 )
+ga_view_aa_set( -50.529110, 1.739028, 174.727036 )
+gm_visibility_widget( "Surface 70002", FALSE )
+ga_view_aa_set( -83.416344, 9.368922, -179.185486 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( -89.590118, 12.822276, -148.326187 )
+ga_view_aa_set( -56.552284, 2.612021, 163.074051 )
+ga_view_aa_set( -91.948662, 16.385191, 170.469147 )
+ga_view_aa_set( -49.218925, 16.060163, 171.106705 )
+ga_view_aa_set( -113.252090, 4.899873, 178.228363 )
+ga_view_aa_set( -111.696960, 1.950841, -174.321014 )
+ga_view_aa_set( -54.066841, 10.185282, -178.675766 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( -87.019440, 0.224082, 177.537781 )
+ga_view_center_set( 0.012040, 0.007154 )
+ga_view_zoom_set( 0.411525 )
+ga_view_center_set( 0.021092, 0.010868 )
+ga_view_zoom_set( 0.365800 )
+ga_view_center_set( 0.029139, 0.014169 )
+ga_view_zoom_set( 0.325155 )
+ga_view_aa_set( -55.053917, 0.765808, 179.457382 )
+ga_view_center_set( 0.025288, 0.023889 )
+ga_view_zoom_set( 0.289027 )
+ga_view_center_set( 0.021864, 0.032039 )
+ga_view_zoom_set( 0.256913 )
+ga_view_center_set( 0.018821, 0.038415 )
+ga_view_zoom_set( 0.228367 )
+ga_view_center_set( 0.015988, 0.043567 )
+ga_view_zoom_set( 0.202993 )
+ga_view_center_set( 0.013011, 0.047231 )
+ga_view_zoom_set( 0.180438 )
+ga_view_center_set( 0.010161, 0.050182 )
+ga_view_zoom_set( 0.160390 )
+ga_view_center_set( 0.007628, 0.052534 )
+ga_view_zoom_set( 0.142568 )
+ga_view_center_set( 0.009709, 0.050363 )
+ga_view_zoom_set( 0.160390 )
+ga_view_aa_set( -48.068794, 1.366777, -179.743210 )
+gm_visibility_widget( "Surface 70002", TRUE )
+ga_view_center_set( 0.066269, -0.023176 )
+ga_view_zoom_set( 0.471773 )
+ga_view_center_set( 0.121881, -0.036746 )
+ga_view_zoom_set( 0.419354 )
+ga_view_center_set( 0.165874, -0.049518 )
+ga_view_zoom_set( 0.372759 )
+ga_view_center_set( 0.202246, -0.061502 )
+ga_view_zoom_set( 0.331341 )
+ga_view_center_set( 0.231213, -0.072528 )
+ga_view_zoom_set( 0.294526 )
+ga_view_center_set( 0.255632, -0.082329 )
+ga_view_zoom_set( 0.261801 )
+ga_view_center_set( 0.276157, -0.090893 )
+ga_view_zoom_set( 0.232712 )
+ga_view_center_set( 0.293745, -0.098243 )
+ga_view_zoom_set( 0.206855 )
+mesh_seed_create_tabular_points( "Curve 70006",  @
+"Node 30585 30639 30594 30603 30637 30638 30644:30646 30653 30652 30621 30" // @
+"630 30658:30660 30665:30669 30651 30612", 0.00039999999 )
+ga_view_aa_set( -107.977196, 0.801160, -177.548706 )
+gm_visibility_widget( "Surface 70002", FALSE )
+ga_view_aa_set( -99.116104, 1.285617, -173.402832 )
+ga_view_aa_set( -130.939758, 4.815316, -176.906479 )
+ga_view_center_set( 0.049938, -0.008176 )
+ga_view_zoom_set( 0.419714 )
+ga_view_center_set( 0.094206, -0.018355 )
+ga_view_zoom_set( 0.373079 )
+ga_view_center_set( 0.133555, -0.027403 )
+ga_view_zoom_set( 0.331626 )
+ga_view_center_set( 0.168906, -0.035072 )
+ga_view_zoom_set( 0.294779 )
+ga_view_center_set( 0.200661, -0.041390 )
+ga_view_zoom_set( 0.262026 )
+ga_view_center_set( 0.229184, -0.046119 )
+ga_view_zoom_set( 0.232912 )
+ga_view_center_set( 0.253750, -0.050323 )
+ga_view_zoom_set( 0.207033 )
+ga_view_center_set( 0.274651, -0.054410 )
+ga_view_zoom_set( 0.184029 )
+ga_view_center_set( 0.290636, -0.058458 )
+ga_view_zoom_set( 0.163581 )
+ga_view_center_set( 0.282228, -0.055033 )
+ga_view_zoom_set( 0.184029 )
+ga_view_center_set( 0.272770, -0.051413 )
+ga_view_zoom_set( 0.207033 )
+gm_visibility_widget( "Surface 70002", TRUE )
+ga_view_aa_set( -104.256348, 0.994295, -170.968216 )
+ga_view_center_set( 0.069612, -0.010297 )
+ga_view_zoom_set( 0.448237 )
+ga_view_center_set( 0.098433, -0.021168 )
+ga_view_zoom_set( 0.398433 )
+ga_view_center_set( 0.122029, -0.033527 )
+ga_view_zoom_set( 0.354162 )
+ga_view_center_set( 0.141006, -0.046511 )
+ga_view_zoom_set( 0.314811 )
+ga_view_center_set( 0.156808, -0.060006 )
+ga_view_zoom_set( 0.279832 )
+ga_view_center_set( 0.170382, -0.072632 )
+ga_view_zoom_set( 0.248740 )
+ga_view_center_set( 0.182447, -0.083855 )
+ga_view_zoom_set( 0.221102 )
+ga_view_center_set( 0.193171, -0.093832 )
+ga_view_zoom_set( 0.196535 )
+mesh_seed_create_tabular_points( "Curve 70007",  @
+"Node 40047 91292 91293 91288 91289 91291 91286 91287 91284 91279 91281:91" // @
+"283 91278 91276 91277 40048 91268 91274 91269 91271:91273", 0.00039999999 )
+INTEGER fem_create_mesh_surfa_num_nodes
+INTEGER fem_create_mesh_surfa_num_elems
+STRING fem_create_mesh_s_nodes_created[VIRTUAL]
+STRING fem_create_mesh_s_elems_created[VIRTUAL]
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 70002", 1, ["0.02"],  @
+"Quad4", "#", "#", "Coord 0", "Coord 0", fem_create_mesh_surfa_num_nodes,  @
+fem_create_mesh_surfa_num_elems, fem_create_mesh_s_nodes_created,  @
+fem_create_mesh_s_elems_created )
+$# 368 nodes and 330 elements created for Surface 70002.
+$# === 368 nodes created.  IDs  = 111071:111438.
+$# === 330 elements created.  IDs  = 110945:111274.
+ga_view_center_set( 0.112612, -0.108048 )
+ga_view_zoom_set( 0.245669 )
+ga_view_center_set( 0.062262, -0.116933 )
+ga_view_zoom_set( 0.276377 )
+ga_view_center_set( -0.051024, -0.136925 )
+ga_view_zoom_set( 0.345472 )
+ga_view_center_set( -0.121829, -0.149420 )
+ga_view_zoom_set( 0.388656 )
+ga_view_center_set( -0.281138, -0.177533 )
+ga_view_zoom_set( 0.485820 )
+ga_view_aa_set( -84.598335, 3.841088, 178.503708 )
+ga_view_aa_set( -63.029049, 11.257408, -159.932068 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 3, ["Bandeja_A",  @
+"Bandeja_D", "Panel4"] )
+ga_group_current_set("Panel4")
+ga_view_aa_set( -92.520584, -5.205809, -84.634117 )
+mesh_seed_display_mgr.erase(  )
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_mesh_from_surface( "Surface 70003",  @
+fem_delete_mesh__deleted_labels, fem_delete_mes_not_found_labels )
+$# Mesh deleted from 1 surface: Surface 70003
+ga_view_center_set( -0.036394, 0.026135 )
+ga_view_zoom_set( 0.480936 )
+ga_view_center_set( -0.063519, 0.049192 )
+ga_view_zoom_set( 0.427498 )
+ga_view_center_set( -0.087631, 0.069686 )
+ga_view_zoom_set( 0.379999 )
+ga_view_center_set( -0.109278, 0.087904 )
+ga_view_zoom_set( 0.337777 )
+ga_view_center_set( -0.128138, 0.103907 )
+ga_view_zoom_set( 0.300246 )
+ga_view_center_set( -0.139315, 0.113559 )
+ga_view_zoom_set( 0.266885 )
+ga_view_center_set( -0.140218, 0.118828 )
+ga_view_zoom_set( 0.237231 )
+ga_view_center_set( -0.136472, 0.123377 )
+ga_view_zoom_set( 0.210872 )
+ga_view_center_set( -0.172866, 0.109863 )
+ga_view_zoom_set( 0.237231 )
+ga_view_center_set( -0.213809, 0.094208 )
+ga_view_zoom_set( 0.266885 )
+ga_view_aa_set( -62.304943, -3.894504, -81.928078 )
+STRING fem_delete_mesh__deleted_labels[VIRTUAL]
+STRING fem_delete_mes_not_found_labels[VIRTUAL]
+fem_delete_seeds_from_edge( "Curve 70009", fem_delete_mesh__deleted_labels,  @
+fem_delete_mes_not_found_labels )
+$# Mesh seeds deleted from 1 edge: Curve 70009
+ga_view_aa_set( -123.866898, 9.324530, -96.154610 )
+fem_delete_seeds_from_edge( "Curve 70008", fem_delete_mesh__deleted_labels,  @
+fem_delete_mes_not_found_labels )
+$# Mesh seeds deleted from 1 edge: Curve 70008
+ga_view_aa_set( -99.199280, 6.020403, -88.723686 )
+ga_view_center_set( -0.250218, 0.103861 )
+ga_view_zoom_set( 0.300246 )
+ga_view_center_set( -0.291178, 0.114530 )
+ga_view_zoom_set( 0.337777 )
+ga_view_center_set( -0.383338, 0.138534 )
+ga_view_zoom_set( 0.422221 )
+ga_view_center_set( -0.440938, 0.153537 )
+ga_view_zoom_set( 0.474998 )
+ga_view_aa_set( -84.705528, 2.389235, -101.931549 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( -90.378769, 4.473064, -13.419302 )
+ga_view_aa_set( -82.305183, 4.252572, -14.410575 )
+ga_view_aa_set( -76.101563, 10.962356, -110.624977 )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_center_set( -0.559386, 0.159565 )
+ga_view_zoom_set( 0.534373 )
+ga_view_center_set( -0.692640, 0.166346 )
+ga_view_zoom_set( 0.601170 )
+ga_view_center_set( -0.842551, 0.173975 )
+ga_view_zoom_set( 0.676316 )
+ga_view_center_set( -0.722823, 0.176550 )
+ga_view_zoom_set( 0.760855 )
+ga_view_center_set( -0.586197, 0.179929 )
+ga_view_zoom_set( 0.855962 )
+ga_view_center_set( -0.431950, 0.184274 )
+ga_view_zoom_set( 0.962958 )
+ga_view_center_set( -0.257811, 0.189162 )
+ga_view_zoom_set( 1.083327 )
+ga_view_center_set( -0.061904, 0.194661 )
+ga_view_zoom_set( 1.218743 )
+ga_view_center_set( 0.158490, 0.200848 )
+ga_view_zoom_set( 1.371086 )
+ga_view_center_set( 0.406434, 0.207808 )
+ga_view_zoom_set( 1.542472 )
+ga_view_center_set( 0.449064, 0.194758 )
+ga_view_zoom_set( 1.371086 )
+ga_view_center_set( 0.476903, 0.183158 )
+ga_view_zoom_set( 1.218743 )
+ga_view_center_set( 0.501649, 0.172848 )
+ga_view_zoom_set( 1.083327 )
+ga_view_center_set( 0.523035, 0.163682 )
+ga_view_zoom_set( 0.962958 )
+ga_view_center_set( 0.542044, 0.155536 )
+ga_view_zoom_set( 0.855962 )
+ga_view_center_set( 0.558941, 0.148294 )
+ga_view_zoom_set( 0.760855 )
+ga_view_center_set( 0.371838, 0.122546 )
+ga_view_zoom_set( 0.676316 )
+ga_view_center_set( 0.205525, 0.099659 )
+ga_view_zoom_set( 0.601170 )
+ga_view_center_set( 0.057691, 0.079315 )
+ga_view_zoom_set( 0.534373 )
+ga_view_center_set( -0.073718, 0.061231 )
+ga_view_zoom_set( 0.474998 )
+ga_view_center_set( 0.014692, 0.052926 )
+ga_view_zoom_set( 0.422221 )
+ga_view_aa_set( -92.434357, -1.939307, -96.918991 )
+gm_visibility_widget( "Surface 70003", FALSE )
+ga_view_aa_set( -60.743973, -2.087482, -77.756561 )
+ga_view_center_set( 0.067082, 0.060070 )
+ga_view_zoom_set( 0.375307 )
+ga_view_center_set( 0.113652, 0.066420 )
+ga_view_zoom_set( 0.333607 )
+ga_view_aa_set( -49.686848, -1.110254, -76.014366 )
+ga_view_center_set( 0.155235, 0.064351 )
+ga_view_zoom_set( 0.296539 )
+ga_view_center_set( 0.192198, 0.062511 )
+ga_view_zoom_set( 0.263590 )
+ga_view_center_set( 0.225053, 0.060875 )
+ga_view_zoom_set( 0.234303 )
+ga_view_aa_set( -59.807770, -3.747213, -79.144226 )
+ga_view_aa_set( -45.226070, -8.345047, -80.491623 )
+ga_view_aa_set( -49.218010, -8.397093, -80.444626 )
+ga_view_aa_set( -49.110733, -7.743193, -79.680473 )
+ga_view_aa_set( -90.034782, -8.448264, -49.356567 )
+ga_view_aa_set( -46.260235, 0.535887, -90.828812 )
+ga_view_center_set( 0.165454, 0.054796 )
+ga_view_zoom_set( 0.208269 )
+ga_view_center_set( 0.105428, 0.047631 )
+ga_view_zoom_set( 0.185128 )
+ga_view_center_set( 0.051863, 0.041157 )
+ga_view_zoom_set( 0.164558 )
+ga_view_center_set( 0.004157, 0.035402 )
+ga_view_zoom_set( 0.146274 )
+ga_view_center_set( -0.038248, 0.030287 )
+ga_view_zoom_set( 0.130021 )
+ga_view_center_set( -0.044766, 0.036227 )
+ga_view_zoom_set( 0.146274 )
+ga_view_center_set( -0.049963, 0.043095 )
+ga_view_zoom_set( 0.164558 )
+ga_view_center_set( 0.007778, 0.040276 )
+ga_view_zoom_set( 0.185128 )
+ga_view_center_set( 0.073207, 0.037104 )
+ga_view_zoom_set( 0.208269 )
+ga_view_center_set( 0.069213, 0.034402 )
+ga_view_zoom_set( 0.185128 )
+ga_view_center_set( 0.065663, 0.032001 )
+ga_view_zoom_set( 0.164558 )
+ga_view_center_set( 0.062508, 0.029866 )
+ga_view_zoom_set( 0.146274 )
+ga_view_center_set( 0.059703, 0.027968 )
+ga_view_zoom_set( 0.130021 )
+ga_view_center_set( 0.043789, 0.027822 )
+ga_view_zoom_set( 0.115574 )
+gm_visibility_widget( "Surface 70003", TRUE )
+ga_view_center_set( 0.055465, 0.001208 )
+ga_view_zoom_set( 0.472408 )
+ga_view_center_set( 0.105024, 0.010000 )
+ga_view_zoom_set( 0.419918 )
+ga_view_center_set( 0.148840, 0.017816 )
+ga_view_zoom_set( 0.373261 )
+ga_view_center_set( 0.187366, 0.024763 )
+ga_view_zoom_set( 0.331787 )
+ga_view_center_set( 0.221237, 0.030939 )
+ga_view_zoom_set( 0.294922 )
+ga_view_center_set( 0.251178, 0.036428 )
+ga_view_zoom_set( 0.262153 )
+ga_view_center_set( 0.277793, 0.041307 )
+ga_view_zoom_set( 0.233025 )
+ga_view_center_set( 0.301319, 0.045775 )
+ga_view_zoom_set( 0.207133 )
+ga_view_center_set( 0.322231, 0.049747 )
+ga_view_zoom_set( 0.184118 )
+ga_view_center_set( 0.355409, 0.051967 )
+ga_view_zoom_set( 0.207133 )
+ga_view_center_set( 0.392735, 0.054333 )
+ga_view_zoom_set( 0.233025 )
+ga_view_center_set( 0.435614, 0.056551 )
+ga_view_zoom_set( 0.262153 )
+ga_view_center_set( 0.351335, 0.059212 )
+ga_view_zoom_set( 0.233025 )
+ga_view_center_set( 0.276289, 0.061183 )
+ga_view_zoom_set( 0.207133 )
+ga_view_center_set( 0.209581, 0.062819 )
+ga_view_zoom_set( 0.184118 )
+ga_view_center_set( 0.150285, 0.064272 )
+ga_view_zoom_set( 0.163661 )
+ga_view_center_set( 0.097577, 0.065380 )
+ga_view_zoom_set( 0.145476 )
+ga_view_center_set( 0.050726, 0.065872 )
+ga_view_zoom_set( 0.129312 )
+mesh_seed_create_tabular_points( "Curve 70009",  @
+"Node 30060 30061 30058 30059 30116:30118 30213:30215 30585 30586 30303 30" // @
+"306 30310 30399:30401 30540 30542 30545 30587", 0.00039999999 )
+gm_visibility_widget( "Surface 70003", FALSE )
+ga_view_aa_set( -94.198769, -0.155289, -87.291801 )
+ga_view_center_set( 0.042439, 0.068744 )
+ga_view_zoom_set( 0.145476 )
+ga_view_center_set( 0.033208, 0.071790 )
+ga_view_zoom_set( 0.163661 )
+ga_view_center_set( 0.022824, 0.075217 )
+ga_view_zoom_set( 0.184118 )
+ga_view_center_set( 0.011258, 0.078839 )
+ga_view_zoom_set( 0.207133 )
+ga_view_center_set( -0.001491, 0.082650 )
+ga_view_zoom_set( 0.233025 )
+ga_view_center_set( -0.015833, 0.086938 )
+ga_view_zoom_set( 0.262153 )
+ga_view_center_set( -0.031968, 0.091762 )
+ga_view_zoom_set( 0.294922 )
+ga_view_center_set( -0.049745, 0.096628 )
+ga_view_zoom_set( 0.331787 )
+ga_view_center_set( -0.058167, 0.100417 )
+ga_view_zoom_set( 0.373261 )
+ga_view_center_set( -0.067166, 0.104680 )
+ga_view_zoom_set( 0.419918 )
+ga_view_aa_set( -74.194939, 0.078354, -84.304070 )
+ga_view_center_set( -0.061482, 0.096628 )
+ga_view_zoom_set( 0.373261 )
+ga_view_center_set( -0.056430, 0.089470 )
+ga_view_zoom_set( 0.331787 )
+ga_view_center_set( -0.060640, 0.055996 )
+ga_view_zoom_set( 0.373261 )
+ga_view_center_set( -0.065377, 0.018102 )
+ga_view_zoom_set( 0.419918 )
+ga_view_center_set( -0.070706, -0.024529 )
+ga_view_zoom_set( 0.472408 )
+ga_view_center_set( -0.076701, -0.072489 )
+ga_view_zoom_set( 0.531459 )
+ga_view_center_set( -0.083445, -0.126444 )
+ga_view_zoom_set( 0.597892 )
+ga_view_center_set( -0.091033, -0.187144 )
+ga_view_zoom_set( 0.672628 )
+ga_view_center_set( -0.099569, -0.255431 )
+ga_view_zoom_set( 0.756707 )
+ga_view_center_set( -0.099996, -0.273357 )
+ga_view_zoom_set( 0.672628 )
+ga_view_center_set( -0.100375, -0.289670 )
+ga_view_zoom_set( 0.597892 )
+ga_view_center_set( -0.100712, -0.305856 )
+ga_view_zoom_set( 0.531459 )
+ga_view_center_set( -0.101012, -0.321143 )
+ga_view_zoom_set( 0.472408 )
+ga_view_center_set( -0.101278, -0.334999 )
+ga_view_zoom_set( 0.419918 )
+ga_view_center_set( -0.101515, -0.347551 )
+ga_view_zoom_set( 0.373261 )
+ga_view_center_set( -0.101726, -0.358709 )
+ga_view_zoom_set( 0.331787 )
+ga_view_center_set( -0.101913, -0.368814 )
+ga_view_zoom_set( 0.294922 )
+ga_view_center_set( -0.102079, -0.378296 )
+ga_view_zoom_set( 0.262153 )
+ga_view_aa_set( -29.224983, 0.888336, -85.841286 )
+ga_view_center_set( -0.075465, -0.387463 )
+ga_view_zoom_set( 0.233025 )
+ga_view_center_set( -0.051807, -0.395612 )
+ga_view_zoom_set( 0.207133 )
+ga_view_center_set( -0.030779, -0.402855 )
+ga_view_zoom_set( 0.184118 )
+ga_view_center_set( -0.012086, -0.409294 )
+ga_view_zoom_set( 0.163661 )
+ga_view_center_set( 0.015790, -0.412248 )
+ga_view_zoom_set( 0.145476 )
+ga_view_aa_set( -26.283360, -3.656938, -87.927567 )
+ga_view_aa_set( -18.202728, 1.489937, -84.887337 )
+ga_view_center_set( 0.008488, -0.409786 )
+ga_view_zoom_set( 0.129312 )
+ga_view_center_set( 0.001997, -0.407744 )
+ga_view_zoom_set( 0.114944 )
+ga_view_center_set( 0.001997, -0.408546 )
+ga_view_zoom_set( 0.129312 )
+ga_view_center_set( 0.001340, -0.409284 )
+ga_view_zoom_set( 0.145476 )
+gm_visibility_widget( "Surface 70003", TRUE )
+ga_view_aa_set( -100.870422, 6.992801, -86.163292 )
+ga_view_center_set( 0.012429, -0.031322 )
+ga_view_zoom_set( 0.438370 )
+ga_view_center_set( 0.022072, -0.055305 )
+ga_view_zoom_set( 0.389662 )
+ga_view_center_set( 0.029764, -0.077063 )
+ga_view_zoom_set( 0.346366 )
+ga_view_center_set( 0.035820, -0.096989 )
+ga_view_zoom_set( 0.307881 )
+ga_view_center_set( 0.040856, -0.115048 )
+ga_view_zoom_set( 0.273672 )
+ga_view_center_set( 0.045178, -0.131101 )
+ga_view_zoom_set( 0.243264 )
+ga_view_center_set( 0.048883, -0.145508 )
+ga_view_zoom_set( 0.216235 )
+ga_view_center_set( 0.051932, -0.158436 )
+ga_view_zoom_set( 0.192209 )
+mesh_seed_create_tabular_points( "Curve 70008",  @
+"Node 40016 91212:91214 91216 91217 40047 91237 91233 91234 91236 91229 91" // @
+"230 91232 91225 91226 91228 91221 91222 91224 91218 91220", 0.00039999999 )
+ga_view_aa_set( -45.278172, 9.005989, -110.590057 )
+ga_view_center_set( 0.075958, -0.160387 )
+ga_view_zoom_set( 0.216235 )
+ga_view_center_set( 0.102987, -0.162582 )
+ga_view_zoom_set( 0.243264 )
+ga_view_center_set( 0.133395, -0.165052 )
+ga_view_zoom_set( 0.273672 )
+ga_view_center_set( 0.167604, -0.167830 )
+ga_view_zoom_set( 0.307881 )
+INTEGER fem_create_mesh_surfa_num_nodes
+INTEGER fem_create_mesh_surfa_num_elems
+STRING fem_create_mesh_s_nodes_created[VIRTUAL]
+STRING fem_create_mesh_s_elems_created[VIRTUAL]
+fem_create_mesh_surf_4( "IsoMesh", 49152, "Surface 70003", 1, ["0.02"],  @
+"Quad4", "#", "#", "Coord 0", "Coord 0", fem_create_mesh_surfa_num_nodes,  @
+fem_create_mesh_surfa_num_elems, fem_create_mesh_s_nodes_created,  @
+fem_create_mesh_s_elems_created )
+$# 352 nodes and 315 elements created for Surface 70003.
+$# === 352 nodes created.  IDs  = 111439:111790.
+$# === 315 elements created.  IDs  = 111275:111589.
+ga_view_aa_set( -108.666344, 11.308066, -109.452621 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 9, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C", "Bandeja_D", "Panel1", "Panel2", "Panel3", "Panel4", @
+ "Rigidizadores"] )
+ga_view_aa_set( -98.085800, 4.807453, -84.062775 )
+ga_view_aa_set( -84.604668, 4.050268, -44.090439 )
+ga_view_aa_set( -79.628456, 6.962144, -22.200315 )
+ga_view_aa_set( -75.343636, 28.018148, 57.013798 )
+ga_view_aa_set( -48.776669, 6.385756, -79.938446 )
+ga_view_aa_set( -74.128983, 3.856249, -87.471779 )
+ga_view_aa_set( -74.128983, 3.856249, -87.471779 )
+mesh_seed_display_mgr.erase(  )
+ga_view_center_set( -0.081037, -0.004086 )
+ga_view_zoom_set( 0.603691 )
+ga_view_center_set( -0.172203, -0.008683 )
+ga_view_zoom_set( 0.679152 )
+ga_view_center_set( -0.081037, -0.000639 )
+ga_view_zoom_set( 0.603691 )
+ga_view_aa_set( -79.215790, -0.853930, -126.176575 )
+ga_view_aa_set( -83.294502, -4.247549, -148.946274 )
+ga_view_aa_set( -94.688026, -0.068476, 127.026024 )
+ga_group_current_set( "Bandeja_A" )
+ga_view_aa_set( -66.772797, -2.044825, 122.432190 )
+ga_view_aa_set( -52.995037, 12.689440, 149.792038 )
+ga_view_aa_set( -44.571083, 4.786560, 140.663635 )
+ga_view_aa_set( -49.383396, 1.306212, 137.071777 )
+ga_view_aa_set( -63.375019, -1.095090, 132.675827 )
+ga_view_aa_set( -81.045021, -7.321072, 112.629410 )
+ga_view_center_set( -0.014981, 0.007874 )
+ga_view_zoom_set( 0.536614 )
+ga_view_center_set( 0.043734, 0.015440 )
+ga_view_zoom_set( 0.476990 )
+ga_view_center_set( 0.095926, 0.022166 )
+ga_view_zoom_set( 0.423992 )
+ga_view_aa_set( -42.536728, 3.181132, 135.900177 )
+ga_view_center_set( 0.174698, 0.041536 )
+ga_view_zoom_set( 0.339193 )
+ga_view_center_set( 0.209708, 0.049762 )
+ga_view_zoom_set( 0.301505 )
+ga_view_center_set( 0.240828, 0.056735 )
+ga_view_zoom_set( 0.268005 )
+ga_view_center_set( 0.268490, 0.062932 )
+ga_view_zoom_set( 0.238226 )
+ga_view_center_set( 0.293078, 0.068441 )
+ga_view_zoom_set( 0.211757 )
+ga_view_center_set( 0.314935, 0.073338 )
+ga_view_zoom_set( 0.188228 )
+ga_view_center_set( 0.334363, 0.077690 )
+ga_view_zoom_set( 0.167314 )
+ga_view_center_set( 0.351632, 0.081560 )
+ga_view_zoom_set( 0.148723 )
+ga_view_center_set( 0.366983, 0.084999 )
+ga_view_zoom_set( 0.132199 )
+ga_view_center_set( 0.351632, 0.081560 )
+ga_view_zoom_set( 0.148723 )
+ga_view_center_set( 0.334363, 0.077690 )
+ga_view_zoom_set( 0.167314 )
+ga_view_center_set( 0.276079, 0.064632 )
+ga_view_zoom_set( 0.230057 )
+ga_view_center_set( 0.249366, 0.058647 )
+ga_view_zoom_set( 0.258814 )
+ga_view_center_set( 0.219313, 0.051914 )
+ga_view_zoom_set( 0.291165 )
+ga_view_center_set( 0.183841, 0.044524 )
+ga_view_zoom_set( 0.327561 )
+ga_view_center_set( 0.143935, 0.036211 )
+ga_view_zoom_set( 0.368506 )
+ga_view_center_set( 0.099041, 0.026858 )
+ga_view_zoom_set( 0.414569 )
+ga_view_aa_set( -65.425293, 0.303559, 131.839264 )
+ga_view_aa_set( -66.320580, -2.019856, 92.417625 )
+ga_view_aa_set( -99.711502, -3.070816, 109.253204 )
+ga_view_aa_set( -93.479889, -4.453054, 127.230682 )
+ga_view_aa_set( -117.245392, -8.248249, -111.799103 )
+ga_view_aa_set( -74.508224, -5.723714, 161.405365 )
+ga_view_aa_set( -80.344856, -11.050182, 147.814163 )
+REAL fem_equiv_group_x_equivtol
+INTEGER fem_equiv_group_x_segment
+fem_equiv_all_group4( ["Bandeja_A", "Bandeja_B", "Bandeja_C", "Bandeja_D",  @
+"Panel1", "Panel2", "Panel3", "Panel4", "Rigidizadores"], 9, "", 1, 1,  @
+0.00039999999, FALSE, fem_equiv_group_x_equivtol, fem_equiv_group_x_segment )
+$# Realigning database with new node numbers...
+$# Database realignment completed.
+$# Geometric equivalencing completed. 456 nodes deleted.
+ga_view_aa_set( -71.223602, 5.633653, -83.248581 )
+ga_view_aa_set( -93.432297, 0.422802, -97.404884 )
+ga_view_aa_set( -71.573769, 0.822948, -62.514183 )
+uil_primary_file.db_save(  )
+$# Reclaimed 1.15 MB of 4.30 MB.
+ga_view_aa_set( -86.665009, -2.951722, -104.285057 )
+ga_view_aa_set( -52.993126, 7.526466, -78.805168 )
+ga_view_aa_set( -69.349640, -1.932152, -155.700684 )
+ga_group_current_set( "Rigidizadores" )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, [ @
+"Rigidizadores"] )
+ga_view_aa_set( -76.390160, 2.841687, -71.969269 )
+ga_view_aa_set( -75.136223, -0.998101, -87.506477 )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+uil_viewport_post_groups.posted_groups( "default_viewport", 9, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C", "Bandeja_D", "Panel1", "Panel2", "Panel3", "Panel4", @
+ "Rigidizadores"] )
+ga_view_aa_set( -80.378357, -6.708792, -152.307205 )
+ga_view_aa_set( -79.353447, 3.112636, -18.641727 )
+$#  Beginning analysis of  dresia
+jobfile.open( "dresia", "ANALYZE NO JOBFILE" )
+$# Question from application APP INTERFACES
+$#     The jobname (dresia) is already defined in the database. Do you wish 
+$# to overwrite?
+$? YES 6016027 
+msc_delete_old_files( "dresia", ".bdf", ".op2" )
+$# Question from application APP INTERFACES
+$#     Files from a previous analysis conflict with the current job name: 
+$# "dresia".  These files are dresia.xdb, dresia.DBALL, dresia.MASTER, 
+$# dresia.f04, dresia.f06, dresia.log, dresia.IFPDAT, dresia.h5, dresia.bdf.  
+$# Will you permit deletion of these files?
+$? YES 6022037 
+$# Warning reported from application APP INTERFACES
+$#     The attachment to the file 
+$# C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb has been deleted because 
+$# that file is being deleted.
+jobfile.write_spl( "/* Jobfile for PATNAS created %A% at %A% */", ["05-Jun-21" @
+, "10:15:39"] )
+jobfile.writec( "", "TRANSLATOR = pat3nas" )
+jobfile.writec( "DATABASE", "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db" )
+jobfile.writec( "JOBNAME", "dresia" )
+jobfile.writec( "ANALYSIS TITLE", "" )
+jobfile.writec( "ANALYSIS SUBTITLE", "" )
+jobfile.writec( "ANALYSIS LABEL", "" )
+jobfile.writec( "", "" )
+jobfile.writec( "OBJECT", "Entire Model" )
+jobfile.writec( "METHOD", "Full Run" )
+jobfile.writec( "", "" )
+jobfile.writec( "MODEL SUFFIX", ".bdf" )
+jobfile.writec( "RESULTS SUFFIX", ".op2" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * File Search Path Declaration" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "File Search Path", "C:\Users\María" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\helpfiles" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\alters" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons\RibbonIcons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin\exe" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscexplore_files\" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\dmap" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\lib" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\extra_files" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Translation Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "DATA OUTPUT", "XDB+PRINT+HDF5" )
+jobfile.writec( "OUTPUT2 REQUESTS", "P3 Built In" )
+jobfile.writec( "OUTPUT2 FORMAT", "Binary" )
+jobfile.writec( "DIVISION TOLERANCE", "1.0e-08" )
+jobfile.writec( "NUMERICAL TOLERANCE", "1.0e-04" )
+jobfile.writec( "WRITING TOLERANCE", "1.0e-21" )
+jobfile.writec( "GEOM CHECK", "INFORM" )
+jobfile.writec( "SORTED BULK", "NO" )
+jobfile.writec( "CARD FORMAT", "either" )
+jobfile.writec( "NODE COORDINATES", "reference frame" )
+jobfile.writec( "COORD COORDINATES", "global" )
+jobfile.writec( "MSC.Nastran VERSION", "2020." )
+jobfile.writec( "WRITE STORED PRECISION", "TRUE" )
+jobfile.writec( "WRITE IN FREE FORMAT", "FALSE" )
+jobfile.writec( "PROPS ON ELEM ENTRY", "FALSE" )
+jobfile.writec( "CONTINUATION ENTRY", "FALSE" )
+jobfile.writec( "PCOMPG ENTRY", "TRUE" )
+jobfile.writec( "CONVERT CBAR CBEAM", "FALSE" )
+jobfile.writec( "ITERATIVE SOLVER", "FALSE" )
+jobfile.writei( "SUPER ELEMENT 0", 0 )
+jobfile.writec( "SEALL WRITE", "FALSE" )
+jobfile.writec( "PART SUPERELEMENT CREATE", "TRUE" )
+jobfile.writec( "AUTOQSET", "FALSE" )
+jobfile.writec( "FIXEDB", "FALSE" )
+jobfile.writei( "SUPER TREE COUNT", 0 )
+jobfile.writec( "MODEL TOLERANCE", "0.00039999999" )
+jobfile.writec( "ELEMENT PROPERTY OFFSET", "0" )
+jobfile.writec( "MATERIAL PROPERTY OFFSET", "0" )
+jobfile.writec( "TABLE OFFSET", "0" )
+jobfile.writec( "LOAD SET OFFSET", "0" )
+jobfile.writec( "LOAD CASE OFFSET", "0" )
+jobfile.writec( "CONTROL SET OFFSET", "0" )
+jobfile.writec( "RIGID ELEMENT OFFSET", "0" )
+jobfile.writec( "SCALAR POINT OFFSET", "0" )
+jobfile.writec( "BEGINNING CONTINUATION MARKER", "+      A" )
+jobfile.writec( "NUMBER ONLY", "ON" )
+jobfile.writec( "BEGINNING NUMBER", "OFF" )
+jobfile.writec( "TRAILING NUMBER", "OFF" )
+jobfile.writec( "SYNTAX NUMBER", "ON" )
+jobfile.writec( "SYNTAX MARKER", "." )
+jobfile.writec( "EXTERNAL SUPERELEMENT METHOD", "NONE" )
+jobfile.writec( "GRID COORDINATES ROUNDING", "15" )
+jobfile.writec( "COORD DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "MPC DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "LBC DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "MAT DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "PROP DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "USE LEGACY PRECISION", "FALSE" )
+jobfile.writec( "EXPONENTIAL WRITE", "As Needed" )
+jobfile.writec( "EXPONENTIAL FORM", "Condensed" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Solution Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "SOLUTION TYPE", "NORMAL MODES" )
+jobfile.writei( "SOLUTION SEQUENCE", 103 )
+jobfile.writec( "CONTACT CHECK", "OFF" )
+jobfile.writec( "DATABASE RUN", "ON" )
+jobfile.writec( "INTERACTIVE MODES", "OFF" )
+jobfile.writec( "CYCLIC SYMMETRY", "OFF" )
+jobfile.writec( "AUTOMATIC CONSTRAINTS", "ON" )
+jobfile.writec( "SHELL NORMAL TOLERANCE", "" )
+jobfile.writec( "MASS CALCULATION", "Lumped" )
+jobfile.writec( "DATA DECK ECHO", "None" )
+jobfile.writec( "PLATE RZ STIFFNESS FACTOR", "100.0" )
+jobfile.writec( "MAXIMUM PRINTED LINES", "" )
+jobfile.writec( "MAXIMUM RUN TIME", "" )
+jobfile.writec( "WT-MASS CONVERSION", "1.0" )
+jobfile.writec( "NODE ID FOR WT-GENER", "" )
+jobfile.writec( "RIGID ELEMENT TYPE", "LINEAR" )
+jobfile.writec( "USE SOL600", "OFF" )
+jobfile.writec( "RESIDUAL VECTOR", "Nastran Default" )
+jobfile.writec( "SN MEAN STRESS CORRECTION", "NONE" )
+jobfile.writec( "NEF FATIGUE STRESS OUTPUT", "NONE" )
+jobfile.writec( "NEF STRESS UNITS", "MPA" )
+jobfile.writec( "NEF STRESS COMBINATION", "ABSMAXPR" )
+jobfile.writec( "NEF RESULT LOCATION", "NODA" )
+jobfile.writec( "NEF RECOVERY LOCATION", "CORNER" )
+jobfile.writec( "NEF LAYER LOCATION", "WORST" )
+jobfile.writec( "NEF INTERPOLATION LIMIT", "0" )
+jobfile.writec( "NEF LEVEL OF MESSAGE", "0" )
+jobfile.writec( "NEF NUMBER OF THREADS", "1" )
+jobfile.writer( "NEF CERTAINTY OF SURVIVAL", 50. )
+jobfile.writer( "NEF OVERALL SCALE FACTOR", 1. )
+jobfile.writer( "NEF TOP STRESS PERCENTAGE FILTER", 100. )
+jobfile.writer( "NEF TOP DAMAGE PERCENTAGE FILTER", 100. )
+jobfile.writec( "NEF TIME HISTORY DIRECTORY", "C:\Users\Andrés" )
+jobfile.writei( "NEF MAX LOAD PER EVENT", 1 )
+jobfile.writec( "NEF EVENT DATA", "0" )
+jobfile.writec( "NEF LOAD SEQUENCE DATA", "0" )
+jobfile.writec( "USE CONTACT TABLE", "OFF" )
+jobfile.writec( "INITIAL CONTACTPAIR LOADCASE NAME", "" )
+jobfile.writei( "MDOF DATA", 0 )
+jobfile.writec( "CELL WRITE", "ON" )
+jobfile.writei( "CELL INPUT 0", 0 )
+jobfile.writec( "FMS WRITE", "ON" )
+jobfile.writei( "FMS INPUT 0", 0 )
+jobfile.writec( "EXEC WRITE", "ON" )
+jobfile.writei( "EXEC INPUT 0", 0 )
+jobfile.writec( "CASE WRITE", "ON" )
+jobfile.writei( "CASE INPUT 0", 0 )
+jobfile.writec( "BULK WRITE", "ON" )
+jobfile.writei( "BULK INPUT 0", 0 )
+jobfile.writec( "CELL DTI POSITION", "START" )
+jobfile.writec( "FMS DTI POSITION", "START" )
+jobfile.writec( "EXEC DTI POSITION", "START" )
+jobfile.writec( "CASE DTI POSITION", "START" )
+jobfile.writec( "BULK DTI POSITION", "START" )
+jobfile.writec( "", "END" )
+jobfile.close(  )
+mscnastran_job.associate_subcases( "103", "dresia", 1, ["Default"] )
+analysis_submit_2( "MSC.Nastran", "dresia" )
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-3VPGNSK(
+$# c01885f775c5) (Windows 6.2 (Build 9200: Service Pack 0)) at 05-Jun-21 
+$# 10:15:39.
+$# 
+$# Reading model information from the specified database, 
+$# C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db.
+$# Messages output from the Patran 2020  (Student Edition) input deck 
+$# translator on June      05, 2021 at 10:15:39.
+$# 
+$# The NASTRAN input file, dresia.bdf, has been successfully opened.
+$# 
+$# Translating 3 elements from the element property region masa_equipos.
+$# 
+$# Translating 258 elements from the element property region 
+$# rigidizador_exterior.
+$# 
+$# Translating 1089 elements from the element property region 
+$# rigidizador_interior.
+$# 
+$# Translating 1890 elements from the element property region composite_plate.
+$# 
+$# Translating 86 elements from the element property region 
+$# SM_001_rigidizador_exterior.
+$# 
+$# Translating 363 elements from the element property region 
+$# SM_001_rigidizador_interior.
+$# 
+$# Translating 10 elements from the element property region tornillo.
+$# 
+$# Translating 630 elements from the element property region 
+$# SM_001_composite_plate.
+$# 
+$# Translating 15 elements from the element property region viga4.
+$# 
+$# Translating 15 elements from the element property region viga1.
+$# 
+$# Translating 15 elements from the element property region viga3.
+$# 
+$# Translating 15 elements from the element property region viga2.
+$# 
+$# Translating 1290 elements from the element property region composite_panel.
+$# 
+$# 13 property regions translated.
+$# 
+$# Translating 5 referenced material records.
+$# 
+$# Translating 3 multipoint constraints from the entire model.
+$# 
+$# Translating 3742 nodes from the entire model.
+$# 
+$# Writing loads for Load Case : Default.
+$# 
+$# Translating nodal constraints in load set : CBUSH-D.
+$# Writing interface element lbcs.
+$# Total execution time in real seconds: 1
+$# Total execution time in CPU seconds: 0.640991
+$# 
+$# End of NASTRAN input file translation.
+$# Student Edition Patran Nastran Preference Patran 2020  (Student Edition) 
+$# has released 0 license(s) to FLEXlm at 05-Jun-21 10:15:40.
+$# The translation has completed successfully.
+$# Executing /bin/sh -c C:\Program 
+$# Files\MSC.Software\NaPa_SE\2020\Patran\bin\MscNa
+$# stranExecute.exe -j dresia -m bdf -x 2020 -c %%prog=edu%auth=edu%arch=64% -v
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresi" // @
+"a.db" )
+msc_dra_add_param( "JOBNAME", "dresia" )
+msc_dra_add_param( "RESULTS FILE", "C:\MUSE\EUE\Practica2_EUE\Satelite\0\d" // @
+"resia.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "0.00039999999" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "dresia", "Attach Results File No Job",  @
+"C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/2956 (DESKTOP-3 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:DEFAULT
+$# Processing result sub-case: Mode 1 : Freq. = 31.416
+$# Processing result sub-case: Mode 2 : Freq. = 48.908
+$# Processing result sub-case: Mode 3 : Freq. = 62.476
+$# Processing result sub-case: Mode 4 : Freq. = 93.396
+$# Processing result sub-case: Mode 5 : Freq. = 95.49
+$# Processing result sub-case: Mode 6 : Freq. = 102.33
+$# Processing result sub-case: Mode 7 : Freq. = 103.49
+$# Processing result sub-case: Mode 8 : Freq. = 103.64
+$# Processing result sub-case: Mode 9 : Freq. = 104.76
+$# Processing result sub-case: Mode 10 : Freq. = 104.87
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.016
+$# *** End:   Attach Result File ***
+ga_view_aa_set( -103.826225, 16.718801, -60.187321 )
+ga_view_aa_set( -78.984032, 15.863617, -31.020639 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "Default",  @
+"A1:Mode 1 : Freq. = 31.416", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "Default",  @
+"A1:Mode 1 : Freq. = 31.416", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -82.657837, 0.823406, -105.417915 )
+ga_view_aa_set( -56.493122, 5.797153, -160.113159 )
+ga_view_aa_set( -80.761681, 18.406404, 63.778835 )
+ga_view_aa_set( -48.466125, -21.530798, 19.616663 )
+ga_view_aa_set( -88.252350, -0.209771, 79.319038 )
+ga_view_aa_set( -99.227562, -0.609544, 83.294685 )
+ga_view_aa_set( -109.971588, -2.435593, 167.955688 )
+ga_view_aa_set( -55.202217, 7.091990, -113.348457 )
+ga_view_aa_set( -71.470993, -0.197234, -127.535934 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 8, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C", "Bandeja_D", "Panel1", "Panel2", "Panel3",  @
+"Rigidizadores"] )
+ga_view_aa_set( -90.167572, 1.716914, -84.223480 )
+ga_view_center_set( 0.016995, 0.001672 )
+ga_view_zoom_set( 0.439088 )
+ga_view_center_set( 0.029625, 0.003405 )
+ga_view_zoom_set( 0.390301 )
+ga_view_center_set( 0.039752, 0.005166 )
+ga_view_zoom_set( 0.346934 )
+ga_view_center_set( 0.046992, 0.007123 )
+ga_view_zoom_set( 0.308386 )
+ga_view_center_set( 0.053080, 0.009037 )
+ga_view_zoom_set( 0.274121 )
+ga_view_center_set( 0.058182, 0.010737 )
+ga_view_zoom_set( 0.243663 )
+ga_view_center_set( 0.062579, 0.012249 )
+ga_view_zoom_set( 0.216589 )
+ga_view_aa_set( -70.018967, 0.479561, -91.095863 )
+ga_view_aa_set( -69.623795, 5.991750, -98.618561 )
+$# Warning reported from application Results
+$#     Detaching from the selected Direct Results Access file(s). This 
+$# operation cannot be undone. Please reattach file(s) if this was not the 
+$# desired action!
+$# Detach external results file:  
+$# C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb
+res_dra_detach_file( 1, 130, 431 )
+ga_view_center_set( 0.009806, 0.003179 )
+ga_view_zoom_set( 0.243663 )
+ga_view_center_set( -0.049563, -0.007025 )
+ga_view_zoom_set( 0.274120 )
+ga_view_center_set( -0.116354, -0.018505 )
+ga_view_zoom_set( 0.308386 )
+ga_view_aa_set( -70.382767, -1.608796, -85.112106 )
+ga_view_center_set( -0.096003, -0.015200 )
+ga_view_zoom_set( 0.274120 )
+ga_view_center_set( -0.078378, -0.012263 )
+ga_view_zoom_set( 0.243663 )
+ga_view_center_set( -0.062986, -0.009377 )
+ga_view_zoom_set( 0.216589 )
+ga_view_center_set( -0.049793, -0.006567 )
+ga_view_zoom_set( 0.192524 )
+ga_view_center_set( -0.038391, -0.003961 )
+ga_view_zoom_set( 0.171132 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_C"] )
+ga_view_center_set( -0.034916, -0.003852 )
+ga_view_zoom_set( 0.192524 )
+ga_view_center_set( -0.031129, -0.003730 )
+ga_view_zoom_set( 0.216589 )
+ga_view_center_set( -0.027007, -0.003593 )
+ga_view_zoom_set( 0.243663 )
+ga_view_center_set( -0.022368, -0.003438 )
+ga_view_zoom_set( 0.274120 )
+ga_view_center_set( -0.017150, -0.003264 )
+ga_view_zoom_set( 0.308386 )
+ga_view_center_set( -0.011280, -0.003069 )
+ga_view_zoom_set( 0.346934 )
+ga_view_aa_set( 90., 0., 0. )
+ga_view_aa_set( -90., 0., 0. )
+ga_view_aa_set( 6.200158, 4.837354, 7.104071 )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+gm_hilight_clear(  )
+ga_view_center_set( 0.047716, -0.010773 )
+ga_view_zoom_set( 0.390300 )
+ga_view_center_set( 0.114087, -0.019441 )
+ga_view_zoom_set( 0.439088 )
+ga_view_center_set( 0.188755, -0.029192 )
+ga_view_zoom_set( 0.493974 )
+ga_view_center_set( 0.111301, -0.019720 )
+ga_view_zoom_set( 0.439088 )
+ga_view_center_set( 0.188755, -0.029192 )
+ga_view_zoom_set( 0.493974 )
+ga_view_center_set( 0.167023, -0.018048 )
+ga_view_zoom_set( 0.439088 )
+ga_view_center_set( 0.147706, -0.008142 )
+ga_view_zoom_set( 0.390300 )
+ga_view_center_set( 0.130536, 0.000663 )
+ga_view_zoom_set( 0.346934 )
+ga_view_center_set( 0.115273, 0.008491 )
+ga_view_zoom_set( 0.308386 )
+ga_view_center_set( 0.108033, 0.020622 )
+ga_view_zoom_set( 0.346934 )
+ga_view_center_set( 0.103410, 0.036032 )
+ga_view_zoom_set( 0.390300 )
+ga_view_center_set( 0.101924, 0.061293 )
+ga_view_zoom_set( 0.439088 )
+ga_view_aa_set( 1.354120, -3.674020, -2.378825 )
+ga_view_center_set( 0.093009, 0.049158 )
+ga_view_zoom_set( 0.390300 )
+ga_view_center_set( 0.084863, 0.038151 )
+ga_view_zoom_set( 0.346934 )
+fem_modify_mpc_nodal2( 6, 1.2E-05, 2, [TRUE, FALSE], ["0", "0"], [ @
+"Node 20435 20417 20152 20128", "Node 60001"], ["UX,UY,UZ", ""] )
+$# MPC 6 modified.
+ga_view_aa_set( 1.043111, 1.971272, -12.539449 )
+ga_view_aa_set( -62.471714, 11.164182, -0.590805 )
+ga_view_aa_set( -11.386249, 2.517159, -8.593024 )
+$#  Beginning analysis of  dresia
+jobfile.open( "dresia", "ANALYZE NO JOBFILE" )
+$# Question from application APP INTERFACES
+$#     The jobname (dresia) is already defined in the database. Do you wish 
+$# to overwrite?
+$? YES 6016027 
+msc_delete_old_files( "dresia", ".bdf", ".op2" )
+$# Question from application APP INTERFACES
+$#     Files from a previous analysis conflict with the current job name: 
+$# "dresia".  These files are dresia.xdb, dresia.DBALL, dresia.MASTER, 
+$# dresia.f04, dresia.f06, dresia.log, dresia.IFPDAT, dresia.h5, dresia.bdf.  
+$# Will you permit deletion of these files?
+$? YES 6022037 
+jobfile.write_spl( "/* Jobfile for PATNAS created %A% at %A% */", ["05-Jun-21" @
+, "10:40:52"] )
+jobfile.writec( "", "TRANSLATOR = pat3nas" )
+jobfile.writec( "DATABASE", "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db" )
+jobfile.writec( "JOBNAME", "dresia" )
+jobfile.writec( "ANALYSIS TITLE", "" )
+jobfile.writec( "ANALYSIS SUBTITLE", "" )
+jobfile.writec( "ANALYSIS LABEL", "" )
+jobfile.writec( "", "" )
+jobfile.writec( "OBJECT", "Entire Model" )
+jobfile.writec( "METHOD", "Full Run" )
+jobfile.writec( "", "" )
+jobfile.writec( "MODEL SUFFIX", ".bdf" )
+jobfile.writec( "RESULTS SUFFIX", ".op2" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * File Search Path Declaration" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscexplore_files\" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin\exe" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons\RibbonIcons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\alters" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\helpfiles" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\extra_files" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\lib" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\dmap" )
+jobfile.writec( "File Search Path", "C:\Users\María" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Translation Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "DATA OUTPUT", "XDB+PRINT+HDF5" )
+jobfile.writec( "OUTPUT2 REQUESTS", "P3 Built In" )
+jobfile.writec( "OUTPUT2 FORMAT", "Binary" )
+jobfile.writec( "DIVISION TOLERANCE", "1.0e-08" )
+jobfile.writec( "NUMERICAL TOLERANCE", "1.0e-04" )
+jobfile.writec( "WRITING TOLERANCE", "1.0e-21" )
+jobfile.writec( "GEOM CHECK", "INFORM" )
+jobfile.writec( "SORTED BULK", "NO" )
+jobfile.writec( "CARD FORMAT", "either" )
+jobfile.writec( "NODE COORDINATES", "reference frame" )
+jobfile.writec( "COORD COORDINATES", "global" )
+jobfile.writec( "MSC.Nastran VERSION", "2020." )
+jobfile.writec( "WRITE STORED PRECISION", "TRUE" )
+jobfile.writec( "WRITE IN FREE FORMAT", "FALSE" )
+jobfile.writec( "PROPS ON ELEM ENTRY", "FALSE" )
+jobfile.writec( "CONTINUATION ENTRY", "FALSE" )
+jobfile.writec( "PCOMPG ENTRY", "TRUE" )
+jobfile.writec( "CONVERT CBAR CBEAM", "FALSE" )
+jobfile.writec( "ITERATIVE SOLVER", "FALSE" )
+jobfile.writei( "SUPER ELEMENT 0", 0 )
+jobfile.writec( "SEALL WRITE", "FALSE" )
+jobfile.writec( "PART SUPERELEMENT CREATE", "TRUE" )
+jobfile.writec( "AUTOQSET", "FALSE" )
+jobfile.writec( "FIXEDB", "FALSE" )
+jobfile.writei( "SUPER TREE COUNT", 0 )
+jobfile.writec( "MODEL TOLERANCE", "0.00039999999" )
+jobfile.writec( "ELEMENT PROPERTY OFFSET", "0" )
+jobfile.writec( "MATERIAL PROPERTY OFFSET", "0" )
+jobfile.writec( "TABLE OFFSET", "0" )
+jobfile.writec( "LOAD SET OFFSET", "0" )
+jobfile.writec( "LOAD CASE OFFSET", "0" )
+jobfile.writec( "CONTROL SET OFFSET", "0" )
+jobfile.writec( "RIGID ELEMENT OFFSET", "0" )
+jobfile.writec( "SCALAR POINT OFFSET", "0" )
+jobfile.writec( "BEGINNING CONTINUATION MARKER", "+      A" )
+jobfile.writec( "NUMBER ONLY", "ON" )
+jobfile.writec( "BEGINNING NUMBER", "OFF" )
+jobfile.writec( "TRAILING NUMBER", "OFF" )
+jobfile.writec( "SYNTAX NUMBER", "ON" )
+jobfile.writec( "SYNTAX MARKER", "." )
+jobfile.writec( "EXTERNAL SUPERELEMENT METHOD", "NONE" )
+jobfile.writec( "GRID COORDINATES ROUNDING", "15" )
+jobfile.writec( "COORD DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "MPC DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "LBC DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "MAT DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "PROP DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "USE LEGACY PRECISION", "FALSE" )
+jobfile.writec( "EXPONENTIAL WRITE", "As Needed" )
+jobfile.writec( "EXPONENTIAL FORM", "Condensed" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Solution Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "SOLUTION TYPE", "NORMAL MODES" )
+jobfile.writei( "SOLUTION SEQUENCE", 103 )
+jobfile.writec( "CONTACT CHECK", "OFF" )
+jobfile.writec( "DATABASE RUN", "ON" )
+jobfile.writec( "INTERACTIVE MODES", "OFF" )
+jobfile.writec( "CYCLIC SYMMETRY", "OFF" )
+jobfile.writec( "AUTOMATIC CONSTRAINTS", "ON" )
+jobfile.writec( "SHELL NORMAL TOLERANCE", "" )
+jobfile.writec( "MASS CALCULATION", "Lumped" )
+jobfile.writec( "DATA DECK ECHO", "None" )
+jobfile.writec( "PLATE RZ STIFFNESS FACTOR", "100.0" )
+jobfile.writec( "MAXIMUM PRINTED LINES", "" )
+jobfile.writec( "MAXIMUM RUN TIME", "" )
+jobfile.writec( "WT-MASS CONVERSION", "1.0" )
+jobfile.writec( "NODE ID FOR WT-GENER", "" )
+jobfile.writec( "RIGID ELEMENT TYPE", "LINEAR" )
+jobfile.writec( "USE SOL600", "OFF" )
+jobfile.writec( "RESIDUAL VECTOR", "Nastran Default" )
+jobfile.writec( "SN MEAN STRESS CORRECTION", "NONE" )
+jobfile.writec( "NEF FATIGUE STRESS OUTPUT", "NONE" )
+jobfile.writec( "NEF STRESS UNITS", "MPA" )
+jobfile.writec( "NEF STRESS COMBINATION", "ABSMAXPR" )
+jobfile.writec( "NEF RESULT LOCATION", "NODA" )
+jobfile.writec( "NEF RECOVERY LOCATION", "CORNER" )
+jobfile.writec( "NEF LAYER LOCATION", "WORST" )
+jobfile.writec( "NEF INTERPOLATION LIMIT", "0" )
+jobfile.writec( "NEF LEVEL OF MESSAGE", "0" )
+jobfile.writec( "NEF NUMBER OF THREADS", "1" )
+jobfile.writer( "NEF CERTAINTY OF SURVIVAL", 50. )
+jobfile.writer( "NEF OVERALL SCALE FACTOR", 1. )
+jobfile.writer( "NEF TOP STRESS PERCENTAGE FILTER", 100. )
+jobfile.writer( "NEF TOP DAMAGE PERCENTAGE FILTER", 100. )
+jobfile.writec( "NEF TIME HISTORY DIRECTORY", "C:\Users\Andrés" )
+jobfile.writei( "NEF MAX LOAD PER EVENT", 1 )
+jobfile.writec( "NEF EVENT DATA", "0" )
+jobfile.writec( "NEF LOAD SEQUENCE DATA", "0" )
+jobfile.writec( "USE CONTACT TABLE", "OFF" )
+jobfile.writec( "INITIAL CONTACTPAIR LOADCASE NAME", "" )
+jobfile.writei( "MDOF DATA", 0 )
+jobfile.writec( "CELL WRITE", "ON" )
+jobfile.writei( "CELL INPUT 0", 0 )
+jobfile.writec( "FMS WRITE", "ON" )
+jobfile.writei( "FMS INPUT 0", 0 )
+jobfile.writec( "EXEC WRITE", "ON" )
+jobfile.writei( "EXEC INPUT 0", 0 )
+jobfile.writec( "CASE WRITE", "ON" )
+jobfile.writei( "CASE INPUT 0", 0 )
+jobfile.writec( "BULK WRITE", "ON" )
+jobfile.writei( "BULK INPUT 0", 0 )
+jobfile.writec( "CELL DTI POSITION", "START" )
+jobfile.writec( "FMS DTI POSITION", "START" )
+jobfile.writec( "EXEC DTI POSITION", "START" )
+jobfile.writec( "CASE DTI POSITION", "START" )
+jobfile.writec( "BULK DTI POSITION", "START" )
+jobfile.writec( "", "END" )
+jobfile.close(  )
+mscnastran_job.associate_subcases( "103", "dresia", 1, ["Default"] )
+analysis_submit_2( "MSC.Nastran", "dresia" )
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-3VPGNSK(
+$# c01885f775c5) (Windows 6.2 (Build 9200: Service Pack 0)) at 05-Jun-21 
+$# 10:40:53.
+$# 
+$# Reading model information from the specified database, 
+$# C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db.
+$# Messages output from the Patran 2020  (Student Edition) input deck 
+$# translator on June      05, 2021 at 10:40:53.
+$# 
+$# The NASTRAN input file, dresia.bdf, has been successfully opened.
+$# 
+$# Translating 3 elements from the element property region masa_equipos.
+$# 
+$# Translating 258 elements from the element property region 
+$# rigidizador_exterior.
+$# 
+$# Translating 1089 elements from the element property region 
+$# rigidizador_interior.
+$# 
+$# Translating 1890 elements from the element property region composite_plate.
+$# 
+$# Translating 86 elements from the element property region 
+$# SM_001_rigidizador_exterior.
+$# 
+$# Translating 363 elements from the element property region 
+$# SM_001_rigidizador_interior.
+$# 
+$# Translating 10 elements from the element property region tornillo.
+$# 
+$# Translating 630 elements from the element property region 
+$# SM_001_composite_plate.
+$# 
+$# Translating 15 elements from the element property region viga4.
+$# 
+$# Translating 15 elements from the element property region viga1.
+$# 
+$# Translating 15 elements from the element property region viga3.
+$# 
+$# Translating 15 elements from the element property region viga2.
+$# 
+$# Translating 1290 elements from the element property region composite_panel.
+$# 
+$# 13 property regions translated.
+$# 
+$# Translating 5 referenced material records.
+$# 
+$# Translating 3 multipoint constraints from the entire model.
+$# 
+$# Translating 3742 nodes from the entire model.
+$# 
+$# Writing loads for Load Case : Default.
+$# 
+$# Translating nodal constraints in load set : CBUSH-D.
+$# Writing interface element lbcs.
+$# Total execution time in real seconds: 0.01
+$# Total execution time in CPU seconds: 0.578003
+$# 
+$# End of NASTRAN input file translation.
+$# Student Edition Patran Nastran Preference Patran 2020  (Student Edition) 
+$# has released 0 license(s) to FLEXlm at 05-Jun-21 10:40:53.
+$# The translation has completed successfully.
+$# Executing /bin/sh -c C:\Program 
+$# Files\MSC.Software\NaPa_SE\2020\Patran\bin\MscNa
+$# stranExecute.exe -j dresia -m bdf -x 2020 -c %%prog=edu%auth=edu%arch=64% -v
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresi" // @
+"a.db" )
+msc_dra_add_param( "JOBNAME", "dresia" )
+msc_dra_add_param( "RESULTS FILE", "C:\MUSE\EUE\Practica2_EUE\Satelite\0\d" // @
+"resia.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "0.00039999999" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "dresia", "Attach Results File No Job",  @
+"C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/2958 (DESKTOP-3 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:DEFAULT
+$# Processing result sub-case: Mode 1 : Freq. = 62.391
+$# Processing result sub-case: Mode 2 : Freq. = 70.584
+$# Processing result sub-case: Mode 3 : Freq. = 86.399
+$# Processing result sub-case: Mode 4 : Freq. = 94.011
+$# Processing result sub-case: Mode 5 : Freq. = 96.34
+$# Processing result sub-case: Mode 6 : Freq. = 102.47
+$# Processing result sub-case: Mode 7 : Freq. = 103.49
+$# Processing result sub-case: Mode 8 : Freq. = 103.64
+$# Processing result sub-case: Mode 9 : Freq. = 104.76
+$# Processing result sub-case: Mode 10 : Freq. = 104.87
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.015
+$# *** End:   Attach Result File ***
+ga_view_aa_set( -79.594200, 2.632578, -2.887410 )
+ga_view_aa_set( -56.646912, 3.507200, -2.180692 )
+ga_view_aa_set( -16.695066, 5.406827, -1.555335 )
+ga_view_aa_set( -54.708965, -6.652767, 1.466896 )
+ga_view_aa_set( -7.669210, 3.257771, 2.803790 )
+ga_view_aa_set( -24.485344, -6.284035, -0.684110 )
+ga_view_center_set( 0.125173, 0.055370 )
+ga_view_zoom_set( 0.308386 )
+ga_view_center_set( 0.161003, 0.070677 )
+ga_view_zoom_set( 0.274120 )
+ga_view_center_set( 0.192852, 0.084282 )
+ga_view_zoom_set( 0.243663 )
+ga_view_center_set( 0.221163, 0.096376 )
+ga_view_zoom_set( 0.216589 )
+ga_view_center_set( 0.246328, 0.107126 )
+ga_view_zoom_set( 0.192524 )
+ga_view_aa_set( -51.019920, 20.153252, 15.360696 )
+ga_view_center_set( 0.288717, 0.105416 )
+ga_view_zoom_set( 0.216589 )
+ga_view_aa_set( -30.411896, 1.505950, -79.373512 )
+ga_view_center_set( 0.313317, 0.101843 )
+ga_view_zoom_set( 0.243663 )
+ga_view_center_set( 0.341146, 0.097668 )
+ga_view_zoom_set( 0.274120 )
+ga_view_center_set( 0.372455, 0.092972 )
+ga_view_zoom_set( 0.308386 )
+ga_view_aa_set( -23.944941, -25.990015, -101.551086 )
+ga_view_aa_set( -48.037102, -22.971474, -97.006058 )
+ga_view_aa_set( -20.400446, 5.263269, -68.616936 )
+ga_view_center_set( 0.462857, 0.095320 )
+ga_view_zoom_set( 0.346934 )
+ga_view_center_set( 0.564560, 0.097962 )
+ga_view_zoom_set( 0.390300 )
+ga_view_center_set( 0.678975, 0.100934 )
+ga_view_zoom_set( 0.439088 )
+ga_view_aa_set( -53.758434, 14.813785, -61.681087 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 1, ["Bandeja_B"] )
+ga_view_aa_set( -21.902727, 5.700341, -124.035530 )
+ga_view_center_set( -0.056948, -0.023478 )
+ga_view_zoom_set( 0.299374 )
+ga_view_center_set( -0.109566, -0.017779 )
+ga_view_zoom_set( 0.336796 )
+ga_view_center_set( -0.168762, -0.011368 )
+ga_view_zoom_set( 0.378895 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 2, ["Bandeja_B",  @
+"Bandeja_C"] )
+ga_view_aa_set( -73.246910, -1.459149, -128.262360 )
+ga_view_center_set( 0.054092, -0.032069 )
+ga_view_zoom_set( 0.462013 )
+ga_view_center_set( 0.105687, -0.047444 )
+ga_view_zoom_set( 0.410679 )
+ga_view_center_set( 0.151550, -0.061110 )
+ga_view_zoom_set( 0.365048 )
+ga_view_center_set( 0.192316, -0.073258 )
+ga_view_zoom_set( 0.324487 )
+ga_view_center_set( 0.224161, -0.085337 )
+ga_view_zoom_set( 0.288433 )
+ga_view_center_set( 0.252142, -0.096236 )
+ga_view_zoom_set( 0.256385 )
+ga_view_center_set( 0.277014, -0.105925 )
+ga_view_zoom_set( 0.227897 )
+ga_view_center_set( 0.297323, -0.114794 )
+ga_view_zoom_set( 0.202575 )
+ga_view_aa_set( -74.350677, 2.812174, -117.045395 )
+ga_view_aa_set( -84.748657, 3.651364, -110.086540 )
+ga_view_center_set( 0.263518, -0.117493 )
+ga_view_zoom_set( 0.227897 )
+ga_view_center_set( 0.225487, -0.120530 )
+ga_view_zoom_set( 0.256385 )
+ga_view_center_set( 0.182702, -0.123946 )
+ga_view_zoom_set( 0.288433 )
+ga_view_center_set( 0.134569, -0.127789 )
+ga_view_zoom_set( 0.324487 )
+ga_view_center_set( 0.080419, -0.132113 )
+ga_view_zoom_set( 0.365048 )
+ga_view_center_set( 0.019500, -0.136977 )
+ga_view_zoom_set( 0.410679 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 3, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C"] )
+ga_view_aa_set( -80.230194, -1.339724, -126.352226 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 4, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C", "Panel1"] )
+ga_view_aa_set( -79.131966, 5.013701, -126.092537 )
+ga_view_aa_set( -68.319221, 5.205384, -124.059868 )
+ga_view_center_set( 0.018317, -0.025638 )
+ga_view_zoom_set( 0.423796 )
+ga_view_center_set( 0.040308, -0.050258 )
+ga_view_zoom_set( 0.376708 )
+ga_view_center_set( 0.059855, -0.072142 )
+ga_view_zoom_set( 0.334852 )
+ga_view_center_set( 0.077230, -0.091595 )
+ga_view_zoom_set( 0.297646 )
+ga_view_center_set( 0.092675, -0.108886 )
+ga_view_zoom_set( 0.264574 )
+ga_view_center_set( 0.106404, -0.124256 )
+ga_view_zoom_set( 0.235177 )
+ga_view_aa_set( -71.407707, 5.490288, -123.104118 )
+ga_view_aa_set( -63.698303, 6.779430, -120.379898 )
+uil_primary_file.db_save(  )
+ga_view_center_set( 0.063576, -0.119929 )
+ga_view_zoom_set( 0.264574 )
+ga_view_center_set( 0.015395, -0.115060 )
+ga_view_zoom_set( 0.297646 )
+ga_view_center_set( -0.038808, -0.109583 )
+ga_view_zoom_set( 0.334852 )
+ga_view_center_set( -0.099787, -0.103422 )
+ga_view_zoom_set( 0.376708 )
+ga_view_center_set( -0.168388, -0.096490 )
+ga_view_zoom_set( 0.423796 )
+ga_view_center_set( -0.245564, -0.088692 )
+ga_view_zoom_set( 0.476771 )
+ga_view_center_set( -0.168388, -0.096490 )
+ga_view_zoom_set( 0.423796 )
+ga_view_center_set( -0.099787, -0.103422 )
+ga_view_zoom_set( 0.376708 )
+ga_view_center_set( -0.038808, -0.109583 )
+ga_view_zoom_set( 0.334852 )
+ga_view_center_set( 0.015395, -0.115060 )
+ga_view_zoom_set( 0.297646 )
+ga_view_center_set( 0.063575, -0.119929 )
+ga_view_zoom_set( 0.264574 )
+ga_view_center_set( 0.106403, -0.124256 )
+ga_view_zoom_set( 0.235177 )
+ga_view_aa_set( -68.460426, 8.656337, -114.642426 )
+ga_view_aa_set( -66.756104, 9.385888, -112.756897 )
+ga_view_aa_set( -93.665268, 10.375140, -124.896935 )
+ga_view_aa_set( -54.018600, 18.507500, -107.802208 )
+ga_view_aa_set( -68.746887, 17.393684, -111.932381 )
+ga_view_aa_set( -55.173210, 17.633064, -123.106117 )
+ga_view_aa_set( -57.309692, 23.109026, -111.842789 )
+ga_view_aa_set( -54.998718, 35.529404, -114.091095 )
+ga_view_aa_set( -75.156425, 25.593655, -117.751572 )
+ga_view_aa_set( -50.744095, -3.144407, 174.158386 )
+ga_view_aa_set( -49.756741, 1.129956, -174.850327 )
+ga_view_aa_set( -77.521935, 10.767015, 170.717133 )
+ga_view_center_set( 0.107746, -0.123809 )
+ga_view_zoom_set( 0.264574 )
+ga_view_center_set( 0.109256, -0.123305 )
+ga_view_zoom_set( 0.297646 )
+ga_view_center_set( 0.110956, -0.122739 )
+ga_view_zoom_set( 0.334852 )
+ga_view_center_set( 0.112868, -0.122101 )
+ga_view_zoom_set( 0.376708 )
+ga_view_aa_set( -58.660416, -2.535281, 128.893036 )
+fem_modify_mpc_nodal2( 5, 1.2E-05, 2, [TRUE, FALSE], ["0", "0"], [ @
+"Node 10128 10435 10417 10152", "Node 60000"], ["UX,UY,UZ", ""] )
+$# MPC 5 modified.
+ga_view_aa_set( -72.537155, 2.005785, -106.478813 )
+ga_view_aa_set( -70.611328, 9.685561, -132.069977 )
+ga_view_aa_set( -62.444801, -4.062739, -171.654938 )
+ga_view_center_set( 0.114143, -0.142711 )
+ga_view_zoom_set( 0.334852 )
+ga_view_center_set( 0.115276, -0.161219 )
+ga_view_zoom_set( 0.297646 )
+ga_view_center_set( 0.116284, -0.177671 )
+ga_view_zoom_set( 0.264574 )
+ga_view_center_set( 0.117179, -0.192295 )
+ga_view_zoom_set( 0.235177 )
+ga_view_center_set( 0.117975, -0.205294 )
+ga_view_zoom_set( 0.209046 )
+ga_view_aa_set( -68.071564, -2.525743, -164.789276 )
+ga_view_aa_set( -74.432083, -9.634979, -142.015015 )
+ga_view_aa_set( -74.468246, 2.223463, -88.173729 )
+ga_view_aa_set( -59.087101, 5.986932, -112.709427 )
+ga_view_center_set( 0.149332, -0.345355 )
+ga_view_aa_set( -57.459713, -15.815476, 168.851364 )
+ga_view_aa_set( -70.093285, -21.671391, 169.813187 )
+fem_modify_mpc_nodal2( 1, 1.2E-05, 2, [TRUE, FALSE], ["0", "0"], [ @
+"Node 43256 46805 46623 43438", "Node 41164"], ["UX,UY,UZ", ""] )
+$# MPC 1 modified.
+ga_view_aa_set( -66.480888, 8.175513, -114.192589 )
+ga_view_center_set( 0.145883, -0.336203 )
+ga_view_zoom_set( 0.235177 )
+ga_view_center_set( 0.142153, -0.326056 )
+ga_view_zoom_set( 0.264574 )
+ga_view_center_set( 0.137956, -0.314640 )
+ga_view_zoom_set( 0.297646 )
+ga_view_center_set( 0.133234, -0.301798 )
+ga_view_zoom_set( 0.334852 )
+ga_view_center_set( 0.127922, -0.287350 )
+ga_view_zoom_set( 0.376708 )
+ga_view_center_set( 0.121947, -0.271096 )
+ga_view_zoom_set( 0.423796 )
+ga_view_aa_set( -39.644123, -2.936252, -164.480270 )
+ga_view_aa_set( -78.268845, 6.634878, -151.746979 )
+uil_viewport_post_groups.posted_groups( "default_viewport", 9, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C", "Bandeja_D", "Panel1", "Panel2", "Panel3", "Panel4", @
+ "Rigidizadores"] )
+ga_view_aa_set( -67.395721, 8.082956, 178.936996 )
+uil_primary_file.db_save(  )
+ga_view_aa_set( -83.786339, 3.152568, 100.171288 )
+ga_view_aa_set( -75.978531, -16.949360, 24.011385 )
+ga_view_aa_set( -72.279045, 0.834677, 65.889053 )
+ga_view_aa_set( -87.792435, 2.346171, 81.795059 )
+ga_view_aa_set( -100.597084, 6.122338, 46.993874 )
+ga_view_aa_set( -53.908310, 2.254134, 36.608932 )
+$#  Beginning analysis of  dresia
+jobfile.open( "dresia", "ANALYZE NO JOBFILE" )
+$# Question from application APP INTERFACES
+$#     The jobname (dresia) is already defined in the database. Do you wish 
+$# to overwrite?
+$? YES 6016027 
+msc_delete_old_files( "dresia", ".bdf", ".op2" )
+$# Question from application APP INTERFACES
+$#     Files from a previous analysis conflict with the current job name: 
+$# "dresia".  These files are dresia.xdb, dresia.DBALL, dresia.MASTER, 
+$# dresia.f04, dresia.f06, dresia.log, dresia.IFPDAT, dresia.h5, dresia.bdf.  
+$# Will you permit deletion of these files?
+$? YES 6022037 
+$# Warning reported from application APP INTERFACES
+$#     The attachment to the file 
+$# C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb has been deleted because 
+$# that file is being deleted.
+jobfile.write_spl( "/* Jobfile for PATNAS created %A% at %A% */", ["05-Jun-21" @
+, "11:18:48"] )
+jobfile.writec( "", "TRANSLATOR = pat3nas" )
+jobfile.writec( "DATABASE", "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db" )
+jobfile.writec( "JOBNAME", "dresia" )
+jobfile.writec( "ANALYSIS TITLE", "" )
+jobfile.writec( "ANALYSIS SUBTITLE", "" )
+jobfile.writec( "ANALYSIS LABEL", "" )
+jobfile.writec( "", "" )
+jobfile.writec( "OBJECT", "Entire Model" )
+jobfile.writec( "METHOD", "Full Run" )
+jobfile.writec( "", "" )
+jobfile.writec( "MODEL SUFFIX", ".bdf" )
+jobfile.writec( "RESULTS SUFFIX", ".op2" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * File Search Path Declaration" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\extra_files" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\helpfiles" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\alters" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons\RibbonIcons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin\exe" )
+jobfile.writec( "File Search Path", "C:\Users\María" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\dmap" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\lib" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscexplore_files\" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Translation Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "DATA OUTPUT", "XDB+PRINT+HDF5" )
+jobfile.writec( "OUTPUT2 REQUESTS", "P3 Built In" )
+jobfile.writec( "OUTPUT2 FORMAT", "Binary" )
+jobfile.writec( "DIVISION TOLERANCE", "1.0e-08" )
+jobfile.writec( "NUMERICAL TOLERANCE", "1.0e-04" )
+jobfile.writec( "WRITING TOLERANCE", "1.0e-21" )
+jobfile.writec( "GEOM CHECK", "INFORM" )
+jobfile.writec( "SORTED BULK", "NO" )
+jobfile.writec( "CARD FORMAT", "either" )
+jobfile.writec( "NODE COORDINATES", "reference frame" )
+jobfile.writec( "COORD COORDINATES", "global" )
+jobfile.writec( "MSC.Nastran VERSION", "2020." )
+jobfile.writec( "WRITE STORED PRECISION", "TRUE" )
+jobfile.writec( "WRITE IN FREE FORMAT", "FALSE" )
+jobfile.writec( "PROPS ON ELEM ENTRY", "FALSE" )
+jobfile.writec( "CONTINUATION ENTRY", "FALSE" )
+jobfile.writec( "PCOMPG ENTRY", "TRUE" )
+jobfile.writec( "CONVERT CBAR CBEAM", "FALSE" )
+jobfile.writec( "ITERATIVE SOLVER", "FALSE" )
+jobfile.writei( "SUPER ELEMENT 0", 0 )
+jobfile.writec( "SEALL WRITE", "FALSE" )
+jobfile.writec( "PART SUPERELEMENT CREATE", "TRUE" )
+jobfile.writec( "AUTOQSET", "FALSE" )
+jobfile.writec( "FIXEDB", "FALSE" )
+jobfile.writei( "SUPER TREE COUNT", 0 )
+jobfile.writec( "MODEL TOLERANCE", "0.00039999999" )
+jobfile.writec( "ELEMENT PROPERTY OFFSET", "0" )
+jobfile.writec( "MATERIAL PROPERTY OFFSET", "0" )
+jobfile.writec( "TABLE OFFSET", "0" )
+jobfile.writec( "LOAD SET OFFSET", "0" )
+jobfile.writec( "LOAD CASE OFFSET", "0" )
+jobfile.writec( "CONTROL SET OFFSET", "0" )
+jobfile.writec( "RIGID ELEMENT OFFSET", "0" )
+jobfile.writec( "SCALAR POINT OFFSET", "0" )
+jobfile.writec( "BEGINNING CONTINUATION MARKER", "+      A" )
+jobfile.writec( "NUMBER ONLY", "ON" )
+jobfile.writec( "BEGINNING NUMBER", "OFF" )
+jobfile.writec( "TRAILING NUMBER", "OFF" )
+jobfile.writec( "SYNTAX NUMBER", "ON" )
+jobfile.writec( "SYNTAX MARKER", "." )
+jobfile.writec( "EXTERNAL SUPERELEMENT METHOD", "NONE" )
+jobfile.writec( "GRID COORDINATES ROUNDING", "15" )
+jobfile.writec( "COORD DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "MPC DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "LBC DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "MAT DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "PROP DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "USE LEGACY PRECISION", "FALSE" )
+jobfile.writec( "EXPONENTIAL WRITE", "As Needed" )
+jobfile.writec( "EXPONENTIAL FORM", "Condensed" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Solution Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "SOLUTION TYPE", "NORMAL MODES" )
+jobfile.writei( "SOLUTION SEQUENCE", 103 )
+jobfile.writec( "CONTACT CHECK", "OFF" )
+jobfile.writec( "DATABASE RUN", "ON" )
+jobfile.writec( "INTERACTIVE MODES", "OFF" )
+jobfile.writec( "CYCLIC SYMMETRY", "OFF" )
+jobfile.writec( "AUTOMATIC CONSTRAINTS", "ON" )
+jobfile.writec( "SHELL NORMAL TOLERANCE", "" )
+jobfile.writec( "MASS CALCULATION", "Lumped" )
+jobfile.writec( "DATA DECK ECHO", "None" )
+jobfile.writec( "PLATE RZ STIFFNESS FACTOR", "100.0" )
+jobfile.writec( "MAXIMUM PRINTED LINES", "" )
+jobfile.writec( "MAXIMUM RUN TIME", "" )
+jobfile.writec( "WT-MASS CONVERSION", "1.0" )
+jobfile.writec( "NODE ID FOR WT-GENER", "" )
+jobfile.writec( "RIGID ELEMENT TYPE", "LINEAR" )
+jobfile.writec( "USE SOL600", "OFF" )
+jobfile.writec( "RESIDUAL VECTOR", "Nastran Default" )
+jobfile.writec( "SN MEAN STRESS CORRECTION", "NONE" )
+jobfile.writec( "NEF FATIGUE STRESS OUTPUT", "NONE" )
+jobfile.writec( "NEF STRESS UNITS", "MPA" )
+jobfile.writec( "NEF STRESS COMBINATION", "ABSMAXPR" )
+jobfile.writec( "NEF RESULT LOCATION", "NODA" )
+jobfile.writec( "NEF RECOVERY LOCATION", "CORNER" )
+jobfile.writec( "NEF LAYER LOCATION", "WORST" )
+jobfile.writec( "NEF INTERPOLATION LIMIT", "0" )
+jobfile.writec( "NEF LEVEL OF MESSAGE", "0" )
+jobfile.writec( "NEF NUMBER OF THREADS", "1" )
+jobfile.writer( "NEF CERTAINTY OF SURVIVAL", 50. )
+jobfile.writer( "NEF OVERALL SCALE FACTOR", 1. )
+jobfile.writer( "NEF TOP STRESS PERCENTAGE FILTER", 100. )
+jobfile.writer( "NEF TOP DAMAGE PERCENTAGE FILTER", 100. )
+jobfile.writec( "NEF TIME HISTORY DIRECTORY", "C:\Users\Andrés" )
+jobfile.writei( "NEF MAX LOAD PER EVENT", 1 )
+jobfile.writec( "NEF EVENT DATA", "0" )
+jobfile.writec( "NEF LOAD SEQUENCE DATA", "0" )
+jobfile.writec( "USE CONTACT TABLE", "OFF" )
+jobfile.writec( "INITIAL CONTACTPAIR LOADCASE NAME", "" )
+jobfile.writei( "MDOF DATA", 0 )
+jobfile.writec( "CELL WRITE", "ON" )
+jobfile.writei( "CELL INPUT 0", 0 )
+jobfile.writec( "FMS WRITE", "ON" )
+jobfile.writei( "FMS INPUT 0", 0 )
+jobfile.writec( "EXEC WRITE", "ON" )
+jobfile.writei( "EXEC INPUT 0", 0 )
+jobfile.writec( "CASE WRITE", "ON" )
+jobfile.writei( "CASE INPUT 0", 0 )
+jobfile.writec( "BULK WRITE", "ON" )
+jobfile.writei( "BULK INPUT 0", 0 )
+jobfile.writec( "CELL DTI POSITION", "START" )
+jobfile.writec( "FMS DTI POSITION", "START" )
+jobfile.writec( "EXEC DTI POSITION", "START" )
+jobfile.writec( "CASE DTI POSITION", "START" )
+jobfile.writec( "BULK DTI POSITION", "START" )
+jobfile.writec( "", "END" )
+jobfile.close(  )
+mscnastran_job.associate_subcases( "103", "dresia", 1, ["Default"] )
+analysis_submit_2( "MSC.Nastran", "dresia" )
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-3VPGNSK(
+$# c01885f775c5) (Windows 6.2 (Build 9200: Service Pack 0)) at 05-Jun-21 
+$# 11:18:49.
+$# 
+$# Reading model information from the specified database, 
+$# C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db.
+$# Messages output from the Patran 2020  (Student Edition) input deck 
+$# translator on June      05, 2021 at 11:18:49.
+$# 
+$# The NASTRAN input file, dresia.bdf, has been successfully opened.
+$# 
+$# Translating 3 elements from the element property region masa_equipos.
+$# 
+$# Translating 258 elements from the element property region 
+$# rigidizador_exterior.
+$# 
+$# Translating 1089 elements from the element property region 
+$# rigidizador_interior.
+$# 
+$# Translating 1890 elements from the element property region composite_plate.
+$# 
+$# Translating 86 elements from the element property region 
+$# SM_001_rigidizador_exterior.
+$# 
+$# Translating 363 elements from the element property region 
+$# SM_001_rigidizador_interior.
+$# 
+$# Translating 10 elements from the element property region tornillo.
+$# 
+$# Translating 630 elements from the element property region 
+$# SM_001_composite_plate.
+$# 
+$# Translating 15 elements from the element property region viga4.
+$# 
+$# Translating 15 elements from the element property region viga1.
+$# 
+$# Translating 15 elements from the element property region viga3.
+$# 
+$# Translating 15 elements from the element property region viga2.
+$# 
+$# Translating 1290 elements from the element property region composite_panel.
+$# 
+$# 13 property regions translated.
+$# 
+$# Translating 5 referenced material records.
+$# 
+$# Translating 3 multipoint constraints from the entire model.
+$# 
+$# Translating 3742 nodes from the entire model.
+$# 
+$# Writing loads for Load Case : Default.
+$# 
+$# Translating nodal constraints in load set : CBUSH-D.
+$# Writing interface element lbcs.
+$# Total execution time in real seconds: 0.01
+$# Total execution time in CPU seconds: 0.593994
+$# 
+$# End of NASTRAN input file translation.
+$# Student Edition Patran Nastran Preference Patran 2020  (Student Edition) 
+$# has released 0 license(s) to FLEXlm at 05-Jun-21 11:18:49.
+$# The translation has completed successfully.
+$# Executing /bin/sh -c C:\Program 
+$# Files\MSC.Software\NaPa_SE\2020\Patran\bin\MscNa
+$# stranExecute.exe -j dresia -m bdf -x 2020 -c %%prog=edu%auth=edu%arch=64% -v
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresi" // @
+"a.db" )
+msc_dra_add_param( "JOBNAME", "dresia" )
+msc_dra_add_param( "RESULTS FILE", "C:\MUSE\EUE\Practica2_EUE\Satelite\0\d" // @
+"resia.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "0.00039999999" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "dresia", "Attach Results File No Job",  @
+"C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/2956 (DESKTOP-3 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:DEFAULT
+$# Processing result sub-case: Mode 1 : Freq. = 70.441
+$# Processing result sub-case: Mode 2 : Freq. = 86.69
+$# Processing result sub-case: Mode 3 : Freq. = 93.844
+$# Processing result sub-case: Mode 4 : Freq. = 102.02
+$# Processing result sub-case: Mode 5 : Freq. = 103.5
+$# Processing result sub-case: Mode 6 : Freq. = 103.62
+$# Processing result sub-case: Mode 7 : Freq. = 104.77
+$# Processing result sub-case: Mode 8 : Freq. = 104.84
+$# Processing result sub-case: Mode 9 : Freq. = 105.19
+$# Processing result sub-case: Mode 10 : Freq. = 105.85
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.000
+$# *** End:   Attach Result File ***
+uil_primary_file.db_save(  )
