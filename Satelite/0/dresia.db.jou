@@ -18260,3 +18260,466 @@ $# Total execution time in CPU  seconds:        0.016
 $# *** End:   Attach Result File ***
 ga_view_aa_set( -75.910316, -3.504671, -53.661659 )
 uil_primary_file.db_save(  )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "Default",  @
+"A1:Mode 3 : Freq. = 93.84", "Eigenvectors", "Translational", "(NON-LAYERED)", @
+ "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "Default",  @
+"A1:Mode 3 : Freq. = 93.84", "Eigenvectors", "Translational", "(NON-LAYERED)", @
+ "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -45.928619, 5.885752, 84.933731 )
+ga_view_aa_set( -80.618591, 7.119015, 109.269508 )
+ga_view_aa_set( -16.945642, -37.924519, 95.124817 )
+ga_view_aa_set( -113.211266, -4.207976, 128.150528 )
+ga_view_aa_set( -69.005180, -2.921147, 103.946472 )
+mat_create_lam3( "ply_symmetric117", "", 1, ["Carbon_fibre_tape",  @
+"Carbon_fibre_tape", "Carbon_fibre_tape", "Carbon_fibre_tape",  @
+"Carbon_fibre_tape", "Carbon_fibre_tape", "Carbon_fibre_tape",  @
+"Carbon_fibre_tape", "Carbon_fibre_tape", "Carbon_fibre_tape",  @
+"Carbon_fibre_tape", "Carbon_fibre_tape", "Carbon_fibre_tape"], [ @
+" 9.000000E-05", " 9.000000E-05", " 9.000000E-05", " 9.000000E-05",  @
+" 9.000000E-05", " 9.000000E-05", " 9.000000E-05", " 9.000000E-05",  @
+" 9.000000E-05", " 9.000000E-05", " 9.000000E-05", " 9.000000E-05",  @
+" 9.000000E-05"], ["  0.000000E+0", "  4.500000E+1", "  9.000000E+1",  @
+" -4.500000E+1", "  0.000000E+0", "  9.000000E+1", "  4.500000E+1",  @
+"  9.000000E+1", "  0.000000E+0", " -4.500000E+1", "  9.000000E+1",  @
+"  4.500000E+1", "  0.000000E+0"], ["", "", "", "", "", "", "", "", "", "", "" @
+, "", ""], 13, "", "Create" )
+elementprops_create( "composite_panel", 51, 25, 35, 1, 1, 20, [13, 20, 36,  @
+4037, 4111, 4118, 4119, 8111, 4401, 4402, 4403, 4404, 4405, 4406, 4407, 4408,  @
+4409], [5, 2, 1, 1, 1, 1, 1, 4, 4, 1, 1, 1, 1, 1, 1, 4, 4], [ @
+"m:ply_symmetric117", "<0. 0. 1.>", "0.00117", "1.4400001", "", "", "", "", "" @
+, "", "", "", "", "", "", "", ""], "Surface 70000:70003" )
+$# Critical Decision requested from application ELEM_PROPS
+$#     Property Set "composite_panel" Exists. Overwrite?
+$? YES 29002006 
+$# Property Set "composite_panel" created.
+ga_view_aa_set( -76.270248, -22.811148, 44.317894 )
+ga_view_aa_set( -51.803898, -34.979042, 5.730336 )
+ga_view_aa_set( -86.477570, 24.951017, 77.885925 )
+ga_view_aa_set( -58.180935, 4.003975, -11.908828 )
+ga_view_aa_set( -96.653450, 4.150086, 49.807789 )
+ga_view_aa_set( -43.558750, 28.981903, 108.549858 )
+ga_view_aa_set( -20.201160, 5.262907, 95.137512 )
+ga_view_aa_set( -87.838737, -10.608461, 106.869881 )
+$#  Beginning analysis of  dresia
+jobfile.open( "dresia", "ANALYZE NO JOBFILE" )
+$# Question from application APP INTERFACES
+$#     The jobname (dresia) is already defined in the database. Do you wish 
+$# to overwrite?
+$? YES 6016027 
+msc_delete_old_files( "dresia", ".bdf", ".op2" )
+$# Question from application APP INTERFACES
+$#     Files from a previous analysis conflict with the current job name: 
+$# "dresia".  These files are dresia.xdb, dresia.DBALL, dresia.MASTER, 
+$# dresia.f04, dresia.f06, dresia.log, dresia.IFPDAT, dresia.h5, dresia.bdf.  
+$# Will you permit deletion of these files?
+$? YES 6022037 
+$# Warning reported from application APP INTERFACES
+$#     The attachment to the file 
+$# C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb has been deleted because 
+$# that file is being deleted.
+jobfile.write_spl( "/* Jobfile for PATNAS created %A% at %A% */", ["05-Jun-21" @
+, "12:06:41"] )
+jobfile.writec( "", "TRANSLATOR = pat3nas" )
+jobfile.writec( "DATABASE", "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db" )
+jobfile.writec( "JOBNAME", "dresia" )
+jobfile.writec( "ANALYSIS TITLE", "" )
+jobfile.writec( "ANALYSIS SUBTITLE", "" )
+jobfile.writec( "ANALYSIS LABEL", "" )
+jobfile.writec( "", "" )
+jobfile.writec( "OBJECT", "Entire Model" )
+jobfile.writec( "METHOD", "Full Run" )
+jobfile.writec( "", "" )
+jobfile.writec( "MODEL SUFFIX", ".bdf" )
+jobfile.writec( "RESULTS SUFFIX", ".op2" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * File Search Path Declaration" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscexplore_files\" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\helpfiles" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\alters" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\icons\RibbonIcons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\bin\exe" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\extra_files" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\dmap" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\plb" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\lib" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\mscprocor_files\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\icons" )
+jobfile.writec( "File Search Path", "C:\Program Files\MSC.Software\NaPa_SE" // @
+"\2020\Patran\shareware\msc\unsupported\utilities\plb" )
+jobfile.writec( "File Search Path", "C:\Users\María" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Translation Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "DATA OUTPUT", "XDB+PRINT+HDF5" )
+jobfile.writec( "OUTPUT2 REQUESTS", "P3 Built In" )
+jobfile.writec( "OUTPUT2 FORMAT", "Binary" )
+jobfile.writec( "DIVISION TOLERANCE", "1.0e-08" )
+jobfile.writec( "NUMERICAL TOLERANCE", "1.0e-04" )
+jobfile.writec( "WRITING TOLERANCE", "1.0e-21" )
+jobfile.writec( "GEOM CHECK", "INFORM" )
+jobfile.writec( "SORTED BULK", "NO" )
+jobfile.writec( "CARD FORMAT", "either" )
+jobfile.writec( "NODE COORDINATES", "reference frame" )
+jobfile.writec( "COORD COORDINATES", "global" )
+jobfile.writec( "MSC.Nastran VERSION", "2020." )
+jobfile.writec( "WRITE STORED PRECISION", "TRUE" )
+jobfile.writec( "WRITE IN FREE FORMAT", "FALSE" )
+jobfile.writec( "PROPS ON ELEM ENTRY", "FALSE" )
+jobfile.writec( "CONTINUATION ENTRY", "FALSE" )
+jobfile.writec( "PCOMPG ENTRY", "TRUE" )
+jobfile.writec( "CONVERT CBAR CBEAM", "FALSE" )
+jobfile.writec( "ITERATIVE SOLVER", "FALSE" )
+jobfile.writei( "SUPER ELEMENT 0", 0 )
+jobfile.writec( "SEALL WRITE", "FALSE" )
+jobfile.writec( "PART SUPERELEMENT CREATE", "TRUE" )
+jobfile.writec( "AUTOQSET", "FALSE" )
+jobfile.writec( "FIXEDB", "FALSE" )
+jobfile.writei( "SUPER TREE COUNT", 0 )
+jobfile.writec( "MODEL TOLERANCE", "0.00039999999" )
+jobfile.writec( "ELEMENT PROPERTY OFFSET", "0" )
+jobfile.writec( "MATERIAL PROPERTY OFFSET", "0" )
+jobfile.writec( "TABLE OFFSET", "0" )
+jobfile.writec( "LOAD SET OFFSET", "0" )
+jobfile.writec( "LOAD CASE OFFSET", "0" )
+jobfile.writec( "CONTROL SET OFFSET", "0" )
+jobfile.writec( "RIGID ELEMENT OFFSET", "0" )
+jobfile.writec( "SCALAR POINT OFFSET", "0" )
+jobfile.writec( "BEGINNING CONTINUATION MARKER", "+      A" )
+jobfile.writec( "NUMBER ONLY", "ON" )
+jobfile.writec( "BEGINNING NUMBER", "OFF" )
+jobfile.writec( "TRAILING NUMBER", "OFF" )
+jobfile.writec( "SYNTAX NUMBER", "ON" )
+jobfile.writec( "SYNTAX MARKER", "." )
+jobfile.writec( "EXTERNAL SUPERELEMENT METHOD", "NONE" )
+jobfile.writec( "GRID COORDINATES ROUNDING", "15" )
+jobfile.writec( "COORD DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "MPC DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "LBC DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "MAT DATA PRECISION ROUNDING", "15" )
+jobfile.writec( "PROP DATA PRECISION ROUNDING", "7" )
+jobfile.writec( "USE LEGACY PRECISION", "FALSE" )
+jobfile.writec( "EXPONENTIAL WRITE", "As Needed" )
+jobfile.writec( "EXPONENTIAL FORM", "Condensed" )
+jobfile.writec( "", "" )
+jobfile.writec( "", "/*" )
+jobfile.writec( "", " * Solution Parameters" )
+jobfile.writec( "", " */" )
+jobfile.writec( "", "" )
+jobfile.writec( "SOLUTION TYPE", "NORMAL MODES" )
+jobfile.writei( "SOLUTION SEQUENCE", 103 )
+jobfile.writec( "CONTACT CHECK", "OFF" )
+jobfile.writec( "DATABASE RUN", "ON" )
+jobfile.writec( "INTERACTIVE MODES", "OFF" )
+jobfile.writec( "CYCLIC SYMMETRY", "OFF" )
+jobfile.writec( "AUTOMATIC CONSTRAINTS", "ON" )
+jobfile.writec( "SHELL NORMAL TOLERANCE", "" )
+jobfile.writec( "MASS CALCULATION", "Lumped" )
+jobfile.writec( "DATA DECK ECHO", "None" )
+jobfile.writec( "PLATE RZ STIFFNESS FACTOR", "100.0" )
+jobfile.writec( "MAXIMUM PRINTED LINES", "" )
+jobfile.writec( "MAXIMUM RUN TIME", "" )
+jobfile.writec( "WT-MASS CONVERSION", "1.0" )
+jobfile.writec( "NODE ID FOR WT-GENER", "" )
+jobfile.writec( "RIGID ELEMENT TYPE", "LINEAR" )
+jobfile.writec( "USE SOL600", "OFF" )
+jobfile.writec( "RESIDUAL VECTOR", "Nastran Default" )
+jobfile.writec( "SN MEAN STRESS CORRECTION", "NONE" )
+jobfile.writec( "NEF FATIGUE STRESS OUTPUT", "NONE" )
+jobfile.writec( "NEF STRESS UNITS", "MPA" )
+jobfile.writec( "NEF STRESS COMBINATION", "ABSMAXPR" )
+jobfile.writec( "NEF RESULT LOCATION", "NODA" )
+jobfile.writec( "NEF RECOVERY LOCATION", "CORNER" )
+jobfile.writec( "NEF LAYER LOCATION", "WORST" )
+jobfile.writec( "NEF INTERPOLATION LIMIT", "0" )
+jobfile.writec( "NEF LEVEL OF MESSAGE", "0" )
+jobfile.writec( "NEF NUMBER OF THREADS", "1" )
+jobfile.writer( "NEF CERTAINTY OF SURVIVAL", 50. )
+jobfile.writer( "NEF OVERALL SCALE FACTOR", 1. )
+jobfile.writer( "NEF TOP STRESS PERCENTAGE FILTER", 100. )
+jobfile.writer( "NEF TOP DAMAGE PERCENTAGE FILTER", 100. )
+jobfile.writec( "NEF TIME HISTORY DIRECTORY", "C:\Users\Andrés" )
+jobfile.writei( "NEF MAX LOAD PER EVENT", 1 )
+jobfile.writec( "NEF EVENT DATA", "0" )
+jobfile.writec( "NEF LOAD SEQUENCE DATA", "0" )
+jobfile.writec( "USE CONTACT TABLE", "OFF" )
+jobfile.writec( "INITIAL CONTACTPAIR LOADCASE NAME", "" )
+jobfile.writei( "MDOF DATA", 0 )
+jobfile.writec( "CELL WRITE", "ON" )
+jobfile.writei( "CELL INPUT 0", 0 )
+jobfile.writec( "FMS WRITE", "ON" )
+jobfile.writei( "FMS INPUT 0", 0 )
+jobfile.writec( "EXEC WRITE", "ON" )
+jobfile.writei( "EXEC INPUT 0", 0 )
+jobfile.writec( "CASE WRITE", "ON" )
+jobfile.writei( "CASE INPUT 0", 0 )
+jobfile.writec( "BULK WRITE", "ON" )
+jobfile.writei( "BULK INPUT 0", 0 )
+jobfile.writec( "CELL DTI POSITION", "START" )
+jobfile.writec( "FMS DTI POSITION", "START" )
+jobfile.writec( "EXEC DTI POSITION", "START" )
+jobfile.writec( "CASE DTI POSITION", "START" )
+jobfile.writec( "BULK DTI POSITION", "START" )
+jobfile.writec( "", "END" )
+jobfile.close(  )
+mscnastran_job.associate_subcases( "103", "dresia", 1, ["Default"] )
+analysis_submit_2( "MSC.Nastran", "dresia" )
+$# Patran 2020  (Student Edition) has obtained 0 concurrent license(s) from 
+$# FLEXlm per a request to execute on Windows node DESKTOP-3VPGNSK(
+$# c01885f775c5) (Windows 6.2 (Build 9200: Service Pack 0)) at 05-Jun-21 
+$# 12:06:41.
+$# 
+$# Reading model information from the specified database, 
+$# C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db.
+$# Messages output from the Patran 2020  (Student Edition) input deck 
+$# translator on June      05, 2021 at 12:06:41.
+$# 
+$# The NASTRAN input file, dresia.bdf, has been successfully opened.
+$# 
+$# Translating 3 elements from the element property region masa_equipos.
+$# 
+$# Translating 258 elements from the element property region 
+$# rigidizador_exterior.
+$# 
+$# Translating 1089 elements from the element property region 
+$# rigidizador_interior.
+$# 
+$# Translating 1890 elements from the element property region composite_plate.
+$# 
+$# Translating 86 elements from the element property region 
+$# SM_001_rigidizador_exterior.
+$# 
+$# Translating 363 elements from the element property region 
+$# SM_001_rigidizador_interior.
+$# 
+$# Translating 10 elements from the element property region tornillo.
+$# 
+$# Translating 630 elements from the element property region 
+$# SM_001_composite_plate.
+$# 
+$# Translating 15 elements from the element property region viga4.
+$# 
+$# Translating 15 elements from the element property region viga1.
+$# 
+$# Translating 15 elements from the element property region viga3.
+$# 
+$# Translating 15 elements from the element property region viga2.
+$# 
+$# Translating 1290 elements from the element property region composite_panel.
+$# 
+$# 13 property regions translated.
+$# 
+$# Translating 5 referenced material records.
+$# 
+$# Translating 3 multipoint constraints from the entire model.
+$# 
+$# Translating 3742 nodes from the entire model.
+$# 
+$# Writing loads for Load Case : Default.
+$# 
+$# Translating nodal constraints in load set : CBUSH-D.
+$# Writing interface element lbcs.
+$# Total execution time in real seconds: 1
+$# Total execution time in CPU seconds: 0.954102
+$# 
+$# End of NASTRAN input file translation.
+$# Student Edition Patran Nastran Preference Patran 2020  (Student Edition) 
+$# has released 0 license(s) to FLEXlm at 05-Jun-21 12:06:42.
+$# The translation has completed successfully.
+$# Executing /bin/sh -c C:\Program 
+$# Files\MSC.Software\NaPa_SE\2020\Patran\bin\MscNa
+$# stranExecute.exe -j dresia -m bdf -x 2020 -c %%prog=edu%auth=edu%arch=64% -v
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresi" // @
+"a.db" )
+msc_dra_add_param( "JOBNAME", "dresia" )
+msc_dra_add_param( "RESULTS FILE", "C:\MUSE\EUE\Practica2_EUE\Satelite\0\d" // @
+"resia.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "0.00039999999" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "dresia", "Attach Results File No Job",  @
+"C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "C:\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/3167 (DESKTOP-3 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result load case: SC1:DEFAULT
+$# Processing result sub-case: Mode 1 : Freq. = 70.939
+$# Processing result sub-case: Mode 2 : Freq. = 87.87
+$# Processing result sub-case: Mode 3 : Freq. = 98.986
+$# Processing result sub-case: Mode 4 : Freq. = 121.09
+$# Processing result sub-case: Mode 5 : Freq. = 125.34
+$# Processing result sub-case: Mode 6 : Freq. = 137.37
+$# Processing result sub-case: Mode 7 : Freq. = 137.64
+$# Processing result sub-case: Mode 8 : Freq. = 138.49
+$# Processing result sub-case: Mode 9 : Freq. = 140.18
+$# Processing result sub-case: Mode 10 : Freq. = 140.53
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.016
+$# *** End:   Attach Result File ***
+ga_view_aa_set( -32.743942, 9.567128, -178.487610 )
+ga_view_aa_set( -31.743942, 9.567129, -178.487610 )
+ga_view_center_set( 0.086075, -0.001855 )
+ga_view_zoom_set( 0.584721 )
+ga_view_center_set( 0.162257, -0.003504 )
+ga_view_zoom_set( 0.519752 )
+ga_view_center_set( 0.326314, -0.007102 )
+ga_view_zoom_set( 0.378001 )
+ga_view_center_set( 0.374710, -0.007955 )
+ga_view_zoom_set( 0.336001 )
+ga_view_center_set( 0.417539, -0.008713 )
+ga_view_zoom_set( 0.298668 )
+ga_view_center_set( 0.455441, -0.009386 )
+ga_view_zoom_set( 0.265482 )
+ga_view_center_set( 0.474757, -0.014028 )
+ga_view_zoom_set( 0.235984 )
+ga_view_center_set( 0.505423, -0.021455 )
+ga_view_zoom_set( 0.188787 )
+ga_view_center_set( 0.519053, -0.024756 )
+ga_view_zoom_set( 0.167811 )
+ga_view_center_set( 0.506169, -0.021668 )
+ga_view_zoom_set( 0.188787 )
+ga_view_center_set( 0.477180, -0.014720 )
+ga_view_zoom_set( 0.235984 )
+ga_view_center_set( 0.422826, -0.001693 )
+ga_view_zoom_set( 0.324478 )
+ga_view_center_set( 0.373001, 0.009836 )
+ga_view_zoom_set( 0.405598 )
+ga_view_center_set( 0.342118, 0.016785 )
+ga_view_zoom_set( 0.456298 )
+ga_view_center_set( 0.292608, 0.015627 )
+ga_view_zoom_set( 0.513335 )
+ga_view_center_set( 0.236910, 0.014324 )
+ga_view_zoom_set( 0.577502 )
+ga_view_aa_set( -90.831757, 10.220683, 145.041061 )
+ga_view_aa_set( -120.974838, 8.629556, -109.893333 )
+ga_view_aa_set( -73.909187, 6.038090, -61.719898 )
+ga_view_center_set( 0.218344, 0.018233 )
+ga_view_zoom_set( 0.513335 )
+ga_view_center_set( 0.199525, 0.022286 )
+ga_view_zoom_set( 0.456298 )
+ga_view_center_set( 0.181252, 0.026404 )
+ga_view_zoom_set( 0.405598 )
+ga_view_center_set( 0.164095, 0.030521 )
+ga_view_zoom_set( 0.360532 )
+ga_view_center_set( 0.148437, 0.034588 )
+ga_view_zoom_set( 0.320473 )
+ga_view_center_set( 0.133977, 0.038384 )
+ga_view_zoom_set( 0.284865 )
+ga_view_center_set( 0.120642, 0.042079 )
+ga_view_zoom_set( 0.253213 )
+ga_view_center_set( 0.108359, 0.045650 )
+ga_view_zoom_set( 0.225078 )
+ga_view_aa_set( -19.570017, 1.089183, -66.555557 )
+ga_view_aa_set( -72.186882, -5.666105, -72.973434 )
+ga_view_center_set( 0.135209, 0.043793 )
+ga_view_zoom_set( 0.253213 )
+ga_view_center_set( 0.165414, 0.041704 )
+ga_view_zoom_set( 0.284865 )
+ga_view_center_set( 0.199396, 0.039355 )
+ga_view_zoom_set( 0.320473 )
+ga_view_center_set( 0.237625, 0.036711 )
+ga_view_zoom_set( 0.360532 )
+ga_view_center_set( 0.280632, 0.033737 )
+ga_view_zoom_set( 0.405598 )
+ga_view_center_set( 0.329016, 0.030392 )
+ga_view_zoom_set( 0.456298 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "Default",  @
+"A1:Mode 3 : Freq. = 98.986", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "Default",  @
+"A1:Mode 3 : Freq. = 98.986", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -7.111650, 11.570808, -65.874352 )
+ga_view_aa_set( -98.786583, -11.972241, -26.429255 )
+ga_view_aa_set( -81.354980, 27.157425, -124.532181 )
+ga_view_aa_set( -71.490425, -26.007521, -75.196632 )
+res_data_load_dbresult( 0, "Nodal", "Scalar", "Default",  @
+"A1:Mode 9 : Freq. = 140.18", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "MAG", "Default", "DeriveAverage", "All", "ShapeFunc" )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN "] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe", "RangeOverwrite:ON", "FringeStyle:Discrete/Smooth" @
+, "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", "Shrink:0",  @
+"TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
+"ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "Nodal", "Vector", "Default",  @
+"A1:Mode 9 : Freq. = 140.18", "Eigenvectors", "Translational", "(NON-LAYERED)" @
+, "", "Global", "", "", "" )
+res_data_title( 0, "Nodal", "Vector", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL"] )
+res_display_deformation_create( "", "Elements", 0, [""], 9, [ @
+"DeformedStyle:White,Solid,1,Wireframe", "DeformedScale:Model=0.1",  @
+"UndeformedStyle:ON,Blue,Solid,1,Wireframe", "TitleDisplay:ON",  @
+"MinMaxDisplay:ON", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3",  @
+"DeformDisplay:Resultant", "DeformComps:OFF,OFF,OFF"] )
+res_display_deformation_post( "", 0 )
+ga_view_aa_set( -81.663048, -4.523160, -74.487022 )
+ga_view_aa_set( -47.757385, 4.044757, -36.991283 )
+uil_primary_file.db_save(  )

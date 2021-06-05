@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on June      05, 2021 at 11:45:14 by
+$ MSC.Nastran input file created on June      05, 2021 at 12:06:41 by
 $ Patran 2020  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -8478,8 +8478,8 @@ CBAR     40058   11      40061   40062   0.      -1.     0.
 CBAR     40059   11      40062   30669   0.      -1.     0.
                          0.      0.      0.      0.      0.      0.
 $ Elements and Element Properties for region : composite_panel
-PSHELL*  12              6               9.1-4           6
-*                        99999994                        1.4400001
+PSHELL*  12              6               .00117          6
+*                        99999989                        1.4400001
 $ Pset: "composite_panel" will be imported as: "pshell.12"
 CQUAD4   110300  12      40000   91240   110375  40001   90.
 CQUAD4   110301  12      91240   91241   110376  110375  90.
@@ -10086,12 +10086,6 @@ MAT8*    2               1.4+11          1.05+10         .3
 *        7.1000003+9     7.1000003+9     7.1000003+9     1700.
 *        2.13-5          6.7599998-5     0.
 *
-$ Material Record : ply_symmetric91
-$ Description of Material :
-MAT2*    6               6.4532546+10    1.4400246+10    2.507308+9
-*        6.4532546+10    2.507306+9      1.832884+10     1699.9998
-*        2.538895-5      2.538895-5      -1.8376541-6    0.
-*        0.
 $ Material Record : SM_001_Carbon_fibre_tape
 $ Description of Material : Date: 30-Apr-21           Time: 20:51:04
 MAT8*    4               1.4+11          1.05+10         .3
@@ -10100,11 +10094,17 @@ $ Material Record : SM_001_ply_symmetric
 $ Description of Material :
 MAT1*    3               6.1319176+10    1.8328844+10    .2231471
 *        1700.0005       0.              0.              0.
-$ Material Record : ply_symmetric91
+$ Material Record : ply_symmetric117
 $ Description of Material :
-MAT2*    99999994        6.4532546+10    1.4400246+10
-*        6.4532546+10                                    1699.9998
-*        2.538895-5      2.538895-5      -1.8376541-6    0.
+MAT2*    6               6.4532546+10    1.4400247+10    2.5073085+9
+*        6.4532546+10    2.5073065+9     1.832884+10     1700.
+*        2.5388952-5     2.5388952-5     -1.8376552-6    0.
+*        0.
+$ Material Record : ply_symmetric117
+$ Description of Material :
+MAT2*    99999989        6.4532546+10    1.4400247+10
+*        6.4532546+10                                    1700.
+*        2.5388952-5     2.5388952-5     -1.8376552-6    0.
 *        0.
 $ Multipoint Constraints of the Entire Model
 RBE2*    1               41164           123             44439
@@ -17604,4 +17604,4 @@ $ Displacement Constraints of Load Set : CBUSH-D
 SPC1     1       123456  40234   40244   40254   40364   40394   40714
          40744   40754   40764   40774
 $ Referenced Coordinate Frames
-ENDDATA 835164fb
+ENDDATA 38e894ad
