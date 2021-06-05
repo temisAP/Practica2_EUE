@@ -13,41 +13,30 @@ SUBCASE 1
    SUBTITLE=QStatic_Z
    SPC = 2
    LOAD = 11
-$   DISPLACEMENT(SORT1,REAL)=ALL
-   SET 102 = 2001,2002,2003,2004,2011,2012,2013,2014,
-             2021,2022,2023,2024,2031,2032,2033,2034,
-             2041,2042,2043,2044,2051,2052,2053,2054
+ $ DISPLACEMENT(SORT1,REAL)=ALL
+   SET 102 = 40234,40244,40254,40364,40394,40714,40744,40754,40764,40774
    SPCFORCES(SORT1,PHASE)=ALL
    FORCES(SORT1,PHASE)=102
-   STRESS(SORT1,REAL,VONMISES,BILIN)=ALL
+   STRESS(PLOT,SORT1,REAL,VONMISES,BILIN)=ALL
 BEGIN BULK
 $ Direct Text Input for Bulk Data
 PARAM    POST    0
 PARAM   PRTMAXIM YES
-SPCADD   2       9       11      12      13      14      15
+SPCADD   2       1
 $ Loads for Load Case : QStatic_Z
-LOAD     11      9.81      1.       2      0.       3      0.       4
+LOAD     11      9.81      0.       2      0.       3      1.       4
 $------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
 $ Displacement Constraints of Load Set : Foot1
-SPC1     9       123456  190004
-$ Displacement Constraints of Load Set : Foot2
-SPC1     11      123456  190010
-$ Displacement Constraints of Load Set : Foot3
-SPC1     12      123456  190016
-$ Displacement Constraints of Load Set : Foot4
-SPC1     13      123456  190022
-$ Displacement Constraints of Load Set : Foot5
-SPC1     14      123456  190028
-$ Displacement Constraints of Load Set : Foot6
-SPC1     15      123456  190035
+SPC1     1       123456  40234   40244   40254   40364   40394   40714
+         40744   40754   40764   40774
 $------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
 $ Gravity Loading of Load Set : QStatic_69.3gOoP
-GRAV     2              68.4      0.      0.     1.
+GRAV     2               6.0      1.      0.     0.
 $ Gravity Loading of Load Set : QStatic_69.3gIP_0deg
-GRAV     3              68.4      1.      0.     0.
+GRAV     3               6.0      0.      1.     0.
 $ Gravity Loading of Load Set : QStatic_69.3gIP_90deg
-GRAV     4              68.4      0.      1.     0.
+GRAV     4              13.0      0.      0.     1.
 $------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
-INCLUDE 'MODEL_NAME.bdf'
+INCLUDE '../dresia.bdf'
 $
 ENDDATA 
