@@ -69,7 +69,7 @@ Análisis de la estructura del microsatélite:
 		Vigas: 	-> Numeración a partir de 40000
 		Equipos -> Numeración a partir de 60000
 
-		Paneles -> Numeración a partir de 70000 las curvas y 100 000 el mallado
+		Paneles -> Numeración a partir de 70000 las curvas y 110 000 el mallado
 	
 
 	Diseño optimo
