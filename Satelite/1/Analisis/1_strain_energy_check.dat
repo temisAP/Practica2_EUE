@@ -16,8 +16,8 @@ PARAM    POST    0
 PARAM   PRTMAXIM YES
 EIGRL    1                       10      0
 $------$$------$$------$$------$$------$$------$$------$$------$$------$$------$
-SUPORT   100004  123456
+SUPORT   40016   123456
 $
-INCLUDE 'MODEL_NAME.bdf'
+INCLUDE '../dresia.bdf'
 $
 ENDDATA
