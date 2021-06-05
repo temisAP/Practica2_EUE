@@ -19431,3 +19431,441 @@ $# The translation has completed successfully.
 $# Executing /bin/sh -c C:\Program 
 $# Files\MSC.Software\NaPa_SE\2020\Patran\bin\MscNa
 $# stranExecute.exe -j dresia -m bdf -x 2020 -c %%prog=edu%auth=edu%arch=64% -v
+$# Appending to existing journal file 
+$# D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db.jou 
+$# at 05-Jun-21 17:46:07
+$# Synchronizing the User Data Manager
+set_current_dir( "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\0" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+ga_view_aa_set( -49.744137, -3.026154, -7.022259 )
+ga_view_center_set( -0.035166, -0.107223 )
+ga_view_zoom_set( 0.449344 )
+ga_view_center_set( -0.023883, -0.116995 )
+ga_view_zoom_set( 0.399417 )
+ga_view_center_set( -0.014012, -0.125681 )
+ga_view_zoom_set( 0.355038 )
+ga_view_center_set( -0.005238, -0.133403 )
+ga_view_zoom_set( 0.315589 )
+ga_view_center_set( 0.002561, -0.140266 )
+ga_view_zoom_set( 0.280523 )
+ga_view_center_set( 0.008274, -0.147476 )
+ga_view_zoom_set( 0.249354 )
+ga_view_center_set( 0.012661, -0.154575 )
+ga_view_zoom_set( 0.221648 )
+ga_view_zoom_set( 0.199983 )
+ga_view_center_set( 0.030660, -0.226569 )
+ga_view_center_set( 0.033388, -0.229099 )
+ga_view_zoom_set( 0.177763 )
+ga_view_center_set( 0.035813, -0.231349 )
+ga_view_zoom_set( 0.158011 )
+ga_view_center_set( 0.037968, -0.233348 )
+ga_view_zoom_set( 0.140455 )
+ga_view_center_set( 0.039885, -0.235125 )
+ga_view_zoom_set( 0.124849 )
+ga_viewport_create( "satelite_completo", 0.1, 1.7, 7.6999998, 5.5 )
+ga_viewport_location_set( "satelite_completo", 0.303314, 0.613681, 1 )
+ga_viewport_location_set( "satelite_completo", 0.000000, 0.000000, 1 )
+ga_viewport_current_set( "default_viewport" )
+ga_viewport_location_set( "default_viewport", -0.007054, 0.014108, 1 )
+ga_viewport_location_set( "default_viewport", -1.812828, 0.141076, 1 )
+ga_viewport_location_set( "default_viewport", 0.000000, 0.000000, 1 )
+ga_viewport_current_set( "satelite_completo" )
+gm_plot_erase_geometry( 1 )
+gm_plot_erase_fem( 1 )
+gm_plot_erase_all( 1 )
+ga_view_center_set( 0.040666, -0.237578 )
+ga_view_zoom_set( 0.140455 )
+ga_view_center_set( 0.042082, -0.240190 )
+ga_view_zoom_set( 0.158011 )
+ga_view_center_set( 0.043950, -0.243130 )
+ga_view_zoom_set( 0.177763 )
+ga_view_center_set( 0.048957, -0.246931 )
+ga_view_zoom_set( 0.199983 )
+sys_poll_option( 2 )
+point_label( TRUE )
+curve_label( TRUE )
+surface_label( TRUE )
+trim_surface_label( TRUE )
+solid_label( TRUE )
+volume_label( TRUE )
+body_label( TRUE )
+plane_label( TRUE )
+vector_label( TRUE )
+node_label( TRUE )
+point_elem_label( TRUE )
+bar_elem_label( TRUE )
+tri_elem_label( TRUE )
+quad_elem_label( TRUE )
+tet_elem_label( TRUE )
+wedge_elem_label( TRUE )
+hex_elem_label( TRUE )
+mpc_label( TRUE )
+conn_label( TRUE )
+sys_poll_option( 0 )
+uil_viewport_post_groups.posted_groups( "satelite_completo", 10, ["BUSH",  @
+"Bandeja_A", "Bandeja_B", "Bandeja_C", "Bandeja_D", "Panel1", "Panel2",  @
+"Panel3", "Panel4", "Rigidizadores"] )
+ga_view_aa_set( -157.944489, -8.728838, -139.463104 )
+point_size( 1 )
+point_size( 9 )
+ga_view_aa_set( 87.023247, -10.649314, -107.472672 )
+sys_poll_option( 2 )
+point_label( FALSE )
+curve_label( FALSE )
+surface_label( FALSE )
+trim_surface_label( FALSE )
+solid_label( FALSE )
+volume_label( FALSE )
+body_label( FALSE )
+plane_label( FALSE )
+vector_label( FALSE )
+node_label( FALSE )
+point_elem_label( FALSE )
+bar_elem_label( FALSE )
+tri_elem_label( FALSE )
+quad_elem_label( FALSE )
+tet_elem_label( FALSE )
+wedge_elem_label( FALSE )
+hex_elem_label( FALSE )
+mpc_label( FALSE )
+conn_label( FALSE )
+sys_poll_option( 0 )
+ga_view_aa_set( -134.357758, -68.443474, 132.805481 )
+ga_view_center_set( -0.022506, 0.029502 )
+ga_view_zoom_set( 0.643256 )
+ga_view_center_set( -0.072690, 0.099530 )
+ga_view_zoom_set( 0.804070 )
+ga_view_center_set( -0.067621, 0.078620 )
+ga_view_zoom_set( 0.714729 )
+ga_view_center_set( -0.076136, 0.072335 )
+ga_view_zoom_set( 0.571783 )
+ga_view_center_set( -0.081003, 0.070803 )
+ga_view_zoom_set( 0.508252 )
+ga_view_center_set( -0.085649, 0.070082 )
+ga_view_zoom_set( 0.451779 )
+ga_view_aa_set( -49.954659, -4.054932, -6.860975 )
+ga_view_aa_set( -128.020416, 5.878702, 46.737862 )
+sys_poll_option( 2 )
+pref_fa_set( [FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE, FALSE,  @
+FALSE, FALSE, FALSE, FALSE], [6, 3, 1, 1, 5, 7, 2, 2, 8, 1, 2, 3, 3, 5, 2, 1,  @
+3, 6, 5, 5, 3, 2, 2, 2, 2, 2, 6, 6, 6, 9, 9, 3, 5, 5, 5, 1, 3, 3, 15, 13], [ @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE], [3, 4, 5, 6, 1, 1, 7, 8, 9, 10], [TRUE, TRUE, TRUE, TRUE, TRUE, TRUE,  @
+TRUE, TRUE, TRUE, TRUE], FALSE )
+display_fa_vectors( TRUE )
+result_label_format_set( 1, 4 )
+gm_elem_prop_init_list(  )
+ga_display_offsets_set( "general", 1 )
+ga_display_beam_set( "general", 6 )
+sys_poll_option( 0 )
+ga_view_center_set( 0.002536, -0.008432 )
+ga_view_zoom_set( 0.722062 )
+ga_view_center_set( 0.000305, 0.001499 )
+ga_view_zoom_set( 0.641833 )
+ga_view_center_set( -0.001679, 0.010326 )
+ga_view_zoom_set( 0.570518 )
+ga_view_center_set( -0.003442, 0.018173 )
+ga_view_zoom_set( 0.507127 )
+ga_view_center_set( -0.005010, 0.025148 )
+ga_view_zoom_set( 0.450780 )
+ga_view_center_set( -0.006403, 0.031348 )
+ga_view_zoom_set( 0.400693 )
+ga_view_aa_set( -77.308784, -0.575704, 65.813911 )
+ga_view_aa_set( -79.214493, 1.991046, 57.538315 )
+uil_viewport_post_groups.posted_groups( "satelite_completo", 9, ["BUSH",  @
+"Bandeja_A", "Bandeja_B", "Bandeja_C", "Bandeja_D", "Panel1", "Panel2",  @
+"Panel3", "Rigidizadores"] )
+ga_view_aa_set( -84.209572, 9.787041, -103.463356 )
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "D:\0_Andres\1_Universidad\MUSE\EUE\Practic" // @
+"a2_EUE\Satelite\0\dresia.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "D:\0_Andres\1_Universidad\MUSE\EUE\Pra" // @
+"ctica2_EUE\Satelite\1\Resultados\Estatico\2_quasistatic_x.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "0.00039999999" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\1\Resultados\Es" // @
+"tatico\2_quasistatic_x.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\1\Resultados\Est
+$# atico\2_quasistatic_x.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/3214 (TEMIS)    OPSYS:WINDOWS 10 PRO 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result sub-case: Static Subcase
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.062
+$# *** End:   Attach Result File ***
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "D:\0_Andres\1_Universidad\MUSE\EUE\Practic" // @
+"a2_EUE\Satelite\0\dresia.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "D:\0_Andres\1_Universidad\MUSE\EUE\Pra" // @
+"ctica2_EUE\Satelite\1\Resultados\Estatico\2_quasistatic_y.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "0.00039999999" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\1\Resultados\Es" // @
+"tatico\2_quasistatic_y.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\1\Resultados\Est
+$# atico\2_quasistatic_y.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/3188 (TEMIS)    OPSYS:WINDOWS 10 PRO 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result sub-case: Static Subcase
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.016
+$# *** End:   Attach Result File ***
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "D:\0_Andres\1_Universidad\MUSE\EUE\Practic" // @
+"a2_EUE\Satelite\0\dresia.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "D:\0_Andres\1_Universidad\MUSE\EUE\Pra" // @
+"ctica2_EUE\Satelite\1\Resultados\Estatico\2_quasistatic_z.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "0.00039999999" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\1\Resultados\Es" // @
+"tatico\2_quasistatic_z.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\1\Resultados\Est
+$# atico\2_quasistatic_z.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/3180 (TEMIS)    OPSYS:WINDOWS 10 PRO 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result sub-case: Static Subcase
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.047
+$# *** End:   Attach Result File ***
+res_data_load_dbresult( 0, "Nodal", "Scalar", "SC1:QSTATIC_X",  @
+"A1:Static Subcase", "Bar Stresses", "Maximum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "All", "ShapeFunc", "", 0. )
+res_data_title( 0, "Nodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe2", "RangeOverwrite:ON",  @
+"FringeStyle:Discrete/Smooth", "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", @
+ "Shrink:0", "TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF",  @
+"Filter:None", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "Nodal", TRUE, TRUE )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_X",  @
+"A1:Static Subcase", "Bar Stresses", "Maximum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe2", "RangeOverwrite:ON",  @
+"FringeStyle:Discrete/Smooth", "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", @
+ "Shrink:0", "TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF",  @
+"Filter:None", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+ga_view_center_set( -0.043184, 0.065412 )
+ga_view_zoom_set( 0.450780 )
+ga_view_aa_set( -78.321220, -0.625791, -79.043167 )
+ga_view_aa_set( -53.161064, -5.473270, -96.373756 )
+ga_view_aa_set( -35.795372, 31.674116, -106.408943 )
+ga_view_center_set( -0.030802, 0.086180 )
+ga_view_zoom_set( 0.507127 )
+ga_view_center_set( -0.002942, 0.132908 )
+ga_view_zoom_set( 0.633909 )
+ga_view_center_set( -0.018420, 0.106948 )
+ga_view_zoom_set( 0.563475 )
+ga_view_center_set( -0.032178, 0.083873 )
+ga_view_zoom_set( 0.500867 )
+ga_view_center_set( -0.044407, 0.063361 )
+ga_view_zoom_set( 0.445215 )
+ga_view_center_set( -0.055278, 0.045129 )
+ga_view_zoom_set( 0.395746 )
+ga_view_center_set( -0.063962, 0.029534 )
+ga_view_zoom_set( 0.351775 )
+ga_view_center_set( -0.067550, 0.001320 )
+ga_view_zoom_set( 0.234516 )
+ga_view_center_set( -0.068275, -0.004877 )
+ga_view_zoom_set( 0.208459 )
+ga_view_center_set( -0.068919, -0.010515 )
+ga_view_zoom_set( 0.185297 )
+ga_view_center_set( -0.069492, -0.015526 )
+ga_view_zoom_set( 0.164708 )
+ga_view_center_set( -0.070408, -0.023544 )
+ga_view_zoom_set( 0.131767 )
+ga_view_center_set( -0.070815, -0.027107 )
+ga_view_zoom_set( 0.117126 )
+ga_view_center_set( -0.074464, -0.036849 )
+ga_view_zoom_set( 0.093701 )
+ga_view_center_set( -0.077748, -0.044799 )
+ga_view_zoom_set( 0.074961 )
+ga_view_aa_set( -35.795372, 31.674116, -106.408943 )
+ga_view_center_set( -0.074960, -0.040172 )
+ga_view_zoom_set( 0.084331 )
+ga_view_center_set( -0.071822, -0.034968 )
+ga_view_zoom_set( 0.094872 )
+ga_view_center_set( -0.068292, -0.029112 )
+ga_view_zoom_set( 0.106731 )
+ga_view_center_set( -0.060351, -0.015938 )
+ga_view_zoom_set( 0.133414 )
+ga_view_center_set( -0.055387, -0.007704 )
+ga_view_zoom_set( 0.150090 )
+ga_view_center_set( -0.040775, 0.009779 )
+ga_view_zoom_set( 0.187613 )
+ga_view_center_set( -0.013376, 0.042559 )
+ga_view_zoom_set( 0.257968 )
+ga_view_center_set( -0.016516, 0.060902 )
+ga_view_zoom_set( 0.290214 )
+ga_view_center_set( -0.023579, 0.102174 )
+ga_view_zoom_set( 0.362768 )
+ga_view_center_set( -0.027994, 0.127968 )
+ga_view_zoom_set( 0.408113 )
+ga_view_zoom_set( 0.472731 )
+ga_view_center_set( 0.057098, -0.160398 )
+ga_view_aa_set( -112.591423, 8.036585, -16.837175 )
+ga_view_aa_set( -79.471031, -35.936050, -137.950607 )
+ga_view_aa_set( -67.812225, 9.540261, -18.196188 )
+ga_view_aa_set( -61.279701, -2.193078, -41.490185 )
+ga_viewport_current_set( "default_viewport" )
+ga_viewport_current_set( "satelite_completo" )
+uil_viewport_post_groups.posted_groups( "satelite_completo", 1, ["BUSH"] )
+$# Warning reported from application Results
+$#     There are no results available for the targeted entities.
+ga_view_aa_set( -64.861526, -2.801197, -24.472040 )
+uil_viewport_post_groups.posted_groups( "satelite_completo", 9, ["BUSH",  @
+"Bandeja_A", "Bandeja_B", "Bandeja_C", "Bandeja_D", "Panel1", "Panel2",  @
+"Panel3", "Rigidizadores"] )
+ga_view_aa_set( -80.992256, -18.252216, -83.735474 )
+res_data_load_dbresult( 0, "ENodal", "Scalar", "SC1:QSTATIC_X",  @
+"A1:Static Subcase", "Bar Stresses", "Maximum Combined", "At Center", "",  @
+"AsIs", "DeriveAverage", "Element", "Centroid", "", 0. )
+res_data_title( 0, "ENodal", "Scalar", 1, [ @
+"$POFF@@@$PT: @@@$LCN, @@@$SCN, @@@$PRN, @@@$SRN, @@@$DRVL, @@@$LN"] )
+res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
+"Range:Fri_default_Fringe2", "RangeOverwrite:ON",  @
+"FringeStyle:Discrete/Smooth", "Shade:None", "ElemEdge:FreeEdge,Blue,Solid,1", @
+ "Shrink:0", "TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF",  @
+"Filter:None", "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
+res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+ga_view_center_set( -0.039724, 0.042861 )
+ga_view_zoom_set( 0.640277 )
+ga_view_center_set( -0.083359, 0.088388 )
+ga_view_zoom_set( 0.720312 )
+ga_view_center_set( -0.050855, 0.062452 )
+ga_view_zoom_set( 0.640277 )
+ga_view_center_set( -0.023942, 0.041575 )
+ga_view_zoom_set( 0.569135 )
+ga_view_center_set( 0.016903, 0.009754 )
+ga_view_zoom_set( 0.455308 )
+ga_view_center_set( 0.034493, -0.004389 )
+ga_view_zoom_set( 0.404718 )
+ga_view_center_set( 0.059261, -0.027918 )
+ga_view_zoom_set( 0.323775 )
+ga_view_center_set( 0.056559, -0.006359 )
+ga_view_zoom_set( 0.364247 )
+ga_view_center_set( 0.053519, 0.017894 )
+ga_view_zoom_set( 0.409777 )
+ga_view_center_set( 0.050100, 0.045180 )
+ga_view_zoom_set( 0.461000 )
+ga_view_aa_set( -71.555122, 0.228564, -23.455145 )
+ga_view_aa_set( -111.191284, 39.091965, 161.191589 )
+ga_view_aa_set( -93.359734, 9.930120, -68.410294 )
+ga_view_aa_set( -81.540710, 5.909947, -137.050201 )
+ga_view_center_set( 0.051542, 0.055519 )
+ga_view_zoom_set( 0.518625 )
+ga_view_center_set( 0.053165, 0.068051 )
+ga_view_zoom_set( 0.583453 )
+ga_view_center_set( 0.054991, 0.082151 )
+ga_view_zoom_set( 0.656384 )
+ga_view_center_set( 0.053165, 0.068051 )
+ga_view_zoom_set( 0.583453 )
+ga_view_center_set( 0.049919, 0.055879 )
+ga_view_zoom_set( 0.518625 )
+ga_view_center_set( 0.044629, 0.046021 )
+ga_view_zoom_set( 0.461000 )
+ga_view_center_set( 0.038218, 0.037828 )
+ga_view_zoom_set( 0.409777 )
+ga_viewport_current_set( "default_viewport" )
+sys_poll_option( 2 )
+point_label( TRUE )
+curve_label( TRUE )
+surface_label( TRUE )
+trim_surface_label( TRUE )
+solid_label( TRUE )
+volume_label( TRUE )
+body_label( TRUE )
+plane_label( TRUE )
+vector_label( TRUE )
+node_label( TRUE )
+point_elem_label( TRUE )
+bar_elem_label( TRUE )
+tri_elem_label( TRUE )
+quad_elem_label( TRUE )
+tet_elem_label( TRUE )
+wedge_elem_label( TRUE )
+hex_elem_label( TRUE )
+mpc_label( TRUE )
+conn_label( TRUE )
+sys_poll_option( 0 )
+ga_view_center_set( 0.046396, -0.229286 )
+ga_view_zoom_set( 0.140455 )
+ga_view_center_set( 0.053673, -0.222718 )
+ga_view_zoom_set( 0.158011 )
+$# Warning reported from application Results
+$#     Detaching from the selected Direct Results Access file(s). This 
+$# operation cannot be undone. Please reattach file(s) if this was not the 
+$# desired action!
+$# Detach external results file:  
+$# D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\
+$# Satelite\1\Resultados\Estatico\2_quasistatic_x.xdb
+res_dra_detach_file( 1, 130, 436 )
+$# Detach external results file:  
+$# D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\
+$# Satelite\1\Resultados\Estatico\2_quasistatic_y.xdb
+res_dra_detach_file( 2, 130, 437 )
+$# Detach external results file:  
+$# D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\
+$# Satelite\1\Resultados\Estatico\2_quasistatic_z.xdb
+res_dra_detach_file( 3, 130, 438 )
+ga_viewport_unpost( "satelite_completo" )
+uil_primary_file.db_save(  )
+$# Reclaimed 0.99 MB of 4.12 MB.
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 05-Jun-21 18:12:04
