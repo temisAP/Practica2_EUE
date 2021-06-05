@@ -1,4 +1,4 @@
-$ MSC.Nastran input file created on June      05, 2021 at 11:18:49 by
+$ MSC.Nastran input file created on June      05, 2021 at 11:45:14 by
 $ Patran 2020  (Student Edition)
 $ Direct Text Input for Nastran System Cell Section
 $ Direct Text Input for File Management Section
@@ -10107,8 +10107,8 @@ MAT2*    99999994        6.4532546+10    1.4400246+10
 *        2.538895-5      2.538895-5      -1.8376541-6    0.
 *        0.
 $ Multipoint Constraints of the Entire Model
-RBE2*    1               41164           123             43256
-*        43438           46623           46805          1.200000042445-5
+RBE2*    1               41164           123             44439
+*        44530           45531           45622          1.200000042445-5
 RBE2*    5               60000           123             10128
 *        10152           10417           10435          1.200000042445-5
 RBE2*    6               60001           123             20128
@@ -17604,4 +17604,4 @@ $ Displacement Constraints of Load Set : CBUSH-D
 SPC1     1       123456  40234   40244   40254   40364   40394   40714
          40744   40754   40764   40774
 $ Referenced Coordinate Frames
-ENDDATA 3347502b
+ENDDATA 835164fb
