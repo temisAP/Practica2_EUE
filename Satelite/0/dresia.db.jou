@@ -18723,3 +18723,56 @@ res_display_deformation_post( "", 0 )
 ga_view_aa_set( -81.663048, -4.523160, -74.487022 )
 ga_view_aa_set( -47.757385, 4.044757, -36.991283 )
 uil_primary_file.db_save(  )
+REAL mass_prop_mass_props_array(VIRTUAL)
+STRING mass_prop_entity_list[VIRTUAL]
+STRING mass_prop_reject_list[VIRTUAL]
+mass_prop.cleanup_detailed( mass_prop_mass_props_array, mass_prop_entity_list, @
+ mass_prop_reject_list )
+INTEGER mass_prop_noutputs
+STRING mass_prop_gnames_out[32](VIRTUAL)
+INTEGER mass_prop_entities(VIRTUAL)
+INTEGER mass_prop_entity_types(VIRTUAL)
+INTEGER mass_prop_len_elist
+INTEGER mass_prop_num_ents
+INTEGER mass_prop_len_rlist
+INTEGER mass_prop_num_rejects
+INTEGER mass_prop_segment_id
+INTEGER mass_prop_cord_label
+INTEGER mass_prop_user_cord_label
+mass_prop_create_detailed( "3D", "Group", "FEM", "Summary", 9, ["Bandeja_A",  @
+"Bandeja_B", "Bandeja_C", "Bandeja_D", "Panel1", "Panel2", "Panel3", "Panel4", @
+ "Rigidizadores"], "", "Coord 0", "Use Element Properties",  @
+"Use Element Properties", "Coord 0", 3, 1, FALSE, FALSE, mass_prop_noutputs,  @
+mass_prop_gnames_out, mass_prop_entities, mass_prop_entity_types,  @
+mass_prop_mass_props_array, mass_prop_entity_list, mass_prop_len_elist,  @
+mass_prop_num_ents, mass_prop_reject_list, mass_prop_len_rlist,  @
+mass_prop_num_rejects, mass_prop_segment_id, mass_prop_cord_label,  @
+mass_prop_user_cord_label )
+$# Warning reported from application MASP
+$#     Some of the referenced element properties define an offset.  All 
+$# offsets are ignored in the calculation of mass properties. This can cause 
+$# the results to change substantially.
+$# Warning reported from application MASP
+$#     Some of the specified entities were excluded from the mass property 
+$# calculations because they have no material assigned to them in their 
+$# element property records.
+$# Warning reported from application MASP
+$#     Some of the specified entities were excluded from the mass property 
+$# calculations because some of their needed element properties are not found 
+$# or represented using data types that are supported by the Mass Properties.
+$# Warning reported from application MASP
+$#     The specified entities that were excluded because of the indicated 
+$# warning conditions are:
+ga_view_aa_set( -69.489059, 4.244051, -123.465858 )
+ga_view_center_set( 0.289640, 0.020548 )
+ga_view_zoom_set( 0.513335 )
+mesh_seed_display_mgr.erase(  )
+mesh_seed_display_mgr.erase(  )
+pointelem_marker( FALSE )
+pointelem_marker( TRUE )
+uil_toolbar.labels_on(  )
+ga_view_center_set( 0.280085, 0.027207 )
+ga_view_zoom_set( 0.456298 )
+ga_view_center_set( 0.270048, 0.028236 )
+ga_view_zoom_set( 0.405598 )
+ga_view_aa_set( -127.017296, -12.251434, -109.705093 )

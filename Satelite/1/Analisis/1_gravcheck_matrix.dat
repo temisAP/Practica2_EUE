@@ -16,19 +16,11 @@ $ Direct Text Input for Bulk Data
 PARAM    POST    0
 PARAM   PRTMAXIM YES
 $ Loads for Load Case : Gravity_Check
-SPCADD   2       1       3       4
+SPCADD   2       1
 LOAD     2       1.      1.      1      1.       3      1.       4
-$ Displacement Constraints of Load Set : Foot1
-$------$$------$$------$$------$$------$$------$$------$$------$$------$
-SPC1     1       12345   100004  100010
-$------$$------$$------$$------$$------$$------$$------$$------$$------$
-$ Displacement Constraints of Load Set : Foot2
-$------$$------$$------$$------$$------$$------$$------$$------$$------$
-SPC1     3       12345   100016  100022   
-$------$$------$$------$$------$$------$$------$$------$$------$$------$
-$ Displacement Constraints of Load Set : Foot3
-$------$$------$$------$$------$$------$$------$$------$$------$$------$
-SPC1     4       12345   100028  100035
+$ Displacement Constraints of Load Set : CBUSH-D
+SPC1     1       123456  40234   40244   40254   40364   40394   40714
+         40744   40754   40764   40774
 $------$$------$$------$$------$$------$$------$$------$$------$$------$
 $ Gravity Loading of Load Set : GravCheckX
 GRAV     1              1.      1.       0.      0.
@@ -37,6 +29,6 @@ GRAV     4              1.       0.     1.       0.
 $ Gravity Loading of Load Set : GravCheckZ
 GRAV     3              1.       0.      0.     1.
 $
-INCLUDE 'MODEL_NAME.bdf'
+INCLUDE '../dresia.bdf'
 $
 ENDDATA

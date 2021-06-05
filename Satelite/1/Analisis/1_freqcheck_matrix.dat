@@ -9,7 +9,7 @@ SUBCASE 1
 $ Subcase name : Freq_Rigid_Check
    SUBTITLE=Freq_Rigid_Check
    METHOD = 1
-   VECTOR(SORT1,REAL)=ALL
+   VECTOR(PLOT,SORT1,REAL)=ALL
 BEGIN BULK
 $ Direct Text Input for Bulk Data
 PARAM    POST    0
@@ -17,6 +17,6 @@ PARAM   PRTMAXIM YES
 EIGRL    1                        7      0
 $ Loads for Load Case : Freq_Rigid_Check
 $
-INCLUDE 'MODEL_NAME.bdf'
+INCLUDE '../dresia.bdf'
 $
 ENDDATA

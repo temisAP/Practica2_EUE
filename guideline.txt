@@ -97,4 +97,11 @@ Análisis de la estructura del microsatélite:
 			Análisis estático
 			Vibraciones sinusoidales
 			Vibraciones aleatorias
+
+Condiciones de carga para pegar en los cabeceros
+$ Loads for Load Case : Default
+SPCADD   2       1
+$ Displacement Constraints of Load Set : CBUSH-D
+SPC1     1       123456  40234   40244   40254   40364   40394   40714
+         40744   40754   40764   40774
 	
