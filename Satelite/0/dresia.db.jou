@@ -33724,3 +33724,275 @@ $# uil_app_analysis.load_aom_data ]. The template function [ 4_load_aom_data.
 $# ] does not exist.
 $? NO 20039 
 $# Journal file stopped recording at 06-Jun-21 17:31:01
+$# Appending to existing journal file 
+$# D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\0\dresia.db.jou 
+$# at 06-Jun-21 19:59:39
+$# Synchronizing the User Data Manager
+set_current_dir( "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\0" )
+$# The current working directory has been changed to the database location 
+$# shown.                                                                     
+$#                                                                            
+$#                                   
+msc_dra_init_stream(  )
+msc_dra_add_param( "DATABASE", "D:\0_Andres\1_Universidad\MUSE\EUE\Practic" // @
+"a2_EUE\Satelite\0\dresia.db" )
+msc_dra_add_param( "JOBNAME", "" )
+msc_dra_add_param( "RESULTS FILE", "D:\0_Andres\1_Universidad\MUSE\EUE\Pra" // @
+"ctica2_EUE\Satelite\1\Resultados\Seno\model_sine_x.xdb" )
+msc_dra_add_param( "OBJECT", "Result Entities" )
+msc_dra_add_param( "ANALYSIS TYPE", "Structural" )
+msc_dra_add_param( "DIVISION TOLERANCE", "1.0E-8" )
+msc_dra_add_param( "NUMERICAL TOLERANCE", "1.0E-4" )
+msc_dra_add_param( "MODEL TOLERANCE", "0.00039999999" )
+msc_dra_add_param( "ROTATIONAL NODAL RESULTS", "OFF" )
+msc_dra_add_param( "STRESS/STRAIN INVARIANTS", "OFF" )
+msc_dra_add_param( "PRINCIPAL DIRECTIONS", "OFF" )
+msc_dra_add_param( "ELEMENT RESULTS POSITIONS", "Nodal       " )
+msc_dra_add_param( "TITLE DESCRIPTION", "ON" )
+msc_dra_finish_stream(  )
+analysis_import( "MSC.Nastran", "", "Attach Results File No Job",  @
+"D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\1\Resultados\Se" // @
+"no\model_sine_x.xdb", TRUE )
+$# Attaching Direct Results Access file: 
+$# "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\1\Resultados\Sen
+$# o\model_sine_x.xdb"
+$# XDB file created by "MSC.NASTRAN V2020" on 6/5/2021 using "VENDOR:INTEL    
+$#             MODEL:XEON/2956 (DESKTOP-3 OPSYS:WINDOWS 10 HOME 6.2"
+$# *** Begin: Attach Result File ***
+$# Processing result sub-case: Freq.= 2.
+$# Processing result sub-case: Freq.= 3.
+$# Processing result sub-case: Freq.= 4.
+$# Processing result sub-case: Freq.= 5.
+$# Processing result sub-case: Freq.= 6.
+$# Processing result sub-case: Freq.= 7.
+$# Processing result sub-case: Freq.= 8.
+$# Processing result sub-case: Freq.= 9.
+$# Processing result sub-case: Freq.= 10.
+$# Processing result sub-case: Freq.= 11.
+$# Processing result sub-case: Freq.= 12.
+$# Processing result sub-case: Freq.= 13.
+$# Processing result sub-case: Freq.= 14.
+$# Processing result sub-case: Freq.= 15.
+$# Processing result sub-case: Freq.= 16.
+$# Processing result sub-case: Freq.= 17.
+$# Processing result sub-case: Freq.= 18.
+$# Processing result sub-case: Freq.= 19.
+$# Processing result sub-case: Freq.= 20.
+$# Processing result sub-case: Freq.= 21.
+$# Processing result sub-case: Freq.= 22.
+$# Processing result sub-case: Freq.= 23.
+$# Processing result sub-case: Freq.= 24.
+$# Processing result sub-case: Freq.= 25.
+$# Processing result sub-case: Freq.= 26.
+$# Processing result sub-case: Freq.= 27.
+$# Processing result sub-case: Freq.= 28.
+$# Processing result sub-case: Freq.= 29.
+$# Processing result sub-case: Freq.= 30.
+$# Processing result sub-case: Freq.= 31.
+$# Processing result sub-case: Freq.= 32.
+$# Processing result sub-case: Freq.= 33.
+$# Processing result sub-case: Freq.= 34.
+$# Processing result sub-case: Freq.= 35.
+$# Processing result sub-case: Freq.= 36.
+$# Processing result sub-case: Freq.= 37.
+$# Processing result sub-case: Freq.= 38.
+$# Processing result sub-case: Freq.= 39.
+$# Processing result sub-case: Freq.= 40.
+$# Processing result sub-case: Freq.= 41.
+$# Processing result sub-case: Freq.= 42.
+$# Processing result sub-case: Freq.= 43.
+$# Processing result sub-case: Freq.= 44.
+$# Processing result sub-case: Freq.= 45.
+$# Processing result sub-case: Freq.= 46.
+$# Processing result sub-case: Freq.= 47.
+$# Processing result sub-case: Freq.= 48.
+$# Processing result sub-case: Freq.= 49.
+$# Processing result sub-case: Freq.= 49.65711
+$# Processing result sub-case: Freq.= 50.
+$# Processing result sub-case: Freq.= 51.
+$# Processing result sub-case: Freq.= 52.
+$# Processing result sub-case: Freq.= 53.
+$# Processing result sub-case: Freq.= 54.
+$# Processing result sub-case: Freq.= 55.
+$# Processing result sub-case: Freq.= 56.
+$# Processing result sub-case: Freq.= 57.
+$# Processing result sub-case: Freq.= 58.
+$# Processing result sub-case: Freq.= 59.
+$# Processing result sub-case: Freq.= 60.
+$# Processing result sub-case: Freq.= 60.29792
+$# Processing result sub-case: Freq.= 61.
+$# Processing result sub-case: Freq.= 61.50883
+$# Processing result sub-case: Freq.= 62.
+$# Processing result sub-case: Freq.= 63.
+$# Processing result sub-case: Freq.= 64.
+$# Processing result sub-case: Freq.= 65.
+$# Processing result sub-case: Freq.= 66.
+$# Processing result sub-case: Freq.= 67.
+$# Processing result sub-case: Freq.= 68.
+$# Processing result sub-case: Freq.= 69.
+$# Processing result sub-case: Freq.= 69.29041
+$# Processing result sub-case: Freq.= 70.
+$# Processing result sub-case: Freq.= 70.93873
+$# Processing result sub-case: Freq.= 71.
+$# Processing result sub-case: Freq.= 72.
+$# Processing result sub-case: Freq.= 73.
+$# Processing result sub-case: Freq.= 74.
+$# Processing result sub-case: Freq.= 74.68929
+$# Processing result sub-case: Freq.= 75.
+$# Processing result sub-case: Freq.= 76.
+$# Processing result sub-case: Freq.= 77.
+$# Processing result sub-case: Freq.= 78.
+$# Processing result sub-case: Freq.= 79.
+$# Processing result sub-case: Freq.= 80.
+$# Processing result sub-case: Freq.= 81.
+$# Processing result sub-case: Freq.= 81.57954
+$# Processing result sub-case: Freq.= 82.
+$# Processing result sub-case: Freq.= 83.
+$# Processing result sub-case: Freq.= 84.
+$# Processing result sub-case: Freq.= 84.13834
+$# Processing result sub-case: Freq.= 84.76107
+$# Processing result sub-case: Freq.= 85.
+$# Processing result sub-case: Freq.= 86.
+$# Processing result sub-case: Freq.= 87.
+$# Processing result sub-case: Freq.= 87.7406
+$# Processing result sub-case: Freq.= 87.86975
+$# Processing result sub-case: Freq.= 88.
+$# Processing result sub-case: Freq.= 89.
+$# Processing result sub-case: Freq.= 90.
+$# Processing result sub-case: Freq.= 91.
+$# Processing result sub-case: Freq.= 92.
+$# Processing result sub-case: Freq.= 92.22034
+$# Processing result sub-case: Freq.= 93.
+$# Processing result sub-case: Freq.= 94.
+$# Processing result sub-case: Freq.= 95.
+$# Processing result sub-case: Freq.= 96.
+$# Processing result sub-case: Freq.= 96.16235
+$# Processing result sub-case: Freq.= 96.35071
+$# Processing result sub-case: Freq.= 96.94073
+$# Processing result sub-case: Freq.= 97.
+$# Processing result sub-case: Freq.= 98.
+$# Processing result sub-case: Freq.= 98.12731
+$# Processing result sub-case: Freq.= 98.36807
+$# Processing result sub-case: Freq.= 98.98629
+$# Processing result sub-case: Freq.= 99.
+$# Processing result sub-case: Freq.= 99.04327
+$# Processing result sub-case: Freq.= 99.86208
+$# Processing result sub-case: Freq.= 99.98966
+$# Processing result sub-case: Freq.= 100.
+$# Total execution time in real seconds:        0.000
+$# Total execution time in CPU  seconds:        0.094
+$# *** End:   Attach Result File ***
+$# Warning reported from application Results
+$#     Detaching from the selected Direct Results Access file(s). This 
+$# operation cannot be undone. Please reattach file(s) if this was not the 
+$# desired action!
+$# Detach external results file:  
+$# D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\
+$# Satelite\1\Resultados\Seno\model_sine_y.xdb
+res_dra_detach_file( 2, 130, 460 )
+$# Warning reported from application Results
+$#     Direct Results Access file time stamp changed!
+$#  Attempting to re-attach file with default settings: 
+$# "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\1\Resultados\Sen
+$# o\model_sine_y.xdb"
+$#  If postprocessing plots continue to fail, detach and re-attach file under 
+$# the Analysis form.
+$# Warning reported from application Results
+$#     Direct Results Access file time stamp changed!
+$#  Attempting to re-attach file with default settings: 
+$# "D:\0_Andres\1_Universidad\MUSE\EUE\Practica2_EUE\Satelite\1\Resultados\Sen
+$# o\model_sine_y.xdb"
+$#  If postprocessing plots continue to fail, detach and re-attach file under 
+$# the Analysis form.
+$# Sql error : code = -999 vector = []; DbAbort during get - data register. 
+$# Occurred in file db\results\new\DbGetAllDataRegisters.C at line 60
+$# Sql error : code = -999 vector = []; Problem in DataRegisterValidate 
+$# during unposting of tools related to deleted result(s). Occurred in file 
+$# db\results\resaccess\DbDeleteResCases.C at line 220
+$# ==> A serious error occurred during database access in the prior operation.
+$#     The prior operation is being undone.
+$#     Any data created during that operation will be lost.
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\graphics\vp\getcurvp.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during select - control_info 
+$# table. Occurred in file db\graphics\lut\gcrntlut.C at line 52
+$# Sql error : code = -999 vector = []; DbError during fetch - connector. 
+$# Occurred in file db\fem\conn\DbCountConnector.C at line 33
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\pref\fgancode.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during select on name - 
+$# analysis code table. Occurred in file db\pref\fgetacid.C at line 54
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\pref\fgancode.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during select on name - 
+$# analysis code table. Occurred in file db\pref\fgetacid.C at line 54
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# analysis code. Occurred in file db\pref\fgtmfsuf.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# analysis code. Occurred in file db\pref\fgtrfsuf.C at line 53
+uil_pref_analysis.set_analysis_preference( "No Analysis Codes",  @
+"No Analysis Types", "None", "None", "" )
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\pref\fgancode.C at line 53
+$# Error reported in application PREF by application Database
+$#     An unspecified database error occurred
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\graphics\vp\getcurvp.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during select - control_info 
+$# table. Occurred in file db\graphics\vp\setcurvp.C at line 73
+ga_viewport_current_set( "default_viewport" )
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\graphics\vp\getcurvp.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during select - control_info 
+$# table. Occurred in file db\graphics\vp\setcurvp.C at line 73
+ga_viewport_current_set( "default_viewport" )
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\graphics\vp\getcurvp.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during select - control_info 
+$# table. Occurred in file db\graphics\vp\setcurvp.C at line 73
+ga_viewport_current_set( "default_viewport" )
+$? NO 13000007 
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\pref\fgancode.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\pref\fgancode.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\pref\fgancode.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\pref\fgantype.C at line 58
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\pref\fgancode.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\pref\fgancode.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\pref\fgancode.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\pref\fgantype.C at line 58
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\pref\fgancode.C at line 53
+$# Acknowledgement requested from application PREF
+$#     Analysis Preference Developer error in [ 
+$# uil_app_analysis.load_aom_data ]. The template function [ h_load_aom_data. 
+$# ] does not exist.
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\graphics\vp\getcurvp.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during select - control_info 
+$# table. Occurred in file db\graphics\vp\setcurvp.C at line 73
+ga_viewport_current_set( "default_viewport" )
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\graphics\vp\getcurvp.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during select - control_info 
+$# table. Occurred in file db\graphics\vp\setcurvp.C at line 73
+ga_viewport_current_set( "default_viewport" )
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\graphics\vp\getcurvp.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during select - control_info 
+$# table. Occurred in file db\graphics\vp\setcurvp.C at line 73
+ga_viewport_current_set( "default_viewport" )
+$# Sql error : code = -999 vector = []; DbAbort during record select - 
+$# control_info table. Occurred in file db\graphics\vp\getcurvp.C at line 53
+$# Sql error : code = -999 vector = []; DbAbort during select - control_info 
+$# table. Occurred in file db\graphics\vp\setcurvp.C at line 73
+ga_viewport_current_set( "default_viewport" )
+$? NO 20039 
+$# Journal file stopped recording at 06-Jun-21 20:02:28
