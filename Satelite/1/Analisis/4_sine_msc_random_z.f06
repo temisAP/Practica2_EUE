@@ -26,8 +26,8 @@
                                               * *          AUG  4, 2020           * *
                                               * *                                 * *
                                               * *              Intel              * *
-                                              * *MODEL Xeon/2943 (DESKTOP-3VPGNSK * *
-                                              * *    Windows 10 Home 6.2 9200     * *
+                                              * *     MODEL Xeon/1300 (temis)     * *
+                                              * *     Windows 10 Pro 6.2 9200     * *
                                               * * Compiled for 8664 (SINGLE Mode) * *
                                               * *                                 * *
                                               * * * * * * * * * * * * * * * * * * * *
@@ -193,20 +193,20 @@
   
       http://www.mscsoftware.com/Contents/Services/Training/
   
-1                                                       **STUDENT EDITION*     JUNE   5, 2021  MSC Nastran  8/ 4/20   PAGE     1
+1                                                       **STUDENT EDITION*     JUNE   6, 2021  MSC Nastran  8/ 4/20   PAGE     1
                                                                                                                                     
 0        N A S T R A N    F I L E    A N D    S Y S T E M    P A R A M E T E R    E C H O                                           
 0                                                                                                                                   
                                                                                                                                     
                                                                                                                                     
-     NASTRAN BUFFSIZE=8193 $(C:/PROGRAM FILES/MSC.SOFTWARE/NAPA_SE/2020/NASTRAN/CONF/
+     NASTRAN BUFFSIZE=8193 $(D:/ARCHIVOS DE PROGRAMA/MSC.SOFTWARE/NAPA_SE/2020/NASTRA
      $ DIRECT TEXT INPUT FOR NASTRAN SYSTEM CELL SECTION                             
      NASTRAN SYSTEM(151)=1                                                           
      NASTRAN BUFFSIZE=65537                                                          
      NASTRAN DBCFACT=4                                                               
      $ DIRECT TEXT INPUT FOR FILE MANAGEMENT SECTION                                 
      ASSIGN DBC='model_sine_msc_random_z.xdb',RECL=32768,UNIT=40,DELETE              
-1                                                       **STUDENT EDITION*     JUNE   5, 2021  MSC Nastran  8/ 4/20   PAGE     2
+1                                                       **STUDENT EDITION*     JUNE   6, 2021  MSC Nastran  8/ 4/20   PAGE     2
                                                                                                                                     
 0        N A S T R A N    E X E C U T I V E    C O N T R O L    E C H O                                                             
 0                                                                                                                                   
@@ -216,7 +216,7 @@
      SOL 111                                                                                 
      TIME 1000                                                                               
      CEND                                                                                    
-1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   5, 2021  MSC Nastran  8/ 4/20   PAGE     3
+1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   6, 2021  MSC Nastran  8/ 4/20   PAGE     3
       MODEL SINE4RANDOM VIBRATION Z                                                                                                 
 0     Z-DIRECTION INPUT                                                                                                             
 0                                        C A S E    C O N T R O L    E C H O                                                        
@@ -243,7 +243,7 @@
                  19           $OUTPUT(XYPLOT)                                                                    
                  20           $XYPEAK,XYPUNCH,ACCE/ 859999(T1)                                                   
                  21      BEGIN BULK                                                                              
-1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   5, 2021  MSC Nastran  8/ 4/20   PAGE     4
+1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   6, 2021  MSC Nastran  8/ 4/20   PAGE     4
       MODEL SINE4RANDOM VIBRATION Z                                                                                                 
 0     Z-DIRECTION INPUT                                                                                                             
                                               I N P U T   B U L K   D A T A   E C H O                                               
@@ -260,7 +260,7 @@
      MAT1 with MID=3 near line 10071
      User information:  Material has unreasonable or inconsistent values of E, G or NU.
                               $END OF INCLUDE "../dresia.bdf"
-1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   5, 2021  MSC Nastran  8/ 4/20   PAGE     5
+1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   6, 2021  MSC Nastran  8/ 4/20   PAGE     5
       MODEL SINE4RANDOM VIBRATION Z                                                                                                 
 0     Z-DIRECTION INPUT                                                                                                             
                                         M O D E L   S U M M A R Y          BULK = 0
@@ -293,7 +293,7 @@
  ^^^     
  ^^^ >>> IFP OPERATIONS COMPLETE <<< 
  ^^^     
-1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   5, 2021  MSC Nastran  8/ 4/20   PAGE     6
+1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   6, 2021  MSC Nastran  8/ 4/20   PAGE     6
       MODEL SINE4RANDOM VIBRATION Z                                                                                                 
 0                                                                                                                                   
  *** USER INFORMATION MESSAGE 7310 (VECPRN)
@@ -318,43 +318,39 @@
      TRIAL EIGENVALUE = -2.182837D+03, CYCLES = 7.435853D+00 THE STURM COUNT = 0
  *** USER INFORMATION MESSAGE 5010 (LNCILS)
      STURM SEQUENCE DATA FOR EIGENVALUE EXTRACTION.
-     TRIAL EIGENVALUE = 7.875388D+06, CYCLES = 4.466385D+02 THE STURM COUNT = 123
+     TRIAL EIGENVALUE = 9.445621D+06, CYCLES = 4.891425D+02 THE STURM COUNT = 138
  *** USER INFORMATION MESSAGE 5010 (LNCILS)
      STURM SEQUENCE DATA FOR EIGENVALUE EXTRACTION.
-     TRIAL EIGENVALUE = 2.636070D+07, CYCLES = 8.171439D+02 THE STURM COUNT = 252
+     TRIAL EIGENVALUE = 2.905890D+07, CYCLES = 8.579455D+02 THE STURM COUNT = 268
  *** USER INFORMATION MESSAGE 5010 (LNCILS)
      STURM SEQUENCE DATA FOR EIGENVALUE EXTRACTION.
-     TRIAL EIGENVALUE = 1.821781D+07, CYCLES = 6.793104D+02 THE STURM COUNT = 204
+     TRIAL EIGENVALUE = 8.717669D+07, CYCLES = 1.486005D+03 THE STURM COUNT = 515
  *** USER INFORMATION MESSAGE 5010 (LNCILS)
      STURM SEQUENCE DATA FOR EIGENVALUE EXTRACTION.
-     TRIAL EIGENVALUE = 7.908209D+07, CYCLES = 1.415335D+03 THE STURM COUNT = 484
- *** USER INFORMATION MESSAGE 5010 (LNCILS)
-     STURM SEQUENCE DATA FOR EIGENVALUE EXTRACTION.
-     TRIAL EIGENVALUE = 4.421478D+07, CYCLES = 1.058288D+03 THE STURM COUNT = 338
+     TRIAL EIGENVALUE = 5.751794D+07, CYCLES = 1.207040D+03 THE STURM COUNT = 405
  *** USER INFORMATION MESSAGE 5010 (LNCILS)
      STURM SEQUENCE DATA FOR EIGENVALUE EXTRACTION.
      TRIAL EIGENVALUE = 1.740998D+08, CYCLES = 2.100000D+03 THE STURM COUNT = 908
  *** USER INFORMATION MESSAGE 5010 (LNCILS)
      STURM SEQUENCE DATA FOR EIGENVALUE EXTRACTION.
-     TRIAL EIGENVALUE = 1.273159D+08, CYCLES = 1.795814D+03 THE STURM COUNT = 633
+     TRIAL EIGENVALUE = 1.296214D+08, CYCLES = 1.812001D+03 THE STURM COUNT = 634
  *** USER INFORMATION MESSAGE 5010 (LNCILS)
      STURM SEQUENCE DATA FOR EIGENVALUE EXTRACTION.
-     TRIAL EIGENVALUE = 1.536514D+08, CYCLES = 1.972824D+03 THE STURM COUNT = 811
+     TRIAL EIGENVALUE = 1.534036D+08, CYCLES = 1.971233D+03 THE STURM COUNT = 800
 
  TABLE OF SHIFTS:  (LNNRIGL)
  SHIFT #        SHIFT VALUE         FREQUENCY, CYCLES     # EIGENVALUES BELOW    # NEW EIGENVALUES FOUND
      1.        1.7409982E+08          2.1000000E+03               908                        0
-     2.       -2.1828370E+03         -7.4358528E+00                 0                       56
-     3.        7.8753883E+06          4.4663846E+02               123                      123
-     4.        2.6360695E+07          8.1714394E+02               252                       44
-     5.        1.8217814E+07          6.7931040E+02               204                       49
-     6.        7.9082086E+07          1.4153348E+03               484                      111
-     7.        4.4214777E+07          1.0582880E+03               338                      163
-     8.        1.7409982E+08          2.1000000E+03               908                       53
-     9.        1.2731587E+08          1.7958142E+03               633                      145
-    10.        1.5365137E+08          1.9728240E+03               811                      164
+     2.       -2.1828370E+03         -7.4358528E+00                 0                       68
+     3.        9.4456214E+06          4.8914250E+02               138                      111
+     4.        2.9058895E+07          8.5794546E+02               268                      139
+     5.        8.7176685E+07          1.4860051E+03               515                       83
+     6.        5.7517941E+07          1.2070404E+03               405                      157
+     7.        1.7409982E+08          2.1000000E+03               908                       52
+     8.        1.2962137E+08          1.8120010E+03               634                      131
+     9.        1.5340363E+08          1.9712330E+03               800                      167
 
-1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   5, 2021  MSC Nastran  8/ 4/20   PAGE     7
+1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   6, 2021  MSC Nastran  8/ 4/20   PAGE     7
       MODEL SINE4RANDOM VIBRATION Z                                                                                                 
 0     Z-DIRECTION INPUT                                                                                                             
 0
@@ -366,13 +362,13 @@
 
                                      BLOCK SIZE USED ......................     7
 
-                                     NUMBER OF DECOMPOSITIONS .............    10
+                                     NUMBER OF DECOMPOSITIONS .............     9
 
                                      NUMBER OF ROOTS FOUND ................   908
 
-                                     NUMBER OF SOLVES REQUIRED ............   322
+                                     NUMBER OF SOLVES REQUIRED ............   299
 
-1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   5, 2021  MSC Nastran  8/ 4/20   PAGE     8
+1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   6, 2021  MSC Nastran  8/ 4/20   PAGE     8
       MODEL SINE4RANDOM VIBRATION Z                                                                                                 
 0     Z-DIRECTION INPUT                                                                                                             
  
@@ -1297,7 +1293,7 @@
      QL HOUSEHOLDER METHOD IS AUTOMATICALLY SELECTED .
  *** USER INFORMATION MESSAGE 5458 (REIG)
      QL HOUSEHOLDER METHOD IS AUTOMATICALLY SELECTED .
-1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   5, 2021  MSC Nastran  8/ 4/20   PAGE     9
+1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   6, 2021  MSC Nastran  8/ 4/20   PAGE     9
       MODEL SINE4RANDOM VIBRATION Z                                                                                                 
 0     Z-DIRECTION INPUT                                                                                                             
  
@@ -2223,7 +2219,7 @@
  *** USER WARNING MESSAGE 6644 (FRPROS)
     SOME OR ALL COMPUTED EXCITATION FREQUENCIES ARE OUTSIDE THE RANGE F1 AND F2 FOR FREQ4 BULK DATA ENTRY WITH ID =40
      THESE COMPUTED EXCITATION FREQUENCIES ARE IGNORED.
-1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   5, 2021  MSC Nastran  8/ 4/20   PAGE    10
+1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   6, 2021  MSC Nastran  8/ 4/20   PAGE    10
       MODEL SINE4RANDOM VIBRATION Z                                                                                                 
 0     Z-DIRECTION INPUT                                                                                                             
 
@@ -2298,3 +2294,12 @@
      THE H-SIZE OF THE PROBLEM IS SMALL. H-SIZE = 916
      USER INFORMATION: STANDARD FREQUENCY RESPONSE METHOD WILL BE USED
  ^^^     
+1    SINE VIBRATION Z                                   **STUDENT EDITION*     JUNE   6, 2021  MSC Nastran  8/ 4/20   PAGE    11
+      MODEL SINE4RANDOM VIBRATION Z                                                                                                 
+0     Z-DIRECTION INPUT                                                                                                             
+ *** USER INFORMATION MESSAGE 7559 (FRLGA)
+     THIS FREQUENCY RESPONSE ANALYSIS INVOLVES THE FOLLOWING TYPES OF EXCITATION --
+
+     * ENFORCED ACCELERATION USING SPC / SPCD DATA
+ *** USER INFORMATION MESSAGE 5222 (SQFREQ)
+     UN COUPLED SOLUTION ALGORITHM USED.
