@@ -22791,3 +22791,7 @@ res_display_fringe_create( "", "FreeFaces", 0, [""], 12, [ @
 "TitleDisplay:ON", "MinMaxDisplay:ON", "ValueDisplay:OFF", "Filter:None",  @
 "ScaleFactor:1.", "LabelStyle:Exponential, 12, White, 3"], TRUE )
 res_display_fringe_post( "", 0, "ENodal", TRUE, TRUE )
+uil_primary_file.db_save(  )
+$# Reclaimed 8.49 MB of 11.63 MB.
+$# Flushing the User Data Manager
+$# Journal file stopped recording at 06-Jun-21 02:35:56
