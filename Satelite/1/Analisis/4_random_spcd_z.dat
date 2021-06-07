@@ -19,7 +19,8 @@ LINE=50000
      RANDOM = 30
      FREQ     = 40 
      SET 99 = 859999
-     SET 102 = 40230,40240,40250,440360,40390,40710,40740,40750,40760,40770
+     SET 102 = 40230,40240,40250,40360,40390,40710,40740,40750,40760,
+     40770
 $     STRESS(SORT2,plot,phase,vonmises,rprint,crms)=all
      ACCELERATION(sort2,punch,real,psdf,rpunch) = 99
      FORCES(sort2,punch,real,psdf)=102
